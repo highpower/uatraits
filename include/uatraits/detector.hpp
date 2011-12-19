@@ -1,5 +1,5 @@
 // uatraits is a simple tool for user agent detection
-// Copyright (C) 2011 Oleg Obolenskiy <highpower@yandex-team.ru>
+// Copyright (C) 2011 Yandex <highpower@yandex-team.ru>
 
 // This program is free software; you can redistribute it and/or
 // modify it under the terms of the GNU General Public License
