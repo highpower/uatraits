@@ -1,0 +1,43 @@
+AC_INIT([uatraits], [0.1.1], [highpower@yandex-team.ru])
+AM_INIT_AUTOMAKE(1.9)
+
+AC_GNU_SOURCE
+AC_CONFIG_HEADERS(config/config.h)
+
+AC_PROG_CXX
+AC_PROG_CXXCPP
+AC_LANG([C++])
+AC_PROG_LIBTOOL
+AM_MAINTAINER_MODE
+
+CPPFLAGS="$CPPFLAGS -pthread"
+AX_PREFIX_CONFIG_H(config/acsetup.hpp)
+for i in -W -Wall -Wextra -Wlint -fexceptions -frtti -ftemplate-depth-128; do
+	AX_CHECK_COMPILER_FLAGS([$i], [CXXFLAGS="$CXXFLAGS $i"], [])
+done
+
+AM_PATH_XML2([2.6.29], [], [AC_MSG_FAILURE([libxml2 is not found])])
+
+ax_have_boost="yes"
+ax_have_boost_python="yes"
+ax_have_boost_unit_test="yes"
+AX_BOOST_PREFIX([], [ax_have_boost="no"])
+
+AX_CHECK_PCRE([], [AC_MSG_FAILURE([pcre installation is not found])])
+
+if test "f$ax_have_boost" == "fyes"; then
+	AM_PATH_PYTHON
+	AX_PYTHON_DEVEL
+	AX_BOOST_PYTHON([], [ax_have_boost_python="no"])
+	AX_BOOST_UNIT_TEST([], [ax_have_boost_unit_test="no"])
+else
+	AC_MSG_NOTICE([installed boost copy isn't found. skip compiling tests and python bindings])
+fi
+
+AM_CONDITIONAL(HAVE_PYTHON, [test "f$ax_have_boost_python" != "fno"])
+AM_CONDITIONAL(HAVE_BOOST_UNIT_TEST, [test "f$ax_have_boost_unit_test" != "fno"])
+
+AC_CONFIG_FILES([Makefile include/Makefile include/uatraits/Makefile
+	library/Makefile python/Makefile utils/Makefile data/Makefile tests/Makefile])
+
+AC_OUTPUT

@@ -1,0 +1,28 @@
+nobase_pkginclude_HEADERS = config.hpp \
+	 detector.hpp \
+	 error.hpp \
+	 forward.hpp \
+	 shared.hpp \
+	 shared_ptr.hpp \
+	 details/branch.hpp \
+	 details/char_traits.hpp \
+	 details/complex_definition.hpp \
+	 details/definition.hpp \
+	 details/detector_impl.hpp \
+	 details/functors.hpp \
+	 details/integer.hpp \
+	 details/iterator.hpp \
+	 details/macros.hpp \
+	 details/pcre_utils.hpp \
+	 details/range.hpp \
+	 details/regex_definition.hpp \
+	 details/resource.hpp \
+	 details/static_assert.hpp \
+	 details/static_definition.hpp \
+	 details/string_definition.hpp \
+	 details/string_match.hpp \
+	 details/string_utils.hpp \
+	 details/type_list.hpp \
+	 details/type_traits.hpp \
+	 details/xml_elems.hpp \
+	 details/xml_utils.hpp
