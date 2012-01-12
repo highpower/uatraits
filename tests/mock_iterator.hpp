@@ -15,8 +15,8 @@
 // along with this program; if not, write to the Free Software
 // Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 
-#ifndef NEXTWEB_TESTS_MOCK_ITERATOR_HPP_INCLUDED
-#define NEXTWEB_TESTS_MOCK_ITERATOR_HPP_INCLUDED
+#ifndef UATRAITS_TESTS_MOCK_ITERATOR_HPP_INCLUDED
+#define UATRAITS_TESTS_MOCK_ITERATOR_HPP_INCLUDED
 
 #include "uatraits/config.hpp"
 #include "uatraits/details/iterator.hpp"
@@ -86,4 +86,4 @@ mock_iterator<Iter>::distance(mock_iterator<Iter> const &other) const {
 
 }} // namespaces
 
-#endif // NEXTWEB_TESTS_MOCK_ITERATOR_HPP_INCLUDED
+#endif // UATRAITS_TESTS_MOCK_ITERATOR_HPP_INCLUDED
