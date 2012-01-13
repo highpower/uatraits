@@ -249,37 +249,37 @@ range<Iter>::range(Iter begin, Iter end) :
 }
 
 template <typename Iter, typename Other> inline bool
-operator < (range<Iter> const &range, range<Other> const &other) {
-	return (!range.empty() && !other.empty()) ? std::lexicographical_compare(range.begin(), range.end(), other.begin(), other.end()) : !other.empty();
+operator < (range<Iter> const &value, range<Other> const &other) {
+	return (!value.empty() && !other.empty()) ? std::lexicographical_compare(value.begin(), value.end(), other.begin(), other.end()) : !other.empty();
 }
 
 template <typename Iter, typename Other> inline bool
-operator > (range<Iter> const &range, range<Other> const &other) {
+operator > (range<Iter> const &value, range<Other> const &other) {
 	std::greater<typename std::iterator_traits<Iter>::value_type> pred;
-	return (!range.empty() && !other.empty()) ? std::lexicographical_compare(range.begin(), range.end(), other.begin(), other.end(), pred) : !range.empty();
+	return (!value.empty() && !other.empty()) ? std::lexicographical_compare(value.begin(), value.end(), other.begin(), other.end(), pred) : !value.empty();
 }
 
 template <typename Iter, typename Other> inline bool
-operator == (range<Iter> const &range, range<Other> const &other) {
-	if (range.size() == other.size()) {
-		return range.empty() ? true : std::equal(range.begin(), range.end(), other.begin());
+operator == (range<Iter> const &value, range<Other> const &other) {
+	if (value.size() == other.size()) {
+		return value.empty() ? true : std::equal(value.begin(), value.end(), other.begin());
 	}
 	return false;
 }
 
 template <typename Iter, typename Other> inline bool
-operator != (range<Iter> const &range, range<Other> const &other) {
-	return !operator == (range, other);
+operator != (range<Iter> const &value, range<Other> const &other) {
+	return !operator == (value, other);
 }
 
 template <typename Iter, typename Other> inline bool
-operator <= (range<Iter> const &range, range<Other> const &other) {
-	return !operator > (range, other);
+operator <= (range<Iter> const &value, range<Other> const &other) {
+	return !operator > (value, other);
 }
 
 template <typename Iter, typename Other> inline bool
-operator >= (range<Iter> const &range, range<Other> const &other) {
-	return !operator < (range, other);
+operator >= (range<Iter> const &value, range<Other> const &other) {
+	return !operator < (value, other);
 }
 
 template <typename Iter, typename Char, typename Traits> inline std::basic_ostream<Char, Traits>&
