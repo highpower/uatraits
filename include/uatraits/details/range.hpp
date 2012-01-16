@@ -18,6 +18,7 @@
 #ifndef UATRAITS_DETAILS_RANGE_HPP_INCLUDED
 #define UATRAITS_DETAILS_RANGE_HPP_INCLUDED
 
+#include <cstring>
 #include <cassert>
 #include <iterator>
 #include <iostream>

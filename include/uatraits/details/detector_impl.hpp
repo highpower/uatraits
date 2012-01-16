@@ -18,6 +18,8 @@
 #ifndef UATRAITS_DETAILS_DETECTOR_IMPL_HPP_INCLUDED
 #define UATRAITS_DETAILS_DETECTOR_IMPL_HPP_INCLUDED
 
+#include <cstring>
+
 #include "uatraits/error.hpp"
 #include "uatraits/config.hpp"
 #include "uatraits/shared.hpp"

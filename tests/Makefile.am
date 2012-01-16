@@ -1,9 +1,9 @@
 check_PROGRAMS = uatraits-tests
 
-noinst_HEADERS = mock_iterator.hpp mock_shared.hpp mock_template.hpp \
-	test_utils.hpp
+noinst_HEADERS = json_parser.hpp mock_iterator.hpp mock_shared.hpp \
+	mock_template.hpp test_utils.hpp
 
-uatraits_tests_SOURCES = main.cpp mock_shared.cpp \
+uatraits_tests_SOURCES = main.cpp json_parser.cpp mock_shared.cpp \
 	detector_test.cpp functors_test.cpp integer_test.cpp iterator_test.cpp \
 	range_test.cpp shared_ptr_test.cpp string_test.cpp \
 	static_assert_test.cpp type_list_test.cpp type_traits_test.cpp
