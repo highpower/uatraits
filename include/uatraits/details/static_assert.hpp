@@ -24,14 +24,14 @@
 namespace uatraits { namespace details {
 
 template <bool Cond>
-struct static_assert;
+struct uatraits_static_assert;
 
 template <>
-struct static_assert<true> {
+struct uatraits_static_assert<true> {
 };
 
 }} // namespaces
 
-#define UATRAITS_STATIC_ASSERT(x) typedef char UATRAITS_MAKE_UNIQUE_NAME(static_assertion)[sizeof(::uatraits::details::static_assert<(static_cast<bool>(x))>)]
+#define UATRAITS_STATIC_ASSERT(x) typedef char UATRAITS_MAKE_UNIQUE_NAME(uatraits_static_assertion)[sizeof(::uatraits::details::uatraits_static_assert<(x)>)]
 
 #endif // UATRAITS_DETAILS_STATIC_ASSERT_HPP_INCLUDED
