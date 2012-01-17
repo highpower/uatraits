@@ -15,46 +15,19 @@
 // along with this program; if not, write to the Free Software
 // Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 
-#ifndef UATRAITS_DETAILS_REGEX_TRAITS_HPP_INCLUDED
-#define UATRAITS_DETAILS_REGEX_TRAITS_HPP_INCLUDED
+#ifndef UATRAITS_DETAILS_PCRE_UTILS_HPP_INCLUDED
+#define UATRAITS_DETAILS_PCRE_UTILS_HPP_INCLUDED
 
 #include <pcre.h>
+#include <utility>
 
 #include "uatraits/config.hpp"
-#include "uatraits/details/range.hpp"
 
 namespace uatraits { namespace details {
 
-struct pcre_traits {
-	void destroy(pcre *value);
-	static pcre* default_value();
-};
-
-struct pcre_extra_traits {
-	void destroy(pcre_extra *extra);
-	static pcre_extra* default_value();
-};
-
-inline void
-pcre_traits::destroy(pcre *value) {
-	pcre_free(value);
-}
-
-inline pcre*
-pcre_traits::default_value() {
-	return static_cast<pcre*>(0);
-}
-
-inline void
-pcre_extra_traits::destroy(pcre_extra *extra) {
-	pcre_free_study(extra);
-}
-
-inline pcre_extra*
-pcre_extra_traits::default_value() {
-	return static_cast<pcre_extra*>(0);
-}
+void pcre_free_regex(std::pair<pcre*, pcre_extra*> const &p);
+std::pair<pcre*, pcre_extra*> pcre_compile_regex(char const *pattern);
 
 }} // namespaces
 
-#endif // UATRAITS_DETAILS_REGEX_TRAITS_HPP_INCLUDED
+#endif // UATRAITS_DETAILS_PCRE_UTILS_HPP_INCLUDED

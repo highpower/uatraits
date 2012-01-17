@@ -1,7 +1,7 @@
 lib_LTLIBRARIES = libuatraits.la
 
-libuatraits_la_SOURCES = detector.cpp error.cpp type_traits.cpp \
-	xml_utils.cpp
+libuatraits_la_SOURCES = detector.cpp error.cpp pcre_utils.cpp \
+	type_traits.cpp xml_utils.cpp
 
 AM_CXXFLAGS = -pthread
 AM_CPPFLAGS = -I${top_srcdir}/include -I${topc_srcdir}/config \

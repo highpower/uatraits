@@ -21,8 +21,6 @@
 #include <list>
 #include <algorithm>
 
-#include <pcre.h>
-
 #include "uatraits/config.hpp"
 #include "uatraits/shared.hpp"
 #include "uatraits/shared_ptr.hpp"
@@ -53,8 +51,8 @@ private:
 	branch& operator = (branch const &);
 
 	typedef shared_ptr<type> pointer;
-	typedef std::pair<pcre*, pcre_extra*> regex_data;
 	typedef shared_ptr<definition_type> definition_pointer;
+	typedef std::pair<pcre*, pcre_extra*> regex_data;
 
 private:
 	std::list<pointer> children_;
@@ -79,8 +77,7 @@ branch<Traits>::branch()
 template <typename Traits> inline 
 branch<Traits>::~branch() {
 	for (std::list<regex_data>::iterator i = regex_matches_.begin(), end = regex_matches_.end(); i != end; ++i) {
-		pcre_free_study(i->second);
-		pcre_free(i->first);
+		pcre_free_regex(*i);
 	}
 }
 
@@ -101,19 +98,7 @@ branch<Traits>::add_definition(shared_ptr<definition_type> const &value) {
 
 template <typename Traits> inline void
 branch<Traits>::add_regex_match(char const *pattern) {
-	int error_offset = 0;
-	char const *error_ptr = 0;
-	resource<pcre*, pcre_traits> regex(pcre_compile(pattern, 0, &error_ptr, &error_offset, 0));
-	if (!regex) {
-		throw error("%s at %d in %s", error_ptr, error_offset, pattern);
-	}
-	resource<pcre_extra*, pcre_extra_traits> extra(pcre_study(regex.get(), PCRE_STUDY_JIT_COMPILE, &error_ptr));
-	if (!extra) {
-		throw error("%s in %s", error_ptr, pattern);
-	}
-	regex_matches_.push_back(std::make_pair(regex.get(), extra.get()));
-	extra.release();
-	regex.release();
+	regex_matches_.push_back(pcre_compile_regex(pattern));
 }
 
 template <typename Traits> inline void
@@ -137,7 +122,7 @@ branch<Traits>::matched(char const *begin, char const *end) const {
 	}
 	for (std::list<regex_data>::const_iterator i = regex_matches_.begin(), list_end = regex_matches_.end(); i != list_end; ++i) {
 		if (0 == pcre_exec(i->first, i->second, begin, end - begin, 0, 0, 0, 0)) {
-			return true;
+		 	return true;
 		}
 	}
 	return false;
