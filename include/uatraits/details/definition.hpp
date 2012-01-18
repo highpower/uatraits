@@ -20,9 +20,11 @@
 
 #include <list>
 #include <string>
+#include <iosfwd>
 
 #include "uatraits/config.hpp"
 #include "uatraits/shared.hpp"
+#include "uatraits/details/range.hpp"
 
 namespace uatraits { namespace details {
 
@@ -30,23 +32,27 @@ template <typename Traits>
 class definition : public shared {
 
 public:
-	definition(char const *name);
+	definition(char const *name, char const *xpath);
 	virtual ~definition();
 
 	std::string const& name() const;
-	virtual void process(char const *begin, char const *end, Traits &traits) const = 0;
+	std::string const& xpath() const;
+
+	virtual void dump(std::ostream &out) const = 0;
+	virtual bool detect(char const *begin, char const *end, Traits &traits) const = 0;
+	virtual bool checked_detect(char const *begin, char const *end, Traits &traits, std::ostream &out) const;
 
 private:
 	definition(definition const &);
 	definition& operator = (definition const &);
 	
 private:
-	std::string name_;
+	std::string name_, xpath_;
 }; 
 
 template <typename Traits> inline
-definition<Traits>::definition(char const *name) :
-	name_(name)
+definition<Traits>::definition(char const *name, char const *xpath) :
+	name_(name), xpath_(xpath)
 {
 }
 
@@ -57,6 +63,20 @@ definition<Traits>::~definition() {
 template <typename Traits> inline std::string const&
 definition<Traits>::name() const {
 	return name_;
+}
+
+template <typename Traits> inline std::string const&
+definition<Traits>::xpath() const {
+	return xpath_;
+}
+
+template <typename Traits> inline bool
+definition<Traits>::checked_detect(char const *begin, char const *end, Traits &traits, std::ostream &out) const {
+	if (detect(begin, end, traits)) {
+		dump(out);
+		return true;
+	}
+	return false;
 }
 
 }} // namespaces

@@ -19,6 +19,7 @@
 #define UATRAITS_DETAILS_REGEX_DEFINITION_HPP_INCLUDED
 
 #include <cstdlib>
+#include <iostream>
 
 #include "uatraits/config.hpp"
 #include "uatraits/details/definition.hpp"
@@ -31,9 +32,11 @@ template <typename Traits>
 class regex_definition : public definition<Traits> {
 
 public:
-	regex_definition(char const *name, char const *pattern, char const *result);
+	regex_definition(char const *name, char const *xpath, char const *pattern, char const *result);
 	virtual ~regex_definition();
-	virtual void process(char const *begin, char const *end, Traits &traits) const;
+
+	virtual void dump(std::ostream &out) const;
+	virtual bool detect(char const *begin, char const *end, Traits &traits) const;
 
 private:
 	regex_definition(regex_definition const &);
@@ -41,6 +44,8 @@ private:
 	std::size_t find_all_replaces(std::string const &value);
 	
 	using definition<Traits>::name;
+	using definition<Traits>::xpath;
+	
 	typedef std::pair<std::string::size_type, std::string::size_type> replace_data;
 
 private:
@@ -50,8 +55,8 @@ private:
 };
 
 template <typename Traits> inline 
-regex_definition<Traits>::regex_definition(char const *name, char const *pattern, char const *result) :
-	definition<Traits>(name), result_(result), regex_(0, 0)
+regex_definition<Traits>::regex_definition(char const *name, char const *xpath, char const *pattern, char const *result) :
+	definition<Traits>(name, xpath), result_(result), regex_(0, 0)
 {
 	int max = -1;
 	regex_ = pcre_compile_regex(pattern);
@@ -72,16 +77,22 @@ regex_definition<Traits>::~regex_definition() {
 }
 
 template <typename Traits> inline void
-regex_definition<Traits>::process(char const *begin, char const *end, Traits &traits) const {
+regex_definition<Traits>::dump(std::ostream &out) const {
+    out << "regex definition at [" << xpath() << "] triggered: setting " << name() << "=" << result_ << " being substituted during detection" << std::endl;
+}
+
+template <typename Traits> inline bool
+regex_definition<Traits>::detect(char const *begin, char const *end, Traits &traits) const {
 	
 	int match[replaces_.size() * 3];
 	int result = pcre_exec(regex_.first, regex_.second, begin, end - begin, 0, 0, match, replaces_.size());
 	if (PCRE_ERROR_NOMATCH == result) {
-		return;
+		return false;
 	}
 	else if (result < 0) {
 		throw error("error while regex matching: %d", result);
 	}
+	return true;
 }
 
 template <typename Traits> inline std::size_t

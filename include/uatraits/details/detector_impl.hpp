@@ -18,6 +18,7 @@
 #ifndef UATRAITS_DETAILS_DETECTOR_IMPL_HPP_INCLUDED
 #define UATRAITS_DETAILS_DETECTOR_IMPL_HPP_INCLUDED
 
+#include <iosfwd>
 #include <cstring>
 
 #include "uatraits/error.hpp"
@@ -42,6 +43,7 @@ class detector_impl : public shared {
 public:
 	detector_impl(xmlDocPtr doc);
 	void detect(char const *begin, char const *end, Traits &traits) const;
+	void checked_detect(char const *begin, char const *end, Traits &traits, std::ostream &out) const;
 
 private:
 	detector_impl(detector_impl const &);
@@ -54,7 +56,7 @@ private:
 	bool disabled(xmlNodePtr node) const;
 	shared_ptr<branch_type> parse_branch(xmlNodePtr node) const;
 	shared_ptr<definition_type> parse_definition(xmlNodePtr node) const;
-	shared_ptr<definition_type> parse_complex_definition(char const *name, xmlNodePtr node) const;
+	shared_ptr<definition_type> parse_complex_definition(char const *name, char const* xpath, xmlNodePtr node) const;
 
 private:
 	shared_ptr<branch_type> root_;
@@ -69,7 +71,12 @@ detector_impl<Traits>::detector_impl(xmlDocPtr doc)
 
 template <typename Traits> inline void
 detector_impl<Traits>::detect(char const *begin, char const *end, Traits &traits) const {
-	root_->process(begin, end, traits);
+	root_->detect(begin, end, traits);
+}
+
+template <typename Traits> inline void
+detector_impl<Traits>::checked_detect(char const *begin, char const *end, Traits &traits, std::ostream &out) const {
+	root_->checked_detect(begin, end, traits, out);
 }
 
 template <typename Traits> inline void
@@ -94,7 +101,8 @@ detector_impl<Traits>::disabled(xmlNodePtr node) const {
 template <typename Traits> inline shared_ptr<typename detector_impl<Traits>::branch_type>
 detector_impl<Traits>::parse_branch(xmlNodePtr node) const {
 	
-	shared_ptr<branch_type> result(new branch_type());
+	resource<xmlChar*, xml_string_traits> path(xmlGetNodePath(node));
+	shared_ptr<branch_type> result(new branch_type((char const*) path.get()));
 	for (xmlNodePtr n = xmlFirstElementChild(node); 0 != n; n = xmlNextElementSibling(n)) {
 		if (disabled(n)) {
 			continue;
@@ -113,8 +121,8 @@ detector_impl<Traits>::parse_branch(xmlNodePtr node) const {
 					result->add_regex_match(xml_node_text(*i));
 				}
 				else {
-					resource<xmlChar*, xml_string_traits> path(xmlGetNodePath(*i));
-					throw error("unknown pattern type %s in [%s]", type, (char const*) path.get());
+					resource<xmlChar*, xml_string_traits> error_path(xmlGetNodePath(*i));
+					throw error("unknown pattern type %s in [%s]", type, (char const*) error_path.get());
 				}
 			}
 		}
@@ -130,40 +138,42 @@ detector_impl<Traits>::parse_branch(xmlNodePtr node) const {
 
 template <typename Traits> inline shared_ptr<typename detector_impl<Traits>::definition_type>
 detector_impl<Traits>::parse_definition(xmlNodePtr node) const {
+	resource<xmlChar*, xml_string_traits> path(xmlGetNodePath(node));
 	char const *name = xml_attr_text(node, "name"), *value = xml_attr_text(node, "value");
 	if (static_cast<char const*>(0) == name) {
-		resource<xmlChar*, xml_string_traits> path(xmlGetNodePath(node));
 		throw error("definition without name in [%s]", (char const*) path.get());
 	}
 	else if (static_cast<char const*>(0) == value) {
-		return parse_complex_definition(name, node);
+		return parse_complex_definition(name, (char const*) path.get(), node);
 	}
 	else {
-		return shared_ptr<definition_type>(new static_definition<Traits>(name, value));
+		return shared_ptr<definition_type>(new static_definition<Traits>(name, (char const*) path.get(), value));
 	}
 }
 
 template <typename Traits> inline shared_ptr<typename detector_impl<Traits>::definition_type>
-detector_impl<Traits>::parse_complex_definition(char const *name, xmlNodePtr node) const {
+detector_impl<Traits>::parse_complex_definition(char const *name, char const* xpath, xmlNodePtr node) const {
 
 	typedef complex_definition<Traits> complex_type;
-	shared_ptr<complex_type> parent(new complex_type(name));
+	shared_ptr<complex_type> parent(new complex_type(name, xpath));
 	
 	xml_elems elems(node, "pattern");
 	for (xml_elems::const_iterator i = elems.begin(), end = elems.end(); i != end; ++i) {
 		if (disabled(*i)) {
 			continue;
 		}
+		
+		resource<xmlChar*, xml_string_traits> path(xmlGetNodePath(*i));
 		char const *value = xml_attr_text(*i, "value"), *type = xml_attr_text(*i, "type");
+		
 		if (strncasecmp(type, "string", sizeof("string")) == 0) {
-			parent->add(shared_ptr<definition_type>(new string_definition<Traits>(name, xml_node_text(*i), value)));
+			parent->add(shared_ptr<definition_type>(new string_definition<Traits>(name, (char const*) path.get(), xml_node_text(*i), value)));
 		}
 		else if (strncasecmp(type, "regex", sizeof("regex")) == 0) {
-			parent->add(shared_ptr<definition_type>(new regex_definition<Traits>(name, xml_node_text(*i), value)));
+			parent->add(shared_ptr<definition_type>(new regex_definition<Traits>(name, (char const*) path.get(), xml_node_text(*i), value)));
 		}
 		else {
-			resource<xmlChar*, xml_string_traits> path(xmlGetNodePath(node));
-			throw error("unknown pattern type %s in [%s]", type, (char const*) path.get());
+			throw error("unknown pattern type %s in [%s]", type, xpath);
 		}
 	}
 	return parent->has_only_one() ? parent->release_child() : parent.template cast<definition_type>();

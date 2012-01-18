@@ -20,6 +20,7 @@
 
 #include <list>
 #include <string>
+#include <iosfwd>
 
 #include "uatraits/config.hpp"
 #include "uatraits/details/definition.hpp"
@@ -30,28 +31,33 @@ template <typename Traits>
 class complex_definition : public definition<Traits> {
 
 public:
-	complex_definition(char const *name);
+	complex_definition(char const *name, char const *xpath);
 	typedef definition<Traits> definition_type;
 
 	bool has_only_one() const;
 	shared_ptr<definition_type> release_child() const;
 	
 	void add(shared_ptr<definition_type> const &value);
-	virtual void process(char const *begin, char const *strend, Traits &traits) const;
+	
+	virtual void dump(std::ostream &out) const;
+	virtual bool detect(char const *begin, char const *strend, Traits &traits) const;
+	virtual bool checked_detect(char const *begin, char const *strend, Traits &traits, std::ostream &out) const;
 
 private:
 	complex_definition(complex_definition const &);
 	complex_definition& operator = (complex_definition const &);
 	typedef shared_ptr<definition_type> definition_pointer;
+	
 	using definition<Traits>::name;
+	using definition<Traits>::xpath;
 
 private:
 	std::list<definition_pointer> definitions_;
 };
 
 template <typename Traits> inline 
-complex_definition<Traits>::complex_definition(char const *name) :
-	definition<Traits>(name)
+complex_definition<Traits>::complex_definition(char const *name, char const *xpath) :
+	definition<Traits>(name, xpath)
 {
 }
 
@@ -71,11 +77,32 @@ complex_definition<Traits>::add(shared_ptr<typename complex_definition<Traits>::
 }
 
 template <typename Traits> inline void
-complex_definition<Traits>::process(char const *begin, char const *strend, Traits &traits) const {
-	for (typename std::list<definition_pointer>::const_iterator i = definitions_.begin(), end = definitions_.end(); i != end; ++i) {
-		(*i)->process(begin, strend, traits);
-	}
+complex_definition<Traits>::dump(std::ostream &out) const {
+	out << "complex definition at [" << xpath() << "]" << std::endl;
 }
+
+template <typename Traits> inline bool
+complex_definition<Traits>::detect(char const *begin, char const *strend, Traits &traits) const {
+	bool result = false;
+	for (typename std::list<definition_pointer>::const_iterator i = definitions_.begin(), end = definitions_.end(); i != end; ++i) {
+		result = (*i)->detect(begin, strend, traits) || result;
+	}
+	return result;
+}
+
+template <typename Traits> inline bool
+complex_definition<Traits>::checked_detect(char const *begin, char const *strend, Traits &traits, std::ostream &out) const {
+	bool result = false;
+	for (typename std::list<definition_pointer>::const_iterator i = definitions_.begin(), end = definitions_.end(); i != end; ++i) {
+		bool triggered = (*i)->detect(begin, strend, traits);
+		if (triggered) {
+			(*i)->dump(out);
+		}
+		result = result || triggered;
+	}
+	return result;
+}
+
 
 }} // namespaces
 

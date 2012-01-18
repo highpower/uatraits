@@ -19,6 +19,7 @@
 #define UATRAITS_DETAILS_BRANCH_HPP_INCLUDED
 
 #include <list>
+#include <iostream>
 #include <algorithm>
 
 #include "uatraits/config.hpp"
@@ -33,7 +34,7 @@ template <typename Traits>
 class branch : public shared {
 
 public:
-	branch();
+	branch(char const *xpath);
 	virtual ~branch();
 
 	typedef branch<Traits> type;
@@ -43,7 +44,8 @@ public:
 	void add_child(shared_ptr<type> const &child);
 	void add_definition(shared_ptr<definition_type> const &value);
 	void add_regex_match(char const *pattern);
-	void process(char const *begin, char const *end, Traits &traits) const;
+	void detect(char const *begin, char const *end, Traits &traits) const;
+	void checked_detect(char const *begin, char const *end, Traits &traits, std::ostream &out) const;
 	virtual bool matched(char const *begin, char const *end) const;
 
 private:
@@ -55,6 +57,7 @@ private:
 	typedef std::pair<pcre*, pcre_extra*> regex_data;
 
 private:
+	std::string xpath_;
 	std::list<pointer> children_;
 	std::list<definition_pointer> definitions_;
 	std::list<regex_data> regex_matches_;
@@ -70,7 +73,8 @@ public:
 };
 
 template <typename Traits> inline
-branch<Traits>::branch()
+branch<Traits>::branch(char const *xpath) :
+    xpath_(xpath)
 {
 }
 
@@ -102,13 +106,26 @@ branch<Traits>::add_regex_match(char const *pattern) {
 }
 
 template <typename Traits> inline void
-branch<Traits>::process(char const *begin, char const *end, Traits &traits) const {
+branch<Traits>::detect(char const *begin, char const *end, Traits &traits) const {
 	if (matched(begin, end)) {
-		for (typename std::list<pointer>::const_iterator i = children_.begin(), list_end = children_.end(); i != list_end; ++i) {
-			(*i)->process(begin, end, traits);
-		}
 		for (typename std::list<definition_pointer>::const_iterator i = definitions_.begin(), list_end = definitions_.end(); i != list_end; ++i) {
-			(*i)->process(begin, end, traits);
+			(*i)->detect(begin, end, traits);
+		}
+		for (typename std::list<pointer>::const_iterator i = children_.begin(), list_end = children_.end(); i != list_end; ++i) {
+			(*i)->detect(begin, end, traits);
+		}
+	}
+}
+
+template <typename Traits> inline void
+branch<Traits>::checked_detect(char const *begin, char const *end, Traits &traits, std::ostream &out) const {
+	if (matched(begin, end)) {
+	    out << "branch at [" << xpath_ << "] triggered" << std::endl;
+		for (typename std::list<definition_pointer>::const_iterator i = definitions_.begin(), list_end = definitions_.end(); i != list_end; ++i) {
+			(*i)->checked_detect(begin, end, traits, out);
+		}
+		for (typename std::list<pointer>::const_iterator i = children_.begin(), list_end = children_.end(); i != list_end; ++i) {
+			(*i)->checked_detect(begin, end, traits, out);
 		}
 	}
 }
@@ -129,7 +146,8 @@ branch<Traits>::matched(char const *begin, char const *end) const {
 }
 
 template <typename Traits> inline
-root_branch<Traits>::root_branch()
+root_branch<Traits>::root_branch() :
+    branch<Traits>("")
 {
 }
 

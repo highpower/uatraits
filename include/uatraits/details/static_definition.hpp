@@ -19,6 +19,7 @@
 #define UATRAITS_DETAILS_STATIC_DEFINITION_HPP_INCLUDED
 
 #include <string>
+#include <iostream>
 
 #include "uatraits/config.hpp"
 #include "uatraits/details/definition.hpp"
@@ -29,28 +30,36 @@ template <typename Traits>
 class static_definition : public definition<Traits> {
 	
 public:
-	static_definition(char const *name, char const *value);
-	virtual void process(char const *begin, char const *end, Traits &traits) const;
+	static_definition(char const *name, char const *xpath, char const *value);
+	virtual void dump(std::ostream &out) const;
+	virtual bool detect(char const *begin, char const *end, Traits &traits) const;
 	
 private:
 	static_definition(static_definition const &);
 	static_definition& operator = (static_definition const &);
 	using definition<Traits>::name;
+	using definition<Traits>::xpath;
 
 private:
 	std::string value_;
 };
 
 template <typename Traits> inline
-static_definition<Traits>::static_definition(char const *name, char const *value) :
-	definition<Traits>(name), value_(value)
+static_definition<Traits>::static_definition(char const *name, char const *xpath, char const *value) :
+	definition<Traits>(name, xpath), value_(value)
 {
 }
 
 template <typename Traits> inline void
-static_definition<Traits>::process(char const *begin, char const *end, Traits &traits) const {
+static_definition<Traits>::dump(std::ostream &out) const {
+	out << "static definition at [" << xpath() << "] triggered: setting " << name() << "=" << value_ << std::endl;
+}
+
+template <typename Traits> inline bool
+static_definition<Traits>::detect(char const *begin, char const *end, Traits &traits) const {
 	(void) begin; (void) end;
 	traits[name()] = value_;
+	return true;
 }
 
 }} // namespaces

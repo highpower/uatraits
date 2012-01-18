@@ -19,6 +19,7 @@
 #define UATRAITS_DETAILS_STRING_DEFINITION_HPP_INCLUDED
 
 #include <string>
+#include <iostream>
 #include <algorithm>
 
 #include "uatraits/config.hpp"
@@ -30,29 +31,38 @@ template <typename Traits>
 class string_definition : public definition<Traits> {
 
 public:
-	string_definition(char const *name, char const *pat, char const *result);
-	virtual void process(char const *begin, char const *end, Traits &traits) const;
+	string_definition(char const *name, char const *xpath, char const *pattern, char const *result);
+	virtual void dump(std::ostream &out) const;
+	virtual bool detect(char const *begin, char const *end, Traits &traits) const;
 
 private:
 	string_definition(string_definition const &);
 	string_definition& operator = (string_definition const &);
 	using definition<Traits>::name;
+	using definition<Traits>::xpath;
 
 private:
 	std::string pattern_, result_;
 };
 
 template <typename Traits> inline 
-string_definition<Traits>::string_definition(char const *name, char const *pat, char const *result) :
-	definition<Traits>(name), pattern_(pat), result_(result)
+string_definition<Traits>::string_definition(char const *name, char const *xpath, char const *pattern, char const *result) :
+	definition<Traits>(name, xpath), pattern_(pattern), result_(result)
 {
 }
 
 template <typename Traits> inline void
-string_definition<Traits>::process(char const *begin, char const *end, Traits &traits) const {
+string_definition<Traits>::dump(std::ostream &out) const {
+	out << "string definition at [" << xpath() << "] triggered: setting " << name() << "=" << result_ << std::endl;
+}
+
+template <typename Traits> inline bool
+string_definition<Traits>::detect(char const *begin, char const *end, Traits &traits) const {
 	if (std::search(begin, end, pattern_.begin(), pattern_.end()) != end) {
 		traits[name()] = result_;
+		return true;
 	}
+	return false;
 }
 
 }} // namespaces
