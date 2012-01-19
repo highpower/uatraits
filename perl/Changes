@@ -1,0 +1,6 @@
+Revision history for Perl extension uatraits.
+
+0.01  Thu Jan 19 14:37:28 2012
+	- original version; created by h2xs 1.23 with options
+		-n uatraits
+
