@@ -76,6 +76,13 @@ hash_assigner::operator = (std::string const &value) {
 	parent_->set(name_, value);
 }
 
+hash::hash()
+{
+}
+
+hash::~hash() {
+}
+
 bool
 hash::empty() const {
 	return map_.empty() ? true : begin_ == end_;

@@ -41,6 +41,9 @@ SV*
 detector_wrapper::detect(char *value) {
 	typedef std::pair<char const*, char const*> item;
 	enumeration<item>::pointer en = detector_.detect(value, value + strlen(value));
+	while (!en->empty()) {
+		item i = en->next();
+	}
 }
 
 }} // namespaces
