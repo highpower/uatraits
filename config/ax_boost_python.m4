@@ -6,6 +6,9 @@ AC_DEFUN([AX_BOOST_PYTHON],
 	AC_REQUIRE([AX_BOOST_PREFIX])
 	AC_REQUIRE([AX_PYTHON_DEVEL])
 	AX_BOOST_LIB([ax_boost_python_lib], [boost_python])
+	if test "f$ax_boost_python_lib" == "f"; then
+		AX_BOOST_LIB([ax_boost_python_lib], [boost_python$PYTHON_VERSION])
+	fi
 	
 	CPPFLAGS="$ax_boost_python_stored_cppflags $PYTHON_CPPFLAGS"
 	LDFLAGS="$ax_boost_python_stored_ldflags $BOOST_LDFLAGS -l$ax_boost_python_lib $PYTHON_LDFLAGS"
