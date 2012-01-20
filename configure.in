@@ -38,6 +38,7 @@ AM_CONDITIONAL(HAVE_PYTHON, [test "f$ax_have_boost_python" != "fno"])
 AM_CONDITIONAL(HAVE_BOOST_UNIT_TEST, [test "f$ax_have_boost_unit_test" != "fno"])
 
 AC_CONFIG_FILES([Makefile include/Makefile include/uatraits/Makefile
-	library/Makefile python/Makefile utils/Makefile data/Makefile tests/Makefile])
+	library/Makefile python/Makefile utils/Makefile data/Makefile 
+	perl/Makefile.PL tests/Makefile])
 
 AC_OUTPUT

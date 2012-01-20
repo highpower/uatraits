@@ -1,5 +1,6 @@
 nobase_pkginclude_HEADERS = config.hpp \
 	detector.hpp \
+	enumeration.hpp \
 	error.hpp \
 	forward.hpp \
 	shared.hpp \

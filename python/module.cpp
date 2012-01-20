@@ -1,6 +1,7 @@
 #include "acsetup.hpp"
 
 #include <boost/python.hpp>
+
 #include "uatraits/details/detector_impl.hpp"
 
 namespace uatraits { namespace python {

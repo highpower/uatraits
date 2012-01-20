@@ -1,8 +1,6 @@
 use 5.010000;
 use ExtUtils::MakeMaker;
 
-$CC = "g++";
-
 # See lib/ExtUtils/MakeMaker.pm for details of how to influence
 # the contents of the Makefile that is written.
 WriteMakefile(
@@ -14,9 +12,12 @@ WriteMakefile(
        AUTHOR         => 'Oleg Obolensky <highpower@yandex-team.ru>') : ()),
     LIBS              => ['@XML_LIBS@ @PCRE_LIBS@'],
     DEFINE            => '',
-    INC               => '-I. @XML_CPPFLAGS@ @PCRE_CFLAGS@',
-	# Un-comment this if you add C files to link with later:
-    # OBJECT            => '$(O_FILES)', # link all the C files too
+    INC               => '-I. -I../include -I../config @XML_CPPFLAGS@ @PCRE_CFLAGS@',
+	CC                => 'g++',
+	LD                => 'g++',
+	XSOPT             => '-C++',
+	TYPEMAPS          => ['uatraits.map'],
+    OBJECT            => '$(O_FILES)'
 );
 if  (eval {require ExtUtils::Constant; 1}) {
   # If you edit these definitions to change the constants used by this module,
