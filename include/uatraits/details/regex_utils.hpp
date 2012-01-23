@@ -28,6 +28,12 @@
 
 namespace uatraits { namespace details {
 
+struct regex_data {
+	std::size_t begin;
+	std::size_t end;
+	std::size_t index;
+};
+
 template <typename Result, typename Iter> inline Result
 scan_integer(Iter begin, Iter end) {
 	Result result = 0;
@@ -43,9 +49,9 @@ scan_integer(Iter begin, Iter end) {
 	return result;
 }
 
-template <typename Map> inline typename Map::size_type
-find_replaces(std::string const &value, Map &map) {
-	map.clear();
+template <typename Container> inline void
+find_replaces(std::string const &value, Container &cont) {
+	cont.clear();
 	is_equal<char> dollar('$');
 	is_numeric<char> numeric_matcher;
 	std::string::const_iterator i = value.begin(), begin = value.begin(), end = value.end();
@@ -53,13 +59,11 @@ find_replaces(std::string const &value, Map &map) {
 		i = next_matched(i, end, dollar);
 		std::string::const_iterator pos = next_not_matched(i + 1, end, numeric_matcher);
 		if (std::distance(i, pos) > 1) {
-			std::size_t number = scan_integer<std::size_t>(i + 1, pos);
-			std::pair<std::string::size_type, std::string::size_type> data(i - begin, pos - i);
-			map.insert(std::make_pair(number, data));
+			regex_data data = { i - begin, pos - begin, scan_integer<std::size_t>(i + 1, pos) };
+			cont.push_back(data);
 		}
 		i = pos;
 	}
-	return map.size();
 }
 
 }} // namespaces

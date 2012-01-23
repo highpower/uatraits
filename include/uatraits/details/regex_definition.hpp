@@ -18,7 +18,6 @@
 #ifndef UATRAITS_DETAILS_REGEX_DEFINITION_HPP_INCLUDED
 #define UATRAITS_DETAILS_REGEX_DEFINITION_HPP_INCLUDED
 
-#include <map>
 #include <vector>
 #include <cstdlib>
 #include <iostream>
@@ -43,22 +42,19 @@ public:
 private:
 	regex_definition(regex_definition const &);
 	regex_definition& operator = (regex_definition const &);
-	std::size_t find_all_replaces(std::string const &value);
 	
 	using definition<Traits>::name;
 	using definition<Traits>::xpath;
-	
-	typedef std::pair<std::string::size_type, std::string::size_type> replace_data;
 
 private:
-	std::string result_;
+	std::string replace_pattern_;
+	std::vector<regex_data> replaces_;
 	std::pair<pcre*, pcre_extra*> regex_;
-	std::map<std::size_t, replace_data> replaces_;
 };
 
 template <typename Traits> inline 
-regex_definition<Traits>::regex_definition(char const *name, char const *xpath, char const *pattern, char const *result) :
-	definition<Traits>(name, xpath), result_(result), regex_(0, 0)
+regex_definition<Traits>::regex_definition(char const *name, char const *xpath, char const *pattern, char const *replace_pattern) :
+	definition<Traits>(name, xpath), replace_pattern_(replace_pattern), regex_(0, 0)
 {
 	int max = -1;
 	regex_ = pcre_compile_regex(pattern);
@@ -66,7 +62,8 @@ regex_definition<Traits>::regex_definition(char const *name, char const *xpath, 
 	if (0 != res || -1 == max) {
 		throw error("can not get capture count from %s: %d", pattern, res);
 	}
-	std::size_t replace_count = find_all_replaces(result_);
+	find_replaces(replace_pattern_, replaces_);
+	std::size_t replace_count = replaces_.size();
 	if (replace_count > static_cast<std::size_t>(max)) {
 	 	throw error("definition intended to replace more items (%llu) than it could capture in %s (%llu)", 
 	 	    static_cast<unsigned long long>(replace_count), pattern, static_cast<unsigned long long>(max));
@@ -80,29 +77,29 @@ regex_definition<Traits>::~regex_definition() {
 
 template <typename Traits> inline void
 regex_definition<Traits>::dump(std::ostream &out) const {
-    out << "regex definition at [" << xpath() << "] triggered: setting " << name() << "=" << result_ << " being substituted during detection" << std::endl;
+    out << "regex definition at [" << xpath() << "] triggered: setting " << name() << "=" << replace_pattern_ << " being substituted during detection" << std::endl;
 }
 
 template <typename Traits> inline bool
 regex_definition<Traits>::detect(char const *begin, char const *end, Traits &traits) const {
 	
 	std::vector<int> match((replaces_.size() + 1) * 3, 0);
-	int result = pcre_exec(regex_.first, regex_.second, begin, end - begin, 0, 0, &match[0], replaces_.size() + 1);
+	int result = pcre_exec(regex_.first, regex_.second, begin, end - begin, 0, 0, &match[0], match.size());
 	if (PCRE_ERROR_NOMATCH == result) {
 		return false;
 	}
 	else if (result < 0) {
 		throw error("error while regex matching: %d", result);
 	}
-	for (std::map<std::size_t, replace_data>::const_iterator i = replaces_.begin(), end = replaces_.end(); i != end; ++i) {
-	    
+	if (static_cast<std::size_t>(result) != replaces_.size() + 1) {
+	    throw error("error while regex matching: captured %d while desired %d", result - 1, replaces_.size());
 	}
+	std::string temp(replace_pattern_);
+	for (std::vector<regex_data>::const_reverse_iterator ri = replaces_.rbegin(), rend = replaces_.rend(); ri != rend; ++ri) {
+    	temp.replace(temp.begin() + ri->begin, temp.begin() + ri->end, begin + match[2 * ri->index], begin + match[2 * ri->index + 1]);
+	}
+	traits[name()] = temp;
 	return true;
-}
-
-template <typename Traits> inline std::size_t
-regex_definition<Traits>::find_all_replaces(std::string const &value) {
-    return find_replaces(value, replaces_);
 }
 
 }} // namespaces

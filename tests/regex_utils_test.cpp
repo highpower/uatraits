@@ -17,15 +17,23 @@ BOOST_AUTO_TEST_CASE(test_scan_integer) {
 }
 
 BOOST_AUTO_TEST_CASE(test_find_replaces) {
+
 	using namespace details;
-	typedef std::pair<std::string::size_type, std::string::size_type> replace_data;
-	std::map<std::size_t, replace_data> data;
-	find_replaces("$1abc$2 x $3", data);
+	std::vector<regex_data> data;
+	find_replaces("$1.$3.$2", data);
 	BOOST_CHECK_EQUAL(3, data.size());
-	BOOST_CHECK_EQUAL(0, data[1].first);
-	BOOST_CHECK_EQUAL(2, data[1].second);
-	BOOST_CHECK_EQUAL(5, data[2].first);
-	BOOST_CHECK_EQUAL(2, data[2].second);
+	
+	BOOST_CHECK_EQUAL(0, data[0].begin);
+	BOOST_CHECK_EQUAL(2, data[0].end);
+	BOOST_CHECK_EQUAL(1, data[0].index);
+	
+	BOOST_CHECK_EQUAL(3, data[1].begin);
+	BOOST_CHECK_EQUAL(5, data[1].end);
+	BOOST_CHECK_EQUAL(3, data[1].index);
+
+	BOOST_CHECK_EQUAL(6, data[2].begin);
+	BOOST_CHECK_EQUAL(8, data[2].end);
+	BOOST_CHECK_EQUAL(2, data[2].index);
 }
 
 BOOST_AUTO_TEST_SUITE_END();
