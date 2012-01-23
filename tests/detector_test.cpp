@@ -13,8 +13,9 @@ BOOST_AUTO_TEST_SUITE(detector_test)
 BOOST_AUTO_TEST_CASE(test_explorer) {
 
 	std::ifstream file("msie.txt");
-	file.exceptions(std::ios::badbit);
+	file.exceptions(std::ios::badbit | std::ios::failbit);
 	detector det(getenv("DATAFILE"));
+	file.exceptions(std::ios::badbit);
 	
 	std::string line;
 	while (std::getline(file, line)) {

@@ -18,13 +18,15 @@
 #ifndef UATRAITS_DETAILS_REGEX_DEFINITION_HPP_INCLUDED
 #define UATRAITS_DETAILS_REGEX_DEFINITION_HPP_INCLUDED
 
+#include <map>
+#include <vector>
 #include <cstdlib>
 #include <iostream>
 
 #include "uatraits/config.hpp"
 #include "uatraits/details/definition.hpp"
 #include "uatraits/details/pcre_utils.hpp"
-#include "uatraits/details/string_utils.hpp"
+#include "uatraits/details/regex_utils.hpp"
 
 namespace uatraits { namespace details {
 
@@ -50,8 +52,8 @@ private:
 
 private:
 	std::string result_;
-	std::list<replace_data> replaces_;
 	std::pair<pcre*, pcre_extra*> regex_;
+	std::map<std::size_t, replace_data> replaces_;
 };
 
 template <typename Traits> inline 
@@ -84,31 +86,23 @@ regex_definition<Traits>::dump(std::ostream &out) const {
 template <typename Traits> inline bool
 regex_definition<Traits>::detect(char const *begin, char const *end, Traits &traits) const {
 	
-	int match[replaces_.size() * 3];
-	int result = pcre_exec(regex_.first, regex_.second, begin, end - begin, 0, 0, match, replaces_.size());
+	std::vector<int> match((replaces_.size() + 1) * 3, 0);
+	int result = pcre_exec(regex_.first, regex_.second, begin, end - begin, 0, 0, &match[0], replaces_.size() + 1);
 	if (PCRE_ERROR_NOMATCH == result) {
 		return false;
 	}
 	else if (result < 0) {
 		throw error("error while regex matching: %d", result);
 	}
+	for (std::map<std::size_t, replace_data>::const_iterator i = replaces_.begin(), end = replaces_.end(); i != end; ++i) {
+	    
+	}
 	return true;
 }
 
 template <typename Traits> inline std::size_t
 regex_definition<Traits>::find_all_replaces(std::string const &value) {
-	is_equal<char> dollar('$');
-	is_numeric<char> numeric_matcher;
-	std::string::const_iterator i = value.begin(), begin = value.begin(), end = value.end();
-	while (i != end) {
-		i = next_matched(i, end, dollar);
-		std::string::const_iterator pos = next_not_matched(i + 1, end, numeric_matcher);
-		if (std::distance(i, pos) > 1) {
-		    replaces_.push_back(std::make_pair(static_cast<std::string::size_type>(i - begin), static_cast<std::string::size_type>(pos - i)));
-		}
-		i = pos;
-	}
-	return replaces_.size();
+    return find_replaces(value, replaces_);
 }
 
 }} // namespaces

@@ -17,6 +17,7 @@ nobase_pkginclude_HEADERS = config.hpp \
 	details/pcre_utils.hpp \
 	details/range.hpp \
 	details/regex_definition.hpp \
+	details/regex_utils.hpp \
 	details/resource.hpp \
 	details/static_assert.hpp \
 	details/static_definition.hpp \
