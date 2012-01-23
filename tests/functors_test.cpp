@@ -3,7 +3,9 @@
 #include <list>
 #include <vector>
 #include <string>
+
 #include <boost/test/unit_test.hpp>
+#include <boost/test/test_case_template.hpp>
 
 #include "test_utils.hpp"
 #include "uatraits/details/range.hpp"

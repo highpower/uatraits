@@ -26,6 +26,7 @@
 #include "uatraits/details/range.hpp"
 #include "uatraits/details/iterator.hpp"
 #include "uatraits/details/xml_utils.hpp"
+#include "uatraits/details/xml_compat.hpp"
 
 namespace uatraits { namespace details {
 

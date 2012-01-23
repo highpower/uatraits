@@ -26,5 +26,6 @@ nobase_pkginclude_HEADERS = config.hpp \
 	details/string_utils.hpp \
 	details/type_list.hpp \
 	details/type_traits.hpp \
+	details/xml_compat.hpp \
 	details/xml_elems.hpp \
 	details/xml_utils.hpp
