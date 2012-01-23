@@ -20,6 +20,7 @@
 
 #include <list>
 #include <string>
+#include <vector>
 #include <cstdlib>
 #include <iostream>
 
