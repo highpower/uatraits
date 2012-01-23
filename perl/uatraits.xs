@@ -39,10 +39,11 @@ detector_wrapper::~detector_wrapper() {
 
 SV*
 detector_wrapper::detect(char *value) {
+	HV *result = newHV();
 	typedef std::pair<char const*, char const*> item;
 	enumeration<item>::pointer en = detector_.detect(value, value + strlen(value));
 	while (!en->empty()) {
-		item i = en->next();
+ 		item i = en->next();
 	}
 }
 
@@ -57,7 +58,7 @@ INCLUDE: const-xs.inc
 PROTOTYPES: ENABLED
 
 detector_wrapper*
-detector_wrapper::new(CLASS, name)
+detector_wrapper::new(name)
 		char* name
 	CODE:
 		try {
@@ -76,6 +77,11 @@ SV*
 detector_wrapper::detect(value)
 		char *value
 	CODE:
-		RETVAL = THIS->detect(value);
+		try {
+			RETVAL = THIS->detect(value);
+		}
+		catch (std::exception const &e) {
+			croak("%s", e.what());
+		}
 	OUTPUT:
 		RETVAL

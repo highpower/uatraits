@@ -48,7 +48,7 @@ private:
 
 private:
 	std::string replace_pattern_;
-	std::vector<regex_data> replaces_;
+	std::list<regex_data> replaces_;
 	std::pair<pcre*, pcre_extra*> regex_;
 };
 
@@ -95,7 +95,7 @@ regex_definition<Traits>::detect(char const *begin, char const *end, Traits &tra
 	    throw error("error while regex matching: captured %d while desired %d", result - 1, replaces_.size());
 	}
 	std::string temp(replace_pattern_);
-	for (std::vector<regex_data>::const_reverse_iterator ri = replaces_.rbegin(), rend = replaces_.rend(); ri != rend; ++ri) {
+	for (std::list<regex_data>::const_reverse_iterator ri = replaces_.rbegin(), rend = replaces_.rend(); ri != rend; ++ri) {
     	temp.replace(temp.begin() + ri->begin, temp.begin() + ri->end, begin + match[2 * ri->index], begin + match[2 * ri->index + 1]);
 	}
 	traits[name()] = temp;

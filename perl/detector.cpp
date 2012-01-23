@@ -44,7 +44,8 @@ private:
 
 private:
 	map_type map_;
-	map_type::const_iterator begin_, end_;
+	map_type::const_iterator end_;
+	map_type::const_iterator mutable begin_;
 };
 
 detector::detector(char const *name) :
@@ -90,7 +91,12 @@ hash::empty() const {
 
 detector::item
 hash::next() const {
-	
+	assert(!empty());
+	std::string const &name = begin_->first;
+	std::string const &value = begin_->second;
+	std::pair<char const*, char const*> result(name.c_str(), value.c_str());
+	++begin_;
+	return result;
 }
 
 hash_assigner
