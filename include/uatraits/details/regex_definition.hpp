@@ -18,7 +18,8 @@
 #ifndef UATRAITS_DETAILS_REGEX_DEFINITION_HPP_INCLUDED
 #define UATRAITS_DETAILS_REGEX_DEFINITION_HPP_INCLUDED
 
-#include <vector>
+#include <list>
+#include <string>
 #include <cstdlib>
 #include <iostream>
 
