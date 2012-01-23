@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="rules">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element maxOccurs="unbounded" ref="branch"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="branch">
+        <xs:complexType>
+            <xs:choice minOccurs="0" maxOccurs="unbounded">
+                <xs:element ref="branch"/>
+                <xs:element ref="define"/>
+                <xs:element ref="match"/>                
+            </xs:choice>
+            <xs:attribute name="name" type="xs:NCName"/>
+            <xs:attribute name="type" type="branchType"/>
+        </xs:complexType>
+    </xs:element>    
+    <xs:element name="define">
+        <xs:complexType mixed="true">
+            <xs:sequence>
+                <xs:element minOccurs="0" maxOccurs="unbounded" ref="pattern"/>
+            </xs:sequence>
+            <xs:attribute name="name" use="required" type="xs:NCName"/>
+            <xs:attribute name="value"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="match">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element maxOccurs="unbounded" ref="pattern"/>
+            </xs:sequence>
+            <xs:attribute name="type" type="matchType"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="pattern">
+        <xs:complexType mixed="true">
+            <xs:attribute name="type" use="required" type="patternType"/>
+            <xs:attribute name="value"/>
+        </xs:complexType>
+    </xs:element>    
+    <xs:simpleType name="branchType">
+        <xs:restriction base="xs:string">            
+            <xs:enumeration value="default"/>
+            <xs:enumeration value="common"/>
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:simpleType name="matchType">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="any"/>
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:simpleType name="patternType">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="string"/>
+            <xs:enumeration value="regex"/>
+        </xs:restriction>
+    </xs:simpleType>
+</xs:schema>
