@@ -1,0 +1,29 @@
+Source: libuatraits
+Priority: extra
+Maintainer: Oleg Obolenskiy <highpower@yandex-team.ru>
+Build-Depends: debhelper (>= 7),
+ libboost-dev,
+ libboost-test-dev,
+ libpcre3-dev
+Standards-Version: 3.8.3
+Section: libs
+
+Package: libuatraits
+Section: libs
+Architecture: any
+Depends: ${shlibs:Depends}
+Description: The c++ library
+ Shared objects
+
+Package: libuatraits-dev
+Section: libdevel
+Architecture: any
+Depends: libuatraits (= ${binary:Version})
+Description: The c++ library
+ Developers package
+
+Package: uatraits-python
+Section: libs
+Architecture: any
+Depends: ${shlibs:Depends}, libuatraits (= ${Source-Version})
+Description: Python binding for C++ uatraits library

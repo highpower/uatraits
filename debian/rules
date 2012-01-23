@@ -1,0 +1,62 @@
+#!/usr/bin/make -f
+
+ACLOCAL = /usr/bin/aclocal-1.9
+AUTOMAKE = /usr/bin/automake-1.9
+ACLOCAL_OPTIONS = "-I config"
+
+autogen: autogen-stamp
+autogen-stamp:
+	dh_testdir
+	ACLOCAL=$(ACLOCAL) AUTOMAKE=$(AUTOMAKE) ACLOCAL_OPTIONS=$(ACLOCAL_OPTIONS) ./autogen.sh
+	touch autogen-stamp
+
+configure: configure-stamp
+configure-stamp:
+	dh_testdir
+	./configure --prefix=/usr/ --enable-tests --enable-python --enable-perl
+	touch configure-stamp
+
+build: build-stamp
+build-stamp: autogen-stamp configure-stamp 
+	dh_testdir
+	$(MAKE)
+	$(MAKE) check
+	touch build-stamp
+
+clean:
+	dh_testdir
+	dh_testroot
+	rm -f *-stamp
+	-$(MAKE) clean
+	dh_clean 
+
+install: build
+	dh_testdir
+	dh_testroot
+	dh_clean -k 
+	dh_installdirs
+	$(MAKE) check
+	$(MAKE) DESTDIR=$(CURDIR)/debian/tmp install
+
+binary-indep: build install
+
+binary-arch: build install
+	dh_testdir
+	dh_testroot
+	dh_movefiles
+	dh_installchangelogs 
+	#dh_installcron
+	dh_link
+	dh_compress
+	dh_fixperms
+	dh_perl
+	dh_makeshlibs -V
+	dh_installdeb
+	dh_shlibdeps
+	dh_gencontrol
+	dh_md5sums
+	dh_builddeb
+
+binary: binary-indep binary-arch
+.PHONY: build clean binary-indep binary-arch binary install configure
+
