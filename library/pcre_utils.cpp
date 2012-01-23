@@ -53,8 +53,8 @@ pcre_compile_regex(char const *pattern) {
 		throw error("%s at %d of %s", error_ptr, error_offset, pattern);
 	}
 	resource<pcre_extra*, pcre_extra_traits> extra(pcre_study(regex.get(), UATRAITS_PCRE_STUDY_JIT_COMPILE, &error_ptr));
-	if (!extra) {
-		throw error("%s in %s", &error_ptr, pattern);
+	if (!extra && error_ptr) {
+		throw error("%s in %s", error_ptr, pattern);
 	}
 	return std::make_pair(regex.release(), extra.release());
 }
