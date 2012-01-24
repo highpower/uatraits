@@ -39,13 +39,19 @@ public:
 
 	typedef branch<Traits> type;
 	typedef definition<Traits> definition_type;
+
+	bool is_common() const;
+	void set_common(bool value);
+	
+	bool is_default() const;
+	void set_default(bool value);
 	
 	void add_match(char const *pattern);
 	void add_child(shared_ptr<type> const &child);
 	void add_definition(shared_ptr<definition_type> const &value);
 	void add_regex_match(char const *pattern);
-	void detect(char const *begin, char const *end, Traits &traits) const;
-	void checked_detect(char const *begin, char const *end, Traits &traits, std::ostream &out) const;
+	void trigger(char const *begin, char const *end, Traits &traits) const;
+	
 	virtual bool matched(char const *begin, char const *end) const;
 
 private:
@@ -58,6 +64,7 @@ private:
 
 private:
 	std::string xpath_;
+	bool common_, default_;
 	std::list<pointer> children_;
 	std::list<definition_pointer> definitions_;
 	std::list<regex_data> regex_matches_;
@@ -74,7 +81,7 @@ public:
 
 template <typename Traits> inline
 branch<Traits>::branch(char const *xpath) :
-    xpath_(xpath)
+    xpath_(xpath), common_(false), default_(false)
 {
 }
 
@@ -83,6 +90,26 @@ branch<Traits>::~branch() {
 	for (std::list<regex_data>::iterator i = regex_matches_.begin(), end = regex_matches_.end(); i != end; ++i) {
 		pcre_free_regex(*i);
 	}
+}
+
+template <typename Traits> inline bool
+branch<Traits>::is_common() const {
+    return common_;
+}
+
+template <typename Traits> inline void
+branch<Traits>::set_common(bool value) {
+    common_ = value;
+}
+
+template <typename Traits> inline bool
+branch<Traits>::is_default() const {
+    return default_;
+}
+
+template <typename Traits> inline void
+branch<Traits>::set_default(bool value) {
+    default_ = value;
 }
 
 template <typename Traits> inline void
@@ -106,27 +133,26 @@ branch<Traits>::add_regex_match(char const *pattern) {
 }
 
 template <typename Traits> inline void
-branch<Traits>::detect(char const *begin, char const *end, Traits &traits) const {
-	if (matched(begin, end)) {
-		for (typename std::list<definition_pointer>::const_iterator i = definitions_.begin(), list_end = definitions_.end(); i != list_end; ++i) {
-			(*i)->detect(begin, end, traits);
-		}
-		for (typename std::list<pointer>::const_iterator i = children_.begin(), list_end = children_.end(); i != list_end; ++i) {
-			(*i)->detect(begin, end, traits);
-		}
+branch<Traits>::trigger(char const *begin, char const *end, Traits &traits) const {
+	for (typename std::list<definition_pointer>::const_iterator i = definitions_.begin(), list_end = definitions_.end(); i != list_end; ++i) {
+		(*i)->trigger(begin, end, traits);
 	}
-}
-
-template <typename Traits> inline void
-branch<Traits>::checked_detect(char const *begin, char const *end, Traits &traits, std::ostream &out) const {
-	if (matched(begin, end)) {
-	    out << "branch at [" << xpath_ << "] triggered" << std::endl;
-		for (typename std::list<definition_pointer>::const_iterator i = definitions_.begin(), list_end = definitions_.end(); i != list_end; ++i) {
-			(*i)->checked_detect(begin, end, traits, out);
-		}
-		for (typename std::list<pointer>::const_iterator i = children_.begin(), list_end = children_.end(); i != list_end; ++i) {
-			(*i)->checked_detect(begin, end, traits, out);
-		}
+	bool worked = false;
+	pointer default_branch;
+	for (typename std::list<pointer>::const_iterator i = children_.begin(), list_end = children_.end(); i != list_end; ++i) {
+	    if ((*i)->is_default()) {
+	        default_branch = *i;
+	    }
+	    if ((*i)->matched(begin, end)) {
+	        worked = true;
+    	    (*i)->trigger(begin, end, traits);
+        }
+        if ((*i)->is_common()) {
+            (*i)->trigger(begin, end, traits);
+        }
+	}
+	if (!worked && default_branch) {
+	    default_branch->trigger(begin, end, traits);
 	}
 }
 
@@ -156,7 +182,6 @@ root_branch<Traits>::matched(char const *begin, char const *end) const {
 	(void) begin; (void) end;
 	return true;
 }
-
 
 }} // namespaces
 

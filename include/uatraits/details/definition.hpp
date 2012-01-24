@@ -39,8 +39,8 @@ public:
 	std::string const& xpath() const;
 
 	virtual void dump(std::ostream &out) const = 0;
-	virtual bool detect(char const *begin, char const *end, Traits &traits) const = 0;
-	virtual bool checked_detect(char const *begin, char const *end, Traits &traits, std::ostream &out) const;
+	virtual bool trigger(char const *begin, char const *end, Traits &traits) const = 0;
+	virtual bool trigger_trace(char const *begin, char const *end, Traits &traits, std::ostream &out) const;
 
 private:
 	definition(definition const &);
@@ -71,8 +71,8 @@ definition<Traits>::xpath() const {
 }
 
 template <typename Traits> inline bool
-definition<Traits>::checked_detect(char const *begin, char const *end, Traits &traits, std::ostream &out) const {
-	if (detect(begin, end, traits)) {
+definition<Traits>::trigger_trace(char const *begin, char const *end, Traits &traits, std::ostream &out) const {
+	if (trigger(begin, end, traits)) {
 		dump(out);
 		return true;
 	}

@@ -71,12 +71,7 @@ detector_impl<Traits>::detector_impl(xmlDocPtr doc)
 
 template <typename Traits> inline void
 detector_impl<Traits>::detect(char const *begin, char const *end, Traits &traits) const {
-	root_->detect(begin, end, traits);
-}
-
-template <typename Traits> inline void
-detector_impl<Traits>::checked_detect(char const *begin, char const *end, Traits &traits, std::ostream &out) const {
-	root_->checked_detect(begin, end, traits, out);
+	root_->trigger(begin, end, traits);
 }
 
 template <typename Traits> inline void
@@ -103,6 +98,15 @@ detector_impl<Traits>::parse_branch(xmlNodePtr node) const {
 	
 	resource<xmlChar*, xml_string_traits> path(xmlGetNodePath(node));
 	shared_ptr<branch_type> result(new branch_type((char const*) path.get()));
+
+	char const *type = xml_attr_text(node, "type");
+	if (0 != type && strncasecmp(type, "common", sizeof("common")) == 0) {
+		result->set_common(true);
+	}
+	else if (0 != type && strncasecmp(type, "default", sizeof("default")) == 0) {
+		result->set_default(true);
+	}
+	
 	for (xmlNodePtr n = xmlFirstElementChild(node); 0 != n; n = xmlNextElementSibling(n)) {
 		if (disabled(n)) {
 			continue;

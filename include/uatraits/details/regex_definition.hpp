@@ -39,7 +39,7 @@ public:
 	virtual ~regex_definition();
 
 	virtual void dump(std::ostream &out) const;
-	virtual bool detect(char const *begin, char const *end, Traits &traits) const;
+	virtual bool trigger(char const *begin, char const *end, Traits &traits) const;
 
 private:
 	regex_definition(regex_definition const &);
@@ -83,7 +83,7 @@ regex_definition<Traits>::dump(std::ostream &out) const {
 }
 
 template <typename Traits> inline bool
-regex_definition<Traits>::detect(char const *begin, char const *end, Traits &traits) const {
+regex_definition<Traits>::trigger(char const *begin, char const *end, Traits &traits) const {
 	
 	std::vector<int> match((replaces_.size() + 1) * 3, 0);
 	int result = pcre_exec(regex_.first, regex_.second, begin, end - begin, 0, 0, &match[0], match.size());

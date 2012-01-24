@@ -33,7 +33,7 @@ class string_definition : public definition<Traits> {
 public:
 	string_definition(char const *name, char const *xpath, char const *pattern, char const *result);
 	virtual void dump(std::ostream &out) const;
-	virtual bool detect(char const *begin, char const *end, Traits &traits) const;
+	virtual bool trigger(char const *begin, char const *end, Traits &traits) const;
 
 private:
 	string_definition(string_definition const &);
@@ -57,7 +57,7 @@ string_definition<Traits>::dump(std::ostream &out) const {
 }
 
 template <typename Traits> inline bool
-string_definition<Traits>::detect(char const *begin, char const *end, Traits &traits) const {
+string_definition<Traits>::trigger(char const *begin, char const *end, Traits &traits) const {
 	if (std::search(begin, end, pattern_.begin(), pattern_.end()) != end) {
 		traits[name()] = result_;
 		return true;

@@ -32,7 +32,7 @@ class static_definition : public definition<Traits> {
 public:
 	static_definition(char const *name, char const *xpath, char const *value);
 	virtual void dump(std::ostream &out) const;
-	virtual bool detect(char const *begin, char const *end, Traits &traits) const;
+	virtual bool trigger(char const *begin, char const *end, Traits &traits) const;
 	
 private:
 	static_definition(static_definition const &);
@@ -56,7 +56,7 @@ static_definition<Traits>::dump(std::ostream &out) const {
 }
 
 template <typename Traits> inline bool
-static_definition<Traits>::detect(char const *begin, char const *end, Traits &traits) const {
+static_definition<Traits>::trigger(char const *begin, char const *end, Traits &traits) const {
 	(void) begin; (void) end;
 	traits[name()] = value_;
 	return true;

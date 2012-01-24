@@ -2,6 +2,7 @@
 
 #include <boost/python.hpp>
 
+#include "streambuf.hpp"
 #include "uatraits/details/detector_impl.hpp"
 
 namespace uatraits { namespace python {

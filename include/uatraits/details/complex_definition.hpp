@@ -40,8 +40,8 @@ public:
 	void add(shared_ptr<definition_type> const &value);
 	
 	virtual void dump(std::ostream &out) const;
-	virtual bool detect(char const *begin, char const *strend, Traits &traits) const;
-	virtual bool checked_detect(char const *begin, char const *strend, Traits &traits, std::ostream &out) const;
+	virtual bool trigger(char const *begin, char const *strend, Traits &traits) const;
+	virtual bool trigger_trace(char const *begin, char const *strend, Traits &traits, std::ostream &out) const;
 
 private:
 	complex_definition(complex_definition const &);
@@ -82,19 +82,20 @@ complex_definition<Traits>::dump(std::ostream &out) const {
 }
 
 template <typename Traits> inline bool
-complex_definition<Traits>::detect(char const *begin, char const *strend, Traits &traits) const {
+complex_definition<Traits>::trigger(char const *begin, char const *strend, Traits &traits) const {
 	bool result = false;
 	for (typename std::list<definition_pointer>::const_iterator i = definitions_.begin(), end = definitions_.end(); i != end; ++i) {
-		result = (*i)->detect(begin, strend, traits) || result;
+		bool triggered = (*i)->trigger(begin, strend, traits);
+		result = result || triggered;
 	}
 	return result;
 }
 
 template <typename Traits> inline bool
-complex_definition<Traits>::checked_detect(char const *begin, char const *strend, Traits &traits, std::ostream &out) const {
+complex_definition<Traits>::trigger_trace(char const *begin, char const *strend, Traits &traits, std::ostream &out) const {
 	bool result = false;
 	for (typename std::list<definition_pointer>::const_iterator i = definitions_.begin(), end = definitions_.end(); i != end; ++i) {
-		bool triggered = (*i)->detect(begin, strend, traits);
+		bool triggered = (*i)->trigger(begin, strend, traits);
 		if (triggered) {
 			(*i)->dump(out);
 		}
