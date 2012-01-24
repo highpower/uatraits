@@ -35,16 +35,17 @@ eval {
 ok( $obj , "uatraits object is created");
 is( $@, '', "no errors");
 
-subtest "detect" => sub {
+#subtest "detect" => sub {
     unless( $obj ){
         fail( 'cannot detect without an object');
-        done_testing();
-        return;
+#        done_testing();
+#        return;
+    } else {
+        my $resp = $obj->detect('Mozilla/5.0 (Linux; U; Android 2.3; ru-ru; Desire_A8181 Build/FRF91) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1');
+        ok( $resp, "detect returns responce");
+        is( ref( $resp) , 'HASH', "resp is hash");
     }
-    my $resp = $obj->detect('Mozilla/5.0 (Linux; U; Android 2.3; ru-ru; Desire_A8181 Build/FRF91) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1');
-    ok( $resp, "detect returns responce");
-    is( ref( $resp) , 'HASH', "resp is hash");
-    done_testing();
-};
+#    done_testing();
+#};
 
 done_testing();
