@@ -99,7 +99,7 @@ If you have a web site set up for your module, mention it here.
 
 =head1 AUTHOR
 
-Oleg Obolensky, E<lt>highpower@apple.comE<gt>
+Oleg Obolensky, E<lt>highpower@yandex-team.ruE<gt>
 
 =head1 COPYRIGHT AND LICENSE
 

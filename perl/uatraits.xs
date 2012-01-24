@@ -1,14 +1,11 @@
 #ifdef __cplusplus
 
 extern "C" {
-
 #include "EXTERN.h"
 #include "perl.h"
 #include "XSUB.h"
-
 #include "ppport.h"
 #include "const-c.inc"
-
 }
 #endif // __cplusplus
 
@@ -40,11 +37,8 @@ detector_wrapper::~detector_wrapper() {
 SV*
 detector_wrapper::detect(char *value) {
 	HV *result = newHV();
-	typedef std::pair<char const*, char const*> item;
-	enumeration<item>::pointer en = detector_.detect(value, value + strlen(value));
-	while (!en->empty()) {
- 		item i = en->next();
-	}
+	detector_.detect(value, value + strlen(value), result);
+	return newRV_noinc((SV*) result);
 }
 
 }} // namespaces

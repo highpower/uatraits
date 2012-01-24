@@ -15,32 +15,25 @@
 // along with this program; if not, write to the Free Software
 // Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 
-#ifndef UATRAITS_PERL_DETECTOR_HPP_INCLUDED
-#define UATRAITS_PERL_DETECTOR_HPP_INCLUDED
+#ifndef UATRAITS_DETAILS_RANGE_UTILS_HPP_INCLUDED
+#define UATRAITS_DETAILS_RANGE_UTILS_HPP_INCLUDED
 
-#include <utility>
+#include <iostream>
+#include <algorithm>
 
 #include "uatraits/config.hpp"
-#include "uatraits/forward.hpp"
-#include "uatraits/shared_ptr.hpp"
-#include "uatraits/enumeration.hpp"
+#include "uatraits/details/range.hpp"
 
-namespace uatraits { namespace perl {
+namespace uatraits { namespace details {
 
-class hash_wrapper;
-
-class detector {
-
-public:
-	detector(char const *name);
-	virtual ~detector();
-	void detect(char const *begin, char const *end, void *hv) const;
-
-private:
-	typedef details::detector_impl<hash_wrapper> impl_type;
-	shared_ptr<impl_type> impl_;
-};
+template <typename Iter, typename Char, typename Traits> inline std::basic_ostream<Char, Traits>&
+operator << (std::basic_ostream<Char, Traits> &stream, range<Iter> const &value) {
+	if (!value.empty()) {
+		std::copy(value.begin(), value.end(), std::ostream_iterator<typename range<Iter>::value_type, Char, Traits>(stream));
+	}
+	return stream;
+}
 
 }} // namespaces
 
-#endif // UATRAITS_PERL_DETECTOR_HPP_INCLUDED
+#endif // UATRAITS_DETAILS_RANGE_UTILS_HPP_INCLUDED

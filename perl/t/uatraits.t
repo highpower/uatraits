@@ -42,10 +42,10 @@ is( $@, '', "no errors");
 #        return;
     } else {
         my $resp = $obj->detect('Mozilla/5.0 (Linux; U; Android 2.3; ru-ru; Desire_A8181 Build/FRF91) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1');
-        isnt( $resp, undef, "detect returns responce");
-        is( ref( $resp) , 'HASH', "resp is hash");
+        isnt( $resp, undef, "traits->detect returns response");
+        is( ref( $resp) , 'HASH', "response is hash");
     }
 #    done_testing();
 #};
 
-done_testing();
+#done_testing();

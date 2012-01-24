@@ -16,6 +16,7 @@ nobase_pkginclude_HEADERS = config.hpp \
 	details/macros.hpp \
 	details/pcre_utils.hpp \
 	details/range.hpp \
+	details/range_utils.hpp \
 	details/regex_definition.hpp \
 	details/regex_utils.hpp \
 	details/resource.hpp \

@@ -15,32 +15,16 @@
 // along with this program; if not, write to the Free Software
 // Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 
-#ifndef UATRAITS_PERL_DETECTOR_HPP_INCLUDED
-#define UATRAITS_PERL_DETECTOR_HPP_INCLUDED
+#ifndef UATRAITS_PERL_HASH_UTILS_HPP_INCLUDED
+#define UATRAITS_PERL_HASH_UTILS_HPP_INCLUDED
 
-#include <utility>
-
-#include "uatraits/config.hpp"
-#include "uatraits/forward.hpp"
-#include "uatraits/shared_ptr.hpp"
-#include "uatraits/enumeration.hpp"
+#include <cstddef>
 
 namespace uatraits { namespace perl {
 
-class hash_wrapper;
-
-class detector {
-
-public:
-	detector(char const *name);
-	virtual ~detector();
-	void detect(char const *begin, char const *end, void *hv) const;
-
-private:
-	typedef details::detector_impl<hash_wrapper> impl_type;
-	shared_ptr<impl_type> impl_;
-};
+void
+hash_value_set(void *hash_value, char const *key, std::size_t keylen, char const *value, std::size_t valuelen);
 
 }} // namespaces
 
-#endif // UATRAITS_PERL_DETECTOR_HPP_INCLUDED
+#endif // UATRAITS_PERL_HASH_UTILS_HPP_INCLUDED

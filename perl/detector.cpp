@@ -1,58 +1,43 @@
 #include "acsetup.hpp"
 #include "detector.hpp"
 
-#include <map>
-#include <string>
-
 #include "uatraits/details/resource.hpp"
 #include "uatraits/details/xml_utils.hpp"
 #include "uatraits/details/detector_impl.hpp"
 
+#include "hash_utils.hpp"
+
 namespace uatraits { namespace perl {
 
-class hash;
+class hash_wrapper;
 
 class hash_assigner {
 
 public:
-	hash_assigner(hash *parent, std::string const &name);
+	hash_assigner(hash_wrapper *hash, std::string const &name);
 	hash_assigner& operator = (std::string const &value);
-
+	
 private:
-	hash *parent_;
-	std::string const name_;
+	hash_wrapper *hash_;
+	std::string const &name_;	
 };
 
-class hash : public enumeration<detector::item> {
+class hash_wrapper {
 
 public:
-	hash();
-	virtual ~hash();
-	
-	bool empty() const;
-	detector::item next() const;
-
+	hash_wrapper(void *hv);
 	hash_assigner operator [] (std::string const &name);
 	void set(std::string const &name, std::string const &value);
-	
-private:
-	hash(hash const &);
-	hash& operator = (hash const &);
-	typedef std::map<std::string, std::string> map_type;
-	
-	void reset();
 
 private:
-	map_type map_;
-	map_type::const_iterator end_;
-	map_type::const_iterator mutable begin_;
+	void *hash_value_;
 };
 
-detector::detector(char const *name) :
+detector::detector(char const *file) :
 	impl_()
 {
 	using namespace details;
-	resource<xmlDocPtr, xml_doc_traits> doc(xmlParseFile(name));
+	resource<xmlDocPtr, xml_doc_traits> doc(xmlParseFile(file));
 	xml_throw_unless(doc);
 	impl_.reset(new impl_type(doc.get()));
 }
@@ -60,60 +45,36 @@ detector::detector(char const *name) :
 detector::~detector() {
 }
 
-enumeration<detector::item>::pointer
-detector::detect(char const *begin, char const *end) const {
-	shared_ptr<hash> result(new hash());
-	impl_->detect(begin, end, *result);
-	return result.cast<enumeration<detector::item>::type>();
+void
+detector::detect(char const *begin, char const *end, void *hv) const {
+	hash_wrapper wrapper(hv);
+	impl_->detect(begin, end, wrapper);
 }
 
-hash_assigner::hash_assigner(hash *parent, std::string const &name) :
-	parent_(parent), name_(name)
+hash_assigner::hash_assigner(hash_wrapper *hash, std::string const &name) :
+	hash_(hash), name_(name)
 {
 }
 
 hash_assigner&
 hash_assigner::operator = (std::string const &value) {
-	parent_->set(name_, value);
+	hash_->set(name_, value);
+	return *this;
 }
 
-hash::hash()
+hash_wrapper::hash_wrapper(void *hv) :
+	hash_value_(hv)
 {
 }
 
-hash::~hash() {
-}
-
-bool
-hash::empty() const {
-	return map_.empty() ? true : begin_ == end_;
-}
-
-detector::item
-hash::next() const {
-	assert(!empty());
-	std::string const &name = begin_->first;
-	std::string const &value = begin_->second;
-	std::pair<char const*, char const*> result(name.c_str(), value.c_str());
-	++begin_;
-	return result;
-}
-
 hash_assigner
-hash::operator [] (std::string const &name) {
+hash_wrapper::operator [] (std::string const &name) {
 	return hash_assigner(this, name);
 }
 
 void
-hash::set(std::string const &name, std::string const &value) {
-	map_[name] = value;
-	reset();
-}
-
-void
-hash::reset() {
-	end_ = map_.end();
-	begin_ = map_.begin();
+hash_wrapper::set(std::string const &name, std::string const &value) {
+	hash_value_set(hash_value_, name.c_str(), name.size(), value.c_str(), value.size());
 }
 
 }} // namespaces

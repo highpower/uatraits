@@ -21,7 +21,6 @@
 #include <cstring>
 #include <cassert>
 #include <iterator>
-#include <iostream>
 #include <algorithm>
 #include <functional>
 
@@ -281,14 +280,6 @@ operator <= (range<Iter> const &value, range<Other> const &other) {
 template <typename Iter, typename Other> inline bool
 operator >= (range<Iter> const &value, range<Other> const &other) {
 	return !operator < (value, other);
-}
-
-template <typename Iter, typename Char, typename Traits> inline std::basic_ostream<Char, Traits>&
-operator << (std::basic_ostream<Char, Traits> &stream, range<Iter> const &value) {
-	if (!value.empty()) {
-		std::copy(value.begin(), value.end(), std::ostream_iterator<typename range<Iter>::value_type, Char, Traits>(stream));
-	}
-	return stream;
 }
 
 template <typename Sequence> inline range<typename Sequence::const_iterator> 
