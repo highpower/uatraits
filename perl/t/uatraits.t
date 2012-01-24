@@ -5,7 +5,7 @@
 
 # change 'tests => 1' to 'tests => last_test_to_print';
 use strict;
-use Test::More ;
+use Test::More tests => 8;
 BEGIN { use_ok('uatraits') };
 
 #########################
@@ -42,7 +42,7 @@ is( $@, '', "no errors");
 #        return;
     } else {
         my $resp = $obj->detect('Mozilla/5.0 (Linux; U; Android 2.3; ru-ru; Desire_A8181 Build/FRF91) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1');
-        ok( $resp, "detect returns responce");
+        isnt( $resp, undef, "detect returns responce");
         is( ref( $resp) , 'HASH', "resp is hash");
     }
 #    done_testing();
