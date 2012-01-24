@@ -2,6 +2,8 @@ Source: libuatraits
 Priority: extra
 Maintainer: Oleg Obolenskiy <highpower@yandex-team.ru>
 Build-Depends: debhelper (>= 7),
+ pkg-config,
+ libxml2-dev,
  libboost-dev,
  libboost-test-dev,
  libpcre3-dev
