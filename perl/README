@@ -25,7 +25,17 @@ DEPENDENCIES
 
 This module requires these other modules and libraries:
 
-  blah blah blah
+    Test::More 0.98
+    JSON::XS 2.3
+
+Easy way to install then using cpanminus
+first install cpanm
+
+    curl -L http://cpanmin.us | perl - --sudo App::cpanminus
+
+second install modules
+
+    sudo cmapn JSON::XS Test::More
 
 COPYRIGHT AND LICENCE
 
