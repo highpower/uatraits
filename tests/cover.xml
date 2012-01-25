@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet?>
+<?xml-stylesheet type="text/xsl" href="cover.xsl"?>
 <tests>
  <test>
   <question>Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/532.5 (KHTML, like Gecko) Chrome/4.0.249.0 Safari/532.5</question>
@@ -1431,7 +1431,7 @@
   </answer>
  </test>
  <test>
-  <question>Mozilla/5.0 (Linux U; en-US)  AppleWebKit/528.5+ (KHTML, like Gecko, Safari/528.5+) Version/4.0 Kindle/3.0 (screen 600x800; rotate)</question>
+  <question>Mozilla/5.0 (Linux U; en-US) AppleWebKit/528.5+ (KHTML, like Gecko, Safari/528.5+) Version/4.0 Kindle/3.0 (screen 600x800; rotate)</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">WebKit</field>
@@ -2267,13 +2267,13 @@
   </answer>
  </test>
  <test>
-  <question>Opera/9.80 (Windows NT 5.1; U; MRA 5.5 (build 02842); ru) Presto/2.9.168 Version/11.51	279192</question>
+  <question>Opera/9.80 (Windows NT 5.1; U; MRA 5.5 (build 02842); ru) Presto/2.9.168 Version/11.51279192</question>
   <answer>
    <field name="isMobile">false</field>
    <field name="BrowserEngine">Presto</field>
    <field name="BrowserEngineVersion">2.9.168</field>
    <field name="BrowserName">Opera</field>
-   <field name="BrowserVersion">11.51</field>
+   <field name="BrowserVersion">11.51279192</field>
    <field name="MailRuAgent">true</field>
    <field name="MailRuAgentVersion">5.5</field>
    <field name="OSFamily">Windows</field>
@@ -2281,7 +2281,7 @@
   </answer>
  </test>
  <test>
-  <question>Opera/9.80 (Series 60; Opera Mini/6.1.25570/26.958; U; ru) Presto/2.8.119 Version/10.54	78463</question>
+  <question>Opera/9.80 (Series 60; Opera Mini/6.1.25570/26.958; U; ru) Presto/2.8.119 Version/10.5478463</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Presto</field>
@@ -2292,7 +2292,7 @@
   </answer>
  </test>
  <test>
-  <question>Opera/9.80 (Series 60; Opera Mini/6.24455/26.958; U; ru) Presto/2.8.119 Version/10.54	64817</question>
+  <question>Opera/9.80 (Series 60; Opera Mini/6.24455/26.958; U; ru) Presto/2.8.119 Version/10.5464817</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Presto</field>
@@ -2303,7 +2303,7 @@
   </answer>
  </test>
  <test>
-  <question>Opera/9.80 (Series 60; Opera Mini/6.1.25585/26.958; U; ru) Presto/2.8.119 Version/10.54	51151</question>
+  <question>Opera/9.80 (Series 60; Opera Mini/6.1.25585/26.958; U; ru) Presto/2.8.119 Version/10.5451151</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Presto</field>
@@ -2314,7 +2314,7 @@
   </answer>
  </test>
  <test>
-  <question>Opera/9.80 (Series 60; Opera Mini/6.1.26266/26.958; U; ru) Presto/2.8.119 Version/10.54	50775</question>
+  <question>Opera/9.80 (Series 60; Opera Mini/6.1.26266/26.958; U; ru) Presto/2.8.119 Version/10.5450775</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Presto</field>
@@ -2325,13 +2325,13 @@
   </answer>
  </test>
  <test>
-  <question>Opera/9.80 (Windows NT 5.1; U; MRA 5.7 (build 03797); ru) Presto/2.9.168 Version/11.51	42683</question>
+  <question>Opera/9.80 (Windows NT 5.1; U; MRA 5.7 (build 03797); ru) Presto/2.9.168 Version/11.5142683</question>
   <answer>
    <field name="isMobile">false</field>
    <field name="BrowserEngine">Presto</field>
    <field name="BrowserEngineVersion">2.9.168</field>
    <field name="BrowserName">Opera</field>
-   <field name="BrowserVersion">11.51</field>
+   <field name="BrowserVersion">11.5142683</field>
    <field name="MailRuAgent">true</field>
    <field name="MailRuAgentVersion">5.7</field>
    <field name="OSFamily">Windows</field>
@@ -2339,7 +2339,7 @@
   </answer>
  </test>
  <test>
-  <question>Opera/9.80 (Windows Mobile; Opera Mini/5.1.21594/26.958; U; ru) Presto/2.8.119 Version/10.54	31082</question>
+  <question>Opera/9.80 (Windows Mobile; Opera Mini/5.1.21594/26.958; U; ru) Presto/2.8.119 Version/10.5431082</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Presto</field>
@@ -2350,13 +2350,13 @@
   </answer>
  </test>
  <test>
-  <question>Opera/9.80 (Windows NT 5.1; U; MRA 5.8 (build 4598); ru) Presto/2.9.168 Version/11.51	26812</question>
+  <question>Opera/9.80 (Windows NT 5.1; U; MRA 5.8 (build 4598); ru) Presto/2.9.168 Version/11.5126812</question>
   <answer>
    <field name="isMobile">false</field>
    <field name="BrowserEngine">Presto</field>
    <field name="BrowserEngineVersion">2.9.168</field>
    <field name="BrowserName">Opera</field>
-   <field name="BrowserVersion">11.51</field>
+   <field name="BrowserVersion">11.5126812</field>
    <field name="MailRuAgent">true</field>
    <field name="MailRuAgentVersion">5.8</field>
    <field name="OSFamily">Windows</field>
@@ -2364,7 +2364,7 @@
   </answer>
  </test>
  <test>
-  <question>Opera/9.80 (Series 60; Opera Mini/6.1.25380/26.958; U; ru) Presto/2.8.119 Version/10.54	19203</question>
+  <question>Opera/9.80 (Series 60; Opera Mini/6.1.25380/26.958; U; ru) Presto/2.8.119 Version/10.5419203</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Presto</field>
@@ -2375,7 +2375,7 @@
   </answer>
  </test>
  <test>
-  <question>SAMSUNG-GT-S5230/S523MXEJF1 SHP/VPP/R5 Jasmine/1.0 Nextreaming SMM-MMS/1.2.0 profile/MIDP-2.1 configuration/CLDC-1.1	19153</question>
+  <question>SAMSUNG-GT-S5230/S523MXEJF1 SHP/VPP/R5 Jasmine/1.0 Nextreaming SMM-MMS/1.2.0 profile/MIDP-2.1 configuration/CLDC-1.119153</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Proprietary</field>
@@ -2386,7 +2386,7 @@
   </answer>
  </test>
  <test>
-  <question>Mozilla/5.0 (SAMSUNG; SAMSUNG-GT-S5250/S5250XEKC1; U; Bada/1.0; ru-ru) AppleWebKit/533.1 (KHTML, like Gecko) Dolfin/2.0 Mobile WQVGA SMM-MMS/1.2.0 NexPlayer/3.0 profile/MIDP-2.1 configuration/CLDC-1.1 OPN-B	12904</question>
+  <question>Mozilla/5.0 (SAMSUNG; SAMSUNG-GT-S5250/S5250XEKC1; U; Bada/1.0; ru-ru) AppleWebKit/533.1 (KHTML, like Gecko) Dolfin/2.0 Mobile WQVGA SMM-MMS/1.2.0 NexPlayer/3.0 profile/MIDP-2.1 configuration/CLDC-1.1 OPN-B12904</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">WebKit</field>
@@ -2399,7 +2399,7 @@
   </answer>
  </test>
  <test>
-  <question>SAMSUNG-GT-S5233T/S5233TXEJE3 SHP/VPP/R5 Jasmine/0.8 Qtv5.3 SMM-MMS/1.2.0 profile/MIDP-2.1 configuration/CLDC-1.1	12647</question>
+  <question>SAMSUNG-GT-S5233T/S5233TXEJE3 SHP/VPP/R5 Jasmine/0.8 Qtv5.3 SMM-MMS/1.2.0 profile/MIDP-2.1 configuration/CLDC-1.112647</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Proprietary</field>
@@ -2410,7 +2410,7 @@
   </answer>
  </test>
  <test>
-  <question>SAMSUNG-GT-S5230/S523MREJF2 SHP/VPP/R5 Jasmine/1.0 Nextreaming SMM-MMS/1.2.0 profile/MIDP-2.1 configuration/CLDC-1.1	11970</question>
+  <question>SAMSUNG-GT-S5230/S523MREJF2 SHP/VPP/R5 Jasmine/1.0 Nextreaming SMM-MMS/1.2.0 profile/MIDP-2.1 configuration/CLDC-1.111970</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Proprietary</field>
@@ -2421,18 +2421,18 @@
   </answer>
  </test>
  <test>
-  <question>Opera/9.80 (S60; SymbOS; Opera Mobi/498; U; ru) Presto/2.4.18 Version/10.00	11112</question>
+  <question>Opera/9.80 (S60; SymbOS; Opera Mobi/498; U; ru) Presto/2.4.18 Version/10.0011112</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Presto</field>
    <field name="BrowserEngineVersion">2.4.18</field>
    <field name="BrowserName">Opera Mobile</field>
-   <field name="BrowserVersion">10.00</field>
+   <field name="BrowserVersion">10.0011112</field>
    <field name="OSFamily">Symbian</field>
   </answer>
  </test>
  <test>
-  <question>SAMSUNG-GT-S5230/S523MXEIL2 SHP/VPP/R5 Jasmine/1.0 Nextreaming SMM-MMS/1.2.0 profile/MIDP-2.1 configuration/CLDC-1.1	9937</question>
+  <question>SAMSUNG-GT-S5230/S523MXEIL2 SHP/VPP/R5 Jasmine/1.0 Nextreaming SMM-MMS/1.2.0 profile/MIDP-2.1 configuration/CLDC-1.19937</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Proprietary</field>
@@ -2443,7 +2443,7 @@
   </answer>
  </test>
  <test>
-  <question>HTC_HD2_T8585 Opera/9.7 (Windows NT 5.1; U; ru)	9303</question>
+  <question>HTC_HD2_T8585 Opera/9.7 (Windows NT 5.1; U; ru)9303</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Presto</field>
@@ -2453,7 +2453,7 @@
   </answer>
  </test>
  <test>
-  <question>Mozilla/5.0 (SAMSUNG; SAMSUNG-GT-S8530/S8530XEJL4; U; Bada/1.2; ru-ru) AppleWebKit/533.1 (KHTML, like Gecko) Dolfin/2.2 Mobile WVGA SMM-MMS/1.2.0 NexPlayer/3.0 profile/MIDP-2.1 configuration/CLDC-1.1 OPN-B	8795</question>
+  <question>Mozilla/5.0 (SAMSUNG; SAMSUNG-GT-S8530/S8530XEJL4; U; Bada/1.2; ru-ru) AppleWebKit/533.1 (KHTML, like Gecko) Dolfin/2.2 Mobile WVGA SMM-MMS/1.2.0 NexPlayer/3.0 profile/MIDP-2.1 configuration/CLDC-1.1 OPN-B8795</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">WebKit</field>
@@ -2466,29 +2466,29 @@
   </answer>
  </test>
  <test>
-  <question>Opera/9.80 (S60; SymbOS; Opera Mobi/SYB-1107071604; U; ru) Presto/2.8.149 Version/11.10	6696</question>
+  <question>Opera/9.80 (S60; SymbOS; Opera Mobi/SYB-1107071604; U; ru) Presto/2.8.149 Version/11.106696</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Presto</field>
    <field name="BrowserEngineVersion">2.8.149</field>
    <field name="BrowserName">Opera Mobile</field>
-   <field name="BrowserVersion">11.10</field>
+   <field name="BrowserVersion">11.106696</field>
    <field name="OSFamily">Symbian</field>
   </answer>
  </test>
  <test>
-  <question>Opera/9.80 (S60; SymbOS; Opera Mobi/SYB-1104051448; U; ru) Presto/2.7.81 Version/11.00	5752</question>
+  <question>Opera/9.80 (S60; SymbOS; Opera Mobi/SYB-1104051448; U; ru) Presto/2.7.81 Version/11.005752</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Presto</field>
    <field name="BrowserEngineVersion">2.7.81</field>
    <field name="BrowserName">Opera Mobile</field>
-   <field name="BrowserVersion">11.00</field>
+   <field name="BrowserVersion">11.005752</field>
    <field name="OSFamily">Symbian</field>
   </answer>
  </test>
  <test>
-  <question>Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_3; HTC_Sensation_Z710e; ru-ru) AppleWebKit/533.16 (KHTML, like Gecko) Version/5.0 Safari/533.16	3513</question>
+  <question>Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_3; HTC_Sensation_Z710e; ru-ru) AppleWebKit/533.16 (KHTML, like Gecko) Version/5.0 Safari/533.163513</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">WebKit</field>
@@ -2500,7 +2500,7 @@
   </answer>
  </test>
  <test>
-  <question>Opera/9.80 (Windows Mobile; Opera Mini/5.1.21595/26.958; U; ru) Presto/2.8.119 Version/10.54	3396</question>
+  <question>Opera/9.80 (Windows Mobile; Opera Mini/5.1.21595/26.958; U; ru) Presto/2.8.119 Version/10.543396</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Presto</field>
@@ -2511,7 +2511,7 @@
   </answer>
  </test>
  <test>
-  <question>SAMSUNG-GT-E2121B/E2121BXXKC1 Profile/MIDP-2.0 Configuration/CLDC-1.1 UP.Browser/6.2.3.3.c.1.101 (GUI) MMP/2.0	3370</question>
+  <question>SAMSUNG-GT-E2121B/E2121BXXKC1 Profile/MIDP-2.0 Configuration/CLDC-1.1 UP.Browser/6.2.3.3.c.1.101 (GUI) MMP/2.03370</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Proprietary</field>
@@ -2522,18 +2522,18 @@
   </answer>
  </test>
  <test>
-  <question>Opera/9.80 (Windows Mobile; WCE; Opera Mobi/WMD-50433; U; ru) Presto/2.4.13 Version/10.00	3299</question>
+  <question>Opera/9.80 (Windows Mobile; WCE; Opera Mobi/WMD-50433; U; ru) Presto/2.4.13 Version/10.003299</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Presto</field>
    <field name="BrowserEngineVersion">2.4.13</field>
    <field name="BrowserName">Opera Mobile</field>
-   <field name="BrowserVersion">10.00</field>
+   <field name="BrowserVersion">10.003299</field>
    <field name="OSFamily">WindowsMobile</field>
   </answer>
  </test>
  <test>
-  <question>SAMSUNG-GT-S5620/S5620XEJE1 SHP/VPP/R5 Dolfin/1.5 Nextreaming SMM-MMS/1.2.0 profile/MIDP-2.1 configuration/CLDC-1.1	3298</question>
+  <question>SAMSUNG-GT-S5620/S5620XEJE1 SHP/VPP/R5 Dolfin/1.5 Nextreaming SMM-MMS/1.2.0 profile/MIDP-2.1 configuration/CLDC-1.13298</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Proprietary</field>
@@ -2543,7 +2543,7 @@
   </answer>
  </test>
  <test>
-  <question>Mozilla/5.0 (SAMSUNG; SAMSUNG-GT-S8500/S8500XEKC2; U; Bada/1.0; ru-ru) AppleWebKit/533.1 (KHTML, like Gecko) Dolfin/2.0 Mobile WVGA SMM-MMS/1.2.0 OPN-B	3119</question>
+  <question>Mozilla/5.0 (SAMSUNG; SAMSUNG-GT-S8500/S8500XEKC2; U; Bada/1.0; ru-ru) AppleWebKit/533.1 (KHTML, like Gecko) Dolfin/2.0 Mobile WVGA SMM-MMS/1.2.0 OPN-B3119</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">WebKit</field>
@@ -2556,7 +2556,7 @@
   </answer>
  </test>
  <test>
-  <question>SAMSUNG-GT-C6712/C6712XEKF1 SHP/VPP/R5 Dolfin/2.0 NexPlayer/3.0 SMM-MMS/1.2.0 profile/MIDP-2.1 configuration/CLDC-1.1 OPN-B	2888</question>
+  <question>SAMSUNG-GT-C6712/C6712XEKF1 SHP/VPP/R5 Dolfin/2.0 NexPlayer/3.0 SMM-MMS/1.2.0 profile/MIDP-2.1 configuration/CLDC-1.1 OPN-B2888</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Proprietary</field>
@@ -2566,7 +2566,7 @@
   </answer>
  </test>
  <test>
-  <question>HTC_Touch2_T3333 Opera/9.50 (Windows NT 5.1; U; ru)	2880</question>
+  <question>HTC_Touch2_T3333 Opera/9.50 (Windows NT 5.1; U; ru)2880</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Presto</field>
@@ -2576,7 +2576,7 @@
   </answer>
  </test>
  <test>
-  <question>SAMSUNG-GT-E2121B/E2121BXXJD5 Profile/MIDP-2.0 Configuration/CLDC-1.1 UP.Browser/6.2.3.3.c.1.101 (GUI) MMP/2.0	2805</question>
+  <question>SAMSUNG-GT-E2121B/E2121BXXJD5 Profile/MIDP-2.0 Configuration/CLDC-1.1 UP.Browser/6.2.3.3.c.1.101 (GUI) MMP/2.02805</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Proprietary</field>
@@ -2587,7 +2587,7 @@
   </answer>
  </test>
  <test>
-  <question>Mozilla/5.0 (SAMSUNG; SAMSUNG-GT-S8530/S8530XEJK6; U; Bada/1.2; ru-ru) AppleWebKit/533.1 (KHTML, like Gecko) Dolfin/2.2 Mobile WVGA SMM-MMS/1.2.0 NexPlayer/3.0 profile/MIDP-2.1 configuration/CLDC-1.1 OPN-B	2758</question>
+  <question>Mozilla/5.0 (SAMSUNG; SAMSUNG-GT-S8530/S8530XEJK6; U; Bada/1.2; ru-ru) AppleWebKit/533.1 (KHTML, like Gecko) Dolfin/2.2 Mobile WVGA SMM-MMS/1.2.0 NexPlayer/3.0 profile/MIDP-2.1 configuration/CLDC-1.1 OPN-B2758</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">WebKit</field>
@@ -2600,17 +2600,17 @@
   </answer>
  </test>
  <test>
-  <question>SAMSUNG-SGH-i900/1.0 Opera 9.5	2611</question>
+  <question>SAMSUNG-SGH-i900/1.0 Opera 9.52611</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Presto</field>
    <field name="BrowserName">Opera Mobile</field>
-   <field name="BrowserVersion">9.5</field>
+   <field name="BrowserVersion">9.52611</field>
    <field name="OSFamily">UnknownOS</field>
   </answer>
  </test>
  <test>
-  <question>SAMSUNG-GT-S5260/S5260XEKD1 SHP/VPP/R5 Dolfin/2.0 NexPlayer/3.0 SMM-MMS/1.2.0 profile/MIDP-2.1 configuration/CLDC-1.1 OPN-B	2508</question>
+  <question>SAMSUNG-GT-S5260/S5260XEKD1 SHP/VPP/R5 Dolfin/2.0 NexPlayer/3.0 SMM-MMS/1.2.0 profile/MIDP-2.1 configuration/CLDC-1.1 OPN-B2508</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Proprietary</field>
@@ -2620,7 +2620,7 @@
   </answer>
  </test>
  <test>
-  <question>Mozilla/5.0 (SAMSUNG; SAMSUNG-GT-S5250/S5250XEKB1; U; Bada/1.0; ru-ru) AppleWebKit/533.1 (KHTML, like Gecko) Dolfin/2.0 Mobile WQVGA SMM-MMS/1.2.0 NexPlayer/3.0 profile/MIDP-2.1 configuration/CLDC-1.1 OPN-B	2498</question>
+  <question>Mozilla/5.0 (SAMSUNG; SAMSUNG-GT-S5250/S5250XEKB1; U; Bada/1.0; ru-ru) AppleWebKit/533.1 (KHTML, like Gecko) Dolfin/2.0 Mobile WQVGA SMM-MMS/1.2.0 NexPlayer/3.0 profile/MIDP-2.1 configuration/CLDC-1.1 OPN-B2498</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">WebKit</field>
@@ -2633,7 +2633,7 @@
   </answer>
  </test>
  <test>
-  <question>LG-GX500/V100 Obigo/WAP2.0 Profile/MIDP-2.1 Configuration/CLDC-1.1	2487</question>
+  <question>LG-GX500/V100 Obigo/WAP2.0 Profile/MIDP-2.1 Configuration/CLDC-1.12487</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Proprietary</field>
@@ -2643,7 +2643,7 @@
   </answer>
  </test>
  <test>
-  <question>Mozilla/5.0 (Series40; NokiaC2-03/06.51; Profile/MIDP-2.1 Configuration/CLDC-1.1) Gecko/20100401 S40OviBrowser/1.0.1.21.8.2	2404</question>
+  <question>Mozilla/5.0 (Series40; NokiaC2-03/06.51; Profile/MIDP-2.1 Configuration/CLDC-1.1) Gecko/20100401 S40OviBrowser/1.0.1.21.8.22404</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Proprietary</field>
@@ -2654,7 +2654,7 @@
   </answer>
  </test>
  <test>
-  <question>Mozilla/5.0 (compatible; MSIE 9.0; Windows Phone OS 7.5; Trident/5.0; IEMobile/9.0; HTC; 7 Mozart T8698)	2297</question>
+  <question>Mozilla/5.0 (compatible; MSIE 9.0; Windows Phone OS 7.5; Trident/5.0; IEMobile/9.0; HTC; 7 Mozart T8698)2297</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Trident</field>
@@ -2667,7 +2667,7 @@
   </answer>
  </test>
  <test>
-  <question>SAMSUNG-GT-B7722/XEJG6 SHP/VPP/R5 Dolfin/1.5 Nextreaming SMM-MMS/1.2.0 profile/MIDP-2.1 configuration/CLDC-1.1	2158</question>
+  <question>SAMSUNG-GT-B7722/XEJG6 SHP/VPP/R5 Dolfin/1.5 Nextreaming SMM-MMS/1.2.0 profile/MIDP-2.1 configuration/CLDC-1.12158</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Proprietary</field>
@@ -2677,7 +2677,7 @@
   </answer>
  </test>
  <test>
-  <question>SAMSUNG-GT-S5560/S5560XEJI2 SHP/VPP/R5 Dolfin/1.0 Nextreaming SMM-MMS/1.2.0 profile/MIDP-2.1 configuration/CLDC-1.1	2092</question>
+  <question>SAMSUNG-GT-S5560/S5560XEJI2 SHP/VPP/R5 Dolfin/1.0 Nextreaming SMM-MMS/1.2.0 profile/MIDP-2.1 configuration/CLDC-1.12092</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Proprietary</field>
@@ -2687,18 +2687,18 @@
   </answer>
  </test>
  <test>
-  <question>Opera/9.80 (Windows Mobile; WCE; Opera Mobi/WMD-50433; U; en) Presto/2.4.13 Version/10.00	1787</question>
+  <question>Opera/9.80 (Windows Mobile; WCE; Opera Mobi/WMD-50433; U; en) Presto/2.4.13 Version/10.001787</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Presto</field>
    <field name="BrowserEngineVersion">2.4.13</field>
    <field name="BrowserName">Opera Mobile</field>
-   <field name="BrowserVersion">10.00</field>
+   <field name="BrowserVersion">10.001787</field>
    <field name="OSFamily">WindowsMobile</field>
   </answer>
  </test>
  <test>
-  <question>Mozilla/4.0 (compatible; MSIE 4.01; Windows CE; PPC; 240x320)	1720</question>
+  <question>Mozilla/4.0 (compatible; MSIE 4.01; Windows CE; PPC; 240x320)1720</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Trident</field>
@@ -2709,27 +2709,27 @@
   </answer>
  </test>
  <test>
-  <question>MAUI WAP Browser	1629</question>
+  <question>MAUI WAP Browser1629</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="OSFamily">UnknownOS</field>
   </answer>
  </test>
  <test>
-  <question>Opera/9.80 (Windows NT 6.1; U; Edition Next; ru) Presto/2.9.220 Version/12.00	1609</question>
+  <question>Opera/9.80 (Windows NT 6.1; U; Edition Next; ru) Presto/2.9.220 Version/12.001609</question>
   <answer>
    <field name="isMobile">false</field>
    <field name="BrowserEngine">Presto</field>
    <field name="BrowserEngineVersion">2.9.220</field>
    <field name="BrowserName">Opera</field>
-   <field name="BrowserVersion">12.00</field>
+   <field name="BrowserVersion">12.001609</field>
    <field name="isBeta">true</field>
    <field name="OSFamily">Windows</field>
    <field name="OSVersion">Windows 7</field>
   </answer>
  </test>
  <test>
-  <question>HTC_Touch_Diamond2_T5353 Opera/9.7 (Windows NT 5.1; U; ru)	1512</question>
+  <question>HTC_Touch_Diamond2_T5353 Opera/9.7 (Windows NT 5.1; U; ru)1512</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Presto</field>
@@ -2739,7 +2739,7 @@
   </answer>
  </test>
  <test>
-  <question>Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; HTC_HD2_T8585; Windows Phone 6.5)	1495</question>
+  <question>Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; HTC_HD2_T8585; Windows Phone 6.5)1495</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Trident</field>
@@ -2750,7 +2750,7 @@
   </answer>
  </test>
  <test>
-  <question>SonyEricssonU5i/R2EA; Mozilla/5.0 (SymbianOS/9.4; U; Series60/5.0 Profile/MIDP-2.1 Configuration/CLDC-1.1) AppleWebKit/525 (KHTML, like Gecko) Version/3.0 Safari/525	1303</question>
+  <question>SonyEricssonU5i/R2EA; Mozilla/5.0 (SymbianOS/9.4; U; Series60/5.0 Profile/MIDP-2.1 Configuration/CLDC-1.1) AppleWebKit/525 (KHTML, like Gecko) Version/3.0 Safari/5251303</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">WebKit</field>
@@ -2762,7 +2762,7 @@
   </answer>
  </test>
  <test>
-  <question>HTC MAX 4G Opera/9.5 (Microsoft Windows; PPC; Opera Mobi/1409; U; ru)	1285</question>
+  <question>HTC MAX 4G Opera/9.5 (Microsoft Windows; PPC; Opera Mobi/1409; U; ru)1285</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Presto</field>
@@ -2772,7 +2772,7 @@
   </answer>
  </test>
  <test>
-  <question>HTC_Touch_Diamond2_T5353 Opera/9.50 (Windows NT 5.1; U; ru)	1170</question>
+  <question>HTC_Touch_Diamond2_T5353 Opera/9.50 (Windows NT 5.1; U; ru)1170</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Presto</field>
@@ -2782,17 +2782,17 @@
   </answer>
  </test>
  <test>
-  <question>SAMSUNG-GT-i8000/1.0 (Windows CE; Opera Mobi; U; en) Opera 9.5	1122</question>
+  <question>SAMSUNG-GT-i8000/1.0 (Windows CE; Opera Mobi; U; en) Opera 9.51122</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Presto</field>
    <field name="BrowserName">Opera Mobile</field>
-   <field name="BrowserVersion">9.5</field>
+   <field name="BrowserVersion">9.51122</field>
    <field name="OSFamily">WindowsMobile</field>
   </answer>
  </test>
  <test>
-  <question>HD_mini_T5555 Opera/9.7 (Windows NT 5.1; U; ru)	1093</question>
+  <question>HD_mini_T5555 Opera/9.7 (Windows NT 5.1; U; ru)1093</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Presto</field>
@@ -2802,7 +2802,7 @@
   </answer>
  </test>
  <test>
-  <question>Mozilla/5.0 (X11; U; Linux armv7l; ru-RU; rv:1.9.2.3pre) Gecko/20100723 Firefox/3.5 Maemo Browser 1.7.4.8 RX-51 N900	920</question>
+  <question>Mozilla/5.0 (X11; U; Linux armv7l; ru-RU; rv:1.9.2.3pre) Gecko/20100723 Firefox/3.5 Maemo Browser 1.7.4.8 RX-51 N900920</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Gecko</field>
@@ -2814,7 +2814,7 @@
   </answer>
  </test>
  <test>
-  <question>Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_3; HTC_IncredibleS_S710e; ru-ru) AppleWebKit/533.16 (KHTML, like Gecko) Version/5.0 Safari/533.16	908</question>
+  <question>Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_3; HTC_IncredibleS_S710e; ru-ru) AppleWebKit/533.16 (KHTML, like Gecko) Version/5.0 Safari/533.16908</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">WebKit</field>
@@ -2826,7 +2826,7 @@
   </answer>
  </test>
  <test>
-  <question>Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; Windows Phone 6.5)	872</question>
+  <question>Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; Windows Phone 6.5)872</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Trident</field>
@@ -2837,7 +2837,7 @@
   </answer>
  </test>
  <test>
-  <question>Opera/9.7 (WindowsMobile; PPC; Opera Mobi/35267; U; ru; Presto/2.1.1)	848</question>
+  <question>Opera/9.7 (WindowsMobile; PPC; Opera Mobi/35267; U; ru; Presto/2.1.1)848</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Presto</field>
@@ -2848,7 +2848,7 @@
   </answer>
  </test>
  <test>
-  <question>LG-S310/V100 Obigo/WAP2.0 Profile/MIDP-2.1 Configuration/CLDC-1.1	774</question>
+  <question>LG-S310/V100 Obigo/WAP2.0 Profile/MIDP-2.1 Configuration/CLDC-1.1774</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Proprietary</field>
@@ -2858,7 +2858,7 @@
   </answer>
  </test>
  <test>
-  <question>HD_mini_T5555 Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; IEMobile 8.12; MSIEMobile 6.5)	721</question>
+  <question>HD_mini_T5555 Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; IEMobile 8.12; MSIEMobile 6.5)721</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Trident</field>
@@ -2869,7 +2869,7 @@
   </answer>
  </test>
  <test>
-  <question>Mozilla/5.0 (SymbianOS/9.4; U; Series60/5.0 Samsung/I8910; Profile/MIDP-2.1 Configuration/CLDC-1.1 ) AppleWebKit/525 (KHTML, like Gecko) Version/3.0 Safari/525	712</question>
+  <question>Mozilla/5.0 (SymbianOS/9.4; U; Series60/5.0 Samsung/I8910; Profile/MIDP-2.1 Configuration/CLDC-1.1 ) AppleWebKit/525 (KHTML, like Gecko) Version/3.0 Safari/525712</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">WebKit</field>
@@ -2881,31 +2881,31 @@
   </answer>
  </test>
  <test>
-  <question>Opera/9.80 (Windows Mobile; WCE; Opera Mobi/WMD-50430; U; ru) Presto/2.4.13 Version/10.00	625</question>
+  <question>Opera/9.80 (Windows Mobile; WCE; Opera Mobi/WMD-50430; U; ru) Presto/2.4.13 Version/10.00625</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Presto</field>
    <field name="BrowserEngineVersion">2.4.13</field>
    <field name="BrowserName">Opera Mobile</field>
-   <field name="BrowserVersion">10.00</field>
+   <field name="BrowserVersion">10.00625</field>
    <field name="OSFamily">WindowsMobile</field>
   </answer>
  </test>
  <test>
-  <question>Opera/9.80 (Windows NT 5.1; U; Edition Next; ru) Presto/2.9.168 Version/11.51	621</question>
+  <question>Opera/9.80 (Windows NT 5.1; U; Edition Next; ru) Presto/2.9.168 Version/11.51621</question>
   <answer>
    <field name="isMobile">false</field>
    <field name="BrowserEngine">Presto</field>
    <field name="BrowserEngineVersion">2.9.168</field>
    <field name="BrowserName">Opera</field>
-   <field name="BrowserVersion">11.51</field>
+   <field name="BrowserVersion">11.51621</field>
    <field name="isBeta">true</field>
    <field name="OSFamily">Windows</field>
    <field name="OSVersion">Windows XP</field>
   </answer>
  </test>
  <test>
-  <question>Mozilla/2.0 (compatible; MSIE 3.02; Windows CE; 240x320)	593</question>
+  <question>Mozilla/2.0 (compatible; MSIE 3.02; Windows CE; 240x320)593</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Trident</field>
@@ -2916,7 +2916,7 @@
   </answer>
  </test>
  <test>
-  <question>LG-GS290/V100 Obigo/WAP2.0 Profile/MIDP-2.1 Configuration/CLDC-1.1	559</question>
+  <question>LG-GS290/V100 Obigo/WAP2.0 Profile/MIDP-2.1 Configuration/CLDC-1.1559</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Proprietary</field>
@@ -2926,14 +2926,14 @@
   </answer>
  </test>
  <test>
-  <question>MobileSafari/6533.18.5 CFNetwork/485.13.9 Darwin/11.0.0	529</question>
+  <question>MobileSafari/6533.18.5 CFNetwork/485.13.9 Darwin/11.0.0529</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="OSFamily">UnknownOS</field>
   </answer>
  </test>
  <test>
-  <question>Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; HTC_Touch2_T3333; Windows Phone 6.5)	525</question>
+  <question>Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; HTC_Touch2_T3333; Windows Phone 6.5)525</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Trident</field>
@@ -2944,7 +2944,7 @@
   </answer>
  </test>
  <test>
-  <question>LG-KP501 Teleca/WAP2.0 MIDP-2.0/CLDC-1.1	499</question>
+  <question>LG-KP501 Teleca/WAP2.0 MIDP-2.0/CLDC-1.1499</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Proprietary</field>
@@ -2954,13 +2954,13 @@
   </answer>
  </test>
  <test>
-  <question>Opera/9.80 (Windows NT 5.1; U; YB/3.5.1; ru) Presto/2.8.131 Version/11.11	498</question>
+  <question>Opera/9.80 (Windows NT 5.1; U; YB/3.5.1; ru) Presto/2.8.131 Version/11.11498</question>
   <answer>
    <field name="isMobile">false</field>
    <field name="BrowserEngine">Presto</field>
    <field name="BrowserEngineVersion">2.8.131</field>
    <field name="BrowserName">Opera</field>
-   <field name="BrowserVersion">11.11</field>
+   <field name="BrowserVersion">11.11498</field>
    <field name="YandexBar">true</field>
    <field name="YandexBarVersion">3.5.1</field>
    <field name="OSFamily">Windows</field>
@@ -2968,7 +2968,7 @@
   </answer>
  </test>
  <test>
-  <question>HTC_HD2_T8585 Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; IEMobile 8.12; MSIEMobile 6.0)	497</question>
+  <question>HTC_HD2_T8585 Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; IEMobile 8.12; MSIEMobile 6.0)497</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Trident</field>
@@ -2979,7 +2979,7 @@
   </answer>
  </test>
  <test>
-  <question>Mozilla/5.0 (Series40; NokiaC2-06/06.51; Profile/MIDP-2.1 Configuration/CLDC-1.1) Gecko/20100401 S40OviBrowser/1.0.1.21.8.2	473</question>
+  <question>Mozilla/5.0 (Series40; NokiaC2-06/06.51; Profile/MIDP-2.1 Configuration/CLDC-1.1) Gecko/20100401 S40OviBrowser/1.0.1.21.8.2473</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Proprietary</field>
@@ -2990,7 +2990,7 @@
   </answer>
  </test>
  <test>
-  <question>SonyEricssonU5i/R2AA; Mozilla/5.0 (SymbianOS/9.4; U; Series60/5.0 Profile/MIDP-2.1 Configuration/CLDC-1.1) AppleWebKit/525 (KHTML, like Gecko) Version/3.0 Safari/525	467</question>
+  <question>SonyEricssonU5i/R2AA; Mozilla/5.0 (SymbianOS/9.4; U; Series60/5.0 Profile/MIDP-2.1 Configuration/CLDC-1.1) AppleWebKit/525 (KHTML, like Gecko) Version/3.0 Safari/525467</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">WebKit</field>
@@ -3002,20 +3002,20 @@
   </answer>
  </test>
  <test>
-  <question>Opera/9.80 (Windows NT 6.0; U; Edition Next; ru) Presto/2.9.220 Version/12.00	406</question>
+  <question>Opera/9.80 (Windows NT 6.0; U; Edition Next; ru) Presto/2.9.220 Version/12.00406</question>
   <answer>
    <field name="isMobile">false</field>
    <field name="BrowserEngine">Presto</field>
    <field name="BrowserEngineVersion">2.9.220</field>
    <field name="BrowserName">Opera</field>
-   <field name="BrowserVersion">12.00</field>
+   <field name="BrowserVersion">12.00406</field>
    <field name="isBeta">true</field>
    <field name="OSFamily">Windows</field>
    <field name="OSVersion">Windows Vista</field>
   </answer>
  </test>
  <test>
-  <question>LG-P520/V100 Obigo/Q7.3 MMS/LG-MMS-V1.1/1.2 MediaPlayer/LGPlayer/1.0 Java/ASVM/1.1 Profile/MIDP-2.1 Configuration/CLDC-1.1	395</question>
+  <question>LG-P520/V100 Obigo/Q7.3 MMS/LG-MMS-V1.1/1.2 MediaPlayer/LGPlayer/1.0 Java/ASVM/1.1 Profile/MIDP-2.1 Configuration/CLDC-1.1395</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Proprietary</field>
@@ -3026,20 +3026,20 @@
   </answer>
  </test>
  <test>
-  <question>Opera/9.80 (Windows NT 5.1; U; MRA 5.7 (build 3649); MRSPUTNIK OW 2, 3, 0, 216; ru) Presto/2.9.168 Version/11.51	377</question>
+  <question>Opera/9.80 (Windows NT 5.1; U; MRA 5.7 (build 3649); MRSPUTNIK OW 2, 3, 0, 216; ru) Presto/2.9.168 Version/11.51377</question>
   <answer>
    <field name="isMobile">false</field>
    <field name="BrowserEngine">Presto</field>
    <field name="BrowserEngineVersion">2.9.168</field>
    <field name="BrowserName">Opera</field>
-   <field name="BrowserVersion">11.51</field>
+   <field name="BrowserVersion">11.51377</field>
    <field name="MailRuSputnik">true</field>
    <field name="OSFamily">Windows</field>
    <field name="OSVersion">Windows XP</field>
   </answer>
  </test>
  <test>
-  <question>Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; HTC_Touch_Diamond2_T5353; Windows Phone 6.5)	368</question>
+  <question>Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; HTC_Touch_Diamond2_T5353; Windows Phone 6.5)368</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Trident</field>
@@ -3050,7 +3050,7 @@
   </answer>
  </test>
  <test>
-  <question>SAMSUNG-GT-i8000/1.0 (compatible; MSIE 6.0; Windows CE; IEMobile 8.12; MSIEMobile 6.0)	351</question>
+  <question>SAMSUNG-GT-i8000/1.0 (compatible; MSIE 6.0; Windows CE; IEMobile 8.12; MSIEMobile 6.0)351</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Trident</field>
@@ -3061,29 +3061,29 @@
   </answer>
  </test>
  <test>
-  <question>HTC_Smart_F3188 Mozilla/5.0 (like Gecko) Obigo/Q7	351</question>
+  <question>HTC_Smart_F3188 Mozilla/5.0 (like Gecko) Obigo/Q7351</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Proprietary</field>
    <field name="BrowserName">Obigo</field>
    <field name="isWAP">true</field>
-   <field name="BrowserVersion">7</field>
+   <field name="BrowserVersion">7351</field>
    <field name="OSFamily">UnknownOS</field>
   </answer>
  </test>
  <test>
-  <question>Fly_E190 Wi-Fi    Opera/9.80 (MTK; Nucleus; U; ru-RU) Presto/2.4.18 Version/10.00	338</question>
+  <question>Fly_E190 Wi-Fi Opera/9.80 (MTK; Nucleus; U; ru-RU) Presto/2.4.18 Version/10.00338</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Presto</field>
    <field name="BrowserEngineVersion">2.4.18</field>
    <field name="BrowserName">Opera Mobile</field>
-   <field name="BrowserVersion">10.00</field>
+   <field name="BrowserVersion">10.00338</field>
    <field name="OSFamily">UnknownOS</field>
   </answer>
  </test>
  <test>
-  <question>Mozilla/5.0 (Linux; U; en-US) AppleWebKit/528.5+ (KHTML, like Gecko, Safari/528.5+) Version/4.0 Kindle/3.0 (screen 600x800; rotate)	334</question>
+  <question>Mozilla/5.0 (Linux; U; en-US) AppleWebKit/528.5+ (KHTML, like Gecko, Safari/528.5+) Version/4.0 Kindle/3.0 (screen 600x800; rotate)334</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">WebKit</field>
@@ -3094,32 +3094,32 @@
   </answer>
  </test>
  <test>
-  <question>Opera/9.80 (Windows NT 6.1; U; MRA 5.6 (build 03278); MRSPUTNIK OW 2, 3, 0, 288; ru) Presto/2.9.168 Version/11.51	332</question>
+  <question>Opera/9.80 (Windows NT 6.1; U; MRA 5.6 (build 03278); MRSPUTNIK OW 2, 3, 0, 288; ru) Presto/2.9.168 Version/11.51332</question>
   <answer>
    <field name="isMobile">false</field>
    <field name="BrowserEngine">Presto</field>
    <field name="BrowserEngineVersion">2.9.168</field>
    <field name="BrowserName">Opera</field>
-   <field name="BrowserVersion">11.51</field>
+   <field name="BrowserVersion">11.51332</field>
    <field name="MailRuSputnik">true</field>
    <field name="OSFamily">Windows</field>
    <field name="OSVersion">Windows 7</field>
   </answer>
  </test>
  <test>
-  <question>Opera/9.80 (Linux armv7l; Maemo; Opera Mobi/9; U; ru) Presto/2.7.81 Version/11.00	329</question>
+  <question>Opera/9.80 (Linux armv7l; Maemo; Opera Mobi/9; U; ru) Presto/2.7.81 Version/11.00329</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Presto</field>
    <field name="BrowserEngineVersion">2.7.81</field>
    <field name="BrowserName">Opera Mobile</field>
-   <field name="BrowserVersion">11.00</field>
+   <field name="BrowserVersion">11.00329</field>
    <field name="OSFamily">MeeGo</field>
    <field name="isTouch">true</field>
   </answer>
  </test>
  <test>
-  <question>SonyEricssonU1i/R2AA; Mozilla/5.0 (SymbianOS/9.4; U; Series60/5.0 Profile/MIDP-2.1 Configuration/CLDC-1.1) AppleWebKit/525 (KHTML, like Gecko) Version/3.0 Safari/525	327</question>
+  <question>SonyEricssonU1i/R2AA; Mozilla/5.0 (SymbianOS/9.4; U; Series60/5.0 Profile/MIDP-2.1 Configuration/CLDC-1.1) AppleWebKit/525 (KHTML, like Gecko) Version/3.0 Safari/525327</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">WebKit</field>
@@ -3131,18 +3131,18 @@
   </answer>
  </test>
  <test>
-  <question>Fly E185  Opera/9.80 (MTK; Nucleus; U; ru-RU) Presto/2.4.18 Version/10.00	317</question>
+  <question>Fly E185 Opera/9.80 (MTK; Nucleus; U; ru-RU) Presto/2.4.18 Version/10.00317</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Presto</field>
    <field name="BrowserEngineVersion">2.4.18</field>
    <field name="BrowserName">Opera Mobile</field>
-   <field name="BrowserVersion">10.00</field>
+   <field name="BrowserVersion">10.00317</field>
    <field name="OSFamily">UnknownOS</field>
   </answer>
  </test>
  <test>
-  <question>HTC_Touch_Diamond2_T5353 Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; IEMobile 8.12; MSIEMobile 6.0)	295</question>
+  <question>HTC_Touch_Diamond2_T5353 Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; IEMobile 8.12; MSIEMobile 6.0)295</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Trident</field>
@@ -3153,7 +3153,7 @@
   </answer>
  </test>
  <test>
-  <question>Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; IEMobile 8.12; MSIEMobile 6.0)	286</question>
+  <question>Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; IEMobile 8.12; MSIEMobile 6.0)286</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Trident</field>
@@ -3164,7 +3164,7 @@
   </answer>
  </test>
  <test>
-  <question>Nokia5230/UC Browser7.9.0.102/50/400/UCWEB	235</question>
+  <question>Nokia5230/UC Browser7.9.0.102/50/400/UCWEB235</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Proprietary</field>
@@ -3174,7 +3174,7 @@
   </answer>
  </test>
  <test>
-  <question>curl/7.19.7 (i486-pc-linux-gnu) libcurl/7.19.7 OpenSSL/0.9.8k zlib/1.2.3.3 libidn/1.15	232</question>
+  <question>curl/7.19.7 (i486-pc-linux-gnu) libcurl/7.19.7 OpenSSL/0.9.8k zlib/1.2.3.3 libidn/1.15232</question>
   <answer>
    <field name="isMobile">false</field>
    <field name="BrowserEngine">TextBased</field>
@@ -3182,20 +3182,20 @@
   </answer>
  </test>
  <test>
-  <question>Opera/9.80 (Windows NT 5.1; U; IBM EVV/3.0/EAK01AG9/LE; ; MRSPUTNIK OW 2, 3, 0, 216; ru) Presto/2.9.168 Version/11.51	217</question>
+  <question>Opera/9.80 (Windows NT 5.1; U; IBM EVV/3.0/EAK01AG9/LE; ; MRSPUTNIK OW 2, 3, 0, 216; ru) Presto/2.9.168 Version/11.51217</question>
   <answer>
    <field name="isMobile">false</field>
    <field name="BrowserEngine">Presto</field>
    <field name="BrowserEngineVersion">2.9.168</field>
    <field name="BrowserName">Opera</field>
-   <field name="BrowserVersion">11.51</field>
+   <field name="BrowserVersion">11.51217</field>
    <field name="MailRuSputnik">true</field>
    <field name="OSFamily">Windows</field>
    <field name="OSVersion">Windows XP</field>
   </answer>
  </test>
  <test>
-  <question>Mozilla/5.0 (MeeGo; NokiaN9) AppleWebKit/534.13 (KHTML, like Gecko) NokiaBrowser/8.5.0 Mobile Safari/534.13	211</question>
+  <question>Mozilla/5.0 (MeeGo; NokiaN9) AppleWebKit/534.13 (KHTML, like Gecko) NokiaBrowser/8.5.0 Mobile Safari/534.13211</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">WebKit</field>
@@ -3207,18 +3207,18 @@
   </answer>
  </test>
  <test>
-  <question>Alcatel-OT-802/1.0 Profile/MIDP-2.0 Configuration/CLDC-1.1 ObigoInternetBrowser/Q05A	209</question>
+  <question>Alcatel-OT-802/1.0 Profile/MIDP-2.0 Configuration/CLDC-1.1 ObigoInternetBrowser/Q05A209</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Proprietary</field>
    <field name="BrowserName">Obigo</field>
    <field name="isWAP">true</field>
-   <field name="BrowserVersion">05A</field>
+   <field name="BrowserVersion">05A209</field>
    <field name="OSFamily">UnknownOS</field>
   </answer>
  </test>
  <test>
-  <question>HTC_P3400-Mozilla/4.0 (compatible; MSIE 4.01; Windows CE; PPC)	208</question>
+  <question>HTC_P3400-Mozilla/4.0 (compatible; MSIE 4.01; Windows CE; PPC)208</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Trident</field>
@@ -3229,7 +3229,7 @@
   </answer>
  </test>
  <test>
-  <question>Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_3; HTC_Sensation_Z710e; ru-) AppleWebKit/533.16 (KHTML, like Gecko) Version/5.0 Safari/533.16	207</question>
+  <question>Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_3; HTC_Sensation_Z710e; ru-) AppleWebKit/533.16 (KHTML, like Gecko) Version/5.0 Safari/533.16207</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">WebKit</field>
@@ -3241,7 +3241,7 @@
   </answer>
  </test>
  <test>
-  <question>Mozilla/5.0 (Series40; NokiaC3-00/08.63; Profile/MIDP-2.1 Configuration/CLDC-1.1) Gecko/20100401 S40OviBrowser/1.0.0.9.17.2	193</question>
+  <question>Mozilla/5.0 (Series40; NokiaC3-00/08.63; Profile/MIDP-2.1 Configuration/CLDC-1.1) Gecko/20100401 S40OviBrowser/1.0.0.9.17.2193</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Proprietary</field>
@@ -3252,7 +3252,7 @@
   </answer>
  </test>
  <test>
-  <question>Mozilla/5.0 (SymbianOS/9.3; U; Series60/3.2 Samsung/SGH-L870/1.0 Profile/MIDP-2.1 Configuration/CLDC-1.1 ) AppleWebKit/413 (KHTML, like Gecko) Safari/413	188</question>
+  <question>Mozilla/5.0 (SymbianOS/9.3; U; Series60/3.2 Samsung/SGH-L870/1.0 Profile/MIDP-2.1 Configuration/CLDC-1.1 ) AppleWebKit/413 (KHTML, like Gecko) Safari/413188</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">WebKit</field>
@@ -3264,25 +3264,25 @@
   </answer>
  </test>
  <test>
-  <question>Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_5_7; en-us) AppleWebKit/530.17 (KHTML, like Gecko) Version/4.0 Safari/530.17 Skyfire/2.0	180</question>
+  <question>Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_5_7; en-us) AppleWebKit/530.17 (KHTML, like Gecko) Version/4.0 Safari/530.17 Skyfire/2.0180</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">WebKit</field>
    <field name="BrowserEngineVersion">530.17</field>
    <field name="BrowserName">SkyFire</field>
-   <field name="BrowserVersion">2.0</field>
+   <field name="BrowserVersion">2.0180</field>
    <field name="OSFamily">UnknownOS</field>
   </answer>
  </test>
  <test>
-  <question>MAUI_WAP_Browser	169</question>
+  <question>MAUI_WAP_Browser169</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="OSFamily">UnknownOS</field>
   </answer>
  </test>
  <test>
-  <question>LG-KP500 Teleca/WAP2.0 MIDP-2.0/CLDC-1.1	169</question>
+  <question>LG-KP500 Teleca/WAP2.0 MIDP-2.0/CLDC-1.1169</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Proprietary</field>
@@ -3292,14 +3292,14 @@
   </answer>
  </test>
  <test>
-  <question>ZTE-G S213/WAP2.0	164</question>
+  <question>ZTE-G S213/WAP2.0164</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="OSFamily">UnknownOS</field>
   </answer>
  </test>
  <test>
-  <question>Mozilla/5.0 (Series40; NokiaX2-00/08.25; Profile/MIDP-2.1 Configuration/CLDC-1.1) Gecko/20100401 S40OviBrowser/1.0.0.9.17.2	153</question>
+  <question>Mozilla/5.0 (Series40; NokiaX2-00/08.25; Profile/MIDP-2.1 Configuration/CLDC-1.1) Gecko/20100401 S40OviBrowser/1.0.0.9.17.2153</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Proprietary</field>
@@ -3310,14 +3310,14 @@
   </answer>
  </test>
  <test>
-  <question>Fly_DS120/WapBrowserProfile	151</question>
+  <question>Fly_DS120/WapBrowserProfile151</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="OSFamily">UnknownOS</field>
   </answer>
  </test>
  <test>
-  <question>Mozilla/5.0 (X11; U; Linux armv7l; ru-RU; rv:1.9.2a1pre) Gecko/20091127 Firefox/3.5 Maemo Browser 1.5.6 RX-51 N900	148</question>
+  <question>Mozilla/5.0 (X11; U; Linux armv7l; ru-RU; rv:1.9.2a1pre) Gecko/20091127 Firefox/3.5 Maemo Browser 1.5.6 RX-51 N900148</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Gecko</field>
@@ -3329,7 +3329,7 @@
   </answer>
  </test>
  <test>
-  <question>Nokia6700c-1/2.0 (10.50) Profile/MIDP-2.1 Configuration/CLDC-1.1 Mozilla/5.0 AppleWebKit/420+ (KHTML, like Gecko) Safari/420+	147</question>
+  <question>Nokia6700c-1/2.0 (10.50) Profile/MIDP-2.1 Configuration/CLDC-1.1 Mozilla/5.0 AppleWebKit/420+ (KHTML, like Gecko) Safari/420+147</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">WebKit</field>
@@ -3340,7 +3340,7 @@
   </answer>
  </test>
  <test>
-  <question>MTC/1.0/0MTC 733/B100 Browser/Obigo-Browser/Q05A MMS/Obigo-MMS/Q05A SyncML/HW-SyncML/1.0 Java/HWJa/1.0 Profile/MIDP-2.0 Configuration/CLDC-1.1 Player/QTV-Player/5.3	145</question>
+  <question>MTC/1.0/0MTC 733/B100 Browser/Obigo-Browser/Q05A MMS/Obigo-MMS/Q05A SyncML/HW-SyncML/1.0 Java/HWJa/1.0 Profile/MIDP-2.0 Configuration/CLDC-1.1 Player/QTV-Player/5.3145</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Proprietary</field>
@@ -3351,7 +3351,7 @@
   </answer>
  </test>
  <test>
-  <question>Huawei/1.0/0Huawei U1280/B100 Browser/Obigo-Browser/Q05A MMS/Obigo-MMS/Q05A SyncML/HW-SyncML/1.0 Java/HWJa/1.0 Profile/MIDP-2.0 Configuration/CLDC-1.1 Player/QTV-Player/5.3	140</question>
+  <question>Huawei/1.0/0Huawei U1280/B100 Browser/Obigo-Browser/Q05A MMS/Obigo-MMS/Q05A SyncML/HW-SyncML/1.0 Java/HWJa/1.0 Profile/MIDP-2.0 Configuration/CLDC-1.1 Player/QTV-Player/5.3140</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Proprietary</field>
@@ -3362,7 +3362,7 @@
   </answer>
  </test>
  <test>
-  <question>Nokia5228/UC Browser7.9.0.102/50/400/UCWEB	135</question>
+  <question>Nokia5228/UC Browser7.9.0.102/50/400/UCWEB135</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Proprietary</field>
@@ -3372,7 +3372,7 @@
   </answer>
  </test>
  <test>
-  <question>Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_3; HTC_Flyer_P510e; ru-ru) AppleWebKit/533.16 (KHTML, like Gecko) Version/5.0 Safari/533.16	132</question>
+  <question>Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_3; HTC_Flyer_P510e; ru-ru) AppleWebKit/533.16 (KHTML, like Gecko) Version/5.0 Safari/533.16132</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">WebKit</field>
@@ -3384,17 +3384,17 @@
   </answer>
  </test>
  <test>
-  <question>SAMSUNG-SGH-i900/1.0 (Windows NT 5.1; U; en) Opera 9.5	129</question>
+  <question>SAMSUNG-SGH-i900/1.0 (Windows NT 5.1; U; en) Opera 9.5129</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Presto</field>
    <field name="BrowserName">Opera Mobile</field>
-   <field name="BrowserVersion">9.5</field>
+   <field name="BrowserVersion">9.5129</field>
    <field name="OSFamily">WindowsMobile</field>
   </answer>
  </test>
  <test>
-  <question>Mozilla/5.0 (X11; U; Linux armv7l; ru-RU; rv:1.9.2b6pre) Gecko/20100318 Firefox/3.5 Maemo Browser 1.7.4.8 RX-51 N900	125</question>
+  <question>Mozilla/5.0 (X11; U; Linux armv7l; ru-RU; rv:1.9.2b6pre) Gecko/20100318 Firefox/3.5 Maemo Browser 1.7.4.8 RX-51 N900125</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Gecko</field>
@@ -3406,7 +3406,7 @@
   </answer>
  </test>
  <test>
-  <question>Nokia6303iclassic/5.0 (09.83) Profile/MIDP-2.1 Configuration/CLDC-1.1 Mozilla/5.0 AppleWebKit/420+ (KHTML, like Gecko) Safari/420+	124</question>
+  <question>Nokia6303iclassic/5.0 (09.83) Profile/MIDP-2.1 Configuration/CLDC-1.1 Mozilla/5.0 AppleWebKit/420+ (KHTML, like Gecko) Safari/420+124</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">WebKit</field>
@@ -3417,7 +3417,7 @@
   </answer>
  </test>
  <test>
-  <question>LG-GD510/V100 Teleca/WAP2.0 Profile/MIDP-2.1 Configuration/CLDC-1.1	120</question>
+  <question>LG-GD510/V100 Teleca/WAP2.0 Profile/MIDP-2.1 Configuration/CLDC-1.1120</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Proprietary</field>
@@ -3427,7 +3427,7 @@
   </answer>
  </test>
  <test>
-  <question>Mozilla/4.0 (compatible; MSIE 4.01; Windows CE; PPC)	118</question>
+  <question>Mozilla/4.0 (compatible; MSIE 4.01; Windows CE; PPC)118</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Trident</field>
@@ -3438,7 +3438,7 @@
   </answer>
  </test>
  <test>
-  <question>SonyEricssonP1i/R100 Mozilla/4.0 (compatible; MSIE 6.0; Symbian OS; 768) Opera 8.65 [ru]	108</question>
+  <question>SonyEricssonP1i/R100 Mozilla/4.0 (compatible; MSIE 6.0; Symbian OS; 768) Opera 8.65 [ru]108</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Presto</field>
@@ -3448,7 +3448,7 @@
   </answer>
  </test>
  <test>
-  <question>Nokia6303iclassic/5.0 (07.10) Profile/MIDP-2.1 Configuration/CLDC-1.1 Mozilla/5.0 AppleWebKit/420+ (KHTML, like Gecko) Safari/420+	107</question>
+  <question>Nokia6303iclassic/5.0 (07.10) Profile/MIDP-2.1 Configuration/CLDC-1.1 Mozilla/5.0 AppleWebKit/420+ (KHTML, like Gecko) Safari/420+107</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">WebKit</field>
@@ -3459,7 +3459,7 @@
   </answer>
  </test>
  <test>
-  <question>Mozilla/5.0 (compatible; YandexBot/3.0; +http://yandex.com/bots)	105</question>
+  <question>Mozilla/5.0 (compatible; YandexBot/3.0; +http://yandex.com/bots)105</question>
   <answer>
    <field name="isMobile">false</field>
    <field name="OSFamily">UnknownOS</field>
@@ -3468,7 +3468,7 @@
   </answer>
  </test>
  <test>
-  <question>Nokia5230/UC Browser7.8.0.95/50/400	103</question>
+  <question>Nokia5230/UC Browser7.8.0.95/50/400103</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Proprietary</field>
@@ -3478,7 +3478,7 @@
   </answer>
  </test>
  <test>
-  <question>Mozilla/5.0 (Series40; Nokia5130c-2/07.95; Profile/MIDP-2.1 Configuration/CLDC-1.1) Gecko/20100401 S40OviBrowser/1.0.2.26.8	103</question>
+  <question>Mozilla/5.0 (Series40; Nokia5130c-2/07.95; Profile/MIDP-2.1 Configuration/CLDC-1.1) Gecko/20100401 S40OviBrowser/1.0.2.26.8103</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Proprietary</field>
@@ -3489,7 +3489,7 @@
   </answer>
  </test>
  <test>
-  <question>Nokia6700c-1/2.0 (13.10) Profile/MIDP-2.1 Configuration/CLDC-1.1 Mozilla/5.0 AppleWebKit/420+ (KHTML, like Gecko) Safari/420+	100</question>
+  <question>Nokia6700c-1/2.0 (13.10) Profile/MIDP-2.1 Configuration/CLDC-1.1 Mozilla/5.0 AppleWebKit/420+ (KHTML, like Gecko) Safari/420+100</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">WebKit</field>
@@ -3500,14 +3500,14 @@
   </answer>
  </test>
  <test>
-  <question>MobileSafari/6533.18.5 CFNetwork/485.12.7 Darwin/10.4.0	96</question>
+  <question>MobileSafari/6533.18.5 CFNetwork/485.12.7 Darwin/10.4.096</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="OSFamily">UnknownOS</field>
   </answer>
  </test>
  <test>
-  <question>Nokia5230/Opera&lt;Ch-Ray&gt;/RU/400	89</question>
+  <question>Nokia5230/Opera&lt;Ch-Ray&gt;/RU/40089</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Presto</field>
@@ -3515,14 +3515,14 @@
   </answer>
  </test>
  <test>
-  <question>Fly_DS186/WapBrowserProfile	86</question>
+  <question>Fly_DS186/WapBrowserProfile86</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="OSFamily">UnknownOS</field>
   </answer>
  </test>
  <test>
-  <question>acer_S200 Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; Windows Phone 6.5)	85</question>
+  <question>acer_S200 Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; Windows Phone 6.5)85</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Trident</field>
@@ -3533,7 +3533,7 @@
   </answer>
  </test>
  <test>
-  <question>Mozilla/5.0 (SymbianOS/9.3; U; Series60/3.2 Samsung/I8510/XEHI5; Profile/MIDP-2.1 Configuration/CLDC-1.1 ) AppleWebKit/413 (KHTML, like Gecko) Safari/413	84</question>
+  <question>Mozilla/5.0 (SymbianOS/9.3; U; Series60/3.2 Samsung/I8510/XEHI5; Profile/MIDP-2.1 Configuration/CLDC-1.1 ) AppleWebKit/413 (KHTML, like Gecko) Safari/41384</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">WebKit</field>
@@ -3545,7 +3545,7 @@
   </answer>
  </test>
  <test>
-  <question>LG/BL40/V10a Browser/Obigo-Q7.3 MMS/LG-MMS-V1.0/1.2 MediaPlayer/LGPlayer/1.0 Java/ASVM/1.1 Profile/MIDP-2.1 Configuration/CLDC-1.1	82</question>
+  <question>LG/BL40/V10a Browser/Obigo-Q7.3 MMS/LG-MMS-V1.0/1.2 MediaPlayer/LGPlayer/1.0 Java/ASVM/1.1 Profile/MIDP-2.1 Configuration/CLDC-1.182</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Proprietary</field>
@@ -3556,20 +3556,20 @@
   </answer>
  </test>
  <test>
-  <question>Opera/9.80 (Windows NT 6.2; U; Edition Next; ru) Presto/2.9.220 Version/12.00	81</question>
+  <question>Opera/9.80 (Windows NT 6.2; U; Edition Next; ru) Presto/2.9.220 Version/12.0081</question>
   <answer>
    <field name="isMobile">false</field>
    <field name="BrowserEngine">Presto</field>
    <field name="BrowserEngineVersion">2.9.220</field>
    <field name="BrowserName">Opera</field>
-   <field name="BrowserVersion">12.00</field>
+   <field name="BrowserVersion">12.0081</field>
    <field name="isBeta">true</field>
    <field name="OSFamily">Windows</field>
    <field name="OSVersion">Windows 8</field>
   </answer>
  </test>
  <test>
-  <question>SonyEricssonG900/R100 Mozilla/4.0 (compatible; MSIE 6.0; Symbian OS; 958) Opera 8.65 [ru]	78</question>
+  <question>SonyEricssonG900/R100 Mozilla/4.0 (compatible; MSIE 6.0; Symbian OS; 958) Opera 8.65 [ru]78</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Presto</field>
@@ -3579,7 +3579,7 @@
   </answer>
  </test>
  <test>
-  <question>NokiaC2-01/5.0 (10.50) Profile/MIDP-2.1 Configuration/CLDC-1.1 Mozilla/5.0 AppleWebKit/420+ (KHTML, like Gecko) Safari/420+	78</question>
+  <question>NokiaC2-01/5.0 (10.50) Profile/MIDP-2.1 Configuration/CLDC-1.1 Mozilla/5.0 AppleWebKit/420+ (KHTML, like Gecko) Safari/420+78</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">WebKit</field>
@@ -3590,7 +3590,7 @@
   </answer>
  </test>
  <test>
-  <question>Fly_E176/ObigoInternetBrowser/QO3C Profile/MIDP2.0 Configuration/CLDC-1.1	78</question>
+  <question>Fly_E176/ObigoInternetBrowser/QO3C Profile/MIDP2.0 Configuration/CLDC-1.178</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Proprietary</field>
@@ -3601,7 +3601,7 @@
   </answer>
  </test>
  <test>
-  <question>NokiaN8-00/UC Browser7.9.0.102/50/400/UCWEB	76</question>
+  <question>NokiaN8-00/UC Browser7.9.0.102/50/400/UCWEB76</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Proprietary</field>
@@ -3611,7 +3611,7 @@
   </answer>
  </test>
  <test>
-  <question>Nokia5230/UC Browser7.8.0.95/50/357	75</question>
+  <question>Nokia5230/UC Browser7.8.0.95/50/35775</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Proprietary</field>
@@ -3621,7 +3621,7 @@
   </answer>
  </test>
  <test>
-  <question>Opera/9.7 (WindowsMobile; PPC; Opera Mobi/35267; U; en; Presto/2.1.1)	72</question>
+  <question>Opera/9.7 (WindowsMobile; PPC; Opera Mobi/35267; U; en; Presto/2.1.1)72</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Presto</field>
@@ -3632,7 +3632,7 @@
   </answer>
  </test>
  <test>
-  <question>Mozilla/5.0 (compatible; MSIE 9.0; Windows Phone OS 7.5; Trident/5.0; IEMobile/9.0; HTC; HD7 T9292)	69</question>
+  <question>Mozilla/5.0 (compatible; MSIE 9.0; Windows Phone OS 7.5; Trident/5.0; IEMobile/9.0; HTC; HD7 T9292)69</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Trident</field>
@@ -3645,13 +3645,13 @@
   </answer>
  </test>
  <test>
-  <question>Opera/9.80 (Android 2.2; Linux; Opera Tablet/ADY-1109201025; U; ru) Presto/2.8.149 Version/11.10	67</question>
+  <question>Opera/9.80 (Android 2.2; Linux; Opera Tablet/ADY-1109201025; U; ru) Presto/2.8.149 Version/11.1067</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Presto</field>
    <field name="BrowserEngineVersion">2.8.149</field>
    <field name="BrowserName">Opera Mobile</field>
-   <field name="BrowserVersion">11.10</field>
+   <field name="BrowserVersion">11.1067</field>
    <field name="isTablet">true</field>
    <field name="OSFamily">Android</field>
    <field name="isTouch">true</field>
@@ -3659,7 +3659,7 @@
   </answer>
  </test>
  <test>
-  <question>NokiaC5-00/UC Browser7.9.0.102/28/400/UCWEB	62</question>
+  <question>NokiaC5-00/UC Browser7.9.0.102/28/400/UCWEB62</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Proprietary</field>
@@ -3669,7 +3669,7 @@
   </answer>
  </test>
  <test>
-  <question>Mozilla/4.0 (compatible; MSIE 4.01; Windows CE; PPC)/UC Browser7.8.0.95	61</question>
+  <question>Mozilla/4.0 (compatible; MSIE 4.01; Windows CE; PPC)/UC Browser7.8.0.9561</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Trident</field>
@@ -3680,13 +3680,13 @@
   </answer>
  </test>
  <test>
-  <question>Opera/9.80 (Android 3.2; Linux; Opera Tablet/ADY-1109201025; U; ru) Presto/2.8.149 Version/11.10	60</question>
+  <question>Opera/9.80 (Android 3.2; Linux; Opera Tablet/ADY-1109201025; U; ru) Presto/2.8.149 Version/11.1060</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Presto</field>
    <field name="BrowserEngineVersion">2.8.149</field>
    <field name="BrowserName">Opera Mobile</field>
-   <field name="BrowserVersion">11.10</field>
+   <field name="BrowserVersion">11.1060</field>
    <field name="isTablet">true</field>
    <field name="OSFamily">Android</field>
    <field name="isTouch">true</field>
@@ -3694,7 +3694,7 @@
   </answer>
  </test>
  <test>
-  <question>NokiaN73/UC Browser7.9.0.102/28/400/UCWEB	60</question>
+  <question>NokiaN73/UC Browser7.9.0.102/28/400/UCWEB60</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Proprietary</field>
@@ -3704,7 +3704,7 @@
   </answer>
  </test>
  <test>
-  <question>Nokia5228/UC Browser7.8.0.95/50/357	57</question>
+  <question>Nokia5228/UC Browser7.8.0.95/50/35757</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Proprietary</field>
@@ -3714,7 +3714,7 @@
   </answer>
  </test>
  <test>
-  <question>Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_3; HTC/Sensation/1.27.187.5; ru-ru) AppleWebKit/533.16 (KHTML, like Gecko) Version/5.0 Safari/533.16	57</question>
+  <question>Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_3; HTC/Sensation/1.27.187.5; ru-ru) AppleWebKit/533.16 (KHTML, like Gecko) Version/5.0 Safari/533.1657</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">WebKit</field>
@@ -3726,7 +3726,7 @@
   </answer>
  </test>
  <test>
-  <question>Mozilla/4.0 (compatible; MSIE 7.0; Windows Phone OS 7.0; Trident/3.1; IEMobile/7.0; HTC; HD7 T9292)	57</question>
+  <question>Mozilla/4.0 (compatible; MSIE 7.0; Windows Phone OS 7.0; Trident/3.1; IEMobile/7.0; HTC; HD7 T9292)57</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Trident</field>
@@ -3739,7 +3739,7 @@
   </answer>
  </test>
  <test>
-  <question>Opera/9.5 (Microsoft Windows; PPC; Opera Mobi/2745; U; ru)	56</question>
+  <question>Opera/9.5 (Microsoft Windows; PPC; Opera Mobi/2745; U; ru)56</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Presto</field>
@@ -3749,7 +3749,7 @@
   </answer>
  </test>
  <test>
-  <question>Nokia5228/UC Browser7.8.0.95/50/400	56</question>
+  <question>Nokia5228/UC Browser7.8.0.95/50/40056</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Proprietary</field>
@@ -3759,7 +3759,7 @@
   </answer>
  </test>
  <test>
-  <question>Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/5.0; XBLWP7; ZuneWP7)	56</question>
+  <question>Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/5.0; XBLWP7; ZuneWP7)56</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Trident</field>
@@ -3772,18 +3772,18 @@
   </answer>
  </test>
  <test>
-  <question>Huawei/1.0/G6600/Browser/obigo-browser/q03c	56</question>
+  <question>Huawei/1.0/G6600/Browser/obigo-browser/q03c56</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Proprietary</field>
    <field name="BrowserName">Obigo</field>
    <field name="isWAP">true</field>
-   <field name="BrowserVersion">03c</field>
+   <field name="BrowserVersion">03c56</field>
    <field name="OSFamily">UnknownOS</field>
   </answer>
  </test>
  <test>
-  <question>Mozilla/4.0 (compatible; MSIE 4.01; Windows CE; PPC; 240x320)/UCWEB7.2.2.51/31/400	54</question>
+  <question>Mozilla/4.0 (compatible; MSIE 4.01; Windows CE; PPC; 240x320)/UCWEB7.2.2.51/31/40054</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Trident</field>
@@ -3793,7 +3793,7 @@
   </answer>
  </test>
  <test>
-  <question>Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; GTB7.1; MRSPUTNIK 2, 4, 0, 387; EasyBits GO v1.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; Tablet PC 2.0)	52</question>
+  <question>Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; GTB7.1; MRSPUTNIK 2, 4, 0, 387; EasyBits GO v1.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; Tablet PC 2.0)52</question>
   <answer>
    <field name="isMobile">false</field>
    <field name="BrowserEngine">Trident</field>
@@ -3806,7 +3806,7 @@
   </answer>
  </test>
  <test>
-  <question>Opera/9.5 (Microsoft Windows; PPC; Opera Mobi; U) SonyEricssonX1i/R3AA Profile/MIDP-2.0 Configuration/CLDC-1.1	51</question>
+  <question>Opera/9.5 (Microsoft Windows; PPC; Opera Mobi; U) SonyEricssonX1i/R3AA Profile/MIDP-2.0 Configuration/CLDC-1.151</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Presto</field>
@@ -3816,7 +3816,7 @@
   </answer>
  </test>
  <test>
-  <question>MTC535/REF-RU-MTS-P103D2V1.0.1/2.0 Profile/MIDP-2.0	50</question>
+  <question>MTC535/REF-RU-MTS-P103D2V1.0.1/2.0 Profile/MIDP-2.050</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Proprietary</field>
@@ -3825,7 +3825,7 @@
   </answer>
  </test>
  <test>
-  <question>Mozilla/5.0 (SymbianOS/9.2; U; Series60/3.1 Samsung/SGH-G810/XEHA3 Profile/MIDP-2.0 Configuration/CLDC-1.1 ) AppleWebKit/413 (KHTML, like Gecko) Safari/413	47</question>
+  <question>Mozilla/5.0 (SymbianOS/9.2; U; Series60/3.1 Samsung/SGH-G810/XEHA3 Profile/MIDP-2.0 Configuration/CLDC-1.1 ) AppleWebKit/413 (KHTML, like Gecko) Safari/41347</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">WebKit</field>
@@ -3837,13 +3837,13 @@
   </answer>
  </test>
  <test>
-  <question>Opera/9.80 (Android 2.2.2; Linux; Opera Tablet/ADY-1109201025; U; ru) Presto/2.8.149 Version/11.10	46</question>
+  <question>Opera/9.80 (Android 2.2.2; Linux; Opera Tablet/ADY-1109201025; U; ru) Presto/2.8.149 Version/11.1046</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Presto</field>
    <field name="BrowserEngineVersion">2.8.149</field>
    <field name="BrowserName">Opera Mobile</field>
-   <field name="BrowserVersion">11.10</field>
+   <field name="BrowserVersion">11.1046</field>
    <field name="isTablet">true</field>
    <field name="OSFamily">Android</field>
    <field name="isTouch">true</field>
@@ -3851,7 +3851,7 @@
   </answer>
  </test>
  <test>
-  <question>Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.0)	46</question>
+  <question>Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.0)46</question>
   <answer>
    <field name="isMobile">false</field>
    <field name="BrowserEngine">Trident</field>
@@ -3862,7 +3862,7 @@
   </answer>
  </test>
  <test>
-  <question>SAMSUNG-SGH-i900/1.0 (compatible; MSIE 4.01; Windows CE; PPC)/UC Browser7.8.0.95	45</question>
+  <question>SAMSUNG-SGH-i900/1.0 (compatible; MSIE 4.01; Windows CE; PPC)/UC Browser7.8.0.9545</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Trident</field>
@@ -3873,13 +3873,13 @@
   </answer>
  </test>
  <test>
-  <question>Opera/9.80 (Windows NT 6.1; U; YB/5.0.3; ru) Presto/2.9.168 Version/11.51	45</question>
+  <question>Opera/9.80 (Windows NT 6.1; U; YB/5.0.3; ru) Presto/2.9.168 Version/11.5145</question>
   <answer>
    <field name="isMobile">false</field>
    <field name="BrowserEngine">Presto</field>
    <field name="BrowserEngineVersion">2.9.168</field>
    <field name="BrowserName">Opera</field>
-   <field name="BrowserVersion">11.51</field>
+   <field name="BrowserVersion">11.5145</field>
    <field name="YandexBar">true</field>
    <field name="YandexBarVersion">5.0.3</field>
    <field name="OSFamily">Windows</field>
@@ -3887,7 +3887,7 @@
   </answer>
  </test>
  <test>
-  <question>Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1) Opera 8.65 [ru]	45</question>
+  <question>Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1) Opera 8.65 [ru]45</question>
   <answer>
    <field name="isMobile">false</field>
    <field name="BrowserEngine">Presto</field>
@@ -3897,7 +3897,7 @@
   </answer>
  </test>
  <test>
-  <question>Philips X116	44</question>
+  <question>Philips X11644</question>
   <answer>
    <field name="isMobile">false</field>
    <field name="OSFamily">Unknown *nix</field>
@@ -3905,7 +3905,7 @@
   </answer>
  </test>
  <test>
-  <question>PhilipsX100/OBIGO_Q03C/WAP2.0 Profile	42</question>
+  <question>PhilipsX100/OBIGO_Q03C/WAP2.0 Profile42</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Proprietary</field>
@@ -3915,7 +3915,7 @@
   </answer>
  </test>
  <test>
-  <question>Mozilla/5.0 (SymbianOS/9.2; U; Series60/3.1 Samsung/SGH-i520/XEGH1 Profile/MIDP-2.0 Configuration/CLDC-1.1 ) AppleWebKit/413 (KHTML, like Gecko) Safari/413	42</question>
+  <question>Mozilla/5.0 (SymbianOS/9.2; U; Series60/3.1 Samsung/SGH-i520/XEGH1 Profile/MIDP-2.0 Configuration/CLDC-1.1 ) AppleWebKit/413 (KHTML, like Gecko) Safari/41342</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">WebKit</field>
@@ -3927,7 +3927,7 @@
   </answer>
  </test>
  <test>
-  <question>Mozilla/5.0 (SymbianOS/9.1; U; [ru]; SymbianOS/9.1 Series60/3.0) AppleWebKit/413 (KHTML, like Gecko) Safari/413	42</question>
+  <question>Mozilla/5.0 (SymbianOS/9.1; U; [ru]; SymbianOS/9.1 Series60/3.0) AppleWebKit/413 (KHTML, like Gecko) Safari/41342</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">WebKit</field>
@@ -3939,7 +3939,7 @@
   </answer>
  </test>
  <test>
-  <question>Mozilla/5.0 (X11; U; Linux armv7l; ru-RU; rv:1.9.2a1pre) Gecko/20090928 Firefox/3.5 Maemo Browser 1.4.1.21 RX-51 N900	40</question>
+  <question>Mozilla/5.0 (X11; U; Linux armv7l; ru-RU; rv:1.9.2a1pre) Gecko/20090928 Firefox/3.5 Maemo Browser 1.4.1.21 RX-51 N90040</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Gecko</field>
@@ -3951,7 +3951,7 @@
   </answer>
  </test>
  <test>
-  <question>NokiaN73/UC Browser7.4.0.65/28/400	39</question>
+  <question>NokiaN73/UC Browser7.4.0.65/28/40039</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Proprietary</field>
@@ -3961,7 +3961,7 @@
   </answer>
  </test>
  <test>
-  <question>Mozilla/5.0 (iPod; U; CPU like Mac OS X; ru-ru) AppleWebKit/420.1 (KHTML, like Gecko) Version/3.0 Mobile/4B1 Safari/419.3	39</question>
+  <question>Mozilla/5.0 (iPod; U; CPU like Mac OS X; ru-ru) AppleWebKit/420.1 (KHTML, like Gecko) Version/3.0 Mobile/4B1 Safari/419.339</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">WebKit</field>
@@ -3973,7 +3973,7 @@
   </answer>
  </test>
  <test>
-  <question>SonyEricssonWT13i/R3AD013 TelecaBrowser/Q07C1-1 Profile/MIDP-2.0 Configuration/CLDC-1.1	38</question>
+  <question>SonyEricssonWT13i/R3AD013 TelecaBrowser/Q07C1-1 Profile/MIDP-2.0 Configuration/CLDC-1.138</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Proprietary</field>
@@ -3983,7 +3983,7 @@
   </answer>
  </test>
  <test>
-  <question>Mozilla/4.0 (compatible; MSIE 7.0; Windows Phone OS 7.0; Trident/3.1; IEMobile/7.0; HTC; HD7)	38</question>
+  <question>Mozilla/4.0 (compatible; MSIE 7.0; Windows Phone OS 7.0; Trident/3.1; IEMobile/7.0; HTC; HD7)38</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Trident</field>
@@ -3996,18 +3996,18 @@
   </answer>
  </test>
  <test>
-  <question>Mot-WX390/1.0 ObigoInternetBrowser/Q03C	37</question>
+  <question>Mot-WX390/1.0 ObigoInternetBrowser/Q03C37</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Proprietary</field>
    <field name="BrowserName">Obigo</field>
    <field name="isWAP">true</field>
-   <field name="BrowserVersion">03C</field>
+   <field name="BrowserVersion">03C37</field>
    <field name="OSFamily">UnknownOS</field>
   </answer>
  </test>
  <test>
-  <question>Mozilla/5.0 (Windows NT 5.1; rv:7.0.1) Gecko/20100101 Firefox/7.0.1 YB/5.4	36</question>
+  <question>Mozilla/5.0 (Windows NT 5.1; rv:7.0.1) Gecko/20100101 Firefox/7.0.1 YB/5.436</question>
   <answer>
    <field name="isMobile">false</field>
    <field name="BrowserEngine">Gecko</field>
@@ -4015,38 +4015,27 @@
    <field name="BrowserName">Firefox</field>
    <field name="BrowserVersion">7.0</field>
    <field name="YandexBar">true</field>
-   <field name="YandexBarVersion">5.4</field>
+   <field name="YandexBarVersion">5.436</field>
    <field name="OSFamily">Windows</field>
    <field name="OSVersion">Windows XP</field>
   </answer>
  </test>
  <test>
-  <question>Fly_E145	35</question>
+  <question>Fly_E14535</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="OSFamily">UnknownOS</field>
   </answer>
  </test>
  <test>
-  <question>Nokia5230	32</question>
+  <question>Nokia523032</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="OSFamily">UnknownOS</field>
   </answer>
  </test>
  <test>
-  <question>SAMSUNG-SGH-C270/C270XEIE1 UP.Browser/6.2.3.3.c.1.101 (GUI) MMP/2.0	31</question>
-  <answer>
-   <field name="isMobile">true</field>
-   <field name="BrowserEngine">Proprietary</field>
-   <field name="BrowserName">OpenWave</field>
-   <field name="isWAP">true</field>
-   <field name="BrowserVersion">6.2</field>
-   <field name="OSFamily">UnknownOS</field>
-  </answer>
- </test>
- <test>
-  <question>SAMSUNG-SGH-B130/B130XEHF1 UP.Browser/6.2.3.3.c.1.101 (GUI) MMP/2.0	30</question>
+  <question>SAMSUNG-SGH-C270/C270XEIE1 UP.Browser/6.2.3.3.c.1.101 (GUI) MMP/2.031</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Proprietary</field>
@@ -4057,13 +4046,24 @@
   </answer>
  </test>
  <test>
-  <question>Opera/9.80 (Android 3.1; Linux; Opera Tablet/ADY-1109201025; U; ru) Presto/2.8.149 Version/11.10	30</question>
+  <question>SAMSUNG-SGH-B130/B130XEHF1 UP.Browser/6.2.3.3.c.1.101 (GUI) MMP/2.030</question>
+  <answer>
+   <field name="isMobile">true</field>
+   <field name="BrowserEngine">Proprietary</field>
+   <field name="BrowserName">OpenWave</field>
+   <field name="isWAP">true</field>
+   <field name="BrowserVersion">6.2</field>
+   <field name="OSFamily">UnknownOS</field>
+  </answer>
+ </test>
+ <test>
+  <question>Opera/9.80 (Android 3.1; Linux; Opera Tablet/ADY-1109201025; U; ru) Presto/2.8.149 Version/11.1030</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Presto</field>
    <field name="BrowserEngineVersion">2.8.149</field>
    <field name="BrowserName">Opera Mobile</field>
-   <field name="BrowserVersion">11.10</field>
+   <field name="BrowserVersion">11.1030</field>
    <field name="isTablet">true</field>
    <field name="OSFamily">Android</field>
    <field name="isTouch">true</field>
@@ -4071,7 +4071,7 @@
   </answer>
  </test>
  <test>
-  <question>NokiaN73-1/2.0628.0.0.1 S60/3.0 Profile/MIDP-2.0 Configuration/CLDC-1.1	30</question>
+  <question>NokiaN73-1/2.0628.0.0.1 S60/3.0 Profile/MIDP-2.0 Configuration/CLDC-1.130</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Proprietary</field>
@@ -4081,33 +4081,25 @@
   </answer>
  </test>
  <test>
-  <question>Alcatel-OT-305/1.0 ObigoInternetBrowser/Q03C	30</question>
+  <question>Alcatel-OT-305/1.0 ObigoInternetBrowser/Q03C30</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Proprietary</field>
    <field name="BrowserName">Obigo</field>
    <field name="isWAP">true</field>
-   <field name="BrowserVersion">03C</field>
+   <field name="BrowserVersion">03C30</field>
    <field name="OSFamily">UnknownOS</field>
   </answer>
  </test>
  <test>
-  <question>NokiaE52-1	27</question>
+  <question>NokiaE52-127</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="OSFamily">UnknownOS</field>
   </answer>
  </test>
  <test>
-  <question>Nokia5228/Opera&lt;Ch-Ray&gt;/RU/400	27</question>
-  <answer>
-   <field name="isMobile">true</field>
-   <field name="BrowserEngine">Presto</field>
-   <field name="OSFamily">UnknownOS</field>
-  </answer>
- </test>
- <test>
-  <question>NokiaN8-00/Opera&lt;Ch-Ray&gt;/RU/400	25</question>
+  <question>Nokia5228/Opera&lt;Ch-Ray&gt;/RU/40027</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Presto</field>
@@ -4115,7 +4107,15 @@
   </answer>
  </test>
  <test>
-  <question>Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; MRSPUTNIK 2, 3, 0, 301; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.04506.30)	25</question>
+  <question>NokiaN8-00/Opera&lt;Ch-Ray&gt;/RU/40025</question>
+  <answer>
+   <field name="isMobile">true</field>
+   <field name="BrowserEngine">Presto</field>
+   <field name="OSFamily">UnknownOS</field>
+  </answer>
+ </test>
+ <test>
+  <question>Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; MRSPUTNIK 2, 3, 0, 301; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.04506.30)25</question>
   <answer>
    <field name="isMobile">false</field>
    <field name="BrowserEngine">Trident</field>
@@ -4127,7 +4127,7 @@
   </answer>
  </test>
  <test>
-  <question>Fly_Q420/ObigoInternetBrowser/QO3C Profile/MIDP2.0 Configuration/CLDC-1.1	25</question>
+  <question>Fly_Q420/ObigoInternetBrowser/QO3C Profile/MIDP2.0 Configuration/CLDC-1.125</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Proprietary</field>
@@ -4138,7 +4138,7 @@
   </answer>
  </test>
  <test>
-  <question>HTC_Touch_Diamond2_T5353 Mozilla/4.0 (compatible; MSIE 4.01; Windows CE; PPC)/UC Browser7.8.0.95	24</question>
+  <question>HTC_Touch_Diamond2_T5353 Mozilla/4.0 (compatible; MSIE 4.01; Windows CE; PPC)/UC Browser7.8.0.9524</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Trident</field>
@@ -4149,23 +4149,23 @@
   </answer>
  </test>
  <test>
-  <question>SAMSUNG-GT-i8000/1.0 Opera 9.5	23</question>
+  <question>SAMSUNG-GT-i8000/1.0 Opera 9.523</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Presto</field>
    <field name="BrowserName">Opera Mobile</field>
-   <field name="BrowserVersion">9.5</field>
+   <field name="BrowserVersion">9.523</field>
    <field name="OSFamily">UnknownOS</field>
   </answer>
  </test>
  <test>
-  <question>Opera/9.80 (Android 2.2; Linux; Opera Tablet/ADR-1109081720; U; ru) Presto/2.8.149 Version/11.10	21</question>
+  <question>Opera/9.80 (Android 2.2; Linux; Opera Tablet/ADR-1109081720; U; ru) Presto/2.8.149 Version/11.1021</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Presto</field>
    <field name="BrowserEngineVersion">2.8.149</field>
    <field name="BrowserName">Opera Mobile</field>
-   <field name="BrowserVersion">11.10</field>
+   <field name="BrowserVersion">11.1021</field>
    <field name="isTablet">true</field>
    <field name="OSFamily">Android</field>
    <field name="isTouch">true</field>
@@ -4173,7 +4173,7 @@
   </answer>
  </test>
  <test>
-  <question>Mozilla/5.0 (iPod; U; CPU like Mac OS X; ru-ru) AppleWebKit/420.1 (KHTML, like Gecko) Version/3.0 Mobile/4A102 Safari/419.3	21</question>
+  <question>Mozilla/5.0 (iPod; U; CPU like Mac OS X; ru-ru) AppleWebKit/420.1 (KHTML, like Gecko) Version/3.0 Mobile/4A102 Safari/419.321</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">WebKit</field>
@@ -4185,7 +4185,7 @@
   </answer>
  </test>
  <test>
-  <question>Mozilla/4.0 (compatible; MSIE 4.01; Windows CE; PPC)/UC Browser7.8.0.95/31/400	21</question>
+  <question>Mozilla/4.0 (compatible; MSIE 4.01; Windows CE; PPC)/UC Browser7.8.0.95/31/40021</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Trident</field>
@@ -4196,7 +4196,7 @@
   </answer>
  </test>
  <test>
-  <question>Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; Trident/4.0; Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1) ; Avant Browser; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; .NET CLR 1.1.4322; AskTB5.6)	20</question>
+  <question>Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; Trident/4.0; Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1) ; Avant Browser; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; .NET CLR 1.1.4322; AskTB5.6)20</question>
   <answer>
    <field name="isMobile">false</field>
    <field name="BrowserEngine">Trident</field>
@@ -4209,7 +4209,7 @@
   </answer>
  </test>
  <test>
-  <question>SAMSUNG-E1360M/E1360MXEID2 UP.Browser/6.2.3.3.c.1.101 (GUI) MMP/2.0	19</question>
+  <question>SAMSUNG-E1360M/E1360MXEID2 UP.Browser/6.2.3.3.c.1.101 (GUI) MMP/2.019</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Proprietary</field>
@@ -4220,7 +4220,7 @@
   </answer>
  </test>
  <test>
-  <question>Mozilla/5.0 (X11; U; Linux armv7l; ru-RU; rv:1.9.2a1pre) Gecko/20090928 Firefox/3.5 Maemo Browser 1.4.1.22 RX-51 N900	19</question>
+  <question>Mozilla/5.0 (X11; U; Linux armv7l; ru-RU; rv:1.9.2a1pre) Gecko/20090928 Firefox/3.5 Maemo Browser 1.4.1.22 RX-51 N90019</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Gecko</field>
@@ -4232,7 +4232,7 @@
   </answer>
  </test>
  <test>
-  <question>Mozilla/4.0 (compatible; MSIE 4.01; Windows CE; PPC)/UC Browser7.7.1.88	19</question>
+  <question>Mozilla/4.0 (compatible; MSIE 4.01; Windows CE; PPC)/UC Browser7.7.1.8819</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Trident</field>
@@ -4243,7 +4243,7 @@
   </answer>
  </test>
  <test>
-  <question>GSmart-S1205;Mozilla/4.0 (compatible; MSIE 6.0; PPC;240x400)	19</question>
+  <question>GSmart-S1205;Mozilla/4.0 (compatible; MSIE 6.0; PPC;240x400)19</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Trident</field>
@@ -4254,7 +4254,7 @@
   </answer>
  </test>
  <test>
-  <question>BIRD /1.00 Nucleus RTOS/V1.11.19 MTK6235/08B Release/04.09.2009 Browser/Teleca Profile/MIDP-2.0 Configuration/CLDC-1.0	19</question>
+  <question>BIRD /1.00 Nucleus RTOS/V1.11.19 MTK6235/08B Release/04.09.2009 Browser/Teleca Profile/MIDP-2.0 Configuration/CLDC-1.019</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Proprietary</field>
@@ -4264,7 +4264,7 @@
   </answer>
  </test>
  <test>
-  <question>NokiaN73 UCWEB/6.0/7.6.1.82/31/400	18</question>
+  <question>NokiaN73 UCWEB/6.0/7.6.1.82/31/40018</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Proprietary</field>
@@ -4274,7 +4274,7 @@
   </answer>
  </test>
  <test>
-  <question>HD2_T8585 Opera/9.7 (Windows NT 5.1; U; en)	18</question>
+  <question>HD2_T8585 Opera/9.7 (Windows NT 5.1; U; en)18</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Presto</field>
@@ -4284,7 +4284,7 @@
   </answer>
  </test>
  <test>
-  <question>msnbot/2.0b (+http://search.msn.com/msnbot.htm)._	17</question>
+  <question>msnbot/2.0b (+http://search.msn.com/msnbot.htm)._17</question>
   <answer>
    <field name="isMobile">false</field>
    <field name="OSFamily">UnknownOS</field>
@@ -4293,7 +4293,7 @@
   </answer>
  </test>
  <test>
-  <question>Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Win64; x64; Trident/5.0)	17</question>
+  <question>Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Win64; x64; Trident/5.0)17</question>
   <answer>
    <field name="isMobile">false</field>
    <field name="BrowserEngine">Trident</field>
@@ -4306,7 +4306,7 @@
   </answer>
  </test>
  <test>
-  <question>Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.0; WOW64; Trident/4.0; GTB6.6; SLCC1; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729; .NET4.0C; InfoPath.2)	17</question>
+  <question>Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.0; WOW64; Trident/4.0; GTB6.6; SLCC1; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729; .NET4.0C; InfoPath.2)17</question>
   <answer>
    <field name="isMobile">false</field>
    <field name="BrowserEngine">Trident</field>
@@ -4321,14 +4321,14 @@
   </answer>
  </test>
  <test>
-  <question>MobileSafari/6533.18.5 CFNetwork/485.13.8 Darwin/11.0.0	17</question>
+  <question>MobileSafari/6533.18.5 CFNetwork/485.13.8 Darwin/11.0.017</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="OSFamily">UnknownOS</field>
   </answer>
  </test>
  <test>
-  <question>Nokia5530c-2/21.0.080; Series60/5.0 Profile MIDP2.1 Configuration/CLDC-1.1	16</question>
+  <question>Nokia5530c-2/21.0.080; Series60/5.0 Profile MIDP2.1 Configuration/CLDC-1.116</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Proprietary</field>
@@ -4338,7 +4338,7 @@
   </answer>
  </test>
  <test>
-  <question>Mozilla/4.0 (compatible; MSIE 4.01; Windows CE; PPC)/UCWEB7.0.0.41/31/400	16</question>
+  <question>Mozilla/4.0 (compatible; MSIE 4.01; Windows CE; PPC)/UCWEB7.0.0.41/31/40016</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Trident</field>
@@ -4348,20 +4348,20 @@
   </answer>
  </test>
  <test>
-  <question>Mozilla/5.0 (Windows; U; Windows NT 5.1; ru; rv:1.9.2.3) Gecko/20100401 MRA 5.7 (build 03686) Firefox/3.6.3 (.NET CLR 3.5.30729) sputnik 2.3.0.86	14</question>
+  <question>Mozilla/5.0 (Windows; U; Windows NT 5.1; ru; rv:1.9.2.3) Gecko/20100401 MRA 5.7 (build 03686) Firefox/3.6.3 (.NET CLR 3.5.30729) sputnik 2.3.0.8614</question>
   <answer>
    <field name="isMobile">false</field>
    <field name="BrowserEngine">Gecko</field>
    <field name="BrowserEngineVersion">1.9.2.3</field>
    <field name="BrowserName">Firefox</field>
    <field name="BrowserVersion">3.6</field>
-   <field name="MailRuSputnik">2.3.0.86</field>
+   <field name="MailRuSputnik">2.3.0.8614</field>
    <field name="OSFamily">Windows</field>
    <field name="OSVersion">Windows XP</field>
   </answer>
  </test>
  <test>
-  <question>Fly_MC180/ObigoInternetBrowser/QO3C Profile/MIDP2.0 Configuration/CLDC-1.1	14</question>
+  <question>Fly_MC180/ObigoInternetBrowser/QO3C Profile/MIDP2.0 Configuration/CLDC-1.114</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Proprietary</field>
@@ -4372,7 +4372,7 @@
   </answer>
  </test>
  <test>
-  <question>Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; WOW64; Trident/4.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; Maxthon 2.0)	13</question>
+  <question>Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; WOW64; Trident/4.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; Maxthon 2.0)13</question>
   <answer>
    <field name="isMobile">false</field>
    <field name="BrowserEngine">Trident</field>
@@ -4387,28 +4387,28 @@
   </answer>
  </test>
  <test>
-  <question>Fly E185 Opera/9.80 (MTK; Nucleus; U; ru-RU) Presto/2.4.18 Version/10.00	13</question>
+  <question>Fly E185 Opera/9.80 (MTK; Nucleus; U; ru-RU) Presto/2.4.18 Version/10.0013</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Presto</field>
    <field name="BrowserEngineVersion">2.4.18</field>
    <field name="BrowserName">Opera Mobile</field>
-   <field name="BrowserVersion">10.00</field>
+   <field name="BrowserVersion">10.0013</field>
    <field name="OSFamily">UnknownOS</field>
   </answer>
  </test>
  <test>
-  <question>Mozilla/5.0 R800 like Gecko/20060426 Netfront/3.4	12</question>
+  <question>Mozilla/5.0 R800 like Gecko/20060426 Netfront/3.412</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Proprietary</field>
    <field name="BrowserName">NetFront</field>
-   <field name="BrowserVersion">3.4</field>
+   <field name="BrowserVersion">3.412</field>
    <field name="OSFamily">UnknownOS</field>
   </answer>
  </test>
  <test>
-  <question>JUC (Linux; U; 2.2.1; zh-cn; GT-I9003; 480*800) UCWEB7.9.3.103/139/1002	12</question>
+  <question>JUC (Linux; U; 2.2.1; zh-cn; GT-I9003; 480*800) UCWEB7.9.3.103/139/100212</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Proprietary</field>
@@ -4420,7 +4420,7 @@
   </answer>
  </test>
  <test>
-  <question>SonyEricssonS302/R1BB Browser/OpenWave/1.0 Profile/MIDP-2.0 Configuration/CLDC-1.1	11</question>
+  <question>SonyEricssonS302/R1BB Browser/OpenWave/1.0 Profile/MIDP-2.0 Configuration/CLDC-1.111</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Proprietary</field>
@@ -4431,7 +4431,7 @@
   </answer>
  </test>
  <test>
-  <question>Mozilla/5.0 (Linux; U; Android 2.2; ru_ru; GT-I9003 Build/FROYO) AppleWebKit/530.17 (KHTML, like Gecko) Version/4.0 NetFrontLifeBrowser/1.0 Mobile (Dragonfruit)	11</question>
+  <question>Mozilla/5.0 (Linux; U; Android 2.2; ru_ru; GT-I9003 Build/FROYO) AppleWebKit/530.17 (KHTML, like Gecko) Version/4.0 NetFrontLifeBrowser/1.0 Mobile (Dragonfruit)11</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">WebKit</field>
@@ -4444,7 +4444,7 @@
   </answer>
  </test>
  <test>
-  <question>Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; MRSPUTNIK 2, 4, 0, 289; BTRS7551; AskTbDVS2/5.12.1.16001; .NET CLR 2.0.50727; MSIECrawler)	11</question>
+  <question>Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; MRSPUTNIK 2, 4, 0, 289; BTRS7551; AskTbDVS2/5.12.1.16001; .NET CLR 2.0.50727; MSIECrawler)11</question>
   <answer>
    <field name="isMobile">false</field>
    <field name="BrowserEngine">Trident</field>
@@ -4456,7 +4456,7 @@
   </answer>
  </test>
  <test>
-  <question>Mozilla/4.0 (compatible; MSIE 6.0; Symbian OS; Series 60/35.0.001; 9730) Opera 8.65 [ru]	11</question>
+  <question>Mozilla/4.0 (compatible; MSIE 6.0; Symbian OS; Series 60/35.0.001; 9730) Opera 8.65 [ru]11</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Presto</field>
@@ -4466,7 +4466,7 @@
   </answer>
  </test>
  <test>
-  <question>Mozilla/4.0 (compatible; MSIE 4.01; Windows CE; PPC)/UCWEB7.2.2.51/35/400	11</question>
+  <question>Mozilla/4.0 (compatible; MSIE 4.01; Windows CE; PPC)/UCWEB7.2.2.51/35/40011</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Trident</field>
@@ -4476,7 +4476,7 @@
   </answer>
  </test>
  <test>
-  <question>Mozilla/4.0 (Ubiquam U-300; BREW/3.1) NetFront/3.1	11</question>
+  <question>Mozilla/4.0 (Ubiquam U-300; BREW/3.1) NetFront/3.111</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">WebKit</field>
@@ -4485,7 +4485,7 @@
   </answer>
  </test>
  <test>
-  <question>SonyEricssonS312/R1FB Browser/OpenWave/1.0 Profile/MIDP-2.1 Configuration/CLDC-1.1	10</question>
+  <question>SonyEricssonS312/R1FB Browser/OpenWave/1.0 Profile/MIDP-2.1 Configuration/CLDC-1.110</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Proprietary</field>
@@ -4496,7 +4496,7 @@
   </answer>
  </test>
  <test>
-  <question>SamsungI8910/Opera&lt;Ch-Ray&gt;/RU/400	10</question>
+  <question>SamsungI8910/Opera&lt;Ch-Ray&gt;/RU/40010</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Presto</field>
@@ -4504,7 +4504,7 @@
   </answer>
  </test>
  <test>
-  <question>NokiaN73/UCWEB8.0.0.89/28/400	10</question>
+  <question>NokiaN73/UCWEB8.0.0.89/28/40010</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Proprietary</field>
@@ -4514,7 +4514,7 @@
   </answer>
  </test>
  <test>
-  <question>NokiaN73/UCWEB7.2.2.51/28/400	10</question>
+  <question>NokiaN73/UCWEB7.2.2.51/28/40010</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Proprietary</field>
@@ -4524,7 +4524,7 @@
   </answer>
  </test>
  <test>
-  <question>Mozilla/4.0 (compatible; MSIE 4.01; Windows CE; PPC)/UCWEB7.2.0.46/31/999	10</question>
+  <question>Mozilla/4.0 (compatible; MSIE 4.01; Windows CE; PPC)/UCWEB7.2.0.46/31/99910</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Trident</field>
@@ -4534,7 +4534,7 @@
   </answer>
  </test>
  <test>
-  <question>MSFT-PPC/5.2.1605	10</question>
+  <question>MSFT-PPC/5.2.160510</question>
   <answer>
    <field name="isMobile">false</field>
    <field name="OSFamily">Mac OS</field>
@@ -4542,7 +4542,7 @@
   </answer>
  </test>
  <test>
-  <question>LG/HB620T/v10a Browser/Obigo-Q05A/3.12 MMS/LG-MMS-V1.0/1.2 Java/ASVM/1.1 Profile/MIDP-2.1 Configuration/CLDC-1.1	10</question>
+  <question>LG/HB620T/v10a Browser/Obigo-Q05A/3.12 MMS/LG-MMS-V1.0/1.2 Java/ASVM/1.1 Profile/MIDP-2.1 Configuration/CLDC-1.110</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Proprietary</field>
@@ -4553,7 +4553,7 @@
   </answer>
  </test>
  <test>
-  <question>SonyEricssonW395/R1FB Browser/OpenWave/1.0 Profile/MIDP-2.1 Configuration/CLDC-1.1	9</question>
+  <question>SonyEricssonW395/R1FB Browser/OpenWave/1.0 Profile/MIDP-2.1 Configuration/CLDC-1.19</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Proprietary</field>
@@ -4564,7 +4564,7 @@
   </answer>
  </test>
  <test>
-  <question>Mozilla/5.0 (X11; U; Linux armv7l; ru; rv:1.9.2.5) Gecko/20100614 Firefox/3.6.5pre Fennec/1.1	9</question>
+  <question>Mozilla/5.0 (X11; U; Linux armv7l; ru; rv:1.9.2.5) Gecko/20100614 Firefox/3.6.5pre Fennec/1.19</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Gecko</field>
@@ -4576,7 +4576,7 @@
   </answer>
  </test>
  <test>
-  <question>Mozilla/5.0 (X11; U; Linux armv7l; en-US; rv:1.9.2.1) Gecko/20100330 Firefox/3.6.1 Fennec/1.0.1	9</question>
+  <question>Mozilla/5.0 (X11; U; Linux armv7l; en-US; rv:1.9.2.1) Gecko/20100330 Firefox/3.6.1 Fennec/1.0.19</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Gecko</field>
@@ -4588,7 +4588,7 @@
   </answer>
  </test>
  <test>
-  <question>Mozilla/5.0 (Linux; U; Android 2.3.3; ru_ru; GT-I9100 Build/GINGERBREAD) AppleWebKit/530.17 (KHTML, like Gecko) Version/4.0 NetFrontLifeBrowser/2.2 Mobile (Dragonfruit)	9</question>
+  <question>Mozilla/5.0 (Linux; U; Android 2.3.3; ru_ru; GT-I9100 Build/GINGERBREAD) AppleWebKit/530.17 (KHTML, like Gecko) Version/4.0 NetFrontLifeBrowser/2.2 Mobile (Dragonfruit)9</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">WebKit</field>
@@ -4601,37 +4601,37 @@
   </answer>
  </test>
  <test>
-  <question>HUAWEI-M735/001.00 Opera/9.70	9</question>
+  <question>HUAWEI-M735/001.00 Opera/9.709</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Presto</field>
    <field name="BrowserName">Opera Mobile</field>
-   <field name="BrowserVersion">9.70</field>
+   <field name="BrowserVersion">9.709</field>
    <field name="OSFamily">UnknownOS</field>
   </answer>
  </test>
  <test>
-  <question>SEC-SGHF300/1.0 NetFront/3.2	8</question>
+  <question>SEC-SGHF300/1.0 NetFront/3.28</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Proprietary</field>
    <field name="BrowserName">NetFront</field>
-   <field name="BrowserVersion">3.2</field>
+   <field name="BrowserVersion">3.28</field>
    <field name="OSFamily">UnknownOS</field>
   </answer>
  </test>
  <test>
-  <question>Opera/9.80 (BREW; Opera Mini/4.2.99/26.958; U; id) Presto/2.8.119 Version/10.54	8</question>
+  <question>Opera/9.80 (BREW; Opera Mini/4.2.99/26.958; U; id) Presto/2.8.119 Version/10.548</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">WebKit</field>
    <field name="BrowserName">Unknown Webkit</field>
-   <field name="BrowserVersion">10.54</field>
+   <field name="BrowserVersion">10.548</field>
    <field name="OSFamily">UnknownOS</field>
   </answer>
  </test>
  <test>
-  <question>NokiaN73/UCWEB7.0.0.41/28/400	8</question>
+  <question>NokiaN73/UCWEB7.0.0.41/28/4008</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Proprietary</field>
@@ -4641,7 +4641,7 @@
   </answer>
  </test>
  <test>
-  <question>Mozilla/5.0(Linux;U;2.1-update1;ru;E15i;320*480;)AppleWebKit/528.5+ (KHTML) Version/3.1.2/UCWEB7.8.1.96/139/999	8</question>
+  <question>Mozilla/5.0(Linux;U;2.1-update1;ru;E15i;320*480;)AppleWebKit/528.5+ (KHTML) Version/3.1.2/UCWEB7.8.1.96/139/9998</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">WebKit</field>
@@ -4654,7 +4654,7 @@
   </answer>
  </test>
  <test>
-  <question>Mozilla/5.0 (hp-tablet; Linux; hpwOS/3.0.2; U; en-US) AppleWebKit/534.6 (KHTML, like Gecko) wOSBrowser/234.40.1 Safari/534.6 TouchPad/1.0	8</question>
+  <question>Mozilla/5.0 (hp-tablet; Linux; hpwOS/3.0.2; U; en-US) AppleWebKit/534.6 (KHTML, like Gecko) wOSBrowser/234.40.1 Safari/534.6 TouchPad/1.08</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">WebKit</field>
@@ -4667,7 +4667,7 @@
   </answer>
  </test>
  <test>
-  <question>Mozilla/5.0 (compatible; Yahoo! Slurp; http://help.yahoo.com/help/us/ysearch/slurp)	8</question>
+  <question>Mozilla/5.0 (compatible; Yahoo! Slurp; http://help.yahoo.com/help/us/ysearch/slurp)8</question>
   <answer>
    <field name="isMobile">false</field>
    <field name="OSFamily">UnknownOS</field>
@@ -4676,7 +4676,7 @@
   </answer>
  </test>
  <test>
-  <question>Mozilla/4.0 (compatible; MSIE 6.0; Symbian OS; Series 60/20.0.015; 9730) Opera 8.65 [ru]	8</question>
+  <question>Mozilla/4.0 (compatible; MSIE 6.0; Symbian OS; Series 60/20.0.015; 9730) Opera 8.65 [ru]8</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Presto</field>
@@ -4686,7 +4686,7 @@
   </answer>
  </test>
  <test>
-  <question>Mozilla/4.0 (compatible; MSIE 6.0; Symbian OS; Series 60/03.83; 9712) Opera 8.65 [ru]	8</question>
+  <question>Mozilla/4.0 (compatible; MSIE 6.0; Symbian OS; Series 60/03.83; 9712) Opera 8.65 [ru]8</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Presto</field>
@@ -4696,7 +4696,7 @@
   </answer>
  </test>
  <test>
-  <question>Mozilla/4.0 (compatible; MSIE 5.5; Windows NT 5.0; PPC; 240x320; HP iPAQ h6300)	8</question>
+  <question>Mozilla/4.0 (compatible; MSIE 5.5; Windows NT 5.0; PPC; 240x320; HP iPAQ h6300)8</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Trident</field>
@@ -4707,7 +4707,7 @@
   </answer>
  </test>
  <test>
-  <question>Mozilla/4.0 (compatible; MSIE 4.01; Windows CE; PPC; 240x320)/UCWEB7.0.2.37/31/999	8</question>
+  <question>Mozilla/4.0 (compatible; MSIE 4.01; Windows CE; PPC; 240x320)/UCWEB7.0.2.37/31/9998</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Trident</field>
@@ -4717,7 +4717,7 @@
   </answer>
  </test>
  <test>
-  <question>LG/KU990/v10a Browser/Obigo-Q05A/3.6 MMS/LG-MMS-V1.0/1.2 Java/ASVM/1.0 Profile/MIDP-2.0 Configuration/CLDC-1.1	8</question>
+  <question>LG/KU990/v10a Browser/Obigo-Q05A/3.6 MMS/LG-MMS-V1.0/1.2 Java/ASVM/1.0 Profile/MIDP-2.0 Configuration/CLDC-1.18</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Proprietary</field>
@@ -4728,7 +4728,7 @@
   </answer>
  </test>
  <test>
-  <question>Mozilla/5.0(Linux;U;Android2.2;Zh_cn;MTC 1055;480*800;)AppleWebKit/528.5+ (KHTML) Version/3.1.2/UCWEB7.8.0.95/139/355	7</question>
+  <question>Mozilla/5.0(Linux;U;Android2.2;Zh_cn;MTC 1055;480*800;)AppleWebKit/528.5+ (KHTML) Version/3.1.2/UCWEB7.8.0.95/139/3557</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">WebKit</field>
@@ -4741,7 +4741,7 @@
   </answer>
  </test>
  <test>
-  <question>Mozilla/5.0 (compatible; YandexMetrika/2.0; +http://yandex.com/bots)	7</question>
+  <question>Mozilla/5.0 (compatible; YandexMetrika/2.0; +http://yandex.com/bots)7</question>
   <answer>
    <field name="isMobile">false</field>
    <field name="OSFamily">UnknownOS</field>
@@ -4750,33 +4750,33 @@
   </answer>
  </test>
  <test>
-  <question>Mozilla/5.0 (Windows; U; Windows NT 5.1; ru; rv:1.9.2.23) Gecko/20110920 Firefox/3.6.23 sputnik 2.5.0.90	7</question>
+  <question>Mozilla/5.0 (Windows; U; Windows NT 5.1; ru; rv:1.9.2.23) Gecko/20110920 Firefox/3.6.23 sputnik 2.5.0.907</question>
   <answer>
    <field name="isMobile">false</field>
    <field name="BrowserEngine">Gecko</field>
    <field name="BrowserEngineVersion">1.9.2.23</field>
    <field name="BrowserName">Firefox</field>
    <field name="BrowserVersion">3.6</field>
-   <field name="MailRuSputnik">2.5.0.90</field>
+   <field name="MailRuSputnik">2.5.0.907</field>
    <field name="OSFamily">Windows</field>
    <field name="OSVersion">Windows XP</field>
   </answer>
  </test>
  <test>
-  <question>Mozilla/5.0 (Windows; U; Windows NT 5.1; ru; rv:1.9.0.9) Gecko/2009040821 Firefox/3.0.9 sputnik 2.5.0.90	7</question>
+  <question>Mozilla/5.0 (Windows; U; Windows NT 5.1; ru; rv:1.9.0.9) Gecko/2009040821 Firefox/3.0.9 sputnik 2.5.0.907</question>
   <answer>
    <field name="isMobile">false</field>
    <field name="BrowserEngine">Gecko</field>
    <field name="BrowserEngineVersion">1.9.0.9</field>
    <field name="BrowserName">Firefox</field>
    <field name="BrowserVersion">3.0</field>
-   <field name="MailRuSputnik">2.5.0.90</field>
+   <field name="MailRuSputnik">2.5.0.907</field>
    <field name="OSFamily">Windows</field>
    <field name="OSVersion">Windows XP</field>
   </answer>
  </test>
  <test>
-  <question>Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/533.9 (KHTML, like Gecko) Maxthon/3.0 Safari/533.9	7</question>
+  <question>Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/533.9 (KHTML, like Gecko) Maxthon/3.0 Safari/533.97</question>
   <answer>
    <field name="isMobile">false</field>
    <field name="BrowserEngine">WebKit</field>
@@ -4788,7 +4788,7 @@
   </answer>
  </test>
  <test>
-  <question>Mozilla/5.0 (Linux; U; Android 2.2; ru_ru; GT-P1000 Build/FROYO) AppleWebKit/530.17 (KHTML, like Gecko) Version/4.0 NetFrontLifeBrowser/2.2 Mobile (Dragonfruit)	7</question>
+  <question>Mozilla/5.0 (Linux; U; Android 2.2; ru_ru; GT-P1000 Build/FROYO) AppleWebKit/530.17 (KHTML, like Gecko) Version/4.0 NetFrontLifeBrowser/2.2 Mobile (Dragonfruit)7</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">WebKit</field>
@@ -4801,7 +4801,7 @@
   </answer>
  </test>
  <test>
-  <question>Mozilla/4.0 (compatible; MSIE 6.0; Symbian OS; Series 60/5.0705.3.0.1; 6936) Opera 8.50 [ru]	7</question>
+  <question>Mozilla/4.0 (compatible; MSIE 6.0; Symbian OS; Series 60/5.0705.3.0.1; 6936) Opera 8.50 [ru]7</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Presto</field>
@@ -4811,7 +4811,7 @@
   </answer>
  </test>
  <test>
-  <question>Mozilla/4.0 (compatible; Linux 2.6.22) NetFront/3.4 Kindle/2.5 (screen 824x1200; rotate)	7</question>
+  <question>Mozilla/4.0 (compatible; Linux 2.6.22) NetFront/3.4 Kindle/2.5 (screen 824x1200; rotate)7</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Proprietary</field>
@@ -4822,7 +4822,7 @@
   </answer>
  </test>
  <test>
-  <question>LG/BL20/v10a Browser/Obigo-Q7.3 MMS/LG-MMS-V1.0/1.2 MediaPlayer/LGPlayer/1.0 Java/ASVM/1.1 Profile/MIDP-2.1 Configuration/CLDC-1.1	7</question>
+  <question>LG/BL20/v10a Browser/Obigo-Q7.3 MMS/LG-MMS-V1.0/1.2 MediaPlayer/LGPlayer/1.0 Java/ASVM/1.1 Profile/MIDP-2.1 Configuration/CLDC-1.17</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Proprietary</field>
@@ -4833,7 +4833,7 @@
   </answer>
  </test>
  <test>
-  <question>XV6975 Opera/9.50 (Windows NT  5.1; U; en)	6</question>
+  <question>XV6975 Opera/9.50 (Windows NT 5.1; U; en)6</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Presto</field>
@@ -4843,7 +4843,7 @@
   </answer>
  </test>
  <test>
-  <question>Mozilla/5.0(Linux;U;Android2.2;Zh_cn;Liquid;480*800;)AppleWebKit/528.5+ (KHTML) Version/3.1.2/UCWEB7.8.0.95/139/352	6</question>
+  <question>Mozilla/5.0(Linux;U;Android2.2;Zh_cn;Liquid;480*800;)AppleWebKit/528.5+ (KHTML) Version/3.1.2/UCWEB7.8.0.95/139/3526</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">WebKit</field>
@@ -4856,7 +4856,7 @@
   </answer>
  </test>
  <test>
-  <question>Mozilla/5.0 (Linux; U; Android 2.3.3; ru_ru; GT-S5670 Build/GINGERBREAD) AppleWebKit/530.17 (KHTML, like Gecko) Version/4.0 NetFrontLifeBrowser/2.1 Mobile (Dragonfruit)	6</question>
+  <question>Mozilla/5.0 (Linux; U; Android 2.3.3; ru_ru; GT-S5670 Build/GINGERBREAD) AppleWebKit/530.17 (KHTML, like Gecko) Version/4.0 NetFrontLifeBrowser/2.1 Mobile (Dragonfruit)6</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">WebKit</field>
@@ -4869,7 +4869,7 @@
   </answer>
  </test>
  <test>
-  <question>Mozilla/5.0 (Linux; U; Android 2.3.3; ru_ru; GT-S5570 Build/GINGERBREAD) AppleWebKit/530.17 (KHTML, like Gecko) Version/4.0 NetFrontLifeBrowser/2.1 Mobile (Dragonfruit)	6</question>
+  <question>Mozilla/5.0 (Linux; U; Android 2.3.3; ru_ru; GT-S5570 Build/GINGERBREAD) AppleWebKit/530.17 (KHTML, like Gecko) Version/4.0 NetFrontLifeBrowser/2.1 Mobile (Dragonfruit)6</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">WebKit</field>
@@ -4882,7 +4882,7 @@
   </answer>
  </test>
  <test>
-  <question>Mozilla/5.0 (Linux; U; Android 2.3.3; ru; GT-S5660 Build/GINGERBREAD; 320*480) AppleWebKit/528.5+ (KHTML, like Gecko) Version/3.1.2 Mobile Safari/525.20.1/UCWEB7.9.0.94/139/400	6</question>
+  <question>Mozilla/5.0 (Linux; U; Android 2.3.3; ru; GT-S5660 Build/GINGERBREAD; 320*480) AppleWebKit/528.5+ (KHTML, like Gecko) Version/3.1.2 Mobile Safari/525.20.1/UCWEB7.9.0.94/139/4006</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">WebKit</field>
@@ -4895,7 +4895,7 @@
   </answer>
  </test>
  <test>
-  <question>Mozilla/4.0 (compatible; MSIE 6.0; Symbian OS; Series 60/3.0705.1.0.31; 9730) Opera 8.65 [ru]	6</question>
+  <question>Mozilla/4.0 (compatible; MSIE 6.0; Symbian OS; Series 60/3.0705.1.0.31; 9730) Opera 8.65 [ru]6</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Presto</field>
@@ -4905,7 +4905,7 @@
   </answer>
  </test>
  <test>
-  <question>LG/KU990i/v10a Browser/Obigo-Q05A/3.6 MMS/LG-MMS-V1.0/1.2 Java/ASVM/1.0 Profile/MIDP-2.0 Configuration/CLDC-1.1	6</question>
+  <question>LG/KU990i/v10a Browser/Obigo-Q05A/3.6 MMS/LG-MMS-V1.0/1.2 Java/ASVM/1.0 Profile/MIDP-2.0 Configuration/CLDC-1.16</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Proprietary</field>
@@ -4916,7 +4916,7 @@
   </answer>
  </test>
  <test>
-  <question>SonyEricssonW395/R1EA Browser/OpenWave/1.0 Profile/MIDP-2.1 Configuration/CLDC-1.1	5</question>
+  <question>SonyEricssonW395/R1EA Browser/OpenWave/1.0 Profile/MIDP-2.1 Configuration/CLDC-1.15</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Proprietary</field>
@@ -4927,14 +4927,14 @@
   </answer>
  </test>
  <test>
-  <question>SonyEricssonT250i/R5DC003 TelecaBrowser/1.1.14.20	5</question>
+  <question>SonyEricssonT250i/R5DC003 TelecaBrowser/1.1.14.205</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="OSFamily">UnknownOS</field>
   </answer>
  </test>
  <test>
-  <question>SonyEricssonS312/R1DA Browser/OpenWave/1.0 Profile/MIDP-2.1 Configuration/CLDC-1.1	5</question>
+  <question>SonyEricssonS312/R1DA Browser/OpenWave/1.0 Profile/MIDP-2.1 Configuration/CLDC-1.15</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Proprietary</field>
@@ -4945,7 +4945,7 @@
   </answer>
  </test>
  <test>
-  <question>Opera/9.7 (WindowsMobile; PPC; Opera Mobi/36053; U; en; Presto/2.1.1)	5</question>
+  <question>Opera/9.7 (WindowsMobile; PPC; Opera Mobi/36053; U; en; Presto/2.1.1)5</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Presto</field>
@@ -4956,7 +4956,7 @@
   </answer>
  </test>
  <test>
-  <question>Openwave(Linux;U;2.1-update1;Ru_ru;GT-I5500;240*320;)UCWEB7.4.0.65/139/400	5</question>
+  <question>Openwave(Linux;U;2.1-update1;Ru_ru;GT-I5500;240*320;)UCWEB7.4.0.65/139/4005</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Proprietary</field>
@@ -4968,7 +4968,7 @@
   </answer>
  </test>
  <test>
-  <question>NokiaN73/UCBrowser7.7.0.81/28/400	5</question>
+  <question>NokiaN73/UCBrowser7.7.0.81/28/4005</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Proprietary</field>
@@ -4978,7 +4978,7 @@
   </answer>
  </test>
  <test>
-  <question>NokiaN73/UCBrowser7.6.1.82/28/400	5</question>
+  <question>NokiaN73/UCBrowser7.6.1.82/28/4005</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Proprietary</field>
@@ -4988,7 +4988,7 @@
   </answer>
  </test>
  <test>
-  <question>NOKIAN95 8GB/UCBrowser7.6.1.82/28/400	5</question>
+  <question>NOKIAN95 8GB/UCBrowser7.6.1.82/28/4005</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Proprietary</field>
@@ -4998,7 +4998,7 @@
   </answer>
  </test>
  <test>
-  <question>Mozilla/5.0(Linux;U;Android2.3.3;Zh_cn;LG-P500;320*480;)AppleWebKit/528.5+ (KHTML) Version/3.1.2/UCWEB7.8.0.95/139/355	5</question>
+  <question>Mozilla/5.0(Linux;U;Android2.3.3;Zh_cn;LG-P500;320*480;)AppleWebKit/528.5+ (KHTML) Version/3.1.2/UCWEB7.8.0.95/139/3555</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">WebKit</field>
@@ -5011,7 +5011,7 @@
   </answer>
  </test>
  <test>
-  <question>Mozilla/5.0(Linux;U;2.2.1;Ru_ru;LG-P500;320*480;)AppleWebKit/528.5+ (KHTML) Version/3.1.2/UCWEB7.4.0.65/139/400	5</question>
+  <question>Mozilla/5.0(Linux;U;2.2.1;Ru_ru;LG-P500;320*480;)AppleWebKit/528.5+ (KHTML) Version/3.1.2/UCWEB7.4.0.65/139/4005</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">WebKit</field>
@@ -5024,7 +5024,7 @@
   </answer>
  </test>
  <test>
-  <question>Mozilla/5.0 (iPod; U; CPU like Mac OS X; en) AppleWebKit/420.1 (KHTML, like Gecko) Version/3.0 Mobile/3B48b Safari/419.3	5</question>
+  <question>Mozilla/5.0 (iPod; U; CPU like Mac OS X; en) AppleWebKit/420.1 (KHTML, like Gecko) Version/3.0 Mobile/3B48b Safari/419.35</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">WebKit</field>
@@ -5036,19 +5036,19 @@
   </answer>
  </test>
  <test>
-  <question>Mozilla/5.0 (Windows; U; Windows NT 5.1; ru-RU; rv:1.8.1.24pre) Gecko/20100228 K-Meleon/1.5.4	5</question>
+  <question>Mozilla/5.0 (Windows; U; Windows NT 5.1; ru-RU; rv:1.8.1.24pre) Gecko/20100228 K-Meleon/1.5.45</question>
   <answer>
    <field name="isMobile">false</field>
    <field name="BrowserEngine">Gecko</field>
    <field name="BrowserEngineVersion">1.8.1.24</field>
    <field name="BrowserName">K-Meleon</field>
-   <field name="BrowserVersion">1.5.4</field>
+   <field name="BrowserVersion">1.5.45</field>
    <field name="OSFamily">Windows</field>
    <field name="OSVersion">Windows XP</field>
   </answer>
  </test>
  <test>
-  <question>Mozilla/4.0 (compatible; GoogleToolbar 7.1.2003.1856; Windows 6.0; MSIE 9.0.8112.16421)	5</question>
+  <question>Mozilla/4.0 (compatible; GoogleToolbar 7.1.2003.1856; Windows 6.0; MSIE 9.0.8112.16421)5</question>
   <answer>
    <field name="isMobile">false</field>
    <field name="BrowserEngine">Trident</field>
@@ -5059,21 +5059,21 @@
   </answer>
  </test>
  <test>
-  <question>MobileSafari/6531.22.7 CFNetwork/485.2 Darwin/10.3.1	5</question>
+  <question>MobileSafari/6531.22.7 CFNetwork/485.2 Darwin/10.3.15</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="OSFamily">UnknownOS</field>
   </answer>
  </test>
  <test>
-  <question>MobileSafari/528.16 CFNetwork/459 Darwin/10.0.0d3	5</question>
+  <question>MobileSafari/528.16 CFNetwork/459 Darwin/10.0.0d35</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="OSFamily">UnknownOS</field>
   </answer>
  </test>
  <test>
-  <question>ZTE-R230/2.0 Profile/MIDP-2.0	4</question>
+  <question>ZTE-R230/2.0 Profile/MIDP-2.04</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Proprietary</field>
@@ -5082,7 +5082,7 @@
   </answer>
  </test>
  <test>
-  <question>VertuConstellationF/2.0 (500.03) Profile/MIDP-2.1 Configuration/CLDC-1.1 Mozilla/5.0 AppleWebKit/420+ (KHTML, like Gecko) Safari/420+ IMEI/356052030269261	4</question>
+  <question>VertuConstellationF/2.0 (500.03) Profile/MIDP-2.1 Configuration/CLDC-1.1 Mozilla/5.0 AppleWebKit/420+ (KHTML, like Gecko) Safari/420+ IMEI/3560520302692614</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">WebKit</field>
@@ -5092,21 +5092,21 @@
   </answer>
  </test>
  <test>
-  <question>SAMSUNG-SGH-i900/1.0	4</question>
+  <question>SAMSUNG-SGH-i900/1.04</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="OSFamily">UnknownOS</field>
   </answer>
  </test>
  <test>
-  <question>Openwave/7.6.1.82/31/400	4</question>
+  <question>Openwave/7.6.1.82/31/4004</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="OSFamily">UnknownOS</field>
   </answer>
  </test>
  <test>
-  <question>Mozilla/5.0(Linux;U;3.1;Ru_ru;A500;800*1280;)AppleWebKit/528.5+ (KHTML) Version/3.1.2/UCWEB7.4.0.65/139/400	4</question>
+  <question>Mozilla/5.0(Linux;U;3.1;Ru_ru;A500;800*1280;)AppleWebKit/528.5+ (KHTML) Version/3.1.2/UCWEB7.4.0.65/139/4004</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">WebKit</field>
@@ -5120,7 +5120,7 @@
   </answer>
  </test>
  <test>
-  <question>Mozilla/5.0 (iPod; U; CPU like Mac OS X; ru-ru) AppleWebKit/420.1 (KHTML, like Gecko) Version/3.0 Mobile/4A93 Safari/419.3	4</question>
+  <question>Mozilla/5.0 (iPod; U; CPU like Mac OS X; ru-ru) AppleWebKit/420.1 (KHTML, like Gecko) Version/3.0 Mobile/4A93 Safari/419.34</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">WebKit</field>
@@ -5132,7 +5132,7 @@
   </answer>
  </test>
  <test>
-  <question>Mozilla/5.0 (X11; U; Linux armv7l; ru; rv:1.9.2.1) Gecko/20100330 Firefox/3.6.1 Fennec/1.0.1	4</question>
+  <question>Mozilla/5.0 (X11; U; Linux armv7l; ru; rv:1.9.2.1) Gecko/20100330 Firefox/3.6.1 Fennec/1.0.14</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Gecko</field>
@@ -5144,7 +5144,7 @@
   </answer>
  </test>
  <test>
-  <question>Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/534.51 (KHTML, like Gecko; Google Web Preview) Chrome/12.0.742 Safari/534.51	4</question>
+  <question>Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/534.51 (KHTML, like Gecko; Google Web Preview) Chrome/12.0.742 Safari/534.514</question>
   <answer>
    <field name="isMobile">false</field>
    <field name="BrowserEngine">WebKit</field>
@@ -5157,7 +5157,7 @@
   </answer>
  </test>
  <test>
-  <question>Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; GTB6; Avant Browser; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; InfoPath.2)	4</question>
+  <question>Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; GTB6; Avant Browser; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; InfoPath.2)4</question>
   <answer>
    <field name="isMobile">false</field>
    <field name="BrowserEngine">Trident</field>
@@ -5172,7 +5172,7 @@
   </answer>
  </test>
  <test>
-  <question>Mozilla/4.0 (compatible; Linux 2.6.22) NetFront/3.4 Kindle/2.5 (screen 600x800; rotate)	4</question>
+  <question>Mozilla/4.0 (compatible; Linux 2.6.22) NetFront/3.4 Kindle/2.5 (screen 600x800; rotate)4</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Proprietary</field>
@@ -5183,7 +5183,7 @@
   </answer>
  </test>
  <test>
-  <question>MSFT-PPC/5.2.1301	4</question>
+  <question>MSFT-PPC/5.2.13014</question>
   <answer>
    <field name="isMobile">false</field>
    <field name="OSFamily">Mac OS</field>
@@ -5191,7 +5191,7 @@
   </answer>
  </test>
  <test>
-  <question>LG/GT500/v10a Browser/Teleca-Q7.1 MMS/LG-MMS-V1.0/1.2 MediaPlayer/LGPlayer/1.0 Java/ASVM/1.1 Profile/MIDP-2.1 Configuration/CLDC-1.1	4</question>
+  <question>LG/GT500/v10a Browser/Teleca-Q7.1 MMS/LG-MMS-V1.0/1.2 MediaPlayer/LGPlayer/1.0 Java/ASVM/1.1 Profile/MIDP-2.1 Configuration/CLDC-1.14</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Proprietary</field>
@@ -5202,7 +5202,7 @@
   </answer>
  </test>
  <test>
-  <question>HTC_TOUCH_HD_T8282 Mozilla/5.0 (compatible; WindowsCE; Windows Mobile; WCE; U; en; IE Mobile 7.11; MSIE 6.0)	4</question>
+  <question>HTC_TOUCH_HD_T8282 Mozilla/5.0 (compatible; WindowsCE; Windows Mobile; WCE; U; en; IE Mobile 7.11; MSIE 6.0)4</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Trident</field>
@@ -5213,18 +5213,18 @@
   </answer>
  </test>
  <test>
-  <question>Fly_E190 Wi-Fi Opera/9.80 (MTK; Nucleus; U; ru-RU) Presto/2.4.18 Version/10.00	4</question>
+  <question>Fly_E190 Wi-Fi Opera/9.80 (MTK; Nucleus; U; ru-RU) Presto/2.4.18 Version/10.004</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Presto</field>
    <field name="BrowserEngineVersion">2.4.18</field>
    <field name="BrowserName">Opera Mobile</field>
-   <field name="BrowserVersion">10.00</field>
+   <field name="BrowserVersion">10.004</field>
    <field name="OSFamily">UnknownOS</field>
   </answer>
  </test>
  <test>
-  <question>AtomicBrowser/5.9.0 CFNetwork/485.13.9 Darwin/11.0.0	4</question>
+  <question>AtomicBrowser/5.9.0 CFNetwork/485.13.9 Darwin/11.0.04</question>
   <answer>
    <field name="isMobile">false</field>
    <field name="OSFamily">Mac OS</field>
@@ -5232,7 +5232,7 @@
   </answer>
  </test>
  <test>
-  <question>Mozilla/5.0 (compatible; Baiduspider/2.0; +http://www.baidu.com/search/spider.html)	3</question>
+  <question>Mozilla/5.0 (compatible; Baiduspider/2.0; +http://www.baidu.com/search/spider.html)3</question>
   <answer>
    <field name="isMobile">false</field>
    <field name="OSFamily">UnknownOS</field>
@@ -5241,7 +5241,7 @@
   </answer>
  </test>
  <test>
-  <question>Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_5_7; en-us) AppleWebKit/530.17 (KHTML, like Gecko) Version/4.0 Safari/530.17 Skyfire/2.0 operator=x22Beelinex22	3</question>
+  <question>Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_5_7; en-us) AppleWebKit/530.17 (KHTML, like Gecko) Version/4.0 Safari/530.17 Skyfire/2.0 operator=x22Beelinex223</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">WebKit</field>
@@ -5252,7 +5252,7 @@
   </answer>
  </test>
  <test>
-  <question>Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Win64; x64; Trident/4.0; MRSPUTNIK 2, 3, 0, 305; .NET CLR 2.0.50727; SLCC2; .NET CLR 3.5.30729; .NET CLR 3.0.30729)	3</question>
+  <question>Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Win64; x64; Trident/4.0; MRSPUTNIK 2, 3, 0, 305; .NET CLR 2.0.50727; SLCC2; .NET CLR 3.5.30729; .NET CLR 3.0.30729)3</question>
   <answer>
    <field name="isMobile">false</field>
    <field name="BrowserEngine">Trident</field>
@@ -5266,7 +5266,7 @@
   </answer>
  </test>
  <test>
-  <question>Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; XBLWP7; ZuneWP7)	3</question>
+  <question>Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; XBLWP7; ZuneWP7)3</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Trident</field>
@@ -5279,7 +5279,7 @@
   </answer>
  </test>
  <test>
-  <question>Mozilla/4.0 (compatible; MSIE 5.0; Windows NT; DigExt)	3</question>
+  <question>Mozilla/4.0 (compatible; MSIE 5.0; Windows NT; DigExt)3</question>
   <answer>
    <field name="isMobile">false</field>
    <field name="BrowserEngine">Trident</field>
@@ -5290,7 +5290,7 @@
   </answer>
  </test>
  <test>
-  <question>Mozilla/4.0 (compatible; MSIE 5.0; Series80/2.0 Nokia9500/06.27 Profile/MIDP-2.0 Configuration/CLDC-1.1)	3</question>
+  <question>Mozilla/4.0 (compatible; MSIE 5.0; Series80/2.0 Nokia9500/06.27 Profile/MIDP-2.0 Configuration/CLDC-1.1)3</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Proprietary</field>
@@ -5300,7 +5300,7 @@
   </answer>
  </test>
  <test>
-  <question>Mozilla/4.0 (compatible; GoogleToolbar 7.1.2003.1856; Windows XP 5.1; MSIE 8.0.6001.18702)	3</question>
+  <question>Mozilla/4.0 (compatible; GoogleToolbar 7.1.2003.1856; Windows XP 5.1; MSIE 8.0.6001.18702)3</question>
   <answer>
    <field name="isMobile">false</field>
    <field name="BrowserEngine">Trident</field>
@@ -5312,7 +5312,7 @@
   </answer>
  </test>
  <test>
-  <question>LG/GT505/v10a Browser/Teleca-Q7.1 MMS/LG-MMS-V1.0/1.2 MediaPlayer/LGPlayer/1.0 Java/ASVM/1.1 Profile/MIDP-2.1 Configuration/CLDC-1.1	3</question>
+  <question>LG/GT505/v10a Browser/Teleca-Q7.1 MMS/LG-MMS-V1.0/1.2 MediaPlayer/LGPlayer/1.0 Java/ASVM/1.1 Profile/MIDP-2.1 Configuration/CLDC-1.13</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Proprietary</field>
@@ -5323,7 +5323,7 @@
   </answer>
  </test>
  <test>
-  <question>LG-GT400/v10a Browser/Teleca-Q7.1 MMS/LG-MMS-V1.0/1.2 MediaPlayer/LGPlayer/1.0 Java/ASVM/1.1 Profile/MIDP-2.1 Configuration/CLDC-1.1	3</question>
+  <question>LG-GT400/v10a Browser/Teleca-Q7.1 MMS/LG-MMS-V1.0/1.2 MediaPlayer/LGPlayer/1.0 Java/ASVM/1.1 Profile/MIDP-2.1 Configuration/CLDC-1.13</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Proprietary</field>
@@ -5334,14 +5334,14 @@
   </answer>
  </test>
  <test>
-  <question>Alcatel-OT-880/1.0 UNTRUSTED/1.0	3</question>
+  <question>Alcatel-OT-880/1.0 UNTRUSTED/1.03</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="OSFamily">UnknownOS</field>
   </answer>
  </test>
  <test>
-  <question>iBrowser/3.1 CFNetwork/459 Darwin/10.0.0d3	2</question>
+  <question>iBrowser/3.1 CFNetwork/459 Darwin/10.0.0d32</question>
   <answer>
    <field name="isMobile">false</field>
    <field name="OSFamily">Mac OS</field>
@@ -5349,7 +5349,7 @@
   </answer>
  </test>
  <test>
-  <question>http://Anonymouse.org/ (Unix)	2</question>
+  <question>http://Anonymouse.org/ (Unix)2</question>
   <answer>
    <field name="isMobile">false</field>
    <field name="OSFamily">Unix</field>
@@ -5357,7 +5357,7 @@
   </answer>
  </test>
  <test>
-  <question>browser/25980 CFNetwork/485.13.9 Darwin/11.0.0	2</question>
+  <question>browser/25980 CFNetwork/485.13.9 Darwin/11.0.02</question>
   <answer>
    <field name="isMobile">false</field>
    <field name="OSFamily">Mac OS</field>
@@ -5365,7 +5365,7 @@
   </answer>
  </test>
  <test>
-  <question>Yandex/2.01.000 (compatible; Win16; Dyatel; C)	2</question>
+  <question>Yandex/2.01.000 (compatible; Win16; Dyatel; C)2</question>
   <answer>
    <field name="isMobile">false</field>
    <field name="OSFamily">Windows</field>
@@ -5374,7 +5374,7 @@
   </answer>
  </test>
  <test>
-  <question>Xda_Diamond_2 Opera/9.50 (Windows NT 5.1; U; de)	2</question>
+  <question>Xda_Diamond_2 Opera/9.50 (Windows NT 5.1; U; de)2</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Presto</field>
@@ -5384,7 +5384,7 @@
   </answer>
  </test>
  <test>
-  <question>XV6950 Opera/9.50 (Windows NT 5.1; U; en)	2</question>
+  <question>XV6950 Opera/9.50 (Windows NT 5.1; U; en)2</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Presto</field>
@@ -5394,7 +5394,7 @@
   </answer>
  </test>
  <test>
-  <question>User-Agent: Mozilla/4.0 (Ubiquam U-300; BREW/3.1) NetFront/3.1	2</question>
+  <question>User-Agent: Mozilla/4.0 (Ubiquam U-300; BREW/3.1) NetFront/3.12</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">WebKit</field>
@@ -5403,7 +5403,7 @@
   </answer>
  </test>
  <test>
-  <question>SAMSUNG-GT-S8000C/1.0 SHP/R5 Release/02.01.2009 Browser/NetFront3.5 Nextreaming SMM-MMS/1.2.0 profile/MIDP-2.1 configuration/CL	2</question>
+  <question>SAMSUNG-GT-S8000C/1.0 SHP/R5 Release/02.01.2009 Browser/NetFront3.5 Nextreaming SMM-MMS/1.2.0 profile/MIDP-2.1 configuration/CL2</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Proprietary</field>
@@ -5413,19 +5413,19 @@
   </answer>
  </test>
  <test>
-  <question>Opera/9.80 (Windows NT 6.1; Opera Tablet/11648; U; en) Presto/2.7.81 Version/11.00	2</question>
+  <question>Opera/9.80 (Windows NT 6.1; Opera Tablet/11648; U; en) Presto/2.7.81 Version/11.002</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Presto</field>
    <field name="BrowserEngineVersion">2.7.81</field>
    <field name="BrowserName">Opera Mobile</field>
-   <field name="BrowserVersion">11.00</field>
+   <field name="BrowserVersion">11.002</field>
    <field name="isTablet">true</field>
    <field name="OSFamily">WindowsMobile</field>
   </answer>
  </test>
  <test>
-  <question>Openwave/Opera&lt;Ch-Ray&gt;/DV/RUS	2</question>
+  <question>Openwave/Opera&lt;Ch-Ray&gt;/DV/RUS2</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Presto</field>
@@ -5433,7 +5433,7 @@
   </answer>
  </test>
  <test>
-  <question>NokiaE7-00/UCBrowser7.7.0.81/51/999	2</question>
+  <question>NokiaE7-00/UCBrowser7.7.0.81/51/9992</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Proprietary</field>
@@ -5443,7 +5443,7 @@
   </answer>
  </test>
  <test>
-  <question>NOKIAN95/UCBrowser7.7.0.81/28/400	2</question>
+  <question>NOKIAN95/UCBrowser7.7.0.81/28/4002</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Proprietary</field>
@@ -5453,7 +5453,7 @@
   </answer>
  </test>
  <test>
-  <question>NEC-N6206/1.0 Release/06.15.2006 Browser/CMS2.0.0 Profile/MIDP-2.0	2</question>
+  <question>NEC-N6206/1.0 Release/06.15.2006 Browser/CMS2.0.0 Profile/MIDP-2.02</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Proprietary</field>
@@ -5462,7 +5462,7 @@
   </answer>
  </test>
  <test>
-  <question>Mozilla/5.0 (iPod; U; CPU like Mac OS X; ru-ru) AppleWebKit/420.1 (KHTML, like Gecko) Version/3.0 Mobile/3B48b Safari/419.3	2</question>
+  <question>Mozilla/5.0 (iPod; U; CPU like Mac OS X; ru-ru) AppleWebKit/420.1 (KHTML, like Gecko) Version/3.0 Mobile/3B48b Safari/419.32</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">WebKit</field>
@@ -5474,7 +5474,7 @@
   </answer>
  </test>
  <test>
-  <question>Mozilla/5.0 (compatible; YandexNews/3.0; robot; +http://yandex.com/bots)	2</question>
+  <question>Mozilla/5.0 (compatible; YandexNews/3.0; robot; +http://yandex.com/bots)2</question>
   <answer>
    <field name="isMobile">false</field>
    <field name="OSFamily">UnknownOS</field>
@@ -5483,7 +5483,7 @@
   </answer>
  </test>
  <test>
-  <question>Mozilla/5.0 (Windows; U; Win98; ru; rv:1.8.1.20) Gecko/20081217 Firefox/2.0.0.20	2</question>
+  <question>Mozilla/5.0 (Windows; U; Win98; ru; rv:1.8.1.20) Gecko/20081217 Firefox/2.0.0.202</question>
   <answer>
    <field name="isMobile">false</field>
    <field name="BrowserEngine">Gecko</field>
@@ -5495,7 +5495,7 @@
   </answer>
  </test>
  <test>
-  <question>Mozilla/5.0 (Windows NT 5.2; rv:7.0.1) Gecko/20110929 Thunderbird/7.0.1	2</question>
+  <question>Mozilla/5.0 (Windows NT 5.2; rv:7.0.1) Gecko/20110929 Thunderbird/7.0.12</question>
   <answer>
    <field name="isMobile">false</field>
    <field name="BrowserEngine">Gecko</field>
@@ -5507,7 +5507,7 @@
   </answer>
  </test>
  <test>
-  <question>Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_5_7; en-us) AppleWebKit/530.17 (KHTML, like Gecko) Version/4.0 Safari/530.17 Skyfire/2.0 operator=x22Sweden 3Gx22	2</question>
+  <question>Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_5_7; en-us) AppleWebKit/530.17 (KHTML, like Gecko) Version/4.0 Safari/530.17 Skyfire/2.0 operator=x22Sweden 3Gx222</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">WebKit</field>
@@ -5518,7 +5518,7 @@
   </answer>
  </test>
  <test>
-  <question>Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_5_7; en-us) AppleWebKit/530.17 (KHTML, like Gecko) Version/4.0 Safari/530.17 Skyfire/2.0 operator=x22MTS-RUSx22	2</question>
+  <question>Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_5_7; en-us) AppleWebKit/530.17 (KHTML, like Gecko) Version/4.0 Safari/530.17 Skyfire/2.0 operator=x22MTS-RUSx222</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">WebKit</field>
@@ -5529,7 +5529,7 @@
   </answer>
  </test>
  <test>
-  <question>Mozilla/5.0 (Linux; U; de-DE) AppleWebKit/528.5+ (KHTML, like Gecko, Safari/528.5+) Version/4.0 Kindle/3.0 (screen 600x800; rotate)	2</question>
+  <question>Mozilla/5.0 (Linux; U; de-DE) AppleWebKit/528.5+ (KHTML, like Gecko, Safari/528.5+) Version/4.0 Kindle/3.0 (screen 600x800; rotate)2</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">WebKit</field>
@@ -5540,7 +5540,7 @@
   </answer>
  </test>
  <test>
-  <question>Mozilla/5.0 (Linux; U; Android 2Build/FROYO) AppleWebK.2.1; ru-ru; GT-S5570 it/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1	2</question>
+  <question>Mozilla/5.0 (Linux; U; Android 2Build/FROYO) AppleWebK.2.1; ru-ru; GT-S5570 it/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.12</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">WebKit</field>
@@ -5552,7 +5552,7 @@
   </answer>
  </test>
  <test>
-  <question>Mozilla/5.0 (Linux; U; Android 2.3.4; ru-ru; GT-S5830 Build/Gecko) Version/4.0 Mobile Safari/533.1	2</question>
+  <question>Mozilla/5.0 (Linux; U; Android 2.3.4; ru-ru; GT-S5830 Build/Gecko) Version/4.0 Mobile Safari/533.12</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">WebKit</field>
@@ -5564,7 +5564,7 @@
   </answer>
  </test>
  <test>
-  <question>Mozilla/5.0 (Linux; U; Android 2.3.4; generic) AppleWebKit/534.51 (KHTML, like Gecko; Google Web Preview) Version/4.0 Mobile Safari/534.51	2</question>
+  <question>Mozilla/5.0 (Linux; U; Android 2.3.4; generic) AppleWebKit/534.51 (KHTML, like Gecko; Google Web Preview) Version/4.0 Mobile Safari/534.512</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">WebKit</field>
@@ -5578,7 +5578,7 @@
   </answer>
  </test>
  <test>
-  <question>Mozilla/5.0 (Linux; U; Android 2.2.1; ru-ru; GT-S55ke Gecko) Version/4.0 Mobile Safari/533.1	2</question>
+  <question>Mozilla/5.0 (Linux; U; Android 2.2.1; ru-ru; GT-S55ke Gecko) Version/4.0 Mobile Safari/533.12</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">WebKit</field>
@@ -5590,7 +5590,7 @@
   </answer>
  </test>
  <test>
-  <question>Mozilla/5.0 (BREW; U; BREW 3.1.5; en) AppleWebKit/525.26 (KHTML, like Gecko) Polaris/7.0 Safari/525.26 480X800 LGE VX11000	2</question>
+  <question>Mozilla/5.0 (BREW; U; BREW 3.1.5; en) AppleWebKit/525.26 (KHTML, like Gecko) Polaris/7.0 Safari/525.26 480X800 LGE VX110002</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">WebKit</field>
@@ -5601,7 +5601,7 @@
   </answer>
  </test>
  <test>
-  <question>Mozilla/4.0 (compatible; Polaris 6.2; BREW 3.1.5; U; en)/240X400 LGE VX8575	2</question>
+  <question>Mozilla/4.0 (compatible; Polaris 6.2; BREW 3.1.5; U; en)/240X400 LGE VX85752</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">WebKit</field>
@@ -5610,7 +5610,7 @@
   </answer>
  </test>
  <test>
-  <question>Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; Maxthon)	2</question>
+  <question>Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; Maxthon)2</question>
   <answer>
    <field name="isMobile">false</field>
    <field name="BrowserEngine">Trident</field>
@@ -5623,7 +5623,7 @@
   </answer>
  </test>
  <test>
-  <question>Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; Maxthon; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)	2</question>
+  <question>Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; Maxthon; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)2</question>
   <answer>
    <field name="isMobile">false</field>
    <field name="BrowserEngine">Trident</field>
@@ -5635,7 +5635,7 @@
   </answer>
  </test>
  <test>
-  <question>Mozilla/4.0 (compatible; MSIE 5.0; Windows NT; DigExt; DTS Agent	2</question>
+  <question>Mozilla/4.0 (compatible; MSIE 5.0; Windows NT; DigExt; DTS Agent2</question>
   <answer>
    <field name="isMobile">false</field>
    <field name="BrowserEngine">Trident</field>
@@ -5781,7 +5781,7 @@
   </answer>
  </test>
  <test>
-  <question>Mozilla/4.0 (compatible; MSIE 5.0; Windows 95) Opera 6.01  [en]</question>
+  <question>Mozilla/4.0 (compatible; MSIE 5.0; Windows 95) Opera 6.01 [en]</question>
   <answer>
    <field name="isMobile">false</field>
    <field name="BrowserEngine">Presto</field>
@@ -5835,7 +5835,7 @@
   </answer>
  </test>
  <test>
-  <question>Mozilla/4.0 (compatible; MSIE 6.0; Trident/4.0; MyIE2; MRA 5.8 (build 4133); Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1) ; .NET CLR 2.0.50727; .NET CLR 3.0.04506.648; .NET CLR 3.5.21022; .NET4.0C; AskTbCLM/5.9.1.14019; MAXTHON 2.0)</question>
+  <question>Mozilla/4.0 (compatible; MSIE 6.0; Калькулятор Микроша; Trident/4.0; MyIE2; MRA 5.8 (build 4133); Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1) ; .NET CLR 2.0.50727; .NET CLR 3.0.04506.648; .NET CLR 3.5.21022; .NET4.0C; AskTbCLM/5.9.1.14019; MAXTHON 2.0)</question>
   <answer>
    <field name="isMobile">false</field>
    <field name="BrowserEngine">Trident</field>
@@ -5851,7 +5851,7 @@
   </answer>
  </test>
  <test>
-  <question>Mozilla/4.0 (compatible; MSIE 6.0; Windows ME) Opera 7.11  [en]</question>
+  <question>Mozilla/4.0 (compatible; MSIE 6.0; Windows ME) Opera 7.11 [en]</question>
   <answer>
    <field name="isMobile">false</field>
    <field name="BrowserEngine">Presto</field>
@@ -6370,7 +6370,7 @@
   </answer>
  </test>
  <test>
-  <question>Mozilla/5.0 (X11; U;                                     Linux i686; en-US; rv:1.8.1.1)                                     Gecko/20061205 Iceweasel/2.0.0.1                                     (Debian-2.0.0.1+dfsg-2)</question>
+  <question>Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.8.1.1) Gecko/20061205 Iceweasel/2.0.0.1 (Debian-2.0.0.1+dfsg-2)</question>
   <answer>
    <field name="isMobile">false</field>
    <field name="BrowserEngine">Gecko</field>
