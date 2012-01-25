@@ -6,6 +6,7 @@ Build-Depends: debhelper (>= 7),
  libxml2-dev,
  libboost-dev,
  libboost-test-dev,
+ libboost-python-dev,
  libpcre3-dev
 Standards-Version: 3.8.3
 Section: libs
