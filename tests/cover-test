@@ -1,0 +1,5 @@
+#! /bin/bash
+
+cd $(dirname $0)
+python cover.py ../data/browser.xml cover.txt
+
