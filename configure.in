@@ -25,20 +25,66 @@ AX_BOOST_PREFIX([], [ax_have_boost="no"])
 
 AX_CHECK_PCRE([], [AC_MSG_FAILURE([pcre installation is not found])])
 
-if test "f$ax_have_boost" == "fyes"; then
+if test "f$ax_have_boost" = "fyes"; then
 	AM_PATH_PYTHON
 	AX_PYTHON_DEVEL
 	AX_BOOST_PYTHON([], [ax_have_boost_python="no"])
 	AX_BOOST_UNIT_TEST([], [ax_have_boost_unit_test="no"])
-else
-	AC_MSG_NOTICE([installed boost copy isn't found. skip compiling tests and python bindings])
 fi
 
-AM_CONDITIONAL(HAVE_PYTHON, [test "f$ax_have_boost_python" != "fno"])
-AM_CONDITIONAL(HAVE_BOOST_UNIT_TEST, [test "f$ax_have_boost_unit_test" != "fno"])
+ac_python_binding="smart"
+AC_ARG_ENABLE(python,
+	AS_HELP_STRING(--enable-python, enable python binging compilation),
+	[
+		if test "f$enableval" = "fno"; then
+			ac_python_binding="no"
+		elif test "f$enableval" = "fyes" && test "f$ax_have_boost_python" != "fyes" ; then
+			AC_MSG_FAILURE([boost python isn't installed for python binding])
+		fi
+	])
+
+if test "f$ac_python_binding" != "fno"; then
+	if test "f$ax_have_boost_python" = "fyes"; then
+		AC_MSG_NOTICE([python binding enabled])
+		ac_python_binding="yes"
+	else
+		AC_MSG_NOTICE([boost python isn't installed for python binding])
+	fi
+fi
+AM_CONDITIONAL(HAVE_PYTHON, [test "f$ac_python_binding" = "fyes"])
+
+ac_tests="smart"
+AC_ARG_ENABLE(tests,
+	AS_HELP_STRING(--enable-tests, enable compiling tests),
+	[
+		if test "f$enableval" = "fno"; then
+			ac_tests="no"
+		elif test "f$enableval" = "fyes" &&  test "f$ax_have_boost_unit_test" != "fyes"; then
+			AC_MSG_FAILURE([boost unit test framework isn't installed for compiling tests])
+		fi
+	])
+
+if test "f$ac_tests" != "fno"; then
+	if test "f$ax_have_boost_unit_test" = "fyes"; then
+		AC_MSG_NOTICE([compiling tests enabled])
+		ac_tests="yes"
+	else
+		AC_MSG_NOTICE([boost unit test framework isn't installed for compiling tests])
+	fi
+fi
+AM_CONDITIONAL(HAVE_BOOST_UNIT_TEST, [test "f$ac_tests" = "fyes"])
 
 AC_CONFIG_FILES([Makefile include/Makefile include/uatraits/Makefile
-	library/Makefile python/Makefile utils/Makefile data/Makefile 
-	perl/Makefile.PL tests/Makefile])
+	library/Makefile utils/Makefile data/Makefile 
+	perl/Makefile.PL])
+
+if $HAVE_BOOST_UNIT_TEST; then
+	BOOST_UNIT_TEST_LDFLAGS="$BOOST_UNIT_TEST_LDFLAGS -lboost_unit_test_framework"
+	m4_default([AC_CONFIG_FILES([tests/Makefile])])
+fi
+
+if $HAVE_PYTHON; then
+	m4_default([AC_CONFIG_FILES([python/Makefile])])
+fi
 
 AC_OUTPUT
