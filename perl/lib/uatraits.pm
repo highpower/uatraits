@@ -65,12 +65,23 @@ __END__
 
 =head1 NAME
 
-uatraits - Perl extension for blah blah blah
+uatraits - Perl uatraits binding
 
 =head1 SYNOPSIS
 
-  use uatraits;
-  blah blah blah
+    use uatraits;
+
+    my $detector = uatraits->new('path to data/browser.xml');
+    my $ua_description = $detector->detect('some user agent header');
+
+    # ua descriptions will have hash somthing like
+    #    {
+    #       "BrowserEngine" : "UnknownEngine",
+    #       "OSFamily" : "Windows",
+    #       "OSVersion" : "Windows 3.11",
+    #       "isMobile" : "false"
+    #    },
+
 
 =head1 DESCRIPTION
 
