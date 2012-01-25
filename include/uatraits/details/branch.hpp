@@ -143,13 +143,13 @@ branch<Traits>::trigger(char const *begin, char const *end, Traits &traits) cons
 	    if ((*i)->is_default()) {
 	        default_branch = *i;
 	    }
-	    if ((*i)->matched(begin, end)) {
-	        worked = true;
-    	    (*i)->trigger(begin, end, traits);
-        }
-        if ((*i)->is_common()) {
-            (*i)->trigger(begin, end, traits);
-        }
+	    if ((*i)->is_common()) {
+		(*i)->trigger(begin, end, traits);
+	    } else
+	    if (!worked && (*i)->matched(begin, end)) {
+		worked = true;
+		(*i)->trigger(begin, end, traits);
+	    }
 	}
 	if (!worked && default_branch) {
 	    default_branch->trigger(begin, end, traits);
