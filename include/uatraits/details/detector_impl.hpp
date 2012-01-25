@@ -54,6 +54,8 @@ private:
 
 	void parse(xmlDocPtr doc);
 	bool disabled(xmlNodePtr node) const;
+	bool has_child_patterns(xmlNodePtr node) const;
+	
 	shared_ptr<branch_type> parse_branch(xmlNodePtr node) const;
 	shared_ptr<definition_type> parse_definition(xmlNodePtr node) const;
 	shared_ptr<definition_type> parse_complex_definition(char const *name, char const* xpath, xmlNodePtr node) const;
@@ -91,6 +93,16 @@ template <typename Traits> inline bool
 detector_impl<Traits>::disabled(xmlNodePtr node) const {
 	char const *value = xml_attr_text(node, "disabled");
 	return value && (0 == strncasecmp(value, "true", sizeof("true")));
+}
+
+template <typename Traits> inline bool
+detector_impl<Traits>::has_child_patterns(xmlNodePtr node) const {
+	for (xmlNodePtr current = node->children; 0 != current; current  = current->next) {
+		if (XML_ELEMENT_NODE == current->type && xmlStrncasecmp(node->name, (xmlChar const*) "pattern", sizeof("pattern")) == 0) {
+			return true;
+		}
+	}
+	return false;
 }
 
 template <typename Traits> inline shared_ptr<typename detector_impl<Traits>::branch_type>
@@ -147,12 +159,13 @@ detector_impl<Traits>::parse_definition(xmlNodePtr node) const {
 	if (static_cast<char const*>(0) == name) {
 		throw error("definition without name in [%s]", (char const*) path.get());
 	}
-	else if (static_cast<char const*>(0) == value) {
+	if (has_child_patterns(node)) {
 		return parse_complex_definition(name, (char const*) path.get(), node);
 	}
-	else {
-		return shared_ptr<definition_type>(new static_definition<Traits>(name, (char const*) path.get(), value));
+	if (static_cast<char const*>(0) == value) {
+		value = xml_node_text(node);
 	}
+	return shared_ptr<definition_type>(new static_definition<Traits>(name, (char const*) path.get(), value));
 }
 
 template <typename Traits> inline shared_ptr<typename detector_impl<Traits>::definition_type>
