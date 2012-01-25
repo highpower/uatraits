@@ -31,7 +31,7 @@ if __name__ == "__main__":
             del test["UA"]
             answer = d.detect(str(ua))
             if not dicts_equals(test, answer):
-		print "* UA", ua
+                print "* UA", ua
                 print test
                 print answer
                 print
