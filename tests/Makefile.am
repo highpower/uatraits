@@ -11,8 +11,10 @@ uatraits_tests_SOURCES = main.cpp mock_shared.cpp \
 uatraits_tests_LDADD = ${top_srcdir}/library/libuatraits.la
 	
 AM_CXXFLAGS = -pthread
-AM_CPPFLAGS = -I${top_srcdir}/include -I${top_srcdir}/config @BOOST_CPPFLAGS@
-AM_LDFLAGS = @BOOST_LDFLAGS@ @BOOST_UNIT_TEST_LDFLAGS@
+AM_CPPFLAGS = -I${top_srcdir}/include -I${top_srcdir}/config \
+	@BOOST_CPPFLAGS@ @XML_CPPFLAGS@ @PCRE_CFLAGS@
+	
+AM_LDFLAGS = @BOOST_LDFLAGS@ @BOOST_UNIT_TEST_LDFLAGS@ @XML_LIBS@ @PCRE_LIBS@
 
 TESTS = uatraits-tests
 TESTS_ENVIRONMENT = DATAFILE=${top_srcdir}/data/browser.xml

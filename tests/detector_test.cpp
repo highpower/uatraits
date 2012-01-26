@@ -1,42 +1,73 @@
 #include "acsetup.hpp"
 
+#include <map>
 #include <string>
 #include <fstream>
 #include <boost/test/unit_test.hpp>
 
+#include "uatraits/error.hpp"
 #include "uatraits/detector.hpp"
+#include "uatraits/details/resource.hpp"
+#include "uatraits/details/xml_elems.hpp"
+#include "uatraits/details/xml_utils.hpp"
 
 namespace uatraits { namespace tests {
 
-BOOST_AUTO_TEST_SUITE(detector_test)
-
-BOOST_AUTO_TEST_CASE(test_explorer) {
-
-	std::ifstream file("msie.txt");
-	file.exceptions(std::ios::badbit | std::ios::failbit);
-	detector det(getenv("DATAFILE"));
-	file.exceptions(std::ios::badbit);
+void
+test_detection_with(xmlNodePtr node, detector const &det) {
 	
-	std::string line;
-	while (std::getline(file, line)) {
-		std::map<std::string, std::string> result = det.detect(line);
+	using namespace details;
+
+	char const *agent = 0;
+	std::map<std::string, std::string> props;
+	for (xmlNodePtr current = node->children ; current; current = current->next) {
+		if (XML_ELEMENT_NODE != current->type) {
+			continue;
+		}
+		else if (xmlStrncasecmp(current->name, (xmlChar const*) "question", sizeof("question")) == 0) {
+			agent = xml_node_text(current);
+		}
+		else if (xmlStrncasecmp(current->name, (xmlChar const*) "answer", sizeof("answer")) == 0) {
+			xml_elems elems(current, "field");
+			for (xml_elems::iterator i = elems.begin(), end = elems.end(); i != end; ++i) {
+				char const *name = xml_attr_text(*i, "name");
+				char const *value = xml_node_text(*i);
+				props.insert(std::pair<std::string, std::string>(name, value));
+			}
+		}
+	}
+	std::map<std::string, std::string> result = det.detect(agent);
+	// BOOST_CHECK_EQUAL(result.size(), props.size());
+	if (result.size() != props.size()) {
+		std::cout << "-----------------------------------------------------" << std::endl;
+		std::cout << "result size: " << result.size() << ", pros size: " << props.size() << std::endl;
+		for (std::map<std::string, std::string>::const_iterator i = result.begin(), end = result.end(); i != end; ++i) {
+			std::cout << i->first << " = " << i->second << std::endl;
+		}
+		std::cout << "but: " << std::endl;
+		for (std::map<std::string, std::string>::const_iterator i = props.begin(), end = props.end(); i != end; ++i) {
+			std::cout << i->first << " = " << i->second << std::endl;
+		}
 	}
 }
 
-BOOST_AUTO_TEST_CASE(test_mobile_safari) {
+BOOST_AUTO_TEST_SUITE(detector_test)
 
-	std::string line =
-		"Mozilla/5.0 (Linux; U; Android 2.3; ru-ru; Desire_A8181 Build/FRF91) "
-		"AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1";
-
+BOOST_AUTO_TEST_CASE(test_detection) {
+	
+	using namespace details;
 	detector det(getenv("DATAFILE"));
-	std::map<std::string, std::string> result = det.detect(line);
-
-	BOOST_CHECK_EQUAL(result.find("BrowserEngine")->second, "WebKit");
-	BOOST_CHECK_EQUAL(result.find("BrowserName")->second, "MobileSafari");
-	BOOST_CHECK_EQUAL(result.find("OSFamily")->second, "Android");
-	BOOST_CHECK_EQUAL(result.find("isMobile")->second, "true");
-	BOOST_CHECK_EQUAL(result.find("isTouch")->second, "true");
+	
+	resource<xmlDocPtr, xml_doc_traits> doc(xmlParseFile("cover.xml"));
+	xml_throw_unless(doc);
+	xmlNodePtr root = xmlDocGetRootElement(doc.get());
+	if (xmlStrncasecmp(root->name, (xmlChar const*) "tests", sizeof("tests")) != 0) {
+		throw error("bad test data");
+	}
+	xml_elems elems(root, "test");
+	for (xml_elems::iterator i = elems.begin(), end = elems.end(); i != end; ++i) {
+		test_detection_with(*i, det);
+	}
 }
 
 BOOST_AUTO_TEST_SUITE_END();

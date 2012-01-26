@@ -98,7 +98,7 @@ detector_impl<Traits>::disabled(xmlNodePtr node) const {
 template <typename Traits> inline bool
 detector_impl<Traits>::has_child_patterns(xmlNodePtr node) const {
 	for (xmlNodePtr current = node->children; 0 != current; current  = current->next) {
-		if (XML_ELEMENT_NODE == current->type && xmlStrncasecmp(node->name, (xmlChar const*) "pattern", sizeof("pattern")) == 0) {
+		if (XML_ELEMENT_NODE == current->type && xmlStrncasecmp(current->name, (xmlChar const*) "pattern", sizeof("pattern")) == 0) {
 			return true;
 		}
 	}
