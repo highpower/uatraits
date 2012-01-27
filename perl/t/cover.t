@@ -11,6 +11,7 @@ my $run_name = $0;
     $dir =~s/\/[^\/]*$//;
 my $browser_path = $dir . "/../../data/browser.xml";
 my $cover_path   = $dir . "/../../tests/cover.txt";
+my $cover_sh     = $dir . "/../../tests/cover-json.sh";
 
 ok( -f $browser_path , "browser.xml");
 ok( -f $cover_path, "cover.txt");
@@ -19,7 +20,7 @@ my $ua_detector = uatraits->new( $browser_path );
 ok( $ua_detector , "object of uatraits created");
 
 
-open (TEST_DATA, $cover_path) || die 'cannot open '. $cover_path;
+open (TEST_DATA, $cover_sh . " |" ) || die 'cannot open '. $cover_path;
 while(<TEST_DATA>){
     chomp;
     my $ua = $_;
@@ -33,7 +34,7 @@ while(<TEST_DATA>){
         ok( $resp , "UA: $ua has response");
         #is( keys %$resp, keys %$test_data, "keys count equal");
         foreach my $key ( keys %$test_data ){
-            is( $test_data->{$key}, $resp->{$key}, "UA: $ua, Field: $key");
+            is( $resp->{$key}, $test_data->{$key},  "UA: $ua, Field: $key");
         }
         #diag( JSON::XS->new->pretty->encode( { 'UA' => $ua , 'test reference' => $test_data, 'lib response' => $resp } ) );
     }
