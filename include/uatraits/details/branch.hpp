@@ -161,7 +161,7 @@ branch<Traits>::trigger(char const *begin, char const *end, Traits &traits) cons
 template <typename Traits> inline bool
 branch<Traits>::matched(char const *begin, char const *end) const {
 	for (std::list<std::string>::const_iterator i = string_matches_.begin(), list_end = string_matches_.end(); i != list_end; ++i) {
-		if (std::search(begin, end, i->begin(), i->end(), is_ci_equal_char) != end) {
+		if (std::search(begin, end, i->begin(), i->end(), ci_equal<char>()) != end) {
 			return true;
 		}
 	}

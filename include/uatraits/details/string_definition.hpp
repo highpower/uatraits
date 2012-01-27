@@ -59,7 +59,7 @@ string_definition<Traits>::dump(std::ostream &out) const {
 
 template <typename Traits> inline bool
 string_definition<Traits>::trigger(char const *begin, char const *end, Traits &traits) const {
-	if (std::search(begin, end, pattern_.begin(), pattern_.end(), is_ci_equal_char) != end) {
+	if (std::search(begin, end, pattern_.begin(), pattern_.end(), ci_equal<char>()) != end) {
 		traits[name()] = result_;
 		return true;
 	}
