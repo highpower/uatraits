@@ -25,6 +25,11 @@ Depends: libuatraits (= ${binary:Version})
 Description: The c++ library
  Developers package
 
+Package: uatraits-data
+Section: misc
+Architecture: all
+Description: Package with browsers information
+
 Package: uatraits-python
 Section: libs
 Architecture: any
