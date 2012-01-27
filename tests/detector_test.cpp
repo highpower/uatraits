@@ -3,6 +3,8 @@
 #include <map>
 #include <string>
 #include <fstream>
+#include <iostream>
+
 #include <boost/test/unit_test.hpp>
 
 #include "uatraits/error.hpp"
@@ -37,8 +39,8 @@ test_detection_with(xmlNodePtr node, detector const &det) {
 		}
 	}
 	std::map<std::string, std::string> result = det.detect(agent);
-	// BOOST_CHECK_EQUAL(result.size(), props.size());
 	if (result.size() != props.size()) {
+		BOOST_CHECK_EQUAL(result.size(), props.size());
 		std::cout << "-----------------------------------------------------" << std::endl;
 		std::cout << "result size: " << result.size() << ", pros size: " << props.size() << std::endl;
 		for (std::map<std::string, std::string>::const_iterator i = result.begin(), end = result.end(); i != end; ++i) {
@@ -47,6 +49,13 @@ test_detection_with(xmlNodePtr node, detector const &det) {
 		std::cout << "but: " << std::endl;
 		for (std::map<std::string, std::string>::const_iterator i = props.begin(), end = props.end(); i != end; ++i) {
 			std::cout << i->first << " = " << i->second << std::endl;
+		}
+	}
+	else {
+		for (std::map<std::string, std::string>::const_iterator i = result.begin(), end = result.end(); i != end; ++i) {
+			std::map<std::string, std::string>::const_iterator p = props.find(i->first);
+			BOOST_REQUIRE(p != props.end());
+			BOOST_CHECK_EQUAL(i->second, p->second);
 		}
 	}
 }

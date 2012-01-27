@@ -172,6 +172,11 @@ ci_equal<char>::operator () (char var, char target) const {
 	return char_traits<char>::to_lower(var) == char_traits<char>::to_lower(target);
 }
 
+inline bool
+is_ci_equal_char(char var, char target) {
+	return char_traits<char>::to_lower(var) == char_traits<char>::to_lower(target);
+}
+
 }} // namespaces
 
 #endif // UATRAITS_DETAILS_FUNCTORS_HPP_INCLUDED

@@ -24,6 +24,7 @@
 
 #include "uatraits/config.hpp"
 #include "uatraits/details/definition.hpp"
+#include "uatraits/details/functors.hpp"
 
 namespace uatraits { namespace details {
 
@@ -58,7 +59,7 @@ string_definition<Traits>::dump(std::ostream &out) const {
 
 template <typename Traits> inline bool
 string_definition<Traits>::trigger(char const *begin, char const *end, Traits &traits) const {
-	if (std::search(begin, end, pattern_.begin(), pattern_.end()) != end) {
+	if (std::search(begin, end, pattern_.begin(), pattern_.end(), is_ci_equal_char) != end) {
 		traits[name()] = result_;
 		return true;
 	}

@@ -48,7 +48,7 @@ std::pair<pcre*, pcre_extra*>
 pcre_compile_regex(char const *pattern) {
 	int error_offset = 0;
 	char const *error_ptr = 0;
-	resource<pcre*, pcre_traits> regex(pcre_compile(pattern, 0, &error_ptr, &error_offset, 0));
+	resource<pcre*, pcre_traits> regex(pcre_compile(pattern, PCRE_CASELESS, &error_ptr, &error_offset, 0));
 	if (!regex) {
 		throw error("%s at %d of %s", error_ptr, error_offset, pattern);
 	}

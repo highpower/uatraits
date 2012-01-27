@@ -26,6 +26,7 @@
 #include "uatraits/shared.hpp"
 #include "uatraits/shared_ptr.hpp"
 #include "uatraits/details/definition.hpp"
+#include "uatraits/details/functors.hpp"
 #include "uatraits/details/pcre_utils.hpp"
 
 namespace uatraits { namespace details {
@@ -160,7 +161,7 @@ branch<Traits>::trigger(char const *begin, char const *end, Traits &traits) cons
 template <typename Traits> inline bool
 branch<Traits>::matched(char const *begin, char const *end) const {
 	for (std::list<std::string>::const_iterator i = string_matches_.begin(), list_end = string_matches_.end(); i != list_end; ++i) {
-		if (std::search(begin, end, i->begin(), i->end()) != end) {
+		if (std::search(begin, end, i->begin(), i->end(), is_ci_equal_char) != end) {
 			return true;
 		}
 	}
