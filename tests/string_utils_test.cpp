@@ -10,7 +10,7 @@
 
 namespace uatraits { namespace tests {
 
-BOOST_AUTO_TEST_SUITE(string_test)
+BOOST_AUTO_TEST_SUITE(string_utils_test)
 
 BOOST_AUTO_TEST_CASE_TEMPLATE(test_trim, Sequence, test_param_list) {
 	using namespace details;
