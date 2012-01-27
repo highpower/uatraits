@@ -1,3 +1,5 @@
+#!/usr/bin/perl
+
 use strict;
 use Test::More qw(no_plan);
 use JSON::XS;
@@ -19,10 +21,14 @@ ok( $ua_detector , "object of uatraits created");
 
 open (TEST_DATA, $cover_path) || die 'cannot open '. $cover_path;
 while(<TEST_DATA>){
-    my $test_data = JSON::XS::decode_json( $_ );
-    my $ua = $test_data->{'UA'};
+    chomp;
+    my $ua = $_;
+    #$test_data->{'UA'};
+
+    my $test_data = JSON::XS::decode_json( <TEST_DATA> );
+
     if( $ua ){
-        delete $test_data->{UA};
+        #delete $test_data->{UA};
         my $resp = $ua_detector->detect( $ua );
         ok( $resp , "UA: $ua has response");
         #is( keys %$resp, keys %$test_data, "keys count equal");
