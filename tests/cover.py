@@ -5,6 +5,9 @@ import uatraits
 import json
 
 
+SUA = 0
+SPROCESS = 1
+
 def dicts_equals(d1, d2):
     i1 = set(d1) - set(d2)
     i2 = set(d2) - set(d1)
@@ -25,16 +28,20 @@ if __name__ == "__main__":
         exit(2)
     r = 0
     with open(cover_path, "r") as cover:
+	state = SUA
         for s in cover.xreadlines():
-            test = json.loads(s)
-            ua = test["UA"]
-            del test["UA"]
-            answer = d.detect(str(ua))
-            if not dicts_equals(test, answer):
-                print "* UA", ua
-                print test
-                print answer
-                print
-                r = 1
+            if state == SUA:
+                ua = s.strip()
+                state = SPROCESS
+            else:
+                test = json.loads(s)
+                answer = d.detect(str(ua))
+                if not dicts_equals(test, answer):
+                    print "* UA", ua
+                    print test
+                    print answer
+                    print
+                    r = 1
+                state = SUA
     exit(r)
 
