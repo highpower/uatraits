@@ -27,14 +27,15 @@ if __name__ == "__main__":
         print "usage: %s <browser.xml> <cover.txt>" % sys.argv[0]
         exit(2)
     r = 0
-    with open(cover_path, "r") as cover:
+    cover = open(cover_path, "r")
+    if cover:
 	state = SUA
         for s in cover.xreadlines():
             if state == SUA:
                 ua = s.strip()
                 state = SPROCESS
             else:
-                test = json.loads(s)
+                test = json.read(s)
                 answer = d.detect(str(ua))
                 if not dicts_equals(test, answer):
                     print "* UA", ua
