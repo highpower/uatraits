@@ -7,7 +7,10 @@ Build-Depends: debhelper (>= 7),
  libboost-dev,
  libboost-test-dev,
  libboost-python-dev,
- libpcre3-dev
+ libpcre3-dev,
+ libjson-xs-perl,
+ perl,
+ xsltproc
 Standards-Version: 3.8.3
 Section: libs
 
@@ -35,3 +38,9 @@ Section: libs
 Architecture: any
 Depends: ${shlibs:Depends}, libuatraits (= ${Source-Version})
 Description: Python binding for C++ uatraits library
+
+Package: uatraits-perl
+Section: libs
+Architecture: any
+Depends: ${shlibs:Depends}, libuatraits (= ${Source-Version})
+Description: Perl binding for C++ uatraits library
