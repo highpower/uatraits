@@ -23,7 +23,6 @@
 #include "uatraits/config.hpp"
 #include "uatraits/forward.hpp"
 #include "uatraits/shared_ptr.hpp"
-#include "uatraits/enumeration.hpp"
 
 namespace uatraits { namespace perl {
 
