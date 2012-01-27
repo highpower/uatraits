@@ -120,9 +120,9 @@ detector_impl<Traits>::parse_branch(xmlNodePtr node) const {
 	}
 	
 	for (xmlNodePtr n = xmlFirstElementChild(node); 0 != n; n = xmlNextElementSibling(n)) {
-		// if (disabled(n)) {
-		//	continue;
-		//}
+		if (disabled(n)) {
+			continue;
+		}
 		if (xmlStrncasecmp(n->name, (xmlChar const*) "match", sizeof("match")) == 0) {
 			xml_elems elems(n, "pattern");
 			for (xml_elems::iterator i = elems.begin(), end = elems.end(); i != end; ++i) {
