@@ -120,10 +120,10 @@ detector_impl<Traits>::parse_branch(xmlNodePtr node) const {
 	}
 	
 	for (xmlNodePtr n = xmlFirstElementChild(node); 0 != n; n = xmlNextElementSibling(n)) {
-		if (disabled(n)) {
-			continue;
-		}
-		else if (xmlStrncasecmp(n->name, (xmlChar const*) "match", sizeof("match")) == 0) {
+		// if (disabled(n)) {
+		//	continue;
+		//}
+		if (xmlStrncasecmp(n->name, (xmlChar const*) "match", sizeof("match")) == 0) {
 			xml_elems elems(n, "pattern");
 			for (xml_elems::iterator i = elems.begin(), end = elems.end(); i != end; ++i) {
 				if (disabled(*i)) {
@@ -179,7 +179,6 @@ detector_impl<Traits>::parse_complex_definition(char const *name, char const* xp
 		if (disabled(*i)) {
 			continue;
 		}
-		
 		resource<xmlChar*, xml_string_traits> path(xmlGetNodePath(*i));
 		char const *value = xml_attr_text(*i, "value"), *type = xml_attr_text(*i, "type");
 		
@@ -193,7 +192,8 @@ detector_impl<Traits>::parse_complex_definition(char const *name, char const* xp
 			throw error("unknown pattern type %s in [%s]", type, xpath);
 		}
 	}
-	return parent->has_only_one() ? parent->release_child() : parent.template cast<definition_type>();
+	// return parent->has_only_one() ? parent->release_child() : parent.template cast<definition_type>();
+	return parent.template cast<definition_type>();
 }
 
 }} // namespaces

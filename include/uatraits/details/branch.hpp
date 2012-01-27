@@ -139,16 +139,17 @@ branch<Traits>::trigger(char const *begin, char const *end, Traits &traits) cons
 	}
 	bool worked = false;
 	pointer default_branch;
+
 	for (typename std::list<pointer>::const_iterator i = children_.begin(), list_end = children_.end(); i != list_end; ++i) {
 	    if ((*i)->is_default()) {
 	        default_branch = *i;
 	    }
-	    if ((*i)->is_common()) {
-		(*i)->trigger(begin, end, traits);
-	    } else
-	    if (!worked && (*i)->matched(begin, end)) {
-		worked = true;
-		(*i)->trigger(begin, end, traits);
+	    else if ((*i)->is_common()) {
+    		(*i)->trigger(begin, end, traits);
+	    } 
+	    else if (!worked && (*i)->matched(begin, end)) {
+    		worked = true;
+	    	(*i)->trigger(begin, end, traits);
 	    }
 	}
 	if (!worked && default_branch) {

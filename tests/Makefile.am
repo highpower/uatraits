@@ -19,4 +19,4 @@ AM_LDFLAGS = @BOOST_LDFLAGS@ @BOOST_UNIT_TEST_LDFLAGS@ @XML_LIBS@ @PCRE_LIBS@
 TESTS = uatraits-tests
 TESTS_ENVIRONMENT = DATAFILE=${top_srcdir}/data/browser.xml
 
-noinst_DATA = msie.txt
+noinst_DATA = cover.xml cover.xsl 

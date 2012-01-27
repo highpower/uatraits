@@ -83,25 +83,23 @@ complex_definition<Traits>::dump(std::ostream &out) const {
 
 template <typename Traits> inline bool
 complex_definition<Traits>::trigger(char const *begin, char const *strend, Traits &traits) const {
-	bool result = false;
 	for (typename std::list<definition_pointer>::const_iterator i = definitions_.begin(), end = definitions_.end(); i != end; ++i) {
-		bool triggered = (*i)->trigger(begin, strend, traits);
-		result = result || triggered;
+		if ((*i)->trigger(begin, strend, traits)) {
+			return true;
+		}
 	}
-	return result;
+	return false;
 }
 
 template <typename Traits> inline bool
 complex_definition<Traits>::trigger_trace(char const *begin, char const *strend, Traits &traits, std::ostream &out) const {
-	bool result = false;
 	for (typename std::list<definition_pointer>::const_iterator i = definitions_.begin(), end = definitions_.end(); i != end; ++i) {
-		bool triggered = (*i)->trigger(begin, strend, traits);
-		if (triggered) {
+		if ((*i)->trigger(begin, strend, traits)) {
 			(*i)->dump(out);
+			return true;
 		}
-		result = result || triggered;
 	}
-	return result;
+	return false;
 }
 
 

@@ -24,7 +24,7 @@ test_detection_with(xmlNodePtr node, detector const &det) {
 		if (XML_ELEMENT_NODE != current->type) {
 			continue;
 		}
-		else if (xmlStrncasecmp(current->name, (xmlChar const*) "question", sizeof("question")) == 0) {
+		if (xmlStrncasecmp(current->name, (xmlChar const*) "question", sizeof("question")) == 0) {
 			agent = xml_node_text(current);
 		}
 		else if (xmlStrncasecmp(current->name, (xmlChar const*) "answer", sizeof("answer")) == 0) {
