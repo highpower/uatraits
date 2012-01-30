@@ -3,6 +3,6 @@
 cd $(dirname $0)
 TMP=$(tempfile)
 trap "rm $TMP" EXIT
-xsltproc cover.xsl cover.xml > $TMP
+xsltproc cover.xsl cover.xml | sed 's/\"true\"/true/g' | sed 's/\"false\"/false/g' > $TMP
 python cover.py ../data/browser.xml $TMP
 

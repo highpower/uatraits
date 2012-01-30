@@ -20,7 +20,7 @@ my $ua_detector = uatraits->new( $browser_path );
 ok( $ua_detector , "object of uatraits created");
 
 
-open (TEST_DATA, $cover_sh . " |" ) || die 'cannot open '. $cover_path;
+open (TEST_DATA, $cover_sh . "| sed 's/\"true\"/1/g' | sed 's/\"false\"/0/g' |" ) || die 'cannot open '. $cover_path;
 while(<TEST_DATA>){
     chomp;
     my $ua = $_;
