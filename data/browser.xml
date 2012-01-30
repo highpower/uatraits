@@ -423,7 +423,7 @@
 		</branch>
 		
 		<branch name="UnknownMobileBrowser" type="default">
-			<define name="BrowserName" value="UnknownMobileBrowser"/>
+			<define name="BrowserName" value="Unknown"/>
 		</branch>
 		
 		<!-- Detect Mobile OS -->
@@ -547,7 +547,7 @@
 				</define>
 			</branch>			
 			<branch type="default">
-				<define name="OSFamily" value="UnknownOS"/>				
+				<define name="OSFamily" value="Unknown"/>				
 			</branch>
 		</branch>
 	</branch>
@@ -829,7 +829,8 @@
 		</branch>
 
 		<branch type="default" name="UnknownEngine">
-			<define name="BrowserEngine">UnknownEngine</define>
+			<define name="BrowserEngine">Unknown</define>
+			<define name="BrowserName">Unknown</define>
 			<define name="isBrowser">false</define>
 		</branch>
 
@@ -956,7 +957,7 @@
 				</define>
 			</branch>
 			<branch type="default" name="UnknownOS">
-				<define name="OSFamily">UnknownOS</define>
+				<define name="OSFamily">Unknown</define>
 			</branch>
 		</branch>
 	</branch>
