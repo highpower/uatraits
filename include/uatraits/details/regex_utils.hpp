@@ -57,6 +57,9 @@ find_replaces(std::string const &value, Container &cont) {
 	std::string::const_iterator i = value.begin(), begin = value.begin(), end = value.end();
 	while (i != end) {
 		i = next_matched(i, end, dollar);
+		if (i == end) {
+			break;
+		}
 		std::string::const_iterator pos = next_not_matched(i + 1, end, numeric_matcher);
 		if (std::distance(i, pos) > 1) {
 			regex_data data = { i - begin, pos - begin, scan_integer<std::size_t>(i + 1, pos) };
