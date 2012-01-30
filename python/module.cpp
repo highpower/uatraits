@@ -3,6 +3,7 @@
 #include <boost/python.hpp>
 
 #include "streambuf.hpp"
+#include "dict_wrapper.hpp"
 #include "uatraits/details/detector_impl.hpp"
 
 namespace uatraits { namespace python {
@@ -17,7 +18,7 @@ public:
 	py::dict checked_detect(py::str str, py::object &obj) const;
 
 private:
-	typedef details::detector_impl<py::dict> impl_type;
+	typedef details::detector_impl<dict_wrapper> impl_type;
 	shared_ptr<impl_type> impl_;
 };
 
@@ -32,18 +33,20 @@ python_detector::python_detector(char const *file)
 py::dict
 python_detector::detect(py::str str) const {
 	py::dict result;
+	dict_wrapper wrapper(result);
 	char const *data = py::extract<char const*>(str);
 	std::string::size_type size = static_cast<std::string::size_type>(py::len(str));
-	impl_->detect(data, data + size, result);
+	impl_->detect(data, data + size, wrapper);
 	return result;
 }
 
 py::dict
 python_detector::checked_detect(py::str str, py::object &obj) const {
 	py::dict result;
+	dict_wrapper wrapper(result);
 	char const *data = py::extract<char const*>(str);
 	std::string::size_type size = static_cast<std::string::size_type>(py::len(str));
-	impl_->detect(data, data + size, result);
+	impl_->detect(data, data + size, wrapper);
 	return result;
 }
 

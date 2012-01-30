@@ -1,6 +1,6 @@
 pyexec_LTLIBRARIES = uatraits.la
 
-uatraits_la_SOURCES = module.cpp streambuf.cpp
+uatraits_la_SOURCES = dict_wrapper.cpp module.cpp streambuf.cpp
 
 uatraits_la_LDFLAGS = -module -avoid-version @PYTHON_LDFLAGS@ \
 	@XML_LIBS@ @PCRE_LIBS@ @BOOST_LDFLAGS@ @BOOST_PYTHON_LDFLAGS@ 
@@ -10,4 +10,4 @@ AM_CXXFLAGS = -pthread
 AM_CPPFLAGS = -I${top_srcdir}/include -I${top_srcdir}/config \
 	@XML_CPPFLAGS@ @PCRE_CFLAGS@ @PYTHON_CPPFLAGS@ @BOOST_CPPFLAGS@
 
-noinst_HEADERS = streambuf.hpp
+noinst_HEADERS = dict_wrapper.hpp streambuf.hpp

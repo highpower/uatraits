@@ -44,8 +44,6 @@ public:
 	void add(char_type const *value);
 	template <typename Iter> void add(Iter begin, Iter end);
 
-	
-	
 private:
 	string_match(string_match const &);
 	string_match& operator = (string_match const &);
@@ -60,6 +58,9 @@ class string_match_node : public shared {
 
 public:
 	string_match_node();
+	
+private:
+
 };
 
 }} // namespaces
