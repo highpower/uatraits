@@ -19,6 +19,7 @@ dict_assigner::dict_assigner(dict_wrapper *wrapper, std::string const &name) :
 dict_assigner&
 dict_assigner::operator = (std::string const &value) {
 	wrapper_->set(name_, value);
+	return *this;
 }
 
 dict_wrapper::dict_wrapper(py::dict &dict) :
