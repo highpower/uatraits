@@ -12,7 +12,7 @@
 		<match type="any">
 			<pattern type="string">Android</pattern>
 			<pattern type="string">iPhone</pattern>
-			<pattern type="string">Bada</pattern>
+			<pattern type="string">Bada/</pattern>
 			<pattern type="string">iPad</pattern>
 			<pattern type="string">iPod</pattern>
 			<pattern type="string">Mobile Safari</pattern>
@@ -44,7 +44,7 @@
 			<pattern type="string">DoCoMo</pattern>
 			<pattern type="string">Kindle</pattern>
 			<pattern type="string">Minimo</pattern>
-			<pattern type="string">PSP</pattern>
+			<pattern type="string">PlayStation</pattern>
 			<pattern type="regex">MSIE.*PPC</pattern>
 			<pattern type="regex">HTC[_/]</pattern>
 			<pattern type="regex">^SAMSUNG</pattern>
@@ -575,6 +575,7 @@
 		<branch name="Gecko">
 			<match type="any">
 				<pattern type="regex">(?&lt;!like )Gecko</pattern>
+				<pattern type="string">Firefox/</pattern>
 			</match>
 			<define name="BrowserEngine" value="Gecko"/>
 			<define name="BrowserEngineVersion">
@@ -685,6 +686,17 @@
 					<pattern type="regex" value="$1">Chrome/(&ver3d;)</pattern>
 				</define>
 			</branch>
+			
+			<branch name="Midori">
+				<match type="any">
+					<pattern type="string">Midori/</pattern>
+				</match>
+				<define name="BrowserName" value="Midori"/>
+				<define name="BrowserVersion">
+					<pattern type="regex" value="$1">^Midori/(&ver;)</pattern>
+				</define>
+			</branch>
+			
 
 			<branch name="Arora">
 				<match type="any">
@@ -820,11 +832,19 @@
 			<match type="any">
 				<pattern type="string">libwww</pattern>
 				<pattern type="string">libcurl</pattern>
-				<pattern type="regex">E?Links</pattern>
+				<pattern type="string">Python-urllib</pattern>				
+				<pattern type="string">Wget</pattern>
+				<pattern type="regex">E?Links</pattern>				
 			</match>
-			<define name="BrowserEngine" value="TextBased"/>
+			<define name="BrowserEngine">
+				<pattern type="regex" value="TextBased">E?Links</pattern>
+				<pattern type="string" value="TextBased">Lynx</pattern>
+			</define>
 			<define name="isBrowser">
 				<pattern type="string" value="false">libcurl</pattern>
+				<pattern type="string" value="false">Python-urllib</pattern>				
+				<pattern type="string" value="false">Wget</pattern>
+				<pattern type="string" value="false">libwww-perl</pattern>
 			</define>
 		</branch>
 
@@ -971,6 +991,7 @@
 			<pattern type="string" value="true">msnbot</pattern>
 			<pattern type="string" value="true">yahoo! slurp</pattern>
 			<pattern type="string" value="true">+http://yandex.com/bots</pattern>
+			<pattern type="string" value="true">YandexBot</pattern>
 		</define>
 	</branch>
 </rules>

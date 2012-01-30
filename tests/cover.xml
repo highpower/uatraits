@@ -2297,7 +2297,7 @@
   <question>libwww-perl/5.820</question>
   <answer>
    <field name="isMobile">false</field>
-   <field name="BrowserEngine">TextBased</field>
+   <field name="isBrowser">false</field>
    <field name="OSFamily">Unknown</field>
   </answer>
  </test>
@@ -3214,7 +3214,6 @@
   <question>curl/7.19.7 (i486-pc-linux-gnu) libcurl/7.19.7 OpenSSL/0.9.8k zlib/1.2.3.3 libidn/1.15232</question>
   <answer>
    <field name="isMobile">false</field>
-   <field name="BrowserEngine">TextBased</field>
    <field name="isBrowser">false</field>
    <field name="OSFamily">Linux</field>
   </answer>
@@ -5805,7 +5804,6 @@
   <question>curl/7.10.7 (arm-unknown-linux-gnu) libcurl/7.10.7 OpenSSL/0.9.7d zlib/1.1.4</question>
   <answer>
    <field name="isMobile">false</field>
-   <field name="BrowserEngine">TextBased</field>
    <field name="isBrowser">false</field>
    <field name="OSFamily">Linux</field>
   </answer>
@@ -5814,7 +5812,6 @@
   <question>curl/7.12.1 (i686-redhat-linux-gnu) libcurl/7.12.1 OpenSSL/0.9.7a zlib/1.2.1.2 libidn/0.5.6</question>
   <answer>
    <field name="isMobile">false</field>
-   <field name="BrowserEngine">TextBased</field>
    <field name="isBrowser">false</field>
    <field name="OSFamily">Linux</field>
   </answer>
