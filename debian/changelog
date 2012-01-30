@@ -1,3 +1,9 @@
+libuatraits (0.1.2-1) unstable; urgency=low
+
+  * fixed perl binding
+
+ -- ponomarev <ponomarev@yandex-team.ru>  Mon, 30 Jan 2012 14:19:11 +0300
+
 libuatraits (0.1.1-1) unstable; urgency=low
 
   * Initial release
