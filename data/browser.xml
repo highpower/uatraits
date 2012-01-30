@@ -8,7 +8,7 @@
 ]>
 <rules xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="browser.xsd">
 	<branch name="Mobile">
-		<!-- Fucking -->
+		<!-- Mobile bullshit -->
 		<match type="any">
 			<pattern type="string">Android</pattern>
 			<pattern type="string">iPhone</pattern>
@@ -44,6 +44,7 @@
 			<pattern type="string">DoCoMo</pattern>
 			<pattern type="string">Kindle</pattern>
 			<pattern type="string">Minimo</pattern>
+			<pattern type="string">PSP</pattern>
 			<pattern type="regex">MSIE.*PPC</pattern>
 			<pattern type="regex">HTC[_/]</pattern>
 			<pattern type="regex">^SAMSUNG</pattern>
@@ -51,7 +52,7 @@
 			<pattern type="regex">^Fly</pattern>
 			<pattern type="regex">^SonyEricsson</pattern>
 			<pattern type="regex">^Alcatel</pattern>
-			<pattern type="regex">^[\w]+ Opera/</pattern>
+			<pattern type="regex">^[\w]+ Opera/</pattern>			
 		</match>
 		<define name="isMobile" value="true"/>
 		<branch name="Webkit">
@@ -59,7 +60,7 @@
 				<pattern type="string">WebKit</pattern>
 				<pattern type="string">Mobile Safari/</pattern>
 				<pattern type="string">BREW</pattern>
-			</match>
+			</match>			
 			<define name="BrowserEngine" value="WebKit"/>
 			<define name="BrowserEngineVersion">
 				<pattern type="regex" value="$1">Web[Kk]it/(&ver;)</pattern>
@@ -128,6 +129,15 @@
 					<pattern type="string" value="true">TouchPad</pattern>
 				</define>
 			</branch>
+			<branch name="Ninesky">
+				<match>
+					<pattern type="string">Ninesky-android-mobile/</pattern>
+				</match>
+				<define name="BrowserName" value="Ninesky"/>
+				<define name="BrowserVersion">
+					<pattern type="regex" value="$1">Ninesky-android-mobile/(&ver;)</pattern>
+				</define>
+			</branch>			
 			<branch name="MobileSafari">
 				<match type="any">
 					<pattern type="string">Mobile Safari</pattern>
@@ -163,12 +173,18 @@
 					<pattern type="regex" value="$1">Version/(&ver;)</pattern>
 				</define>
 			</branch>
+			<branch type="common">
+				<define name="BrowserShell">
+					<pattern type="string" value="Diigo">Diigo</pattern>
+					<pattern type="string" value="Diigo">iChromy</pattern>
+				</define>
+			</branch>
 		</branch>
 		<branch name="Presto">
 			<match>
 				<pattern type="string">Opera</pattern>
 			</match>
-			<define name="BrowserEngine" value="Presto"/>
+			<define name="BrowserEngine" value="Presto"/>			
 			<define name="BrowserEngineVersion">
 				<pattern type="regex" value="$1">Presto/(&ver;)</pattern>
 			</define>
@@ -204,7 +220,7 @@
 				<pattern type="string">Firefox</pattern>
 				<pattern type="string">Minimo</pattern>
 			</match>
-			<define name="BrowserEngine" value="Gecko"/>
+			<define name="BrowserEngine" value="Gecko"/>			
 			<define name="isTouch" value="true"/>
 			<define name="BrowserEngineVersion">
 				<pattern type="regex" value="$1">rv:(&ver;)</pattern>
@@ -239,7 +255,7 @@
 				<pattern type="regex">MSIE &ver2d;.*PPC</pattern>
 				<pattern type="regex">MSIE &ver2d;.*WP7</pattern>
 			</match>
-			<define name="BrowserEngine" value="Trident"/>
+			<define name="BrowserEngine" value="Trident"/>			
 			<define name="BrowserEngineVersion">
 				<pattern type="regex" value="$1">Trident/(&ver2d;)</pattern>
 				<pattern type="regex" value="$1">MSIE (&ver2d;)</pattern>
@@ -279,8 +295,10 @@
 				<pattern type="string">UCBrowser</pattern>
 				<pattern type="string">UP.Browser</pattern>
 				<pattern type="string">DoCoMo</pattern>
+				<pattern type="string">Dalvik/</pattern>
+				<pattern type="string">PSP</pattern>
 			</match>
-			<define name="BrowserEngine" value="Proprietary"/>
+			<define name="BrowserEngine" value="Proprietary"/>			
 			<branch name="Obigo">
 				<match type="any">
 					<pattern type="string">Obigo</pattern>
@@ -303,9 +321,20 @@
 					<pattern type="regex" value="$1">^Blackberry[\d]+/(&ver;)</pattern>
 				</define>
 			</branch>
+			<branch name="Dalvik">
+				<match type="any">
+					<pattern type="string">Dalvik/</pattern>
+				</match>
+				<define name="BrowserName">Dalvik</define>
+				<define name="isBrowser">false</define>
+				<define name="BrowserVersion">
+					<pattern type="regex" value="$1">^Dalvik/(&ver;)</pattern>
+				</define>
+			</branch>
 			<branch name="NetFront">
 				<match type="any">
 					<pattern type="regex">NetFront(/|\d)</pattern>
+					<pattern type="string">PlayStation Portable</pattern>
 				</match>
 				<define name="BrowserName" value="NetFront"/>
 				<define name="BrowserVersion">
@@ -392,6 +421,11 @@
 				<define name="isWAP" value="true"/>
 			</branch>
 		</branch>
+		
+		<branch name="UnknownMobileBrowser" type="default">
+			<define name="BrowserName" value="UnknownMobileBrowser"/>
+		</branch>
+		
 		<!-- Detect Mobile OS -->
 		<branch type="common" name="MobileOS">
 			<branch name="iPhoneOS">
@@ -497,6 +531,13 @@
 				</match>
 				<define name="OSFamily" value="WindowsMobile"/>
 			</branch>
+			<branch name="WebOS">
+				<match>
+					<pattern type="string" value="WebOS">hpwOS</pattern>
+					<pattern type="string" value="WebOS">webOS</pattern>
+				</match>	
+				<define name="OSFamily">WebOS</define>
+			</branch>
 			<branch name="Linux">
 				<match>
 					<pattern type="string">Linux</pattern>
@@ -504,13 +545,9 @@
 				<define name="OSFamily">
 					<pattern type="string" value="Linux">Linux</pattern>
 				</define>
-			</branch>
+			</branch>			
 			<branch type="default">
-				<define name="OSFamily" value="UnknownOS"/>
-				<define name="OSFamily">
-					<pattern type="string" value="WebOS">hpwOS</pattern>
-					<pattern type="string" value="WebOS">webOS</pattern>
-				</define>
+				<define name="OSFamily" value="UnknownOS"/>				
 			</branch>
 		</branch>
 	</branch>
@@ -664,8 +701,7 @@
 					<pattern type="string">OmniWeb/</pattern>
 				</match>
 				<define name="BrowserName" value="OmniWeb"/>
-				<define name="BrowserVersion">
-					<pattern type="regex" value="$1">Version/(&ver2d;)</pattern>
+				<define name="BrowserVersion">					
 					<pattern type="regex" value="$1">OmniWeb/v(&ver2d;)</pattern>
 				</define>
 			</branch>
@@ -787,10 +823,14 @@
 				<pattern type="regex">E?Links</pattern>
 			</match>
 			<define name="BrowserEngine" value="TextBased"/>
+			<define name="isBrowser">
+				<pattern type="string" value="false">libcurl</pattern>
+			</define>
 		</branch>
 
 		<branch type="default" name="UnknownEngine">
 			<define name="BrowserEngine">UnknownEngine</define>
+			<define name="isBrowser">false</define>
 		</branch>
 
 		<branch type="common" name="BrowserToolbars">
