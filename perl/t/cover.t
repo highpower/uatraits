@@ -10,17 +10,15 @@ my $run_name = $0;
     my $dir = $run_name;
     $dir =~s/\/[^\/]*$//;
 my $browser_path = $dir . "/../../data/browser.xml";
-my $cover_path   = $dir . "/../../tests/cover.txt";
 my $cover_sh     = $dir . "/../../tests/cover-json.sh";
 
 ok( -f $browser_path , "browser.xml");
-ok( -f $cover_path, "cover.txt");
 
 my $ua_detector = uatraits->new( $browser_path );
 ok( $ua_detector , "object of uatraits created");
 
 
-open (TEST_DATA, $cover_sh . "| sed 's/\"true\"/1/g' | sed 's/\"false\"/0/g' |" ) || die 'cannot open '. $cover_path;
+open (TEST_DATA, $cover_sh . " |" ) || die 'cannot open '. $cover_sh;
 while(<TEST_DATA>){
     chomp;
     my $ua = $_;

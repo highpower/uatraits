@@ -9,7 +9,6 @@ Build-Depends: debhelper (>= 7),
  libboost-python-dev,
  libpcre3-dev,
  libjson-xs-perl,
- sed,
  perl,
  xsltproc
 Standards-Version: 3.8.3

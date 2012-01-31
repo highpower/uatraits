@@ -1,3 +1,10 @@
+libuatraits (1.1.1-1) unstable; urgency=low
+
+  * remove cover.txt and sed using
+  * up version
+
+ -- ponomarev <ponomarev@yandex-team.ru>  Tue, 31 Jan 2012 09:46:35 +0300
+
 libuatraits (0.2.1-1) unstable; urgency=low
 
   * perl, python bindings:
