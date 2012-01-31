@@ -45,6 +45,7 @@
 			<pattern type="string">Kindle</pattern>
 			<pattern type="string">Minimo</pattern>
 			<pattern type="string">PlayStation Portable</pattern>
+			<pattern type="string">iTunes-i</pattern>
 			<pattern type="regex">MSIE.*PPC[;)]</pattern>
 			<pattern type="regex">HTC[_/]</pattern>
 			<pattern type="regex">^SAMSUNG</pattern>
@@ -437,6 +438,13 @@
 			<define name="isWAP">
 				<pattern type="string" value="true">WAP</pattern>				
 			</define>
+			<branch name="iTunes">
+				<match type="any">
+					<pattern type="string">iTunes-</pattern>
+				</match>
+				<define name="BrowserName" value="iTunes"/>
+				<define name="isBrowser" value="false"/>
+			</branch>
 		</branch>
 		
 		<!-- Detect Mobile OS -->
@@ -445,7 +453,7 @@
 				<match>
 					<pattern type="string">iPhone</pattern>
 					<pattern type="string">iPad</pattern>
-					<pattern type="string">iPod</pattern>
+					<pattern type="string">iPod</pattern>					
 				</match>
 				<define name="OSFamily" value="iOS"/>
 				<define name="isTouch">
@@ -457,6 +465,7 @@
 					<pattern type="regex" value="$1.$2.$3">(?:iPhone|CPU) OS (\d)_(\d)_(\d)</pattern>
 					<pattern type="regex" value="$1.$2">(?:iPhone|CPU) OS (\d)_(\d)</pattern>
 					<pattern type="regex" value="$1">(?:iPhone|CPU) OS (\d)</pattern>									
+					<pattern type="regex" value="$1">iTunes-&word;/(&ver;)</pattern>
 				</define>
 				<define name="isTablet">
 					<pattern type="string" value="true">iPad</pattern>
@@ -692,8 +701,7 @@
 
 		<branch name="WebKit">
 			<match type="any">
-				<pattern type="string">WebKit</pattern>
-				<pattern type="string">iTunes</pattern>
+				<pattern type="string">WebKit</pattern>				
 			</match>
 			<define name="BrowserEngine" value="WebKit"/>
 			<define name="BrowserEngineVersion">
@@ -765,17 +773,6 @@
 				</match>
 				<define name="BrowserName" value="Rekonq"/>
 			</branch>
-
-			<branch name="iTunes">
-				<match type="any">
-					<pattern type="string">iTunes/</pattern>
-				</match>
-				<define name="BrowserName" value="iTunes"/>
-				<define name="BrowserVersion">
-					<pattern type="regex" value="$1">iTunes/(&ver2d;)</pattern>
-				</define>
-			</branch>
-
 			<branch name="Safari">
 				<match type="any">
 					<pattern type="string">Safari/</pattern>
@@ -884,6 +881,15 @@
 			<define name="BrowserEngine">Unknown</define>
 			<define name="BrowserName">Unknown</define>
 			<define name="isBrowser">false</define>
+			<branch name="iTunes">
+				<match type="any">
+					<pattern type="string">iTunes/</pattern>
+				</match>
+				<define name="BrowserName" value="iTunes"/>
+				<define name="BrowserVersion">
+					<pattern type="regex" value="$1">iTunes/(&ver2d;)</pattern>
+				</define>
+			</branch>
 		</branch>
 
 		<branch type="common" name="BrowserToolbars">
