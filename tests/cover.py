@@ -19,6 +19,12 @@ def dicts_equals(d1, d2):
     return True
 
 
+if sys.version_info < (2,6):
+    json_read = json.read
+else:
+    json_read = json.loads
+
+
 if __name__ == "__main__":
     try:
         print "Try to make detector..."
@@ -36,7 +42,7 @@ if __name__ == "__main__":
             ua = s.strip()
             state = SPROCESS
         else:
-            test = json.loads(s)
+            test = json_read(s)
             answer = d.detect(str(ua))
             if not dicts_equals(test, answer):
                 print "* UA", ua
