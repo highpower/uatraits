@@ -14,7 +14,7 @@
 			<pattern type="string">iPhone</pattern>
 			<pattern type="string">Bada/</pattern>
 			<pattern type="string">iPad</pattern>
-			<pattern type="string">iPod</pattern>
+			<pattern type="string">iPod;</pattern>
 			<pattern type="string">Mobile Safari</pattern>
 			<pattern type="string">MobileSafari</pattern>
 			<pattern type="string">Opera Mob</pattern>
@@ -44,8 +44,8 @@
 			<pattern type="string">DoCoMo</pattern>
 			<pattern type="string">Kindle</pattern>
 			<pattern type="string">Minimo</pattern>
-			<pattern type="string">PlayStation</pattern>
-			<pattern type="regex">MSIE.*PPC</pattern>
+			<pattern type="string">PlayStation Portable</pattern>
+			<pattern type="regex">MSIE.*PPC[;)]</pattern>
 			<pattern type="regex">HTC[_/]</pattern>
 			<pattern type="regex">^SAMSUNG</pattern>
 			<pattern type="regex">^HUAWEI</pattern>
@@ -58,8 +58,7 @@
 		<branch name="Webkit">
 			<match>
 				<pattern type="string">WebKit</pattern>
-				<pattern type="string">Mobile Safari/</pattern>
-				<pattern type="string">BREW</pattern>
+				<pattern type="string">Mobile Safari/</pattern>				
 			</match>			
 			<define name="BrowserEngine" value="WebKit"/>
 			<define name="BrowserEngineVersion">
@@ -102,9 +101,18 @@
 				<match>
 					<pattern type="string">NetFrontLifeBrowser/</pattern>
 				</match>
-				<define name="BrowserName" value="NetFront"/>
+				<define name="BrowserName" value="NetFrontLifeBrowser"/>
 				<define name="BrowserVersion">
 					<pattern type="regex" value="$1">NetFront[\w]*/(&ver;)</pattern>
+				</define>
+			</branch>
+			<branch name="Polaris">
+				<match type="any">
+					<pattern type="string">POLARIS/</pattern>
+				</match>
+				<define name="BrowserName" value="Polaris"/>
+				<define name="BrowserVersion">
+					<pattern type="regex" value="$1">POLARIS/(&ver;)</pattern>
 				</define>
 			</branch>
 			<branch name="UCWEB">
@@ -153,15 +161,6 @@
 				</define>
 				<define name="BrowserVersion">
 					<pattern type="regex" value="$1">Version/(&ver;)</pattern>
-				</define>
-			</branch>
-			<branch name="Polaris">
-				<match type="any">
-					<pattern type="string">POLARIS/</pattern>
-				</match>
-				<define name="BrowserName" value="Polaris"/>
-				<define name="BrowserVersion">
-					<pattern type="regex" value="$1">POLARIS/(&ver;)</pattern>
 				</define>
 			</branch>
 			<branch type="default">
@@ -297,6 +296,7 @@
 				<pattern type="string">DoCoMo</pattern>
 				<pattern type="string">Dalvik/</pattern>
 				<pattern type="string">PSP</pattern>
+				<pattern type="string">BREW</pattern>
 			</match>
 			<define name="BrowserEngine" value="Proprietary"/>			
 			<branch name="Obigo">
@@ -310,6 +310,15 @@
 					<pattern type="regex" value="$1">Obigo(?:InternetBrowser|-Browser|-MMS|-Q[\w]+)?/Q(\w+)</pattern>
 					<pattern type="regex" value="$1">Obigo(?:-|\s)Q([\.\w]+)</pattern>
 					<pattern type="regex" value="$1">Teleca(?:-|\s)Q([\.\w]+)</pattern>
+				</define>
+			</branch>
+			<branch name="Polaris">
+				<match type="any">
+					<pattern type="string">POLARIS/</pattern>
+				</match>
+				<define name="BrowserName" value="Polaris"/>
+				<define name="BrowserVersion">
+					<pattern type="regex" value="$1">POLARIS/(&ver;)</pattern>
 				</define>
 			</branch>
 			<branch name="Blackberry">
@@ -423,7 +432,11 @@
 		</branch>
 		
 		<branch name="UnknownMobileBrowser" type="default">
+			<define name="BrowserEngine" value="Unknown"/>
 			<define name="BrowserName" value="Unknown"/>
+			<define name="isWAP">
+				<pattern type="string" value="true">WAP</pattern>				
+			</define>
 		</branch>
 		
 		<!-- Detect Mobile OS -->
@@ -435,11 +448,15 @@
 					<pattern type="string">iPod</pattern>
 				</match>
 				<define name="OSFamily" value="iOS"/>
-				<define name="isTouch" value="true"/>
+				<define name="isTouch">
+					<pattern type="string" value="true">(iPhone</pattern>
+					<pattern type="string" value="true">(iPad</pattern>
+					<pattern type="string" value="true">(iPod</pattern>
+				</define>
 				<define name="OSVersion">
 					<pattern type="regex" value="$1.$2.$3">(?:iPhone|CPU) OS (\d)_(\d)_(\d)</pattern>
 					<pattern type="regex" value="$1.$2">(?:iPhone|CPU) OS (\d)_(\d)</pattern>
-					<pattern type="regex" value="$1">(?:iPhone|CPU) OS (\d)</pattern>
+					<pattern type="regex" value="$1">(?:iPhone|CPU) OS (\d)</pattern>									
 				</define>
 				<define name="isTablet">
 					<pattern type="string" value="true">iPad</pattern>
@@ -448,7 +465,7 @@
 			<branch name="Android">
 				<match>
 					<pattern type="string">Android</pattern>
-					<pattern type="regex">Linux [23]</pattern>
+					<!-- <pattern type="regex">Linux [23]</pattern> -->
 					<pattern type="regex">Linux;\s?U;\s?[23]</pattern>
 					<pattern type="regex">Mac OS X \d[\d\_]+;.*HTC[_/]</pattern>
 				</match>
@@ -477,6 +494,7 @@
 				<define name="OSFamily" value="Symbian"/>
 				<define name="OSVersion">
 					<pattern type="regex" value="$1">SymbianOS/(&ver;)</pattern>
+					<pattern type="regex" value="Symbian^$1">Symbian/(&ver;)</pattern>
 				</define>
 			</branch>
 			<branch name="Series40">
@@ -528,15 +546,20 @@
 					<pattern type="string">Microsoft Windows</pattern>
 					<pattern type="string">Windows NT</pattern>
 					<pattern type="string">WindowsMobile</pattern>
+					<pattern type="string">PPC;</pattern>					
 				</match>
 				<define name="OSFamily" value="WindowsMobile"/>
 			</branch>
 			<branch name="WebOS">
 				<match>
-					<pattern type="string" value="WebOS">hpwOS</pattern>
-					<pattern type="string" value="WebOS">webOS</pattern>
+					<pattern type="string">hpwOS</pattern>
+					<pattern type="string">webOS</pattern>
 				</match>	
 				<define name="OSFamily">WebOS</define>
+				<define name="OSVersion">
+					<pattern type="regex" value="$1">hpwOS/(&ver2d;)</pattern>
+					<pattern type="regex" value="$1">webOS/(&ver2d;)</pattern>
+				</define>
 			</branch>
 			<branch name="Linux">
 				<match>
@@ -544,6 +567,15 @@
 				</match>
 				<define name="OSFamily">
 					<pattern type="string" value="Linux">Linux</pattern>
+				</define>
+			</branch>	
+			<branch name="BREW">
+				<match>
+					<pattern type="string">(BREW</pattern>					
+				</match>	
+				<define name="OSFamily">BREW</define>
+				<define name="OSVersion">
+					<pattern type="regex" value="$1">BREW\s(&ver3d;)</pattern>					
 				</define>
 			</branch>			
 			<branch type="default">
@@ -669,7 +701,7 @@
 			</define>
 			<branch name="YandexInternet">
 				<match type="any">
-					<pattern type="string">YI</pattern>
+					<pattern type="string"> YI</pattern>
 				</match>
 				<define name="BrowserName" value="YandexInternet"/>
 				<define name="BrowserVersion">
@@ -970,7 +1002,7 @@
 					<pattern type="string">PPC</pattern>
 					<pattern type="string">Darwin</pattern>
 				</match>
-				<define name="OSFamily">Mac OS</define>
+				<define name="OSFamily">MacOS</define>
 				<define name="OSVersion">
 					<pattern type="regex" value="$1.$2.$3">Mac OS X (\d+)_(\d+)_(\d+)</pattern>
 					<pattern type="regex" value="$1">Mac OS X (&ver;)</pattern>
