@@ -100,9 +100,10 @@
     <xsl:template match="text()[not(string(number())='NaN')]">
         <xsl:value-of select="."/>
     </xsl:template>
+    -->
     <xsl:template match="text()[translate(.,'TRUE','true')='true']">true</xsl:template>
     <xsl:template match="text()[translate(.,'FALSE','false')='false']">false</xsl:template>
-    -->
+    
     
     <!-- item:null -->
     <xsl:template match="*[count(child::node())=0]">

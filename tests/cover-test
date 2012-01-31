@@ -3,6 +3,8 @@
 cd $(dirname $0)
 TMP=$(tempfile)
 trap "rm $TMP" EXIT
+echo "Generating cover.txt..."
 xsltproc cover.xsl cover.xml > $TMP
+echo "Testing..."
 python cover.py ../data/browser.xml $TMP
 
