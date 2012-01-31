@@ -21,28 +21,31 @@ def dicts_equals(d1, d2):
 
 if __name__ == "__main__":
     try:
+        print "Try to make detector..."
         d = uatraits.detector(sys.argv[1])
+        print "OK - detector created."
         cover_path = sys.argv[2]
     except IndexError:
         print "usage: %s <browser.xml> <cover.txt>" % sys.argv[0]
         exit(2)
     r = 0
     cover = open(cover_path, "r")
-    if cover:
-	state = SUA
-        for s in cover.xreadlines():
-            if state == SUA:
-                ua = s.strip()
-                state = SPROCESS
-            else:
-                test = json.read(s)
-                answer = d.detect(str(ua))
-                if not dicts_equals(test, answer):
-                    print "* UA", ua
-                    print test
-                    print answer
-                    print
-                    r = 1
-                state = SUA
+    state = SUA
+    for s in cover.xreadlines():
+        if state == SUA:
+            ua = s.strip()
+            state = SPROCESS
+        else:
+            test = json.loads(s)
+            answer = d.detect(str(ua))
+            if not dicts_equals(test, answer):
+                print "* UA", ua
+                print test
+                print answer
+                print
+                r = 1
+            state = SUA
+    if r == 0:
+        print "Passed."
     exit(r)
 
