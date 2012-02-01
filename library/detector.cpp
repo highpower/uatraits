@@ -31,4 +31,11 @@ detector::detect(std::string const &agent) const {
 	return result;
 }
 
+void
+detector::detect(std::string const &agent, result_type &result) const {
+	result_type res;
+	impl_->detect(agent.c_str(), agent.c_str() + agent.size(), res);
+	res.swap(result);
+}
+
 } // namespace

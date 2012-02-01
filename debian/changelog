@@ -1,3 +1,9 @@
+libuatraits (1.1.2-1) unstable; urgency=low
+
+  * added new function into detector class
+
+ -- ponomarev <ponomarev@yandex-team.ru>  Wed, 01 Feb 2012 11:19:39 +0300
+
 libuatraits (1.1.1-1) unstable; urgency=low
 
   * remove cover.txt and sed using

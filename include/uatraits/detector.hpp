@@ -37,6 +37,8 @@ public:
 	result_type detect(char const *agent) const;
 	result_type detect(std::string const &agent) const;
 
+	void detect(std::string const &agent, result_type &result) const;
+
 private:
 	typedef details::detector_impl<result_type> impl_type;
 	shared_ptr<impl_type> impl_;
