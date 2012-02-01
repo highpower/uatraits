@@ -465,7 +465,7 @@
 					<pattern type="regex" value="$1.$2.$3">(?:iPhone|CPU) OS (\d)_(\d)_(\d)</pattern>
 					<pattern type="regex" value="$1.$2">(?:iPhone|CPU) OS (\d)_(\d)</pattern>
 					<pattern type="regex" value="$1">(?:iPhone|CPU) OS (\d)</pattern>									
-					<pattern type="regex" value="$1">iTunes-&word;/(&ver;)</pattern>
+					<pattern type="regex" value="$1">iTunes-[\w\-]+/(&ver;)</pattern>
 				</define>
 				<define name="isTablet">
 					<pattern type="string" value="true">iPad</pattern>
@@ -473,8 +473,7 @@
 			</branch>
 			<branch name="Android">
 				<match>
-					<pattern type="string">Android</pattern>
-					<!-- <pattern type="regex">Linux [23]</pattern> -->
+					<pattern type="string">Android</pattern>					
 					<pattern type="regex">Linux;\s?U;\s?[23]</pattern>
 					<pattern type="regex">Mac OS X \d[\d\_]+;.*HTC[_/]</pattern>
 				</match>
@@ -863,7 +862,8 @@
 				<pattern type="string">libcurl</pattern>
 				<pattern type="string">Python-urllib</pattern>				
 				<pattern type="string">Wget</pattern>
-				<pattern type="regex">E?Links</pattern>				
+				<pattern type="regex">^PHP/</pattern>
+				<pattern type="regex">E?Links</pattern>							
 			</match>
 			<define name="BrowserEngine">
 				<pattern type="regex" value="TextBased">E?Links</pattern>
@@ -873,6 +873,7 @@
 				<pattern type="string" value="false">libcurl</pattern>
 				<pattern type="string" value="false">Python-urllib</pattern>				
 				<pattern type="string" value="false">Wget</pattern>
+				<pattern type="regex" value="false">^PHP/</pattern>
 				<pattern type="string" value="false">libwww-perl</pattern>
 			</define>
 		</branch>
@@ -947,7 +948,7 @@
 
 				</match>
 				<define name="OSFamily">Windows</define>
-				<define name="OSVersion">
+				<define name="OSName">
 					<pattern type="string" value="Windows 98">Windows 98</pattern>
 					<pattern type="string" value="Windows 98">Win98</pattern>
 					<pattern type="string" value="Windows 2000">Windows NT 5.0</pattern>
@@ -956,18 +957,28 @@
 					<pattern type="string" value="Windows XP">Windows XP</pattern>
 					<pattern type="string" value="Windows Server 2003">Windows NT 5.2</pattern>
 					<pattern type="string" value="Windows Vista">Windows NT 6.0</pattern>
-					<pattern type="string" value="Windows 7">Windows NT 6.1</pattern>
-					<pattern type="string" value="Windows 7">Windows NT 7.0</pattern>
-					<pattern type="string" value="Windows 8">Windows NT 6.2</pattern>
-					<pattern type="string" value="Windows NT 4.0">Windows NT 4.0</pattern>
-					<pattern type="string" value="Windows NT 4.0">Windows NT</pattern>
-					<pattern type="string" value="Windows NT 4.0">WinNT4.0</pattern>
+					<pattern type="string" value="Windows 7">Windows NT 6.1</pattern>					
+					<pattern type="string" value="Windows 8">Windows NT 6.2</pattern>					
+					<pattern type="string" value="Windows NT 4.0">Windows NT;</pattern>					
 					<pattern type="string" value="Windows NT 4.0">WinNT</pattern>
 					<pattern type="string" value="Windows ME">Windows ME</pattern>
 					<pattern type="string" value="Windows 95">Windows 95</pattern>
 					<pattern type="string" value="Windows 95">Win95</pattern>
 					<pattern type="string" value="Windows 3.11">Win16</pattern>
-				</define>
+				</define>				
+				<define name="OSVersion">
+					<pattern type="string" value="4.1.1998">Windows 98</pattern>
+					<pattern type="string" value="4.1.1998">Win98</pattern>
+					<pattern type="regex" value="$1">Windows NT (&ver;)</pattern>
+					<pattern type="string" value="5.0.2195">Windows 2000</pattern>					
+					<pattern type="string" value="5.1.2600">Windows XP</pattern>										
+					<pattern type="string" value="4.0.1381">Windows NT;</pattern>					
+					<pattern type="string" value="4.0.1381">WinNT</pattern>
+					<pattern type="string" value="4.90.3000">Windows ME</pattern>
+					<pattern type="string" value="4.0.950">Windows 95</pattern>
+					<pattern type="string" value="4.0.950">Win95</pattern>
+					<pattern type="string" value="3.11">Win16</pattern>					
+				</define>				
 				<define name="x64">
 					<pattern type="string" value="true">WOW64</pattern>
 					<pattern type="string" value="true">Win64</pattern>
@@ -987,7 +998,7 @@
 					<pattern type="string">QNX</pattern>
 				</match>
 				<define name="OSFamily">
-					<pattern type="string" value="Open BSD">OpenBSD</pattern>
+					<pattern type="string" value="OpenBSD">OpenBSD</pattern>
 					<pattern type="string" value="Linux">Linux</pattern>
 					<pattern type="string" value="Unix">Unix</pattern>
 					<pattern type="string" value="QNX">QNX</pattern>

@@ -75,7 +75,6 @@ Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/5.0; XBLWP7; ZuneWP7)
 Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; XBLWP7; ZuneWP7)
 Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/5.0; XBLWP7; ZuneWP7)56
 Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; XBLWP7; ZuneWP7)3
-Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/5.0; XBLWP7; ZuneWP7)
 Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_5_7; en-us) AppleWebKit/530.17 (KHTML, like Gecko) Version/4.0 Safari/530.17 Skyfire/2.0
 Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_5_7; en-us) AppleWebKit/530.17 (KHTML, like Gecko) Version/4.0 Safari/530.17 Skyfire/2.0 operator=\x22\x22
 Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_5_7; en-us) AppleWebKit/530.17 (KHTML, like Gecko) Version/4.0 Safari/530.17 Skyfire/2.0 operator=\x22Beeline\x22
@@ -150,14 +149,11 @@ Nokia5230/Opera<Ch-Ray>/RU/400
 Nokia5800 XpressMusic/Opera<Ch-Ray>/RU/400
 DoCoMo/2.0 N905i(c100;TB;W24H16) (compatible; Googlebot-Mobile/2.1; +http://www.google.com/bot.html)
 DoCoMo/2.0 SH901iC(c100;TB;W24H12)
-DoCoMo/2.0 N905i(c100;TB;W24H16) (compatible; Googlebot-Mobile/2.1; +http://www.google.com/bot.html)
 Mozilla/5.0 (Linux; U; en-US) AppleWebKit/528.5+ (KHTML, like Gecko, Safari/528.5+) Version/4.0 Kindle/3.0 (screen 600x800; rotate)
 Mozilla/5.0 (Linux U; en-US) AppleWebKit/528.5+ (KHTML, like Gecko, Safari/528.5+) Version/4.0 Kindle/3.0 (screen 600x800; rotate)
 Mozilla/5.0 (Linux; U; en-US) AppleWebKit/528.5+ (KHTML, like Gecko, Safari/528.5+) Version/4.0 Kindle/3.0 (screen 600x800; rotate)334
 Mozilla/5.0 (Linux; U; de-DE) AppleWebKit/528.5+ (KHTML, like Gecko, Safari/528.5+) Version/4.0 Kindle/3.0 (screen 600x800; rotate)2
 Mozilla/5.0 (X11; U; Linux arm7tdmi; rv:1.8.1.11) Gecko/20071130 Minimo/0.025
-Mozilla/4.0 (PSP (PlayStation Portable); 2.00)
-Mozilla/5.0 (PLAYSTATION 3; 1.00)
 Mozilla/4.0 (PSP (PlayStation Portable); 2.00)
 GSmart-S1205;Mozilla/4.0 (compatible; MSIE 6.0; PPC;240x400)
 Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.2; SV1; ppc_215; -1017-; .NET CLR 1.1.4322; .NET CLR 2.0.50727)
@@ -197,55 +193,21 @@ XV6975 Opera/9.50 (Windows NT 5.1; U; en)
 XV6950 Opera/9.50 (Windows NT 5.1; U; en)
 HD_mini_T5555 Opera/9.7 (Windows NT 5.1; U; en)
 HD_mini_T5555 Opera/9.7 (Windows NT 5.1; U; ru)1093
-Mozilla/5.0 (iPad; U; CPU OS 4_3_3 like Mac OS X; ru-ru) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8J2 Safari/6533.18.5
-Mozilla/5.0 (iPad; U; CPU OS 4_3_5 like Mac OS X; ru-ru) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8L1 Safari/6533.18.5
-Mozilla/5.0 (iPad; CPU OS 5_0 like Mac OS X) AppleWebKit/534.46 (KHTML, like Gecko) Version/5.1 Mobile/9A334 Safari/7534.48.3
-Mozilla/5.0 (iPad; CPU OS 5_0_1 like Mac OS X) AppleWebKit/534.46 (KHTML, like Gecko) Version/5.1 Mobile/9A405 Safari/7534.48.3
-Mozilla/5.0 (iPad; U; CPU OS 4_2_1 like Mac OS X; ru-ru) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.5
 Mozilla/5.0 (Linux; U; Android 2Build/FROYO) AppleWebK.2.1; ru-ru; GT-S5570 it/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.12
 Mozilla/5.0 (Linux; U; Android 2.3.4; ru-ru; GT-S5830 Build/Gecko) Version/4.0 Mobile Safari/533.12
 Mozilla/5.0 (Linux; U; Android 2.2.1; ru-ru; GT-S55ke Gecko) Version/4.0 Mobile Safari/533.12
-Mozilla/4.0 (Ubiquam U-300; BREW/3.1) NetFront/3.1
-Mozilla/4.0 (Pantech PR600; BREW/3.1) NetFront/3.1
-User-Agent: Mozilla/4.0 (Ubiquam U-300; BREW/3.1) NetFront/3.1
-Mozilla/4.0 (MobilePhone; BREW/2.0) NetFront/3.1
-Mozilla/4.0 (Ubiquam U-520; BREW/3.1) NetFront/3.1
-Mozilla/5.0 (iPad; U; CPU OS 4_3_3 like Mac OS X; ru-ru) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8J2 Safari/6533.18.5
-Mozilla/5.0 (iPad; U; CPU OS 4_3_5 like Mac OS X; ru-ru) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8L1 Safari/6533.18.5
-Mozilla/5.0 (iPad; CPU OS 5_0 like Mac OS X) AppleWebKit/534.46 (KHTML, like Gecko) Version/5.1 Mobile/9A334 Safari/7534.48.3
-Mozilla/5.0 (iPad; CPU OS 5_0_1 like Mac OS X) AppleWebKit/534.46 (KHTML, like Gecko) Version/5.1 Mobile/9A405 Safari/7534.48.3
-Mozilla/5.0 (iPad; U; CPU OS 4_2_1 like Mac OS X; ru-ru) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.5
-Mozilla/5.0 (Symbian/3; Series60/5.2 NokiaN8-00/025.007; Profile/MIDP-2.1 Configuration/CLDC-1.1 ) AppleWebKit/533.4 (KHTML, like Gecko) NokiaBrowser/7.3.1.37 Mobile Safari/533.4 3gpp-gba
-Mozilla/5.0 (SymbianOS/9.4; Series60/5.0 Nokia5230/50.0.001; Profile/MIDP-2.1 Configuration/CLDC-1.1 ) AppleWebKit/533.4 (KHTML, like Gecko) NokiaBrowser/7.3.1.25 Mobile Safari/533.4 3gpp-gba
-Mozilla/5.0 (Symbian/3; Series60/5.2 NokiaN8-00/022.014; Profile/MIDP-2.1 Configuration/CLDC-1.1 ) AppleWebKit/533.4 (KHTML, like Gecko) NokiaBrowser/7.3.1.37 Mobile Safari/533.4 3gpp-gba
-Mozilla/5.0 (SymbianOS/9.3; Series60/3.2 NokiaE52-1/@version@; Profile/MIDP-2.1 Configuration/CLDC-1.1 ) AppleWebKit/533.4 (KHTML, like Gecko) NokiaBrowser/7.3.1.26 Mobile Safari/533.4 3gpp-gba
-Mozilla/5.0 (Symbian/3; Series60/5.2 NokiaC7-00/022.014; Profile/MIDP-2.1 Configuration/CLDC-1.1 ) AppleWebKit/533.4 (KHTML, like Gecko) NokiaBrowser/7.3.1.37 Mobile Safari/533.4 3gpp-gba
 Mozilla/5.0 (SymbianOS/9.4; Series60/5.0 Nokia5800d-1/50.0.005; Profile/MIDP-2.1 Configuration/CLDC-1.1 ) AppleWebKit/525 (KHTML, like Gecko) Version/3.0 BrowserNG/7.2.3
 Mozilla/5.0 (SymbianOS/9.4; Series60/5.0 Nokia5230/40.0.003; Profile/MIDP-2.1 Configuration/CLDC-1.1 ) AppleWebKit/525 (KHTML, like Gecko) Version/3.0 BrowserNG/7.2.7.4 3gpp-gba
 Mozilla/5.0 (SymbianOS/9.4; Series60/5.0 Nokia5228/21.1.004; Profile/MIDP-2.1 Configuration/CLDC-1.1 ) AppleWebKit/525 (KHTML, like Gecko) Version/3.0 BrowserNG/7.2.5.2 3gpp-gba
 Mozilla/5.0 (SymbianOS/9.4; U; Series60/5.0 Nokia5530c-2/20.0.080; Profile/MIDP-2.1 Configuration/CLDC-1.1 ) AppleWebKit/525 (KHTML, like Gecko) Safari/525
 Mozilla/5.0 (SymbianOS/9.4; Series60/5.0 Nokia5530c-2/32.0.007; Profile/MIDP-2.1 Configuration/CLDC-1.1 ) AppleWebKit/525 (KHTML, like Gecko) Version/3.0 BrowserNG/7.2.6.9 3gpp-gba
-Mozilla/5.0 (SymbianOS/9.1; U; en-us) AppleWebKit/413 (KHTML, like Gecko) Safari/413
 SonyEricssonU5i/R2EA; Mozilla/5.0 (SymbianOS/9.4; U; Series60/5.0 Profile/MIDP-2.1 Configuration/CLDC-1.1) AppleWebKit/525 (KHTML, like Gecko) Version/3.0 Safari/525
 Mozilla/5.0 (SymbianOS/9.1; U; en-us) AppleWebKit/413 (KHTML, like Gecko) Safari/413 es65
 Mozilla/5.0 (SymbianOS/9.4; U; Series60/5.0 Samsung/I8910; Profile/MIDP-2.1 Configuration/CLDC-1.1 ) AppleWebKit/525 (KHTML, like Gecko) Version/3.0 Safari/525
 SonyEricssonU8i/R2EA; Mozilla/5.0 (SymbianOS/9.4; U; Series60/5.0 Profile/MIDP-2.1 Configuration/CLDC-1.1) AppleWebKit/525 (KHTML, like Gecko) Version/3.0 Safari/525
-Mozilla/5.0 (SymbianOS/9.4; Series60/5.0 Nokia5800d-1/50.0.005; Profile/MIDP-2.1 Configuration/CLDC-1.1 ) AppleWebKit/525 (KHTML, like Gecko) Version/3.0 BrowserNG/7.2.3
-Mozilla/5.0 (SymbianOS/9.4; Series60/5.0 Nokia5230/40.0.003; Profile/MIDP-2.1 Configuration/CLDC-1.1 ) AppleWebKit/525 (KHTML, like Gecko) Version/3.0 BrowserNG/7.2.7.4 3gpp-gba
-Mozilla/5.0 (SymbianOS/9.4; Series60/5.0 Nokia5228/21.1.004; Profile/MIDP-2.1 Configuration/CLDC-1.1 ) AppleWebKit/525 (KHTML, like Gecko) Version/3.0 BrowserNG/7.2.5.2 3gpp-gba
-Mozilla/5.0 (SymbianOS/9.4; Series60/5.0 Nokia5530c-2/32.0.007; Profile/MIDP-2.1 Configuration/CLDC-1.1 ) AppleWebKit/525 (KHTML, like Gecko) Version/3.0 BrowserNG/7.2.6.9 3gpp-gba
 Mozilla/5.0 (SymbianOS/9.4; Series60/5.0 Nokia5230/21.0.004; Profile/MIDP-2.1 Configuration/CLDC-1.1 ) AppleWebKit/525 (KHTML, like Gecko) Version/3.0 BrowserNG/7.2.5.2 3gpp-gba
-SonyEricssonU5i/R2EA; Mozilla/5.0 (SymbianOS/9.4; U; Series60/5.0 Profile/MIDP-2.1 Configuration/CLDC-1.1) AppleWebKit/525 (KHTML, like Gecko) Version/3.0 Safari/525
-Mozilla/5.0 (SymbianOS/9.4; U; Series60/5.0 Samsung/I8910; Profile/MIDP-2.1 Configuration/CLDC-1.1 ) AppleWebKit/525 (KHTML, like Gecko) Version/3.0 Safari/525
-SonyEricssonU8i/R2EA; Mozilla/5.0 (SymbianOS/9.4; U; Series60/5.0 Profile/MIDP-2.1 Configuration/CLDC-1.1) AppleWebKit/525 (KHTML, like Gecko) Version/3.0 Safari/525
 SonyEricssonU5i/R2AA; Mozilla/5.0 (SymbianOS/9.4; U; Series60/5.0 Profile/MIDP-2.1 Configuration/CLDC-1.1) AppleWebKit/525 (KHTML, like Gecko) Version/3.0 Safari/525
 SonyEricssonU1i/R2AA; Mozilla/5.0 (SymbianOS/9.4; U; Series60/5.0 Profile/MIDP-2.1 Configuration/CLDC-1.1) AppleWebKit/525 (KHTML, like Gecko) Version/3.0 Safari/525
-Mozilla/5.0 (Symbian/3; Series60/5.2 NokiaN8-00/025.007; Profile/MIDP-2.1 Configuration/CLDC-1.1 ) AppleWebKit/533.4 (KHTML, like Gecko) NokiaBrowser/7.3.1.37 Mobile Safari/533.4 3gpp-gba
-Mozilla/5.0 (SymbianOS/9.4; Series60/5.0 Nokia5230/50.0.001; Profile/MIDP-2.1 Configuration/CLDC-1.1 ) AppleWebKit/533.4 (KHTML, like Gecko) NokiaBrowser/7.3.1.25 Mobile Safari/533.4 3gpp-gba
-Mozilla/5.0 (Symbian/3; Series60/5.2 NokiaN8-00/022.014; Profile/MIDP-2.1 Configuration/CLDC-1.1 ) AppleWebKit/533.4 (KHTML, like Gecko) NokiaBrowser/7.3.1.37 Mobile Safari/533.4 3gpp-gba
-Mozilla/5.0 (SymbianOS/9.3; Series60/3.2 NokiaE52-1/@version@; Profile/MIDP-2.1 Configuration/CLDC-1.1 ) AppleWebKit/533.4 (KHTML, like Gecko) NokiaBrowser/7.3.1.26 Mobile Safari/533.4 3gpp-gba
-Mozilla/5.0 (Symbian/3; Series60/5.2 NokiaC7-00/022.014; Profile/MIDP-2.1 Configuration/CLDC-1.1 ) AppleWebKit/533.4 (KHTML, like Gecko) NokiaBrowser/7.3.1.37 Mobile Safari/533.4 3gpp-gba
-Mozilla/5.0 (SymbianOS/9.4; U; Series60/5.0 Nokia5530c-2/20.0.080; Profile/MIDP-2.1 Configuration/CLDC-1.1 ) AppleWebKit/525 (KHTML, like Gecko) Safari/525
 Nokia6700c-1/2.0 (10.50) Profile/MIDP-2.1 Configuration/CLDC-1.1 Mozilla/5.0 AppleWebKit/420+ (KHTML, like Gecko) Safari/420+
 Mozilla/5.0 (SymbianOS/9.4; U; Series60/5.0 Nokia5800d-1/21.0.025; Profile/MIDP-2.1 Configuration/CLDC-1.1 ) AppleWebKit/413 (KHTML, like Gecko) Safari/413
 Nokia6700c-1/2.0 (13.10) Profile/MIDP-2.1 Configuration/CLDC-1.1 Mozilla/5.0 AppleWebKit/420+ (KHTML, like Gecko) Safari/420+
@@ -255,31 +217,6 @@ Mozilla/5.0 (SymbianOS/9.3; U; Series60/3.2 Samsung/I8510/XEHI5; Profile/MIDP-2.
 Mozilla/5.0 (SymbianOS/9.2; U; Series60/3.1 Samsung/SGH-G810/XEHA3 Profile/MIDP-2.0 Configuration/CLDC-1.1 ) AppleWebKit/413 (KHTML, like Gecko) Safari/413
 Mozilla/5.0 (SymbianOS/9.1; U; [ru]; SymbianOS/9.1 Series60/3.0) AppleWebKit/413 (KHTML, like Gecko) Safari/413
 Mozilla/5.0 (SymbianOS/9.3; U; Series60/3.2 Samsung/I7110/XNHL1 Profile/MIDP-2.1 Configuration/CLDC-1.1 ) AppleWebKit/413 (KHTML, like Gecko) Safari/413
-Mozilla/5.0 (SAMSUNG; SAMSUNG-GT-S5250/S5250XEKC1; U; Bada/1.0; ru-ru) AppleWebKit/533.1 (KHTML, like Gecko) Dolfin/2.0 Mobile WQVGA SMM-MMS/1.2.0 NexPlayer/3.0 profile/MIDP-2.1 configuration/CLDC-1.1 OPN-B
-Mozilla/5.0 (SAMSUNG; SAMSUNG-GT-S8530/S8530XEJL4; U; Bada/1.2; ru-ru) AppleWebKit/533.1 (KHTML, like Gecko) Dolfin/2.2 Mobile WVGA SMM-MMS/1.2.0 NexPlayer/3.0 profile/MIDP-2.1 configuration/CLDC-1.1 OPN-B
-Mozilla/5.0 (SAMSUNG; SAMSUNG-GT-S8500/S8500XEKC2; U; Bada/1.0; ru-ru) AppleWebKit/533.1 (KHTML, like Gecko) Dolfin/2.0 Mobile WVGA SMM-MMS/1.2.0 OPN-B
-Mozilla/5.0 (SAMSUNG; SAMSUNG-GT-S8500/S8500XEKH2; U; Bada/1.0; ru-ru) AppleWebKit/533.1 (KHTML, like Gecko) Dolfin/2.0 Mobile WVGA SMM-MMS/1.2.0 OPN-B
-Mozilla/5.0 (SAMSUNG; SAMSUNG-GT-S8530/S8530XEJK6; U; Bada/1.2; ru-ru) AppleWebKit/533.1 (KHTML, like Gecko) Dolfin/2.2 Mobile WVGA SMM-MMS/1.2.0 NexPlayer/3.0 profile/MIDP-2.1 configuration/CLDC-1.1 OPN-B
-Mozilla/5.0 (SAMSUNG; SAMSUNG-GT-S5250/S5250XEKC1; U; Bada/1.0; ru-ru) AppleWebKit/533.1 (KHTML, like Gecko) Dolfin/2.0 Mobile WQVGA SMM-MMS/1.2.0 NexPlayer/3.0 profile/MIDP-2.1 configuration/CLDC-1.1 OPN-B
-Mozilla/5.0 (SAMSUNG; SAMSUNG-GT-S8530/S8530XEJL4; U; Bada/1.2; ru-ru) AppleWebKit/533.1 (KHTML, like Gecko) Dolfin/2.2 Mobile WVGA SMM-MMS/1.2.0 NexPlayer/3.0 profile/MIDP-2.1 configuration/CLDC-1.1 OPN-B
-Mozilla/5.0 (SAMSUNG; SAMSUNG-GT-S8500/S8500XEKC2; U; Bada/1.0; ru-ru) AppleWebKit/533.1 (KHTML, like Gecko) Dolfin/2.0 Mobile WVGA SMM-MMS/1.2.0 OPN-B
-Mozilla/5.0 (SAMSUNG; SAMSUNG-GT-S8500/S8500XEKH2; U; Bada/1.0; ru-ru) AppleWebKit/533.1 (KHTML, like Gecko) Dolfin/2.0 Mobile WVGA SMM-MMS/1.2.0 OPN-B
-Mozilla/5.0 (SAMSUNG; SAMSUNG-GT-S8530/S8530XEJK6; U; Bada/1.2; ru-ru) AppleWebKit/533.1 (KHTML, like Gecko) Dolfin/2.2 Mobile WVGA SMM-MMS/1.2.0 NexPlayer/3.0 profile/MIDP-2.1 configuration/CLDC-1.1 OPN-B
-Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_5_7; en-us) AppleWebKit/530.17 (KHTML, like Gecko) Version/4.0 Safari/530.17 Skyfire/2.0
-Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_5_7; en-us) AppleWebKit/530.17 (KHTML, like Gecko) Version/4.0 Safari/530.17 Skyfire/2.0 operator=\x22\x22
-Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_5_7; en-us) AppleWebKit/530.17 (KHTML, like Gecko) Version/4.0 Safari/530.17 Skyfire/2.0 operator=\x22Beeline\x22
-Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_5_7; en-us) AppleWebKit/530.17 (KHTML, like Gecko) Version/4.0 Safari/530.17 Skyfire/2.0180
-Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_5_7; en-us) AppleWebKit/530.17 (KHTML, like Gecko) Version/4.0 Safari/530.17 Skyfire/2.0 operator=x22Beelinex223
-Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_5_7; en-us) AppleWebKit/530.17 (KHTML, like Gecko) Version/4.0 Safari/530.17 Skyfire/2.0
-Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_5_7; en-us) AppleWebKit/530.17 (KHTML, like Gecko) Version/4.0 Safari/530.17 Skyfire/2.0 operator=\x22\x22
-Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_5_7; en-us) AppleWebKit/530.17 (KHTML, like Gecko) Version/4.0 Safari/530.17 Skyfire/2.0 operator=\x22Beeline\x22
-Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_5_7; en-us) AppleWebKit/530.17 (KHTML, like Gecko) Version/4.0 Safari/530.17 Skyfire/2.0180
-Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_5_7; en-us) AppleWebKit/530.17 (KHTML, like Gecko) Version/4.0 Safari/530.17 Skyfire/2.0 operator=x22Beelinex223
-Mozilla/5.0 (Linux; U; Android 2.3.3; ru_ru; Android for Telechips TCC8900 Evaluation Board Build/GINGERBREAD) AppleWebKit/530.17 (KHTML, like Gecko) Version/4.0 NetFrontLifeBrowser/2.3 Mobile (Dragonfruit)
-Mozilla/5.0 (Linux; U; Android 2.1; ru_ru; X10i Build/ECLAIR) AppleWebKit/530.17 (KHTML, like Gecko) Version/4.0 NetFrontLifeBrowser/1.5 Mobile (Dragonfruit)
-Mozilla/5.0 (Linux; U; Android 2.3.3; ru_ru; GT-I9100 Build/GINGERBREAD) AppleWebKit/530.17 (KHTML, like Gecko) Version/4.0 NetFrontLifeBrowser/2.3 Mobile (Dragonfruit)
-Mozilla/5.0 (Linux; U; Android 2.2; en_us; GT-P1000 Build/FROYO) AppleWebKit/530.17 (KHTML, like Gecko) Version/4.0 NetFrontLifeBrowser/2.2 Mobile (Dragonfruit)
-Mozilla/5.0 (Linux; U; Android 2.2; ru_ru; GT-I9000 Build/FROYO) AppleWebKit/530.17 (KHTML, like Gecko) Version/4.0 NetFrontLifeBrowser/2.0 Mobile (Dragonfruit)
 Mozilla/5.0 (Linux; U; Android 2.3.3; ru_ru; Android for Telechips TCC8900 Evaluation Board Build/GINGERBREAD) AppleWebKit/530.17 (KHTML, like Gecko) Version/4.0 NetFrontLifeBrowser/2.3 Mobile (Dragonfruit)
 Mozilla/5.0 (Linux; U; Android 2.1; ru_ru; X10i Build/ECLAIR) AppleWebKit/530.17 (KHTML, like Gecko) Version/4.0 NetFrontLifeBrowser/1.5 Mobile (Dragonfruit)
 Mozilla/5.0 (Linux; U; Android 2.3.3; ru_ru; GT-I9100 Build/GINGERBREAD) AppleWebKit/530.17 (KHTML, like Gecko) Version/4.0 NetFrontLifeBrowser/2.3 Mobile (Dragonfruit)
@@ -290,223 +227,43 @@ Mozilla/5.0(Linux;U;Android2.3.5;Zh_cn;NookColor;600*1024;)AppleWebKit/528.5+ (K
 Mozilla/5.0(Linux;U;Android2.2.2;Zh_cn;MTC Neo;480*800;)AppleWebKit/528.5+ (KHTML) Version/3.1.2/UCWEB7.8.0.95/139/355
 Mozilla/5.0(Linux;U;ANDROIDHOUSE 2.3.5;Ru_ru;GT-I9100;480*800;)AppleWebKit/528.5+ (KHTML) Version/3.1.2/UCWEB7.4.0.65/139/400
 Mozilla/5.0(Linux;U;2.3.3;Ru_ru;GT-I9001;480*800;)AppleWebKit/528.5+ (KHTML) Version/3.1.2/UCWEB7.4.0.65/139/400
-Mozilla/5.0(Linux;U;Android2.1-update1;Zh_cn;GT540;320*480;)AppleWebKit/528.5+ (KHTML) Version/3.1.2/UCWEB7.8.0.95/139/355
-Mozilla/5.0(Linux;U;Android2.3.5;Zh_cn;NookColor;600*1024;)AppleWebKit/528.5+ (KHTML) Version/3.1.2/UCWEB7.8.0.95/139/355
-Mozilla/5.0(Linux;U;Android2.2.2;Zh_cn;MTC Neo;480*800;)AppleWebKit/528.5+ (KHTML) Version/3.1.2/UCWEB7.8.0.95/139/355
-Mozilla/5.0(Linux;U;ANDROIDHOUSE 2.3.5;Ru_ru;GT-I9100;480*800;)AppleWebKit/528.5+ (KHTML) Version/3.1.2/UCWEB7.4.0.65/139/400
-Mozilla/5.0(Linux;U;2.3.3;Ru_ru;GT-I9001;480*800;)AppleWebKit/528.5+ (KHTML) Version/3.1.2/UCWEB7.4.0.65/139/400
-Mozilla/5.0 (hp-tablet; Linux; hpwOS/3.0.4; U; en-US) AppleWebKit/534.6 (KHTML, like Gecko) wOSBrowser/234.76 Safari/534.6 TouchPad/1.0
-Mozilla/5.0 (hp-tablet; Linux; hpwOS/3.0.4; U; en-GB) AppleWebKit/534.6 (KHTML, like Gecko) wOSBrowser/234.76 Safari/534.6 TouchPad/1.0
-Mozilla/5.0 (hp-tablet; Linux; hpwOS/3.0.2; U; en-GB) AppleWebKit/534.6 (KHTML, like Gecko) wOSBrowser/234.40.1 Safari/534.6 TouchPad/1.0
-Mozilla/5.0 (hp-tablet; Linux; hpwOS/3.0.4; U; en-CA) AppleWebKit/534.6 (KHTML, like Gecko) wOSBrowser/234.76 Safari/534.6 TouchPad/1.0
-Mozilla/5.0 (hp-tablet; Linux; hpwOS/3.0.0; U; en-GB) AppleWebKit/534.6 (KHTML, like Gecko) wOSBrowser/233.70 Safari/534.6 TouchPad/1.0
-Mozilla/5.0 (hp-tablet; Linux; hpwOS/3.0.4; U; en-US) AppleWebKit/534.6 (KHTML, like Gecko) wOSBrowser/234.76 Safari/534.6 TouchPad/1.0
-Mozilla/5.0 (hp-tablet; Linux; hpwOS/3.0.4; U; en-GB) AppleWebKit/534.6 (KHTML, like Gecko) wOSBrowser/234.76 Safari/534.6 TouchPad/1.0
-Mozilla/5.0 (hp-tablet; Linux; hpwOS/3.0.2; U; en-GB) AppleWebKit/534.6 (KHTML, like Gecko) wOSBrowser/234.40.1 Safari/534.6 TouchPad/1.0
-Mozilla/5.0 (hp-tablet; Linux; hpwOS/3.0.4; U; en-CA) AppleWebKit/534.6 (KHTML, like Gecko) wOSBrowser/234.76 Safari/534.6 TouchPad/1.0
-Mozilla/5.0 (hp-tablet; Linux; hpwOS/3.0.0; U; en-GB) AppleWebKit/534.6 (KHTML, like Gecko) wOSBrowser/233.70 Safari/534.6 TouchPad/1.0
-Mozilla/5.0 (hp-tablet; Linux; hpwOS/3.0.4; U; en-US) AppleWebKit/534.6 (KHTML, like Gecko) wOSBrowser/234.76 Safari/534.6 TouchPad/1.0
-Mozilla/5.0 (hp-tablet; Linux; hpwOS/3.0.4; U; en-GB) AppleWebKit/534.6 (KHTML, like Gecko) wOSBrowser/234.76 Safari/534.6 TouchPad/1.0
-Mozilla/5.0 (hp-tablet; Linux; hpwOS/3.0.2; U; en-GB) AppleWebKit/534.6 (KHTML, like Gecko) wOSBrowser/234.40.1 Safari/534.6 TouchPad/1.0
-Mozilla/5.0 (hp-tablet; Linux; hpwOS/3.0.4; U; en-CA) AppleWebKit/534.6 (KHTML, like Gecko) wOSBrowser/234.76 Safari/534.6 TouchPad/1.0
-Mozilla/5.0 (hp-tablet; Linux; hpwOS/3.0.0; U; en-GB) AppleWebKit/534.6 (KHTML, like Gecko) wOSBrowser/233.70 Safari/534.6 TouchPad/1.0
 Mozilla/5.0 (Linux; U; Android 2.2.1; ru_ru) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Ninesky-android-mobile/1.9.4 Safari/533.1
 Mozilla/5.0 (Linux; U; Android 2.2.1; ru_ru) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Ninesky-android-mobile/2.0.0 Safari/533.1
 Mozilla/5.0 (Linux; U; Android 2.3.7; ru_ru) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Ninesky-android-mobile/2.0.0 Safari/533.1
 Mozilla/5.0 (Linux; U; Android 3.2; ru_ru) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Ninesky-android-mobile/2.0.0 Safari/533.1
-Mozilla/5.0 (Linux; U; Android 2.2.1; ru_ru) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Ninesky-android-mobile/1.9.4 Safari/533.1
-Mozilla/5.0 (Linux; U; Android 2.2.1; ru_ru) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Ninesky-android-mobile/2.0.0 Safari/533.1
-Mozilla/5.0 (Linux; U; Android 2.3.7; ru_ru) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Ninesky-android-mobile/2.0.0 Safari/533.1
-Mozilla/5.0 (Linux; U; Android 3.2; ru_ru) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Ninesky-android-mobile/2.0.0 Safari/533.1
-Mozilla/5.0 (Linux; U; Android 2.2; ru-ru; Desire_A8181 Build/FRF91) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1
-Mozilla/5.0 (Linux; U; Android 2.3.3; ru-ru; HTC_DesireHD_A9191 Build/GRI40) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1
-Mozilla/5.0 (Linux; U; Android 2.3.3; ru-ru; HTC_IncredibleS_S710e Build/GRI40) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1
-Mozilla/5.0 (Linux; U; Android 2.2.1; ru-ru; HTC_Wildfire_A3333 Build/FRG83D) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1
-Mozilla/5.0 (Linux; U; Android 2.2; ru-ru; GT-P1000 Build/FROYO) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1
-Mozilla/5.0 (iPad; U; CPU OS 4_3_3 like Mac OS X; ru-ru) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8J2 Safari/6533.18.5
-Mozilla/5.0 (iPad; U; CPU OS 4_3_5 like Mac OS X; ru-ru) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8L1 Safari/6533.18.5
-Mozilla/5.0 (iPad; CPU OS 5_0 like Mac OS X) AppleWebKit/534.46 (KHTML, like Gecko) Version/5.1 Mobile/9A334 Safari/7534.48.3
-Mozilla/5.0 (iPad; CPU OS 5_0_1 like Mac OS X) AppleWebKit/534.46 (KHTML, like Gecko) Version/5.1 Mobile/9A405 Safari/7534.48.3
-Mozilla/5.0 (iPad; U; CPU OS 4_2_1 like Mac OS X; ru-ru) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.5
 Mozilla/5.0 (Linux; U; Android 3.1; ru-ru; GT-P7500 Build/HMJ37) AppleWebKit/534.13 (KHTML, like Gecko) Version/4.0 Safari/534.13
 Mozilla/5.0 (Linux; U; Android 3.2; ru-ru; A501 Build/HTJ85B) AppleWebKit/534.13 (KHTML, like Gecko) Version/4.0 Safari/534.13
 Mozilla/5.0 (Linux; U; Android 3.2; ru-ru; A500 Build/HTJ85B) AppleWebKit/534.13 (KHTML, like Gecko) Version/4.0 Safari/534.13
 Mozilla/5.0 (Linux; U; Android 3.2.1; ru-ru; Transformer TF101 Build/HTK75) AppleWebKit/534.13 (KHTML, like Gecko) Version/4.0 Safari/534.13
 Mozilla/5.0 (Linux; U; Android 3.0.1; ru-ru; A501 Build/HRI66) AppleWebKit/534.13 (KHTML, like Gecko) Version/4.0 Safari/534.13
-Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_3; HTC_Sensation_Z710e; ru-ru) AppleWebKit/533.16 (KHTML, like Gecko) Version/5.0 Safari/533.16
-Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_3; HTC_Flyer_P510e; ru-ru) AppleWebKit/533.16 (KHTML, like Gecko) Version/5.0 Safari/533.16
-Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_3; HTC_IncredibleS_S710e; ru-ru) AppleWebKit/533.16 (KHTML, like Gecko) Version/5.0 Safari/533.16
 Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_3; HTC_EVO3D_X515m; ru-ru) AppleWebKit/533.16 (KHTML, like Gecko) Version/5.0 Safari/533.16
 Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_3; HTC_SensationXE_Beats_Z715e; ru-ru) AppleWebKit/533.16 (KHTML, like Gecko) Version/5.0 Safari/533.16
-Mozilla/5.0 (Linux; U; Android 3.1; ru-ru; GT-P7500 Build/HMJ37) AppleWebKit/534.13 (KHTML, like Gecko) Version/4.0 Safari/534.13
-Mozilla/5.0 (Linux; U; Android 3.2; ru-ru; A501 Build/HTJ85B) AppleWebKit/534.13 (KHTML, like Gecko) Version/4.0 Safari/534.13
-Mozilla/5.0 (Linux; U; Android 3.2; ru-ru; A500 Build/HTJ85B) AppleWebKit/534.13 (KHTML, like Gecko) Version/4.0 Safari/534.13
-Mozilla/5.0 (Linux; U; Android 3.2.1; ru-ru; Transformer TF101 Build/HTK75) AppleWebKit/534.13 (KHTML, like Gecko) Version/4.0 Safari/534.13
-Mozilla/5.0 (Linux; U; Android 3.0.1; ru-ru; A501 Build/HRI66) AppleWebKit/534.13 (KHTML, like Gecko) Version/4.0 Safari/534.13
-Mozilla/5.0 (iPad; U; CPU OS 4_3_3 like Mac OS X; ru-ru) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8J2 Safari/6533.18.5
-Mozilla/5.0 (iPad; U; CPU OS 4_3_5 like Mac OS X; ru-ru) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8L1 Safari/6533.18.5
-Mozilla/5.0 (iPad; CPU OS 5_0 like Mac OS X) AppleWebKit/534.46 (KHTML, like Gecko) Version/5.1 Mobile/9A334 Safari/7534.48.3
-Mozilla/5.0 (iPad; CPU OS 5_0_1 like Mac OS X) AppleWebKit/534.46 (KHTML, like Gecko) Version/5.1 Mobile/9A405 Safari/7534.48.3
-Mozilla/5.0 (iPad; U; CPU OS 4_2_1 like Mac OS X; ru-ru) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.5
-Mozilla/5.0 (iPad; U; CPU OS 4_3_3 like Mac OS X; ru-ru) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8J2 Safari/6533.18.5
-Mozilla/5.0 (iPad; U; CPU OS 4_3_5 like Mac OS X; ru-ru) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8L1 Safari/6533.18.5
-Mozilla/5.0 (iPad; CPU OS 5_0 like Mac OS X) AppleWebKit/534.46 (KHTML, like Gecko) Version/5.1 Mobile/9A334 Safari/7534.48.3
-Mozilla/5.0 (iPad; CPU OS 5_0_1 like Mac OS X) AppleWebKit/534.46 (KHTML, like Gecko) Version/5.1 Mobile/9A405 Safari/7534.48.3
-Mozilla/5.0 (iPad; U; CPU OS 4_2_1 like Mac OS X; ru-ru) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.5
 POLARIS/6.01 (BREW 3.1.5; U; en-us; LG; LX265; POLARIS/6.01/WAP) MMP/2.0 profile/MIDP-2.1 Configuration/CLDC-1.1
 POLARIS/6.01(BREW 3.1.5;U;en-us;LG;LX265;POLARIS/6.01/WAP;)MMP/2.0 profile/MIDP-201 Configuration /CLDC-1.1
-Mozilla/5.0 (BREW; U; BREW 3.1.5; en) AppleWebKit/525.26 (KHTML, like Gecko) Polaris/7.0 Safari/525.26 480X800 LGE VX110002
-POLARIS/6.01 (BREW 3.1.5; U; en-us; LG; LX265; POLARIS/6.01/WAP) MMP/2.0 profile/MIDP-2.1 Configuration/CLDC-1.1
-POLARIS/6.01(BREW 3.1.5;U;en-us;LG;LX265;POLARIS/6.01/WAP;)MMP/2.0 profile/MIDP-201 Configuration /CLDC-1.1
-Mozilla/5.0 (BREW; U; BREW 3.1.5; en) AppleWebKit/525.26 (KHTML, like Gecko) Polaris/7.0 Safari/525.26 480X800 LGE VX110002
-Mozilla/5.0 (Linux; U; en-US) AppleWebKit/528.5+ (KHTML, like Gecko, Safari/528.5+) Version/4.0 Kindle/3.0 (screen 600x800; rotate)
-Mozilla/5.0 (DirectFB; U; Linux armv6l; en) AppleWebKit/531.2+ (KHTML, like Gecko) Safari/531.2+ LG Browser/4.1.0(+BDP; LGE; Media/BD660; 6030; abc;); LG NetCast.Media-2011
-Mozilla/5.0 (X11; U; Linux armv7l; ru-RU) AppleWebKit/534.16 (KHTML, like Gecko) Chrome/10.0.648.204 Safari/534.16
-Mozilla/5.0 (webOS/2.1.2; U; en-US) AppleWebKit/532.2 (KHTML, like Gecko) Version/1.0 Safari/532.2 P160UNA/1.0
-Mozilla/5.0 (Windows; U; Windows CE; en) AppleWebKit/525.1+ (KHTML, like Gecko, Safari/525.1+)
-Mozilla/5.0 (Linux; U; en-US) AppleWebKit/528.5+ (KHTML, like Gecko, Safari/528.5+) Version/4.0 Kindle/3.0 (screen 600x800; rotate)
-Mozilla/5.0 (webOS/2.1.2; U; en-US) AppleWebKit/532.2 (KHTML, like Gecko) Version/1.0 Safari/532.2 P160UNA/1.0
-Mozilla/5.0 (webOS/1.4.5; U; en-US) AppleWebKit/532.2 (KHTML, like Gecko) Version/1.0 Safari/532.2 Pixi/1.1
-Mozilla/5.0 (webOS/1.4.5.1; U; en-US) AppleWebKit/532.2 (KHTML, like Gecko) Version/1.0 Safari/532.2 Pixi/1.1
-Mozilla/5.0 (webOS/1.4.1.1; U; en-US) AppleWebKit/532.2 (KHTML, like Gecko) Version/1.0 Safari/532.2 Pixi/1.0
 DiigoBrowser Mozilla/5.0 (iPad; U; CPU OS 5_0 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8J2 Safari/6533.18.5
 iChromy Mozilla/5.0 (iPad; U; CPU OS 5_0 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8J2 Safari/6533.18.5
-Mozilla/4.1 (compatible; MSIE 5.0; Symbian OS; Nokia 6600;452) Opera 6.20 [ru]
-Mozilla/4.0 (compatible; MSIE 6.0; Symbian OS; Nokia 6600/5.27.0; 6329) Opera 8.00 [ru]
-HTC_HD2_T8585 Opera/9.7 (Windows NT 5.1; U; ru)
-Opera/9.80 (S60; SymbOS; Opera Mobi/498; U; ru) Presto/2.4.18 Version/10.00
-Mozilla/4.0 (compatible; MSIE 6.0; Symbian OS; Nokia 6600/5.27.0; 6936) Opera 8.50 [ru]
-Opera/9.80 (S60; SymbOS; Opera Mobi/498; U; ru) Presto/2.4.18 Version/10.00
-Opera/9.80 (S60; SymbOS; Opera Mobi/SYB-1107071604; U; ru) Presto/2.8.149 Version/11.10
-Opera/9.80 (S60; SymbOS; Opera Mobi/SYB-1109211774; U; ru) Presto/2.8.149 Version/11.10
-Opera/9.80 (S60; SymbOS; Opera Mobi/SYB-1104051448; U; ru) Presto/2.7.81 Version/11.00
-Opera/9.80 (S60; SymbOS; Opera Mobi/SYB-1104041444; U; ru) Presto/2.7.81 Version/11.00
-Opera/9.80 (Windows NT 5.1; U; Opera/9.Opera/9.80 (Series 60; Opera Mini/6.24096/25.657; U; id) Presto/2.5.25 Version/10.54rsion/10.00; ru) Presto/2.9.168 Version/11.50
-Opera/9.80 (Windows NT 6.1; U; Opera/8.0 (J2ME/MIDP; Opera Mini/2.0 uk; U; ssr) ; MRA 5.7 (build 03796); ru) Presto/2.9.168 Version/11.52
-Opera/9.80 (Windows NT 6.1; U; Opera Mini/5.1.21051/19.892; ru) Presto/2.2.15 Version/10.10
-Opera/9.80 (Windows NT 6.1; U; Opera/9.80 (J2ME/MIDP; Opera Mini/4.2; MRA 5.8 (build 4120); ru) Presto/2.8.131 Version/11.10
-Opera/9.80 (J2ME/MIDP; Opera Mini/4.2.18149/22.453; U; ru) Presto/2.5.25 Version/10.54
-Opera/9.80 (Windows NT 5.1; U; Opera/9.Opera/9.80 (Series 60; Opera Mini/6.24096/25.657; U; id) Presto/2.5.25 Version/10.54rsion/10.00; ru) Presto/2.9.168 Version/11.50
-Opera/9.80 (Windows NT 6.1; U; Opera/8.0 (J2ME/MIDP; Opera Mini/2.0 uk; U; ssr) ; MRA 5.7 (build 03796); ru) Presto/2.9.168 Version/11.52
-Opera/9.80 (Windows NT 6.1; U; Opera Mini/5.1.21051/19.892; ru) Presto/2.2.15 Version/10.10
-Opera/9.80 (Windows NT 6.1; U; Opera/9.80 (J2ME/MIDP; Opera Mini/4.2; MRA 5.8 (build 4120); ru) Presto/2.8.131 Version/11.10
-Opera/9.80 (J2ME/MIDP; Opera Mini/4.2.18149/22.453; U; ru) Presto/2.5.25 Version/10.54
-Opera/9.80 (S60; SymbOS; Opera Mobi/498; U; ru) Presto/2.4.18 Version/10.00
-Opera/9.80 (S60; SymbOS; Opera Mobi/SYB-1107071604; U; ru) Presto/2.8.149 Version/11.10
-Opera/9.80 (S60; SymbOS; Opera Mobi/SYB-1109211774; U; ru) Presto/2.8.149 Version/11.10
-Opera/9.80 (S60; SymbOS; Opera Mobi/SYB-1104051448; U; ru) Presto/2.7.81 Version/11.00
-Opera/9.80 (S60; SymbOS; Opera Mobi/SYB-1104041444; U; ru) Presto/2.7.81 Version/11.00
 Opera/9.80 (Android 3.2; Linux; Opera Tablet/ADR-1111101157; U; ru) Presto/2.9.201 Version/11.50
 Opera/9.80 (Android 3.2; Linux; Opera Tablet/ADR-1110171336; U; ru) Presto/2.9.201 Version/11.50
-Opera/9.80 (Android 3.1; Linux; Opera Tablet/ADR-1111101157; U; ru) Presto/2.9.201 Version/11.50
-Opera/9.80 (Android 3.2; Linux; Opera Tablet/ADR-1111021303; U; ru) Presto/2.9.201 Version/11.50
-Opera/9.80 (Android 3.2.1; Linux; Opera Tablet/ADR-1111101157; U; ru) Presto/2.9.201 Version/11.50
-HTC_HD2_T8585 Opera/9.7 (Windows NT 5.1; U; ru)
-HTC_Touch2_T3333 Opera/9.50 (Windows NT 5.1; U; ru)
-HTC_Touch_Diamond2_T5353 Opera/9.7 (Windows NT 5.1; U; ru)
-HTC_Touch_Diamond2_T5353 Opera/9.50 (Windows NT 5.1; U; ru)
-HD_mini_T5555 Opera/9.7 (Windows NT 5.1; U; ru)
-Mozilla/4.1 (compatible; MSIE 5.0; Symbian OS; Nokia 6600;452) Opera 6.20 [ru]
-Mozilla/4.0 (compatible; MSIE 6.0; Symbian OS; Nokia 6600/5.27.0; 6329) Opera 8.00 [ru]
-Mozilla/4.0 (compatible; MSIE 6.0; Symbian OS; Nokia 6600/5.27.0; 6936) Opera 8.50 [ru]
-Mozilla/4.0 (compatible; MSIE 6.0; Symbian OS; Nokia 6630/4.03.38; 6937) Opera 8.50 [es]
-Mozilla/4.0 (compatible; MSIE 6.0; ; Linux armv5tejl; U) Opera 8.02 [en_US] Maemo browser 0.4.31 N770/SU-18
-Opera/9.80 (S60; SymbOS; Opera Mobi/498; U; ru) Presto/2.4.18 Version/10.00
-Opera/9.80 (S60; SymbOS; Opera Mobi/SYB-1107071604; U; ru) Presto/2.8.149 Version/11.10
-Opera/9.80 (S60; SymbOS; Opera Mobi/SYB-1109211774; U; ru) Presto/2.8.149 Version/11.10
-Opera/9.80 (S60; SymbOS; Opera Mobi/SYB-1104051448; U; ru) Presto/2.7.81 Version/11.00
-Opera/9.80 (S60; SymbOS; Opera Mobi/SYB-1104041444; U; ru) Presto/2.7.81 Version/11.00
-Mozilla/4.1 (compatible; MSIE 5.0; Symbian OS; Nokia 6600;452) Opera 6.20 [ru]
-Mozilla/4.0 (compatible; MSIE 6.0; Symbian OS; Nokia 6600/5.27.0; 6329) Opera 8.00 [ru]
-HTC_HD2_T8585 Opera/9.7 (Windows NT 5.1; U; ru)
-Mozilla/4.0 (compatible; MSIE 6.0; Symbian OS; Nokia 6600/5.27.0; 6936) Opera 8.50 [ru]
-Mozilla/4.0 (compatible; MSIE 6.0; Symbian OS; Nokia 6630/4.03.38; 6937) Opera 8.50 [es]
-Opera/9.80 (Android 3.2; Linux; Opera Tablet/ADR-1111101157; U; ru) Presto/2.9.201 Version/11.50
-Opera/9.80 (Android 3.2; Linux; Opera Tablet/ADR-1110171336; U; ru) Presto/2.9.201 Version/11.50
-Opera/9.80 (Android 3.1; Linux; Opera Tablet/ADR-1111101157; U; ru) Presto/2.9.201 Version/11.50
-Opera/9.80 (Android 3.2; Linux; Opera Tablet/ADR-1111021303; U; ru) Presto/2.9.201 Version/11.50
-Opera/9.80 (Android 3.2.1; Linux; Opera Tablet/ADR-1111101157; U; ru) Presto/2.9.201 Version/11.50
 Mozilla/5.0 (Android; Linux armv7l; rv:8.0) Gecko/20111104 Firefox/8.0 Fennec/8.0
 Mozilla/5.0 (Android; Linux armv7l; rv:7.0.1) Gecko/20110928 Firefox/7.0.1 Fennec/7.0.1
 Mozilla/5.0 (Android; Linux armv7l; rv:5.0) Gecko/20110615 Firefox/5.0 Fennec/5.0
 Mozilla/5.0 (Android; Linux armv7l; rv:6.0.2) Gecko/20110902 Firefox/6.0.1 Fennec/6.0.2
 Mozilla/5.0 (Android; Linux armv7l; rv:6.0) Gecko/20110811 Firefox/6.0 Fennec/6.0
-Mozilla/5.0 (X11; U; Linux armv7l; ru-RU; rv:1.9.2.3pre) Gecko/20100723 Firefox/3.5 Maemo Browser 1.7.4.8 RX-51 N900
-Mozilla/5.0 (X11; U; Linux armv7l; ru-RU; rv:1.9.2a1pre) Gecko/20091127 Firefox/3.5 Maemo Browser 1.5.6 RX-51 N900
-Mozilla/5.0 (X11; U; Linux armv7l; ru-RU; rv:1.9.2b6pre) Gecko/20100318 Firefox/3.5 Maemo Browser 1.7.4.8 RX-51 N900
-Mozilla/5.0 (X11; U; Linux armv6l; ru-RU; rv:1.9a6pre) Gecko/20080828 Firefox/3.0a1 Tablet browser 0.3.7 RX-34+RX-44+RX-48_DIABLO_5.2008.43-7
-Mozilla/5.0 (X11; U; Linux armv7l; ru-RU; rv:1.9.2a1pre) Gecko/20090928 Firefox/3.5 Maemo Browser 1.4.1.21 RX-51 N900
 Mozilla/5.0 (Windows; U; Windows CE 4.21; rv:1.8b4) Gecko/20050720 Minimo/0.007
 Mozilla/5.0 (Windows; U; Windows CE 5.1; rv:1.8.1a3) Gecko/20060610 Minimo/0.016
 Mozilla/5.0 (X11; U; Linux armv6l; rv 1.8.1.5pre) Gecko/20070619 Minimo/0.020
-Mozilla/5.0 (X11; U; Linux arm7tdmi; rv:1.8.1.11) Gecko/20071130 Minimo/0.025
-Mozilla/5.0 (Windows; U; Windows CE 4.21; rv:1.8b4) Gecko/20050720 Minimo/0.007
-Mozilla/5.0 (X11; U; Linux armv7l; ru-RU; rv:1.9.2.3pre) Gecko/20100723 Firefox/3.5 Maemo Browser 1.7.4.8 RX-51 N900
-Mozilla/5.0 (Android; Linux armv7l; rv:8.0) Gecko/20111104 Firefox/8.0 Fennec/8.0
-Mozilla/5.0 (Android; Linux armv7l; rv:7.0.1) Gecko/20110928 Firefox/7.0.1 Fennec/7.0.1
-Mozilla/5.0 (Windows; U; Windows CE 4.21; rv:1.8b4) Gecko/20050720 Minimo/0.007
-Mozilla/5.0 (Android; Linux armv7l; rv:5.0) Gecko/20110615 Firefox/5.0 Fennec/5.0
-Mozilla/5.0 (X11; U; Linux armv7l; ru-RU; rv:1.9.2.3pre) Gecko/20100723 Firefox/3.5 Maemo Browser 1.7.4.8 RX-51 N900
-Mozilla/5.0 (Android; Linux armv7l; rv:8.0) Gecko/20111104 Firefox/8.0 Fennec/8.0
-Mozilla/5.0 (Android; Linux armv7l; rv:7.0.1) Gecko/20110928 Firefox/7.0.1 Fennec/7.0.1
-Mozilla/5.0 (Android; Linux armv7l; rv:5.0) Gecko/20110615 Firefox/5.0 Fennec/5.0
-Mozilla/5.0 (Android; Linux armv7l; rv:6.0.2) Gecko/20110902 Firefox/6.0.1 Fennec/6.0.2
 Mozilla/5.0 (Windows; U; Windows CE 5.2; en-US; rv:1.9.2a1pre) Gecko/20090626 Fennec/1.0a2
 Mozilla/5.0 (X11; U; Linux armv61; en-US; rv:1.9.1b2pre) Gecko/20081015 Fennec/1.0a1
-Mozilla/5.0 (X11; U; Linux armv7l; ru-RU; rv:1.9.2.3pre) Gecko/20100723 Firefox/3.5 Maemo Browser 1.7.4.8 RX-51 N900
-Mozilla/5.0 (Android; Linux armv7l; rv:8.0) Gecko/20111104 Firefox/8.0 Fennec/8.0
-Mozilla/5.0 (Android; Linux armv7l; rv:7.0.1) Gecko/20110928 Firefox/7.0.1 Fennec/7.0.1
-Mozilla/5.0 (Android; Linux armv7l; rv:5.0) Gecko/20110615 Firefox/5.0 Fennec/5.0
-Mozilla/5.0 (Android; Linux armv7l; rv:6.0.2) Gecko/20110902 Firefox/6.0.1 Fennec/6.0.2
-Mozilla/5.0 (Windows; U; Windows CE 5.2; en-US; rv:1.9.2a1pre) Gecko/20090626 Fennec/1.0a2
-Mozilla/5.0 (X11; U; Linux armv61; en-US; rv:1.9.1b2pre) Gecko/20081015 Fennec/1.0a1
-Mozilla/5.0 (Windows; U; Windows CE 4.21; rv:1.8b4) Gecko/20050720 Minimo/0.007
-Mozilla/5.0 (Windows; U; Windows CE 5.1; rv:1.8.1a3) Gecko/20060610 Minimo/0.016
-Mozilla/5.0 (X11; U; Linux armv6l; rv 1.8.1.5pre) Gecko/20070619 Minimo/0.020
-Mozilla/5.0 (X11; U; Linux arm7tdmi; rv:1.8.1.11) Gecko/20071130 Minimo/0.025
-Mozilla/5.0 (Windows; U; Windows CE 4.21; rv:1.8b4) Gecko/20050720 Minimo/0.007
-Mozilla/5.0 (Windows; U; Windows CE 4.21; rv:1.8b4) Gecko/20050720 Minimo/0.007
-Mozilla/5.0 (Windows; U; Windows CE 5.1; rv:1.8.1a3) Gecko/20060610 Minimo/0.016
-Mozilla/5.0 (X11; U; Linux armv6l; rv 1.8.1.5pre) Gecko/20070619 Minimo/0.020
-Mozilla/5.0 (X11; U; Linux arm7tdmi; rv:1.8.1.11) Gecko/20071130 Minimo/0.025
-Mozilla/5.0 (Windows; U; Windows CE 4.21; rv:1.8b4) Gecko/20050720 Minimo/0.007
-Mozilla/5.0 (compatible; MSIE 9.0; Windows Phone OS 7.5; Trident/5.0; IEMobile/9.0; HTC; 7 Mozart T8698)
-SAMSUNG-SGH-i900/1.0 (compatible; MSIE 6.0; Windows CE; IEMobile 7.11)
-Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; IEMobile 7.11)
 HD_mini_T5555 Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; IEMobile 8.12; MSIEMobile 6.5)
 Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; IEMobile 7.6)
 HTC_TOUCH_HD_T8282 Mozilla/5.0 (compatible; WindowsCE; Windows Mobile; WCE; U; en; IE Mobile 7.11; MSIE 6.0)
 HTC_TOUCH_HD_T8282 Mozilla/5.0 (compatible; WindowsCE; Windows Mobile; WCE; U; en; IE Mobile 7.11; MSIE 6.0)4
-Mozilla/4.0 (compatible; MSIE 4.01; Windows CE; PPC; 240x320)
-Mozilla/2.0 (compatible; MSIE 3.02; Windows CE; 240x320)
-Mozilla/4.0 (compatible; MSIE 6.0; Windows CE)
 HTC_P3400-Mozilla/4.0 (compatible; MSIE 4.01; Windows CE; PPC)
 Mozilla/4.0 (compatible; MSIE 4.01; Windows CE; PPC)/UC Browser7.8.0.95
-Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; HTC_HD2_T8585; Windows Phone 6.5)
-Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; Windows Phone 6.5)
-Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; HTC_Touch2_T3333; Windows Phone 6.5)
-Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; HTC_Touch_Diamond2_T5353; Windows Phone 6.5)
 Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; Windows Phone 6.5; garmin-asus-Nuvifone-M10/2.0)
-GSmart-S1205;Mozilla/4.0 (compatible; MSIE 6.0; PPC;240x400)
-Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.2; SV1; ppc_215; -1017-; .NET CLR 1.1.4322; .NET CLR 2.0.50727)
-GSmart-S1205;Mozilla/4.0 (compatible; MSIE 6.0; PPC;240x400)19
-Mozilla/4.0 (compatible; MSIE 5.5; Windows NT 5.0; PPC; 240x320; HP iPAQ h6300)8
-Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/5.0; XBLWP7; ZuneWP7)
-Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; XBLWP7; ZuneWP7)
-Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/5.0; XBLWP7; ZuneWP7)56
-Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; XBLWP7; ZuneWP7)3
-Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/5.0; XBLWP7; ZuneWP7)
-Mozilla/5.0 (compatible; MSIE 9.0; Windows Phone OS 7.5; Trident/5.0; IEMobile/9.0; HTC; 7 Mozart T8698)
-Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/5.0; XBLWP7; ZuneWP7)
 Mozilla/5.0 (compatible; MSIE 9.0; Windows Phone OS 7.5; Trident/5.0; IEMobile/9.0; SAMSUNG; GT-I8350)
 Mozilla/5.0 (compatible; MSIE 9.0; Windows Phone OS 7.5; Trident/5.0; IEMobile/9.0; HTC; TITAN X310e)
 Mozilla/5.0 (compatible; MSIE 9.0; Windows Phone OS 7.5; Trident/5.0; IEMobile/9.0; HTC; Radar C110e)
-Mozilla/4.0 (compatible; MSIE 4.01; Windows CE; PPC; 240x320)
-SAMSUNG-SGH-i900/1.0 (compatible; MSIE 6.0; Windows CE; IEMobile 7.11)
-Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; HTC_HD2_T8585; Windows Phone 6.5)
-Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; Windows Phone 6.5)
-Mozilla/2.0 (compatible; MSIE 3.02; Windows CE; 240x320)
-Mozilla/4.0 (compatible; MSIE 4.01; Windows CE; PPC)/UC Browser7.8.0.95
 SAMSUNG-SGH-i900/1.0 (compatible; MSIE 4.01; Windows CE; PPC)/UC Browser7.8.0.95
 HTC_HD2_T8585 Mozilla/4.0 (compatible; MSIE 4.01; Windows CE; PPC)/UC Browser7.8.0.95
 HTC_Touch_Diamond2_T5353 Mozilla/4.0 (compatible; MSIE 4.01; Windows CE; PPC)/UC Browser7.8.0.95
@@ -516,103 +273,30 @@ Mozilla/4.0 (compatible; MSIE 4.01; Windows CE; PPC)/UCWEB7.0.0.41/31/400
 Mozilla/4.0 (compatible; MSIE 4.01; Windows CE; PPC)/UCWEB7.2.2.51/35/400
 Mozilla/4.0 (compatible; MSIE 4.01; Windows CE; PPC; 240x320)/UCWEB7.0.0.41/30/400
 HTC_P3470 Mozilla/4.0 (compatible; MSIE 4.01; Windows CE; PPC)/UCWEB7.2.2.51/30/400
-Mozilla/4.0 (compatible; MSIE 4.01; Windows CE; PPC)/UC Browser7.8.0.95
-SAMSUNG-SGH-i900/1.0 (compatible; MSIE 4.01; Windows CE; PPC)/UC Browser7.8.0.95
-HTC_HD2_T8585 Mozilla/4.0 (compatible; MSIE 4.01; Windows CE; PPC)/UC Browser7.8.0.95
-HTC_Touch_Diamond2_T5353 Mozilla/4.0 (compatible; MSIE 4.01; Windows CE; PPC)/UC Browser7.8.0.95
-Mozilla/4.0 (compatible; MSIE 4.01; Windows CE; PPC)/UC Browser7.7.1.88
-Mozilla/5.0 (compatible; MSIE 9.0; Windows Phone OS 7.5; Trident/5.0; IEMobile/9.0; HTC; 7 Mozart T8698)
-SAMSUNG-SGH-i900/1.0 (compatible; MSIE 6.0; Windows CE; IEMobile 7.11)
-Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; IEMobile 7.11)
-HD_mini_T5555 Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; IEMobile 8.12; MSIEMobile 6.5)
-Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; IEMobile 7.6)
-HTC_TOUCH_HD_T8282 Mozilla/5.0 (compatible; WindowsCE; Windows Mobile; WCE; U; en; IE Mobile 7.11; MSIE 6.0)
-HTC_TOUCH_HD_T8282 Mozilla/5.0 (compatible; WindowsCE; Windows Mobile; WCE; U; en; IE Mobile 7.11; MSIE 6.0)4
-Mozilla/4.0 (compatible; MSIE 4.01; Windows CE; PPC; 240x320)
-Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; HTC_HD2_T8585; Windows Phone 6.5)
-Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; Windows Phone 6.5)
-Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/5.0; XBLWP7; ZuneWP7)
-Mozilla/2.0 (compatible; MSIE 3.02; Windows CE; 240x320)
-HD_mini_T5555 Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; IEMobile 8.12; MSIEMobile 6.5)
 HTC_HD2_T8585 Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; IEMobile 8.12; MSIEMobile 6.0)
 Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; IEMobile 8.12; MSIEMobile 6.0)
 HTC_Touch_Diamond2_T5353 Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; IEMobile 8.12; MSIEMobile 6.0)
 SAMSUNG-GT-i8000/1.0 (compatible; MSIE 6.0; Windows CE; IEMobile 8.12; MSIEMobile 6.0)
-Mozilla/5.0 (compatible; MSIE 9.0; Windows Phone OS 7.5; Trident/5.0; IEMobile/9.0; HTC; 7 Mozart T8698)
-SAMSUNG-SGH-i900/1.0 (compatible; MSIE 6.0; Windows CE; IEMobile 7.11)
-Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; IEMobile 7.11)
-Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; IEMobile 7.6)
-SAMSUNG-SGH-i710/MSIE4.01/WAP2.0 Profile/MIDP-2.0 Configuration/CLDC-1.1 (compatible; MSIE 6.0; Windows CE; IEMobile 6.8)
-Mozilla/4.0 (compatible; MSIE 4.01; Windows CE; PPC; 240x320)
-Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; HTC_HD2_T8585; Windows Phone 6.5)
-Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; Windows Phone 6.5)
-Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/5.0; XBLWP7; ZuneWP7)
-Mozilla/2.0 (compatible; MSIE 3.02; Windows CE; 240x320)
-SAMSUNG-GT-S5230/S523MXEJF1 SHP/VPP/R5 Jasmine/1.0 Nextreaming SMM-MMS/1.2.0 profile/MIDP-2.1 configuration/CLDC-1.1
-SAMSUNG-GT-S5230/S523MREJF2 SHP/VPP/R5 Jasmine/1.0 Nextreaming SMM-MMS/1.2.0 profile/MIDP-2.1 configuration/CLDC-1.1
-SAMSUNG-GT-S5233T/S5233TXEJE3 SHP/VPP/R5 Jasmine/0.8 Qtv5.3 SMM-MMS/1.2.0 profile/MIDP-2.1 configuration/CLDC-1.1
-SAMSUNG-GT-S3600i/S3600iXXIL2 NetFront/3.5 Profile/MIDP-2.0 Configuration/CLDC-1.1
-SAMSUNG-GT-C3300K/C3300KXXJG8 NetFront/3.5 Profile/MIDP-2.0 Configuration/CLDC-1.1
 Fly_E176/ObigoInternetBrowser/QO3C Profile/MIDP2.0 Configuration/CLDC-1.1
 Fly_E160/ObigoInternetBrowser/QO3C Profile/MIDP2.0 Configuration/CLDC-1.1
 Fly_E151/ObigoInternetBrowser/QO3C Profile/MIDP2.0 Configuration/CLDC-1.1
 Fly_Q410/ObigoInternetBrowser/QO3C Profile/MIDP2.0 Configuration/CLDC-1.1
 Fly_MC180/ObigoInternetBrowser/QO3C Profile/MIDP2.0 Configuration/CLDC-1.1
-SEC-SGHF300/1.0 NetFront/3.2
-Mozilla/5.0 R800 like Gecko/20060426 Netfront/3.4
-Mozilla/5.0 (PDA; NF41WMPRO/1.0; like Gecko) NetFront/4.1
-SGH-F310/1.0 NetFront/3.3
-Mozilla/5.0 (PDA; NF40WMPRO/1.0; like Gecko) NetFront/4.0
-HTC_Smart_F3188 Mozilla/5.0 (like Gecko) Obigo/Q7
-LG-KP110 Obigo/WAP2.0
-Huawei/1.0/G6600/Browser/obigo-browser/q03c
-PhilipsX703/Obigo Browser 2.0
-PhilipsX100/OBIGO_Q03C/WAP2.0 Profile
-Nokia5228/UC Browser7.9.0.102/50/400/UCWEB
-Nokia5230/UC Browser7.9.0.102/50/400/UCWEB
-Nokia5800 XpressMusic/UC Browser7.9.0.102/50/400/UCWEB
-NokiaN8-00/UC Browser7.9.0.102/50/357/UCWEB
-Nokia5228/UC Browser7.9.0.102/50/357/UCWEB
-Nokia5230/UC Browser7.8.0.95/50/400
-nokia6730c/UC Browser7.2.2.51/69/400 UNTRUSTED/1.0
-NokiaN73/UC Browser7.8.0.95/28/400
-Nokia5230/UC Browser7.7.1.88/50/400
-Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; SLCC2;.NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; InfoPath.2)/UC Browser7.4.0.65/28/400
 NokiaN73/UCBrowser7.6.1.82/28/400
 NokiaE52-1/UCBrowser7.6.1.82/28/400
 NOKIAN95/UCBrowser7.6.1.82/28/400
 NokiaE71/UCBrowser7.6.1.82/28/400
 NOKIAN95 8GB/UCBrowser7.6.1.82/28/400
-SAMSUNG-SGH-B130/B130XEHF1 UP.Browser/6.2.3.3.c.1.101 (GUI) MMP/2.0
-SAMSUNG-SGH-B130/B130MFHJ1 UP.Browser/6.2.3.3.c.1.101 (GUI) MMP/2.0
-SAMSUNG-SGH-C270/C270XEIE1 UP.Browser/6.2.3.3.c.1.101 (GUI) MMP/2.0
-SAMSUNG-SGH-C160/1.0 UP.Browser/6.2.3.3.c.1.101 (GUI) MMP/2.0
-SAMSUNG-E1360M/E1360MXEID2 UP.Browser/6.2.3.3.c.1.101 (GUI) MMP/2.0
-DoCoMo/2.0 N905i(c100;TB;W24H16) (compatible; Googlebot-Mobile/2.1; +http://www.google.com/bot.html)
-DoCoMo/2.0 SH901iC(c100;TB;W24H12)
-DoCoMo/2.0 N905i(c100;TB;W24H16) (compatible; Googlebot-Mobile/2.1; +http://www.google.com/bot.html)
 Dalvik/1.4.0 (Linux; U; Android 2.3.3; Desire HD Build/GRI40)
 Dalvik/1.4.0 (Linux; U; Android 2.3.3; GT-I9100 Build/GINGERBREAD)
 Dalvik/1.2.0 (Linux; U; Android 2.2; HTC Desire Build/FRF91)
 Dalvik/1.4.0 (Linux; U; Android 2.3.3; HTC Incredible S Build/GRI40)
 Dalvik/1.4.0 (Linux; U; Android 2.3.4; GT-I9100 Build/GINGERBREAD)
-Mozilla/4.0 (PSP (PlayStation Portable); 2.00)
-Mozilla/4.0 (PSP (PlayStation Portable); 2.00)
-LG-GS290/V100 Obigo/WAP2.0 Profile/MIDP-2.1 Configuration/CLDC-1.1
-LG-T300/V100 Obigo/Q7.3 MMS/LG-MMS-V1.1/1.2 MediaPlayer/LGPlayer/1.0 Java/ASVM/1.1 Profile/MIDP-2.1 Configuration/CLDC-1.1
-LG-GX300/V100 Obigo/WAP2.0 Profile/MIDP-2.1 Configuration/CLDC-1.1
-LG-GX500/V100 Obigo/WAP2.0 Profile/MIDP-2.1 Configuration/CLDC-1.1
-LG-S310/V100 Obigo/WAP2.0 Profile/MIDP-2.1 Configuration/CLDC-1.1
 LG-KP500 Teleca/WAP2.0 MIDP-2.0/CLDC-1.1
 LG-KP501 Teleca/WAP2.0 MIDP-2.0/CLDC-1.1
 LG-GD510/V100 Teleca/WAP2.0 Profile/MIDP-2.1 Configuration/CLDC-1.1
 BIRD /1.00 Nucleus RTOS/V1.11.19 MTK6235/08B Release/04.09.2009 Browser/Teleca Profile/MIDP-2.0 Configuration/CLDC-1.0
 SonyEricssonW100i/R1CA009 TelecaBrowser/Q07C1-1 Profile/MIDP-2.0 Configuration/CLDC-1.1
-LG-T300/V100 Obigo/Q7.3 MMS/LG-MMS-V1.1/1.2 MediaPlayer/LGPlayer/1.0 Java/ASVM/1.1 Profile/MIDP-2.1 Configuration/CLDC-1.1
-LG-T310i/V100 Obigo/Q7.3 MMS/LG-MMS-V1.1/1.2 MediaPlayer/LGPlayer/1.0 Java/ASVM/1.1 Profile/MIDP-2.1 Configuration/CLDC-1.1
-LG-P520/V100 Obigo/Q7.3 MMS/LG-MMS-V1.1/1.2 MediaPlayer/LGPlayer/1.0 Java/ASVM/1.1 Profile/MIDP-2.1 Configuration/CLDC-1.1
-MTC/1.0/0MTC 733/B100 Browser/Obigo-Browser/Q05A MMS/Obigo-MMS/Q05A SyncML/HW-SyncML/1.0 Java/HWJa/1.0 Profile/MIDP-2.0 Configuration/CLDC-1.1 Player/QTV-Player/5.3
-LG-T315i/V100 Obigo/Q7.3 MMS/LG-MMS-V1.1/1.2 MediaPlayer/LGPlayer/1.0 Java/ASVM/1.1 Profile/MIDP-2.1 Configuration/CLDC-1.1
 LG/BL40/V10a Browser/Obigo-Q7.3 MMS/LG-MMS-V1.0/1.2 MediaPlayer/LGPlayer/1.0 Java/ASVM/1.1 Profile/MIDP-2.1 Configuration/CLDC-1.1
 LG/KU990/v10a Browser/Obigo-Q05A/3.6 MMS/LG-MMS-V1.0/1.2 Java/ASVM/1.0 Profile/MIDP-2.0 Configuration/CLDC-1.1
 Mozilla/4.0(MTS/1.0/MTC547/VF_RU_RU_P107A4V1.2.1/Obigo Q03C/MIDP-2.0 Configuration/CLDC-1.1)
@@ -627,63 +311,16 @@ BlackBerry8520/4.6.1.305 Profile/MIDP-2.0 Configuration/CLDC-1.1 VendorID/296
 BlackBerry9000/4.6.0.247 Profile/MIDP-2.0 Configuration/CLDC-1.1 VendorID/296
 BlackBerry9000/4.6.0.303 Profile/MIDP-2.0 Configuration/CLDC-1.1 VendorID/297
 BlackBerry8900/4.6.1.199 Profile/MIDP-2.0 Configuration/CLDC-1.1 VendorID/296
-BlackBerry9700/5.0.0.593 Profile/MIDP-2.1 Configuration/CLDC-1.1 VendorID/296
-BlackBerry8520/4.6.1.305 Profile/MIDP-2.0 Configuration/CLDC-1.1 VendorID/296
-BlackBerry9000/4.6.0.247 Profile/MIDP-2.0 Configuration/CLDC-1.1 VendorID/296
-BlackBerry9000/4.6.0.303 Profile/MIDP-2.0 Configuration/CLDC-1.1 VendorID/297
-BlackBerry8900/4.6.1.199 Profile/MIDP-2.0 Configuration/CLDC-1.1 VendorID/296
-Dalvik/1.4.0 (Linux; U; Android 2.3.3; Desire HD Build/GRI40)
-Dalvik/1.4.0 (Linux; U; Android 2.3.3; GT-I9100 Build/GINGERBREAD)
-Dalvik/1.2.0 (Linux; U; Android 2.2; HTC Desire Build/FRF91)
-Dalvik/1.4.0 (Linux; U; Android 2.3.3; HTC Incredible S Build/GRI40)
-Dalvik/1.4.0 (Linux; U; Android 2.3.4; GT-I9100 Build/GINGERBREAD)
-Dalvik/1.4.0 (Linux; U; Android 2.3.3; Desire HD Build/GRI40)
-Dalvik/1.4.0 (Linux; U; Android 2.3.3; GT-I9100 Build/GINGERBREAD)
-Dalvik/1.2.0 (Linux; U; Android 2.2; HTC Desire Build/FRF91)
-Dalvik/1.4.0 (Linux; U; Android 2.3.3; HTC Incredible S Build/GRI40)
-Dalvik/1.4.0 (Linux; U; Android 2.3.4; GT-I9100 Build/GINGERBREAD)
-SAMSUNG-GT-S3600i/S3600iXXIL2 NetFront/3.5 Profile/MIDP-2.0 Configuration/CLDC-1.1
-SAMSUNG-GT-C3300K/C3300KXXJG8 NetFront/3.5 Profile/MIDP-2.0 Configuration/CLDC-1.1
-SAMSUNG-GT-B5722/B5722XXJA1 NetFront/3.5 Profile/MIDP-2.0 Configuration/CLDC-1.1
-SAMSUNG-GT-C3300i/C3300iXXKC2 NetFront/3.5 Profile/MIDP-2.0 Configuration/CLDC-1.1
-SAMSUNG-GT-C5212i/C5212iXEJH3 NetFront/3.4 Profile/MIDP-2.0 Configuration/CLDC-1.1
-Mozilla/4.0 (PSP (PlayStation Portable); 2.00)
-Mozilla/4.0 (PSP (PlayStation Portable); 2.00)
-SAMSUNG-GT-S3600i/S3600iXXIL2 NetFront/3.5 Profile/MIDP-2.0 Configuration/CLDC-1.1
-SAMSUNG-GT-C3300K/C3300KXXJG8 NetFront/3.5 Profile/MIDP-2.0 Configuration/CLDC-1.1
-SAMSUNG-GT-B5722/B5722XXJA1 NetFront/3.5 Profile/MIDP-2.0 Configuration/CLDC-1.1
-SAMSUNG-GT-C3300i/C3300iXXKC2 NetFront/3.5 Profile/MIDP-2.0 Configuration/CLDC-1.1
-SAMSUNG-GT-C5212i/C5212iXEJH3 NetFront/3.4 Profile/MIDP-2.0 Configuration/CLDC-1.1
 Mozilla/5.0 (Series40; NokiaC2-03/06.51; Profile/MIDP-2.1 Configuration/CLDC-1.1) Gecko/20100401 S40OviBrowser/1.0.1.21.8.22404
 Mozilla/5.0 (Series40; NokiaC2-06/06.51; Profile/MIDP-2.1 Configuration/CLDC-1.1) Gecko/20100401 S40OviBrowser/1.0.1.21.8.2473
 Mozilla/5.0 (Series40; NokiaC3-00/08.63; Profile/MIDP-2.1 Configuration/CLDC-1.1) Gecko/20100401 S40OviBrowser/1.0.0.9.17.2193
 Mozilla/5.0 (Series40; NokiaX2-00/08.25; Profile/MIDP-2.1 Configuration/CLDC-1.1) Gecko/20100401 S40OviBrowser/1.0.0.9.17.2153
 Mozilla/5.0 (Series40; Nokia5130c-2/07.95; Profile/MIDP-2.1 Configuration/CLDC-1.1) Gecko/20100401 S40OviBrowser/1.0.2.26.8103
-Mozilla/5.0 (Series40; NokiaC2-03/06.51; Profile/MIDP-2.1 Configuration/CLDC-1.1) Gecko/20100401 S40OviBrowser/1.0.1.21.8.22404
-Mozilla/5.0 (Series40; NokiaC2-06/06.51; Profile/MIDP-2.1 Configuration/CLDC-1.1) Gecko/20100401 S40OviBrowser/1.0.1.21.8.2473
-Mozilla/5.0 (Series40; NokiaC3-00/08.63; Profile/MIDP-2.1 Configuration/CLDC-1.1) Gecko/20100401 S40OviBrowser/1.0.0.9.17.2193
-Mozilla/5.0 (Series40; NokiaX2-00/08.25; Profile/MIDP-2.1 Configuration/CLDC-1.1) Gecko/20100401 S40OviBrowser/1.0.0.9.17.2153
-Mozilla/5.0 (Series40; Nokia5130c-2/07.95; Profile/MIDP-2.1 Configuration/CLDC-1.1) Gecko/20100401 S40OviBrowser/1.0.2.26.8103
-Nokia5228/UC Browser7.9.0.102/50/400/UCWEB
-Nokia5230/UC Browser7.9.0.102/50/400/UCWEB
-Nokia5230/UC Browser7.8.0.95/50/400
-Nokia5800 XpressMusic/UC Browser7.9.0.102/50/400/UCWEB
-NokiaN8-00/UC Browser7.9.0.102/50/357/UCWEB
 JUC(Linux;U;2.2;Ru_ru;HTC Desire;480*800;)UCWEB7.4.0.65/139/400
 NokiaN73/UCWEB7.0.0.41/28/400
 Mozilla/5.0 (compatible; MSIE 10.0;)Safari/UCWEB8.0.3.99/28/400
 NokiaN73 UCWEB/6.0/7.6.1.82/31/400
 JUC(Linux;U;2.3.4;Ru_ru;GT-S5830;320*480;)UCWEB7.4.0.65/139/400
-NokiaN73/UCBrowser7.6.1.82/28/400
-NokiaE52-1/UCBrowser7.6.1.82/28/400
-NOKIAN95/UCBrowser7.6.1.82/28/400
-NokiaE71/UCBrowser7.6.1.82/28/400
-NOKIAN95 8GB/UCBrowser7.6.1.82/28/400
-Nokia5228/UC Browser7.9.0.102/50/400/UCWEB
-Nokia5230/UC Browser7.9.0.102/50/400/UCWEB
-Nokia5230/UC Browser7.8.0.95/50/400
-Nokia5800 XpressMusic/UC Browser7.9.0.102/50/400/UCWEB
-NokiaN8-00/UC Browser7.9.0.102/50/357/UCWEB
 NokiaN93-1/20.0.041 SymbianOS/9.1 Series60/3.0 Profile/MIDP-2.0 Configuration/CLDC-1.1
 NokiaN73-1/4.0750.31.2.1 Series60/3.0 Profile/MIDP-2.0 Configuration/CLDC-1.1
 Nokia7610/2.0 (6.0522.0) SymbianOS/7.0s Series60/2.1 Profile/MIDP-2.0 Configuration/CLDC-1.0
@@ -694,998 +331,306 @@ Mozilla/4.0 (compatible; MSIE 5.0; Series80/2.0 Nokia9300/05.22 Profile/MIDP-2.0
 Mozilla/4.0 (compatible; MSIE 5.0; Series80/2.0 Nokia9300/6.27 Profile/MIDP-2.0 Configuration/CLDC-1.1)
 Mozilla/4.0 (compatible; MSIE 5.0; Series80/2.0 Nokia9300i/5.50 Profile/MIDP-2.0 Configuration/CLDC-1.1)
 Mozilla/4.0 (compatible; MSIE 5.0; Series80/2.0 Nokia9500/05.22 Profile/MIDP-2.0 Configuration/CLDC-1.1)
-NokiaN93-1/20.0.041 SymbianOS/9.1 Series60/3.0 Profile/MIDP-2.0 Configuration/CLDC-1.1
-NokiaN73-1/4.0750.31.2.1 Series60/3.0 Profile/MIDP-2.0 Configuration/CLDC-1.1
-Nokia7610/2.0 (6.0522.0) SymbianOS/7.0s Series60/2.1 Profile/MIDP-2.0 Configuration/CLDC-1.0
-NokiaN70-1/5.0705.3.0.1 Series60/2.8 Profile/MIDP-2.0 Configuration/CLDC-1.1
-NokiaN72/5.0706.4.0.1 Series60/2.8 Profile/MIDP-2.0 Configuration/CLDC-1.1
 SAMSUNG-GT-S5620/S5620XEJE1 SHP/VPP/R5 Dolfin/1.5 Nextreaming SMM-MMS/1.2.0 profile/MIDP-2.1 configuration/CLDC-1.1
 SAMSUNG-GT-S5260/S5260XEKD1 SHP/VPP/R5 Dolfin/2.0 NexPlayer/3.0 SMM-MMS/1.2.0 profile/MIDP-2.1 configuration/CLDC-1.1 OPN-B
 SAMSUNG-GT-C6712/C6712XEKF1 SHP/VPP/R5 Dolfin/2.0 NexPlayer/3.0 SMM-MMS/1.2.0 profile/MIDP-2.1 configuration/CLDC-1.1 OPN-B
 SAMSUNG-GT-S5560/S5560XEJI2 SHP/VPP/R5 Dolfin/1.0 Nextreaming SMM-MMS/1.2.0 profile/MIDP-2.1 configuration/CLDC-1.1
 SAMSUNG-GT-S5260/S5260XEKA6 SHP/VPP/R5 Dolfin/2.0 NexPlayer/3.0 SMM-MMS/1.2.0 profile/MIDP-2.1 configuration/CLDC-1.1 OPN-B
-SAMSUNG-GT-S5620/S5620XEJE1 SHP/VPP/R5 Dolfin/1.5 Nextreaming SMM-MMS/1.2.0 profile/MIDP-2.1 configuration/CLDC-1.1
-SAMSUNG-GT-S5260/S5260XEKD1 SHP/VPP/R5 Dolfin/2.0 NexPlayer/3.0 SMM-MMS/1.2.0 profile/MIDP-2.1 configuration/CLDC-1.1 OPN-B
-SAMSUNG-GT-C6712/C6712XEKF1 SHP/VPP/R5 Dolfin/2.0 NexPlayer/3.0 SMM-MMS/1.2.0 profile/MIDP-2.1 configuration/CLDC-1.1 OPN-B
-SAMSUNG-GT-S5560/S5560XEJI2 SHP/VPP/R5 Dolfin/1.0 Nextreaming SMM-MMS/1.2.0 profile/MIDP-2.1 configuration/CLDC-1.1
-SAMSUNG-GT-S5260/S5260XEKA6 SHP/VPP/R5 Dolfin/2.0 NexPlayer/3.0 SMM-MMS/1.2.0 profile/MIDP-2.1 configuration/CLDC-1.1 OPN-B
-SAMSUNG-GT-S5230/S523MXEJF1 SHP/VPP/R5 Jasmine/1.0 Nextreaming SMM-MMS/1.2.0 profile/MIDP-2.1 configuration/CLDC-1.1
-SAMSUNG-GT-S5230/S523MREJF2 SHP/VPP/R5 Jasmine/1.0 Nextreaming SMM-MMS/1.2.0 profile/MIDP-2.1 configuration/CLDC-1.1
-SAMSUNG-GT-S5233T/S5233TXEJE3 SHP/VPP/R5 Jasmine/0.8 Qtv5.3 SMM-MMS/1.2.0 profile/MIDP-2.1 configuration/CLDC-1.1
 SAMSUNG-GT-S5230/S523MXEIL2 SHP/VPP/R5 Jasmine/1.0 Nextreaming SMM-MMS/1.2.0 profile/MIDP-2.1 configuration/CLDC-1.1
 SAMSUNG-GT-S5230/S5230XEII4 SHP/VPP/R5 Jasmine/0.8 Nextreaming SMM-MMS/1.2.0 profile/MIDP-2.1 configuration/CLDC-1.1
-SAMSUNG-GT-S5230/S523MXEJF1 SHP/VPP/R5 Jasmine/1.0 Nextreaming SMM-MMS/1.2.0 profile/MIDP-2.1 configuration/CLDC-1.1
-SAMSUNG-GT-S5230/S523MREJF2 SHP/VPP/R5 Jasmine/1.0 Nextreaming SMM-MMS/1.2.0 profile/MIDP-2.1 configuration/CLDC-1.1
-SAMSUNG-GT-S5233T/S5233TXEJE3 SHP/VPP/R5 Jasmine/0.8 Qtv5.3 SMM-MMS/1.2.0 profile/MIDP-2.1 configuration/CLDC-1.1
-SAMSUNG-GT-S5230/S523MXEIL2 SHP/VPP/R5 Jasmine/1.0 Nextreaming SMM-MMS/1.2.0 profile/MIDP-2.1 configuration/CLDC-1.1
-SAMSUNG-GT-S5230/S5230XEII4 SHP/VPP/R5 Jasmine/0.8 Nextreaming SMM-MMS/1.2.0 profile/MIDP-2.1 configuration/CLDC-1.1
-SAMSUNG-GT-E2121B/E2121BXXKC1 Profile/MIDP-2.0 Configuration/CLDC-1.1 UP.Browser/6.2.3.3.c.1.101 (GUI) MMP/2.0
-SAMSUNG-GT-C3010/1.0 Openwave/6.2.3 Profile/MIDP-2.0 Configuration/CLDC-1.1 UP.Browser/6.2.3.3.c.1.101 (GUI) MMP/2.0
-SAMSUNG-GT-E2121B/E2121BXXJD5 Profile/MIDP-2.0 Configuration/CLDC-1.1 UP.Browser/6.2.3.3.c.1.101 (GUI) MMP/2.0
-SAMSUNG-GT-C3011/1.0 Openwave/6.2.3 Profile/MIDP-2.0 Configuration/CLDC-1.1 UP.Browser/6.2.3.3.c.1.101 (GUI) MMP/2.0
-SAMSUNG-C3050/1.0 Openwave/6.2.3 Profile/MIDP-2.0 Configuration/CLDC-1.1 UP.Browser/6.2.3.3.c.1.101 (GUI) MMP/2.0
 SonyEricssonS312/R1FB Browser/OpenWave/1.0 Profile/MIDP-2.1 Configuration/CLDC-1.1
 SonyEricssonW395/R1FB Browser/OpenWave/1.0 Profile/MIDP-2.1 Configuration/CLDC-1.1
 SonyEricssonS312/R1EA Browser/OpenWave/1.0 Profile/MIDP-2.1 Configuration/CLDC-1.1
 SonyEricssonS302/R1BB Browser/OpenWave/1.0 Profile/MIDP-2.0 Configuration/CLDC-1.1
 SonyEricssonF305/R1EA Browser/OpenWave/1.0 Profile/MIDP-2.1 Configuration/CLDC-1.1
-SAMSUNG-GT-E2121B/E2121BXXKC1 Profile/MIDP-2.0 Configuration/CLDC-1.1 UP.Browser/6.2.3.3.c.1.101 (GUI) MMP/2.0
-SAMSUNG-GT-C3010/1.0 Openwave/6.2.3 Profile/MIDP-2.0 Configuration/CLDC-1.1 UP.Browser/6.2.3.3.c.1.101 (GUI) MMP/2.0
-SAMSUNG-GT-E2121B/E2121BXXJD5 Profile/MIDP-2.0 Configuration/CLDC-1.1 UP.Browser/6.2.3.3.c.1.101 (GUI) MMP/2.0
-SAMSUNG-GT-C3011/1.0 Openwave/6.2.3 Profile/MIDP-2.0 Configuration/CLDC-1.1 UP.Browser/6.2.3.3.c.1.101 (GUI) MMP/2.0
-SAMSUNG-C3050/1.0 Openwave/6.2.3 Profile/MIDP-2.0 Configuration/CLDC-1.1 UP.Browser/6.2.3.3.c.1.101 (GUI) MMP/2.0
-DoCoMo/2.0 N905i(c100;TB;W24H16) (compatible; Googlebot-Mobile/2.1; +http://www.google.com/bot.html)
-DoCoMo/2.0 SH901iC(c100;TB;W24H12)
-DoCoMo/2.0 N905i(c100;TB;W24H16) (compatible; Googlebot-Mobile/2.1; +http://www.google.com/bot.html)
-DoCoMo/2.0 N905i(c100;TB;W24H16) (compatible; Googlebot-Mobile/2.1; +http://www.google.com/bot.html)
-DoCoMo/2.0 SH901iC(c100;TB;W24H12)
-DoCoMo/2.0 N905i(c100;TB;W24H16) (compatible; Googlebot-Mobile/2.1; +http://www.google.com/bot.html)
-Mozilla/5.0 (iPhone; CPU iPhone OS 5_0 like Mac OS X) AppleWebKit/534.46 (KHTML, like Gecko) Version/5.1 Mobile/9A334 Safari/7534.48.3
-Mozilla/5.0 (iPhone; CPU iPhone OS 5_0_1 like Mac OS X) AppleWebKit/534.46 (KHTML, like Gecko) Version/5.1 Mobile/9A405 Safari/7534.48.3
-Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_2_1 like Mac OS X; ru-ru) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.5
-Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_3_3 like Mac OS X; ru-ru) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8J2 Safari/6533.18.5
-Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_3_5 like Mac OS X; ru-ru) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8L1 Safari/6533.18.5
-Mozilla/5.0 (iPad; U; CPU OS 4_3_3 like Mac OS X; ru-ru) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8J2 Safari/6533.18.5
-Mozilla/5.0 (iPad; U; CPU OS 4_3_5 like Mac OS X; ru-ru) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8L1 Safari/6533.18.5
-Mozilla/5.0 (iPad; CPU OS 5_0 like Mac OS X) AppleWebKit/534.46 (KHTML, like Gecko) Version/5.1 Mobile/9A334 Safari/7534.48.3
-Mozilla/5.0 (iPad; CPU OS 5_0_1 like Mac OS X) AppleWebKit/534.46 (KHTML, like Gecko) Version/5.1 Mobile/9A405 Safari/7534.48.3
-Mozilla/5.0 (iPad; U; CPU OS 4_2_1 like Mac OS X; ru-ru) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.5
-iTunes-iPod/4.2.1 (4; 32GB)
-Mozilla/5.0 (iPod; U; CPU like Mac OS X; ru-ru) AppleWebKit/420.1 (KHTML, like Gecko) Version/3.0 Mobile/4B1 Safari/419.3
-Mozilla/5.0 (iPod; U; CPU like Mac OS X; ru-ru) AppleWebKit/420.1 (KHTML, like Gecko) Version/3.0 Mobile/4A102 Safari/419.3
-Mozilla/5.0 (iPod; U; CPU like Mac OS X; ru-ru) AppleWebKit/420.1 (KHTML, like Gecko) Version/3.0 Mobile/3B48b Safari/419.3
-Mozilla/5.0 (iPod; U; CPU like Mac OS X; ru-ru) AppleWebKit/420.1 (KHTML, like Gecko) Version/3.0 Mobile/4A93 Safari/419.3
-Mozilla/5.0 (iPad; U; CPU OS 4_3_3 like Mac OS X; ru-ru) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8J2 Safari/6533.18.5
-Mozilla/5.0 (iPad; U; CPU OS 4_3_5 like Mac OS X; ru-ru) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8L1 Safari/6533.18.5
-Mozilla/5.0 (iPad; CPU OS 5_0_1 like Mac OS X) AppleWebKit/534.46 (KHTML, like Gecko) Version/5.1 Mobile/9A405 Safari/7534.48.3
-Mozilla/5.0 (iPad; U; CPU OS 4_2_1 like Mac OS X; ru-ru) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.5
-Mozilla/5.0 (iPhone; CPU iPhone OS 5_0_1 like Mac OS X) AppleWebKit/534.46 (KHTML, like Gecko) Version/5.1 Mobile/9A405 Safari/7534.48.3
-Mozilla/5.0 (iPad; CPU OS 5_0 like Mac OS X) AppleWebKit/534.46 (KHTML, like Gecko) Version/5.1 Mobile/9A334 Safari/7534.48.3
-Mozilla/5.0 (iPhone; CPU iPhone OS 5_0 like Mac OS X) AppleWebKit/534.46 (KHTML, like Gecko) Version/5.1 Mobile/9A334 Safari/7534.48.3
 Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_1 like Mac OS X; ru-ru) AppleWebKit/532.9 (KHTML, like Gecko) Version/4.0.5 Mobile/8B117 Safari/6531.22.7
-Mozilla/5.0 (iPad; U; CPU OS 4_3 like Mac OS X; ru-ru) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8F191 Safari/6533.18.5
-Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_3 like Mac OS X; ru-ru) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8F190 Safari/6533.18.5
 iReadG 1.7.3 (iPhone; iPhone OS 5.0; ru_RU)
 Instagram 2.0.4 (iPhone; iPhone OS 5.0; ru_RU)
 iReadG 1.7.3 (iPod touch; iPhone OS 5.0.1; ru_RU)
 InMobi_iPhoneSDK=2.0.0 (iPhone; iPhone OS 4.0.2; HW iPhone3,1)
-Mozilla/5.0 (iPad; U; CPU OS 4_3_3 like Mac OS X; ru-ru) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8J2 Safari/6533.18.5
-Mozilla/5.0 (iPad; U; CPU OS 4_3_5 like Mac OS X; ru-ru) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8L1 Safari/6533.18.5
-Mozilla/5.0 (iPad; CPU OS 5_0 like Mac OS X) AppleWebKit/534.46 (KHTML, like Gecko) Version/5.1 Mobile/9A334 Safari/7534.48.3
-Mozilla/5.0 (iPad; CPU OS 5_0_1 like Mac OS X) AppleWebKit/534.46 (KHTML, like Gecko) Version/5.1 Mobile/9A405 Safari/7534.48.3
-Mozilla/5.0 (iPad; U; CPU OS 4_2_1 like Mac OS X; ru-ru) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.5
-Mozilla/5.0 (Linux; U; Android 2.2; ru-ru; Desire_A8181 Build/FRF91) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1
-Mozilla/5.0 (Linux; U; Android 2.3.3; ru-ru; HTC_DesireHD_A9191 Build/GRI40) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1
-Mozilla/5.0 (Linux; U; Android 2.3.3; ru-ru; HTC_IncredibleS_S710e Build/GRI40) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1
-Mozilla/5.0 (Linux; U; Android 2.2.1; ru-ru; HTC_Wildfire_A3333 Build/FRG83D) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1
-Mozilla/5.0 (Linux; U; Android 2.2; ru-ru; GT-P1000 Build/FROYO) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1
-Mozilla/4.0 (compatible; Linux 2.6.22) NetFront/3.4 Kindle/2.0 (screen 600x800)
-Mozilla/4.0 (compatible; Linux 2.6.22) NetFront/3.4 Kindle/2.5 (screen 824x1200; rotate)7
-Mozilla/4.0 (compatible; Linux 2.6.22) NetFront/3.4 Kindle/2.5 (screen 600x800; rotate)4
-JUC(Linux;U;2.2;Ru_ru;HTC Desire;480*800;)UCWEB7.4.0.65/139/400
-JUC(Linux;U;2.3.4;Ru_ru;GT-S5830;320*480;)UCWEB7.4.0.65/139/400
+Р В РІР‚в„ўР В РЎв„ўР В РЎвЂўР В Р вЂ¦Р РЋРІР‚С™Р В Р’В°Р В РЎвЂќР РЋРІР‚С™Р В Р’Вµ 1.6 (iPhone; iPhone OS 4.2.1; ru_RU)
 JUC(Linux;U;2.2.1;Ru_ru;GT-I9003;480*800;)UCWEB7.4.0.65/139/400
 JUC(Linux;U;2.3.4;Ru_ru;GT-S5570;240*320;)UCWEB7.4.0.65/139/400
-JUC(Linux;U;2.3.3;Ru_ru;GT-S5830;320*480;)UCWEB7.4.0.65/139/400
-Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_3; HTC_Sensation_Z710e; ru-ru) AppleWebKit/533.16 (KHTML, like Gecko) Version/5.0 Safari/533.16
-Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_3; HTC_Flyer_P510e; ru-ru) AppleWebKit/533.16 (KHTML, like Gecko) Version/5.0 Safari/533.16
-Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_3; HTC_IncredibleS_S710e; ru-ru) AppleWebKit/533.16 (KHTML, like Gecko) Version/5.0 Safari/533.16
-Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_3; HTC_EVO3D_X515m; ru-ru) AppleWebKit/533.16 (KHTML, like Gecko) Version/5.0 Safari/533.16
-Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_3; HTC_SensationXE_Beats_Z715e; ru-ru) AppleWebKit/533.16 (KHTML, like Gecko) Version/5.0 Safari/533.16
-Mozilla/5.0 (Linux; U; Android 2.2; ru-ru; Desire_A8181 Build/FRF91) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1
-Mozilla/5.0 (Linux; U; Android 2.3.3; ru-ru; HTC_DesireHD_A9191 Build/GRI40) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1
-Mozilla/5.0 (Linux; U; Android 2.3.3; ru-ru; HTC_IncredibleS_S710e Build/GRI40) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1
-Mozilla/5.0 (Linux; U; Android 2.2.1; ru-ru; HTC_Wildfire_A3333 Build/FRG83D) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1
-Mozilla/5.0 (Linux; U; Android 2.2; ru-ru; GT-P1000 Build/FROYO) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1
-JUC(Linux;U;2.2;Ru_ru;HTC Desire;480*800;)UCWEB7.4.0.65/139/400
-JUC(Linux;U;2.3.4;Ru_ru;GT-S5830;320*480;)UCWEB7.4.0.65/139/400
-JUC(Linux;U;2.2.1;Ru_ru;GT-I9003;480*800;)UCWEB7.4.0.65/139/400
-JUC(Linux;U;2.3.4;Ru_ru;GT-S5570;240*320;)UCWEB7.4.0.65/139/400
-JUC(Linux;U;2.3.3;Ru_ru;GT-S5830;320*480;)UCWEB7.4.0.65/139/400
-Mozilla/5.0 (Linux; U; Android 3.1; ru-ru; GT-P7500 Build/HMJ37) AppleWebKit/534.13 (KHTML, like Gecko) Version/4.0 Safari/534.13
-Mozilla/5.0 (Linux; U; Android 3.2; ru-ru; A501 Build/HTJ85B) AppleWebKit/534.13 (KHTML, like Gecko) Version/4.0 Safari/534.13
-Mozilla/5.0 (Linux; U; Android 3.2; ru-ru; A500 Build/HTJ85B) AppleWebKit/534.13 (KHTML, like Gecko) Version/4.0 Safari/534.13
-Mozilla/5.0 (Linux; U; Android 3.2.1; ru-ru; Transformer TF101 Build/HTK75) AppleWebKit/534.13 (KHTML, like Gecko) Version/4.0 Safari/534.13
-Mozilla/5.0 (Linux; U; Android 3.0.1; ru-ru; A501 Build/HRI66) AppleWebKit/534.13 (KHTML, like Gecko) Version/4.0 Safari/534.13
 Mozilla/5.0(Linux;U;3.1;Ru_ru;A500;800*1280;)AppleWebKit/528.5+ (KHTML) Version/3.1.2/UCWEB7.4.0.65/139/4004
 JUC(Linux;U;3.1;Ru_ru;GT-P7500;800*1280;)UCWEB7.4.0.65/139/400
-Mozilla/5.0 (SymbianOS/9.4; Series60/5.0 Nokia5800d-1/50.0.005; Profile/MIDP-2.1 Configuration/CLDC-1.1 ) AppleWebKit/525 (KHTML, like Gecko) Version/3.0 BrowserNG/7.2.3
-Mozilla/5.0 (SymbianOS/9.4; Series60/5.0 Nokia5230/50.0.001; Profile/MIDP-2.1 Configuration/CLDC-1.1 ) AppleWebKit/533.4 (KHTML, like Gecko) NokiaBrowser/7.3.1.25 Mobile Safari/533.4 3gpp-gba
-Mozilla/5.0 (SymbianOS/9.4; Series60/5.0 Nokia5230/40.0.003; Profile/MIDP-2.1 Configuration/CLDC-1.1 ) AppleWebKit/525 (KHTML, like Gecko) Version/3.0 BrowserNG/7.2.7.4 3gpp-gba
-Mozilla/5.0 (SymbianOS/9.1; U; en-us) AppleWebKit/413 (KHTML, like Gecko) Safari/413
-Mozilla/5.0 (SymbianOS/9.4; Series60/5.0 Nokia5228/21.1.004; Profile/MIDP-2.1 Configuration/CLDC-1.1 ) AppleWebKit/525 (KHTML, like Gecko) Version/3.0 BrowserNG/7.2.5.2 3gpp-gba
-Mozilla/5.0 (Symbian/3; Series60/5.2 NokiaN8-00/025.007; Profile/MIDP-2.1 Configuration/CLDC-1.1 ) AppleWebKit/533.4 (KHTML, like Gecko) NokiaBrowser/7.3.1.37 Mobile Safari/533.4 3gpp-gba
-Mozilla/5.0 (Symbian/3; Series60/5.2 NokiaN8-00/022.014; Profile/MIDP-2.1 Configuration/CLDC-1.1 ) AppleWebKit/533.4 (KHTML, like Gecko) NokiaBrowser/7.3.1.37 Mobile Safari/533.4 3gpp-gba
-Mozilla/5.0 (Symbian/3; Series60/5.2 NokiaC7-00/022.014; Profile/MIDP-2.1 Configuration/CLDC-1.1 ) AppleWebKit/533.4 (KHTML, like Gecko) NokiaBrowser/7.3.1.37 Mobile Safari/533.4 3gpp-gba
 Mozilla/5.0 (Symbian/3; Series60/5.2 NokiaC6-01.3/022.014; Profile/MIDP-2.1 Configuration/CLDC-1.1 ) AppleWebKit/533.4 (KHTML, like Gecko) NokiaBrowser/7.3.1.37 Mobile Safari/533.4 3gpp-gba
 Mozilla/5.0 (Symbian/3; Series60/5.2 NokiaN8-00/014.002; Profile/MIDP-2.1 Configuration/CLDC-1.1 ) AppleWebKit/525 (KHTML, like Gecko) Version/3.0 BrowserNG/7.2.8.10 3gpp-gba
-Opera/9.80 (Windows NT 5.1; U; Opera/9.Opera/9.80 (Series 60; Opera Mini/6.24096/25.657; U; id) Presto/2.5.25 Version/10.54rsion/10.00; ru) Presto/2.9.168 Version/11.50
-Mozilla/4.0 (compatible; MSIE 6.0; Symbian OS; Series 60/04.21; 9730) Opera 8.65 [ru]
-Opera/9.80 (Series 60; Opera Mini/6.1.25580/25.729; U; ru) Presto/2.5.25 Version/10.54
-Opera/9.80 (Series 60; Opera Mini/6.24458/25.729; U; ru) Presto/2.5.25 Version/10.54
-Opera/9.80 (Series 60; Opera Mini/5.1.22783/25.692; U; uk) Presto/2.5.25 Version/10.54
-Opera/9.80 (S60; SymbOS; Opera Mobi/498; U; ru) Presto/2.4.18 Version/10.00
-Opera/9.80 (S60; SymbOS; Opera Mobi/SYB-1107071604; U; ru) Presto/2.8.149 Version/11.10
-Opera/9.80 (S60; SymbOS; Opera Mobi/SYB-1109211774; U; ru) Presto/2.8.149 Version/11.10
-Opera/9.80 (S60; SymbOS; Opera Mobi/SYB-1104051448; U; ru) Presto/2.7.81 Version/11.00
-Opera/9.80 (S60; SymbOS; Opera Mobi/SYB-1104041444; U; ru) Presto/2.7.81 Version/11.00
 NokiaN73-1/2.0628.0.0.1 S60/3.0 Profile/MIDP-2.0 Configuration/CLDC-1.1
 NokiaN73-2/2.0626 S60/3.0 Profile/MIDP-2.0 Configuration/CLDC-1.1
 NokiaN73-1/2.0628.0.0.1 S60/3.0 Profile/MIDP-2.0 Configuration/CLDC-1.130
-Mozilla/4.0 (compatible; MSIE 5.0; Series80/2.0 Nokia9300/4.53 Profile/MIDP-2.0 Configuration/CLDC-1.1)
-Mozilla/4.0 (compatible; MSIE 5.0; Series80/2.0 Nokia9300/05.22 Profile/MIDP-2.0 Configuration/CLDC-1.1)
-Mozilla/4.0 (compatible; MSIE 5.0; Series80/2.0 Nokia9300/6.27 Profile/MIDP-2.0 Configuration/CLDC-1.1)
-Mozilla/4.0 (compatible; MSIE 5.0; Series80/2.0 Nokia9300i/5.50 Profile/MIDP-2.0 Configuration/CLDC-1.1)
-Mozilla/4.0 (compatible; MSIE 5.0; Series80/2.0 Nokia9500/05.22 Profile/MIDP-2.0 Configuration/CLDC-1.1)
-Mozilla/4.1 (compatible; MSIE 5.0; Symbian OS; Nokia 6600;452) Opera 6.20 [ru]
-Mozilla/4.0 (compatible; MSIE 6.0; Symbian OS; Nokia 6600/5.27.0; 6329) Opera 8.00 [ru]
-Mozilla/4.0 (compatible; MSIE 6.0; Symbian OS; Nokia 6600/5.27.0; 6936) Opera 8.50 [ru]
-Mozilla/4.0 (compatible; MSIE 6.0; Symbian OS; Nokia 6630/4.03.38; 6937) Opera 8.50 [es]
 Mozilla/4.0 (compatible; MSIE 6.0; Symbian OS; Nokia 6600/5.27.0; 1657) Opera 8.60 [ru]
-Nokia6700c-1/2.0 (10.50) Profile/MIDP-2.1 Configuration/CLDC-1.1 Mozilla/5.0 AppleWebKit/420+ (KHTML, like Gecko) Safari/420+
-Nokia6700c-1/2.0 (13.10) Profile/MIDP-2.1 Configuration/CLDC-1.1 Mozilla/5.0 AppleWebKit/420+ (KHTML, like Gecko) Safari/420+
 Nokia6303iclassic/5.0 (07.10) Profile/MIDP-2.1 Configuration/CLDC-1.1 Mozilla/5.0 AppleWebKit/420+ (KHTML, like Gecko) Safari/420+
 Nokia6700c-1/2.0 (07.90) Profile/MIDP-2.1 Configuration/CLDC-1.1 Mozilla/5.0 AppleWebKit/420+ (KHTML, like Gecko) Safari/420+
 Nokia6303iclassic/5.0 (09.83) Profile/MIDP-2.1 Configuration/CLDC-1.1 Mozilla/5.0 AppleWebKit/420+ (KHTML, like Gecko) Safari/420+
-Mozilla/5.0 (SymbianOS/9.4; Series60/5.0 Nokia5800d-1/50.0.005; Profile/MIDP-2.1 Configuration/CLDC-1.1 ) AppleWebKit/525 (KHTML, like Gecko) Version/3.0 BrowserNG/7.2.3
-Mozilla/5.0 (SymbianOS/9.4; Series60/5.0 Nokia5230/50.0.001; Profile/MIDP-2.1 Configuration/CLDC-1.1 ) AppleWebKit/533.4 (KHTML, like Gecko) NokiaBrowser/7.3.1.25 Mobile Safari/533.4 3gpp-gba
-Mozilla/5.0 (SymbianOS/9.4; Series60/5.0 Nokia5230/40.0.003; Profile/MIDP-2.1 Configuration/CLDC-1.1 ) AppleWebKit/525 (KHTML, like Gecko) Version/3.0 BrowserNG/7.2.7.4 3gpp-gba
-Mozilla/5.0 (SymbianOS/9.1; U; en-us) AppleWebKit/413 (KHTML, like Gecko) Safari/413
-Mozilla/5.0 (SymbianOS/9.4; Series60/5.0 Nokia5228/21.1.004; Profile/MIDP-2.1 Configuration/CLDC-1.1 ) AppleWebKit/525 (KHTML, like Gecko) Version/3.0 BrowserNG/7.2.5.2 3gpp-gba
-Mozilla/5.0 (Series40; NokiaC2-03/06.51; Profile/MIDP-2.1 Configuration/CLDC-1.1) Gecko/20100401 S40OviBrowser/1.0.1.21.8.22404
-Mozilla/5.0 (Series40; NokiaC2-06/06.51; Profile/MIDP-2.1 Configuration/CLDC-1.1) Gecko/20100401 S40OviBrowser/1.0.1.21.8.2473
-Mozilla/5.0 (Series40; NokiaC3-00/08.63; Profile/MIDP-2.1 Configuration/CLDC-1.1) Gecko/20100401 S40OviBrowser/1.0.0.9.17.2193
-Mozilla/5.0 (Series40; NokiaX2-00/08.25; Profile/MIDP-2.1 Configuration/CLDC-1.1) Gecko/20100401 S40OviBrowser/1.0.0.9.17.2153
-Mozilla/5.0 (Series40; Nokia5130c-2/07.95; Profile/MIDP-2.1 Configuration/CLDC-1.1) Gecko/20100401 S40OviBrowser/1.0.2.26.8103
-Mozilla/5.0 (SAMSUNG; SAMSUNG-GT-S5250/S5250XEKC1; U; Bada/1.0; ru-ru) AppleWebKit/533.1 (KHTML, like Gecko) Dolfin/2.0 Mobile WQVGA SMM-MMS/1.2.0 NexPlayer/3.0 profile/MIDP-2.1 configuration/CLDC-1.1 OPN-B
-Mozilla/5.0 (SAMSUNG; SAMSUNG-GT-S8530/S8530XEJL4; U; Bada/1.2; ru-ru) AppleWebKit/533.1 (KHTML, like Gecko) Dolfin/2.2 Mobile WVGA SMM-MMS/1.2.0 NexPlayer/3.0 profile/MIDP-2.1 configuration/CLDC-1.1 OPN-B
-Mozilla/5.0 (SAMSUNG; SAMSUNG-GT-S8500/S8500XEKC2; U; Bada/1.0; ru-ru) AppleWebKit/533.1 (KHTML, like Gecko) Dolfin/2.0 Mobile WVGA SMM-MMS/1.2.0 OPN-B
-Mozilla/5.0 (SAMSUNG; SAMSUNG-GT-S8500/S8500XEKH2; U; Bada/1.0; ru-ru) AppleWebKit/533.1 (KHTML, like Gecko) Dolfin/2.0 Mobile WVGA SMM-MMS/1.2.0 OPN-B
-Mozilla/5.0 (SAMSUNG; SAMSUNG-GT-S8530/S8530XEJK6; U; Bada/1.2; ru-ru) AppleWebKit/533.1 (KHTML, like Gecko) Dolfin/2.2 Mobile WVGA SMM-MMS/1.2.0 NexPlayer/3.0 profile/MIDP-2.1 configuration/CLDC-1.1 OPN-B
-Mozilla/5.0 (SAMSUNG; SAMSUNG-GT-S5250/S5250XEKC1; U; Bada/1.0; ru-ru) AppleWebKit/533.1 (KHTML, like Gecko) Dolfin/2.0 Mobile WQVGA SMM-MMS/1.2.0 NexPlayer/3.0 profile/MIDP-2.1 configuration/CLDC-1.1 OPN-B
-Mozilla/5.0 (SAMSUNG; SAMSUNG-GT-S8530/S8530XEJL4; U; Bada/1.2; ru-ru) AppleWebKit/533.1 (KHTML, like Gecko) Dolfin/2.2 Mobile WVGA SMM-MMS/1.2.0 NexPlayer/3.0 profile/MIDP-2.1 configuration/CLDC-1.1 OPN-B
-Mozilla/5.0 (SAMSUNG; SAMSUNG-GT-S8500/S8500XEKC2; U; Bada/1.0; ru-ru) AppleWebKit/533.1 (KHTML, like Gecko) Dolfin/2.0 Mobile WVGA SMM-MMS/1.2.0 OPN-B
-Mozilla/5.0 (SAMSUNG; SAMSUNG-GT-S8500/S8500XEKH2; U; Bada/1.0; ru-ru) AppleWebKit/533.1 (KHTML, like Gecko) Dolfin/2.0 Mobile WVGA SMM-MMS/1.2.0 OPN-B
-Mozilla/5.0 (SAMSUNG; SAMSUNG-GT-S8530/S8530XEJK6; U; Bada/1.2; ru-ru) AppleWebKit/533.1 (KHTML, like Gecko) Dolfin/2.2 Mobile WVGA SMM-MMS/1.2.0 NexPlayer/3.0 profile/MIDP-2.1 configuration/CLDC-1.1 OPN-B
-BlackBerry9700/5.0.0.593 Profile/MIDP-2.1 Configuration/CLDC-1.1 VendorID/296
-BlackBerry8520/4.6.1.305 Profile/MIDP-2.0 Configuration/CLDC-1.1 VendorID/296
-Mozilla/5.0 (BlackBerry; U; BlackBerry 9780; ru) AppleWebKit/534.8+ (KHTML, like Gecko) Version/6.0.0.448 Mobile Safari/534.8+
-BlackBerry9000/4.6.0.247 Profile/MIDP-2.0 Configuration/CLDC-1.1 VendorID/296
-BlackBerry9000/4.6.0.303 Profile/MIDP-2.0 Configuration/CLDC-1.1 VendorID/297
 Mozilla/5.0 (MeeGo; NokiaN9) AppleWebKit/534.13 (KHTML, like Gecko) NokiaBrowser/8.5.0 Mobile Safari/534.13
 Mozilla/5.0 (Nokia; Qt; MeeGo)
-Mozilla/5.0 (MeeGo; NokiaN9) AppleWebKit/534.13 (KHTML, like Gecko) NokiaBrowser/8.5.0 Mobile Safari/534.13
 Mozilla/5.0 (MeeGo; NokiaN950-00/00) AppleWebKit/534.13 (KHTML, like Gecko) NokiaBrowser/8.5.0 Mobile Safari/534.13
 Mozilla/5.0 (MeeGo; NokiaN9) AppleWebKit/534.13 (KHTML, like Gecko) NokiaBrowser/8.5.0 Mobile Safari/534.13211
-Mozilla/4.0 (compatible; MSIE 6.0; ; Linux armv5tejl; U) Opera 8.02 [en_US] Maemo browser 0.4.31 N770/SU-18
-Mozilla/5.0 (X11; U; Linux armv7l; ru-RU; rv:1.9.2.3pre) Gecko/20100723 Firefox/3.5 Maemo Browser 1.7.4.8 RX-51 N900
-Mozilla/5.0 (X11; U; Linux armv7l; ru-RU; rv:1.9.2a1pre) Gecko/20091127 Firefox/3.5 Maemo Browser 1.5.6 RX-51 N900
-Mozilla/5.0 (X11; U; Linux armv7l; ru-RU; rv:1.9.2b6pre) Gecko/20100318 Firefox/3.5 Maemo Browser 1.7.4.8 RX-51 N900
-Opera/9.80 (Linux armv7l; Maemo; Opera Mobi/9; U; ru) Presto/2.7.81 Version/11.00
-Mozilla/5.0 (compatible; MSIE 9.0; Windows Phone OS 7.5; Trident/5.0; IEMobile/9.0; HTC; 7 Mozart T8698)
-Mozilla/5.0 (compatible; MSIE 9.0; Windows Phone OS 7.5; Trident/5.0; IEMobile/9.0; SAMSUNG; GT-I8350)
-Mozilla/5.0 (compatible; MSIE 9.0; Windows Phone OS 7.5; Trident/5.0; IEMobile/9.0; HTC; TITAN X310e)
-Mozilla/5.0 (compatible; MSIE 9.0; Windows Phone OS 7.5; Trident/5.0; IEMobile/9.0; HTC; Radar C110e)
 Mozilla/5.0 (compatible; MSIE 9.0; Windows Phone OS 7.5; Trident/5.0; IEMobile/9.0; HTC; HD7 T9292)
-Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/5.0; XBLWP7; ZuneWP7)
-Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; XBLWP7; ZuneWP7)
-Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/5.0; XBLWP7; ZuneWP7)56
-Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; XBLWP7; ZuneWP7)3
-Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/5.0; XBLWP7; ZuneWP7)
-Mozilla/5.0 (compatible; MSIE 9.0; Windows Phone OS 7.5; Trident/5.0; IEMobile/9.0; HTC; 7 Mozart T8698)
-Mozilla/5.0 (compatible; MSIE 9.0; Windows Phone OS 7.5; Trident/5.0; IEMobile/9.0; SAMSUNG; GT-I8350)
-Mozilla/5.0 (compatible; MSIE 9.0; Windows Phone OS 7.5; Trident/5.0; IEMobile/9.0; HTC; TITAN X310e)
-Mozilla/5.0 (compatible; MSIE 9.0; Windows Phone OS 7.5; Trident/5.0; IEMobile/9.0; HTC; Radar C110e)
-Mozilla/5.0 (compatible; MSIE 9.0; Windows Phone OS 7.5; Trident/5.0; IEMobile/9.0; HTC; HD7 T9292)
-Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/5.0; XBLWP7; ZuneWP7)
-Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; XBLWP7; ZuneWP7)
-Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/5.0; XBLWP7; ZuneWP7)56
-Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; XBLWP7; ZuneWP7)3
-Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/5.0; XBLWP7; ZuneWP7)
 Opera/9.80 (Windows Mobile; WCE; Opera Mobi/WMD-50433; U; ru) Presto/2.4.13 Version/10.00
 Opera/9.80 (Windows Mobile; WCE; Opera Mobi/WMD-50433; U; en) Presto/2.4.13 Version/10.00
 Opera/9.80 (Windows Mobile; WCE; Opera Mobi/WMD-50430; U; ru) Presto/2.4.13 Version/10.00
-Opera/9.80 (Windows Mobile; WCE; Opera Mobi/WMD-50369; U; en) Presto/2.4.13 Version/10.00
-Opera/9.80 (Windows Mobile; WCE; Opera Mobi/WMD-50430; U; en) Presto/2.4.13 Version/10.00
-Mozilla/4.0 (compatible; MSIE 4.01; Windows CE; PPC; 240x320)
-SAMSUNG-SGH-i900/1.0 (compatible; MSIE 6.0; Windows CE; IEMobile 7.11)
-SAMSUNG-GT-i8000/1.0 (Windows CE; Opera Mobi; U; en) Opera 9.5
-Mozilla/2.0 (compatible; MSIE 3.02; Windows CE; 240x320)
-Mozilla/4.0 (compatible; MSIE 6.0; Windows CE)
 HTC MAX 4G Opera/9.5 (Microsoft Windows; PPC; Opera Mobi/1409; U; ru)
 Opera/9.5 (Microsoft Windows; PPC; Opera Mobi; U) SonyEricssonX1i/R2AA Profile/MIDP-2.0 Configuration/CLDC-1.1
 Opera/9.5 (Microsoft Windows; PPC; Opera Mobi; U) SonyEricssonX1i/R3AA Profile/MIDP-2.0 Configuration/CLDC-1.1
 Opera/9.5 (Microsoft Windows; PPC; Opera Mobi/16594; U; ru)
 Opera/9.5 (Microsoft Windows; PPC; Opera Mobi/2745; U; ru)
-HTC_HD2_T8585 Opera/9.7 (Windows NT 5.1; U; ru)
-HTC_Touch2_T3333 Opera/9.50 (Windows NT 5.1; U; ru)
-Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; HTC_HD2_T8585; Windows Phone 6.5)
-HTC_Touch_Diamond2_T5353 Opera/9.7 (Windows NT 5.1; U; ru)
-Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; Windows Phone 6.5)
 Opera/9.7 (WindowsMobile; PPC; Opera Mobi/35267; U; ru; Presto/2.1.1)
 Opera/9.7 (WindowsMobile; PPC; Opera Mobi/35267; U; en; Presto/2.1.1)
 Opera/9.7 (WindowsMobile; PPC; Opera Mobile/36053; U; ru; Presto/2.1.1)
 Opera/9.7 (WindowsMobile; PPC; Opera Mobi/36053; U; en; Presto/2.1.1)
 Opera/9.7 (WindowsMobile; PPC; Opera Mobi/35267; U; ru; Presto/2.1.1)848
-Mozilla/5.0 (hp-tablet; Linux; hpwOS/3.0.4; U; en-US) AppleWebKit/534.6 (KHTML, like Gecko) wOSBrowser/234.76 Safari/534.6 TouchPad/1.0
-Mozilla/5.0 (hp-tablet; Linux; hpwOS/3.0.4; U; en-GB) AppleWebKit/534.6 (KHTML, like Gecko) wOSBrowser/234.76 Safari/534.6 TouchPad/1.0
-Mozilla/5.0 (hp-tablet; Linux; hpwOS/3.0.2; U; en-GB) AppleWebKit/534.6 (KHTML, like Gecko) wOSBrowser/234.40.1 Safari/534.6 TouchPad/1.0
-Mozilla/5.0 (hp-tablet; Linux; hpwOS/3.0.4; U; en-CA) AppleWebKit/534.6 (KHTML, like Gecko) wOSBrowser/234.76 Safari/534.6 TouchPad/1.0
-Mozilla/5.0 (hp-tablet; Linux; hpwOS/3.0.0; U; en-GB) AppleWebKit/534.6 (KHTML, like Gecko) wOSBrowser/233.70 Safari/534.6 TouchPad/1.0
-Mozilla/5.0 (webOS/2.1.2; U; en-US) AppleWebKit/532.2 (KHTML, like Gecko) Version/1.0 Safari/532.2 P160UNA/1.0
-Mozilla/5.0 (webOS/1.4.5; U; en-US) AppleWebKit/532.2 (KHTML, like Gecko) Version/1.0 Safari/532.2 Pixi/1.1
-Mozilla/5.0 (webOS/1.4.5.1; U; en-US) AppleWebKit/532.2 (KHTML, like Gecko) Version/1.0 Safari/532.2 Pixi/1.1
-Mozilla/5.0 (webOS/1.4.1.1; U; en-US) AppleWebKit/532.2 (KHTML, like Gecko) Version/1.0 Safari/532.2 Pixi/1.0
-Mozilla/5.0 (webOS/1.4.5; U; en-US) AppleWebKit/532.2 (KHTML, like Gecko) Version/1.0 Safari/532.2 Pre/1.1
-MOT-VE66/R6743_G_74.31.03RPL Mozilla/5.0 (compatible; OSS/1.0; Chameleon; Linux) MotoWebKit/417.19 (KHTML, like Gecko) BER/2.0 Profile/MIDP-2.0 Configuration/CLDC-1.1 EGE/9.0
-Mozilla/5.0 (X11; U; Linux armv6l; ru-RU; rv:1.9a6pre) Gecko/20080828 Firefox/3.0a1 Tablet browser 0.3.7 RX-34+RX-44+RX-48_DIABLO_5.2008.43-7
-Mozilla/5.0 (X11; U; Linux armv5tejl; en; rv:1.9.0.19) Gecko/2010072023 Firefox/3.0.6 (Debian-3.0.6-3)
-Mozilla/5.0 (Linux; U; en-US) AppleWebKit/528.5+ (KHTML, like Gecko, Safari/528.5+) Version/4.0 Kindle/3.0 (screen 600x800; rotate)
-Mozilla/5.0 (Linux; U; en-us; EBRD1101; EXT) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1
-MOT-VE66/R6743_G_74.31.03RPL Mozilla/5.0 (compatible; OSS/1.0; Chameleon; Linux) MotoWebKit/417.19 (KHTML, like Gecko) BER/2.0 Profile/MIDP-2.0 Configuration/CLDC-1.1 EGE/9.0
-Mozilla/5.0 (X11; U; Linux armv6l; ru-RU; rv:1.9a6pre) Gecko/20080828 Firefox/3.0a1 Tablet browser 0.3.7 RX-34+RX-44+RX-48_DIABLO_5.2008.43-7
-Mozilla/5.0 (X11; U; Linux armv5tejl; en; rv:1.9.0.19) Gecko/2010072023 Firefox/3.0.6 (Debian-3.0.6-3)
-Mozilla/5.0 (Linux; U; en-US) AppleWebKit/528.5+ (KHTML, like Gecko, Safari/528.5+) Version/4.0 Kindle/3.0 (screen 600x800; rotate)
-Mozilla/5.0 (Linux; U; en-us; EBRD1101; EXT) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1
 Opera/9.80 (Windows NT 5.1; U; ru) Presto/2.9.168 Version/11.52
-Opera/9.80 (Windows NT 5.1; U; ru) Presto/2.9.168 Version/11.52
-Opera/9.80 (Windows NT 6.1; U; ru) Presto/2.9.168 Version/11.52
 Opera/9.80 (Windows NT 6.1; U; ru) Presto/2.9.168 Version/11.52
 Opera/9.80 (Windows NT 5.1; U; Edition Yx; ru) Presto/2.9.168 Version/11.52
 Mozilla/4.0 (compatible; MSIE 6.0; Nitro) Opera 8.50 [en]
-Mozilla/4.0 (compatible; MSIE 6.0; Nitro) Opera 8.50 [en]
-Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 5.1; ru) Opera 11.52
 Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 5.1; ru) Opera 11.52
 Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; en) Opera 8.50
-Opera/9.80 (Windows NT 5.1; U; ru) Presto/2.9.168 Version/11.52
-Opera/9.80 (Windows NT 5.1; U; ru) Presto/2.9.168 Version/11.52
-Opera/9.80 (Windows NT 6.1; U; ru) Presto/2.9.168 Version/11.52
-Opera/9.80 (Windows NT 6.1; U; ru) Presto/2.9.168 Version/11.52
-Opera/9.80 (Windows NT 5.1; U; Edition Yx; ru) Presto/2.9.168 Version/11.52
-Opera/9.80 (Windows NT 5.1; U; ru) Presto/2.9.168 Version/11.52
-Opera/9.80 (Windows NT 5.1; U; ru) Presto/2.9.168 Version/11.52
-Opera/9.80 (Windows NT 6.1; U; ru) Presto/2.9.168 Version/11.52
-Opera/9.80 (Windows NT 6.1; U; ru) Presto/2.9.168 Version/11.52
-Opera/9.80 (Windows NT 5.1; U; Edition Yx; ru) Presto/2.9.168 Version/11.52
 Opera/9.64 (Windows NT 5.1; U; ru) Presto/2.1.1
-Opera/9.64 (Windows NT 5.1; U; ru) Presto/2.1.1
-Opera/9.63 (Windows NT 5.1; U; ru) Presto/2.1.1
 Opera/9.63 (Windows NT 5.1; U; ru) Presto/2.1.1
 Opera/9.10 (Windows NT 5.1; U; ru)
 Opera/9.80 (Windows NT 6.1; U; Edition Next; ru) Presto/2.9.220 Version/12.00
-Opera/9.80 (Windows NT 6.1; U; Edition Next; ru) Presto/2.9.220 Version/12.00
-Opera/9.80 (Windows NT 5.1; U; Edition Next; ru) Presto/2.9.220 Version/12.00
 Opera/9.80 (Windows NT 5.1; U; Edition Next; ru) Presto/2.9.220 Version/12.00
 Opera/9.80 (Windows NT 6.1; U; Edition Next; ru) Presto/2.10.229 Version/12.00
 Mozilla/5.0 (Windows NT 5.1; rv:8.0) Gecko/20100101 Firefox/8.0
-Mozilla/5.0 (Windows NT 5.1; rv:8.0) Gecko/20100101 Firefox/8.0
-Mozilla/5.0 (Windows NT 5.1; rv:7.0.1) Gecko/20100101 Firefox/7.0.1
 Mozilla/5.0 (Windows NT 5.1; rv:7.0.1) Gecko/20100101 Firefox/7.0.1
 Mozilla/5.0 (Windows NT 5.1; rv:7.0.1) Gecko/20100101 Firefox/7.0.1 YB/6.0
 Mozilla/5.0 (X11; U; Linux x86_64; en-US; rv:1.9.2.3) Firefox/3.6.3
-Mozilla/5.0 (X11; U; Linux x86_64; en-US; rv:1.9.2.3) Firefox/3.6.3
-Mozilla/5.0 (FreeDOS; C; FreeDOS 3.0; ru) Firefox/3.6.12
 Mozilla/5.0 (FreeDOS; C; FreeDOS 3.0; ru) Firefox/3.6.12
 Mozilla/5.0 Firefox/5.0
-Mozilla/5.0 (Windows NT 5.1; rv:8.0) Gecko/20100101 Firefox/8.0
-Mozilla/5.0 (Windows NT 5.1; rv:8.0) Gecko/20100101 Firefox/8.0
-Mozilla/5.0 (Windows NT 5.1; rv:7.0.1) Gecko/20100101 Firefox/7.0.1
-Mozilla/5.0 (Windows NT 5.1; rv:7.0.1) Gecko/20100101 Firefox/7.0.1
-Mozilla/5.0 (Windows NT 5.1; rv:7.0.1) Gecko/20100101 Firefox/7.0.1 YB/6.0
 Mozilla/5.0 (X11; U; Linux i686; en; rv:1.9.0.19) Gecko/20080528 Epiphany/2.22
-Mozilla/5.0 (X11; U; Linux i686; en; rv:1.9.0.19) Gecko/20080528 Epiphany/2.22
-Mozilla/5.0 (X11; U; Linux i686; en; rv:1.9.1.6pre) Gecko/20080528 Epiphany/2.22 Firefox/3.5
-Mozilla/5.0 (X11; U; Linux i686; en; rv:1.9.1.6pre) Gecko/20080528 Epiphany/2.22 Firefox/3.5
-Mozilla/5.0 (X11; U; Linux i586; en-US; rv:1.7.3) Gecko/20040924 Epiphany/1.4.4 (Ubuntu)
-Mozilla/5.0 (X11; U; Linux i686; en; rv:1.9.0.19) Gecko/20080528 Epiphany/2.22
-Mozilla/5.0 (X11; U; Linux i686; en; rv:1.9.0.19) Gecko/20080528 Epiphany/2.22
-Mozilla/5.0 (X11; U; Linux i686; en; rv:1.9.1.6pre) Gecko/20080528 Epiphany/2.22 Firefox/3.5
 Mozilla/5.0 (X11; U; Linux i686; en; rv:1.9.1.6pre) Gecko/20080528 Epiphany/2.22 Firefox/3.5
 Mozilla/5.0 (X11; U; Linux i586; en-US; rv:1.7.3) Gecko/20040924 Epiphany/1.4.4 (Ubuntu)
 Mozilla/5.0 (Macintosh; U; Intel Mac OS X; en-US; rv:1.8.0.13) Gecko/20070810 Camino/1.0.6
-Mozilla/5.0 (Macintosh; U; Intel Mac OS X; en-US; rv:1.8.0.13) Gecko/20070810 Camino/1.0.6
-Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10.6; ru; rv:1.9.0.19) Gecko/2011091218 Camino/2.0.9 (MultiLang) (like Firefox/3.0.19)
-Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10.6; ru; rv:1.9.0.19) Gecko/2011091218 Camino/2.0.9 (MultiLang) (like Firefox/3.0.19)
-Mozilla/5.0 (Macintosh; U; PPC Mac OS X Mach-O; rv:1.9.2) Gecko/20100115 Camino/4.0
-Mozilla/5.0 (Macintosh; U; Intel Mac OS X; en-US; rv:1.8.0.13) Gecko/20070810 Camino/1.0.6
-Mozilla/5.0 (Macintosh; U; Intel Mac OS X; en-US; rv:1.8.0.13) Gecko/20070810 Camino/1.0.6
-Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10.6; ru; rv:1.9.0.19) Gecko/2011091218 Camino/2.0.9 (MultiLang) (like Firefox/3.0.19)
 Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10.6; ru; rv:1.9.0.19) Gecko/2011091218 Camino/2.0.9 (MultiLang) (like Firefox/3.0.19)
 Mozilla/5.0 (Macintosh; U; PPC Mac OS X Mach-O; rv:1.9.2) Gecko/20100115 Camino/4.0
 Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.8.1.22pre) Gecko/20090301 (Debian-1.8.1.18+nobinonly.b308.cvs20090331t155113-0ubuntu0.8.04.1) Galeon/2.0.4 (Ubuntu 2.0.4-1ubuntu1)
-Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.8.1.22pre) Gecko/20090301 (Debian-1.8.1.18+nobinonly.b308.cvs20090331t155113-0ubuntu0.8.04.1) Galeon/2.0.4 (Ubuntu 2.0.4-1ubuntu1)
-Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.7.8) Gecko/20050513 Galeon/1.3.21
-Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.7.8) Gecko/20050513 Galeon/1.3.21
-Mozilla/5.0 (X11; U; Linux; i686; en-US; rv:1.6) Gecko Galeon/1.3.14
-Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.8.1.22pre) Gecko/20090301 (Debian-1.8.1.18+nobinonly.b308.cvs20090331t155113-0ubuntu0.8.04.1) Galeon/2.0.4 (Ubuntu 2.0.4-1ubuntu1)
-Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.8.1.22pre) Gecko/20090301 (Debian-1.8.1.18+nobinonly.b308.cvs20090331t155113-0ubuntu0.8.04.1) Galeon/2.0.4 (Ubuntu 2.0.4-1ubuntu1)
-Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.7.8) Gecko/20050513 Galeon/1.3.21
 Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.7.8) Gecko/20050513 Galeon/1.3.21
 Mozilla/5.0 (X11; U; Linux; i686; en-US; rv:1.6) Gecko Galeon/1.3.14
 Mozilla/5.0 (Windows; U; Windows NT 5.1; ru-RU; rv:1.8.1.24pre) Gecko/20100228 K-Meleon/1.5.4
-Mozilla/5.0 (Windows; U; Windows NT 5.1; ru-RU; rv:1.8.1.24pre) Gecko/20100228 K-Meleon/1.5.4
-Mozilla/5.0 (Windows; U; Windows NT 6.1; ru-RU; rv:1.8.1.24pre) Gecko/20100228 K-Meleon/1.5.4
-Mozilla/5.0 (Windows; U; Windows NT 6.1; ru-RU; rv:1.8.1.24pre) Gecko/20100228 K-Meleon/1.5.4
-Mozilla/5.0 (Windows; U; Windows NT 5.1; ru-RU; rv:1.8.1.21) Gecko/20090331 K-Meleon/1.5.3
-Mozilla/5.0 (Windows; U; Windows NT 5.1; ru-RU; rv:1.8.1.24pre) Gecko/20100228 K-Meleon/1.5.4
-Mozilla/5.0 (Windows; U; Windows NT 5.1; ru-RU; rv:1.8.1.24pre) Gecko/20100228 K-Meleon/1.5.4
-Mozilla/5.0 (Windows; U; Windows NT 6.1; ru-RU; rv:1.8.1.24pre) Gecko/20100228 K-Meleon/1.5.4
 Mozilla/5.0 (Windows; U; Windows NT 6.1; ru-RU; rv:1.8.1.24pre) Gecko/20100228 K-Meleon/1.5.4
 Mozilla/5.0 (Windows; U; Windows NT 5.1; ru-RU; rv:1.8.1.21) Gecko/20090331 K-Meleon/1.5.3
 Mozilla/5.0 (Windows NT 5.1; rv:7.0.1) Gecko/20110928 Firefox/7.0.1 SeaMonkey/2.4.1
-Mozilla/5.0 (Windows NT 5.1; rv:7.0.1) Gecko/20110928 Firefox/7.0.1 SeaMonkey/2.4.1
-Mozilla/5.0 (Windows; U; Windows NT 5.1; ru; rv:1.9.1.19) Gecko/20110420 SeaMonkey/2.0.14
 Mozilla/5.0 (Windows; U; Windows NT 5.1; ru; rv:1.9.1.19) Gecko/20110420 SeaMonkey/2.0.14
 Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.8.0.4) Gecko/20060516 SeaMonkey/1.0.2
-Mozilla/5.0 (Windows NT 5.1; rv:7.0.1) Gecko/20110928 Firefox/7.0.1 SeaMonkey/2.4.1
-Mozilla/5.0 (Windows NT 5.1; rv:7.0.1) Gecko/20110928 Firefox/7.0.1 SeaMonkey/2.4.1
-Mozilla/5.0 (Windows; U; Windows NT 5.1; ru; rv:1.9.1.19) Gecko/20110420 SeaMonkey/2.0.14
-Mozilla/5.0 (Windows; U; Windows NT 5.1; ru; rv:1.9.1.19) Gecko/20110420 SeaMonkey/2.0.14
-Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.8.0.4) Gecko/20060516 SeaMonkey/1.0.2
-Mozilla/5.0 (Windows NT 5.1; rv:8.0) Gecko/20100101 Firefox/8.0
-Mozilla/5.0 (Windows NT 5.1; rv:8.0) Gecko/20100101 Firefox/8.0
-Mozilla/5.0 (Windows NT 5.1; rv:7.0.1) Gecko/20100101 Firefox/7.0.1
-Mozilla/5.0 (Windows NT 5.1; rv:7.0.1) Gecko/20100101 Firefox/7.0.1
-Mozilla/5.0 (Windows NT 5.1; rv:7.0.1) Gecko/20100101 Firefox/7.0.1 YB/6.0
 Mozilla/5.0 (X11; U; Linux i686; ru; rv:1.9.2.15pre) Gecko/20110126 Ubuntu/10.10 (maverick) Namoroka/3.6.15pre
-Mozilla/5.0 (X11; U; Linux i686; ru; rv:1.9.2.15pre) Gecko/20110126 Ubuntu/10.10 (maverick) Namoroka/3.6.15pre
-Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US; rv:1.9.2.3) Gecko/20100405 Namoroka/3.6.3
 Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US; rv:1.9.2.3) Gecko/20100405 Namoroka/3.6.3
 Mozilla/5.0 (Windows; U; Windows NT 5.1; ru; rv:1.9.2.25pre) Gecko/20111104 Namoroka/3.6.25pre sputnik 2.5.0.148
 Mozilla/5.0 (X11; U; Linux x86_64; en-US; rv:1.9.1.1) Gecko/20090716 Ubuntu/9.04 (jaunty) Shiretoko/3.5.1
-Mozilla/5.0 (X11; U; Linux x86_64; en-US; rv:1.9.1.1) Gecko/20090716 Ubuntu/9.04 (jaunty) Shiretoko/3.5.1
-Mozilla/5.0 (Windows; U; Windows NT 5.1; ru; rv:1.9.1.8pre) Gecko/20100113 Shiretoko/3.5.8pre
 Mozilla/5.0 (Windows; U; Windows NT 5.1; ru; rv:1.9.1.8pre) Gecko/20100113 Shiretoko/3.5.8pre
 Mozilla/5.0 (Windows; U; Windows NT 5.1; ru; rv:1.9.1.5pre) Gecko/20091017 Shiretoko/3.5.5pre
 Mozilla/5.0 (X11; U; Linux i686; ru; rv:1.9.0.19) Gecko/2010120923 Iceweasel/3.0.6 (Debian-3.0.6-3)
-Mozilla/5.0 (X11; U; Linux i686; ru; rv:1.9.0.19) Gecko/2010120923 Iceweasel/3.0.6 (Debian-3.0.6-3)
-Mozilla/5.0 (X11; U; Linux i686; ru; rv:1.9.0.19) Gecko/2011032314 Iceweasel/3.0.6 (Debian-3.0.6-3)
 Mozilla/5.0 (X11; U; Linux i686; ru; rv:1.9.0.19) Gecko/2011032314 Iceweasel/3.0.6 (Debian-3.0.6-3)
 Mozilla/5.0 (X11; U; Linux i686; ru; rv:1.9.0.6) Gecko/2009020409 Iceweasel/3.0.6 (Debian-3.0.6-1)
 Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.1.16) Gecko/20111108 Iceape/2.0.11
-Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.1.16) Gecko/20111108 Iceape/2.0.11
-Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.1.8) Gecko/20100225 Iceape/2.0.3
 Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.1.8) Gecko/20100225 Iceape/2.0.3
 Mozilla/5.0 (X11; U; Linux i686; ru; rv:1.9.1.16) Gecko/20111108 Iceape/2.0.11
 Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:2.0a1pre) Gecko/2008051003 Minefield/4.0a1pre
-Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:2.0a1pre) Gecko/2008051003 Minefield/4.0a1pre
-Mozilla/5.0 (Windows; U; Windows NT 5.1; ru; rv:1.9.3a3pre) Gecko/20100302 Minefield/3.7a3pre
 Mozilla/5.0 (Windows; U; Windows NT 5.1; ru; rv:1.9.3a3pre) Gecko/20100302 Minefield/3.7a3pre
 Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.3a6pre) Gecko/20100617 Minefield/3.7a6pre
 Mozilla/5.0 (Windows NT 5.1; rv:8.0) Gecko/20111105 Thunderbird/8.0
-Mozilla/5.0 (Windows NT 5.1; rv:8.0) Gecko/20111105 Thunderbird/8.0
-Mozilla/5.0 (Windows NT 5.1; rv:7.0.1) Gecko/20110929 Thunderbird/7.0.1
 Mozilla/5.0 (Windows NT 5.1; rv:7.0.1) Gecko/20110929 Thunderbird/7.0.1
 Mozilla/5.0 (Windows NT 6.1; WOW64; rv:8.0) Gecko/20111105 Thunderbird/8.0
 Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.6b) Gecko/20031215 Firebird/0.7+
-Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.6b) Gecko/20031215 Firebird/0.7+
-Mozilla/5.0 (Windows; U; Windows NT 5.1; fr; rv:1.5) Gecko/20031007 Firebird/0.7
 Mozilla/5.0 (Windows; U; Windows NT 5.1; fr; rv:1.5) Gecko/20031007 Firebird/0.7
 Mozilla/5.2 (Windows; U; Windows NT 5.1; ru; rv:x.xx) Gecko/20030504 Mozilla Firebird/0.6
-Mozilla/5.0 (Windows NT 5.1; rv:8.0) Gecko/20100101 Firefox/8.0
-Mozilla/5.0 (Windows NT 5.1; rv:8.0) Gecko/20100101 Firefox/8.0
-Mozilla/5.0 (Windows NT 5.1; rv:7.0.1) Gecko/20100101 Firefox/7.0.1
-Mozilla/5.0 (Windows NT 5.1; rv:7.0.1) Gecko/20100101 Firefox/7.0.1
-Mozilla/5.0 (Windows NT 5.1; rv:7.0.1) Gecko/20100101 Firefox/7.0.1 YB/6.0
-Mozilla/5.0 (X11; U; Linux i686; ru; rv:1.9.2.15pre) Gecko/20110126 Ubuntu/10.10 (maverick) Namoroka/3.6.15pre
-Mozilla/5.0 (X11; U; Linux i686; ru; rv:1.9.2.15pre) Gecko/20110126 Ubuntu/10.10 (maverick) Namoroka/3.6.15pre
-Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US; rv:1.9.2.3) Gecko/20100405 Namoroka/3.6.3
-Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US; rv:1.9.2.3) Gecko/20100405 Namoroka/3.6.3
-Mozilla/5.0 (Windows; U; Windows NT 5.1; ru; rv:1.9.2.25pre) Gecko/20111104 Namoroka/3.6.25pre sputnik 2.5.0.148
-Mozilla/5.0 (X11; U; Linux x86_64; en-US; rv:1.9.1.1) Gecko/20090716 Ubuntu/9.04 (jaunty) Shiretoko/3.5.1
-Mozilla/5.0 (X11; U; Linux x86_64; en-US; rv:1.9.1.1) Gecko/20090716 Ubuntu/9.04 (jaunty) Shiretoko/3.5.1
-Mozilla/5.0 (Windows; U; Windows NT 5.1; ru; rv:1.9.1.8pre) Gecko/20100113 Shiretoko/3.5.8pre
-Mozilla/5.0 (Windows; U; Windows NT 5.1; ru; rv:1.9.1.8pre) Gecko/20100113 Shiretoko/3.5.8pre
-Mozilla/5.0 (Windows; U; Windows NT 5.1; ru; rv:1.9.1.5pre) Gecko/20091017 Shiretoko/3.5.5pre
-Mozilla/5.0 (X11; U; Linux i686; ru; rv:1.9.0.19) Gecko/2010120923 Iceweasel/3.0.6 (Debian-3.0.6-3)
-Mozilla/5.0 (X11; U; Linux i686; ru; rv:1.9.0.19) Gecko/2010120923 Iceweasel/3.0.6 (Debian-3.0.6-3)
-Mozilla/5.0 (X11; U; Linux i686; ru; rv:1.9.0.19) Gecko/2011032314 Iceweasel/3.0.6 (Debian-3.0.6-3)
-Mozilla/5.0 (X11; U; Linux i686; ru; rv:1.9.0.19) Gecko/2011032314 Iceweasel/3.0.6 (Debian-3.0.6-3)
-Mozilla/5.0 (X11; U; Linux i686; ru; rv:1.9.0.6) Gecko/2009020409 Iceweasel/3.0.6 (Debian-3.0.6-1)
-Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:2.0a1pre) Gecko/2008051003 Minefield/4.0a1pre
-Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:2.0a1pre) Gecko/2008051003 Minefield/4.0a1pre
-Mozilla/5.0 (Windows; U; Windows NT 5.1; ru; rv:1.9.3a3pre) Gecko/20100302 Minefield/3.7a3pre
-Mozilla/5.0 (Windows; U; Windows NT 5.1; ru; rv:1.9.3a3pre) Gecko/20100302 Minefield/3.7a3pre
-Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.3a6pre) Gecko/20100617 Minefield/3.7a6pre
-Mozilla/5.0 (Windows NT 5.1; rv:8.0) Gecko/20111105 Thunderbird/8.0
-Mozilla/5.0 (Windows NT 5.1; rv:8.0) Gecko/20111105 Thunderbird/8.0
-Mozilla/5.0 (Windows NT 5.1; rv:7.0.1) Gecko/20110929 Thunderbird/7.0.1
-Mozilla/5.0 (Windows NT 5.1; rv:7.0.1) Gecko/20110929 Thunderbird/7.0.1
-Mozilla/5.0 (Windows NT 6.1; WOW64; rv:8.0) Gecko/20111105 Thunderbird/8.0
-Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.6b) Gecko/20031215 Firebird/0.7+
-Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.6b) Gecko/20031215 Firebird/0.7+
-Mozilla/5.0 (Windows; U; Windows NT 5.1; fr; rv:1.5) Gecko/20031007 Firebird/0.7
-Mozilla/5.0 (Windows; U; Windows NT 5.1; fr; rv:1.5) Gecko/20031007 Firebird/0.7
-Mozilla/5.2 (Windows; U; Windows NT 5.1; ru; rv:x.xx) Gecko/20030504 Mozilla Firebird/0.6
-Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.1.16) Gecko/20111108 Iceape/2.0.11
-Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.1.16) Gecko/20111108 Iceape/2.0.11
-Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.1.8) Gecko/20100225 Iceape/2.0.3
-Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.1.8) Gecko/20100225 Iceape/2.0.3
-Mozilla/5.0 (X11; U; Linux i686; ru; rv:1.9.1.16) Gecko/20111108 Iceape/2.0.11
 Mozilla/5.0 (Windows NT 5.1) AppleWebKit/535.2 (KHTML, like Gecko) Chrome/15.0.874.106 Safari/535.2
-Mozilla/5.0 (Windows NT 5.1) AppleWebKit/535.2 (KHTML, like Gecko) Chrome/15.0.874.106 Safari/535.2
-Mozilla/5.0 (Windows NT 5.1) AppleWebKit/535.2 (KHTML, like Gecko) Chrome/15.0.874.121 Safari/535.2
 Mozilla/5.0 (Windows NT 5.1) AppleWebKit/535.2 (KHTML, like Gecko) Chrome/15.0.874.121 Safari/535.2
 Mozilla/5.0 (Windows NT 6.1) AppleWebKit/535.2 (KHTML, like Gecko) Chrome/15.0.874.106 Safari/535.2
 iTunes/7.5 (Windows; U; Microsoft Windows XP Professional Service Pack 2 (Build 2600)) DPI/96
-iTunes/7.5 (Windows; U; Microsoft Windows XP Professional Service Pack 2 (Build 2600)) DPI/96
-iTunes/7.5 (Windows; N)
 iTunes/7.5 (Windows; N)
 iTunes/8.1 (Windows; Microsoft Windows 7 Ultimate Edition (Build 7600))
-Mozilla/5.0 (Windows NT 5.1) AppleWebKit/535.2 (KHTML, like Gecko) Chrome/15.0.874.106 Safari/535.2
-Mozilla/5.0 (Windows NT 5.1) AppleWebKit/535.2 (KHTML, like Gecko) Chrome/15.0.874.106 Safari/535.2
-Mozilla/5.0 (Windows NT 5.1) AppleWebKit/535.2 (KHTML, like Gecko) Chrome/15.0.874.121 Safari/535.2
-Mozilla/5.0 (Windows NT 5.1) AppleWebKit/535.2 (KHTML, like Gecko) Chrome/15.0.874.121 Safari/535.2
-Mozilla/5.0 (Windows NT 6.1) AppleWebKit/535.2 (KHTML, like Gecko) Chrome/15.0.874.106 Safari/535.2
 Mozilla/5.0 (Windows; Mozilla 5.0; Windows NT 5.1; Trident/4.0; SV; AppleWebKit/534.16 (KHTML, like Gecko) Chrome/10.0.684.134 Safari/534.16; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; yie8)
-Mozilla/5.0 (Windows; Mozilla 5.0; Windows NT 5.1; Trident/4.0; SV; AppleWebKit/534.16 (KHTML, like Gecko) Chrome/10.0.684.134 Safari/534.16; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; yie8)
-Mozilla/5.0 (Windows; Mozilla 5.0; Windows NT 5.1; MyIE2; SV; AppleWebKit/534.16 (KHTML, like Gecko) Chrome/10.0.684.134 Safari/534.16; .NET CLR 1.1.4322; .NET CLR 2.0.50727; InfoPath.1)
 Mozilla/5.0 (Windows; Mozilla 5.0; Windows NT 5.1; MyIE2; SV; AppleWebKit/534.16 (KHTML, like Gecko) Chrome/10.0.684.134 Safari/534.16; .NET CLR 1.1.4322; .NET CLR 2.0.50727; InfoPath.1)
 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_2) AppleWebKit/535.7 (KHTML, like Gecko) Chrome/16.0.912.75 Safari/535.7 YI
-Mozilla/5.0 (Windows; Mozilla 5.0; Windows NT 5.1; Trident/4.0; SV; AppleWebKit/534.16 (KHTML, like Gecko) Chrome/10.0.684.134 Safari/534.16; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; yie8)
-Mozilla/5.0 (Windows; Mozilla 5.0; Windows NT 5.1; Trident/4.0; SV; AppleWebKit/534.16 (KHTML, like Gecko) Chrome/10.0.684.134 Safari/534.16; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; yie8)
-Mozilla/5.0 (Windows; Mozilla 5.0; Windows NT 5.1; MyIE2; SV; AppleWebKit/534.16 (KHTML, like Gecko) Chrome/10.0.684.134 Safari/534.16; .NET CLR 1.1.4322; .NET CLR 2.0.50727; InfoPath.1)
-Mozilla/5.0 (Windows; Mozilla 5.0; Windows NT 5.1; MyIE2; SV; AppleWebKit/534.16 (KHTML, like Gecko) Chrome/10.0.684.134 Safari/534.16; .NET CLR 1.1.4322; .NET CLR 2.0.50727; InfoPath.1)
-Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_2) AppleWebKit/535.7 (KHTML, like Gecko) Chrome/16.0.912.75 Safari/535.7 YI
-Mozilla/5.0 (Windows NT 5.1) AppleWebKit/535.2 (KHTML, like Gecko) Chrome/15.0.874.106 Safari/535.2
-Mozilla/5.0 (Windows NT 5.1) AppleWebKit/535.2 (KHTML, like Gecko) Chrome/15.0.874.106 Safari/535.2
-Mozilla/5.0 (Windows NT 5.1) AppleWebKit/535.2 (KHTML, like Gecko) Chrome/15.0.874.121 Safari/535.2
-Mozilla/5.0 (Windows NT 5.1) AppleWebKit/535.2 (KHTML, like Gecko) Chrome/15.0.874.121 Safari/535.2
-Mozilla/5.0 (Windows NT 6.1) AppleWebKit/535.2 (KHTML, like Gecko) Chrome/15.0.874.106 Safari/535.2
-Mozilla/5.0 (Windows NT 5.1) AppleWebKit/535.2 (KHTML, like Gecko) Chrome/15.0.874.106 Safari/535.2
-Mozilla/5.0 (Windows NT 5.1) AppleWebKit/535.2 (KHTML, like Gecko) Chrome/15.0.874.106 Safari/535.2
-Mozilla/5.0 (Windows NT 5.1) AppleWebKit/535.2 (KHTML, like Gecko) Chrome/15.0.874.121 Safari/535.2
-Mozilla/5.0 (Windows NT 5.1) AppleWebKit/535.2 (KHTML, like Gecko) Chrome/15.0.874.121 Safari/535.2
-Mozilla/5.0 (Windows NT 6.1) AppleWebKit/535.2 (KHTML, like Gecko) Chrome/15.0.874.106 Safari/535.2
 Midori/0.2 (X11; Linux; U; ru-ru) WebKit/531.2+
-Midori/0.2 (X11; Linux; U; ru-ru) WebKit/531.2+
-Midori/0.2.2 (X11; Linux i686; U; ru-ru) WebKit/531.2+
 Midori/0.2.2 (X11; Linux i686; U; ru-ru) WebKit/531.2+
 Mozilla/5.0 (Macintosh; U; Intel Mac OS X; ru-ru) AppleWebKit/531+ (KHTML, like Gecko) Version/5.0 Safari/531.2+ Midori/0.4
-Midori/0.2 (X11; Linux; U; ru-ru) WebKit/531.2+
-Midori/0.2 (X11; Linux; U; ru-ru) WebKit/531.2+
-Midori/0.2.2 (X11; Linux i686; U; ru-ru) WebKit/531.2+
-Midori/0.2.2 (X11; Linux i686; U; ru-ru) WebKit/531.2+
 Midori/0.3 (X11; Linux; U; ru-ru) WebKit/531.2+
 Mozilla/5.0 (QtEmbedded; U; Linux; C -) AppleWebKit/527+ (KHTML, like Gecko, Safari/419.3) Arora/0.10.2
-Mozilla/5.0 (QtEmbedded; U; Linux; C -) AppleWebKit/527+ (KHTML, like Gecko, Safari/419.3) Arora/0.10.2
-Mozilla/5.0 (X11; U; Linux; ru-RU) AppleWebKit/532.4 (KHTML, like Gecko) Arora/0.10.2 Safari/532.4
-Mozilla/5.0 (X11; U; Linux; ru-RU) AppleWebKit/532.4 (KHTML, like Gecko) Arora/0.10.2 Safari/532.4
-Mozilla/5.0 (Windows; U; Windows NT 5.1; ru-RU) AppleWebKit/527+ (KHTML, like Gecko, Safari/419.3) Arora/0.10.0
-Mozilla/5.0 (QtEmbedded; U; Linux; C -) AppleWebKit/527+ (KHTML, like Gecko, Safari/419.3) Arora/0.10.2
-Mozilla/5.0 (QtEmbedded; U; Linux; C -) AppleWebKit/527+ (KHTML, like Gecko, Safari/419.3) Arora/0.10.2
-Mozilla/5.0 (X11; U; Linux; ru-RU) AppleWebKit/532.4 (KHTML, like Gecko) Arora/0.10.2 Safari/532.4
 Mozilla/5.0 (X11; U; Linux; ru-RU) AppleWebKit/532.4 (KHTML, like Gecko) Arora/0.10.2 Safari/532.4
 Mozilla/5.0 (Windows; U; Windows NT 5.1; ru-RU) AppleWebKit/527+ (KHTML, like Gecko, Safari/419.3) Arora/0.10.0
 Mozilla/5.0 (Macintosh; U; PPC Mac OS X; en-US) AppleWebKit/125.4 (KHTML, like Gecko, Safari) OmniWeb/v563.15
-Mozilla/5.0 (Macintosh; U; PPC Mac OS X; en-US) AppleWebKit/125.4 (KHTML, like Gecko, Safari) OmniWeb/v563.15
-Mozilla/5.0 (Macintosh; U; PowerPC Mac OS X 10_4_11; en-US) AppleWebKit/531.21.8+(KHTML, like Gecko, Safari/528.16) Version/5.10.3 OmniWeb/622.14.0
 Mozilla/5.0 (Macintosh; U; PowerPC Mac OS X 10_4_11; en-US) AppleWebKit/531.21.8+(KHTML, like Gecko, Safari/528.16) Version/5.10.3 OmniWeb/622.14.0
 Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_7_2; en-US) AppleWebKit/533.21.1+(KHTML, like Gecko, Safari/533.19.4) Version/5.11.1 OmniWeb/622.17.0
-Mozilla/5.0 (Macintosh; U; PPC Mac OS X; en-US) AppleWebKit/125.4 (KHTML, like Gecko, Safari) OmniWeb/v563.15
-Mozilla/5.0 (Macintosh; U; PPC Mac OS X; en-US) AppleWebKit/125.4 (KHTML, like Gecko, Safari) OmniWeb/v563.15
 Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_8; en-US) AppleWebKit/531.9+(KHTML, like Gecko, Safari/528.16) OmniWeb/v622.10.0
-Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_8; en-US) AppleWebKit/531.9+(KHTML, like Gecko, Safari/528.16) OmniWeb/v622.10.0
-Mozilla/5.0 (Macintosh; U; PPC Mac OS X; en-US) AppleWebKit/125.4 (KHTML, like Gecko, Safari) OmniWeb/v563.15
 Mozilla/5.0 (Windows; U; Windows NT 6.1; ) AppleWebKit/534.12 (KHTML, like Gecko) Maxthon/3.0 Safari/534.12
-Mozilla/5.0 (Windows; U; Windows NT 6.1; ) AppleWebKit/534.12 (KHTML, like Gecko) Maxthon/3.0 Safari/534.12
-Mozilla/5.0 (Windows; U; Windows NT 5.1; ) AppleWebKit/534.12 (KHTML, like Gecko) Maxthon/3.0 Safari/534.12
-Mozilla/5.0 (Windows; U; Windows NT 5.1; ) AppleWebKit/534.12 (KHTML, like Gecko) Maxthon/3.0 Safari/534.12
-Mozilla/5.0 (Windows; U; Windows NT 5.1; ) AppleWebKit/533.9 (KHTML, like Gecko) Maxthon/3.0 Safari/533.9
-Mozilla/5.0 (Windows; U; Windows NT 6.1; ) AppleWebKit/534.12 (KHTML, like Gecko) Maxthon/3.0 Safari/534.12
-Mozilla/5.0 (Windows; U; Windows NT 6.1; ) AppleWebKit/534.12 (KHTML, like Gecko) Maxthon/3.0 Safari/534.12
-Mozilla/5.0 (Windows; U; Windows NT 5.1; ) AppleWebKit/534.12 (KHTML, like Gecko) Maxthon/3.0 Safari/534.12
 Mozilla/5.0 (Windows; U; Windows NT 5.1; ) AppleWebKit/534.12 (KHTML, like Gecko) Maxthon/3.0 Safari/534.12
 Mozilla/5.0 (Windows; U; Windows NT 5.1; ) AppleWebKit/533.9 (KHTML, like Gecko) Maxthon/3.0 Safari/533.9
 Mozilla/5.0 (X11; U; Linux i686; ru-RU) AppleWebKit/533.3 (KHTML, like Gecko) rekonq Safari/533.3
-Mozilla/5.0 (X11; U; Linux i686; ru-RU) AppleWebKit/533.3 (KHTML, like Gecko) rekonq Safari/533.3
-Mozilla/5.0 (X11; Linux i686) AppleWebKit/534.34 (KHTML, like Gecko) rekonq Safari/534.34
 Mozilla/5.0 (X11; Linux i686) AppleWebKit/534.34 (KHTML, like Gecko) rekonq Safari/534.34
 Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/534.34 (KHTML, like Gecko) rekonq Safari/534.34
-iTunes/7.5 (Windows; U; Microsoft Windows XP Professional Service Pack 2 (Build 2600)) DPI/96
-iTunes/7.5 (Windows; U; Microsoft Windows XP Professional Service Pack 2 (Build 2600)) DPI/96
-iTunes/10.3.1 (Windows; Microsoft Windows 7 x64 Ultimate Edition (Build 7600)) AppleWebKit/533.21.1
-iTunes/10.3.1 (Windows; Microsoft Windows 7 x64 Ultimate Edition (Build 7600)) AppleWebKit/533.21.1
-iTunes/10.5.1 (Windows; Microsoft Windows 7 x64 Home Premium Edition Service Pack 1 (Build 7601)) AppleWebKit/534.51.22
-iTunes/7.5 (Windows; U; Microsoft Windows XP Professional Service Pack 2 (Build 2600)) DPI/96
-iTunes/7.5 (Windows; U; Microsoft Windows XP Professional Service Pack 2 (Build 2600)) DPI/96
-iTunes/10.3.1 (Windows; Microsoft Windows 7 x64 Ultimate Edition (Build 7600)) AppleWebKit/533.21.1
 iTunes/10.3.1 (Windows; Microsoft Windows 7 x64 Ultimate Edition (Build 7600)) AppleWebKit/533.21.1
 iTunes/10.5.1 (Windows; Microsoft Windows 7 x64 Home Premium Edition Service Pack 1 (Build 7601)) AppleWebKit/534.51.22
 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_6_8) AppleWebKit/534.51.22 (KHTML, like Gecko) Version/5.1.1 Safari/534.51.22
-Mozilla/5.0 (Macintosh; Intel Mac OS X 10_6_8) AppleWebKit/534.51.22 (KHTML, like Gecko) Version/5.1.1 Safari/534.51.22
-Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_2) AppleWebKit/534.51.22 (KHTML, like Gecko) Version/5.1.1 Safari/534.51.22
-Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_2) AppleWebKit/534.51.22 (KHTML, like Gecko) Version/5.1.1 Safari/534.51.22
-Mozilla/5.0 (Macintosh; Intel Mac OS X 10_5_8) AppleWebKit/534.50.2 (KHTML, like Gecko) Version/5.0.6 Safari/533.22.3
-Mozilla/5.0 (Macintosh; Intel Mac OS X 10_6_8) AppleWebKit/534.51.22 (KHTML, like Gecko) Version/5.1.1 Safari/534.51.22
-Mozilla/5.0 (Macintosh; Intel Mac OS X 10_6_8) AppleWebKit/534.51.22 (KHTML, like Gecko) Version/5.1.1 Safari/534.51.22
-Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_2) AppleWebKit/534.51.22 (KHTML, like Gecko) Version/5.1.1 Safari/534.51.22
 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_2) AppleWebKit/534.51.22 (KHTML, like Gecko) Version/5.1.1 Safari/534.51.22
 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_5_8) AppleWebKit/534.50.2 (KHTML, like Gecko) Version/5.0.6 Safari/533.22.3
 Mozilla/5.0 (Macintosh; U; PPC Mac OS X 10_4_11; en) AppleWebKit/525.18 (KHTML, like Gecko) iCab/4.8 Safari/533.16
-Mozilla/5.0 (Macintosh; U; PPC Mac OS X 10_4_11; en) AppleWebKit/525.18 (KHTML, like Gecko) iCab/4.8 Safari/533.16
-Mozilla/5.0 (Macintosh; U; PPC Mac OS X 10_4_11; ru-ru) AppleWebKit/533.19.4 (KHTML, like Gecko) iCab/4.8 Safari/533.16
-Mozilla/5.0 (Macintosh; U; PPC Mac OS X 10_4_11; ru-ru) AppleWebKit/533.19.4 (KHTML, like Gecko) iCab/4.8 Safari/533.16
-Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_7; nn-no) AppleWebKit/533.21.1 (KHTML, like Gecko) iCab/4.8b Safari/533.16
-Mozilla/5.0 (Macintosh; U; PPC Mac OS X 10_4_11; en) AppleWebKit/525.18 (KHTML, like Gecko) iCab/4.8 Safari/533.16
-Mozilla/5.0 (Macintosh; U; PPC Mac OS X 10_4_11; en) AppleWebKit/525.18 (KHTML, like Gecko) iCab/4.8 Safari/533.16
-Mozilla/5.0 (Macintosh; U; PPC Mac OS X 10_4_11; ru-ru) AppleWebKit/533.19.4 (KHTML, like Gecko) iCab/4.8 Safari/533.16
 Mozilla/5.0 (Macintosh; U; PPC Mac OS X 10_4_11; ru-ru) AppleWebKit/533.19.4 (KHTML, like Gecko) iCab/4.8 Safari/533.16
 Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_7; nn-no) AppleWebKit/533.21.1 (KHTML, like Gecko) iCab/4.8b Safari/533.16
 Mozilla/5.0 (compatible; Konqueror/3.5; Linux 2.6.21-rc1; x86_64; cs, en_US) KHTML/3.5.6 (like Gecko)
-Mozilla/5.0 (compatible; Konqueror/3.5; Linux 2.6.21-rc1; x86_64; cs, en_US) KHTML/3.5.6 (like Gecko)
-Mozilla/5.0 (compatible; Konqueror/3.5; Linux) KHTML/3.5.5 (like Gecko) (Debian|Debian)
 Mozilla/5.0 (compatible; Konqueror/3.5; Linux) KHTML/3.5.5 (like Gecko) (Debian|Debian)
 Mozilla/5.0 (compatible; Konqueror/3.5; Linux 2.6.16-2-k7) KHTML/3.5.0 (like Gecko) (Debian|Debian package 4:3.5.0-2bpo2)
 Mozilla/5.0 (compatible; Konqueror/3.0.0/10; Linux)
-Mozilla/5.0 (compatible; Konqueror/3.0.0/10; Linux)
-Mozilla/5.0 (compatible; Konqueror/3.1; Linux)
 Mozilla/5.0 (compatible; Konqueror/3.1; Linux)
 Mozilla/4.0 (compatible; Konqueror/3.0; ; Trident/4.0; WebMoney Advisor; User-agent: Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1); .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)
-Mozilla/5.0 (compatible; Konqueror/3.5; Linux 2.6.21-rc1; x86_64; cs, en_US) KHTML/3.5.6 (like Gecko)
-Mozilla/5.0 (compatible; Konqueror/3.5; Linux 2.6.21-rc1; x86_64; cs, en_US) KHTML/3.5.6 (like Gecko)
-Mozilla/5.0 (compatible; Konqueror/3.5; Linux) KHTML/3.5.5 (like Gecko) (Debian|Debian)
-Mozilla/5.0 (compatible; Konqueror/3.5; Linux) KHTML/3.5.5 (like Gecko) (Debian|Debian)
-Mozilla/5.0 (compatible; Konqueror/3.5; Linux 2.6.16-2-k7) KHTML/3.5.0 (like Gecko) (Debian|Debian package 4:3.5.0-2bpo2)
-Mozilla/5.0 (compatible; Konqueror/3.5; Linux 2.6.21-rc1; x86_64; cs, en_US) KHTML/3.5.6 (like Gecko)
-Mozilla/5.0 (compatible; Konqueror/3.5; Linux 2.6.21-rc1; x86_64; cs, en_US) KHTML/3.5.6 (like Gecko)
-Mozilla/5.0 (compatible; Konqueror/3.5; Linux) KHTML/3.5.5 (like Gecko) (Debian|Debian)
-Mozilla/5.0 (compatible; Konqueror/3.5; Linux) KHTML/3.5.5 (like Gecko) (Debian|Debian)
-Mozilla/5.0 (compatible; Konqueror/3.5; Linux 2.6.16-2-k7) KHTML/3.5.0 (like Gecko) (Debian|Debian package 4:3.5.0-2bpo2)
-Mozilla/5.0 (compatible; Konqueror/3.5; Linux 2.6.21-rc1; x86_64; cs, en_US) KHTML/3.5.6 (like Gecko)
-Mozilla/5.0 (compatible; Konqueror/3.5; Linux 2.6.21-rc1; x86_64; cs, en_US) KHTML/3.5.6 (like Gecko)
-Mozilla/5.0 (compatible; Konqueror/3.5; Linux) KHTML/3.5.5 (like Gecko) (Debian|Debian)
-Mozilla/5.0 (compatible; Konqueror/3.5; Linux) KHTML/3.5.5 (like Gecko) (Debian|Debian)
-Mozilla/5.0 (compatible; Konqueror/3.5; Linux 2.6.16-2-k7) KHTML/3.5.0 (like Gecko) (Debian|Debian package 4:3.5.0-2bpo2)
 Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/5.0)
-Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/5.0)
-Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0)
 Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0)
 Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)
 Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)
-Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)
-Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1)
 Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1)
 Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; .NET CLR 1.1.4322; .NET CLR 2.0.50727)
-Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/5.0)
-Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/5.0)
-Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0)
-Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0)
-Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)
-Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)
-Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)
-Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)
 Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)
 Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)
-Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/5.0)
-Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/5.0)
-Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0)
-Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0)
-Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)
 Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; Trident/4.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; GreenBrowser)
-Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; Trident/4.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; GreenBrowser)
-Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; MyIE2; MRA 5.6 (build 03278); InfoPath.1; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; GreenBrowser)
 Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; MyIE2; MRA 5.6 (build 03278); InfoPath.1; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; GreenBrowser)
 Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/5.0; GreenBrowser)
 Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; Maxthon 2.0)
-Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; Maxthon 2.0)
 Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; Maxthon)
-Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; Maxthon)
-Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; Trident/4.0; MAXTHON 2.0)
-Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; Maxthon 2.0)
-Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; Maxthon 2.0)
-Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; Trident/4.0; MAXTHON 2.0)
 Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; Trident/4.0; MAXTHON 2.0)
 Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; .NET CLR 1.1.4322; .NET CLR 2.0.50727; MAXTHON 2.0)
 Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/5.0; SlimBrowser)
-Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/5.0; SlimBrowser)
-Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0; SlimBrowser)
 Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0; SlimBrowser)
 Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; InfoPath.1; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; .NET4.0C; .NET4.0E; SlimBrowser)
 Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; Avant Browser)
-Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; Avant Browser)
-Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; Avant Browser)
 Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; Avant Browser)
 Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; Avant Browser)
 libwww-perl/5.834
-libwww-perl/5.834
-LWP::Simple/5.835 libwww-perl/5.836
 LWP::Simple/5.835 libwww-perl/5.836
 Lynx/2.8.4rel.1 libwww-FM/2.14
 curl/7.20.1 (i386-portbld-freebsd7.3) libcurl/7.20.1 OpenSSL/0.9.8e zlib/1.2.3
-curl/7.20.1 (i386-portbld-freebsd7.3) libcurl/7.20.1 OpenSSL/0.9.8e zlib/1.2.3
-curl/7.21.3 (amd64-portbld-freebsd8.2) libcurl/7.21.3 OpenSSL/0.9.8q zlib/1.2.3
 curl/7.21.3 (amd64-portbld-freebsd8.2) libcurl/7.21.3 OpenSSL/0.9.8q zlib/1.2.3
 curl/7.10.7 (arm-unknown-linux-gnu) libcurl/7.10.7 OpenSSL/0.9.7d zlib/1.1.4
 Python-urllib/1.17
-Python-urllib/1.17
-Python-urllib/1.16
 Python-urllib/1.16
 Python-urllib/2.6
 Wget/1.12 (freebsd8.1)
-Wget/1.12 (freebsd8.1)
-Wget/1.12 (linux-gnu)
 Wget/1.12 (linux-gnu)
 Wget/1.10.2
 Links (2.2; Linux 2.6.32-28-generic-pae i686)
-Links (2.2; Linux 2.6.32-28-generic-pae i686)
-ELinks/0.9.3 (textmode; Linux 2.6.9-kanotix-8 i686; 127x41)
 ELinks/0.9.3 (textmode; Linux 2.6.9-kanotix-8 i686; 127x41)
 ELinks (0.4pre5; Linux 2.6.10-ac7 i686; 80x33)
-Links (2.2; Linux 2.6.32-28-generic-pae i686)
-Links (2.2; Linux 2.6.32-28-generic-pae i686)
-ELinks/0.9.3 (textmode; Linux 2.6.9-kanotix-8 i686; 127x41)
-ELinks/0.9.3 (textmode; Linux 2.6.9-kanotix-8 i686; 127x41)
-ELinks (0.4pre5; Linux 2.6.10-ac7 i686; 80x33)
-Lynx/2.8.4rel.1 libwww-FM/2.14
-Lynx/2.8.4rel.1 libwww-FM/2.14
-User-Agent: Lynx/2.8.4rel.1 libwww-FM/2.14 SSL-MM/1.4.1 OpenSSL/0.9.6c
 User-Agent: Lynx/2.8.4rel.1 libwww-FM/2.14 SSL-MM/1.4.1 OpenSSL/0.9.6c
 Lynx/2.8.5rel.1 libwww-FM/2.14 SSL-MM/1.4.1 GNUTLS/0.8.12
-curl/7.20.1 (i386-portbld-freebsd7.3) libcurl/7.20.1 OpenSSL/0.9.8e zlib/1.2.3
-curl/7.20.1 (i386-portbld-freebsd7.3) libcurl/7.20.1 OpenSSL/0.9.8e zlib/1.2.3
-curl/7.21.3 (amd64-portbld-freebsd8.2) libcurl/7.21.3 OpenSSL/0.9.8q zlib/1.2.3
-curl/7.21.3 (amd64-portbld-freebsd8.2) libcurl/7.21.3 OpenSSL/0.9.8q zlib/1.2.3
-curl/7.10.7 (arm-unknown-linux-gnu) libcurl/7.10.7 OpenSSL/0.9.7d zlib/1.1.4
-Python-urllib/1.17
-Python-urllib/1.17
-Python-urllib/1.16
-Python-urllib/1.16
-Python-urllib/2.6
-Wget/1.12 (freebsd8.1)
-Wget/1.12 (freebsd8.1)
-Wget/1.12 (linux-gnu)
-Wget/1.12 (linux-gnu)
-Wget/1.10.2
-libwww-perl/5.834
-libwww-perl/5.834
-LWP::Simple/5.835 libwww-perl/5.836
-LWP::Simple/5.835 libwww-perl/5.836
 libwww-perl/5.836
-Mozilla/5.0 (Windows NT 5.1; rv:7.0.1) Gecko/20100101 Firefox/7.0.1 YB/6.0
-Mozilla/5.0 (Windows NT 5.1; rv:7.0.1) Gecko/20100101 Firefox/7.0.1 YB/6.0
-Mozilla/5.0 (Windows NT 5.1; rv:8.0) Gecko/20100101 Firefox/8.0 YB/6.1.0
-Mozilla/5.0 (Windows NT 5.1; rv:8.0) Gecko/20100101 Firefox/8.0 YB/6.1.0
-Mozilla/5.0 (Windows NT 5.1; rv:7.0.1) Gecko/20100101 Firefox/7.0.1 YB/5.4
-Mozilla/5.0 (Windows NT 5.1; rv:7.0.1) Gecko/20100101 Firefox/7.0.1 YB/6.0
-Mozilla/5.0 (Windows NT 5.1; rv:7.0.1) Gecko/20100101 Firefox/7.0.1 YB/6.0
-Mozilla/5.0 (Windows NT 5.1; rv:8.0) Gecko/20100101 Firefox/8.0 YB/6.1.0
 Mozilla/5.0 (Windows NT 5.1; rv:8.0) Gecko/20100101 Firefox/8.0 YB/6.1.0
 Mozilla/5.0 (Windows NT 5.1; rv:7.0.1) Gecko/20100101 Firefox/7.0.1 YB/5.4
 Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; WOW64; Trident/4.0; MRSPUTNIK 2, 4, 0, 226; GTB7.1; MRA 5.7 (build 03797); SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729)
-Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; WOW64; Trident/4.0; MRSPUTNIK 2, 4, 0, 226; GTB7.1; MRA 5.7 (build 03797); SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729)
-Opera/9.80 (Windows NT 5.1; U; MRSPUTNIK OW 2, 3, 0, 289; ru) Presto/2.9.168 Version/11.52
 Opera/9.80 (Windows NT 5.1; U; MRSPUTNIK OW 2, 3, 0, 289; ru) Presto/2.9.168 Version/11.52
 Opera/9.80 (Windows NT 6.1; U; MRSPUTNIK OW 2, 3, 0, 289; ru) Presto/2.9.168 Version/11.52
-Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; WOW64; Trident/4.0; MRSPUTNIK 2, 4, 0, 226; GTB7.1; MRA 5.7 (build 03797); SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729)
-Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; WOW64; Trident/4.0; MRSPUTNIK 2, 4, 0, 226; GTB7.1; MRA 5.7 (build 03797); SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729)
-Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; Trident/4.0; GTB7.1; MRA 5.8 (build 4157); MRSPUTNIK 2, 4, 0, 317; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; InfoPath.2)
 Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; Trident/4.0; GTB7.1; MRA 5.8 (build 4157); MRSPUTNIK 2, 4, 0, 317; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; InfoPath.2)
 Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; MRSPUTNIK 2, 4, 0, 387; MRA 5.8 (build 4598); SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; InfoPath.2; AskTbPTV2/5.12.2.16749)
 Mozilla/5.0 (Windows; U; Windows NT 5.1; ru; rv:1.9.2.23) Gecko/20110920 Firefox/3.6.23 sputnik 2.5.0.142
-Mozilla/5.0 (Windows; U; Windows NT 5.1; ru; rv:1.9.2.23) Gecko/20110920 Firefox/3.6.23 sputnik 2.5.0.142
-Mozilla/5.0 (Windows; U; Windows NT 5.1; ru; rv:1.9.2.24) Gecko/20111103 Firefox/3.6.24 sputnik 2.5.0.142
 Mozilla/5.0 (Windows; U; Windows NT 5.1; ru; rv:1.9.2.24) Gecko/20111103 Firefox/3.6.24 sputnik 2.5.0.142
 Mozilla/5.0 (Windows; U; Windows NT 5.1; ru; rv:1.9.2.24) Gecko/20111103 Firefox/3.6.24 sputnik 2.4.0.60
 Opera/9.80 (Windows NT 5.1; U; MRA 5.7 (build 03797); ru) Presto/2.9.168 Version/11.52
-Opera/9.80 (Windows NT 5.1; U; MRA 5.7 (build 03797); ru) Presto/2.9.168 Version/11.52
-Opera/9.80 (Windows NT 6.1; U; MRA 5.7 (build 03797); ru) Presto/2.9.168 Version/11.52
-Opera/9.80 (Windows NT 6.1; U; MRA 5.7 (build 03797); ru) Presto/2.9.168 Version/11.52
-Opera/9.80 (Windows NT 5.1; U; MRA 5.9 (build 4876); ru) Presto/2.9.168 Version/11.52
-Opera/9.80 (Windows NT 5.1; U; MRA 5.7 (build 03797); ru) Presto/2.9.168 Version/11.52
-Opera/9.80 (Windows NT 5.1; U; MRA 5.7 (build 03797); ru) Presto/2.9.168 Version/11.52
-Opera/9.80 (Windows NT 6.1; U; MRA 5.7 (build 03797); ru) Presto/2.9.168 Version/11.52
 Opera/9.80 (Windows NT 6.1; U; MRA 5.7 (build 03797); ru) Presto/2.9.168 Version/11.52
 Opera/9.80 (Windows NT 5.1; U; MRA 5.9 (build 4876); ru) Presto/2.9.168 Version/11.52
 Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0; GTB6; SLCC1; .NET CLR 2.0.50727; .NET CLR 3.0.04506)
-Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0; GTB6; SLCC1; .NET CLR 2.0.50727; .NET CLR 3.0.04506)
-Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; GTB7.1)
 Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; GTB7.1)
 Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; GTB7.1; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0)
 Mozilla/4.0 (compatible; GoogleToolbar 2.0.111-big; Windows XP 5.1)
-Mozilla/4.0 (compatible; GoogleToolbar 2.0.111-big; Windows XP 5.1)
-Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0; GoogleT5; SLCC1; .NET CLR 2.0.50727; OfficeLiveConnector.1.3; OfficeLivePatch.0.0; .NET CLR 3.5.30729; .NET CLR 3.0.30618; .NET4.0C)
 Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0; GoogleT5; SLCC1; .NET CLR 2.0.50727; OfficeLiveConnector.1.3; OfficeLivePatch.0.0; .NET CLR 3.5.30729; .NET CLR 3.0.30618; .NET4.0C)
 Mozilla/4.0 (compatible; GoogleToolbar 7.1.2003.1856; Windows 6.1; MSIE 9.0.8112.16421)
-Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0; GTB6; SLCC1; .NET CLR 2.0.50727; .NET CLR 3.0.04506)
-Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0; GTB6; SLCC1; .NET CLR 2.0.50727; .NET CLR 3.0.04506)
-Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; GTB7.1)
-Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; GTB7.1)
-Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; GTB7.1; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0)
-Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0; GoogleT5; SLCC1; .NET CLR 2.0.50727; OfficeLiveConnector.1.3; OfficeLivePatch.0.0; .NET CLR 3.5.30729; .NET CLR 3.0.30618; .NET4.0C)
-Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0; GoogleT5; SLCC1; .NET CLR 2.0.50727; OfficeLiveConnector.1.3; OfficeLivePatch.0.0; .NET CLR 3.5.30729; .NET CLR 3.0.30618; .NET4.0C)
-Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0; GoogleT5; SLCC1; .NET CLR 2.0.50727; .NET CLR 3.0.04506; OfficeLiveConnector.1.3; OfficeLivePatch.0.0)
 Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0; GoogleT5; SLCC1; .NET CLR 2.0.50727; .NET CLR 3.0.04506; OfficeLiveConnector.1.3; OfficeLivePatch.0.0)
 Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0; GoogleT5; SLCC1; .NET CLR 2.0.50727; Media Center PC 5.0; .NET CLR 3.5.30729; .NET CLR 3.0.30618; .NET4.0C)
-Opera/9.80 (Windows NT 5.1; U; ru) Presto/2.9.168 Version/11.52
-Opera/9.80 (Windows NT 5.1; U; ru) Presto/2.9.168 Version/11.52
-Opera/9.80 (Windows NT 6.1; U; ru) Presto/2.9.168 Version/11.52
-Opera/9.80 (Windows NT 6.1; U; ru) Presto/2.9.168 Version/11.52
-Opera/9.80 (Windows NT 5.1; U; Edition Yx; ru) Presto/2.9.168 Version/11.52
 Direct/2.01.000 (compatible; Win16; Dyatel; D)
-Direct/2.01.000 (compatible; Win16; Dyatel; D)
-Yandex/1.01.001 (compatible; Win16; I)
 Yandex/1.01.001 (compatible; Win16; I)
 Yandex/1.01.001 (compatible; Win16; H)
 Mozilla/4.08 [en] (WinNT; U ;Nav)
-Mozilla/4.08 [en] (WinNT; U ;Nav)
-Mozilla/4.08 [en] (WinNT; U; Nav)
 Mozilla/4.08 [en] (WinNT; U; Nav)
 Mozilla/5.0 (WinNT4.0) AppleWebKit/534.51.22 (KHTML, like Gecko) Version/5.1.1 Safari/534.51.22
 Mozilla/3.01Gold (Win95; I)
-Mozilla/3.01Gold (Win95; I)
-Mozilla/2.02E (Win95; U)
 Mozilla/2.02E (Win95; U)
 Mozilla/4.02 [en] (Win95; I)
 Mozilla/4.0 (compatible; MSIE 5.00; Windows 98)
-Mozilla/4.0 (compatible; MSIE 5.00; Windows 98)
-Mozilla/4.0 (compatible; MSIE 6.0; Windows 98)
 Mozilla/4.0 (compatible; MSIE 6.0; Windows 98)
 Mozilla/4.0 (compatible; MSIE 6.0; MSN 2.5; Windows 98)
 Mozilla/5.0 (Windows; U; Win98; ru; rv:1.8.1.20) Gecko/20081217 Firefox/2.0.0.20
-Mozilla/5.0 (Windows; U; Win98; ru; rv:1.8.1.20) Gecko/20081217 Firefox/2.0.0.20
-Mozilla/5.0 (Windows; U; Win98; en-US; rv:1.8.1.20) Gecko/20081217 Firefox/2.0.0.20
 Mozilla/5.0 (Windows; U; Win98; en-US; rv:1.8.1.20) Gecko/20081217 Firefox/2.0.0.20
 Mozilla/5.0 (Windows; U; Win98; ru; rv:1.8.1.14) Gecko/20080404 Firefox/2.0.0.14
 Opera/9.80 (Windows NT 5.0; U; ru) Presto/2.9.168 Version/11.52
-Opera/9.80 (Windows NT 5.0; U; ru) Presto/2.9.168 Version/11.52
-Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.0)
 Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.0)
 Opera/9.80 (Windows NT 5.0; U; ru) Presto/2.6.30 Version/10.63
 Mozilla/4.0 (compatible; MSIE 5.0; Windows 2000) Opera 6.03 [en]
-Mozilla/4.0 (compatible; MSIE 5.0; Windows 2000) Opera 6.03 [en]
-Mozilla/4.0 (compatible; MSIE 5.0; Windows 2000) Opera 6.0 [en]
 Mozilla/4.0 (compatible; MSIE 5.0; Windows 2000) Opera 6.0 [en]
 Mozilla/4.7 (compatible; OffByOne; Windows 2000) Webster Pro V3.4
-Opera/9.80 (Windows NT 5.1; U; ru) Presto/2.9.168 Version/11.52
-Opera/9.80 (Windows NT 5.1; U; ru) Presto/2.9.168 Version/11.52
-Opera/9.80 (Windows NT 5.1; U; Edition Yx; ru) Presto/2.9.168 Version/11.52
-Opera/9.80 (Windows NT 5.1; U; Edition Yx; ru) Presto/2.9.168 Version/11.52
-Mozilla/5.0 (Windows NT 5.1) AppleWebKit/535.2 (KHTML, like Gecko) Chrome/15.0.874.106 Safari/535.2
-iTunes/7.5 (Windows; U; Microsoft Windows XP Professional Service Pack 2 (Build 2600)) DPI/96
-iTunes/7.5 (Windows; U; Microsoft Windows XP Professional Service Pack 2 (Build 2600)) DPI/96
-Mozilla/4.0 (compatible; GoogleToolbar 2.0.111-big; Windows XP 5.1)
-Mozilla/4.0 (compatible; GoogleToolbar 2.0.111-big; Windows XP 5.1)
 Mozilla/4.0 (compatible; MSIE 6.0; Windows XP)
 Opera/9.80 (Windows NT 5.2; U; ru) Presto/2.9.168 Version/11.52
-Opera/9.80 (Windows NT 5.2; U; ru) Presto/2.9.168 Version/11.52
-Opera/9.80 (Windows NT 5.2; U; ru) Presto/2.5.22 Version/10.50
 Opera/9.80 (Windows NT 5.2; U; ru) Presto/2.5.22 Version/10.50
 Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.2; Trident/4.0; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)
 Opera/9.80 (Windows NT 6.0; U; ru) Presto/2.9.168 Version/11.52
-Opera/9.80 (Windows NT 6.0; U; ru) Presto/2.9.168 Version/11.52
-Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.0; Trident/5.0)
-Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.0; Trident/5.0)
 Mozilla/5.0 (Windows NT 6.0) AppleWebKit/535.2 (KHTML, like Gecko) Chrome/15.0.874.106 Safari/535.2
-Opera/9.80 (Windows NT 6.1; U; ru) Presto/2.9.168 Version/11.52
-Opera/9.80 (Windows NT 6.1; U; ru) Presto/2.9.168 Version/11.52
-Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/5.0)
-Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/5.0)
-Opera/9.80 (Windows NT 6.1; U; Edition Yx; ru) Presto/2.9.168 Version/11.52
-Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 7.0) PTX
-Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 7.0) PTX
-Mozilla/5.0 (compatible; MSIE 8.0; Windows NT 7.0; en) Gecko/20081208 Firefox/2.0.0 Opera 10.00
-Mozilla/5.0 (compatible; MSIE 8.0; Windows NT 7.0; en) Gecko/20081208 Firefox/2.0.0 Opera 10.00
-Mozilla/5.0 (Windows; U; Windows NT 7.0; en-US; rv:1.9.1.8) Gecko/20100202 Firefox/3.5.8 (.NET CLR 3.5.30729)
 Opera/9.80 (Windows NT 6.2; U; ru) Presto/2.9.168 Version/11.52
-Opera/9.80 (Windows NT 6.2; U; ru) Presto/2.9.168 Version/11.52
-Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.2; WOW64; Trident/5.0)
 Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.2; WOW64; Trident/5.0)
 Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.2; Trident/5.0)
-Mozilla/4.0 (compatible; MSIE 5.5; Windows NT 4.0)
-Mozilla/4.0 (compatible; MSIE 5.5; Windows NT 4.0)
-Mozilla/5.0 (Windows NT 4.0) AppleWebKit/535.2 (KHTML, like Gecko) Chrome/15.0.874.106 Safari/535.2
-Mozilla/5.0 (Windows NT 4.0) AppleWebKit/535.2 (KHTML, like Gecko) Chrome/15.0.874.106 Safari/535.2
-Mozilla/5.0 (Windows NT 4.0) AppleWebKit/535.2 (KHTML, like Gecko) Chrome/15.0.874.121 Safari/535.2
-Mozilla/1.22 (compatible; MSIE 1.5; Windows NT)
-Mozilla/1.22 (compatible; MSIE 1.5; Windows NT)
-Mozilla/4.0 (compatible; MSIE 4.01; Windows NT)
-Mozilla/4.0 (compatible; MSIE 4.01; Windows NT)
 Mozilla/4.0 (compatible; MSIE 4.01; Digital AlphaServer 1000A 4/233; Windows NT; Powered By 64-Bit Alpha Processor)
 Mozilla/5.0 (Windows; U; WinNT4.0; en-US; rv:1.2) Gecko/20021126
-Mozilla/5.0 (Windows; U; WinNT4.0; en-US; rv:1.2) Gecko/20021126
-Mozilla/5.0 (Windows; U; WinNT4.0; en-CA; rv:0.9.4) Gecko/20011128 Netscape6/6.2.1
 Mozilla/5.0 (Windows; U; WinNT4.0; en-CA; rv:0.9.4) Gecko/20011128 Netscape6/6.2.1
 Mozilla/5.0 (Windows; U; WinNT4.0; ru; rv:1.9.2.8) Gecko/20100722 Firefox/3.6.8 WebMoney Advisor YB/5.4
-Mozilla/4.08 [en] (WinNT; U ;Nav)
-Mozilla/4.08 [en] (WinNT; U ;Nav)
-Mozilla/4.08 [en] (WinNT; U; Nav)
-Mozilla/4.08 [en] (WinNT; U; Nav)
 Mozilla/4.0 (WinNT; I; OVIS)
 Mozilla/4.0 (compatible; MSIE 6.0; Windows ME) Opera 7.11 [en]
-Mozilla/4.0 (compatible; MSIE 6.0; Windows ME) Opera 7.11 [en]
-Mozilla/4.0 (compatible; MSIE 5.0; Windows ME) Opera 6.01 [ru]
 Mozilla/4.0 (compatible; MSIE 5.0; Windows ME) Opera 6.01 [ru]
 Opera/9.64 (Windows ME; U; ru) Presto/2.1.1
 Opera/9.80 (Windows 95; U; ru) Presto/2.9.168 Version/11.51
-Opera/9.80 (Windows 95; U; ru) Presto/2.9.168 Version/11.51
-Mozilla/1.22 (compatible; MSIE 2.0; Windows 95)
 Mozilla/1.22 (compatible; MSIE 2.0; Windows 95)
 Opera/9.80 (Windows 95; U; ru) Presto/2.9.168 Version/11.52
 Mozilla/5.0 (Windows; U; Win95; rv:1.8.1) Gecko/20061010 Firefox/2.0
-Mozilla/5.0 (Windows; U; Win95; rv:1.8.1) Gecko/20061010 Firefox/2.0
-Mozilla/3.01Gold (Win95; I)
-Mozilla/3.01Gold (Win95; I)
 Mozilla/5.0 (Windows; U; Win95; en-US; rv:1.7.11) Gecko/20050728
-Direct/2.01.000 (compatible; Win16; Dyatel; D)
-Direct/2.01.000 (compatible; Win16; Dyatel; D)
-Yandex/1.01.001 (compatible; Win16; I)
-Yandex/1.01.001 (compatible; Win16; I)
-Yandex/1.01.001 (compatible; Win16; H)
-Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0)
-Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0)
-Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/535.2 (KHTML, like Gecko) Chrome/15.0.874.106 Safari/535.2
-Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/535.2 (KHTML, like Gecko) Chrome/15.0.874.106 Safari/535.2
-Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/535.2 (KHTML, like Gecko) Chrome/15.0.874.121 Safari/535.2
 Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Win64; x64; Trident/5.0)
-Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Win64; x64; Trident/5.0)
-Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Win64; x64; Trident/5.0; MAAU)
 Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Win64; x64; Trident/5.0; MAAU)
 Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Win64; x64; Trident/4.0; .NET CLR 2.0.50727; SLCC2; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0)
 ESS Update (Windows; U; 32bit; VDB 10171; BPC 4.2.40.0; OS: 6.1.7601 SP 1.0 NT; CH 1.1; LNG 1033; x64c; UPD AUTOSELECT; APP ess; BEO 1; CPU 30540; ASP 0.0; FW 0.0; PX 0; PUA 1)
-ESS Update (Windows; U; 32bit; VDB 10171; BPC 4.2.40.0; OS: 6.1.7601 SP 1.0 NT; CH 1.1; LNG 1033; x64c; UPD AUTOSELECT; APP ess; BEO 1; CPU 30540; ASP 0.0; FW 0.0; PX 0; PUA 1)
-ESS Update (Windows; U; 32bit; VDB 10088; BPC 4.2.64.12; OS: 6.1.7600 SP 0.0 NT; CH 0.0; LNG 1049; x64c; UPD AUTOSELECT; APP eav; BEO 1; CPU 30540; ASP 0.10; FW 0.0)
 ESS Update (Windows; U; 32bit; VDB 10088; BPC 4.2.64.12; OS: 6.1.7600 SP 0.0 NT; CH 0.0; LNG 1049; x64c; UPD AUTOSELECT; APP eav; BEO 1; CPU 30540; ASP 0.10; FW 0.0)
 ESS Update (Windows; U; 32bit; VDB 10269; BPC 4.2.64.12; OS: 6.1.7600 SP 0.0 NT; CH 0.0; LNG 1049; x64c; UPD AUTOSELECT; APP eav; BEO 1; CPU 161612; ASP 0.10; FW 0.0; PX 0; PUA 1)
 Opera/9.01 (X11; OpenBSD i386; U; en)
-Opera/9.01 (X11; OpenBSD i386; U; en)
-Mozilla/5.0 (X11; OpenBSD i386; rv:5.0) Gecko/20100101 Firefox/5.0
 Mozilla/5.0 (X11; OpenBSD i386; rv:5.0) Gecko/20100101 Firefox/5.0
 Mozilla/5.0 (X11; U; OpenBSD i386; en-US; rv:1.7.13) Gecko/20060901
 NetSurf/1.2 (NetBSD; amd64)
-NetSurf/1.2 (NetBSD; amd64)
-Mozilla/4.01 (compatible; MSIE 6.0; NetBSD i386; Trident/4.0; MRA 5.7 (build 03797); InfoPath.2; .NET CLR 2.0.50727)
 Mozilla/4.01 (compatible; MSIE 6.0; NetBSD i386; Trident/4.0; MRA 5.7 (build 03797); InfoPath.2; .NET CLR 2.0.50727)
 Mozilla/5.0 (compatible; Konqueror/3.5; NetBSD 4.0_RC3; X11) KHTML/3.5.7 (like Gecko)
-Wget/1.12 (freebsd8.1)
-Wget/1.12 (freebsd8.1)
-curl/7.20.1 (i386-portbld-freebsd7.3) libcurl/7.20.1 OpenSSL/0.9.8e zlib/1.2.3
-curl/7.20.1 (i386-portbld-freebsd7.3) libcurl/7.20.1 OpenSSL/0.9.8e zlib/1.2.3
-curl/7.21.3 (amd64-portbld-freebsd8.2) libcurl/7.21.3 OpenSSL/0.9.8q zlib/1.2.3
 Mozilla/5.0 (X11; U; Linux x86_64; en-US; rv:1.9.2.23) Gecko/20110921 Ubuntu/10.04 (lucid) Firefox/3.6.23
-Mozilla/5.0 (X11; U; Linux x86_64; en-US; rv:1.9.2.23) Gecko/20110921 Ubuntu/10.04 (lucid) Firefox/3.6.23
-Mozilla/5.0 (X11; Linux i686; rv:7.0.1) Gecko/20100101 Firefox/7.0.1
-Mozilla/5.0 (X11; Linux i686; rv:7.0.1) Gecko/20100101 Firefox/7.0.1
-Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.1.8) Gecko/20100216 Fedora/3.5.8-1.fc12 Firefox/3.5.8
 Mozilla/4.0 (compatible; MSIE 5.0; SunOS 5.9 sun4u; X11)
-Mozilla/4.0 (compatible; MSIE 5.0; SunOS 5.9 sun4u; X11)
-Mozilla/5.0 (X11; U; SunOS i86pc; ru-RU; rv:1.9.2.13) Gecko/20101205 Firefox/3.6.13
 Mozilla/5.0 (X11; U; SunOS i86pc; ru-RU; rv:1.9.2.13) Gecko/20101205 Firefox/3.6.13
 Mozilla/5.0 (X11; U; SunOS sun4u; ru-RU; rv:1.9.2.17) Gecko/20110422 Firefox/3.6.17
 JoeDog/1.00 [en] (X11; I; Siege 2.70)
-JoeDog/1.00 [en] (X11; I; Siege 2.70)
-Mozilla/4.77 [en] (X11; I; IRIX;64 6.5 IP30)
 Mozilla/4.77 [en] (X11; I; IRIX;64 6.5 IP30)
 Philips X116
 Mozilla/4.0 (compatible; MSIE 5.0; UNIX) [en]
-Mozilla/4.0 (compatible; MSIE 5.0; UNIX) [en]
-Mozilla/5.0 (compatible; ShunixBot/1.x; http://www.uh6xzjd7.com/bot.htm)
 Mozilla/5.0 (compatible; ShunixBot/1.x; http://www.uh6xzjd7.com/bot.htm)
 Mozilla/5.0 (compatible; ShunixBot/1.x; http://www.l1t65rdcpr4.com/bot.htm)
 Mozilla/5.0 (Photon; U; QNX x86pc; en-US; rv:1.6) Gecko/20040429
-Mozilla/5.0 (Photon; U; QNX x86pc; en-US; rv:1.6) Gecko/20040429
 Mozilla/5.0 (Photon; U; QNX x86pc; en-US; rv:1.8.1.20) Gecko/20090127 BonEcho/2.0.0.20
-Mozilla/5.0 (Photon; U; QNX x86pc; en-US; rv:1.8.1.20) Gecko/20090127 BonEcho/2.0.0.20
-Mozilla/5.0 (Photon; U; QNX x86pc; en-US; rv:1.6) Gecko/20040429
-Opera/9.01 (X11; OpenBSD i386; U; en)
-Opera/9.01 (X11; OpenBSD i386; U; en)
-Mozilla/5.0 (X11; OpenBSD i386; rv:5.0) Gecko/20100101 Firefox/5.0
-Mozilla/5.0 (X11; OpenBSD i386; rv:5.0) Gecko/20100101 Firefox/5.0
-Mozilla/5.0 (X11; U; OpenBSD i386; en-US; rv:1.7.13) Gecko/20060901
-Mozilla/5.0 (X11; U; Linux x86_64; en-US; rv:1.9.2.23) Gecko/20110921 Ubuntu/10.04 (lucid) Firefox/3.6.23
-Mozilla/5.0 (X11; U; Linux x86_64; en-US; rv:1.9.2.23) Gecko/20110921 Ubuntu/10.04 (lucid) Firefox/3.6.23
-Mozilla/5.0 (X11; Linux i686; rv:7.0.1) Gecko/20100101 Firefox/7.0.1
-Mozilla/5.0 (X11; Linux i686; rv:7.0.1) Gecko/20100101 Firefox/7.0.1
-Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.1.8) Gecko/20100216 Fedora/3.5.8-1.fc12 Firefox/3.5.8
-Mozilla/4.0 (compatible; MSIE 5.0; UNIX) [en]
-Mozilla/4.0 (compatible; MSIE 5.0; UNIX) [en]
 Surf/0.4.1 (X11; U; Unix; en-US) AppleWebKit/531.2+ Compatible (Safari)
-Surf/0.4.1 (X11; U; Unix; en-US) AppleWebKit/531.2+ Compatible (Safari)
-Mozilla/5.0 (compatible; ShunixBot/1.x; http://www.uh6xzjd7.com/bot.htm)
-Mozilla/5.0 (Photon; U; QNX x86pc; en-US; rv:1.6) Gecko/20040429
-Mozilla/5.0 (Photon; U; QNX x86pc; en-US; rv:1.6) Gecko/20040429
-Mozilla/5.0 (Photon; U; QNX x86pc; en-US; rv:1.8.1.20) Gecko/20090127 BonEcho/2.0.0.20
-Mozilla/5.0 (Photon; U; QNX x86pc; en-US; rv:1.8.1.20) Gecko/20090127 BonEcho/2.0.0.20
-Mozilla/5.0 (Photon; U; QNX x86pc; en-US; rv:1.6) Gecko/20040429
-Mozilla/4.0 (compatible; MSIE 5.0; SunOS 5.9 sun4u; X11)
-Mozilla/4.0 (compatible; MSIE 5.0; SunOS 5.9 sun4u; X11)
-Mozilla/5.0 (X11; U; SunOS i86pc; ru-RU; rv:1.9.2.13) Gecko/20101205 Firefox/3.6.13
-Mozilla/5.0 (X11; U; SunOS i86pc; ru-RU; rv:1.9.2.13) Gecko/20101205 Firefox/3.6.13
-Mozilla/5.0 (X11; U; SunOS sun4u; ru-RU; rv:1.9.2.17) Gecko/20110422 Firefox/3.6.17
-Wget/1.12 (freebsd8.1)
-Wget/1.12 (freebsd8.1)
-curl/7.20.1 (i386-portbld-freebsd7.3) libcurl/7.20.1 OpenSSL/0.9.8e zlib/1.2.3
-curl/7.20.1 (i386-portbld-freebsd7.3) libcurl/7.20.1 OpenSSL/0.9.8e zlib/1.2.3
-curl/7.21.3 (amd64-portbld-freebsd8.2) libcurl/7.21.3 OpenSSL/0.9.8q zlib/1.2.3
-NetSurf/1.2 (NetBSD; amd64)
-NetSurf/1.2 (NetBSD; amd64)
-Mozilla/4.01 (compatible; MSIE 6.0; NetBSD i386; Trident/4.0; MRA 5.7 (build 03797); InfoPath.2; .NET CLR 2.0.50727)
-Mozilla/4.01 (compatible; MSIE 6.0; NetBSD i386; Trident/4.0; MRA 5.7 (build 03797); InfoPath.2; .NET CLR 2.0.50727)
-Mozilla/5.0 (compatible; Konqueror/3.5; NetBSD 4.0_RC3; X11) KHTML/3.5.7 (like Gecko)
-JoeDog/1.00 [en] (X11; I; Siege 2.70)
-JoeDog/1.00 [en] (X11; I; Siege 2.70)
-Mozilla/4.77 [en] (X11; I; IRIX;64 6.5 IP30)
-Mozilla/4.77 [en] (X11; I; IRIX;64 6.5 IP30)
-Philips X116
-Mozilla/5.0 (X11; U; Linux x86_64; en-US; rv:1.9.2.23) Gecko/20110921 Ubuntu/10.04 (lucid) Firefox/3.6.23
-Mozilla/5.0 (X11; U; Linux x86_64; en-US; rv:1.9.2.23) Gecko/20110921 Ubuntu/10.04 (lucid) Firefox/3.6.23
-Mozilla/5.0 (X11; Linux x86_64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1
-Mozilla/5.0 (X11; Linux x86_64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1
-Mozilla/5.0 (X11; U; Linux i686 (x86_64); en-US; rv:1.9.2.15) Gecko/20110303 Firefox/3.6.15
-curl/7.21.3 (amd64-portbld-freebsd8.2) libcurl/7.21.3 OpenSSL/0.9.8q zlib/1.2.3
-curl/7.21.3 (amd64-portbld-freebsd8.2) libcurl/7.21.3 OpenSSL/0.9.8q zlib/1.2.3
-Mozilla/5.0 (X11; U; FreeBSD amd64; en-US; rv:1.9.1.7) Gecko/20100922 Firefox/3.5.7
 Mozilla/5.0 (X11; U; FreeBSD amd64; en-US; rv:1.9.1.7) Gecko/20100922 Firefox/3.5.7
 Mozilla/5.0 (X11; FreeBSD amd64) AppleWebKit/535.2 (KHTML, like Gecko) Chrome/15.0.874.106 Safari/535.2
-Mozilla/5.0 (Macintosh; Intel Mac OS X 10_6_8) AppleWebKit/534.51.22 (KHTML, like Gecko) Version/5.1.1 Safari/534.51.22
-Mozilla/5.0 (Macintosh; Intel Mac OS X 10_6_8) AppleWebKit/534.51.22 (KHTML, like Gecko) Version/5.1.1 Safari/534.51.22
-Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_2) AppleWebKit/534.51.22 (KHTML, like Gecko) Version/5.1.1 Safari/534.51.22
-Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_2) AppleWebKit/534.51.22 (KHTML, like Gecko) Version/5.1.1 Safari/534.51.22
-Mozilla/5.0 (Macintosh; Intel Mac OS X 10_5_8) AppleWebKit/534.50.2 (KHTML, like Gecko) Version/5.0.6 Safari/533.22.3
 MacOutlook/14.10.0.110310 (Intel Mac OS X 10.7.2)
-MacOutlook/14.10.0.110310 (Intel Mac OS X 10.7.2)
-Mac OS X/10.7.2 (11C74); ExchangeWebServices/2.0 (123); Mail/5.1 (1251)
 Mac OS X/10.7.2 (11C74); ExchangeWebServices/2.0 (123); Mail/5.1 (1251)
 Mac OS X/10.6.8 (10K549); ExchangeWebServices/1.3 (61); Mail/4.5 (1084)
 acHTTP component (AppControls.com)
-acHTTP component (AppControls.com)
-MSFT-PPC/5.2.5082
 MSFT-PPC/5.2.5082
 MSFT-PPC/5.2.405
 Google/0.8.2.6553 CFNetwork/485.12.7 Darwin/10.4.0
-Google/0.8.2.6553 CFNetwork/485.12.7 Darwin/10.4.0
-locationd (unknown version) CFNetwork/485.13.9 Darwin/11.0.0
 locationd (unknown version) CFNetwork/485.13.9 Darwin/11.0.0
 $%7BPRODUCT_NAME%7D/1 CFNetwork/548.0.3 Darwin/11.0.0
-Mozilla/5.0 (Macintosh; Intel Mac OS X 10_6_8) AppleWebKit/534.51.22 (KHTML, like Gecko) Version/5.1.1 Safari/534.51.22
-Mozilla/5.0 (Macintosh; Intel Mac OS X 10_6_8) AppleWebKit/534.51.22 (KHTML, like Gecko) Version/5.1.1 Safari/534.51.22
-Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_2) AppleWebKit/534.51.22 (KHTML, like Gecko) Version/5.1.1 Safari/534.51.22
-Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_2) AppleWebKit/534.51.22 (KHTML, like Gecko) Version/5.1.1 Safari/534.51.22
-Mozilla/5.0 (Macintosh; Intel Mac OS X 10_5_8) AppleWebKit/534.50.2 (KHTML, like Gecko) Version/5.0.6 Safari/533.22.3
 Mozilla/5.0 (Macintosh; Intel Mac OS X 10.6; rv:7.0.1) Gecko/20100101 Firefox/7.0.1
-Mozilla/5.0 (Macintosh; Intel Mac OS X 10.6; rv:7.0.1) Gecko/20100101 Firefox/7.0.1
-Opera/9.80 (Macintosh; Intel Mac OS X 10.6.8; U; ru) Presto/2.9.168 Version/11.52
 Opera/9.80 (Macintosh; Intel Mac OS X 10.6.8; U; ru) Presto/2.9.168 Version/11.52
 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7) AppleWebKit/534.48.3 (KHTML, like Gecko) Version/5.1 Safari/534.48.3
 Baiduspider+(+http://www.baidu.com/search/spider.htm)
 Mozilla/5.0 (compatible; Baiduspider/2.0; +http://www.baidu.com/search/spider.html)
-Baiduspider+(+http://www.baidu.com/search/spider.htm)
 Mozilla/5.0 (compatible; Baiduspider/2.0; +http://www.baidu.com/search/spider.html)3
 Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)
 Mozilla/5.0 (compatible; bingbot/2.0 +http://www.bing.com/bingbot.htm)
-Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)
 Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
 Googlebot/2.1 (+http://www.googlebot.com/bot.html)
 Mozilla/5.0 (Windows NT 5.1; U; googlebot/2.1; ru; rv:1.9.1.6) Gecko/20091201 Firefox/3.5.6 Opera 10.70
 Mozilla/5.0 (compatible; GoogleBot/2.1; +http://www.google.com/bot.html)
-Opera/9.80 (Windows NT 5.1; U; googlebot/2.1; ru) Presto/2.9.220 Version/12.00
 Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/534.51 (KHTML, like Gecko; Google Web Preview) Chrome/12.0.742 Safari/534.51
 Mozilla/5.0 (en-us) AppleWebKit/525.13 (KHTML, like Gecko; Google Web Preview) Version/3.1 Safari/525.13
 Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/534.51 (KHTML, like Gecko; Google Web Preview) Chrome/12.0.742 Safari/534.514
 Mozilla/5.0 (Linux; U; Android 2.3.4; generic) AppleWebKit/534.51 (KHTML, like Gecko; Google Web Preview) Version/4.0 Mobile Safari/534.512
 Mediapartners-Google
 Mediapartners-Google/2.1
-Mediapartners-Google
 msnbot/2.0b (+http://search.msn.com/msnbot.htm) Test
 msnbot-media/1.1 (+http://search.msn.com/msnbot.htm)
 msnbot/2.0b (+http://search.msn.com/msnbot.htm)._
@@ -1702,3 +647,127 @@ Mozilla/5.0 (compatible; YandexNews/3.0; +http://yandex.com/bots)
 Mozilla/5.0 (compatible; YandexMetrika/2.0; +http://yandex.com/bots)
 Mozilla/5.0 (compatible; YandexBot/3.0; +http://yandex.com/bots)
 Mozilla/5.0 (compatible; YandexBot/3.0) YB/5.4
+Opera/9.80 (Windows NT 5.1; U; Edition Next; ru) Presto/2.10.229 Version/12.00
+Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; GTB7.1; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)
+Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; GTB7.1; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)
+Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; MRSPUTNIK 2, 4, 0, 270; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)
+Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; MRSPUTNIK 2, 4, 0, 270)
+Mozilla/5.0 (Windows; U; Windows NT 5.1; ru; rv:1.9.2.24) Gecko/20111103 Firefox/3.6.24 sputnik 2.5.1.2
+Opera/9.80 (Windows NT 5.2; U; ru) Presto/2.8.131 Version/11.10
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.0; .NET CLR 2.0.50727)
+Mozilla/5.0 (Windows NT 5.0; rv:7.0.1) Gecko/20100101 Firefox/7.0.1
+Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Win64; x64; Trident/4.0; .NET CLR 2.0.50727; SLCC2; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C)
+Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Win64; x64; Trident/5.0; BOIE9;RURU)
+Wget/1.11.4
+Mozilla/5.0 (Windows; U; Windows NT 6.1; ) AppleWebKit/533.9 (KHTML, like Gecko) Maxthon/3.0 Safari/533.9
+Wget/1.12 (freebsd8.2)
+Opera/9.80 (Windows NT 6.1; U; Edition Next; ru) Presto/2.9.186 Version/12.00
+Mozilla/5.0 (Windows; U; Windows NT 6.0; ) AppleWebKit/534.12 (KHTML, like Gecko) Maxthon/3.0 Safari/534.12
+Opera/7.23 (Windows 98; U) [en]
+Microsoft Internet Explorer/4.0b1 (Windows 95)
+Mozilla/2.0 (compatible; MSIE 3.01; Windows 98)
+Mozilla/5.0 (Windows NT 6.1; rv:7.0.1) Gecko/20110928 Firefox/7.0.1 SeaMonkey/2.4.1
+Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.8.0.6) Gecko/20060728 SeaMonkey/1.0.4
+curl/7.12.1 (i686-redhat-linux-gnu) libcurl/7.12.1 OpenSSL/0.9.7a zlib/1.2.1.2 libidn/0.5.6
+Opera/9.80 (Windows 95; U; ru) Presto/2.9.168 Version/11.50
+curl/7.15.5 (i486-pc-linux-gnu) libcurl/7.15.5 OpenSSL/0.9.8c zlib/1.2.3 libidn/0.6.5
+Opera/9.80 (Windows NT 6.2; U; en) Presto/2.9.168 Version/11.52
+Mozilla/5.0 (Windows NT 6.2) AppleWebKit/535.2 (KHTML, like Gecko) Chrome/15.0.874.106 Safari/535.2
+Agent/0.1 libwww-perl/5.834
+libwww-perl/6.02
+Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; Trident/4.0; Avant Browser)
+Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; Avant Browser; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)
+PHP/5.2.17
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; Maxthon; .NET CLR 1.1.4322)
+Mozilla/4.0 (compatible; MSIE 5.0; Windows NT; DigExt)
+Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0; WOW64; EasyBits GO v1.0; SLCC1; .NET CLR 2.0.50727; .NET CLR 3.0.04506; Media Center PC 5.0; InfoPath.1; Maxthon 2.0)
+Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/5.0; MAXTHON 2.0)
+Mozilla/5.0 (compatible; Konqueror/3.5; Linux 2.6.15-1.2054_FC5; X11; i686; en_US) KHTML/3.5.4 (like Gecko)
+htmlayout 3.2; Windows XP; www.terrainformatica.com )
+AntiVir-NGUpd/10.0.0.37 (ISEC; WKS; RU; AVE 8.2.4.192; VDF 7.11.5.161; Windows XP; Service Pack 3; Russia; 3e4a3eab43be49d351ef5b0a626f682870657611; 2215243278-ISECE-0000001; RU; 10.0.0.132)
+Mozilla/5.0 (X11; U; SunOS sun4u; en-US; rv:1.8.1.4) Gecko/20080130 Firefox/2.0.0.4
+Mozilla/5.0 (X11; FreeBSD amd64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1
+Mozilla/5.0 (Windows NT 6.1; rv:8.0) Gecko/20111105 Thunderbird/8.0
+Mozilla/5.0 (X11; U; Linux i686; ru; rv:1.9.0.19) Gecko/2010033100 Iceweasel/3.0.6 (Debian-3.0.6-3)
+Mozilla/5.0 (Windows; U; Windows NT 5.1; ru; rv:1.9.2.25pre) Gecko/20111104 Namoroka/3.6.25pre
+Mozilla/5.0 (X11; U; Linux i686; ru; rv:1.9.0.19) Gecko/2011081514 Iceweasel/3.0.6 (Debian-3.0.6-3)
+Mozilla/5.0 (Windows NT 6.1; rv:7.0.1) Gecko/20110929 Thunderbird/7.0.1
+Virtuoso%20Piano%20Free%203/3.1.3 CFNetwork/485.2 Darwin/10.3.1
+Mozilla/5.0 (Windows; U; Windows NT 5.1; ru-RU; rv:1.9.1.16pre) Gecko K-Meleon/1.6.0 Remix
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT; MS Search 4.0 Robot)
+locationd (unknown version) CFNetwork/485.12.7 Darwin/10.4.0
+Opera/9.80 (X11; SunOS i86pc; U; ru) Presto/2.2.15 Version/10.10
+Mozilla/5.0 (Windows; U; Windows NT 5.2 x64; en-US; rv:1.9.3a1pre) Gecko/20091008 Minefield/3.7a1pre
+iTunes-iPad-M/5.0 (16GB)
+iTunes-iPhone/4.3.3 (4; 16GB)
+Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0; GreenBrowser)
+iTunes-iPad-M/5.0 (2; 16GB)
+iTunes-iPhone/4.0.2 (4; 32GB)
+Mozilla/5.0 (X11; U; Linux x86_64; ru; rv:1.9.2.17pre) Gecko/20110326 Ubuntu/10.10 (maverick) Namoroka/3.6.17pre
+Mozilla/5.0 (Windows; U; Windows NT 6.1; ru; rv:1.9.3a3pre) Gecko/20100302 Minefield/3.7a3pre
+Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; Trident/5.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; Media Center PC 5.0; OfficeLiveConnector.1.3; OfficeLivePatch.0.0; SLCC1; Tablet PC 2.0; .NET4.0C; AskTB5.5; GreenBrowser)
+Python-urllib/2.7
+Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; GTB7.1; MRSPUTNIK 2, 4, 0, 431; EasyBits GO v1.0; .NET CLR 1.1.4322; InfoPath.2; AskTbPTV2/5.12.2.16749; .NET CLR 2.0.50727; .NET4.0C; .NET4.0E; msn OptimizedIE8;RURU; SlimBrowser)
+Mozilla/5.0 (X11; U; Linux i686; ru; rv:1.9.1.1) Gecko/20090725 Moblin/3.5.1-2.5.13.moblin2 Shiretoko/3.5.1 GTB7.1
+Mozilla/5.0 (Windows; U; Windows NT 6.0; ru-RU; rv:1.8.1.24pre) Gecko/20100228 K-Meleon/1.5.4
+Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10.6; en; rv:1.9.0.19) Gecko/2011091218 Camino/2.0.9 (like Firefox/3.0.19)
+Mozilla/5.0 (Windows; U; Win98; ru; rv:1.8.0.12) Gecko/20070508 Firefox/1.5.0.12
+Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.0; Trident/5.0; SlimBrowser)
+Mozilla/5.0 (Macintosh; U; PPC Mac OS X 10.4; ru; rv:1.9.0.19) Gecko/2011091218 Camino/2.0.9 (MultiLang) (like Firefox/3.0.19)
+Mozilla/5.0 (Windows; U; Windows NT 6.1; ru; rv:1.9.1.8pre) Gecko/20100113 Shiretoko/3.5.8pre
+Mozilla/5.0 (Macintosh; U; Intel Mac OS X; ru-ru) AppleWebKit/531+ (KHTML, like Gecko) Version/5.0 Safari/531.2+ Midori/0.3
+Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.0; Trident/4.0; GoogleT5; SLCC1; .NET CLR 2.0.50727; OfficeLiveConnector.1.3; OfficeLivePatch.0.0; .NET CLR 3.5.30729; .NET CLR 3.0.30618; InfoPath.2; .NET4.0C; BRI/2)
+Mozilla/5.0 (Windows; U; Win98; ru; rv:1.8.1.16) Gecko/20080702 Firefox/2.0.0.16
+Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0; Trident/4.0; GoogleT5; SLCC1; .NET CLR 2.0.50727; .NET CLR 3.5.30729; OfficeLiveConnector.1.5; OfficeLivePatch.1.3; .NET4.0C; .NET CLR 3.0.30729)
+Opera/9.80 (Windows ME; U; ru) Presto/2.2.15 Version/10.10
+Opera/7.50 (Windows ME; U) [en]
+Links/0.9.1 (Linux 2.4.24; i386;)
+mozilla/5.0 (compatible; firefox/4.0.1; Windows NT 5.1; Trident/4.0; Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1) ; .NET CLR 2.0.50727; .NET4.0C; .NET4.0E)
+Links (2.1pre15; Linux 2.4.26 i686; 158x61)
+Mozilla/5.0 (X11; U; Linux i686; en; rv:1.9.0.16) Gecko/20080528 Epiphany/2.22
+Mozilla/5.0 (X11; U; Linux i686; en; rv:1.9.1.5pre) Gecko/20080528 Epiphany/2.22 Firefox/3.5
+Mozilla/5.0 (X11; U; Linux i686; en-US) AppleWebKit/533.3 (KHTML, like Gecko) rekonq Safari/533.3
+PHP/SWeb.ru
+Opera/7.0 (Windows 2000; U) [en]
+Mozilla/4.0 (compatible; MSIE 6.0; MSIE 5.5; Windows 2000) [en]
+Opera/9.80 (X11; BSDX 1.8 i386; U; ru) Presto/2.5.22 Version/10.53
+Mozilla/5.0 (X11; U; AIX 005A471A4C00; en-US; rv:1.0rc2) Gecko/20020514
+Mozilla/5.0 (X11; U; Linux i686; rv:1.9.2) Gecko/20100115 Galeon/2.0
+Mozilla/5.0 (X11; U; Linux x86_64; ru-RU) AppleWebKit/533.3 (KHTML, like Gecko) rekonq Safari/533.3
+mozilla/5.0 (compatible; firefox/4.0.1; Windows NT 6.1; Trident/5.0)
+Mozilla/5.0 (OpenBSD; U; OpenBSD i386; en-US; rv:1.7.5) Gecko/20041107 Firefox/666.0
+Mozilla/5.0 (X11; U; OpenBSD i386; en-US; rv:1.9.2.13) Gecko/20110216 Firefox/3.6.13
+Midori/0.3 (X11; Linux; U; ru-ru) WebKit/534.21+
+Python-urllib/2.5
+Opera/9.23 (Mac OS X; en)
+Perian/1.2.1 (Mac OS X) Sparkle/1.0
+Mozilla/4.0 (compatible; MSIE 5.0; Windows NT; DigExt; DTS Agent
+Yandex/1.01.001 (compatible; Win16; I) YB/6.0
+Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.4b) Gecko/20030504 Mozilla Firebird/0.5+
+MSFT-PPC/5.2.5094
+Mozilla/4.0 (compatible; MSIE 4.0; Windows NT; Site Server 3.0 Robot) ACR
+Lynx/2.8.4rel.1 libwww-FM/2.14 SSL-MM/1.4.1 OpenSSL/0.9.6b
+Mozilla/3.0 (Win95; I)
+Midori/0.3 (X11; Linux; U; en-us) WebKit/534.21+
+Yandex/1.01.001 (compatible; Win16; M)
+MSFT-PPC/5.2.1601
+iTunes/8.2.1 (Windows; N)
+Ubiquam U-800 (BREW/3.1) UP.Browser/CLDC-1.0 MMP/2.0 MMP/2.0
+iTunes/8.1 (Windows; N)
+Mozilla/5.0 (X11; Linux i686) AppleWebKit/534.34 (KHTML, like Gecko) Arora/0.11.0 Safari/534.34
+Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.1.16) Gecko/20100427 Galeon/2.0.7 (Debian 2.0.7-2.1+b1)
+Ubiquam U-520 (BREW/3.1) UP.Browser/7.2.6.1.547 (GUI) MMP/2.0
+Lynx/2.8.8dev.9 libwww-FM/2.14 SSL-MM/1.4.1 GNUTLS/2.10.5
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/534.34 (KHTML, like Gecko) Arora/0.11.0 Safari/534.34
+Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.5) Gecko/20031007 Firebird/0.7
+WebTrends/3.0 (WinNT)
+Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.8.0.13pre) Gecko/20070505 Iceape/1.0.9 (Debian-1.0.11~pre071022-0etch1)
+Mozilla/4.73 [en] (Win98; I)
+Mozilla/5.0 (X11; U; Linux alpha; en-US; rv:1.9.1.16) Gecko/20101210 Iceape/2.0.11
+Mozilla/3.0 (Konqueror 2.0; Debian/1.3.3)
+Mozilla/5.0 (compatible; Konqueror/2.0.1; X11); Supports MD5-Digest; Supports gzip encoding
+Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_7_0; en-US) AppleWebKit/533.21.1+(KHTML, like Gecko, Safari/533.19.4) Version/5.11 OmniWeb/622.16.0
+TELECA-/2.0 (BREW 3.1.5; U; EN-US; SAMSUNG; SPH-M800; Teleca/Q05A/INT) MMP/2.0 Profile/MIDP-2.1 Configuration/CLDC-1.1
+Mozilla/5.0 (iPod; U; CPU like Mac OS X; ru-ru) AppleWebKit/420.1 (KHTML, like Gecko) Version/3.0 Mobile/3A110a Safari/419.3
+Mozilla/5.0 (compatible; ShunixBot/1.x; http://www.3p4eg0bsk4mes4.com/bot.htm)
+0pB8gE0pBkgm4iGhnwp7lmrk5you469zso0-n9l-B2BARMTEuMC4yLjU1Ng==
