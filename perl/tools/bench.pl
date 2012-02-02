@@ -9,11 +9,10 @@ use JSON::XS;
 use uatraits;
 
 my $detector = uatraits->new( lib::abs::path( '../../data/browser.xml' )  );
-my $data_file = lib::abs::path( '../../tests/cover.txt');
 my $js = JSON::XS->new->ascii->pretty;
 
 my @ua_list;
-open( IN, $data_file );
+open(IN,  "../../tests/cover-json.sh | ");
 while(<IN>){
     next if (m/^{/); 
     chomp;
