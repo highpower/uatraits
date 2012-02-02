@@ -25,11 +25,11 @@
 			<pattern type="string">Series 60</pattern>
 			<pattern type="string">Symbian</pattern>
 			<pattern type="string">Windows Phone</pattern>
-			<pattern type="string">WP7</pattern>			
+			<pattern type="string">ZuneWP7</pattern>			
 			<pattern type="string">Skyfire</pattern>
 			<pattern type="string">Windows CE</pattern>
 			<pattern type="string">Maemo</pattern>
-			<pattern type="string">Linux armv</pattern>
+			<pattern type="string">Fennec</pattern>
 			<pattern type="string">UCWEB</pattern>
 			<pattern type="string">UC Browser</pattern>
 			<pattern type="string">UP.Browser</pattern>
@@ -45,6 +45,7 @@
 			<pattern type="string">Kindle</pattern>
 			<pattern type="string">Minimo</pattern>
 			<pattern type="string">PlayStation Portable</pattern>
+			<pattern type="string">Tablet browser</pattern>
 			<pattern type="string">iTunes-i</pattern>
 			<pattern type="regex">MSIE.*PPC[;)]</pattern>
 			<pattern type="regex">HTC[_/]</pattern>
@@ -211,6 +212,7 @@
 				</define>
 				<define name="isTablet">
 					<pattern type="string" value="true">Tablet/</pattern>
+					<pattern type="string" value="true">Tablet browser</pattern>
 				</define>
 			</branch>
 		</branch>
@@ -234,6 +236,9 @@
 				<define name="BrowserVersion">
 					<pattern type="regex" value="$1">Firefox/(&ver;)</pattern>
 					<pattern type="regex" value="$1">Fennec/(&ver;)</pattern>
+				</define>
+				<define name="isTablet">
+					<pattern type="string" value="true">Tablet browser</pattern>
 				</define>
 			</branch>
 			<branch name="Minimo">
@@ -538,7 +543,7 @@
 			<branch name="WindowsPhone">
 				<match>
 					<pattern type="string">Windows Phone OS</pattern>
-					<pattern type="string">WP7</pattern>
+					<pattern type="string">ZuneWP7</pattern>
 				</match>
 				<define name="OSFamily" value="WindowsPhone"/>
 				<define name="isTouch" value="true"/>
@@ -772,6 +777,17 @@
 				</match>
 				<define name="BrowserName" value="Rekonq"/>
 			</branch>
+			
+			<branch name="LGBrowser">
+				<match type="any">
+					<pattern type="string">LG Browser/</pattern>
+				</match>
+				<define name="BrowserName" value="LG Browser"/>
+				<define name="BrowserVersion">
+					<pattern type="regex" value="$1">LG Browser/(&ver;)</pattern>
+				</define>
+			</branch>			
+			
 			<branch name="Safari">
 				<match type="any">
 					<pattern type="string">Safari/</pattern>
@@ -826,13 +842,7 @@
 			<define name="BrowserVersion">
 				<pattern type="string" value="8.0">Trident/4.0</pattern>
 				<pattern type="regex" value="$1">MSIE (&ver2d;)</pattern>
-			</define>
-			<branch name="GreenBrowser">
-				<match type="any">
-					<pattern type="string">GreenBrowser</pattern>
-				</match>
-				<define name="BrowserShell" value="GreenBrowser"/>
-			</branch>
+			</define>			
 			<branch name="Maxthon">
 				<match type="any">
 					<pattern type="string">Maxthon</pattern>
@@ -842,18 +852,13 @@
 					<pattern type="regex" value="$1">Maxthon(?:/|\s)(&ver2d;)</pattern>
 				</define>
 			</branch>
-			<branch name="SlimBrowser">
-				<match type="any">
-					<pattern type="string">SlimBrowser</pattern>
-				</match>
-				<define name="BrowserShell" value="SlimBrowser"/>
-			</branch>
-			<branch name="AvantBrowser">
-				<match type="any">
-					<pattern type="string">Avant Browser</pattern>
-				</match>
-				<define name="BrowserShell" value="AvantBrowser"/>
-			</branch>
+			<define name="BrowserShell">				
+				<pattern type="string" value="GreenBrowser">GreenBrowser</pattern>
+				<pattern type="string" value="AvantBrowser">Avant Browser</pattern>				
+				<pattern type="string" value="MyIE2">MyIE2</pattern>
+				<pattern type="string" value="MyIE">MyIE</pattern>
+				<pattern type="string" value="SlimBrowser">SlimBrowser</pattern>				
+			</define>			
 		</branch>
 
 		<branch name="TextBased">
@@ -909,7 +914,7 @@
 					<pattern type="string">sputnik</pattern>
 				</match>
 				<define name="MailRuSputnik" value="true"/>
-				<define name="MailRuSputnik">
+				<define name="MailRuSputnikVersion">
 					<pattern type="regex" value="$1.$2">MRSPUTNIK (\d+),\s+(\d+)</pattern>
 					<pattern type="regex" value="$1">sputnik (&ver;)</pattern>
 				</define>
@@ -984,6 +989,9 @@
 					<pattern type="string" value="true">Win64</pattern>
 					<pattern type="string" value="true">x64</pattern>
 				</define>
+				<define name="isTouch">
+					<pattern type="string" value="true">Tablet PC</pattern>					
+				</define>
 			</branch>
 
 			<branch name="Unix">
@@ -993,14 +1001,12 @@
 					<pattern type="string">FreeBSD</pattern>
 					<pattern type="string">Linux</pattern>
 					<pattern type="string">SunOS</pattern>
-					<pattern type="string">X11</pattern>
-					<pattern type="string">Unix</pattern>
+					<pattern type="string">X11</pattern>					
 					<pattern type="string">QNX</pattern>
 				</match>
 				<define name="OSFamily">
 					<pattern type="string" value="OpenBSD">OpenBSD</pattern>
-					<pattern type="string" value="Linux">Linux</pattern>
-					<pattern type="string" value="Unix">Unix</pattern>
+					<pattern type="string" value="Linux">Linux</pattern>					
 					<pattern type="string" value="QNX">QNX</pattern>
 					<pattern type="string" value="SunOS">SunOS</pattern>
 					<pattern type="string" value="FreeBSD">FreeBSD</pattern>
@@ -1010,7 +1016,74 @@
 				<define name="x64">
 					<pattern type="string" value="true">x86_64</pattern>
 					<pattern type="string" value="true">amd64</pattern>
-				</define>				
+				</define>
+				<branch name="LinuxDistr">
+					<match>
+						<pattern type="string">Linux</pattern>
+					</match>
+					<branch name="Ubuntu">
+						<match>
+							<pattern type="string">Ubuntu</pattern>
+						</match>
+						<define name="OSName">Ubuntu</define>
+						<define name="OSVersion">
+							<pattern type="regex" value="$1">Ubuntu/(&ver;)</pattern>
+						</define>
+					</branch>
+					<branch name="Mint">
+						<match>
+							<pattern type="string">Mint</pattern>
+						</match>
+						<define name="OSName">Mint</define>
+						<define name="OSVersion">
+							<pattern type="regex" value="$1">Mint/(&ver;)</pattern>
+						</define>
+					</branch>
+					<branch name="Fedora">
+						<match>
+							<pattern type="string">Fedora</pattern>
+						</match>
+						<define name="OSName">Fedora</define>
+						<define name="OSVersion">
+							<pattern type="regex" value="$1">fc(&ver;)</pattern>
+						</define>
+					</branch>
+					<branch name="Mandriva">
+						<match>
+							<pattern type="string">Mandriva</pattern>
+						</match>
+						<define name="OSName">Mandriva</define>
+						<define name="OSVersion">
+							<pattern type="regex" value="$1">mdv(&ver;)</pattern>
+						</define>
+					</branch>
+					<branch name="RedHat">
+						<match>
+							<pattern type="string">Red Hat/</pattern>
+						</match>
+						<define name="OSName">RedHat</define>
+						<define name="OSVersion">
+							<pattern type="regex" value="$1.$2">el(\d+)_(\d+)</pattern>
+							<pattern type="regex" value="$1">el(\d+)</pattern>
+						</define>
+					</branch>
+					<branch name="CentOS">
+						<match>
+							<pattern type="string">CentOS</pattern>
+						</match>
+						<define name="OSName">CentOS</define>
+						<define name="OSVersion">
+							<pattern type="regex" value="$1">el(&ver;)</pattern>
+						</define>
+					</branch>
+					<branch name="OtherDistr" type="default">						
+						<define name="OSName">
+							<pattern type="string" value="Debian">Debian</pattern>
+							<pattern type="string" value="SUSE">SUSE</pattern>
+							<pattern type="string" value="Gentoo">Gentoo</pattern>							
+						</define>						
+					</branch>
+				</branch>
 			</branch>
 			<branch name="MacOS">
 				<match type="any">

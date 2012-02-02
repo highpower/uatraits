@@ -560,7 +560,6 @@ Opera/9.80 (Windows NT 5.2; U; ru) Presto/2.9.168 Version/11.52
 Opera/9.80 (Windows NT 5.2; U; ru) Presto/2.5.22 Version/10.50
 Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.2; Trident/4.0; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)
 Opera/9.80 (Windows NT 6.0; U; ru) Presto/2.9.168 Version/11.52
-Mozilla/5.0 (Windows NT 6.0) AppleWebKit/535.2 (KHTML, like Gecko) Chrome/15.0.874.106 Safari/535.2
 Opera/9.80 (Windows NT 6.2; U; ru) Presto/2.9.168 Version/11.52
 Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.2; WOW64; Trident/5.0)
 Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.2; Trident/5.0)
@@ -590,15 +589,13 @@ NetSurf/1.2 (NetBSD; amd64)
 Mozilla/4.01 (compatible; MSIE 6.0; NetBSD i386; Trident/4.0; MRA 5.7 (build 03797); InfoPath.2; .NET CLR 2.0.50727)
 Mozilla/5.0 (compatible; Konqueror/3.5; NetBSD 4.0_RC3; X11) KHTML/3.5.7 (like Gecko)
 Mozilla/5.0 (X11; U; Linux x86_64; en-US; rv:1.9.2.23) Gecko/20110921 Ubuntu/10.04 (lucid) Firefox/3.6.23
+Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.1.8) Gecko/20100216 Fedora/3.5.8-1.fc12 Firefox/3.5.8
 Mozilla/4.0 (compatible; MSIE 5.0; SunOS 5.9 sun4u; X11)
 Mozilla/5.0 (X11; U; SunOS i86pc; ru-RU; rv:1.9.2.13) Gecko/20101205 Firefox/3.6.13
 Mozilla/5.0 (X11; U; SunOS sun4u; ru-RU; rv:1.9.2.17) Gecko/20110422 Firefox/3.6.17
 JoeDog/1.00 [en] (X11; I; Siege 2.70)
 Mozilla/4.77 [en] (X11; I; IRIX;64 6.5 IP30)
 Philips X116
-Mozilla/4.0 (compatible; MSIE 5.0; UNIX) [en]
-Mozilla/5.0 (compatible; ShunixBot/1.x; http://www.uh6xzjd7.com/bot.htm)
-Mozilla/5.0 (compatible; ShunixBot/1.x; http://www.l1t65rdcpr4.com/bot.htm)
 Mozilla/5.0 (Photon; U; QNX x86pc; en-US; rv:1.6) Gecko/20040429
 Mozilla/5.0 (Photon; U; QNX x86pc; en-US; rv:1.8.1.20) Gecko/20090127 BonEcho/2.0.0.20
 Surf/0.4.1 (X11; U; Unix; en-US) AppleWebKit/531.2+ Compatible (Safari)
@@ -647,13 +644,20 @@ Mozilla/5.0 (compatible; YandexNews/3.0; +http://yandex.com/bots)
 Mozilla/5.0 (compatible; YandexMetrika/2.0; +http://yandex.com/bots)
 Mozilla/5.0 (compatible; YandexBot/3.0; +http://yandex.com/bots)
 Mozilla/5.0 (compatible; YandexBot/3.0) YB/5.4
+Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; Tablet PC 2.0)
 Opera/9.80 (Windows NT 5.1; U; Edition Next; ru) Presto/2.10.229 Version/12.00
 Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; GTB7.1; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)
 Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; GTB7.1; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)
 Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; MRSPUTNIK 2, 4, 0, 270; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)
 Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; MRSPUTNIK 2, 4, 0, 270)
+Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; Tablet PC 2.0; .NET4.0C)
+Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; InfoPath.2; Tablet PC 2.0)
+Mozilla/5.0 (X11; U; Linux i686; ru; rv:1.9.2.23) Gecko/20110921 Ubuntu/10.04 (lucid) Firefox/3.6.23
+Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; Tablet PC 2.0)
 Mozilla/5.0 (Windows; U; Windows NT 5.1; ru; rv:1.9.2.24) Gecko/20111103 Firefox/3.6.24 sputnik 2.5.1.2
+Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; GTB7.1; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; Tablet PC 2.0)
 Opera/9.80 (Windows NT 5.2; U; ru) Presto/2.8.131 Version/11.10
+Mozilla/5.0 (X11; U; Linux i686; ru; rv:1.9.2.24) Gecko/20111107 Ubuntu/10.04 (lucid) Firefox/3.6.24
 Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.0; .NET CLR 2.0.50727)
 Mozilla/5.0 (Windows NT 5.0; rv:7.0.1) Gecko/20100101 Firefox/7.0.1
 Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Win64; x64; Trident/4.0; .NET CLR 2.0.50727; SLCC2; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C)
@@ -663,6 +667,10 @@ Mozilla/5.0 (Windows; U; Windows NT 6.1; ) AppleWebKit/533.9 (KHTML, like Gecko)
 Wget/1.12 (freebsd8.2)
 Opera/9.80 (Windows NT 6.1; U; Edition Next; ru) Presto/2.9.186 Version/12.00
 Mozilla/5.0 (Windows; U; Windows NT 6.0; ) AppleWebKit/534.12 (KHTML, like Gecko) Maxthon/3.0 Safari/534.12
+Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.8.1.2) Gecko/20070221 SUSE/2.0.0.2-6.1 Firefox/2.0.0.2
+Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.8.0.6) Gecko/20060808 Fedora/1.5.0.6-2.fc5 Firefox/1.5.0.6 pango-text
+Mozilla/5.0 (X11; U; Linux x86_64; ru; rv:1.9.1.1) Gecko/20090730 Gentoo Firefox/3.5.1
+Mozilla/5.0 (X11; U; Linux x86_64; ru; rv:1.9.0.2) Gecko/2008092702 Gentoo Firefox/3.0.2
 Opera/7.23 (Windows 98; U) [en]
 Microsoft Internet Explorer/4.0b1 (Windows 95)
 Mozilla/2.0 (compatible; MSIE 3.01; Windows 98)
@@ -672,18 +680,53 @@ curl/7.12.1 (i686-redhat-linux-gnu) libcurl/7.12.1 OpenSSL/0.9.7a zlib/1.2.1.2 l
 Opera/9.80 (Windows 95; U; ru) Presto/2.9.168 Version/11.50
 curl/7.15.5 (i486-pc-linux-gnu) libcurl/7.15.5 OpenSSL/0.9.8c zlib/1.2.3 libidn/0.6.5
 Opera/9.80 (Windows NT 6.2; U; en) Presto/2.9.168 Version/11.52
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; MyIE2)
+Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.2.9) Gecko/20100908 CentOS/3.6-2.el5.centos Firefox/3.6.9
 Mozilla/5.0 (Windows NT 6.2) AppleWebKit/535.2 (KHTML, like Gecko) Chrome/15.0.874.106 Safari/535.2
+Opera/9.80 (X11; Linux i686; U; Linux Mint; ru) Presto/2.9.168 Version/11.52
 Agent/0.1 libwww-perl/5.834
+Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; MyIE2)
+Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.2.13) Gecko/20101206 Linux Mint/9 (Isadora) Firefox/3.6.13
 libwww-perl/6.02
+Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.2.23) Gecko/20110928 Mandriva Linux/1.9.2.23-0.1mdv2010.2 (2010.2) Firefox/3.6.23
 Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; Trident/4.0; Avant Browser)
 Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; Avant Browser; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)
 PHP/5.2.17
+Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.2.13) Gecko/20101209 Mandriva Linux/1.9.2.13-0.1mdv2010.1 (2010.1) Firefox/3.6.13
+Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.2.3) Gecko/20100423 Linux Mint/9 (Isadora) Firefox/3.6.3
+Mozilla/5.0 (X11; U; Linux i686; ru; rv:1.9.2.6) Gecko/20100626 SUSE/3.6.6-1.2 Firefox/3.6.6
+Mozilla/5.0 (X11; U; Linux i686; ru; rv:1.9.1.4) Gecko/20091016 SUSE/3.5.4-1.1.2 Firefox/3.5.4
+Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.1.3) Gecko/20090914 Mandriva Linux/1.9.1.3-2mdv2010.0 (2010.0) Firefox/3.5.3
+Mozilla/5.0 (X11; U; Linux i686; ru; rv:1.9.2.23) Gecko/20110927 Fedora/3.6.23-1.fc14 Firefox/3.6.23
+Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.2.23) Gecko/20110921 Linux Mint/10 (Julia) Firefox/3.6.23
+Mozilla/5.0 (X11; U; Linux i686; ru; rv:1.8.1.14) Gecko/20080612 Fedora/2.0.0.14-20080612.fc8.acer Firefox/2.0.0.14
+Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; Trident/4.0; MyIE2)
+Mozilla/5.0 (X11; U; Linux x86_64; ru; rv:1.9.2.23) Gecko/20111006 CentOS/3.6.23-2.el6.centos Firefox/3.6.23
+Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.2.23) Gecko/20110921 Linux Mint/9 (Isadora) Firefox/3.6.23
+Mozilla/5.0 (X11; U; Linux i686; ru; rv:1.9.1.9) Gecko/20100317 SUSE/3.5.9-0.1.1 Firefox/3.5.9
+Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; Trident/4.0; MyIE2; MRA 5.8 (build 4156); EasyBits GO v1.0; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)
+Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; MyIE2; .NET CLR 1.1.4322; .NET CLR 2.0.50727)
 Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; Maxthon; .NET CLR 1.1.4322)
+Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.2.6) Gecko/20100628 Mandriva Linux/1.9.2.6-1mdv2010.1 (2010.1) Firefox/3.6.6
+Mozilla/5.0 (X11; U; Linux i686; ru; rv:1.9.2.17) Gecko/20110428 Fedora/3.6.17-1.fc13 Firefox/3.6.17
 Mozilla/4.0 (compatible; MSIE 5.0; Windows NT; DigExt)
+Mozilla/5.0 (X11; U; Linux i686; ru; rv:1.9.0.12) Gecko/2009072711 CentOS/3.0.12-1.el5.centos Firefox/3.0.12
+Mozilla/5.0 (X11; U; Linux i686; ru; rv:1.9.2.23) Gecko/20110920 SUSE/3.6.23-0.2.1 Firefox/3.6.23
 Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0; WOW64; EasyBits GO v1.0; SLCC1; .NET CLR 2.0.50727; .NET CLR 3.0.04506; Media Center PC 5.0; InfoPath.1; Maxthon 2.0)
+Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.2.9) Gecko/20100909 Mandriva Linux/1.9.2.9-0.1mdv2010.1 (2010.1) Firefox/3.6.9
+Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.2.24) Gecko/20111107 Linux Mint/9 (Isadora) Firefox/3.6.24
 Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/5.0; MAXTHON 2.0)
+Mozilla/5.0 (X11; U; Linux x86_64; ru; rv:1.9.2.13) Gecko/20101209 CentOS/3.6-2.el5.centos Firefox/3.6.13
+Mozilla/5.0 (X11; U; Linux i686; ru; rv:1.9.2.13) Gecko/20101209 CentOS/3.6-2.el5.centos Firefox/3.6.13
 Mozilla/5.0 (compatible; Konqueror/3.5; Linux 2.6.15-1.2054_FC5; X11; i686; en_US) KHTML/3.5.4 (like Gecko)
+Mozilla/5.0 (X11; U; Linux i686; pl; rv:1.9.1) Gecko/20090702 Gentoo Firefox/3.5 GTB5
+Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.0.3) Gecko/2008093011 Gentoo Firefox/3.0.3
 htmlayout 3.2; Windows XP; www.terrainformatica.com )
+Mozilla/5.0 (DirectFB; U; Linux 35230; en) AppleWebKit/531.2+ (KHTML, like Gecko) Safari/531.2+ LG Browser/4.1.4(+PORTAL_KEY+SCREEN+TUNER; LGE; 32LV3700-ZC; 04.04.10; 0x00000001;); LG NetCast.TV-2011
+Mozilla/5.0 (DirectFB; U; Linux mips; en) AppleWebKit/531.2+ (KHTML, like Gecko) Safari/531.2+ LG Browser/4.0.10(+3D+SCREEN+TUNER; LGE; 42LX6500-ZD; 03.20.16; 0x00000001;); LG NetCast.TV-2010
+Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.2.11) Gecko/20101102 Gentoo Firefox/3.6.11
+Mozilla/5.0 (DirectFB; U; Linux mips; en) AppleWebKit/531.2+ (KHTML, like Gecko) Safari/531.2+ LG Browser/4.0.10(+SCREEN+TUNER; LGE; 42LE5500-ZA; 03.20.12; 0x00000001;); LG NetCast.TV-2010
+Mozilla/5.0 (DirectFB; U; Linux 35230; en) AppleWebKit/531.2+ (KHTML, like Gecko) Safari/531.2+ LG Browser/4.1.4(+PORTAL_KEY+SCREEN+TUNER; LGE; 42LV3700-ZC; 04.04.10; 0x00000001;); LG NetCast.TV-2011
 AntiVir-NGUpd/10.0.0.37 (ISEC; WKS; RU; AVE 8.2.4.192; VDF 7.11.5.161; Windows XP; Service Pack 3; Russia; 3e4a3eab43be49d351ef5b0a626f682870657611; 2215243278-ISECE-0000001; RU; 10.0.0.132)
 Mozilla/5.0 (X11; U; SunOS sun4u; en-US; rv:1.8.1.4) Gecko/20080130 Firefox/2.0.0.4
 Mozilla/5.0 (X11; FreeBSD amd64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1
@@ -699,6 +742,7 @@ locationd (unknown version) CFNetwork/485.12.7 Darwin/10.4.0
 Opera/9.80 (X11; SunOS i86pc; U; ru) Presto/2.2.15 Version/10.10
 Mozilla/5.0 (Windows; U; Windows NT 5.2 x64; en-US; rv:1.9.3a1pre) Gecko/20091008 Minefield/3.7a1pre
 iTunes-iPad-M/5.0 (16GB)
+Mozilla/5.0 (X11; U; Linux i686 (x86_64); ru; rv:1.9.2.13) Gecko/20101206 Red Hat/3.6-2.el5 Firefox/3.6.13
 iTunes-iPhone/4.3.3 (4; 16GB)
 Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0; GreenBrowser)
 iTunes-iPad-M/5.0 (2; 16GB)
@@ -721,17 +765,22 @@ Mozilla/5.0 (Windows; U; Win98; ru; rv:1.8.1.16) Gecko/20080702 Firefox/2.0.0.16
 Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0; Trident/4.0; GoogleT5; SLCC1; .NET CLR 2.0.50727; .NET CLR 3.5.30729; OfficeLiveConnector.1.5; OfficeLivePatch.1.3; .NET4.0C; .NET CLR 3.0.30729)
 Opera/9.80 (Windows ME; U; ru) Presto/2.2.15 Version/10.10
 Opera/7.50 (Windows ME; U) [en]
+Mozilla/5.0 (X11; U; Linux i686; ru; rv:1.9.2.15) Gecko/20110322 Red Hat/3.6.15-2.el6_0 Firefox/3.6.15
+Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.7.12) Gecko/20050921 Red Hat/1.7.12-1.1.3.2
+Mozilla/5.0 (X11; U; Linux i686; ru; rv:1.9.2.18) Gecko/20110621 Red Hat/3.6.18-1.el6_1 Firefox/3.6.18
+Mozilla/5.0 (X11; U; Linux x86_64; en-US; rv:1.9.2.23) Gecko/20110928 Red Hat/3.6.23-2.el6_1 Firefox/3.6.23
 Links/0.9.1 (Linux 2.4.24; i386;)
 mozilla/5.0 (compatible; firefox/4.0.1; Windows NT 5.1; Trident/4.0; Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1) ; .NET CLR 2.0.50727; .NET4.0C; .NET4.0E)
+Mozilla/5.0 (X11; U; Linux i686; ru; rv:1.9.2.24) Gecko/20111108 Red Hat/3.6-3.el5_7 Firefox/3.6.24
 Links (2.1pre15; Linux 2.4.26 i686; 158x61)
 Mozilla/5.0 (X11; U; Linux i686; en; rv:1.9.0.16) Gecko/20080528 Epiphany/2.22
 Mozilla/5.0 (X11; U; Linux i686; en; rv:1.9.1.5pre) Gecko/20080528 Epiphany/2.22 Firefox/3.5
+Mozilla/5.0 (X11; U; Linux i686; ru; rv:1.9.2.24) Gecko/20111108 Red Hat/3.6.24-3.el6_1 Firefox/3.6.24
 Mozilla/5.0 (X11; U; Linux i686; en-US) AppleWebKit/533.3 (KHTML, like Gecko) rekonq Safari/533.3
 PHP/SWeb.ru
 Opera/7.0 (Windows 2000; U) [en]
 Mozilla/4.0 (compatible; MSIE 6.0; MSIE 5.5; Windows 2000) [en]
 Opera/9.80 (X11; BSDX 1.8 i386; U; ru) Presto/2.5.22 Version/10.53
-Mozilla/5.0 (X11; U; AIX 005A471A4C00; en-US; rv:1.0rc2) Gecko/20020514
 Mozilla/5.0 (X11; U; Linux i686; rv:1.9.2) Gecko/20100115 Galeon/2.0
 Mozilla/5.0 (X11; U; Linux x86_64; ru-RU) AppleWebKit/533.3 (KHTML, like Gecko) rekonq Safari/533.3
 mozilla/5.0 (compatible; firefox/4.0.1; Windows NT 6.1; Trident/5.0)
@@ -744,30 +793,43 @@ Perian/1.2.1 (Mac OS X) Sparkle/1.0
 Mozilla/4.0 (compatible; MSIE 5.0; Windows NT; DigExt; DTS Agent
 Yandex/1.01.001 (compatible; Win16; I) YB/6.0
 Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.4b) Gecko/20030504 Mozilla Firebird/0.5+
+Mozilla/5.0 (X11; U; Linux x86_64; en-US; rv:1.9.2.9) Gecko/20100827 Red Hat/3.6.9-2.el6 Firefox/3.6.9
 MSFT-PPC/5.2.5094
+Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.2.9) Gecko/20100827 Red Hat/3.6.9-2.el6 Firefox/3.6.9
 Mozilla/4.0 (compatible; MSIE 4.0; Windows NT; Site Server 3.0 Robot) ACR
 Lynx/2.8.4rel.1 libwww-FM/2.14 SSL-MM/1.4.1 OpenSSL/0.9.6b
 Mozilla/3.0 (Win95; I)
+Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.8.0.3) Gecko/20060526 Red Hat/1.5.0.3-0.2.EL4 Firefox/1.5.0.3 pango-text
+Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.2; Trident/4.0; MyIE.Apple0.1.0 Build 004; MRA 5.5 (build 02842); Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1) ; .NET CLR 1.1.4322; InfoPath.1; .NET CLR 2.0.50727)
 Midori/0.3 (X11; Linux; U; en-us) WebKit/534.21+
 Yandex/1.01.001 (compatible; Win16; M)
 MSFT-PPC/5.2.1601
+Mozilla/5.0 (X11; U; Linux x86_64; en-US; rv:1.9b5) Gecko/2008042803 Red Hat/3.0b5-0.beta5.6.el5 Firefox/3.0b5
 iTunes/8.2.1 (Windows; N)
 Ubiquam U-800 (BREW/3.1) UP.Browser/CLDC-1.0 MMP/2.0 MMP/2.0
 iTunes/8.1 (Windows; N)
 Mozilla/5.0 (X11; Linux i686) AppleWebKit/534.34 (KHTML, like Gecko) Arora/0.11.0 Safari/534.34
+Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; MyIE 2.0 Beta 2; MRA 5.7 (build 03686); .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; InfoPath.1)
 Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.1.16) Gecko/20100427 Galeon/2.0.7 (Debian 2.0.7-2.1+b1)
 Ubiquam U-520 (BREW/3.1) UP.Browser/7.2.6.1.547 (GUI) MMP/2.0
 Lynx/2.8.8dev.9 libwww-FM/2.14 SSL-MM/1.4.1 GNUTLS/2.10.5
 Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/534.34 (KHTML, like Gecko) Arora/0.11.0 Safari/534.34
 Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.5) Gecko/20031007 Firebird/0.7
 WebTrends/3.0 (WinNT)
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; MyIE 3.01)
+Mozilla/5.0 (X11; U; Linux armv6l; ru-RU; rv:1.9a6pre) Gecko/20080828 Firefox/3.0a1 Tablet browser 0.3.7 RX-34
 Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.8.0.13pre) Gecko/20070505 Iceape/1.0.9 (Debian-1.0.11~pre071022-0etch1)
 Mozilla/4.73 [en] (Win98; I)
+Mozilla/5.0 (X11; U; Linux armv6l; ru-RU; rv:1.9a6pre) Gecko/20080606 Firefox/3.0a1 Tablet browser 0.3.7 RX-34+RX-44+RX-48_DIABLO_4.2008.23-14
 Mozilla/5.0 (X11; U; Linux alpha; en-US; rv:1.9.1.16) Gecko/20101210 Iceape/2.0.11
 Mozilla/3.0 (Konqueror 2.0; Debian/1.3.3)
 Mozilla/5.0 (compatible; Konqueror/2.0.1; X11); Supports MD5-Digest; Supports gzip encoding
 Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_7_0; en-US) AppleWebKit/533.21.1+(KHTML, like Gecko, Safari/533.19.4) Version/5.11 OmniWeb/622.16.0
+Mozilla/5.0 (X11; U; Linux armv6l; ru-RU; rv:1.9a6pre) Gecko/20080716 Firefox/3.0a1 Tablet browser 0.3.7 RX-34+RX-44+RX-48_DIABLO_4.2008.30-2
+Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; Trident/4.0; MRSPUTNIK 2, 4, 0, 270; MRA 5.8 (build 4133); MyIE.Apple0.1.0 Build 004; EasyBits GO v1.0; GameXN GO v1.0; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; .NET4.0C; .NET4.0E; AskTB5.6; Alexa Toolbar)
 TELECA-/2.0 (BREW 3.1.5; U; EN-US; SAMSUNG; SPH-M800; Teleca/Q05A/INT) MMP/2.0 Profile/MIDP-2.1 Configuration/CLDC-1.1
+Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; WOW64; Trident/4.0; MyIE.Apple0.1.0 Build 004; GTB7.1; MRSPUTNIK 2, 4, 0, 317; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; InfoPath.2; OfficeLiveConnector.1.3; OfficeLivePatch.0.0)
 Mozilla/5.0 (iPod; U; CPU like Mac OS X; ru-ru) AppleWebKit/420.1 (KHTML, like Gecko) Version/3.0 Mobile/3A110a Safari/419.3
-Mozilla/5.0 (compatible; ShunixBot/1.x; http://www.3p4eg0bsk4mes4.com/bot.htm)
-0pB8gE0pBkgm4iGhnwp7lmrk5you469zso0-n9l-B2BARMTEuMC4yLjU1Ng==
+Mozilla/4.0 (compatible; MSIE 6.0; X11; Linux armv6l; U) Opera 8.5 [ru_RU] Tablet browser 0.0.14 RX-34_2007SE_4.2007.38-2
+Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US; rv:1.9.2a1pre) Gecko/20090317 Fennec/1.0b1
+Mozilla/4.0 (compatible; MSIE 6.0; ; Linux armv5tejl; U) Opera 8.02 [ru_RU] Tablet browser 0.0.14 RX-34_2007SE_4.2007.26-8

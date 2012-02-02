@@ -1062,19 +1062,20 @@
    <field name="BrowserEngineVersion">1.9</field>
    <field name="BrowserName">MobileFirefox</field>
    <field name="BrowserVersion">3.0</field>
+   <field name="isTablet">true</field>
    <field name="OSFamily">Linux</field>
   </answer>
  </test>
  <test>
   <question>Mozilla/5.0 (X11; U; Linux armv5tejl; en; rv:1.9.0.19) Gecko/2010072023 Firefox/3.0.6 (Debian-3.0.6-3)</question>
   <answer>
-   <field name="isMobile">true</field>
+   <field name="isMobile">false</field>
    <field name="BrowserEngine">Gecko</field>
-   <field name="isTouch">true</field>
    <field name="BrowserEngineVersion">1.9.0.19</field>
-   <field name="BrowserName">MobileFirefox</field>
-   <field name="BrowserVersion">3.0.6</field>
+   <field name="BrowserName">Firefox</field>
+   <field name="BrowserVersion">3.0</field>
    <field name="OSFamily">Linux</field>
+   <field name="OSName">Debian</field>
   </answer>
  </test>
  <test>
@@ -1086,26 +1087,29 @@
    <field name="BrowserEngineVersion">1.9</field>
    <field name="BrowserName">MobileFirefox</field>
    <field name="BrowserVersion">3.0</field>
+   <field name="isTablet">true</field>
    <field name="OSFamily">Linux</field>
   </answer>
  </test>
  <test>
   <question>Mozilla/5.0 (DirectFB; U; Linux armv6l; en) AppleWebKit/531.2+ (KHTML, like Gecko) Safari/531.2+ LG Browser/4.1.0(+BDP; LGE; Media/BD660; 6030; abc;); LG NetCast.Media-2011</question>
   <answer>
-   <field name="isMobile">true</field>
+   <field name="isMobile">false</field>
    <field name="BrowserEngine">WebKit</field>
    <field name="BrowserEngineVersion">531.2</field>
-   <field name="BrowserName">Generic Safari</field>
+   <field name="BrowserName">LG Browser</field>
+   <field name="BrowserVersion">4.1.0</field>
    <field name="OSFamily">Linux</field>
   </answer>
  </test>
  <test>
   <question>Mozilla/5.0 (X11; U; Linux armv7l; ru-RU) AppleWebKit/534.16 (KHTML, like Gecko) Chrome/10.0.648.204 Safari/534.16</question>
   <answer>
-   <field name="isMobile">true</field>
+   <field name="isMobile">false</field>
    <field name="BrowserEngine">WebKit</field>
    <field name="BrowserEngineVersion">534.16</field>
-   <field name="BrowserName">Generic Safari</field>
+   <field name="BrowserName">Chrome</field>
+   <field name="BrowserVersion">10.0.648</field>
    <field name="OSFamily">Linux</field>
   </answer>
  </test>
@@ -4506,6 +4510,7 @@
    <field name="BrowserName">Epiphany</field>
    <field name="BrowserVersion">1.4.4</field>
    <field name="OSFamily">Linux</field>
+   <field name="OSName">Ubuntu</field>
   </answer>
  </test>
  <test>
@@ -4551,6 +4556,7 @@
    <field name="BrowserName">Galeon</field>
    <field name="BrowserVersion">2.0.4</field>
    <field name="OSFamily">Linux</field>
+   <field name="OSName">Ubuntu</field>
   </answer>
  </test>
  <test>
@@ -4662,6 +4668,8 @@
    <field name="BrowserName">Firefox</field>
    <field name="BrowserVersion">3.6</field>
    <field name="OSFamily">Linux</field>
+   <field name="OSName">Ubuntu</field>
+   <field name="OSVersion">10.10</field>
   </answer>
  </test>
  <test>
@@ -4685,7 +4693,8 @@
    <field name="BrowserEngineVersion">1.9.2.25</field>
    <field name="BrowserName">Firefox</field>
    <field name="BrowserVersion">3.6</field>
-   <field name="MailRuSputnik">2.5.0.148</field>
+   <field name="MailRuSputnik">true</field>
+   <field name="MailRuSputnikVersion">2.5.0.148</field>
    <field name="OSFamily">Windows</field>
    <field name="OSName">Windows XP</field>
    <field name="OSVersion">5.1</field>
@@ -4701,6 +4710,8 @@
    <field name="BrowserVersion">3.5</field>
    <field name="OSFamily">Linux</field>
    <field name="x64">true</field>
+   <field name="OSName">Ubuntu</field>
+   <field name="OSVersion">9.04</field>
   </answer>
  </test>
  <test>
@@ -4738,6 +4749,7 @@
    <field name="BrowserName">Firefox</field>
    <field name="BrowserVersion">3.0</field>
    <field name="OSFamily">Linux</field>
+   <field name="OSName">Debian</field>
   </answer>
  </test>
  <test>
@@ -4749,6 +4761,7 @@
    <field name="BrowserName">Firefox</field>
    <field name="BrowserVersion">3.0</field>
    <field name="OSFamily">Linux</field>
+   <field name="OSName">Debian</field>
   </answer>
  </test>
  <test>
@@ -4760,6 +4773,7 @@
    <field name="BrowserName">Firefox</field>
    <field name="BrowserVersion">3.0</field>
    <field name="OSFamily">Linux</field>
+   <field name="OSName">Debian</field>
   </answer>
  </test>
  <test>
@@ -5333,6 +5347,7 @@
    <field name="BrowserName">Konqueror</field>
    <field name="BrowserVersion">3.5</field>
    <field name="OSFamily">Linux</field>
+   <field name="OSName">Debian</field>
   </answer>
  </test>
  <test>
@@ -5344,6 +5359,7 @@
    <field name="BrowserName">Konqueror</field>
    <field name="BrowserVersion">3.5</field>
    <field name="OSFamily">Linux</field>
+   <field name="OSName">Debian</field>
   </answer>
  </test>
  <test>
@@ -5846,7 +5862,8 @@
    <field name="BrowserEngineVersion">4.0</field>
    <field name="BrowserName">MSIE</field>
    <field name="BrowserVersion">8.0</field>
-   <field name="MailRuSputnik">2.4</field>
+   <field name="MailRuSputnik">true</field>
+   <field name="MailRuSputnikVersion">2.4</field>
    <field name="OSFamily">Windows</field>
    <field name="OSName">Windows 7</field>
    <field name="OSVersion">6.1</field>
@@ -5889,7 +5906,8 @@
    <field name="BrowserEngineVersion">4.0</field>
    <field name="BrowserName">MSIE</field>
    <field name="BrowserVersion">8.0</field>
-   <field name="MailRuSputnik">2.4</field>
+   <field name="MailRuSputnik">true</field>
+   <field name="MailRuSputnikVersion">2.4</field>
    <field name="OSFamily">Windows</field>
    <field name="OSName">Windows 7</field>
    <field name="OSVersion">6.1</field>
@@ -5903,7 +5921,8 @@
    <field name="BrowserEngineVersion">4.0</field>
    <field name="BrowserName">MSIE</field>
    <field name="BrowserVersion">8.0</field>
-   <field name="MailRuSputnik">2.4</field>
+   <field name="MailRuSputnik">true</field>
+   <field name="MailRuSputnikVersion">2.4</field>
    <field name="OSFamily">Windows</field>
    <field name="OSName">Windows 7</field>
    <field name="OSVersion">6.1</field>
@@ -5917,7 +5936,8 @@
    <field name="BrowserEngineVersion">1.9.2.23</field>
    <field name="BrowserName">Firefox</field>
    <field name="BrowserVersion">3.6</field>
-   <field name="MailRuSputnik">2.5.0.142</field>
+   <field name="MailRuSputnik">true</field>
+   <field name="MailRuSputnikVersion">2.5.0.142</field>
    <field name="OSFamily">Windows</field>
    <field name="OSName">Windows XP</field>
    <field name="OSVersion">5.1</field>
@@ -5931,7 +5951,8 @@
    <field name="BrowserEngineVersion">1.9.2.24</field>
    <field name="BrowserName">Firefox</field>
    <field name="BrowserVersion">3.6</field>
-   <field name="MailRuSputnik">2.5.0.142</field>
+   <field name="MailRuSputnik">true</field>
+   <field name="MailRuSputnikVersion">2.5.0.142</field>
    <field name="OSFamily">Windows</field>
    <field name="OSName">Windows XP</field>
    <field name="OSVersion">5.1</field>
@@ -5945,7 +5966,8 @@
    <field name="BrowserEngineVersion">1.9.2.24</field>
    <field name="BrowserName">Firefox</field>
    <field name="BrowserVersion">3.6</field>
-   <field name="MailRuSputnik">2.4.0.60</field>
+   <field name="MailRuSputnik">true</field>
+   <field name="MailRuSputnikVersion">2.4.0.60</field>
    <field name="OSFamily">Windows</field>
    <field name="OSName">Windows XP</field>
    <field name="OSVersion">5.1</field>
@@ -6427,19 +6449,6 @@
   </answer>
  </test>
  <test>
-  <question>Mozilla/5.0 (Windows NT 6.0) AppleWebKit/535.2 (KHTML, like Gecko) Chrome/15.0.874.106 Safari/535.2</question>
-  <answer>
-   <field name="isMobile">false</field>
-   <field name="BrowserEngine">WebKit</field>
-   <field name="BrowserEngineVersion">535.2</field>
-   <field name="BrowserName">Chrome</field>
-   <field name="BrowserVersion">15.0.874</field>
-   <field name="OSFamily">Windows</field>
-   <field name="OSName">Windows Vista</field>
-   <field name="OSVersion">6.0</field>
-  </answer>
- </test>
- <test>
   <question>Opera/9.80 (Windows NT 6.2; U; ru) Presto/2.9.168 Version/11.52</question>
   <answer>
    <field name="isMobile">false</field>
@@ -6787,6 +6796,21 @@
    <field name="BrowserVersion">3.6</field>
    <field name="OSFamily">Linux</field>
    <field name="x64">true</field>
+   <field name="OSName">Ubuntu</field>
+   <field name="OSVersion">10.04</field>
+  </answer>
+ </test>
+ <test>
+  <question>Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.1.8) Gecko/20100216 Fedora/3.5.8-1.fc12 Firefox/3.5.8</question>
+  <answer>
+   <field name="isMobile">false</field>
+   <field name="BrowserEngine">Gecko</field>
+   <field name="BrowserEngineVersion">1.9.1.8</field>
+   <field name="BrowserName">Firefox</field>
+   <field name="BrowserVersion">3.5</field>
+   <field name="OSFamily">Linux</field>
+   <field name="OSName">Fedora</field>
+   <field name="OSVersion">12</field>
   </answer>
  </test>
  <test>
@@ -6852,36 +6876,6 @@
   </answer>
  </test>
  <test>
-  <question>Mozilla/4.0 (compatible; MSIE 5.0; UNIX) [en]</question>
-  <answer>
-   <field name="isMobile">false</field>
-   <field name="BrowserEngine">Trident</field>
-   <field name="BrowserName">MSIE</field>
-   <field name="BrowserVersion">5.0</field>
-   <field name="OSFamily">Unix</field>
-  </answer>
- </test>
- <test>
-  <question>Mozilla/5.0 (compatible; ShunixBot/1.x; http://www.uh6xzjd7.com/bot.htm)</question>
-  <answer>
-   <field name="isMobile">false</field>
-   <field name="OSFamily">Unix</field>
-   <field name="BrowserEngine">Unknown</field>
-   <field name="BrowserName">Unknown</field>
-   <field name="isBrowser">false</field>
-  </answer>
- </test>
- <test>
-  <question>Mozilla/5.0 (compatible; ShunixBot/1.x; http://www.l1t65rdcpr4.com/bot.htm)</question>
-  <answer>
-   <field name="isMobile">false</field>
-   <field name="OSFamily">Unix</field>
-   <field name="BrowserEngine">Unknown</field>
-   <field name="BrowserName">Unknown</field>
-   <field name="isBrowser">false</field>
-  </answer>
- </test>
- <test>
   <question>Mozilla/5.0 (Photon; U; QNX x86pc; en-US; rv:1.6) Gecko/20040429</question>
   <answer>
    <field name="isMobile">false</field>
@@ -6905,7 +6899,7 @@
    <field name="isMobile">false</field>
    <field name="BrowserEngine">WebKit</field>
    <field name="BrowserEngineVersion">531.2</field>
-   <field name="OSFamily">Unix</field>
+   <field name="OSFamily">Unknown *nix</field>
   </answer>
  </test>
  <test>
@@ -7412,6 +7406,20 @@
   </answer>
  </test>
  <test>
+  <question>Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; Tablet PC 2.0)</question>
+  <answer>
+   <field name="isMobile">false</field>
+   <field name="BrowserEngine">Trident</field>
+   <field name="BrowserEngineVersion">4.0</field>
+   <field name="BrowserName">MSIE</field>
+   <field name="BrowserVersion">8.0</field>
+   <field name="OSFamily">Windows</field>
+   <field name="OSName">Windows 7</field>
+   <field name="OSVersion">6.1</field>
+   <field name="isTouch">true</field>
+  </answer>
+ </test>
+ <test>
   <question>Opera/9.80 (Windows NT 5.1; U; Edition Next; ru) Presto/2.10.229 Version/12.00</question>
   <answer>
    <field name="isMobile">false</field>
@@ -7463,7 +7471,8 @@
    <field name="BrowserEngineVersion">4.0</field>
    <field name="BrowserName">MSIE</field>
    <field name="BrowserVersion">8.0</field>
-   <field name="MailRuSputnik">2.4</field>
+   <field name="MailRuSputnik">true</field>
+   <field name="MailRuSputnikVersion">2.4</field>
    <field name="OSFamily">Windows</field>
    <field name="OSName">Windows XP</field>
    <field name="OSVersion">5.1</field>
@@ -7477,10 +7486,66 @@
    <field name="BrowserEngineVersion">4.0</field>
    <field name="BrowserName">MSIE</field>
    <field name="BrowserVersion">8.0</field>
-   <field name="MailRuSputnik">2.4</field>
+   <field name="MailRuSputnik">true</field>
+   <field name="MailRuSputnikVersion">2.4</field>
    <field name="OSFamily">Windows</field>
    <field name="OSName">Windows XP</field>
    <field name="OSVersion">5.1</field>
+  </answer>
+ </test>
+ <test>
+  <question>Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; Tablet PC 2.0; .NET4.0C)</question>
+  <answer>
+   <field name="isMobile">false</field>
+   <field name="BrowserEngine">Trident</field>
+   <field name="BrowserEngineVersion">4.0</field>
+   <field name="BrowserName">MSIE</field>
+   <field name="BrowserVersion">8.0</field>
+   <field name="OSFamily">Windows</field>
+   <field name="OSName">Windows 7</field>
+   <field name="OSVersion">6.1</field>
+   <field name="isTouch">true</field>
+  </answer>
+ </test>
+ <test>
+  <question>Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; InfoPath.2; Tablet PC 2.0)</question>
+  <answer>
+   <field name="isMobile">false</field>
+   <field name="BrowserEngine">Trident</field>
+   <field name="BrowserEngineVersion">4.0</field>
+   <field name="BrowserName">MSIE</field>
+   <field name="BrowserVersion">8.0</field>
+   <field name="OSFamily">Windows</field>
+   <field name="OSName">Windows 7</field>
+   <field name="OSVersion">6.1</field>
+   <field name="isTouch">true</field>
+  </answer>
+ </test>
+ <test>
+  <question>Mozilla/5.0 (X11; U; Linux i686; ru; rv:1.9.2.23) Gecko/20110921 Ubuntu/10.04 (lucid) Firefox/3.6.23</question>
+  <answer>
+   <field name="isMobile">false</field>
+   <field name="BrowserEngine">Gecko</field>
+   <field name="BrowserEngineVersion">1.9.2.23</field>
+   <field name="BrowserName">Firefox</field>
+   <field name="BrowserVersion">3.6</field>
+   <field name="OSFamily">Linux</field>
+   <field name="OSName">Ubuntu</field>
+   <field name="OSVersion">10.04</field>
+  </answer>
+ </test>
+ <test>
+  <question>Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; Tablet PC 2.0)</question>
+  <answer>
+   <field name="isMobile">false</field>
+   <field name="BrowserEngine">Trident</field>
+   <field name="BrowserEngineVersion">4.0</field>
+   <field name="BrowserName">MSIE</field>
+   <field name="BrowserVersion">8.0</field>
+   <field name="OSFamily">Windows</field>
+   <field name="OSName">Windows 7</field>
+   <field name="OSVersion">6.1</field>
+   <field name="isTouch">true</field>
   </answer>
  </test>
  <test>
@@ -7491,10 +7556,27 @@
    <field name="BrowserEngineVersion">1.9.2.24</field>
    <field name="BrowserName">Firefox</field>
    <field name="BrowserVersion">3.6</field>
-   <field name="MailRuSputnik">2.5.1.2</field>
+   <field name="MailRuSputnik">true</field>
+   <field name="MailRuSputnikVersion">2.5.1.2</field>
    <field name="OSFamily">Windows</field>
    <field name="OSName">Windows XP</field>
    <field name="OSVersion">5.1</field>
+  </answer>
+ </test>
+ <test>
+  <question>Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; GTB7.1; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; Tablet PC 2.0)</question>
+  <answer>
+   <field name="isMobile">false</field>
+   <field name="BrowserEngine">Trident</field>
+   <field name="BrowserEngineVersion">4.0</field>
+   <field name="BrowserName">MSIE</field>
+   <field name="BrowserVersion">8.0</field>
+   <field name="GoogleToolBar">true</field>
+   <field name="GoogleToolBarVersion">7.1</field>
+   <field name="OSFamily">Windows</field>
+   <field name="OSName">Windows 7</field>
+   <field name="OSVersion">6.1</field>
+   <field name="isTouch">true</field>
   </answer>
  </test>
  <test>
@@ -7508,6 +7590,19 @@
    <field name="OSFamily">Windows</field>
    <field name="OSName">Windows Server 2003</field>
    <field name="OSVersion">5.2</field>
+  </answer>
+ </test>
+ <test>
+  <question>Mozilla/5.0 (X11; U; Linux i686; ru; rv:1.9.2.24) Gecko/20111107 Ubuntu/10.04 (lucid) Firefox/3.6.24</question>
+  <answer>
+   <field name="isMobile">false</field>
+   <field name="BrowserEngine">Gecko</field>
+   <field name="BrowserEngineVersion">1.9.2.24</field>
+   <field name="BrowserName">Firefox</field>
+   <field name="BrowserVersion">3.6</field>
+   <field name="OSFamily">Linux</field>
+   <field name="OSName">Ubuntu</field>
+   <field name="OSVersion">10.04</field>
   </answer>
  </test>
  <test>
@@ -7620,6 +7715,57 @@
   </answer>
  </test>
  <test>
+  <question>Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.8.1.2) Gecko/20070221 SUSE/2.0.0.2-6.1 Firefox/2.0.0.2</question>
+  <answer>
+   <field name="isMobile">false</field>
+   <field name="BrowserEngine">Gecko</field>
+   <field name="BrowserEngineVersion">1.8.1.2</field>
+   <field name="BrowserName">Firefox</field>
+   <field name="BrowserVersion">2.0</field>
+   <field name="OSFamily">Linux</field>
+   <field name="OSName">SUSE</field>
+  </answer>
+ </test>
+ <test>
+  <question>Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.8.0.6) Gecko/20060808 Fedora/1.5.0.6-2.fc5 Firefox/1.5.0.6 pango-text</question>
+  <answer>
+   <field name="isMobile">false</field>
+   <field name="BrowserEngine">Gecko</field>
+   <field name="BrowserEngineVersion">1.8.0.6</field>
+   <field name="BrowserName">Firefox</field>
+   <field name="BrowserVersion">1.5</field>
+   <field name="OSFamily">Linux</field>
+   <field name="OSName">Fedora</field>
+   <field name="OSVersion">5</field>
+  </answer>
+ </test>
+ <test>
+  <question>Mozilla/5.0 (X11; U; Linux x86_64; ru; rv:1.9.1.1) Gecko/20090730 Gentoo Firefox/3.5.1</question>
+  <answer>
+   <field name="isMobile">false</field>
+   <field name="BrowserEngine">Gecko</field>
+   <field name="BrowserEngineVersion">1.9.1.1</field>
+   <field name="BrowserName">Firefox</field>
+   <field name="BrowserVersion">3.5</field>
+   <field name="OSFamily">Linux</field>
+   <field name="x64">true</field>
+   <field name="OSName">Gentoo</field>
+  </answer>
+ </test>
+ <test>
+  <question>Mozilla/5.0 (X11; U; Linux x86_64; ru; rv:1.9.0.2) Gecko/2008092702 Gentoo Firefox/3.0.2</question>
+  <answer>
+   <field name="isMobile">false</field>
+   <field name="BrowserEngine">Gecko</field>
+   <field name="BrowserEngineVersion">1.9.0.2</field>
+   <field name="BrowserName">Firefox</field>
+   <field name="BrowserVersion">3.0</field>
+   <field name="OSFamily">Linux</field>
+   <field name="x64">true</field>
+   <field name="OSName">Gentoo</field>
+  </answer>
+ </test>
+ <test>
   <question>Opera/7.23 (Windows 98; U) [en]</question>
   <answer>
    <field name="isMobile">false</field>
@@ -7724,6 +7870,32 @@
   </answer>
  </test>
  <test>
+  <question>Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; MyIE2)</question>
+  <answer>
+   <field name="isMobile">false</field>
+   <field name="BrowserEngine">Trident</field>
+   <field name="BrowserName">MSIE</field>
+   <field name="BrowserVersion">6.0</field>
+   <field name="BrowserShell">MyIE2</field>
+   <field name="OSFamily">Windows</field>
+   <field name="OSName">Windows XP</field>
+   <field name="OSVersion">5.1</field>
+  </answer>
+ </test>
+ <test>
+  <question>Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.2.9) Gecko/20100908 CentOS/3.6-2.el5.centos Firefox/3.6.9</question>
+  <answer>
+   <field name="isMobile">false</field>
+   <field name="BrowserEngine">Gecko</field>
+   <field name="BrowserEngineVersion">1.9.2.9</field>
+   <field name="BrowserName">Firefox</field>
+   <field name="BrowserVersion">3.6</field>
+   <field name="OSFamily">Linux</field>
+   <field name="OSName">CentOS</field>
+   <field name="OSVersion">5.</field>
+  </answer>
+ </test>
+ <test>
   <question>Mozilla/5.0 (Windows NT 6.2) AppleWebKit/535.2 (KHTML, like Gecko) Chrome/15.0.874.106 Safari/535.2</question>
   <answer>
    <field name="isMobile">false</field>
@@ -7737,6 +7909,18 @@
   </answer>
  </test>
  <test>
+  <question>Opera/9.80 (X11; Linux i686; U; Linux Mint; ru) Presto/2.9.168 Version/11.52</question>
+  <answer>
+   <field name="isMobile">false</field>
+   <field name="BrowserEngine">Presto</field>
+   <field name="BrowserEngineVersion">2.9.168</field>
+   <field name="BrowserName">Opera</field>
+   <field name="BrowserVersion">11.52</field>
+   <field name="OSFamily">Linux</field>
+   <field name="OSName">Mint</field>
+  </answer>
+ </test>
+ <test>
   <question>Agent/0.1 libwww-perl/5.834</question>
   <answer>
    <field name="isMobile">false</field>
@@ -7745,11 +7929,51 @@
   </answer>
  </test>
  <test>
+  <question>Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; MyIE2)</question>
+  <answer>
+   <field name="isMobile">false</field>
+   <field name="BrowserEngine">Trident</field>
+   <field name="BrowserEngineVersion">4.0</field>
+   <field name="BrowserName">MSIE</field>
+   <field name="BrowserVersion">8.0</field>
+   <field name="BrowserShell">MyIE2</field>
+   <field name="OSFamily">Windows</field>
+   <field name="OSName">Windows XP</field>
+   <field name="OSVersion">5.1</field>
+  </answer>
+ </test>
+ <test>
+  <question>Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.2.13) Gecko/20101206 Linux Mint/9 (Isadora) Firefox/3.6.13</question>
+  <answer>
+   <field name="isMobile">false</field>
+   <field name="BrowserEngine">Gecko</field>
+   <field name="BrowserEngineVersion">1.9.2.13</field>
+   <field name="BrowserName">Firefox</field>
+   <field name="BrowserVersion">3.6</field>
+   <field name="OSFamily">Linux</field>
+   <field name="OSName">Mint</field>
+   <field name="OSVersion">9</field>
+  </answer>
+ </test>
+ <test>
   <question>libwww-perl/6.02</question>
   <answer>
    <field name="isMobile">false</field>
    <field name="isBrowser">false</field>
    <field name="OSFamily">Unknown</field>
+  </answer>
+ </test>
+ <test>
+  <question>Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.2.23) Gecko/20110928 Mandriva Linux/1.9.2.23-0.1mdv2010.2 (2010.2) Firefox/3.6.23</question>
+  <answer>
+   <field name="isMobile">false</field>
+   <field name="BrowserEngine">Gecko</field>
+   <field name="BrowserEngineVersion">1.9.2.23</field>
+   <field name="BrowserName">Firefox</field>
+   <field name="BrowserVersion">3.6</field>
+   <field name="OSFamily">Linux</field>
+   <field name="OSName">Mandriva</field>
+   <field name="OSVersion">2010.2</field>
   </answer>
  </test>
  <test>
@@ -7788,6 +8012,190 @@
   </answer>
  </test>
  <test>
+  <question>Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.2.13) Gecko/20101209 Mandriva Linux/1.9.2.13-0.1mdv2010.1 (2010.1) Firefox/3.6.13</question>
+  <answer>
+   <field name="isMobile">false</field>
+   <field name="BrowserEngine">Gecko</field>
+   <field name="BrowserEngineVersion">1.9.2.13</field>
+   <field name="BrowserName">Firefox</field>
+   <field name="BrowserVersion">3.6</field>
+   <field name="OSFamily">Linux</field>
+   <field name="OSName">Mandriva</field>
+   <field name="OSVersion">2010.1</field>
+  </answer>
+ </test>
+ <test>
+  <question>Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.2.3) Gecko/20100423 Linux Mint/9 (Isadora) Firefox/3.6.3</question>
+  <answer>
+   <field name="isMobile">false</field>
+   <field name="BrowserEngine">Gecko</field>
+   <field name="BrowserEngineVersion">1.9.2.3</field>
+   <field name="BrowserName">Firefox</field>
+   <field name="BrowserVersion">3.6</field>
+   <field name="OSFamily">Linux</field>
+   <field name="OSName">Mint</field>
+   <field name="OSVersion">9</field>
+  </answer>
+ </test>
+ <test>
+  <question>Mozilla/5.0 (X11; U; Linux i686; ru; rv:1.9.2.6) Gecko/20100626 SUSE/3.6.6-1.2 Firefox/3.6.6</question>
+  <answer>
+   <field name="isMobile">false</field>
+   <field name="BrowserEngine">Gecko</field>
+   <field name="BrowserEngineVersion">1.9.2.6</field>
+   <field name="BrowserName">Firefox</field>
+   <field name="BrowserVersion">3.6</field>
+   <field name="OSFamily">Linux</field>
+   <field name="OSName">SUSE</field>
+  </answer>
+ </test>
+ <test>
+  <question>Mozilla/5.0 (X11; U; Linux i686; ru; rv:1.9.1.4) Gecko/20091016 SUSE/3.5.4-1.1.2 Firefox/3.5.4</question>
+  <answer>
+   <field name="isMobile">false</field>
+   <field name="BrowserEngine">Gecko</field>
+   <field name="BrowserEngineVersion">1.9.1.4</field>
+   <field name="BrowserName">Firefox</field>
+   <field name="BrowserVersion">3.5</field>
+   <field name="OSFamily">Linux</field>
+   <field name="OSName">SUSE</field>
+  </answer>
+ </test>
+ <test>
+  <question>Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.1.3) Gecko/20090914 Mandriva Linux/1.9.1.3-2mdv2010.0 (2010.0) Firefox/3.5.3</question>
+  <answer>
+   <field name="isMobile">false</field>
+   <field name="BrowserEngine">Gecko</field>
+   <field name="BrowserEngineVersion">1.9.1.3</field>
+   <field name="BrowserName">Firefox</field>
+   <field name="BrowserVersion">3.5</field>
+   <field name="OSFamily">Linux</field>
+   <field name="OSName">Mandriva</field>
+   <field name="OSVersion">2010.0</field>
+  </answer>
+ </test>
+ <test>
+  <question>Mozilla/5.0 (X11; U; Linux i686; ru; rv:1.9.2.23) Gecko/20110927 Fedora/3.6.23-1.fc14 Firefox/3.6.23</question>
+  <answer>
+   <field name="isMobile">false</field>
+   <field name="BrowserEngine">Gecko</field>
+   <field name="BrowserEngineVersion">1.9.2.23</field>
+   <field name="BrowserName">Firefox</field>
+   <field name="BrowserVersion">3.6</field>
+   <field name="OSFamily">Linux</field>
+   <field name="OSName">Fedora</field>
+   <field name="OSVersion">14</field>
+  </answer>
+ </test>
+ <test>
+  <question>Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.2.23) Gecko/20110921 Linux Mint/10 (Julia) Firefox/3.6.23</question>
+  <answer>
+   <field name="isMobile">false</field>
+   <field name="BrowserEngine">Gecko</field>
+   <field name="BrowserEngineVersion">1.9.2.23</field>
+   <field name="BrowserName">Firefox</field>
+   <field name="BrowserVersion">3.6</field>
+   <field name="OSFamily">Linux</field>
+   <field name="OSName">Mint</field>
+   <field name="OSVersion">10</field>
+  </answer>
+ </test>
+ <test>
+  <question>Mozilla/5.0 (X11; U; Linux i686; ru; rv:1.8.1.14) Gecko/20080612 Fedora/2.0.0.14-20080612.fc8.acer Firefox/2.0.0.14</question>
+  <answer>
+   <field name="isMobile">false</field>
+   <field name="BrowserEngine">Gecko</field>
+   <field name="BrowserEngineVersion">1.8.1.14</field>
+   <field name="BrowserName">Firefox</field>
+   <field name="BrowserVersion">2.0</field>
+   <field name="OSFamily">Linux</field>
+   <field name="OSName">Fedora</field>
+   <field name="OSVersion">8.</field>
+  </answer>
+ </test>
+ <test>
+  <question>Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; Trident/4.0; MyIE2)</question>
+  <answer>
+   <field name="isMobile">false</field>
+   <field name="BrowserEngine">Trident</field>
+   <field name="BrowserEngineVersion">4.0</field>
+   <field name="BrowserName">MSIE</field>
+   <field name="BrowserVersion">8.0</field>
+   <field name="BrowserShell">MyIE2</field>
+   <field name="OSFamily">Windows</field>
+   <field name="OSName">Windows XP</field>
+   <field name="OSVersion">5.1</field>
+  </answer>
+ </test>
+ <test>
+  <question>Mozilla/5.0 (X11; U; Linux x86_64; ru; rv:1.9.2.23) Gecko/20111006 CentOS/3.6.23-2.el6.centos Firefox/3.6.23</question>
+  <answer>
+   <field name="isMobile">false</field>
+   <field name="BrowserEngine">Gecko</field>
+   <field name="BrowserEngineVersion">1.9.2.23</field>
+   <field name="BrowserName">Firefox</field>
+   <field name="BrowserVersion">3.6</field>
+   <field name="OSFamily">Linux</field>
+   <field name="x64">true</field>
+   <field name="OSName">CentOS</field>
+   <field name="OSVersion">6.</field>
+  </answer>
+ </test>
+ <test>
+  <question>Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.2.23) Gecko/20110921 Linux Mint/9 (Isadora) Firefox/3.6.23</question>
+  <answer>
+   <field name="isMobile">false</field>
+   <field name="BrowserEngine">Gecko</field>
+   <field name="BrowserEngineVersion">1.9.2.23</field>
+   <field name="BrowserName">Firefox</field>
+   <field name="BrowserVersion">3.6</field>
+   <field name="OSFamily">Linux</field>
+   <field name="OSName">Mint</field>
+   <field name="OSVersion">9</field>
+  </answer>
+ </test>
+ <test>
+  <question>Mozilla/5.0 (X11; U; Linux i686; ru; rv:1.9.1.9) Gecko/20100317 SUSE/3.5.9-0.1.1 Firefox/3.5.9</question>
+  <answer>
+   <field name="isMobile">false</field>
+   <field name="BrowserEngine">Gecko</field>
+   <field name="BrowserEngineVersion">1.9.1.9</field>
+   <field name="BrowserName">Firefox</field>
+   <field name="BrowserVersion">3.5</field>
+   <field name="OSFamily">Linux</field>
+   <field name="OSName">SUSE</field>
+  </answer>
+ </test>
+ <test>
+  <question>Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; Trident/4.0; MyIE2; MRA 5.8 (build 4156); EasyBits GO v1.0; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)</question>
+  <answer>
+   <field name="isMobile">false</field>
+   <field name="BrowserEngine">Trident</field>
+   <field name="BrowserEngineVersion">4.0</field>
+   <field name="BrowserName">MSIE</field>
+   <field name="BrowserVersion">8.0</field>
+   <field name="BrowserShell">MyIE2</field>
+   <field name="MailRuAgent">true</field>
+   <field name="MailRuAgentVersion">5.8</field>
+   <field name="OSFamily">Windows</field>
+   <field name="OSName">Windows XP</field>
+   <field name="OSVersion">5.1</field>
+  </answer>
+ </test>
+ <test>
+  <question>Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; MyIE2; .NET CLR 1.1.4322; .NET CLR 2.0.50727)</question>
+  <answer>
+   <field name="isMobile">false</field>
+   <field name="BrowserEngine">Trident</field>
+   <field name="BrowserName">MSIE</field>
+   <field name="BrowserVersion">7.0</field>
+   <field name="BrowserShell">MyIE2</field>
+   <field name="OSFamily">Windows</field>
+   <field name="OSName">Windows XP</field>
+   <field name="OSVersion">5.1</field>
+  </answer>
+ </test>
+ <test>
   <question>Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; Maxthon; .NET CLR 1.1.4322)</question>
   <answer>
    <field name="isMobile">false</field>
@@ -7801,6 +8209,32 @@
   </answer>
  </test>
  <test>
+  <question>Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.2.6) Gecko/20100628 Mandriva Linux/1.9.2.6-1mdv2010.1 (2010.1) Firefox/3.6.6</question>
+  <answer>
+   <field name="isMobile">false</field>
+   <field name="BrowserEngine">Gecko</field>
+   <field name="BrowserEngineVersion">1.9.2.6</field>
+   <field name="BrowserName">Firefox</field>
+   <field name="BrowserVersion">3.6</field>
+   <field name="OSFamily">Linux</field>
+   <field name="OSName">Mandriva</field>
+   <field name="OSVersion">2010.1</field>
+  </answer>
+ </test>
+ <test>
+  <question>Mozilla/5.0 (X11; U; Linux i686; ru; rv:1.9.2.17) Gecko/20110428 Fedora/3.6.17-1.fc13 Firefox/3.6.17</question>
+  <answer>
+   <field name="isMobile">false</field>
+   <field name="BrowserEngine">Gecko</field>
+   <field name="BrowserEngineVersion">1.9.2.17</field>
+   <field name="BrowserName">Firefox</field>
+   <field name="BrowserVersion">3.6</field>
+   <field name="OSFamily">Linux</field>
+   <field name="OSName">Fedora</field>
+   <field name="OSVersion">13</field>
+  </answer>
+ </test>
+ <test>
   <question>Mozilla/4.0 (compatible; MSIE 5.0; Windows NT; DigExt)</question>
   <answer>
    <field name="isMobile">false</field>
@@ -7810,6 +8244,31 @@
    <field name="OSFamily">Windows</field>
    <field name="OSName">Windows NT 4.0</field>
    <field name="OSVersion">4.0.1381</field>
+  </answer>
+ </test>
+ <test>
+  <question>Mozilla/5.0 (X11; U; Linux i686; ru; rv:1.9.0.12) Gecko/2009072711 CentOS/3.0.12-1.el5.centos Firefox/3.0.12</question>
+  <answer>
+   <field name="isMobile">false</field>
+   <field name="BrowserEngine">Gecko</field>
+   <field name="BrowserEngineVersion">1.9.0.12</field>
+   <field name="BrowserName">Firefox</field>
+   <field name="BrowserVersion">3.0</field>
+   <field name="OSFamily">Linux</field>
+   <field name="OSName">CentOS</field>
+   <field name="OSVersion">5.</field>
+  </answer>
+ </test>
+ <test>
+  <question>Mozilla/5.0 (X11; U; Linux i686; ru; rv:1.9.2.23) Gecko/20110920 SUSE/3.6.23-0.2.1 Firefox/3.6.23</question>
+  <answer>
+   <field name="isMobile">false</field>
+   <field name="BrowserEngine">Gecko</field>
+   <field name="BrowserEngineVersion">1.9.2.23</field>
+   <field name="BrowserName">Firefox</field>
+   <field name="BrowserVersion">3.6</field>
+   <field name="OSFamily">Linux</field>
+   <field name="OSName">SUSE</field>
   </answer>
  </test>
  <test>
@@ -7828,6 +8287,32 @@
   </answer>
  </test>
  <test>
+  <question>Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.2.9) Gecko/20100909 Mandriva Linux/1.9.2.9-0.1mdv2010.1 (2010.1) Firefox/3.6.9</question>
+  <answer>
+   <field name="isMobile">false</field>
+   <field name="BrowserEngine">Gecko</field>
+   <field name="BrowserEngineVersion">1.9.2.9</field>
+   <field name="BrowserName">Firefox</field>
+   <field name="BrowserVersion">3.6</field>
+   <field name="OSFamily">Linux</field>
+   <field name="OSName">Mandriva</field>
+   <field name="OSVersion">2010.1</field>
+  </answer>
+ </test>
+ <test>
+  <question>Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.2.24) Gecko/20111107 Linux Mint/9 (Isadora) Firefox/3.6.24</question>
+  <answer>
+   <field name="isMobile">false</field>
+   <field name="BrowserEngine">Gecko</field>
+   <field name="BrowserEngineVersion">1.9.2.24</field>
+   <field name="BrowserName">Firefox</field>
+   <field name="BrowserVersion">3.6</field>
+   <field name="OSFamily">Linux</field>
+   <field name="OSName">Mint</field>
+   <field name="OSVersion">9</field>
+  </answer>
+ </test>
+ <test>
   <question>Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/5.0; MAXTHON 2.0)</question>
   <answer>
    <field name="isMobile">false</field>
@@ -7843,6 +8328,33 @@
   </answer>
  </test>
  <test>
+  <question>Mozilla/5.0 (X11; U; Linux x86_64; ru; rv:1.9.2.13) Gecko/20101209 CentOS/3.6-2.el5.centos Firefox/3.6.13</question>
+  <answer>
+   <field name="isMobile">false</field>
+   <field name="BrowserEngine">Gecko</field>
+   <field name="BrowserEngineVersion">1.9.2.13</field>
+   <field name="BrowserName">Firefox</field>
+   <field name="BrowserVersion">3.6</field>
+   <field name="OSFamily">Linux</field>
+   <field name="x64">true</field>
+   <field name="OSName">CentOS</field>
+   <field name="OSVersion">5.</field>
+  </answer>
+ </test>
+ <test>
+  <question>Mozilla/5.0 (X11; U; Linux i686; ru; rv:1.9.2.13) Gecko/20101209 CentOS/3.6-2.el5.centos Firefox/3.6.13</question>
+  <answer>
+   <field name="isMobile">false</field>
+   <field name="BrowserEngine">Gecko</field>
+   <field name="BrowserEngineVersion">1.9.2.13</field>
+   <field name="BrowserName">Firefox</field>
+   <field name="BrowserVersion">3.6</field>
+   <field name="OSFamily">Linux</field>
+   <field name="OSName">CentOS</field>
+   <field name="OSVersion">5.</field>
+  </answer>
+ </test>
+ <test>
   <question>Mozilla/5.0 (compatible; Konqueror/3.5; Linux 2.6.15-1.2054_FC5; X11; i686; en_US) KHTML/3.5.4 (like Gecko)</question>
   <answer>
    <field name="isMobile">false</field>
@@ -7851,6 +8363,32 @@
    <field name="BrowserName">Konqueror</field>
    <field name="BrowserVersion">3.5</field>
    <field name="OSFamily">Linux</field>
+  </answer>
+ </test>
+ <test>
+  <question>Mozilla/5.0 (X11; U; Linux i686; pl; rv:1.9.1) Gecko/20090702 Gentoo Firefox/3.5 GTB5</question>
+  <answer>
+   <field name="isMobile">false</field>
+   <field name="BrowserEngine">Gecko</field>
+   <field name="BrowserEngineVersion">1.9.1</field>
+   <field name="BrowserName">Firefox</field>
+   <field name="BrowserVersion">3.5</field>
+   <field name="GoogleToolBar">true</field>
+   <field name="GoogleToolBarVersion">5</field>
+   <field name="OSFamily">Linux</field>
+   <field name="OSName">Gentoo</field>
+  </answer>
+ </test>
+ <test>
+  <question>Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.0.3) Gecko/2008093011 Gentoo Firefox/3.0.3</question>
+  <answer>
+   <field name="isMobile">false</field>
+   <field name="BrowserEngine">Gecko</field>
+   <field name="BrowserEngineVersion">1.9.0.3</field>
+   <field name="BrowserName">Firefox</field>
+   <field name="BrowserVersion">3.0</field>
+   <field name="OSFamily">Linux</field>
+   <field name="OSName">Gentoo</field>
   </answer>
  </test>
  <test>
@@ -7863,6 +8401,62 @@
    <field name="BrowserEngine">Unknown</field>
    <field name="BrowserName">Unknown</field>
    <field name="isBrowser">false</field>
+  </answer>
+ </test>
+ <test>
+  <question>Mozilla/5.0 (DirectFB; U; Linux 35230; en) AppleWebKit/531.2+ (KHTML, like Gecko) Safari/531.2+ LG Browser/4.1.4(+PORTAL_KEY+SCREEN+TUNER; LGE; 32LV3700-ZC; 04.04.10; 0x00000001;); LG NetCast.TV-2011</question>
+  <answer>
+   <field name="isMobile">false</field>
+   <field name="BrowserEngine">WebKit</field>
+   <field name="BrowserEngineVersion">531.2</field>
+   <field name="BrowserName">LG Browser</field>
+   <field name="BrowserVersion">4.1.4</field>
+   <field name="OSFamily">Linux</field>
+  </answer>
+ </test>
+ <test>
+  <question>Mozilla/5.0 (DirectFB; U; Linux mips; en) AppleWebKit/531.2+ (KHTML, like Gecko) Safari/531.2+ LG Browser/4.0.10(+3D+SCREEN+TUNER; LGE; 42LX6500-ZD; 03.20.16; 0x00000001;); LG NetCast.TV-2010</question>
+  <answer>
+   <field name="isMobile">false</field>
+   <field name="BrowserEngine">WebKit</field>
+   <field name="BrowserEngineVersion">531.2</field>
+   <field name="BrowserName">LG Browser</field>
+   <field name="BrowserVersion">4.0.10</field>
+   <field name="OSFamily">Linux</field>
+  </answer>
+ </test>
+ <test>
+  <question>Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.2.11) Gecko/20101102 Gentoo Firefox/3.6.11</question>
+  <answer>
+   <field name="isMobile">false</field>
+   <field name="BrowserEngine">Gecko</field>
+   <field name="BrowserEngineVersion">1.9.2.11</field>
+   <field name="BrowserName">Firefox</field>
+   <field name="BrowserVersion">3.6</field>
+   <field name="OSFamily">Linux</field>
+   <field name="OSName">Gentoo</field>
+  </answer>
+ </test>
+ <test>
+  <question>Mozilla/5.0 (DirectFB; U; Linux mips; en) AppleWebKit/531.2+ (KHTML, like Gecko) Safari/531.2+ LG Browser/4.0.10(+SCREEN+TUNER; LGE; 42LE5500-ZA; 03.20.12; 0x00000001;); LG NetCast.TV-2010</question>
+  <answer>
+   <field name="isMobile">false</field>
+   <field name="BrowserEngine">WebKit</field>
+   <field name="BrowserEngineVersion">531.2</field>
+   <field name="BrowserName">LG Browser</field>
+   <field name="BrowserVersion">4.0.10</field>
+   <field name="OSFamily">Linux</field>
+  </answer>
+ </test>
+ <test>
+  <question>Mozilla/5.0 (DirectFB; U; Linux 35230; en) AppleWebKit/531.2+ (KHTML, like Gecko) Safari/531.2+ LG Browser/4.1.4(+PORTAL_KEY+SCREEN+TUNER; LGE; 42LV3700-ZC; 04.04.10; 0x00000001;); LG NetCast.TV-2011</question>
+  <answer>
+   <field name="isMobile">false</field>
+   <field name="BrowserEngine">WebKit</field>
+   <field name="BrowserEngineVersion">531.2</field>
+   <field name="BrowserName">LG Browser</field>
+   <field name="BrowserVersion">4.1.4</field>
+   <field name="OSFamily">Linux</field>
   </answer>
  </test>
  <test>
@@ -7922,6 +8516,7 @@
    <field name="BrowserName">Firefox</field>
    <field name="BrowserVersion">3.0</field>
    <field name="OSFamily">Linux</field>
+   <field name="OSName">Debian</field>
   </answer>
  </test>
  <test>
@@ -7946,6 +8541,7 @@
    <field name="BrowserName">Firefox</field>
    <field name="BrowserVersion">3.0</field>
    <field name="OSFamily">Linux</field>
+   <field name="OSName">Debian</field>
   </answer>
  </test>
  <test>
@@ -8044,6 +8640,20 @@
   </answer>
  </test>
  <test>
+  <question>Mozilla/5.0 (X11; U; Linux i686 (x86_64); ru; rv:1.9.2.13) Gecko/20101206 Red Hat/3.6-2.el5 Firefox/3.6.13</question>
+  <answer>
+   <field name="isMobile">false</field>
+   <field name="BrowserEngine">Gecko</field>
+   <field name="BrowserEngineVersion">1.9.2.13</field>
+   <field name="BrowserName">Firefox</field>
+   <field name="BrowserVersion">3.6</field>
+   <field name="OSFamily">Linux</field>
+   <field name="x64">true</field>
+   <field name="OSName">RedHat</field>
+   <field name="OSVersion">5</field>
+  </answer>
+ </test>
+ <test>
   <question>iTunes-iPhone/4.3.3 (4; 16GB)</question>
   <answer>
    <field name="isMobile">true</field>
@@ -8102,6 +8712,8 @@
    <field name="BrowserVersion">3.6</field>
    <field name="OSFamily">Linux</field>
    <field name="x64">true</field>
+   <field name="OSName">Ubuntu</field>
+   <field name="OSVersion">10.10</field>
   </answer>
  </test>
  <test>
@@ -8129,6 +8741,7 @@
    <field name="OSFamily">Windows</field>
    <field name="OSName">Windows 7</field>
    <field name="OSVersion">6.1</field>
+   <field name="isTouch">true</field>
   </answer>
  </test>
  <test>
@@ -8148,7 +8761,8 @@
    <field name="BrowserName">MSIE</field>
    <field name="BrowserVersion">8.0</field>
    <field name="BrowserShell">SlimBrowser</field>
-   <field name="MailRuSputnik">2.4</field>
+   <field name="MailRuSputnik">true</field>
+   <field name="MailRuSputnikVersion">2.4</field>
    <field name="OSFamily">Windows</field>
    <field name="OSName">Windows XP</field>
    <field name="OSVersion">5.1</field>
@@ -8323,6 +8937,56 @@
   </answer>
  </test>
  <test>
+  <question>Mozilla/5.0 (X11; U; Linux i686; ru; rv:1.9.2.15) Gecko/20110322 Red Hat/3.6.15-2.el6_0 Firefox/3.6.15</question>
+  <answer>
+   <field name="isMobile">false</field>
+   <field name="BrowserEngine">Gecko</field>
+   <field name="BrowserEngineVersion">1.9.2.15</field>
+   <field name="BrowserName">Firefox</field>
+   <field name="BrowserVersion">3.6</field>
+   <field name="OSFamily">Linux</field>
+   <field name="OSName">RedHat</field>
+   <field name="OSVersion">6.0</field>
+  </answer>
+ </test>
+ <test>
+  <question>Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.7.12) Gecko/20050921 Red Hat/1.7.12-1.1.3.2</question>
+  <answer>
+   <field name="isMobile">false</field>
+   <field name="BrowserEngine">Gecko</field>
+   <field name="BrowserEngineVersion">1.7.12</field>
+   <field name="OSFamily">Linux</field>
+   <field name="OSName">RedHat</field>
+  </answer>
+ </test>
+ <test>
+  <question>Mozilla/5.0 (X11; U; Linux i686; ru; rv:1.9.2.18) Gecko/20110621 Red Hat/3.6.18-1.el6_1 Firefox/3.6.18</question>
+  <answer>
+   <field name="isMobile">false</field>
+   <field name="BrowserEngine">Gecko</field>
+   <field name="BrowserEngineVersion">1.9.2.18</field>
+   <field name="BrowserName">Firefox</field>
+   <field name="BrowserVersion">3.6</field>
+   <field name="OSFamily">Linux</field>
+   <field name="OSName">RedHat</field>
+   <field name="OSVersion">6.1</field>
+  </answer>
+ </test>
+ <test>
+  <question>Mozilla/5.0 (X11; U; Linux x86_64; en-US; rv:1.9.2.23) Gecko/20110928 Red Hat/3.6.23-2.el6_1 Firefox/3.6.23</question>
+  <answer>
+   <field name="isMobile">false</field>
+   <field name="BrowserEngine">Gecko</field>
+   <field name="BrowserEngineVersion">1.9.2.23</field>
+   <field name="BrowserName">Firefox</field>
+   <field name="BrowserVersion">3.6</field>
+   <field name="OSFamily">Linux</field>
+   <field name="x64">true</field>
+   <field name="OSName">RedHat</field>
+   <field name="OSVersion">6.1</field>
+  </answer>
+ </test>
+ <test>
   <question>Links/0.9.1 (Linux 2.4.24; i386;)</question>
   <answer>
    <field name="isMobile">false</field>
@@ -8340,6 +9004,19 @@
    <field name="OSFamily">Windows</field>
    <field name="OSName">Windows XP</field>
    <field name="OSVersion">5.1</field>
+  </answer>
+ </test>
+ <test>
+  <question>Mozilla/5.0 (X11; U; Linux i686; ru; rv:1.9.2.24) Gecko/20111108 Red Hat/3.6-3.el5_7 Firefox/3.6.24</question>
+  <answer>
+   <field name="isMobile">false</field>
+   <field name="BrowserEngine">Gecko</field>
+   <field name="BrowserEngineVersion">1.9.2.24</field>
+   <field name="BrowserName">Firefox</field>
+   <field name="BrowserVersion">3.6</field>
+   <field name="OSFamily">Linux</field>
+   <field name="OSName">RedHat</field>
+   <field name="OSVersion">5.7</field>
   </answer>
  </test>
  <test>
@@ -8370,6 +9047,19 @@
    <field name="BrowserName">Epiphany</field>
    <field name="BrowserVersion">2.22</field>
    <field name="OSFamily">Linux</field>
+  </answer>
+ </test>
+ <test>
+  <question>Mozilla/5.0 (X11; U; Linux i686; ru; rv:1.9.2.24) Gecko/20111108 Red Hat/3.6.24-3.el6_1 Firefox/3.6.24</question>
+  <answer>
+   <field name="isMobile">false</field>
+   <field name="BrowserEngine">Gecko</field>
+   <field name="BrowserEngineVersion">1.9.2.24</field>
+   <field name="BrowserName">Firefox</field>
+   <field name="BrowserVersion">3.6</field>
+   <field name="OSFamily">Linux</field>
+   <field name="OSName">RedHat</field>
+   <field name="OSVersion">6.1</field>
   </answer>
  </test>
  <test>
@@ -8422,15 +9112,6 @@
    <field name="BrowserEngineVersion">2.5.22</field>
    <field name="BrowserName">Opera</field>
    <field name="BrowserVersion">10.53</field>
-   <field name="OSFamily">Unknown *nix</field>
-  </answer>
- </test>
- <test>
-  <question>Mozilla/5.0 (X11; U; AIX 005A471A4C00; en-US; rv:1.0rc2) Gecko/20020514</question>
-  <answer>
-   <field name="isMobile">false</field>
-   <field name="BrowserEngine">Gecko</field>
-   <field name="BrowserEngineVersion">1.0</field>
    <field name="OSFamily">Unknown *nix</field>
   </answer>
  </test>
@@ -8569,6 +9250,20 @@
   </answer>
  </test>
  <test>
+  <question>Mozilla/5.0 (X11; U; Linux x86_64; en-US; rv:1.9.2.9) Gecko/20100827 Red Hat/3.6.9-2.el6 Firefox/3.6.9</question>
+  <answer>
+   <field name="isMobile">false</field>
+   <field name="BrowserEngine">Gecko</field>
+   <field name="BrowserEngineVersion">1.9.2.9</field>
+   <field name="BrowserName">Firefox</field>
+   <field name="BrowserVersion">3.6</field>
+   <field name="OSFamily">Linux</field>
+   <field name="x64">true</field>
+   <field name="OSName">RedHat</field>
+   <field name="OSVersion">6</field>
+  </answer>
+ </test>
+ <test>
   <question>MSFT-PPC/5.2.5094</question>
   <answer>
    <field name="isMobile">false</field>
@@ -8576,6 +9271,19 @@
    <field name="BrowserEngine">Unknown</field>
    <field name="BrowserName">Unknown</field>
    <field name="isBrowser">false</field>
+  </answer>
+ </test>
+ <test>
+  <question>Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.2.9) Gecko/20100827 Red Hat/3.6.9-2.el6 Firefox/3.6.9</question>
+  <answer>
+   <field name="isMobile">false</field>
+   <field name="BrowserEngine">Gecko</field>
+   <field name="BrowserEngineVersion">1.9.2.9</field>
+   <field name="BrowserName">Firefox</field>
+   <field name="BrowserVersion">3.6</field>
+   <field name="OSFamily">Linux</field>
+   <field name="OSName">RedHat</field>
+   <field name="OSVersion">6</field>
   </answer>
  </test>
  <test>
@@ -8611,6 +9319,35 @@
   </answer>
  </test>
  <test>
+  <question>Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.8.0.3) Gecko/20060526 Red Hat/1.5.0.3-0.2.EL4 Firefox/1.5.0.3 pango-text</question>
+  <answer>
+   <field name="isMobile">false</field>
+   <field name="BrowserEngine">Gecko</field>
+   <field name="BrowserEngineVersion">1.8.0.3</field>
+   <field name="BrowserName">Firefox</field>
+   <field name="BrowserVersion">1.5</field>
+   <field name="OSFamily">Linux</field>
+   <field name="OSName">RedHat</field>
+   <field name="OSVersion">4</field>
+  </answer>
+ </test>
+ <test>
+  <question>Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.2; Trident/4.0; MyIE.Apple0.1.0 Build 004; MRA 5.5 (build 02842); Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1) ; .NET CLR 1.1.4322; InfoPath.1; .NET CLR 2.0.50727)</question>
+  <answer>
+   <field name="isMobile">false</field>
+   <field name="BrowserEngine">Trident</field>
+   <field name="BrowserEngineVersion">4.0</field>
+   <field name="BrowserName">MSIE</field>
+   <field name="BrowserVersion">8.0</field>
+   <field name="BrowserShell">MyIE</field>
+   <field name="MailRuAgent">true</field>
+   <field name="MailRuAgentVersion">5.5</field>
+   <field name="OSFamily">Windows</field>
+   <field name="OSName">Windows XP</field>
+   <field name="OSVersion">5.2</field>
+  </answer>
+ </test>
+ <test>
   <question>Midori/0.3 (X11; Linux; U; en-us) WebKit/534.21+</question>
   <answer>
    <field name="isMobile">false</field>
@@ -8641,6 +9378,20 @@
    <field name="BrowserEngine">Unknown</field>
    <field name="BrowserName">Unknown</field>
    <field name="isBrowser">false</field>
+  </answer>
+ </test>
+ <test>
+  <question>Mozilla/5.0 (X11; U; Linux x86_64; en-US; rv:1.9b5) Gecko/2008042803 Red Hat/3.0b5-0.beta5.6.el5 Firefox/3.0b5</question>
+  <answer>
+   <field name="isMobile">false</field>
+   <field name="BrowserEngine">Gecko</field>
+   <field name="BrowserEngineVersion">1.9</field>
+   <field name="BrowserName">Firefox</field>
+   <field name="BrowserVersion">3.0</field>
+   <field name="OSFamily">Linux</field>
+   <field name="x64">true</field>
+   <field name="OSName">RedHat</field>
+   <field name="OSVersion">5</field>
   </answer>
  </test>
  <test>
@@ -8687,6 +9438,22 @@
   </answer>
  </test>
  <test>
+  <question>Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; MyIE 2.0 Beta 2; MRA 5.7 (build 03686); .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; InfoPath.1)</question>
+  <answer>
+   <field name="isMobile">false</field>
+   <field name="BrowserEngine">Trident</field>
+   <field name="BrowserEngineVersion">4.0</field>
+   <field name="BrowserName">MSIE</field>
+   <field name="BrowserVersion">8.0</field>
+   <field name="BrowserShell">MyIE</field>
+   <field name="MailRuAgent">true</field>
+   <field name="MailRuAgentVersion">5.7</field>
+   <field name="OSFamily">Windows</field>
+   <field name="OSName">Windows XP</field>
+   <field name="OSVersion">5.1</field>
+  </answer>
+ </test>
+ <test>
   <question>Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.1.16) Gecko/20100427 Galeon/2.0.7 (Debian 2.0.7-2.1+b1)</question>
   <answer>
    <field name="isMobile">false</field>
@@ -8695,6 +9462,7 @@
    <field name="BrowserName">Galeon</field>
    <field name="BrowserVersion">2.0.7</field>
    <field name="OSFamily">Linux</field>
+   <field name="OSName">Debian</field>
   </answer>
  </test>
  <test>
@@ -8754,6 +9522,32 @@
   </answer>
  </test>
  <test>
+  <question>Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; MyIE 3.01)</question>
+  <answer>
+   <field name="isMobile">false</field>
+   <field name="BrowserEngine">Trident</field>
+   <field name="BrowserName">MSIE</field>
+   <field name="BrowserVersion">6.0</field>
+   <field name="BrowserShell">MyIE</field>
+   <field name="OSFamily">Windows</field>
+   <field name="OSName">Windows XP</field>
+   <field name="OSVersion">5.1</field>
+  </answer>
+ </test>
+ <test>
+  <question>Mozilla/5.0 (X11; U; Linux armv6l; ru-RU; rv:1.9a6pre) Gecko/20080828 Firefox/3.0a1 Tablet browser 0.3.7 RX-34</question>
+  <answer>
+   <field name="isMobile">true</field>
+   <field name="BrowserEngine">Gecko</field>
+   <field name="isTouch">true</field>
+   <field name="BrowserEngineVersion">1.9</field>
+   <field name="BrowserName">MobileFirefox</field>
+   <field name="BrowserVersion">3.0</field>
+   <field name="isTablet">true</field>
+   <field name="OSFamily">Linux</field>
+  </answer>
+ </test>
+ <test>
   <question>Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.8.0.13pre) Gecko/20070505 Iceape/1.0.9 (Debian-1.0.11~pre071022-0etch1)</question>
   <answer>
    <field name="isMobile">false</field>
@@ -8762,6 +9556,7 @@
    <field name="BrowserName">Firefox</field>
    <field name="BrowserVersion">1.0</field>
    <field name="OSFamily">Linux</field>
+   <field name="OSName">Debian</field>
   </answer>
  </test>
  <test>
@@ -8774,6 +9569,19 @@
    <field name="BrowserEngine">Unknown</field>
    <field name="BrowserName">Unknown</field>
    <field name="isBrowser">false</field>
+  </answer>
+ </test>
+ <test>
+  <question>Mozilla/5.0 (X11; U; Linux armv6l; ru-RU; rv:1.9a6pre) Gecko/20080606 Firefox/3.0a1 Tablet browser 0.3.7 RX-34+RX-44+RX-48_DIABLO_4.2008.23-14</question>
+  <answer>
+   <field name="isMobile">true</field>
+   <field name="BrowserEngine">Gecko</field>
+   <field name="isTouch">true</field>
+   <field name="BrowserEngineVersion">1.9</field>
+   <field name="BrowserName">MobileFirefox</field>
+   <field name="BrowserVersion">3.0</field>
+   <field name="isTablet">true</field>
+   <field name="OSFamily">Linux</field>
   </answer>
  </test>
  <test>
@@ -8817,6 +9625,35 @@
   </answer>
  </test>
  <test>
+  <question>Mozilla/5.0 (X11; U; Linux armv6l; ru-RU; rv:1.9a6pre) Gecko/20080716 Firefox/3.0a1 Tablet browser 0.3.7 RX-34+RX-44+RX-48_DIABLO_4.2008.30-2</question>
+  <answer>
+   <field name="isMobile">true</field>
+   <field name="BrowserEngine">Gecko</field>
+   <field name="isTouch">true</field>
+   <field name="BrowserEngineVersion">1.9</field>
+   <field name="BrowserName">MobileFirefox</field>
+   <field name="BrowserVersion">3.0</field>
+   <field name="isTablet">true</field>
+   <field name="OSFamily">Linux</field>
+  </answer>
+ </test>
+ <test>
+  <question>Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; Trident/4.0; MRSPUTNIK 2, 4, 0, 270; MRA 5.8 (build 4133); MyIE.Apple0.1.0 Build 004; EasyBits GO v1.0; GameXN GO v1.0; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; .NET4.0C; .NET4.0E; AskTB5.6; Alexa Toolbar)</question>
+  <answer>
+   <field name="isMobile">false</field>
+   <field name="BrowserEngine">Trident</field>
+   <field name="BrowserEngineVersion">4.0</field>
+   <field name="BrowserName">MSIE</field>
+   <field name="BrowserVersion">8.0</field>
+   <field name="BrowserShell">MyIE</field>
+   <field name="MailRuSputnik">true</field>
+   <field name="MailRuSputnikVersion">2.4</field>
+   <field name="OSFamily">Windows</field>
+   <field name="OSName">Windows XP</field>
+   <field name="OSVersion">5.1</field>
+  </answer>
+ </test>
+ <test>
   <question>TELECA-/2.0 (BREW 3.1.5; U; EN-US; SAMSUNG; SPH-M800; Teleca/Q05A/INT) MMP/2.0 Profile/MIDP-2.1 Configuration/CLDC-1.1</question>
   <answer>
    <field name="isMobile">true</field>
@@ -8825,6 +9662,23 @@
    <field name="isWAP">true</field>
    <field name="OSFamily">BREW</field>
    <field name="OSVersion">3.1.5</field>
+  </answer>
+ </test>
+ <test>
+  <question>Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; WOW64; Trident/4.0; MyIE.Apple0.1.0 Build 004; GTB7.1; MRSPUTNIK 2, 4, 0, 317; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; InfoPath.2; OfficeLiveConnector.1.3; OfficeLivePatch.0.0)</question>
+  <answer>
+   <field name="isMobile">false</field>
+   <field name="BrowserEngine">Trident</field>
+   <field name="BrowserEngineVersion">4.0</field>
+   <field name="BrowserName">MSIE</field>
+   <field name="BrowserVersion">8.0</field>
+   <field name="BrowserShell">MyIE</field>
+   <field name="MailRuSputnik">true</field>
+   <field name="MailRuSputnikVersion">2.4</field>
+   <field name="OSFamily">Windows</field>
+   <field name="OSName">Windows 7</field>
+   <field name="OSVersion">6.1</field>
+   <field name="x64">true</field>
   </answer>
  </test>
  <test>
@@ -8840,24 +9694,37 @@
   </answer>
  </test>
  <test>
-  <question>Mozilla/5.0 (compatible; ShunixBot/1.x; http://www.3p4eg0bsk4mes4.com/bot.htm)</question>
+  <question>Mozilla/4.0 (compatible; MSIE 6.0; X11; Linux armv6l; U) Opera 8.5 [ru_RU] Tablet browser 0.0.14 RX-34_2007SE_4.2007.38-2</question>
   <answer>
-   <field name="isMobile">false</field>
-   <field name="OSFamily">Unix</field>
-   <field name="BrowserEngine">Unknown</field>
-   <field name="BrowserName">Unknown</field>
-   <field name="isBrowser">false</field>
+   <field name="isMobile">true</field>
+   <field name="BrowserEngine">Presto</field>
+   <field name="BrowserName">Opera Mobile</field>
+   <field name="BrowserVersion">8.5</field>
+   <field name="isTablet">true</field>
+   <field name="OSFamily">Linux</field>
   </answer>
  </test>
  <test>
-  <question>0pB8gE0pBkgm4iGhnwp7lmrk5you469zso0-n9l-B2BARMTEuMC4yLjU1Ng==</question>
+  <question>Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US; rv:1.9.2a1pre) Gecko/20090317 Fennec/1.0b1</question>
   <answer>
    <field name="isMobile">true</field>
-   <field name="OSFamily">WindowsPhone</field>
+   <field name="BrowserEngine">Gecko</field>
    <field name="isTouch">true</field>
-   <field name="OSVersion">7</field>
-   <field name="BrowserEngine">Unknown</field>
-   <field name="BrowserName">Unknown</field>
+   <field name="BrowserEngineVersion">1.9.2</field>
+   <field name="BrowserName">MobileFirefox</field>
+   <field name="BrowserVersion">1.0</field>
+   <field name="OSFamily">WindowsMobile</field>
+  </answer>
+ </test>
+ <test>
+  <question>Mozilla/4.0 (compatible; MSIE 6.0; ; Linux armv5tejl; U) Opera 8.02 [ru_RU] Tablet browser 0.0.14 RX-34_2007SE_4.2007.26-8</question>
+  <answer>
+   <field name="isMobile">true</field>
+   <field name="BrowserEngine">Presto</field>
+   <field name="BrowserName">Opera Mobile</field>
+   <field name="BrowserVersion">8.02</field>
+   <field name="isTablet">true</field>
+   <field name="OSFamily">Linux</field>
   </answer>
  </test>
 </tests>
