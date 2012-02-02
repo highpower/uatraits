@@ -33,6 +33,12 @@ Section: misc
 Architecture: all
 Description: Package with browsers information
 
+Package: uatraits-utils
+Section: binary
+Architecture: any
+Depends: ${shlibs:Depends}, libuatraits (= ${Source-Version})
+Description: Utilities to check user-agents
+
 Package: uatraits-python
 Section: libs
 Architecture: any
