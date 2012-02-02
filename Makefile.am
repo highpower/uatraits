@@ -17,19 +17,31 @@ EXTRA_DIST = autogen.sh AUTHORS ChangeLog COPYING INSTALL NEWS README \
 	config/ax_prefix_config_h.m4 config/ax_python_devel.m4 config/libxml2.m4
 
 all-local:
+if HAVE_PERL
 	cd perl && perl Makefile.PL && echo "check : test" >> Makefile && make && cd -
+endif
 
 check-local:
+if HAVE_PERL
 	cd perl && make check && cd -
+endif
 
 clean-local:
+if HAVE_PERL
 	cd perl && make clean && perl Makefile.PL && echo "check : test" >> Makefile && cd -
+endif
 
 distclean-local:
+if HAVE_PERL
 	cd perl && make clean && perl Makefile.PL && echo "check : test" >> Makefile && cd -
+endif
 
 install-data-local:
+if HAVE_PERL
 	cd perl && make install && cd -
+endif
 
 uninstall-local:
+if HAVE_PERL
 	cd perl && make uninstall && cd -
+endif
