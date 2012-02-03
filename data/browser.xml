@@ -721,6 +721,16 @@
 				</define>
 			</branch>
 			
+			<branch name="Chromium">
+				<match type="any">
+					<pattern type="string">Chromium/</pattern>
+				</match>
+				<define name="BrowserName" value="Chromium"/>
+				<define name="BrowserVersion">
+					<pattern type="regex" value="$1">Chromium/(&ver3d;)</pattern>
+				</define>
+			</branch>
+			
 			<branch name="Chrome">
 				<match type="any">
 					<pattern type="string">Chrome/</pattern>
@@ -741,6 +751,15 @@
 				</define>
 			</branch>
 			
+			<branch name="Epiphany">
+				<match type="any">
+					<pattern type="string">Epiphany</pattern>
+				</match>
+				<define name="BrowserName" value="Epiphany"/>
+				<define name="BrowserVersion">
+					<pattern type="regex" value="$1">Epiphany/(&ver;)</pattern>
+				</define>
+			</branch>
 
 			<branch name="Arora">
 				<match type="any">
