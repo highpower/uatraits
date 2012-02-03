@@ -82,7 +82,7 @@ public:
 
 template <typename Traits> inline
 branch<Traits>::branch(char const *xpath) :
-    xpath_(xpath), common_(false), default_(false)
+	xpath_(xpath), common_(false), default_(false)
 {
 }
 
@@ -95,22 +95,22 @@ branch<Traits>::~branch() {
 
 template <typename Traits> inline bool
 branch<Traits>::is_common() const {
-    return common_;
+	return common_;
 }
 
 template <typename Traits> inline void
 branch<Traits>::set_common(bool value) {
-    common_ = value;
+	common_ = value;
 }
 
 template <typename Traits> inline bool
 branch<Traits>::is_default() const {
-    return default_;
+	return default_;
 }
 
 template <typename Traits> inline void
 branch<Traits>::set_default(bool value) {
-    default_ = value;
+	default_ = value;
 }
 
 template <typename Traits> inline void
@@ -139,22 +139,23 @@ branch<Traits>::trigger(char const *begin, char const *end, Traits &traits) cons
 		(*i)->trigger(begin, end, traits);
 	}
 	bool worked = false;
-	pointer default_branch;
+	typename std::list<pointer>::const_iterator default_branch_iterator = children_.end();
 
 	for (typename std::list<pointer>::const_iterator i = children_.begin(), list_end = children_.end(); i != list_end; ++i) {
-	    if ((*i)->is_default()) {
-	        default_branch = *i;
-	    }
-	    else if ((*i)->is_common()) {
-    		(*i)->trigger(begin, end, traits);
-	    } 
-	    else if (!worked && (*i)->matched(begin, end)) {
-    		worked = true;
-	    	(*i)->trigger(begin, end, traits);
-	    }
+		pointer const &ptr = *i;
+		if (ptr->is_default()) {
+			default_branch_iterator = i;
+		}
+		else if (ptr->is_common()) {
+			ptr->trigger(begin, end, traits);
+		} 
+		else if (!worked && ptr->matched(begin, end)) {
+			worked = true;
+			ptr->trigger(begin, end, traits);
+		}
 	}
-	if (!worked && default_branch) {
-	    default_branch->trigger(begin, end, traits);
+	if (!worked && default_branch_iterator != children_.end()) {
+		(*default_branch_iterator)->trigger(begin, end, traits);
 	}
 }
 
