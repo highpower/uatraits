@@ -6,8 +6,11 @@
 #include <fstream>
 #include <iostream>
 
+#include <boost/ref.hpp>
+#include <boost/function.hpp>
 #include <boost/thread/mutex.hpp>
 #include <boost/thread/condition.hpp>
+#include <boost/thread/thread.hpp>
 #include <boost/test/unit_test.hpp>
 
 #include "uatraits/error.hpp"
@@ -110,6 +113,14 @@ test_detection_with(xmlNodePtr node, detector const &det) {
 	}
 }
 
+void
+run_multithreaded_test(threaded_queue<xmlNodePtr> &queue, detector const &det) {
+	xmlNodePtr node;
+	while (queue.pop(node)) {
+		// test_detection_with(node, det);
+	}
+}
+
 BOOST_AUTO_TEST_SUITE(detector_test)
 
 BOOST_AUTO_TEST_CASE(test_detection) {
@@ -133,6 +144,13 @@ BOOST_AUTO_TEST_CASE(test_multithreading) {
 
 	using namespace details;
 	detector det(getenv("DATAFILE"));
+	threaded_queue<xmlNodePtr> queue;
+
+	boost::thread_group grp;
+	boost::function<void()> f(boost::bind(&run_multithreaded_test, boost::ref(queue), boost::cref(det)));
+	for (std::size_t i = 0; i < 10; ++i) {
+		grp.create_thread(f);
+	}
 	
 	resource<xmlDocPtr, xml_doc_traits> doc(xmlParseFile("cover.xml"));
 	xml_throw_unless(doc);
@@ -142,8 +160,10 @@ BOOST_AUTO_TEST_CASE(test_multithreading) {
 	}
 	xml_elems elems(root, "test");
 	for (xml_elems::iterator i = elems.begin(), end = elems.end(); i != end; ++i) {
+		queue.push(*i);
 	}
-	
+	queue.stop();
+	grp.join_all();
 }
 
 BOOST_AUTO_TEST_SUITE_END();
