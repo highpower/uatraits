@@ -16,7 +16,7 @@ AC_DEFUN([AX_BOOST_PYTHON],
 	ax_have_boost_python="yes"
 	AX_BOOST_HEADER([python.hpp], [], [ax_have_boost_python="no"])
 	
-	AC_MSG_CHECKING([link with boost::python])
+	AC_MSG_CHECKING([linkage with boost::python])
 	AC_LANG_SAVE()
 	AC_LANG([C++])
 	AC_LINK_IFELSE(

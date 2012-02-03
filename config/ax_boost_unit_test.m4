@@ -11,7 +11,7 @@ AC_DEFUN([AX_BOOST_UNIT_TEST],
 	AX_BOOST_HEADER([test/unit_test.hpp], [], [ax_have_boost_unit_test="no"])
 	AX_BOOST_HEADER([test/test_case_template.hpp], [], [ax_have_boost_unit_test="no"])
 	
-	AC_MSG_CHECKING([trying to link with boost::test])
+	AC_MSG_CHECKING([linkage with boost::test])
 	
 	AC_LANG_SAVE()
 	AC_LANG([C++])

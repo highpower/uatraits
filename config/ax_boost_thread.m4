@@ -9,7 +9,9 @@ AC_DEFUN([AX_BOOST_THREAD],
 	
 	ax_have_boost_thread="yes"
 	AX_BOOST_HEADER([thread.hpp], [], [ax_have_boost_thread="no"])
-	AC_MSG_CHECKING([trying to link with boost::thread])
+	AX_BOOST_HEADER([thread/mutex.hpp], [], [ax_have_boost_thread="no"])
+	AX_BOOST_HEADER([thread/condition.hpp], [], [ax_have_boost_thread="no"])
+	AC_MSG_CHECKING([linkage with boost::thread])
 	
 	AC_LANG_SAVE()
 	AC_LANG([C++])
