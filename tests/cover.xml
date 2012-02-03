@@ -3901,7 +3901,7 @@
   </answer>
  </test>
  <test>
-  <question>Р В Р’В Р Р†Р вЂљРІвЂћСћР В Р’В Р РЋРІвЂћСћР В Р’В Р РЋРІР‚СћР В Р’В Р В РІР‚В¦Р В Р Р‹Р Р†Р вЂљРЎв„ўР В Р’В Р вЂ™Р’В°Р В Р’В Р РЋРІР‚СњР В Р Р‹Р Р†Р вЂљРЎв„ўР В Р’В Р вЂ™Р’Вµ 1.6 (iPhone; iPhone OS 4.2.1; ru_RU)</question>
+  <question>Р В РІР‚в„ўР В РЎв„ўР В РЎвЂўР В Р вЂ¦Р РЋРІР‚С™Р В Р’В°Р В РЎвЂќР РЋРІР‚С™Р В Р’Вµ 1.6 (iPhone; iPhone OS 4.2.1; ru_RU)</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="OSFamily">iOS</field>
@@ -7618,6 +7618,19 @@
   </answer>
  </test>
  <test>
+  <question>Mozilla/5.0 (X11; Linux i686) AppleWebKit/535.1 (KHTML, like Gecko) Ubuntu/11.10 Chromium/14.0.835.202 Chrome/14.0.835.202 Safari/535.1</question>
+  <answer>
+   <field name="isMobile">false</field>
+   <field name="BrowserEngine">WebKit</field>
+   <field name="BrowserEngineVersion">535.1</field>
+   <field name="BrowserName">Chromium</field>
+   <field name="BrowserVersion">14.0.835</field>
+   <field name="OSFamily">Linux</field>
+   <field name="OSName">Ubuntu</field>
+   <field name="OSVersion">11.10</field>
+  </answer>
+ </test>
+ <test>
   <question>Mozilla/5.0 (Windows NT 5.0; rv:7.0.1) Gecko/20100101 Firefox/7.0.1</question>
   <answer>
    <field name="isMobile">false</field>
@@ -7702,6 +7715,19 @@
   </answer>
  </test>
  <test>
+  <question>Mozilla/5.0 (X11; Linux i686) AppleWebKit/535.2 (KHTML, like Gecko) Ubuntu/10.04 Chromium/15.0.874.106 Chrome/15.0.874.106 Safari/535.2</question>
+  <answer>
+   <field name="isMobile">false</field>
+   <field name="BrowserEngine">WebKit</field>
+   <field name="BrowserEngineVersion">535.2</field>
+   <field name="BrowserName">Chromium</field>
+   <field name="BrowserVersion">15.0.874</field>
+   <field name="OSFamily">Linux</field>
+   <field name="OSName">Ubuntu</field>
+   <field name="OSVersion">10.04</field>
+  </answer>
+ </test>
+ <test>
   <question>Mozilla/5.0 (Windows; U; Windows NT 6.0; ) AppleWebKit/534.12 (KHTML, like Gecko) Maxthon/3.0 Safari/534.12</question>
   <answer>
    <field name="isMobile">false</field>
@@ -7712,6 +7738,19 @@
    <field name="OSFamily">Windows</field>
    <field name="OSName">Windows Vista</field>
    <field name="OSVersion">6.0</field>
+  </answer>
+ </test>
+ <test>
+  <question>Mozilla/5.0 (X11; Linux i686) AppleWebKit/535.1 (KHTML, like Gecko) Ubuntu/11.04 Chromium/14.0.835.202 Chrome/14.0.835.202 Safari/535.1</question>
+  <answer>
+   <field name="isMobile">false</field>
+   <field name="BrowserEngine">WebKit</field>
+   <field name="BrowserEngineVersion">535.1</field>
+   <field name="BrowserName">Chromium</field>
+   <field name="BrowserVersion">14.0.835</field>
+   <field name="OSFamily">Linux</field>
+   <field name="OSName">Ubuntu</field>
+   <field name="OSVersion">11.04</field>
   </answer>
  </test>
  <test>
@@ -7737,6 +7776,20 @@
    <field name="OSFamily">Linux</field>
    <field name="OSName">Fedora</field>
    <field name="OSVersion">5</field>
+  </answer>
+ </test>
+ <test>
+  <question>Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.1 (KHTML, like Gecko) Ubuntu/11.10 Chromium/14.0.835.202 Chrome/14.0.835.202 Safari/535.1</question>
+  <answer>
+   <field name="isMobile">false</field>
+   <field name="BrowserEngine">WebKit</field>
+   <field name="BrowserEngineVersion">535.1</field>
+   <field name="BrowserName">Chromium</field>
+   <field name="BrowserVersion">14.0.835</field>
+   <field name="OSFamily">Linux</field>
+   <field name="x64">true</field>
+   <field name="OSName">Ubuntu</field>
+   <field name="OSVersion">11.10</field>
   </answer>
  </test>
  <test>
@@ -7854,6 +7907,19 @@
    <field name="isMobile">false</field>
    <field name="isBrowser">false</field>
    <field name="OSFamily">Linux</field>
+  </answer>
+ </test>
+ <test>
+  <question>Mozilla/5.0 (X11; Linux i686) AppleWebKit/535.1 (KHTML, like Gecko) Ubuntu/10.10 Chromium/14.0.835.202 Chrome/14.0.835.202 Safari/535.1</question>
+  <answer>
+   <field name="isMobile">false</field>
+   <field name="BrowserEngine">WebKit</field>
+   <field name="BrowserEngineVersion">535.1</field>
+   <field name="BrowserName">Chromium</field>
+   <field name="BrowserVersion">14.0.835</field>
+   <field name="OSFamily">Linux</field>
+   <field name="OSName">Ubuntu</field>
+   <field name="OSVersion">10.10</field>
   </answer>
  </test>
  <test>
@@ -8392,6 +8458,18 @@
   </answer>
  </test>
  <test>
+  <question>Mozilla/5.0 (X11; U; Linux i686; ru-ru) AppleWebKit/531.2+ (KHTML, like Gecko) Version/5.0 Safari/531.2+ Debian/squeeze (2.30.6-1) Epiphany/2.30.6</question>
+  <answer>
+   <field name="isMobile">false</field>
+   <field name="BrowserEngine">WebKit</field>
+   <field name="BrowserEngineVersion">531.2</field>
+   <field name="BrowserName">Epiphany</field>
+   <field name="BrowserVersion">2.30.6</field>
+   <field name="OSFamily">Linux</field>
+   <field name="OSName">Debian</field>
+  </answer>
+ </test>
+ <test>
   <question>htmlayout 3.2; Windows XP; www.terrainformatica.com )</question>
   <answer>
    <field name="isMobile">false</field>
@@ -8505,6 +8583,19 @@
    <field name="OSFamily">Windows</field>
    <field name="OSName">Windows 7</field>
    <field name="OSVersion">6.1</field>
+  </answer>
+ </test>
+ <test>
+  <question>Mozilla/5.0 (X11; U; Linux x86_64; ru-ru) AppleWebKit/531.2+ (KHTML, like Gecko) Version/5.0 Safari/531.2+ Debian/squeeze (2.30.6-1) Epiphany/2.30.6</question>
+  <answer>
+   <field name="isMobile">false</field>
+   <field name="BrowserEngine">WebKit</field>
+   <field name="BrowserEngineVersion">531.2</field>
+   <field name="BrowserName">Epiphany</field>
+   <field name="BrowserVersion">2.30.6</field>
+   <field name="OSFamily">Linux</field>
+   <field name="x64">true</field>
+   <field name="OSName">Debian</field>
   </answer>
  </test>
  <test>
@@ -8834,6 +8925,19 @@
   </answer>
  </test>
  <test>
+  <question>Mozilla/5.0 (X11; U; Linux i686; ru-ru) AppleWebKit/531.2+ (KHTML, like Gecko) Version/5.0 Safari/531.2+ Ubuntu/10.04 LTS () Epiphany/2.30.2</question>
+  <answer>
+   <field name="isMobile">false</field>
+   <field name="BrowserEngine">WebKit</field>
+   <field name="BrowserEngineVersion">531.2</field>
+   <field name="BrowserName">Epiphany</field>
+   <field name="BrowserVersion">2.30.2</field>
+   <field name="OSFamily">Linux</field>
+   <field name="OSName">Ubuntu</field>
+   <field name="OSVersion">10.04</field>
+  </answer>
+ </test>
+ <test>
   <question>Mozilla/5.0 (Macintosh; U; PPC Mac OS X 10.4; ru; rv:1.9.0.19) Gecko/2011091218 Camino/2.0.9 (MultiLang) (like Firefox/3.0.19)</question>
   <answer>
    <field name="isMobile">false</field>
@@ -8934,6 +9038,17 @@
    <field name="OSFamily">Windows</field>
    <field name="OSName">Windows ME</field>
    <field name="OSVersion">4.90.3000</field>
+  </answer>
+ </test>
+ <test>
+  <question>Mozilla/5.0 (X11; Linux i686) AppleWebKit/534.26+ (KHTML, like Gecko) Version/5.0 Safari/534.26+ Epiphany/2.30.6</question>
+  <answer>
+   <field name="isMobile">false</field>
+   <field name="BrowserEngine">WebKit</field>
+   <field name="BrowserEngineVersion">534.26</field>
+   <field name="BrowserName">Epiphany</field>
+   <field name="BrowserVersion">2.30.6</field>
+   <field name="OSFamily">Linux</field>
   </answer>
  </test>
  <test>
@@ -9102,6 +9217,19 @@
    <field name="OSFamily">Windows</field>
    <field name="OSName">Windows 2000</field>
    <field name="OSVersion">5.0.2195</field>
+  </answer>
+ </test>
+ <test>
+  <question>Mozilla/5.0 (X11; U; Linux x86_64; en-us) AppleWebKit/531.2+ (KHTML, like Gecko) Version/5.0 Safari/531.2+ Debian/squeeze (2.30.6-1) Epiphany/2.30.6</question>
+  <answer>
+   <field name="isMobile">false</field>
+   <field name="BrowserEngine">WebKit</field>
+   <field name="BrowserEngineVersion">531.2</field>
+   <field name="BrowserName">Epiphany</field>
+   <field name="BrowserVersion">2.30.6</field>
+   <field name="OSFamily">Linux</field>
+   <field name="x64">true</field>
+   <field name="OSName">Debian</field>
   </answer>
  </test>
  <test>
