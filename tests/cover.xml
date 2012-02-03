@@ -3901,7 +3901,7 @@
   </answer>
  </test>
  <test>
-  <question>Р В РІР‚в„ўР В РЎв„ўР В РЎвЂўР В Р вЂ¦Р РЋРІР‚С™Р В Р’В°Р В РЎвЂќР РЋРІР‚С™Р В Р’Вµ 1.6 (iPhone; iPhone OS 4.2.1; ru_RU)</question>
+  <question>ВКонтакте 1.6 (iPhone; iPhone OS 4.2.1; ru_RU)</question>
   <answer>
    <field name="isMobile">true</field>
    <field name="OSFamily">iOS</field>
