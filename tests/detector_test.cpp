@@ -6,6 +6,7 @@
 #include <fstream>
 #include <iostream>
 
+#include <boost/bind.hpp>
 #include <boost/ref.hpp>
 #include <boost/function.hpp>
 #include <boost/thread/mutex.hpp>
