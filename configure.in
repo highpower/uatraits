@@ -104,7 +104,6 @@ if $HAVE_PYTHON; then
 fi
 
 if $HAVE_BOOST_UNIT_TEST; then
-	BOOST_UNIT_TEST_LDFLAGS="$BOOST_UNIT_TEST_LDFLAGS -lboost_unit_test_framework"
 	m4_default([AC_CONFIG_FILES([tests/Makefile])])
 fi
 
