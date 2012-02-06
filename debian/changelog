@@ -1,3 +1,9 @@
+libuatraits (1.1.5-2) unstable; urgency=low
+
+  * some new browsers
+
+ -- bruno <bruno@yandex-team.ru>  Mon, 06 Feb 2012 17:10:37 +0300
+
 libuatraits (1.1.5-1) unstable; urgency=low
 
   * threadsafe trigger()
