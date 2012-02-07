@@ -21,4 +21,4 @@ AM_LDFLAGS = @BOOST_LDFLAGS@ @BOOST_THREAD_LDFLAGS@ @BOOST_UNIT_TEST_LDFLAGS@ \
 TESTS = uatraits-tests
 TESTS_ENVIRONMENT = DATAFILE=${top_srcdir}/data/browser.xml
 
-noinst_DATA = cover.xml cover.xsl
+noinst_DATA = cover.xml cover.xsl cover-data.xsl
