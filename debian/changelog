@@ -1,3 +1,9 @@
+libuatraits (1.1.5-3) unstable; urgency=low
+
+  * added cover.xml and tests.xml into uatraits-data package
+
+ -- ponomarev <ponomarev@yandex-team.ru>  Tue, 07 Feb 2012 12:14:55 +0300
+
 libuatraits (1.1.5-2) unstable; urgency=low
 
   * some new browsers
