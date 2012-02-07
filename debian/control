@@ -24,7 +24,7 @@ Description: The c++ library
 Package: libuatraits-dev
 Section: libdevel
 Architecture: any
-Depends: libuatraits (= ${binary:Version})
+Depends: libuatraits (=${Source-Version})
 Description: The c++ library
  Developers package
 
