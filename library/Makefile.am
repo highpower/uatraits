@@ -1,6 +1,7 @@
 lib_LTLIBRARIES = libuatraits.la
 
-libuatraits_la_SOURCES = detector.cpp error.cpp pcre_utils.cpp \
+libuatraits_la_SOURCES = detector.cpp detector_helper.cpp \
+	error.cpp pcre_utils.cpp \
 	type_traits.cpp xml_utils.cpp
 
 AM_CXXFLAGS = -pthread

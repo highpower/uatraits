@@ -20,6 +20,7 @@
 
 #include <iosfwd>
 #include <cstring>
+#include <string>
 
 #include "uatraits/error.hpp"
 #include "uatraits/config.hpp"
@@ -34,6 +35,7 @@
 #include "uatraits/details/static_definition.hpp"
 #include "uatraits/details/string_definition.hpp"
 #include "uatraits/details/complex_definition.hpp"
+#include "uatraits/details/detector_helper.hpp"
 
 namespace uatraits { namespace details {
 
@@ -45,6 +47,8 @@ public:
 	void detect(char const *begin, char const *end, Traits &traits) const;
 	void checked_detect(char const *begin, char const *end, Traits &traits, std::ostream &out) const;
 
+	std::string const& date() const;
+
 private:
 	detector_impl(detector_impl const &);
 	detector_impl& operator = (detector_impl const &);
@@ -53,15 +57,14 @@ private:
 	typedef definition<Traits> definition_type;
 
 	void parse(xmlDocPtr doc);
-	bool disabled(xmlNodePtr node) const;
-	bool has_child_patterns(xmlNodePtr node) const;
-	
+
 	shared_ptr<branch_type> parse_branch(xmlNodePtr node) const;
 	shared_ptr<definition_type> parse_definition(xmlNodePtr node) const;
 	shared_ptr<definition_type> parse_complex_definition(char const *name, char const* xpath, xmlNodePtr node) const;
 
 private:
 	shared_ptr<branch_type> root_;
+	std::string date_;
 };
 
 template <typename Traits> inline 
@@ -69,6 +72,11 @@ detector_impl<Traits>::detector_impl(xmlDocPtr doc)
 {
 	root_.reset(new root_branch<Traits>());
 	parse(doc);
+}
+
+template <typename Traits> inline std::string const&
+detector_impl<Traits>::date() const {
+	return date_;
 }
 
 template <typename Traits> inline void
@@ -83,26 +91,16 @@ detector_impl<Traits>::parse(xmlDocPtr doc)
 	if (0 == root) {
 		throw error("got empty browser.xml");
 	}
+	detector_helper::check_version(root);
+	char const *date = xml_attr_text(root, "date");
+	if (0 != date) {
+		date_.assign(date);
+	}
+
 	xml_elems elems(root, "branch");
 	for (xml_elems::iterator i = elems.begin(), end = elems.end(); i != end; ++i) {
 		root_->add_child(parse_branch(*i));
 	}
-}
-
-template <typename Traits> inline bool
-detector_impl<Traits>::disabled(xmlNodePtr node) const {
-	char const *value = xml_attr_text(node, "disabled");
-	return value && (0 == strncasecmp(value, "true", sizeof("true")));
-}
-
-template <typename Traits> inline bool
-detector_impl<Traits>::has_child_patterns(xmlNodePtr node) const {
-	for (xmlNodePtr current = node->children; 0 != current; current  = current->next) {
-		if (XML_ELEMENT_NODE == current->type && xmlStrncasecmp(current->name, (xmlChar const*) "pattern", sizeof("pattern")) == 0) {
-			return true;
-		}
-	}
-	return false;
 }
 
 template <typename Traits> inline shared_ptr<typename detector_impl<Traits>::branch_type>
@@ -120,13 +118,13 @@ detector_impl<Traits>::parse_branch(xmlNodePtr node) const {
 	}
 	
 	for (xmlNodePtr n = xmlFirstElementChild(node); 0 != n; n = xmlNextElementSibling(n)) {
-		if (disabled(n)) {
+		if (detector_helper::disabled(n)) {
 			continue;
 		}
 		if (xmlStrncasecmp(n->name, (xmlChar const*) "match", sizeof("match")) == 0) {
 			xml_elems elems(n, "pattern");
 			for (xml_elems::iterator i = elems.begin(), end = elems.end(); i != end; ++i) {
-				if (disabled(*i)) {
+				if (detector_helper::disabled(*i)) {
 					continue;
 				}
 				char const *type = xml_attr_text(*i, "type");
@@ -159,7 +157,7 @@ detector_impl<Traits>::parse_definition(xmlNodePtr node) const {
 	if (static_cast<char const*>(0) == name) {
 		throw error("definition without name in [%s]", (char const*) path.get());
 	}
-	if (has_child_patterns(node)) {
+	if (detector_helper::has_child_patterns(node)) {
 		return parse_complex_definition(name, (char const*) path.get(), node);
 	}
 	if (static_cast<char const*>(0) == value) {
@@ -176,7 +174,7 @@ detector_impl<Traits>::parse_complex_definition(char const *name, char const* xp
 	
 	xml_elems elems(node, "pattern");
 	for (xml_elems::const_iterator i = elems.begin(), end = elems.end(); i != end; ++i) {
-		if (disabled(*i)) {
+		if (detector_helper::disabled(*i)) {
 			continue;
 		}
 		resource<xmlChar*, xml_string_traits> path(xmlGetNodePath(*i));

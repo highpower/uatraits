@@ -33,6 +33,8 @@ public:
 	detector(char const *file);
 	virtual ~detector();
 
+	std::string const& date() const;
+
 	typedef std::map<std::string, std::string> result_type;
 	result_type detect(char const *agent) const;
 	result_type detect(std::string const &agent) const;

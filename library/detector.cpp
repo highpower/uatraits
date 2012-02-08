@@ -17,6 +17,11 @@ detector::detector(char const *name)
 detector::~detector() {
 }
 
+std::string const&
+detector::date() const {
+	return impl_->date();
+}
+
 detector::result_type
 detector::detect(char const *agent) const {
 	result_type result;

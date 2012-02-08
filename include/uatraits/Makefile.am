@@ -8,6 +8,7 @@ nobase_pkginclude_HEADERS = config.hpp \
 	details/char_traits.hpp \
 	details/complex_definition.hpp \
 	details/definition.hpp \
+	details/detector_helper.hpp \
 	details/detector_impl.hpp \
 	details/functors.hpp \
 	details/integer.hpp \

@@ -143,6 +143,8 @@ BOOST_AUTO_TEST_CASE(test_detection) {
 	
 	using namespace details;
 	detector det(getenv("DATAFILE"));
+
+	BOOST_CHECK(!det.date().empty());
 	
 	resource<xmlDocPtr, xml_doc_traits> doc(xmlParseFile("cover.xml"));
 	xml_throw_unless(doc);
