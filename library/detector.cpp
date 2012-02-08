@@ -9,7 +9,7 @@ namespace uatraits {
 detector::detector(char const *name)
 {
 	using namespace details;
-	resource<xmlDocPtr, xml_doc_traits> doc(xmlReadFile(name, NULL, XML_PARSE_NOENT));
+	resource<xmlDocPtr, xml_doc_traits> doc(xmlReadFile(name, 0, XML_PARSE_NOENT));
 	xml_throw_unless(doc);
 	impl_.reset(new impl_type(doc.get()));
 }

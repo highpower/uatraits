@@ -25,7 +25,7 @@ private:
 python_detector::python_detector(char const *file)
 {
 	using namespace details;
-	resource<xmlDocPtr, xml_doc_traits> doc(xmlParseFile(file));
+	resource<xmlDocPtr, xml_doc_traits> doc(xmlReadFile(file, 0, XML_PARSE_NOENT));
 	xml_throw_unless(doc);
 	impl_.reset(new impl_type(doc.get()));
 }
