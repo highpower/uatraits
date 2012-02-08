@@ -32,6 +32,13 @@ detector::detect(std::string const &agent) const {
 }
 
 void
+detector::detect(char const *agent, result_type &result) const {
+	result_type res;
+	impl_->detect(agent, agent + std::char_traits<char>::length(agent), res);
+	res.swap(result);
+}
+
+void
 detector::detect(std::string const &agent, result_type &result) const {
 	result_type res;
 	impl_->detect(agent.c_str(), agent.c_str() + agent.size(), res);

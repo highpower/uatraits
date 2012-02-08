@@ -37,6 +37,7 @@ public:
 	result_type detect(char const *agent) const;
 	result_type detect(std::string const &agent) const;
 
+	void detect(char const *agent, result_type &result) const;
 	void detect(std::string const &agent, result_type &result) const;
 
 private:

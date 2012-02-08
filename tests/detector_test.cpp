@@ -110,7 +110,8 @@ test_detection_with(xmlNodePtr node, detector const &det) {
 		}
 	}
 	THREADSAFE_CHECK(agent);
-	detector::result_type result = det.detect(agent);
+	detector::result_type result;
+	det.detect(agent, result);
 	THREADSAFE_CHECK_EQUAL(result.size(), props.size());
 	for (detector::result_type::const_iterator i = props.begin(), end = props.end(); i != end; ++i) {
 		detector::result_type::const_iterator it = result.find(i->first);
