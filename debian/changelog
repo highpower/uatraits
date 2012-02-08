@@ -1,3 +1,9 @@
+libuatraits (1.1.5-4) unstable; urgency=low
+
+  * a lot of new browsers
+
+ -- bruno <bruno@yandex-team.ru>  Wed, 08 Feb 2012 18:40:37 +0300
+
 libuatraits (1.1.5-3) unstable; urgency=low
 
   * added cover.xml and tests.xml into uatraits-data package

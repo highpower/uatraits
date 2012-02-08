@@ -6,7 +6,7 @@
 <!ENTITY ver "\d[\d\.]*">
 <!ENTITY word "\w+">
 ]>
-<rules xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="browser.xsd" minver="1.1" date="2012.02.08.16.45">
+<rules xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="browser.xsd" minver="1.1" date="2012.02.08.18.40">
 	<branch name="Mobile">
 		<!-- Mobile bullshit -->
 		<match type="any">
@@ -46,6 +46,8 @@
 			<pattern type="string">Minimo</pattern>
 			<pattern type="string">PlayStation Portable</pattern>
 			<pattern type="string">Tablet browser</pattern>
+			<pattern type="string">BlackBerry</pattern>
+			<pattern type="string">PlayBook</pattern>
 			<pattern type="string">iTunes-i</pattern>
 			<pattern type="regex">MSIE.*PPC[;)]</pattern>
 			<pattern type="regex">HTC[_/]</pattern>
@@ -90,6 +92,17 @@
 					<pattern type="regex" value="$1">Dolfin/(&ver;)</pattern>
 				</define>
 			</branch>
+			
+			<branch name="PlayBook">
+				<match type="any">
+					<pattern type="string">PlayBook</pattern>
+				</match>
+				<define name="BrowserName" value="BlackBerry"/>				
+				<define name="BrowserVersion">
+					<pattern type="regex" value="$1">Version/(&ver3d;)</pattern>
+				</define>
+			</branch>
+			
 			<branch name="SkyFire">
 				<match>
 					<pattern type="string">Skyfire/</pattern>
@@ -259,6 +272,7 @@
 				<pattern type="regex">MSIE &ver2d;.*Windows Phone</pattern>
 				<pattern type="regex">MSIE &ver2d;.*PPC</pattern>
 				<pattern type="regex">MSIE &ver2d;.*WP7</pattern>
+				<pattern type="regex">MSIE &ver2d;.*NOKIA</pattern>
 			</match>
 			<define name="BrowserEngine" value="Trident"/>			
 			<define name="BrowserEngineVersion">
@@ -333,9 +347,9 @@
 				</match>
 				<define name="BrowserName" value="Blackberry"/>
 				<define name="BrowserVersion">
-					<pattern type="regex" value="$1">^Blackberry[\d]+/(&ver;)</pattern>
+					<pattern type="regex" value="$1">^Blackberry[\d]+/(&ver;)</pattern>				
 				</define>
-			</branch>
+			</branch>			
 			<branch name="Dalvik">
 				<match type="any">
 					<pattern type="string">Dalvik/</pattern>
@@ -381,11 +395,11 @@
 			<branch name="NokiaBrowser">
 				<match type="any">
 					<pattern type="string">S60</pattern>
-					<pattern type="string">Series80</pattern>
+					<pattern type="regex">Series[89]0</pattern>					
 				</match>
 				<define name="BrowserName" value="NokiaBrowser"/>
 				<define name="BrowserVersion">
-					<pattern type="regex" value="$1">(?:[Ss]60|Series80)/(&ver2d;)</pattern>
+					<pattern type="regex" value="$1">(?:[Ss]60|Series[89]0)/(&ver2d;)</pattern>
 				</define>
 			</branch>
 
@@ -501,7 +515,9 @@
 					<pattern type="string">SymbOS</pattern>
 					<pattern type="string">S60</pattern>
 					<pattern type="string">Series80</pattern>
+					<pattern type="string">Series90</pattern>
 					<pattern type="string">Symbian OS</pattern>
+					<pattern type="string">Symbian;</pattern>					
 					<pattern type="regex">^Nokia.*AppleWebKit</pattern>
 				</match>
 				<define name="OSFamily" value="Symbian"/>
@@ -532,6 +548,15 @@
 				</match>
 				<define name="OSFamily" value="BlackBerry"/>
 			</branch>
+			<branch name="BlackberryTablet">
+				<match type="any">					
+					<pattern type="string">RIM Tablet OS</pattern>					
+				</match>
+				<define name="OSFamily" value="RIMTabletOS"/>
+				<define name="OSVersion">
+					<pattern type="regex" value="$1">RIM Tablet OS (&ver;)</pattern>					
+				</define>
+			</branch>
 			<branch name="MeeGo">
 				<match>
 					<pattern type="string">MeeGo</pattern>
@@ -544,6 +569,8 @@
 				<match>
 					<pattern type="string">Windows Phone OS</pattern>
 					<pattern type="string">ZuneWP7</pattern>
+					<pattern type="string">Lumia</pattern>					
+					<pattern type="regex">MSIE.*NOKIA</pattern>
 				</match>
 				<define name="OSFamily" value="WindowsPhone"/>
 				<define name="isTouch" value="true"/>
@@ -677,6 +704,26 @@
 					<pattern type="regex" value="$1">SeaMonkey/(&ver2d;)</pattern>
 				</define>
 			</branch>
+			
+			<branch name="PaleMoon">
+				<match type="any">
+					<pattern type="string">PaleMoon/</pattern>
+				</match>
+				<define name="BrowserName" value="PaleMoon"/>
+				<define name="BrowserVersion">
+					<pattern type="regex" value="$1">PaleMoon/(&ver2d;)</pattern>
+				</define>
+			</branch>
+			
+			<branch name="Netscape">
+				<match type="any">
+					<pattern type="regex">Netscape[\d]?/</pattern>
+				</match>
+				<define name="BrowserName" value="Netscape"/>
+				<define name="BrowserVersion">
+					<pattern type="regex" value="$1">Netscape[\d]?/(&ver2d;)</pattern>
+				</define>
+			</branch>
 
 			<branch name="Firefox">
 				<match type="any">
@@ -685,6 +732,7 @@
 					<pattern type="string">Shiretoko/</pattern>
 					<pattern type="string">Iceweasel/</pattern>
 					<pattern type="string">Iceape/</pattern>
+					<pattern type="string">GranParadiso/</pattern>					
 					<pattern type="string">Minefield/</pattern>
 					<pattern type="string">Thunderbird/</pattern>
 					<pattern type="string">Firebird/</pattern>
@@ -698,6 +746,7 @@
 					<pattern type="regex" value="$1">Minefield/(&ver2d;)</pattern>
 					<pattern type="regex" value="$1">Thunderbird/(&ver2d;)</pattern>
 					<pattern type="regex" value="$1">Firebird/(&ver2d;)</pattern>
+					<pattern type="regex" value="$1">GranParadiso/(&ver2d;)</pattern>
 					<pattern type="regex" value="$1">Iceape/(&ver2d;)</pattern>
 				</define>
 			</branch>
@@ -760,6 +809,16 @@
 					<pattern type="regex" value="$1">Epiphany/(&ver;)</pattern>
 				</define>
 			</branch>
+			
+			<branch name="QtWeb">
+				<match type="any">
+					<pattern type="string">QtWeb</pattern>
+				</match>
+				<define name="BrowserName" value="QtWeb"/>
+				<define name="BrowserVersion">
+					<pattern type="regex" value="$1">QtWeb Internet Browser/(&ver;)</pattern>
+				</define>
+			</branch>			
 
 			<branch name="Arora">
 				<match type="any">
@@ -851,7 +910,8 @@
 		<branch name="Trident">
 			<match type="any">
 				<pattern type="string">Trident/</pattern>
-				<pattern type="regex">MSIE &ver2d;</pattern>
+				<pattern type="string">Microsoft Office/</pattern>
+				<pattern type="regex">MSIE &ver2d;</pattern>				
 			</match>
 			<define name="BrowserEngine">Trident</define>
 			<define name="BrowserEngineVersion">
@@ -877,6 +937,7 @@
 				<pattern type="string" value="MyIE2">MyIE2</pattern>
 				<pattern type="string" value="MyIE">MyIE</pattern>
 				<pattern type="string" value="SlimBrowser">SlimBrowser</pattern>				
+				<pattern type="string" value="MicrosoftOffice">Microsoft Office</pattern>
 			</define>			
 		</branch>
 
@@ -887,17 +948,24 @@
 				<pattern type="string">Python-urllib</pattern>				
 				<pattern type="string">Wget</pattern>
 				<pattern type="regex">^PHP/</pattern>
+				<pattern type="regex">^Java/</pattern>
 				<pattern type="regex">E?Links</pattern>							
 			</match>
 			<define name="BrowserEngine">
 				<pattern type="regex" value="TextBased">E?Links</pattern>
 				<pattern type="string" value="TextBased">Lynx</pattern>
 			</define>
+			<define name="BrowserName">
+				<pattern type="string" value="ELinks">ELinks</pattern>
+				<pattern type="string" value="Links">Links</pattern>
+				<pattern type="string" value="Lynx">Lynx</pattern>			
+			</define>
 			<define name="isBrowser">
 				<pattern type="string" value="false">libcurl</pattern>
 				<pattern type="string" value="false">Python-urllib</pattern>				
 				<pattern type="string" value="false">Wget</pattern>
 				<pattern type="regex" value="false">^PHP/</pattern>
+				<pattern type="regex" value="false">^Java/</pattern>
 				<pattern type="string" value="false">libwww-perl</pattern>
 			</define>
 		</branch>
@@ -1110,6 +1178,7 @@
 					<pattern type="string">Mac OS X</pattern>
 					<pattern type="string">PPC</pattern>
 					<pattern type="string">Darwin</pattern>
+					<pattern type="string">Mac_PowerPC</pattern>					
 				</match>
 				<define name="OSFamily">MacOS</define>
 				<define name="OSVersion">
