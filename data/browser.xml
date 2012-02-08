@@ -6,7 +6,7 @@
 <!ENTITY ver "\d[\d\.]*">
 <!ENTITY word "\w+">
 ]>
-<rules xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="browser.xsd">
+<rules xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="browser.xsd" minver="1.1" date="2012.02.08.16.45">
 	<branch name="Mobile">
 		<!-- Mobile bullshit -->
 		<match type="any">

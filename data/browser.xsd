@@ -5,6 +5,8 @@
             <xs:sequence>
                 <xs:element maxOccurs="unbounded" ref="branch"/>
             </xs:sequence>
+            <xs:attribute name="date" type="xs:string"/>
+            <xs:attribute name="minver" type="xs:string"/>
         </xs:complexType>
     </xs:element>
     <xs:element name="branch">
