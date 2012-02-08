@@ -13,7 +13,7 @@ WriteMakefile(
     ($] >= 5.005 ?     ## Add these new keywords supported since 5.005
       (ABSTRACT_FROM  => 'lib/uatraits.pm', # retrieve abstract from module
        AUTHOR         => 'Oleg Obolensky <highpower@yandex-team.ru>') : ()),
-    LIBS              => ['@XML_LIBS@ @PCRE_LIBS@ -L../library/.libs/ -luatraits'],
+    LIBS              => ['-L../library/.libs/ @XML_LIBS@ @PCRE_LIBS@ -luatraits'],
     DEFINE            => '',
     INC               => '-I. -I../include -I../config @XML_CPPFLAGS@ @PCRE_CFLAGS@',
 	CC                => 'g++',
