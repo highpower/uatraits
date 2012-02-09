@@ -1,3 +1,9 @@
+libuatraits (1.1.6-2) unstable; urgency=low
+
+  * Java +J2ME
+
+ -- bruno <bruno@yandex-team.ru>  Thu, 09 Feb 2012 16:25:04 +0300
+
 libuatraits (1.1.6-1) unstable; urgency=low
 
   * check minver attribute on load browser.xml
