@@ -444,7 +444,7 @@
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Presto</field>
    <field name="BrowserEngineVersion">2.4.18</field>
-   <field name="BrowserName">Opera Mobile</field>
+   <field name="BrowserName">OperaMobile</field>
    <field name="BrowserVersion">10.00</field>
    <field name="OSFamily">Symbian</field>
   </answer>
@@ -455,7 +455,7 @@
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Presto</field>
    <field name="BrowserEngineVersion">2.8.149</field>
-   <field name="BrowserName">Opera Mobile</field>
+   <field name="BrowserName">OperaMobile</field>
    <field name="BrowserVersion">11.10</field>
    <field name="OSFamily">Symbian</field>
   </answer>
@@ -466,7 +466,7 @@
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Presto</field>
    <field name="BrowserEngineVersion">2.8.149</field>
-   <field name="BrowserName">Opera Mobile</field>
+   <field name="BrowserName">OperaMobile</field>
    <field name="BrowserVersion">11.10</field>
    <field name="OSFamily">Symbian</field>
   </answer>
@@ -477,7 +477,7 @@
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Presto</field>
    <field name="BrowserEngineVersion">2.7.81</field>
-   <field name="BrowserName">Opera Mobile</field>
+   <field name="BrowserName">OperaMobile</field>
    <field name="BrowserVersion">11.00</field>
    <field name="OSFamily">Symbian</field>
   </answer>
@@ -488,7 +488,7 @@
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Presto</field>
    <field name="BrowserEngineVersion">2.7.81</field>
-   <field name="BrowserName">Opera Mobile</field>
+   <field name="BrowserName">OperaMobile</field>
    <field name="BrowserVersion">11.00</field>
    <field name="OSFamily">Symbian</field>
   </answer>
@@ -499,7 +499,7 @@
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Presto</field>
    <field name="BrowserEngineVersion">2.7.81</field>
-   <field name="BrowserName">Opera Mobile</field>
+   <field name="BrowserName">OperaMobile</field>
    <field name="BrowserVersion">11.00</field>
    <field name="isTablet">true</field>
    <field name="OSFamily">WindowsMobile</field>
@@ -511,7 +511,7 @@
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Presto</field>
    <field name="BrowserEngineVersion">2.8.149</field>
-   <field name="BrowserName">Opera Mobile</field>
+   <field name="BrowserName">OperaMobile</field>
    <field name="BrowserVersion">11.1</field>
    <field name="isTablet">true</field>
    <field name="OSFamily">WindowsMobile</field>
@@ -523,7 +523,7 @@
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Presto</field>
    <field name="BrowserEngineVersion">2.7.81</field>
-   <field name="BrowserName">Opera Mobile</field>
+   <field name="BrowserName">OperaMobile</field>
    <field name="BrowserVersion">11.002</field>
    <field name="isTablet">true</field>
    <field name="OSFamily">WindowsMobile</field>
@@ -535,7 +535,7 @@
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Presto</field>
    <field name="BrowserEngineVersion">2.5.25</field>
-   <field name="BrowserName">Opera Mini</field>
+   <field name="BrowserName">OperaMini</field>
    <field name="BrowserVersion">6.24096</field>
    <field name="OSFamily">Symbian</field>
   </answer>
@@ -546,7 +546,7 @@
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Presto</field>
    <field name="BrowserEngineVersion">2.9.168</field>
-   <field name="BrowserName">Opera Mini</field>
+   <field name="BrowserName">OperaMini</field>
    <field name="BrowserVersion">2.0</field>
    <field name="OSFamily">WindowsMobile</field>
    <field name="J2ME">true</field>
@@ -558,7 +558,7 @@
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Presto</field>
    <field name="BrowserEngineVersion">2.2.15</field>
-   <field name="BrowserName">Opera Mini</field>
+   <field name="BrowserName">OperaMini</field>
    <field name="BrowserVersion">5.1</field>
    <field name="OSFamily">WindowsMobile</field>
   </answer>
@@ -569,7 +569,7 @@
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Presto</field>
    <field name="BrowserEngineVersion">2.8.131</field>
-   <field name="BrowserName">Opera Mini</field>
+   <field name="BrowserName">OperaMini</field>
    <field name="BrowserVersion">4.2</field>
    <field name="OSFamily">WindowsMobile</field>
    <field name="J2ME">true</field>
@@ -581,7 +581,7 @@
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Presto</field>
    <field name="BrowserEngineVersion">2.5.25</field>
-   <field name="BrowserName">Opera Mini</field>
+   <field name="BrowserName">OperaMini</field>
    <field name="BrowserVersion">4.2</field>
    <field name="OSFamily">Java</field>
    <field name="J2ME">true</field>
@@ -700,7 +700,7 @@
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Presto</field>
-   <field name="BrowserName">Opera Mobile</field>
+   <field name="BrowserName">OperaMobile</field>
    <field name="BrowserVersion">8.65</field>
    <field name="OSFamily">Symbian</field>
   </answer>
@@ -710,7 +710,7 @@
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Presto</field>
-   <field name="BrowserName">Opera Mobile</field>
+   <field name="BrowserName">OperaMobile</field>
    <field name="BrowserVersion">8.65</field>
    <field name="OSFamily">Symbian</field>
   </answer>
@@ -720,7 +720,7 @@
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Presto</field>
-   <field name="BrowserName">Opera Mobile</field>
+   <field name="BrowserName">OperaMobile</field>
    <field name="BrowserVersion">8.65</field>
    <field name="OSFamily">Symbian</field>
   </answer>
@@ -730,7 +730,7 @@
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Presto</field>
-   <field name="BrowserName">Opera Mobile</field>
+   <field name="BrowserName">OperaMobile</field>
    <field name="BrowserVersion">8.65</field>
    <field name="OSFamily">Symbian</field>
   </answer>
@@ -740,7 +740,7 @@
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Presto</field>
-   <field name="BrowserName">Opera Mobile</field>
+   <field name="BrowserName">OperaMobile</field>
    <field name="BrowserVersion">8.65</field>
    <field name="OSFamily">Symbian</field>
   </answer>
@@ -750,7 +750,7 @@
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Presto</field>
-   <field name="BrowserName">Opera Mobile</field>
+   <field name="BrowserName">OperaMobile</field>
    <field name="BrowserVersion">6.20</field>
    <field name="OSFamily">Symbian</field>
   </answer>
@@ -760,7 +760,7 @@
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Presto</field>
-   <field name="BrowserName">Opera Mobile</field>
+   <field name="BrowserName">OperaMobile</field>
    <field name="BrowserVersion">8.00</field>
    <field name="OSFamily">Symbian</field>
   </answer>
@@ -770,7 +770,7 @@
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Presto</field>
-   <field name="BrowserName">Opera Mobile</field>
+   <field name="BrowserName">OperaMobile</field>
    <field name="BrowserVersion">8.50</field>
    <field name="OSFamily">Symbian</field>
   </answer>
@@ -780,7 +780,7 @@
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Presto</field>
-   <field name="BrowserName">Opera Mobile</field>
+   <field name="BrowserName">OperaMobile</field>
    <field name="BrowserVersion">8.50</field>
    <field name="OSFamily">Symbian</field>
   </answer>
@@ -1020,7 +1020,7 @@
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Presto</field>
-   <field name="BrowserName">Opera Mobile</field>
+   <field name="BrowserName">OperaMobile</field>
    <field name="BrowserVersion">8.02</field>
    <field name="OSFamily">MeeGo</field>
    <field name="isTouch">true</field>
@@ -1138,7 +1138,7 @@
   <question>Nokia5228/UC Browser7.9.0.102/50/400/UCWEB</question>
   <answer>
    <field name="isMobile">true</field>
-   <field name="BrowserEngine">Proprietary</field>
+   <field name="BrowserEngine">UCBrowser</field>
    <field name="BrowserName">UCBrowser</field>
    <field name="BrowserVersion">7.9</field>
    <field name="OSFamily">Unknown</field>
@@ -1148,7 +1148,7 @@
   <question>Nokia5230/UC Browser7.9.0.102/50/400/UCWEB</question>
   <answer>
    <field name="isMobile">true</field>
-   <field name="BrowserEngine">Proprietary</field>
+   <field name="BrowserEngine">UCBrowser</field>
    <field name="BrowserName">UCBrowser</field>
    <field name="BrowserVersion">7.9</field>
    <field name="OSFamily">Unknown</field>
@@ -1158,7 +1158,7 @@
   <question>Nokia5800 XpressMusic/UC Browser7.9.0.102/50/400/UCWEB</question>
   <answer>
    <field name="isMobile">true</field>
-   <field name="BrowserEngine">Proprietary</field>
+   <field name="BrowserEngine">UCBrowser</field>
    <field name="BrowserName">UCBrowser</field>
    <field name="BrowserVersion">7.9</field>
    <field name="OSFamily">Unknown</field>
@@ -1168,7 +1168,7 @@
   <question>NokiaN8-00/UC Browser7.9.0.102/50/357/UCWEB</question>
   <answer>
    <field name="isMobile">true</field>
-   <field name="BrowserEngine">Proprietary</field>
+   <field name="BrowserEngine">UCBrowser</field>
    <field name="BrowserName">UCBrowser</field>
    <field name="BrowserVersion">7.9</field>
    <field name="OSFamily">Unknown</field>
@@ -1178,7 +1178,7 @@
   <question>Nokia5228/UC Browser7.9.0.102/50/357/UCWEB</question>
   <answer>
    <field name="isMobile">true</field>
-   <field name="BrowserEngine">Proprietary</field>
+   <field name="BrowserEngine">UCBrowser</field>
    <field name="BrowserName">UCBrowser</field>
    <field name="BrowserVersion">7.9</field>
    <field name="OSFamily">Unknown</field>
@@ -1188,7 +1188,7 @@
   <question>Nokia5230/UC Browser7.8.0.95/50/400</question>
   <answer>
    <field name="isMobile">true</field>
-   <field name="BrowserEngine">Proprietary</field>
+   <field name="BrowserEngine">UCBrowser</field>
    <field name="BrowserName">UCBrowser</field>
    <field name="BrowserVersion">7.8</field>
    <field name="OSFamily">Unknown</field>
@@ -1198,7 +1198,7 @@
   <question>nokia6730c/UC Browser7.2.2.51/69/400 UNTRUSTED/1.0</question>
   <answer>
    <field name="isMobile">true</field>
-   <field name="BrowserEngine">Proprietary</field>
+   <field name="BrowserEngine">UCBrowser</field>
    <field name="BrowserName">UCBrowser</field>
    <field name="BrowserVersion">7.2</field>
    <field name="OSFamily">Unknown</field>
@@ -1208,7 +1208,7 @@
   <question>NokiaN73/UC Browser7.8.0.95/28/400</question>
   <answer>
    <field name="isMobile">true</field>
-   <field name="BrowserEngine">Proprietary</field>
+   <field name="BrowserEngine">UCBrowser</field>
    <field name="BrowserName">UCBrowser</field>
    <field name="BrowserVersion">7.8</field>
    <field name="OSFamily">Unknown</field>
@@ -1218,7 +1218,7 @@
   <question>Nokia5230/UC Browser7.7.1.88/50/400</question>
   <answer>
    <field name="isMobile">true</field>
-   <field name="BrowserEngine">Proprietary</field>
+   <field name="BrowserEngine">UCBrowser</field>
    <field name="BrowserName">UCBrowser</field>
    <field name="BrowserVersion">7.7</field>
    <field name="OSFamily">Unknown</field>
@@ -1228,7 +1228,7 @@
   <question>Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; SLCC2;.NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; InfoPath.2)/UC Browser7.4.0.65/28/400</question>
   <answer>
    <field name="isMobile">true</field>
-   <field name="BrowserEngine">Proprietary</field>
+   <field name="BrowserEngine">UCBrowser</field>
    <field name="BrowserName">UCBrowser</field>
    <field name="BrowserVersion">7.4</field>
    <field name="OSFamily">WindowsMobile</field>
@@ -1467,7 +1467,7 @@
    <field name="isMobile">true</field>
    <field name="BrowserEngine">WebKit</field>
    <field name="BrowserEngineVersion">532.2</field>
-   <field name="BrowserName">Generic Safari</field>
+   <field name="BrowserName">GenericSafari</field>
    <field name="BrowserVersion">1.0</field>
    <field name="OSFamily">WebOS</field>
    <field name="OSVersion">2.1</field>
@@ -1479,7 +1479,7 @@
    <field name="isMobile">true</field>
    <field name="BrowserEngine">WebKit</field>
    <field name="BrowserEngineVersion">532.2</field>
-   <field name="BrowserName">Generic Safari</field>
+   <field name="BrowserName">GenericSafari</field>
    <field name="BrowserVersion">1.0</field>
    <field name="OSFamily">WebOS</field>
    <field name="OSVersion">1.4</field>
@@ -1491,7 +1491,7 @@
    <field name="isMobile">true</field>
    <field name="BrowserEngine">WebKit</field>
    <field name="BrowserEngineVersion">532.2</field>
-   <field name="BrowserName">Generic Safari</field>
+   <field name="BrowserName">GenericSafari</field>
    <field name="BrowserVersion">1.0</field>
    <field name="OSFamily">WebOS</field>
    <field name="OSVersion">1.4</field>
@@ -1503,7 +1503,7 @@
    <field name="isMobile">true</field>
    <field name="BrowserEngine">WebKit</field>
    <field name="BrowserEngineVersion">532.2</field>
-   <field name="BrowserName">Generic Safari</field>
+   <field name="BrowserName">GenericSafari</field>
    <field name="BrowserVersion">1.0</field>
    <field name="OSFamily">WebOS</field>
    <field name="OSVersion">1.4</field>
@@ -1515,7 +1515,7 @@
    <field name="isMobile">true</field>
    <field name="BrowserEngine">WebKit</field>
    <field name="BrowserEngineVersion">532.2</field>
-   <field name="BrowserName">Generic Safari</field>
+   <field name="BrowserName">GenericSafari</field>
    <field name="BrowserVersion">1.0</field>
    <field name="OSFamily">WebOS</field>
    <field name="OSVersion">1.4</field>
@@ -1707,7 +1707,7 @@
    <field name="isMobile">true</field>
    <field name="BrowserEngine">WebKit</field>
    <field name="BrowserEngineVersion">528.5</field>
-   <field name="BrowserName">Generic Safari</field>
+   <field name="BrowserName">GenericSafari</field>
    <field name="BrowserVersion">4.0</field>
    <field name="OSFamily">Linux</field>
   </answer>
@@ -1718,7 +1718,7 @@
    <field name="isMobile">true</field>
    <field name="BrowserEngine">WebKit</field>
    <field name="BrowserEngineVersion">528.5</field>
-   <field name="BrowserName">Generic Safari</field>
+   <field name="BrowserName">GenericSafari</field>
    <field name="BrowserVersion">4.0</field>
    <field name="OSFamily">Linux</field>
   </answer>
@@ -1729,7 +1729,7 @@
    <field name="isMobile">true</field>
    <field name="BrowserEngine">WebKit</field>
    <field name="BrowserEngineVersion">528.5</field>
-   <field name="BrowserName">Generic Safari</field>
+   <field name="BrowserName">GenericSafari</field>
    <field name="BrowserVersion">4.0</field>
    <field name="OSFamily">Linux</field>
   </answer>
@@ -1740,7 +1740,7 @@
    <field name="isMobile">true</field>
    <field name="BrowserEngine">WebKit</field>
    <field name="BrowserEngineVersion">528.5</field>
-   <field name="BrowserName">Generic Safari</field>
+   <field name="BrowserName">GenericSafari</field>
    <field name="BrowserVersion">4.0</field>
    <field name="OSFamily">Linux</field>
   </answer>
@@ -1816,7 +1816,7 @@
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Presto</field>
-   <field name="BrowserName">Opera Mobile</field>
+   <field name="BrowserName">OperaMobile</field>
    <field name="BrowserVersion">9.7</field>
    <field name="OSFamily">WindowsMobile</field>
   </answer>
@@ -1850,7 +1850,7 @@
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Presto</field>
-   <field name="BrowserName">Opera Mobile</field>
+   <field name="BrowserName">OperaMobile</field>
    <field name="BrowserVersion">9.50</field>
    <field name="OSFamily">WindowsMobile</field>
   </answer>
@@ -1872,7 +1872,7 @@
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Presto</field>
-   <field name="BrowserName">Opera Mobile</field>
+   <field name="BrowserName">OperaMobile</field>
    <field name="BrowserVersion">9.5</field>
    <field name="OSFamily">Unknown</field>
   </answer>
@@ -1882,7 +1882,7 @@
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Presto</field>
-   <field name="BrowserName">Opera Mobile</field>
+   <field name="BrowserName">OperaMobile</field>
    <field name="BrowserVersion">9.5</field>
    <field name="OSFamily">WindowsMobile</field>
   </answer>
@@ -1892,7 +1892,7 @@
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Presto</field>
-   <field name="BrowserName">Opera Mobile</field>
+   <field name="BrowserName">OperaMobile</field>
    <field name="BrowserVersion">9.5</field>
    <field name="OSFamily">Unknown</field>
   </answer>
@@ -1956,7 +1956,7 @@
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Presto</field>
-   <field name="BrowserName">Opera Mobile</field>
+   <field name="BrowserName">OperaMobile</field>
    <field name="BrowserVersion">9.709</field>
    <field name="OSFamily">Unknown</field>
   </answer>
@@ -1967,7 +1967,7 @@
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Presto</field>
    <field name="BrowserEngineVersion">2.4.18</field>
-   <field name="BrowserName">Opera Mobile</field>
+   <field name="BrowserName">OperaMobile</field>
    <field name="BrowserVersion">10.00</field>
    <field name="OSFamily">Unknown</field>
   </answer>
@@ -1978,7 +1978,7 @@
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Presto</field>
    <field name="BrowserEngineVersion">2.4.18</field>
-   <field name="BrowserName">Opera Mobile</field>
+   <field name="BrowserName">OperaMobile</field>
    <field name="BrowserVersion">10.00</field>
    <field name="OSFamily">Unknown</field>
   </answer>
@@ -1989,7 +1989,7 @@
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Presto</field>
    <field name="BrowserEngineVersion">2.4.18</field>
-   <field name="BrowserName">Opera Mobile</field>
+   <field name="BrowserName">OperaMobile</field>
    <field name="BrowserVersion">10.00</field>
    <field name="OSFamily">Unknown</field>
   </answer>
@@ -2098,7 +2098,7 @@
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Presto</field>
-   <field name="BrowserName">Opera Mobile</field>
+   <field name="BrowserName">OperaMobile</field>
    <field name="BrowserVersion">9.7</field>
    <field name="OSFamily">WindowsMobile</field>
   </answer>
@@ -2108,7 +2108,7 @@
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Presto</field>
-   <field name="BrowserName">Opera Mobile</field>
+   <field name="BrowserName">OperaMobile</field>
    <field name="BrowserVersion">9.50</field>
    <field name="OSFamily">WindowsMobile</field>
   </answer>
@@ -2118,7 +2118,7 @@
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Presto</field>
-   <field name="BrowserName">Opera Mobile</field>
+   <field name="BrowserName">OperaMobile</field>
    <field name="BrowserVersion">9.50</field>
    <field name="OSFamily">WindowsMobile</field>
   </answer>
@@ -2128,7 +2128,7 @@
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Presto</field>
-   <field name="BrowserName">Opera Mobile</field>
+   <field name="BrowserName">OperaMobile</field>
    <field name="BrowserVersion">9.7</field>
    <field name="OSFamily">WindowsMobile</field>
   </answer>
@@ -2138,7 +2138,7 @@
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Presto</field>
-   <field name="BrowserName">Opera Mobile</field>
+   <field name="BrowserName">OperaMobile</field>
    <field name="BrowserVersion">9.7</field>
    <field name="OSFamily">WindowsMobile</field>
   </answer>
@@ -2516,9 +2516,8 @@
   <question>Mozilla/5.0(Linux;U;Android2.1-update1;Zh_cn;GT540;320*480;)AppleWebKit/528.5+ (KHTML) Version/3.1.2/UCWEB7.8.0.95/139/355</question>
   <answer>
    <field name="isMobile">true</field>
-   <field name="BrowserEngine">WebKit</field>
-   <field name="BrowserEngineVersion">528.5</field>
-   <field name="BrowserName">UC Web Browser</field>
+   <field name="BrowserEngine">UCBrowser</field>
+   <field name="BrowserName">UCBrowser</field>
    <field name="BrowserVersion">7.8</field>
    <field name="OSFamily">Android</field>
    <field name="isTouch">true</field>
@@ -2529,9 +2528,8 @@
   <question>Mozilla/5.0(Linux;U;Android2.3.5;Zh_cn;NookColor;600*1024;)AppleWebKit/528.5+ (KHTML) Version/3.1.2/UCWEB7.8.0.95/139/355</question>
   <answer>
    <field name="isMobile">true</field>
-   <field name="BrowserEngine">WebKit</field>
-   <field name="BrowserEngineVersion">528.5</field>
-   <field name="BrowserName">UC Web Browser</field>
+   <field name="BrowserEngine">UCBrowser</field>
+   <field name="BrowserName">UCBrowser</field>
    <field name="BrowserVersion">7.8</field>
    <field name="OSFamily">Android</field>
    <field name="isTouch">true</field>
@@ -2542,9 +2540,8 @@
   <question>Mozilla/5.0(Linux;U;Android2.2.2;Zh_cn;MTC Neo;480*800;)AppleWebKit/528.5+ (KHTML) Version/3.1.2/UCWEB7.8.0.95/139/355</question>
   <answer>
    <field name="isMobile">true</field>
-   <field name="BrowserEngine">WebKit</field>
-   <field name="BrowserEngineVersion">528.5</field>
-   <field name="BrowserName">UC Web Browser</field>
+   <field name="BrowserEngine">UCBrowser</field>
+   <field name="BrowserName">UCBrowser</field>
    <field name="BrowserVersion">7.8</field>
    <field name="OSFamily">Android</field>
    <field name="isTouch">true</field>
@@ -2555,9 +2552,8 @@
   <question>Mozilla/5.0(Linux;U;ANDROIDHOUSE 2.3.5;Ru_ru;GT-I9100;480*800;)AppleWebKit/528.5+ (KHTML) Version/3.1.2/UCWEB7.4.0.65/139/400</question>
   <answer>
    <field name="isMobile">true</field>
-   <field name="BrowserEngine">WebKit</field>
-   <field name="BrowserEngineVersion">528.5</field>
-   <field name="BrowserName">UC Web Browser</field>
+   <field name="BrowserEngine">UCBrowser</field>
+   <field name="BrowserName">UCBrowser</field>
    <field name="BrowserVersion">7.4</field>
    <field name="OSFamily">Android</field>
    <field name="isTouch">true</field>
@@ -2567,9 +2563,8 @@
   <question>Mozilla/5.0(Linux;U;2.3.3;Ru_ru;GT-I9001;480*800;)AppleWebKit/528.5+ (KHTML) Version/3.1.2/UCWEB7.4.0.65/139/400</question>
   <answer>
    <field name="isMobile">true</field>
-   <field name="BrowserEngine">WebKit</field>
-   <field name="BrowserEngineVersion">528.5</field>
-   <field name="BrowserName">UC Web Browser</field>
+   <field name="BrowserEngine">UCBrowser</field>
+   <field name="BrowserName">UCBrowser</field>
    <field name="BrowserVersion">7.4</field>
    <field name="OSFamily">Android</field>
    <field name="isTouch">true</field>
@@ -2783,7 +2778,7 @@
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Presto</field>
    <field name="BrowserEngineVersion">2.9.201</field>
-   <field name="BrowserName">Opera Mobile</field>
+   <field name="BrowserName">OperaMobile</field>
    <field name="BrowserVersion">11.50</field>
    <field name="isTablet">true</field>
    <field name="OSFamily">Android</field>
@@ -2797,7 +2792,7 @@
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Presto</field>
    <field name="BrowserEngineVersion">2.9.201</field>
-   <field name="BrowserName">Opera Mobile</field>
+   <field name="BrowserName">OperaMobile</field>
    <field name="BrowserVersion">11.50</field>
    <field name="isTablet">true</field>
    <field name="OSFamily">Android</field>
@@ -2980,17 +2975,6 @@
   </answer>
  </test>
  <test>
-  <question>Mozilla/4.0 (compatible; MSIE 4.01; Windows CE; PPC)/UC Browser7.8.0.95</question>
-  <answer>
-   <field name="isMobile">true</field>
-   <field name="BrowserEngine">Trident</field>
-   <field name="BrowserEngineVersion">4.01</field>
-   <field name="BrowserName">UCBrowser</field>
-   <field name="BrowserVersion">7.8</field>
-   <field name="OSFamily">WindowsMobile</field>
-  </answer>
- </test>
- <test>
   <question>Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; Windows Phone 6.5; garmin-asus-Nuvifone-M10/2.0)</question>
   <answer>
    <field name="isMobile">true</field>
@@ -3038,100 +3022,6 @@
    <field name="OSFamily">WindowsPhone</field>
    <field name="isTouch">true</field>
    <field name="OSVersion">7.5</field>
-  </answer>
- </test>
- <test>
-  <question>SAMSUNG-SGH-i900/1.0 (compatible; MSIE 4.01; Windows CE; PPC)/UC Browser7.8.0.95</question>
-  <answer>
-   <field name="isMobile">true</field>
-   <field name="BrowserEngine">Trident</field>
-   <field name="BrowserEngineVersion">4.01</field>
-   <field name="BrowserName">UCBrowser</field>
-   <field name="BrowserVersion">7.8</field>
-   <field name="OSFamily">WindowsMobile</field>
-  </answer>
- </test>
- <test>
-  <question>HTC_HD2_T8585 Mozilla/4.0 (compatible; MSIE 4.01; Windows CE; PPC)/UC Browser7.8.0.95</question>
-  <answer>
-   <field name="isMobile">true</field>
-   <field name="BrowserEngine">Trident</field>
-   <field name="BrowserEngineVersion">4.01</field>
-   <field name="BrowserName">UCBrowser</field>
-   <field name="BrowserVersion">7.8</field>
-   <field name="OSFamily">WindowsMobile</field>
-  </answer>
- </test>
- <test>
-  <question>HTC_Touch_Diamond2_T5353 Mozilla/4.0 (compatible; MSIE 4.01; Windows CE; PPC)/UC Browser7.8.0.95</question>
-  <answer>
-   <field name="isMobile">true</field>
-   <field name="BrowserEngine">Trident</field>
-   <field name="BrowserEngineVersion">4.01</field>
-   <field name="BrowserName">UCBrowser</field>
-   <field name="BrowserVersion">7.8</field>
-   <field name="OSFamily">WindowsMobile</field>
-  </answer>
- </test>
- <test>
-  <question>Mozilla/4.0 (compatible; MSIE 4.01; Windows CE; PPC)/UC Browser7.7.1.88</question>
-  <answer>
-   <field name="isMobile">true</field>
-   <field name="BrowserEngine">Trident</field>
-   <field name="BrowserEngineVersion">4.01</field>
-   <field name="BrowserName">UCBrowser</field>
-   <field name="BrowserVersion">7.7</field>
-   <field name="OSFamily">WindowsMobile</field>
-  </answer>
- </test>
- <test>
-  <question>Mozilla/4.0 (compatible; MSIE 4.01; Windows CE; PPC; 240x320)/UCWEB7.2.2.51/31/400</question>
-  <answer>
-   <field name="isMobile">true</field>
-   <field name="BrowserEngine">Trident</field>
-   <field name="BrowserEngineVersion">4.01</field>
-   <field name="BrowserName">UCBrowser</field>
-   <field name="OSFamily">WindowsMobile</field>
-  </answer>
- </test>
- <test>
-  <question>Mozilla/4.0 (compatible; MSIE 4.01; Windows CE; PPC)/UCWEB7.0.0.41/31/400</question>
-  <answer>
-   <field name="isMobile">true</field>
-   <field name="BrowserEngine">Trident</field>
-   <field name="BrowserEngineVersion">4.01</field>
-   <field name="BrowserName">UCBrowser</field>
-   <field name="OSFamily">WindowsMobile</field>
-  </answer>
- </test>
- <test>
-  <question>Mozilla/4.0 (compatible; MSIE 4.01; Windows CE; PPC)/UCWEB7.2.2.51/35/400</question>
-  <answer>
-   <field name="isMobile">true</field>
-   <field name="BrowserEngine">Trident</field>
-   <field name="BrowserEngineVersion">4.01</field>
-   <field name="BrowserName">UCBrowser</field>
-   <field name="OSFamily">WindowsMobile</field>
-  </answer>
- </test>
- <test>
-  <question>Mozilla/4.0 (compatible; MSIE 4.01; Windows CE; PPC; 240x320)/UCWEB7.0.0.41/30/400</question>
-  <answer>
-   <field name="isMobile">true</field>
-   <field name="BrowserEngine">Trident</field>
-   <field name="BrowserEngineVersion">4.01</field>
-   <field name="BrowserName">UCBrowser</field>
-   <field name="OSFamily">WindowsMobile</field>
-  </answer>
- </test>
- <test>
-  <question>HTC_P3470 Mozilla/4.0 (compatible; MSIE 4.01; Windows CE; PPC)/UCWEB7.2.2.51/30/400</question>
-  <answer>
-   <field name="isMobile">true</field>
-   <field name="BrowserEngine">Trident</field>
-   <field name="BrowserEngineVersion">4.01</field>
-   <field name="BrowserName">UCBrowser</field>
-   <field name="OSFamily">WindowsMobile</field>
   </answer>
  </test>
  <test>
@@ -3242,7 +3132,7 @@
   <question>NokiaN73/UCBrowser7.6.1.82/28/400</question>
   <answer>
    <field name="isMobile">true</field>
-   <field name="BrowserEngine">Proprietary</field>
+   <field name="BrowserEngine">UCBrowser</field>
    <field name="BrowserName">UCBrowser</field>
    <field name="BrowserVersion">7.6</field>
    <field name="OSFamily">Unknown</field>
@@ -3252,7 +3142,7 @@
   <question>NokiaE52-1/UCBrowser7.6.1.82/28/400</question>
   <answer>
    <field name="isMobile">true</field>
-   <field name="BrowserEngine">Proprietary</field>
+   <field name="BrowserEngine">UCBrowser</field>
    <field name="BrowserName">UCBrowser</field>
    <field name="BrowserVersion">7.6</field>
    <field name="OSFamily">Unknown</field>
@@ -3262,7 +3152,7 @@
   <question>NOKIAN95/UCBrowser7.6.1.82/28/400</question>
   <answer>
    <field name="isMobile">true</field>
-   <field name="BrowserEngine">Proprietary</field>
+   <field name="BrowserEngine">UCBrowser</field>
    <field name="BrowserName">UCBrowser</field>
    <field name="BrowserVersion">7.6</field>
    <field name="OSFamily">Unknown</field>
@@ -3272,7 +3162,7 @@
   <question>NokiaE71/UCBrowser7.6.1.82/28/400</question>
   <answer>
    <field name="isMobile">true</field>
-   <field name="BrowserEngine">Proprietary</field>
+   <field name="BrowserEngine">UCBrowser</field>
    <field name="BrowserName">UCBrowser</field>
    <field name="BrowserVersion">7.6</field>
    <field name="OSFamily">Unknown</field>
@@ -3282,7 +3172,7 @@
   <question>NOKIAN95 8GB/UCBrowser7.6.1.82/28/400</question>
   <answer>
    <field name="isMobile">true</field>
-   <field name="BrowserEngine">Proprietary</field>
+   <field name="BrowserEngine">UCBrowser</field>
    <field name="BrowserName">UCBrowser</field>
    <field name="BrowserVersion">7.6</field>
    <field name="OSFamily">Unknown</field>
@@ -3635,7 +3525,7 @@
   <question>JUC(Linux;U;2.2;Ru_ru;HTC Desire;480*800;)UCWEB7.4.0.65/139/400</question>
   <answer>
    <field name="isMobile">true</field>
-   <field name="BrowserEngine">Proprietary</field>
+   <field name="BrowserEngine">UCBrowser</field>
    <field name="BrowserName">UCBrowser</field>
    <field name="BrowserVersion">7.4</field>
    <field name="OSFamily">Android</field>
@@ -3644,40 +3534,10 @@
   </answer>
  </test>
  <test>
-  <question>NokiaN73/UCWEB7.0.0.41/28/400</question>
-  <answer>
-   <field name="isMobile">true</field>
-   <field name="BrowserEngine">Proprietary</field>
-   <field name="BrowserName">UCBrowser</field>
-   <field name="BrowserVersion">7.0</field>
-   <field name="OSFamily">Unknown</field>
-  </answer>
- </test>
- <test>
-  <question>Mozilla/5.0 (compatible; MSIE 10.0;)Safari/UCWEB8.0.3.99/28/400</question>
-  <answer>
-   <field name="isMobile">true</field>
-   <field name="BrowserEngine">Proprietary</field>
-   <field name="BrowserName">UCBrowser</field>
-   <field name="BrowserVersion">8.0</field>
-   <field name="OSFamily">Unknown</field>
-  </answer>
- </test>
- <test>
-  <question>NokiaN73 UCWEB/6.0/7.6.1.82/31/400</question>
-  <answer>
-   <field name="isMobile">true</field>
-   <field name="BrowserEngine">Proprietary</field>
-   <field name="BrowserName">UCBrowser</field>
-   <field name="BrowserVersion">6.0</field>
-   <field name="OSFamily">Unknown</field>
-  </answer>
- </test>
- <test>
   <question>JUC(Linux;U;2.3.4;Ru_ru;GT-S5830;320*480;)UCWEB7.4.0.65/139/400</question>
   <answer>
    <field name="isMobile">true</field>
-   <field name="BrowserEngine">Proprietary</field>
+   <field name="BrowserEngine">UCBrowser</field>
    <field name="BrowserName">UCBrowser</field>
    <field name="BrowserVersion">7.4</field>
    <field name="OSFamily">Android</field>
@@ -4013,7 +3873,7 @@
   <question>JUC(Linux;U;2.2.1;Ru_ru;GT-I9003;480*800;)UCWEB7.4.0.65/139/400</question>
   <answer>
    <field name="isMobile">true</field>
-   <field name="BrowserEngine">Proprietary</field>
+   <field name="BrowserEngine">UCBrowser</field>
    <field name="BrowserName">UCBrowser</field>
    <field name="BrowserVersion">7.4</field>
    <field name="OSFamily">Android</field>
@@ -4025,7 +3885,7 @@
   <question>JUC(Linux;U;2.3.4;Ru_ru;GT-S5570;240*320;)UCWEB7.4.0.65/139/400</question>
   <answer>
    <field name="isMobile">true</field>
-   <field name="BrowserEngine">Proprietary</field>
+   <field name="BrowserEngine">UCBrowser</field>
    <field name="BrowserName">UCBrowser</field>
    <field name="BrowserVersion">7.4</field>
    <field name="OSFamily">Android</field>
@@ -4037,9 +3897,8 @@
   <question>Mozilla/5.0(Linux;U;3.1;Ru_ru;A500;800*1280;)AppleWebKit/528.5+ (KHTML) Version/3.1.2/UCWEB7.4.0.65/139/4004</question>
   <answer>
    <field name="isMobile">true</field>
-   <field name="BrowserEngine">WebKit</field>
-   <field name="BrowserEngineVersion">528.5</field>
-   <field name="BrowserName">UC Web Browser</field>
+   <field name="BrowserEngine">UCBrowser</field>
+   <field name="BrowserName">UCBrowser</field>
    <field name="BrowserVersion">7.4</field>
    <field name="OSFamily">Android</field>
    <field name="isTouch">true</field>
@@ -4051,7 +3910,7 @@
   <question>JUC(Linux;U;3.1;Ru_ru;GT-P7500;800*1280;)UCWEB7.4.0.65/139/400</question>
   <answer>
    <field name="isMobile">true</field>
-   <field name="BrowserEngine">Proprietary</field>
+   <field name="BrowserEngine">UCBrowser</field>
    <field name="BrowserName">UCBrowser</field>
    <field name="BrowserVersion">7.4</field>
    <field name="OSFamily">Android</field>
@@ -4124,7 +3983,7 @@
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Presto</field>
-   <field name="BrowserName">Opera Mobile</field>
+   <field name="BrowserName">OperaMobile</field>
    <field name="BrowserVersion">8.60</field>
    <field name="OSFamily">Symbian</field>
   </answer>
@@ -4230,7 +4089,7 @@
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Presto</field>
    <field name="BrowserEngineVersion">2.4.13</field>
-   <field name="BrowserName">Opera Mobile</field>
+   <field name="BrowserName">OperaMobile</field>
    <field name="BrowserVersion">10.00</field>
    <field name="OSFamily">WindowsMobile</field>
   </answer>
@@ -4241,7 +4100,7 @@
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Presto</field>
    <field name="BrowserEngineVersion">2.4.13</field>
-   <field name="BrowserName">Opera Mobile</field>
+   <field name="BrowserName">OperaMobile</field>
    <field name="BrowserVersion">10.00</field>
    <field name="OSFamily">WindowsMobile</field>
   </answer>
@@ -4252,7 +4111,7 @@
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Presto</field>
    <field name="BrowserEngineVersion">2.4.13</field>
-   <field name="BrowserName">Opera Mobile</field>
+   <field name="BrowserName">OperaMobile</field>
    <field name="BrowserVersion">10.00</field>
    <field name="OSFamily">WindowsMobile</field>
   </answer>
@@ -4262,7 +4121,7 @@
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Presto</field>
-   <field name="BrowserName">Opera Mobile</field>
+   <field name="BrowserName">OperaMobile</field>
    <field name="BrowserVersion">9.5</field>
    <field name="OSFamily">WindowsMobile</field>
   </answer>
@@ -4272,7 +4131,7 @@
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Presto</field>
-   <field name="BrowserName">Opera Mobile</field>
+   <field name="BrowserName">OperaMobile</field>
    <field name="BrowserVersion">9.5</field>
    <field name="OSFamily">WindowsMobile</field>
    <field name="J2ME">true</field>
@@ -4283,7 +4142,7 @@
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Presto</field>
-   <field name="BrowserName">Opera Mobile</field>
+   <field name="BrowserName">OperaMobile</field>
    <field name="BrowserVersion">9.5</field>
    <field name="OSFamily">WindowsMobile</field>
    <field name="J2ME">true</field>
@@ -4294,7 +4153,7 @@
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Presto</field>
-   <field name="BrowserName">Opera Mobile</field>
+   <field name="BrowserName">OperaMobile</field>
    <field name="BrowserVersion">9.5</field>
    <field name="OSFamily">WindowsMobile</field>
   </answer>
@@ -4304,7 +4163,7 @@
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Presto</field>
-   <field name="BrowserName">Opera Mobile</field>
+   <field name="BrowserName">OperaMobile</field>
    <field name="BrowserVersion">9.5</field>
    <field name="OSFamily">WindowsMobile</field>
   </answer>
@@ -4315,7 +4174,7 @@
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Presto</field>
    <field name="BrowserEngineVersion">2.1.1</field>
-   <field name="BrowserName">Opera Mobile</field>
+   <field name="BrowserName">OperaMobile</field>
    <field name="BrowserVersion">9.7</field>
    <field name="OSFamily">WindowsMobile</field>
   </answer>
@@ -4326,7 +4185,7 @@
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Presto</field>
    <field name="BrowserEngineVersion">2.1.1</field>
-   <field name="BrowserName">Opera Mobile</field>
+   <field name="BrowserName">OperaMobile</field>
    <field name="BrowserVersion">9.7</field>
    <field name="OSFamily">WindowsMobile</field>
   </answer>
@@ -4337,7 +4196,7 @@
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Presto</field>
    <field name="BrowserEngineVersion">2.1.1</field>
-   <field name="BrowserName">Opera Mobile</field>
+   <field name="BrowserName">OperaMobile</field>
    <field name="BrowserVersion">9.7</field>
    <field name="OSFamily">WindowsMobile</field>
   </answer>
@@ -4348,7 +4207,7 @@
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Presto</field>
    <field name="BrowserEngineVersion">2.1.1</field>
-   <field name="BrowserName">Opera Mobile</field>
+   <field name="BrowserName">OperaMobile</field>
    <field name="BrowserVersion">9.7</field>
    <field name="OSFamily">WindowsMobile</field>
   </answer>
@@ -4359,7 +4218,7 @@
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Presto</field>
    <field name="BrowserEngineVersion">2.1.1</field>
-   <field name="BrowserName">Opera Mobile</field>
+   <field name="BrowserName">OperaMobile</field>
    <field name="BrowserVersion">9.7</field>
    <field name="OSFamily">WindowsMobile</field>
   </answer>
@@ -9948,7 +9807,7 @@
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Presto</field>
-   <field name="BrowserName">Opera Mobile</field>
+   <field name="BrowserName">OperaMobile</field>
    <field name="BrowserVersion">8.5</field>
    <field name="isTablet">true</field>
    <field name="OSFamily">Linux</field>
@@ -9971,7 +9830,7 @@
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Presto</field>
-   <field name="BrowserName">Opera Mobile</field>
+   <field name="BrowserName">OperaMobile</field>
    <field name="BrowserVersion">8.02</field>
    <field name="isTablet">true</field>
    <field name="OSFamily">Linux</field>

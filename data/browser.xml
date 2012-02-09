@@ -6,7 +6,7 @@
 <!ENTITY ver "\d[\d\.]*">
 <!ENTITY word "\w+">
 ]>
-<rules xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="browser.xsd" minver="1.1" date="2012.02.09.16.23">
+<rules xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="browser.xsd" minver="1.1" date="2012.02.09.17.20">
 	<branch name="Mobile">
 		<!-- Mobile bullshit -->
 		<match type="any">
@@ -59,6 +59,21 @@
 			<pattern type="regex">^[\w]+ Opera/</pattern>			
 		</match>
 		<define name="isMobile" value="true"/>
+		
+		<!-- Because this motherfucker claims to be ANOTHER BROWSER --> 
+		<branch name="UCBrowser">
+			<match type="any">
+				<pattern type="string">UC Browser</pattern>
+				<pattern type="string">UCWEB</pattern>
+			</match>
+			<define name="BrowserEngine" value="UCBrowser"/>
+			<define name="BrowserName" value="UCBrowser"/>
+			<define name="BrowserVersion">
+				<pattern type="regex" value="$1">UC Browser(&ver2d;)</pattern>
+				<pattern type="regex" value="$1">UCWEB(&ver2d;)</pattern>
+			</define>
+		</branch>
+		
 		<branch name="Webkit">
 			<match>
 				<pattern type="string">WebKit</pattern>
@@ -129,16 +144,7 @@
 				<define name="BrowserVersion">
 					<pattern type="regex" value="$1">POLARIS/(&ver;)</pattern>
 				</define>
-			</branch>
-			<branch name="UCWEB">
-				<match>
-					<pattern type="regex">UCWEB\d</pattern>
-				</match>
-				<define name="BrowserName" value="UC Web Browser"/>
-				<define name="BrowserVersion">
-					<pattern type="regex" value="$1">UCWEB(&ver2d;)</pattern>
-				</define>
-			</branch>
+			</branch>			
 			<branch name="wOSBrowser">
 				<match>
 					<pattern type="regex">wOSBrowser</pattern>
@@ -179,9 +185,9 @@
 				</define>
 			</branch>
 			<branch type="default">
-				<define name="BrowserName" value="Unknown Webkit"/>
+				<define name="BrowserName" value="UnknownWebkit"/>
 				<define name="BrowserName">
-					<pattern type="string" value="Generic Safari">Safari/</pattern>
+					<pattern type="string" value="GenericSafari">Safari/</pattern>
 				</define>
 				<define name="BrowserVersion">
 					<pattern type="regex" value="$1">Version/(&ver;)</pattern>
@@ -193,7 +199,7 @@
 					<pattern type="string" value="Diigo">iChromy</pattern>
 				</define>
 			</branch>
-		</branch>
+		</branch>		
 		<branch name="Presto">
 			<match>
 				<pattern type="string">Opera</pattern>
@@ -206,7 +212,7 @@
 				<match>
 					<pattern type="string">Opera Mini/</pattern>
 				</match>
-				<define name="BrowserName" value="Opera Mini"/>
+				<define name="BrowserName" value="OperaMini"/>
 				<define name="BrowserVersion">
 					<pattern type="regex" value="$1">Opera Mini/(&ver2d;)</pattern>
 				</define>
@@ -218,7 +224,7 @@
 					<pattern type="regex">Opera/(&ver2d;)</pattern>
 					<pattern type="regex">Opera &ver;</pattern>
 				</match>
-				<define name="BrowserName" value="Opera Mobile"/>
+				<define name="BrowserName" value="OperaMobile"/>
 				<define name="BrowserVersion">
 					<pattern type="regex" value="$1">Version/(&ver2d;)</pattern>
 					<pattern type="regex" value="$1">Opera[\s/]?(&ver2d;)</pattern>
@@ -278,17 +284,7 @@
 			<define name="BrowserEngineVersion">
 				<pattern type="regex" value="$1">Trident/(&ver2d;)</pattern>
 				<pattern type="regex" value="$1">MSIE (&ver2d;)</pattern>
-			</define>
-			<branch name="UCBrowser">
-				<match type="any">
-					<pattern type="string">UC Browser</pattern>
-					<pattern type="string">UCWEB</pattern>
-				</match>
-				<define name="BrowserName" value="UCBrowser"/>
-				<define name="BrowserVersion">
-					<pattern type="regex" value="$1">UC Browser(&ver2d;)</pattern>
-				</define>
-			</branch>
+			</define>			
 			<branch name="MSIE">
 				<match type="any">
 					<pattern type="string">IEMobile</pattern>
@@ -309,8 +305,6 @@
 				<pattern type="string">CLDC-</pattern>				
 				<pattern type="string">NetFront</pattern>
 				<pattern type="string">Obigo</pattern>
-				<pattern type="string">UCWEB</pattern>
-				<pattern type="string">UC Browser</pattern>
 				<pattern type="string">UCBrowser</pattern>
 				<pattern type="string">UP.Browser</pattern>
 				<pattern type="string">DoCoMo</pattern>
@@ -381,12 +375,11 @@
 				</define>
 			</branch>
 			<branch name="UCBrowser">
-				<match type="any">
-					<pattern type="string">UC Browser</pattern>
-					<pattern type="string">UCWEB</pattern>
+				<match type="any">					
 					<pattern type="string">UCBrowser</pattern>
 				</match>
 				<define name="BrowserName" value="UCBrowser"/>
+				<define name="BrowserEngine" value="UCBrowser"/>
 				<define name="BrowserVersion">
 					<pattern type="regex" value="$1">(?:UC\s?Browser|UCWEB)/?(&ver2d;)</pattern>
 				</define>
