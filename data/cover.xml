@@ -142,6 +142,7 @@
    <field name="OSFamily">Bada</field>
    <field name="isTouch">true</field>
    <field name="OSVersion">1.0</field>
+   <field name="J2ME">true</field>
   </answer>
  </test>
  <test>
@@ -155,6 +156,7 @@
    <field name="OSFamily">Bada</field>
    <field name="isTouch">true</field>
    <field name="OSVersion">1.2</field>
+   <field name="J2ME">true</field>
   </answer>
  </test>
  <test>
@@ -194,6 +196,7 @@
    <field name="OSFamily">Bada</field>
    <field name="isTouch">true</field>
    <field name="OSVersion">1.2</field>
+   <field name="J2ME">true</field>
   </answer>
  </test>
  <test>
@@ -335,6 +338,7 @@
    <field name="BrowserVersion">7.3.1.37</field>
    <field name="OSFamily">Symbian</field>
    <field name="OSVersion">Symbian^3</field>
+   <field name="J2ME">true</field>
   </answer>
  </test>
  <test>
@@ -347,6 +351,7 @@
    <field name="BrowserVersion">7.3.1.25</field>
    <field name="OSFamily">Symbian</field>
    <field name="OSVersion">9.4</field>
+   <field name="J2ME">true</field>
   </answer>
  </test>
  <test>
@@ -359,6 +364,7 @@
    <field name="BrowserVersion">7.3.1.37</field>
    <field name="OSFamily">Symbian</field>
    <field name="OSVersion">Symbian^3</field>
+   <field name="J2ME">true</field>
   </answer>
  </test>
  <test>
@@ -371,6 +377,7 @@
    <field name="BrowserVersion">7.3.1.26</field>
    <field name="OSFamily">Symbian</field>
    <field name="OSVersion">9.3</field>
+   <field name="J2ME">true</field>
   </answer>
  </test>
  <test>
@@ -383,6 +390,7 @@
    <field name="BrowserVersion">7.3.1.37</field>
    <field name="OSFamily">Symbian</field>
    <field name="OSVersion">Symbian^3</field>
+   <field name="J2ME">true</field>
   </answer>
  </test>
  <test>
@@ -541,6 +549,7 @@
    <field name="BrowserName">Opera Mini</field>
    <field name="BrowserVersion">2.0</field>
    <field name="OSFamily">WindowsMobile</field>
+   <field name="J2ME">true</field>
   </answer>
  </test>
  <test>
@@ -563,6 +572,7 @@
    <field name="BrowserName">Opera Mini</field>
    <field name="BrowserVersion">4.2</field>
    <field name="OSFamily">WindowsMobile</field>
+   <field name="J2ME">true</field>
   </answer>
  </test>
  <test>
@@ -573,7 +583,8 @@
    <field name="BrowserEngineVersion">2.5.25</field>
    <field name="BrowserName">Opera Mini</field>
    <field name="BrowserVersion">4.2</field>
-   <field name="OSFamily">Unknown</field>
+   <field name="OSFamily">Java</field>
+   <field name="J2ME">true</field>
   </answer>
  </test>
  <test>
@@ -584,6 +595,7 @@
    <field name="BrowserName">Jasmine</field>
    <field name="isWAP">true</field>
    <field name="BrowserVersion">1.0</field>
+   <field name="J2ME">true</field>
    <field name="OSFamily">Unknown</field>
   </answer>
  </test>
@@ -595,6 +607,7 @@
    <field name="BrowserName">Jasmine</field>
    <field name="isWAP">true</field>
    <field name="BrowserVersion">1.0</field>
+   <field name="J2ME">true</field>
    <field name="OSFamily">Unknown</field>
   </answer>
  </test>
@@ -606,6 +619,7 @@
    <field name="BrowserName">Jasmine</field>
    <field name="isWAP">true</field>
    <field name="BrowserVersion">0.8</field>
+   <field name="J2ME">true</field>
    <field name="OSFamily">Unknown</field>
   </answer>
  </test>
@@ -616,6 +630,7 @@
    <field name="BrowserEngine">Proprietary</field>
    <field name="BrowserName">NetFront</field>
    <field name="BrowserVersion">3.5</field>
+   <field name="J2ME">true</field>
    <field name="OSFamily">Unknown</field>
   </answer>
  </test>
@@ -626,6 +641,7 @@
    <field name="BrowserEngine">Proprietary</field>
    <field name="BrowserName">NetFront</field>
    <field name="BrowserVersion">3.5</field>
+   <field name="J2ME">true</field>
    <field name="OSFamily">Unknown</field>
   </answer>
  </test>
@@ -635,6 +651,7 @@
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Proprietary</field>
    <field name="isWAP">true</field>
+   <field name="J2ME">true</field>
    <field name="OSFamily">Unknown</field>
   </answer>
  </test>
@@ -644,6 +661,7 @@
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Proprietary</field>
    <field name="isWAP">true</field>
+   <field name="J2ME">true</field>
    <field name="OSFamily">Unknown</field>
   </answer>
  </test>
@@ -653,6 +671,7 @@
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Proprietary</field>
    <field name="isWAP">true</field>
+   <field name="J2ME">true</field>
    <field name="OSFamily">Unknown</field>
   </answer>
  </test>
@@ -662,6 +681,7 @@
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Proprietary</field>
    <field name="isWAP">true</field>
+   <field name="J2ME">true</field>
    <field name="OSFamily">Unknown</field>
   </answer>
  </test>
@@ -671,6 +691,7 @@
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Proprietary</field>
    <field name="isWAP">true</field>
+   <field name="J2ME">true</field>
    <field name="OSFamily">Unknown</field>
   </answer>
  </test>
@@ -2168,6 +2189,7 @@
    <field name="BrowserVersion">7.2.3</field>
    <field name="OSFamily">Symbian</field>
    <field name="OSVersion">9.4</field>
+   <field name="J2ME">true</field>
   </answer>
  </test>
  <test>
@@ -2180,6 +2202,7 @@
    <field name="BrowserVersion">7.2.7.4</field>
    <field name="OSFamily">Symbian</field>
    <field name="OSVersion">9.4</field>
+   <field name="J2ME">true</field>
   </answer>
  </test>
  <test>
@@ -2192,6 +2215,7 @@
    <field name="BrowserVersion">7.2.5.2</field>
    <field name="OSFamily">Symbian</field>
    <field name="OSVersion">9.4</field>
+   <field name="J2ME">true</field>
   </answer>
  </test>
  <test>
@@ -2204,6 +2228,7 @@
    <field name="BrowserVersion">20.0.080</field>
    <field name="OSFamily">Symbian</field>
    <field name="OSVersion">9.4</field>
+   <field name="J2ME">true</field>
   </answer>
  </test>
  <test>
@@ -2216,6 +2241,7 @@
    <field name="BrowserVersion">7.2.6.9</field>
    <field name="OSFamily">Symbian</field>
    <field name="OSVersion">9.4</field>
+   <field name="J2ME">true</field>
   </answer>
  </test>
  <test>
@@ -2228,6 +2254,7 @@
    <field name="BrowserVersion">3.0</field>
    <field name="OSFamily">Symbian</field>
    <field name="OSVersion">9.4</field>
+   <field name="J2ME">true</field>
   </answer>
  </test>
  <test>
@@ -2251,6 +2278,7 @@
    <field name="BrowserVersion">3.0</field>
    <field name="OSFamily">Symbian</field>
    <field name="OSVersion">9.4</field>
+   <field name="J2ME">true</field>
   </answer>
  </test>
  <test>
@@ -2263,6 +2291,7 @@
    <field name="BrowserVersion">3.0</field>
    <field name="OSFamily">Symbian</field>
    <field name="OSVersion">9.4</field>
+   <field name="J2ME">true</field>
   </answer>
  </test>
  <test>
@@ -2275,6 +2304,7 @@
    <field name="BrowserVersion">7.2.5.2</field>
    <field name="OSFamily">Symbian</field>
    <field name="OSVersion">9.4</field>
+   <field name="J2ME">true</field>
   </answer>
  </test>
  <test>
@@ -2287,6 +2317,7 @@
    <field name="BrowserVersion">3.0</field>
    <field name="OSFamily">Symbian</field>
    <field name="OSVersion">9.4</field>
+   <field name="J2ME">true</field>
   </answer>
  </test>
  <test>
@@ -2299,6 +2330,7 @@
    <field name="BrowserVersion">3.0</field>
    <field name="OSFamily">Symbian</field>
    <field name="OSVersion">9.4</field>
+   <field name="J2ME">true</field>
   </answer>
  </test>
  <test>
@@ -2310,6 +2342,7 @@
    <field name="BrowserName">NokiaBrowser</field>
    <field name="BrowserVersion">2.0</field>
    <field name="OSFamily">Symbian</field>
+   <field name="J2ME">true</field>
   </answer>
  </test>
  <test>
@@ -2322,6 +2355,7 @@
    <field name="BrowserVersion">21.0.025</field>
    <field name="OSFamily">Symbian</field>
    <field name="OSVersion">9.4</field>
+   <field name="J2ME">true</field>
   </answer>
  </test>
  <test>
@@ -2333,6 +2367,7 @@
    <field name="BrowserName">NokiaBrowser</field>
    <field name="BrowserVersion">2.0</field>
    <field name="OSFamily">Symbian</field>
+   <field name="J2ME">true</field>
   </answer>
  </test>
  <test>
@@ -2345,6 +2380,7 @@
    <field name="BrowserVersion">11.0.054</field>
    <field name="OSFamily">Symbian</field>
    <field name="OSVersion">9.4</field>
+   <field name="J2ME">true</field>
   </answer>
  </test>
  <test>
@@ -2357,6 +2393,7 @@
    <field name="BrowserVersion">3.2</field>
    <field name="OSFamily">Symbian</field>
    <field name="OSVersion">9.3</field>
+   <field name="J2ME">true</field>
   </answer>
  </test>
  <test>
@@ -2369,6 +2406,7 @@
    <field name="BrowserVersion">3.2</field>
    <field name="OSFamily">Symbian</field>
    <field name="OSVersion">9.3</field>
+   <field name="J2ME">true</field>
   </answer>
  </test>
  <test>
@@ -2381,6 +2419,7 @@
    <field name="BrowserVersion">3.1</field>
    <field name="OSFamily">Symbian</field>
    <field name="OSVersion">9.2</field>
+   <field name="J2ME">true</field>
   </answer>
  </test>
  <test>
@@ -2405,6 +2444,7 @@
    <field name="BrowserVersion">3.2</field>
    <field name="OSFamily">Symbian</field>
    <field name="OSVersion">9.3</field>
+   <field name="J2ME">true</field>
   </answer>
  </test>
  <test>
@@ -2692,6 +2732,7 @@
    <field name="BrowserVersion">6.01</field>
    <field name="OSFamily">BREW</field>
    <field name="OSVersion">3.1.5</field>
+   <field name="J2ME">true</field>
   </answer>
  </test>
  <test>
@@ -2703,6 +2744,7 @@
    <field name="BrowserVersion">6.01</field>
    <field name="OSFamily">BREW</field>
    <field name="OSVersion">3.1.5</field>
+   <field name="J2ME">true</field>
   </answer>
  </test>
  <test>
@@ -3144,6 +3186,7 @@
    <field name="BrowserName">Obigo</field>
    <field name="isWAP">true</field>
    <field name="BrowserVersion">O3C</field>
+   <field name="J2ME">true</field>
    <field name="OSFamily">Unknown</field>
   </answer>
  </test>
@@ -3155,6 +3198,7 @@
    <field name="BrowserName">Obigo</field>
    <field name="isWAP">true</field>
    <field name="BrowserVersion">O3C</field>
+   <field name="J2ME">true</field>
    <field name="OSFamily">Unknown</field>
   </answer>
  </test>
@@ -3166,6 +3210,7 @@
    <field name="BrowserName">Obigo</field>
    <field name="isWAP">true</field>
    <field name="BrowserVersion">O3C</field>
+   <field name="J2ME">true</field>
    <field name="OSFamily">Unknown</field>
   </answer>
  </test>
@@ -3177,6 +3222,7 @@
    <field name="BrowserName">Obigo</field>
    <field name="isWAP">true</field>
    <field name="BrowserVersion">O3C</field>
+   <field name="J2ME">true</field>
    <field name="OSFamily">Unknown</field>
   </answer>
  </test>
@@ -3188,6 +3234,7 @@
    <field name="BrowserName">Obigo</field>
    <field name="isWAP">true</field>
    <field name="BrowserVersion">O3C</field>
+   <field name="J2ME">true</field>
    <field name="OSFamily">Unknown</field>
   </answer>
  </test>
@@ -3313,6 +3360,7 @@
    <field name="BrowserEngine">Proprietary</field>
    <field name="BrowserName">Obigo</field>
    <field name="isWAP">true</field>
+   <field name="J2ME">true</field>
    <field name="OSFamily">Unknown</field>
   </answer>
  </test>
@@ -3323,6 +3371,7 @@
    <field name="BrowserEngine">Proprietary</field>
    <field name="BrowserName">Obigo</field>
    <field name="isWAP">true</field>
+   <field name="J2ME">true</field>
    <field name="OSFamily">Unknown</field>
   </answer>
  </test>
@@ -3333,6 +3382,7 @@
    <field name="BrowserEngine">Proprietary</field>
    <field name="BrowserName">Obigo</field>
    <field name="isWAP">true</field>
+   <field name="J2ME">true</field>
    <field name="OSFamily">Unknown</field>
   </answer>
  </test>
@@ -3343,6 +3393,7 @@
    <field name="BrowserEngine">Proprietary</field>
    <field name="BrowserName">Obigo</field>
    <field name="isWAP">true</field>
+   <field name="J2ME">true</field>
    <field name="OSFamily">Unknown</field>
   </answer>
  </test>
@@ -3353,6 +3404,7 @@
    <field name="BrowserEngine">Proprietary</field>
    <field name="BrowserName">Obigo</field>
    <field name="isWAP">true</field>
+   <field name="J2ME">true</field>
    <field name="OSFamily">Unknown</field>
   </answer>
  </test>
@@ -3364,6 +3416,7 @@
    <field name="BrowserName">Obigo</field>
    <field name="isWAP">true</field>
    <field name="BrowserVersion">7.3</field>
+   <field name="J2ME">true</field>
    <field name="OSFamily">Unknown</field>
   </answer>
  </test>
@@ -3375,6 +3428,7 @@
    <field name="BrowserName">Obigo</field>
    <field name="isWAP">true</field>
    <field name="BrowserVersion">05A</field>
+   <field name="J2ME">true</field>
    <field name="OSFamily">Unknown</field>
   </answer>
  </test>
@@ -3386,6 +3440,7 @@
    <field name="BrowserName">Obigo</field>
    <field name="isWAP">true</field>
    <field name="BrowserVersion">03C</field>
+   <field name="J2ME">true</field>
    <field name="OSFamily">Unknown</field>
   </answer>
  </test>
@@ -3397,6 +3452,7 @@
    <field name="BrowserName">Obigo</field>
    <field name="isWAP">true</field>
    <field name="BrowserVersion">05A</field>
+   <field name="J2ME">true</field>
    <field name="OSFamily">Unknown</field>
   </answer>
  </test>
@@ -3408,6 +3464,7 @@
    <field name="BrowserName">Obigo</field>
    <field name="isWAP">true</field>
    <field name="BrowserVersion">7.3</field>
+   <field name="J2ME">true</field>
    <field name="OSFamily">Unknown</field>
   </answer>
  </test>
@@ -3419,6 +3476,7 @@
    <field name="BrowserName">Obigo</field>
    <field name="isWAP">true</field>
    <field name="BrowserVersion">7.1</field>
+   <field name="J2ME">true</field>
    <field name="OSFamily">Unknown</field>
   </answer>
  </test>
@@ -3430,6 +3488,7 @@
    <field name="BrowserName">Obigo</field>
    <field name="isWAP">true</field>
    <field name="BrowserVersion">7.1</field>
+   <field name="J2ME">true</field>
    <field name="OSFamily">Unknown</field>
   </answer>
  </test>
@@ -3441,6 +3500,7 @@
    <field name="BrowserName">Obigo</field>
    <field name="isWAP">true</field>
    <field name="BrowserVersion">7.1</field>
+   <field name="J2ME">true</field>
    <field name="OSFamily">Unknown</field>
   </answer>
  </test>
@@ -3452,6 +3512,7 @@
    <field name="BrowserName">Obigo</field>
    <field name="isWAP">true</field>
    <field name="BrowserVersion">7.1</field>
+   <field name="J2ME">true</field>
    <field name="OSFamily">Unknown</field>
   </answer>
  </test>
@@ -3463,6 +3524,7 @@
    <field name="BrowserName">Blackberry</field>
    <field name="BrowserVersion">5.0.0.593</field>
    <field name="OSFamily">BlackBerry</field>
+   <field name="J2ME">true</field>
   </answer>
  </test>
  <test>
@@ -3473,6 +3535,7 @@
    <field name="BrowserName">Blackberry</field>
    <field name="BrowserVersion">4.6.1.305</field>
    <field name="OSFamily">BlackBerry</field>
+   <field name="J2ME">true</field>
   </answer>
  </test>
  <test>
@@ -3483,6 +3546,7 @@
    <field name="BrowserName">Blackberry</field>
    <field name="BrowserVersion">4.6.0.247</field>
    <field name="OSFamily">BlackBerry</field>
+   <field name="J2ME">true</field>
   </answer>
  </test>
  <test>
@@ -3493,6 +3557,7 @@
    <field name="BrowserName">Blackberry</field>
    <field name="BrowserVersion">4.6.0.303</field>
    <field name="OSFamily">BlackBerry</field>
+   <field name="J2ME">true</field>
   </answer>
  </test>
  <test>
@@ -3503,6 +3568,7 @@
    <field name="BrowserName">Blackberry</field>
    <field name="BrowserVersion">4.6.1.199</field>
    <field name="OSFamily">BlackBerry</field>
+   <field name="J2ME">true</field>
   </answer>
  </test>
  <test>
@@ -3514,6 +3580,7 @@
    <field name="isWAP">true</field>
    <field name="BrowserVersion">1.0</field>
    <field name="OSFamily">Series40</field>
+   <field name="J2ME">true</field>
   </answer>
  </test>
  <test>
@@ -3525,6 +3592,7 @@
    <field name="isWAP">true</field>
    <field name="BrowserVersion">1.0</field>
    <field name="OSFamily">Series40</field>
+   <field name="J2ME">true</field>
   </answer>
  </test>
  <test>
@@ -3536,6 +3604,7 @@
    <field name="isWAP">true</field>
    <field name="BrowserVersion">1.0</field>
    <field name="OSFamily">Series40</field>
+   <field name="J2ME">true</field>
   </answer>
  </test>
  <test>
@@ -3547,6 +3616,7 @@
    <field name="isWAP">true</field>
    <field name="BrowserVersion">1.0</field>
    <field name="OSFamily">Series40</field>
+   <field name="J2ME">true</field>
   </answer>
  </test>
  <test>
@@ -3558,6 +3628,7 @@
    <field name="isWAP">true</field>
    <field name="BrowserVersion">1.0</field>
    <field name="OSFamily">Series40</field>
+   <field name="J2ME">true</field>
   </answer>
  </test>
  <test>
@@ -3623,6 +3694,7 @@
    <field name="BrowserVersion">3.0</field>
    <field name="OSFamily">Symbian</field>
    <field name="OSVersion">9.1</field>
+   <field name="J2ME">true</field>
   </answer>
  </test>
  <test>
@@ -3633,6 +3705,7 @@
    <field name="BrowserName">NokiaBrowser</field>
    <field name="BrowserVersion">3.0</field>
    <field name="OSFamily">Symbian</field>
+   <field name="J2ME">true</field>
   </answer>
  </test>
  <test>
@@ -3644,6 +3717,7 @@
    <field name="BrowserVersion">2.1</field>
    <field name="OSFamily">Symbian</field>
    <field name="OSVersion">7.0</field>
+   <field name="J2ME">true</field>
   </answer>
  </test>
  <test>
@@ -3654,6 +3728,7 @@
    <field name="BrowserName">NokiaBrowser</field>
    <field name="BrowserVersion">2.8</field>
    <field name="OSFamily">Symbian</field>
+   <field name="J2ME">true</field>
   </answer>
  </test>
  <test>
@@ -3664,6 +3739,7 @@
    <field name="BrowserName">NokiaBrowser</field>
    <field name="BrowserVersion">2.8</field>
    <field name="OSFamily">Symbian</field>
+   <field name="J2ME">true</field>
   </answer>
  </test>
  <test>
@@ -3675,6 +3751,7 @@
    <field name="BrowserName">IEMobile</field>
    <field name="BrowserVersion">5.0</field>
    <field name="OSFamily">Symbian</field>
+   <field name="J2ME">true</field>
   </answer>
  </test>
  <test>
@@ -3686,6 +3763,7 @@
    <field name="BrowserName">IEMobile</field>
    <field name="BrowserVersion">5.0</field>
    <field name="OSFamily">Symbian</field>
+   <field name="J2ME">true</field>
   </answer>
  </test>
  <test>
@@ -3697,6 +3775,7 @@
    <field name="BrowserName">IEMobile</field>
    <field name="BrowserVersion">5.0</field>
    <field name="OSFamily">Symbian</field>
+   <field name="J2ME">true</field>
   </answer>
  </test>
  <test>
@@ -3708,6 +3787,7 @@
    <field name="BrowserName">IEMobile</field>
    <field name="BrowserVersion">5.0</field>
    <field name="OSFamily">Symbian</field>
+   <field name="J2ME">true</field>
   </answer>
  </test>
  <test>
@@ -3719,6 +3799,7 @@
    <field name="BrowserName">IEMobile</field>
    <field name="BrowserVersion">5.0</field>
    <field name="OSFamily">Symbian</field>
+   <field name="J2ME">true</field>
   </answer>
  </test>
  <test>
@@ -3728,6 +3809,7 @@
    <field name="BrowserEngine">Proprietary</field>
    <field name="BrowserName">Dolfin</field>
    <field name="BrowserVersion">1.5</field>
+   <field name="J2ME">true</field>
    <field name="OSFamily">Unknown</field>
   </answer>
  </test>
@@ -3738,6 +3820,7 @@
    <field name="BrowserEngine">Proprietary</field>
    <field name="BrowserName">Dolfin</field>
    <field name="BrowserVersion">2.0</field>
+   <field name="J2ME">true</field>
    <field name="OSFamily">Unknown</field>
   </answer>
  </test>
@@ -3748,6 +3831,7 @@
    <field name="BrowserEngine">Proprietary</field>
    <field name="BrowserName">Dolfin</field>
    <field name="BrowserVersion">2.0</field>
+   <field name="J2ME">true</field>
    <field name="OSFamily">Unknown</field>
   </answer>
  </test>
@@ -3758,6 +3842,7 @@
    <field name="BrowserEngine">Proprietary</field>
    <field name="BrowserName">Dolfin</field>
    <field name="BrowserVersion">1.0</field>
+   <field name="J2ME">true</field>
    <field name="OSFamily">Unknown</field>
   </answer>
  </test>
@@ -3768,6 +3853,7 @@
    <field name="BrowserEngine">Proprietary</field>
    <field name="BrowserName">Dolfin</field>
    <field name="BrowserVersion">2.0</field>
+   <field name="J2ME">true</field>
    <field name="OSFamily">Unknown</field>
   </answer>
  </test>
@@ -3779,6 +3865,7 @@
    <field name="BrowserName">Jasmine</field>
    <field name="isWAP">true</field>
    <field name="BrowserVersion">1.0</field>
+   <field name="J2ME">true</field>
    <field name="OSFamily">Unknown</field>
   </answer>
  </test>
@@ -3790,6 +3877,7 @@
    <field name="BrowserName">Jasmine</field>
    <field name="isWAP">true</field>
    <field name="BrowserVersion">0.8</field>
+   <field name="J2ME">true</field>
    <field name="OSFamily">Unknown</field>
   </answer>
  </test>
@@ -3801,6 +3889,7 @@
    <field name="BrowserName">OpenWave</field>
    <field name="isWAP">true</field>
    <field name="BrowserVersion">1.0</field>
+   <field name="J2ME">true</field>
    <field name="OSFamily">Unknown</field>
   </answer>
  </test>
@@ -3812,6 +3901,7 @@
    <field name="BrowserName">OpenWave</field>
    <field name="isWAP">true</field>
    <field name="BrowserVersion">1.0</field>
+   <field name="J2ME">true</field>
    <field name="OSFamily">Unknown</field>
   </answer>
  </test>
@@ -3823,6 +3913,7 @@
    <field name="BrowserName">OpenWave</field>
    <field name="isWAP">true</field>
    <field name="BrowserVersion">1.0</field>
+   <field name="J2ME">true</field>
    <field name="OSFamily">Unknown</field>
   </answer>
  </test>
@@ -3834,6 +3925,7 @@
    <field name="BrowserName">OpenWave</field>
    <field name="isWAP">true</field>
    <field name="BrowserVersion">1.0</field>
+   <field name="J2ME">true</field>
    <field name="OSFamily">Unknown</field>
   </answer>
  </test>
@@ -3845,6 +3937,7 @@
    <field name="BrowserName">OpenWave</field>
    <field name="isWAP">true</field>
    <field name="BrowserVersion">1.0</field>
+   <field name="J2ME">true</field>
    <field name="OSFamily">Unknown</field>
   </answer>
  </test>
@@ -3977,6 +4070,7 @@
    <field name="BrowserVersion">7.3.1.37</field>
    <field name="OSFamily">Symbian</field>
    <field name="OSVersion">Symbian^3</field>
+   <field name="J2ME">true</field>
   </answer>
  </test>
  <test>
@@ -3989,6 +4083,7 @@
    <field name="BrowserVersion">7.2.8.10</field>
    <field name="OSFamily">Symbian</field>
    <field name="OSVersion">Symbian^3</field>
+   <field name="J2ME">true</field>
   </answer>
  </test>
  <test>
@@ -3999,6 +4094,7 @@
    <field name="BrowserName">NokiaBrowser</field>
    <field name="BrowserVersion">3.0</field>
    <field name="OSFamily">Symbian</field>
+   <field name="J2ME">true</field>
   </answer>
  </test>
  <test>
@@ -4009,6 +4105,7 @@
    <field name="BrowserName">NokiaBrowser</field>
    <field name="BrowserVersion">3.0</field>
    <field name="OSFamily">Symbian</field>
+   <field name="J2ME">true</field>
   </answer>
  </test>
  <test>
@@ -4019,6 +4116,7 @@
    <field name="BrowserName">NokiaBrowser</field>
    <field name="BrowserVersion">3.0</field>
    <field name="OSFamily">Symbian</field>
+   <field name="J2ME">true</field>
   </answer>
  </test>
  <test>
@@ -4040,6 +4138,7 @@
    <field name="BrowserName">NokiaBrowser</field>
    <field name="BrowserVersion">5.0</field>
    <field name="OSFamily">Symbian</field>
+   <field name="J2ME">true</field>
   </answer>
  </test>
  <test>
@@ -4051,6 +4150,7 @@
    <field name="BrowserName">NokiaBrowser</field>
    <field name="BrowserVersion">2.0</field>
    <field name="OSFamily">Symbian</field>
+   <field name="J2ME">true</field>
   </answer>
  </test>
  <test>
@@ -4062,6 +4162,7 @@
    <field name="BrowserName">NokiaBrowser</field>
    <field name="BrowserVersion">5.0</field>
    <field name="OSFamily">Symbian</field>
+   <field name="J2ME">true</field>
   </answer>
  </test>
  <test>
@@ -4174,6 +4275,7 @@
    <field name="BrowserName">Opera Mobile</field>
    <field name="BrowserVersion">9.5</field>
    <field name="OSFamily">WindowsMobile</field>
+   <field name="J2ME">true</field>
   </answer>
  </test>
  <test>
@@ -4184,6 +4286,7 @@
    <field name="BrowserName">Opera Mobile</field>
    <field name="BrowserVersion">9.5</field>
    <field name="OSFamily">WindowsMobile</field>
+   <field name="J2ME">true</field>
   </answer>
  </test>
  <test>
@@ -9557,6 +9660,7 @@
    <field name="BrowserName">OpenWave</field>
    <field name="isWAP">true</field>
    <field name="OSFamily">BREW</field>
+   <field name="J2ME">true</field>
   </answer>
  </test>
  <test>
@@ -9807,6 +9911,7 @@
    <field name="isWAP">true</field>
    <field name="OSFamily">BREW</field>
    <field name="OSVersion">3.1.5</field>
+   <field name="J2ME">true</field>
   </answer>
  </test>
  <test>
@@ -10281,6 +10386,7 @@
    <field name="BrowserName">IEMobile</field>
    <field name="BrowserVersion">5.0</field>
    <field name="OSFamily">Symbian</field>
+   <field name="J2ME">true</field>
   </answer>
  </test>
  <test>
@@ -10292,6 +10398,7 @@
    <field name="BrowserName">IEMobile</field>
    <field name="BrowserVersion">5.0</field>
    <field name="OSFamily">Symbian</field>
+   <field name="J2ME">true</field>
   </answer>
  </test>
 </tests>

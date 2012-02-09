@@ -6,7 +6,7 @@
 <!ENTITY ver "\d[\d\.]*">
 <!ENTITY word "\w+">
 ]>
-<rules xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="browser.xsd" minver="1.1" date="2012.02.08.18.40">
+<rules xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="browser.xsd" minver="1.1" date="2012.02.09.16.23">
 	<branch name="Mobile">
 		<!-- Mobile bullshit -->
 		<match type="any">
@@ -306,7 +306,7 @@
 		<branch name="ProprietaryMobileBrowser">
 			<match type="any">
 				<pattern type="string">MIDP-</pattern>
-				<pattern type="string">CLDC-</pattern>
+				<pattern type="string">CLDC-</pattern>				
 				<pattern type="string">NetFront</pattern>
 				<pattern type="string">Obigo</pattern>
 				<pattern type="string">UCWEB</pattern>
@@ -584,7 +584,7 @@
 					<pattern type="string">Windows Mobile</pattern>
 					<pattern type="string">Windows CE</pattern>
 					<pattern type="string">Microsoft Windows</pattern>
-					<pattern type="string">Windows NT</pattern>
+					<pattern type="regex">Windows NT(?!UNTRUSTED)</pattern>
 					<pattern type="string">WindowsMobile</pattern>
 					<pattern type="string">PPC;</pattern>					
 				</match>
@@ -617,10 +617,21 @@
 				<define name="OSVersion">
 					<pattern type="regex" value="$1">BREW\s(&ver3d;)</pattern>					
 				</define>
+			</branch>	
+			<branch name="Java">
+				<match>
+					<pattern type="string">J2ME/MIDP</pattern>										
+				</match>	
+				<define name="OSFamily">Java</define>				
 			</branch>			
 			<branch type="default">
-				<define name="OSFamily" value="Unknown"/>				
+				<define name="OSFamily" value="Unknown"/>
 			</branch>
+			<define name="J2ME">				
+				<pattern type="string" value="true">J2ME</pattern>					
+				<pattern type="string" value="true">MIDP-</pattern>
+				<pattern type="string" value="true">CLDC-</pattern>			
+			</define>
 		</branch>
 	</branch>
 	<branch type="default" name="Desktop">
