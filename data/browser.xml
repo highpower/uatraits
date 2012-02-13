@@ -78,6 +78,7 @@
 			<match>
 				<pattern type="string">WebKit</pattern>
 				<pattern type="string">Mobile Safari/</pattern>				
+				<pattern type="string">Ninesky-</pattern>
 			</match>			
 			<define name="BrowserEngine" value="WebKit"/>
 			<define name="BrowserEngineVersion">
@@ -193,6 +194,12 @@
 				<define name="BrowserVersion">
 					<pattern type="regex" value="$1">Version/(&ver;)</pattern>
 				</define>
+				<branch name="UCBrowser">
+					<match type="any">
+						<pattern type="string">UC AppleWebkit</pattern>
+					</match>
+					<define name="BrowserShell">UCBrowser</define>
+				</branch>
 			</branch>
 			<branch type="default">
 				<define name="BrowserName" value="UnknownWebkit"/>
@@ -471,6 +478,23 @@
 		
 		<!-- Detect Mobile OS -->
 		<branch type="common" name="MobileOS">
+			<branch name="Android">
+				<match>
+					<pattern type="string">Android</pattern>					
+					<pattern type="regex">Linux;\s?U;\s?[23]</pattern>
+					<pattern type="regex">Mac OS X \d[\d\_]+;.*HTC[_/]</pattern>
+				</match>
+				<define name="OSFamily" value="Android"/>
+				<define name="isTouch" value="true"/>
+				<define name="OSVersion">
+					<pattern type="regex" value="$1">Android\s?(&ver;)</pattern>
+					<pattern type="regex" value="$1">Linux;\s?U;\s?(&ver;)</pattern>
+				</define>
+				<define name="isTablet">
+					<pattern type="string" value="true">Android 3</pattern>
+					<pattern type="string" value="true">Linux;U;3</pattern>
+				</define>
+			</branch>
 			<branch name="iPhoneOS">
 				<match>
 					<pattern type="string">iPhone</pattern>
@@ -497,24 +521,7 @@
 					<pattern type="string" value="true">iPad Simulator</pattern>
 					<pattern type="string" value="true">iPod Simulator</pattern>
 				</define>				
-			</branch>
-			<branch name="Android">
-				<match>
-					<pattern type="string">Android</pattern>					
-					<pattern type="regex">Linux;\s?U;\s?[23]</pattern>
-					<pattern type="regex">Mac OS X \d[\d\_]+;.*HTC[_/]</pattern>
-				</match>
-				<define name="OSFamily" value="Android"/>
-				<define name="isTouch" value="true"/>
-				<define name="OSVersion">
-					<pattern type="regex" value="$1">Android\s?(&ver;)</pattern>
-					<pattern type="regex" value="$1">Linux;\s?U;\s?(&ver;)</pattern>
-				</define>
-				<define name="isTablet">
-					<pattern type="string" value="true">Android 3</pattern>
-					<pattern type="string" value="true">Linux;U;3</pattern>
-				</define>
-			</branch>
+			</branch>			
 			<branch name="Symbian">
 				<match>
 					<pattern type="string">SymbianOS</pattern>
@@ -666,7 +673,8 @@
 		<branch name="Gecko">
 			<match type="any">
 				<pattern type="regex">(?&lt;!like )Gecko</pattern>
-				<pattern type="string">Firefox/</pattern>
+				<pattern type="string">Firefox/</pattern>				
+				<pattern type="regex">\srv:&ver;;</pattern>
 			</match>
 			<define name="BrowserEngine" value="Gecko"/>
 			<define name="BrowserEngineVersion">
@@ -681,6 +689,13 @@
 				<define name="BrowserVersion">
 					<pattern type="regex" value="$1">Epiphany/(&ver;)</pattern>
 				</define>
+			</branch>
+			
+			<branch name="AvantBrowser">
+				<match type="any">
+					<pattern type="string">Avant Browser</pattern>
+				</match>
+				<define name="BrowserName" value="AvantBrowser"/>				
 			</branch>
 
 			<branch name="Camino">
@@ -755,6 +770,7 @@
 					<pattern type="string">Minefield/</pattern>
 					<pattern type="string">Thunderbird/</pattern>
 					<pattern type="string">Firebird/</pattern>
+					<pattern type="string">BonEcho/</pattern>
 				</match>
 				<define name="BrowserName" value="Firefox"/>
 				<define name="BrowserVersion">
@@ -767,7 +783,46 @@
 					<pattern type="regex" value="$1">Firebird/(&ver2d;)</pattern>
 					<pattern type="regex" value="$1">GranParadiso/(&ver2d;)</pattern>
 					<pattern type="regex" value="$1">Iceape/(&ver2d;)</pattern>
+					<pattern type="regex" value="$1">BonEcho/(&ver2d;)</pattern>
 				</define>
+			</branch>
+			
+			<branch name="DefaultGecko" type="default">
+				<branch name="MozillaSuite">
+					<match>
+						<pattern type="regex">\srv:0\.[6-9]</pattern>
+						<pattern type="regex">\srv:1\.[0-7]</pattern>
+					</match>
+					<define name="BrowserName">Mozilla</define>
+					<define name="BrowserVersion">
+						<pattern type="regex" value="$1">\srv:(&ver;)</pattern>
+					</define>
+				</branch>
+				<branch name="FirefoxPre5">
+					<match>						
+						<pattern type="regex">\srv:1\.[8-9]</pattern>
+						<pattern type="regex">\srv:2.</pattern>
+					</match>
+					<define name="BrowserName">Firefox</define>
+					<define name="BrowserVersion">
+						<pattern type="regex" value="1.5">rv:1.8.0</pattern>
+						<pattern type="regex" value="2.0">rv:1.8</pattern>
+						<pattern type="regex" value="3.0">rv:1.9.0</pattern>
+						<pattern type="regex" value="3.5">rv:1.9.1</pattern>
+						<pattern type="regex" value="3.6">rv:1.9.2</pattern>
+						<pattern type="regex" value="3.7">rv:1.9</pattern>
+						<pattern type="regex" value="4.0">rv:2.0</pattern>						
+					</define>
+				</branch>
+				<branch name="FirefoxPost5">
+					<match>												
+						<pattern type="regex">\srv:([5-9]\.|\d\d+\.)</pattern>
+					</match>
+					<define name="BrowserName">Firefox</define>
+					<define name="BrowserVersion">
+						<pattern type="regex" value="$1">\srv:(&ver;)</pattern>
+					</define>
+				</branch>
 			</branch>
 		</branch>
 

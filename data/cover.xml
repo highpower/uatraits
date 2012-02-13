@@ -6479,6 +6479,8 @@
    <field name="isMobile">false</field>
    <field name="BrowserEngine">Gecko</field>
    <field name="BrowserEngineVersion">1.2</field>
+   <field name="BrowserName">Mozilla</field>
+   <field name="BrowserVersion">1.2</field>
    <field name="OSFamily">Windows</field>
    <field name="OSName">Windows NT 4.0</field>
    <field name="OSVersion">4.0.1381</field>
@@ -6616,6 +6618,8 @@
    <field name="isMobile">false</field>
    <field name="BrowserEngine">Gecko</field>
    <field name="BrowserEngineVersion">1.7.11</field>
+   <field name="BrowserName">Mozilla</field>
+   <field name="BrowserVersion">1.7.11</field>
    <field name="OSFamily">Windows</field>
    <field name="OSName">Windows 95</field>
    <field name="OSVersion">4.0.950</field>
@@ -6723,6 +6727,8 @@
    <field name="isMobile">false</field>
    <field name="BrowserEngine">Gecko</field>
    <field name="BrowserEngineVersion">1.7.13</field>
+   <field name="BrowserName">Mozilla</field>
+   <field name="BrowserVersion">1.7.13</field>
    <field name="OSFamily">OpenBSD</field>
   </answer>
  </test>
@@ -6856,6 +6862,8 @@
    <field name="isMobile">false</field>
    <field name="BrowserEngine">Gecko</field>
    <field name="BrowserEngineVersion">1.6</field>
+   <field name="BrowserName">Mozilla</field>
+   <field name="BrowserVersion">1.6</field>
    <field name="OSFamily">QNX</field>
   </answer>
  </test>
@@ -6865,6 +6873,8 @@
    <field name="isMobile">false</field>
    <field name="BrowserEngine">Gecko</field>
    <field name="BrowserEngineVersion">1.8.1.20</field>
+   <field name="BrowserName">Firefox</field>
+   <field name="BrowserVersion">2.0</field>
    <field name="OSFamily">QNX</field>
   </answer>
  </test>
@@ -6974,16 +6984,6 @@
  </test>
  <test>
   <question>locationd (unknown version) CFNetwork/485.13.9 Darwin/11.0.0</question>
-  <answer>
-   <field name="isMobile">false</field>
-   <field name="OSFamily">MacOS</field>
-   <field name="BrowserEngine">Unknown</field>
-   <field name="BrowserName">Unknown</field>
-   <field name="isBrowser">false</field>
-  </answer>
- </test>
- <test>
-  <question>$%7BPRODUCT_NAME%7D/1 CFNetwork/548.0.3 Darwin/11.0.0</question>
   <answer>
    <field name="isMobile">false</field>
    <field name="OSFamily">MacOS</field>
@@ -9045,6 +9045,8 @@
    <field name="isMobile">false</field>
    <field name="BrowserEngine">Gecko</field>
    <field name="BrowserEngineVersion">1.7.12</field>
+   <field name="BrowserName">Mozilla</field>
+   <field name="BrowserVersion">1.7.12</field>
    <field name="OSFamily">Linux</field>
    <field name="OSName">RedHat</field>
   </answer>
@@ -10298,6 +10300,1422 @@
    <field name="OSFamily">Android</field>
    <field name="isTouch">true</field>
    <field name="OSVersion">4.0.3</field>
+  </answer>
+ </test>
+ <test>
+  <question>Java/1.6.0_26</question>
+  <answer>
+   <field name="isMobile">false</field>
+   <field name="isBrowser">false</field>
+   <field name="OSFamily">Unknown</field>
+  </answer>
+ </test>
+ <test>
+  <question>Mozilla/5.0 (X11; U; Linux i686 (x86_64); en-US; rv:1.9a1) Gecko/20061204 GranParadiso/3.0a1</question>
+  <answer>
+   <field name="isMobile">false</field>
+   <field name="BrowserEngine">Gecko</field>
+   <field name="BrowserEngineVersion">1.9</field>
+   <field name="BrowserName">Firefox</field>
+   <field name="BrowserVersion">3.0</field>
+   <field name="OSFamily">Linux</field>
+   <field name="x64">true</field>
+  </answer>
+ </test>
+ <test>
+  <question>Microsoft Office/12.0 (Windows NT 6.1; Microsoft Office Word 12.0.4518; Pro)</question>
+  <answer>
+   <field name="isMobile">false</field>
+   <field name="BrowserEngine">Trident</field>
+   <field name="BrowserName">MSIE</field>
+   <field name="BrowserShell">MicrosoftOffice</field>
+   <field name="OSFamily">Windows</field>
+   <field name="OSName">Windows 7</field>
+   <field name="OSVersion">6.1</field>
+  </answer>
+ </test>
+ <test>
+  <question>Mozilla/4.0 (compatible; MSIE 4.01; Windows CE; PPC)/7.6.1.82/31/400</question>
+  <answer>
+   <field name="isMobile">true</field>
+   <field name="BrowserEngine">Trident</field>
+   <field name="BrowserEngineVersion">4.01</field>
+   <field name="BrowserName">IEMobile</field>
+   <field name="BrowserVersion">4.01</field>
+   <field name="OSFamily">WindowsMobile</field>
+  </answer>
+ </test>
+ <test>
+  <question>Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.7.12; Trident/4.0; BTRS31753; Acoo Browser; MRA 5.6 (build 03402); MRSPUTNIK 2, 4, 0, 317; Avant Browser; AskTbDAT/5.12.2.16749)</question>
+  <answer>
+   <field name="isMobile">false</field>
+   <field name="BrowserEngine">Gecko</field>
+   <field name="BrowserEngineVersion">1.7.12</field>
+   <field name="BrowserName">AvantBrowser</field>
+   <field name="MailRuSputnik">true</field>
+   <field name="MailRuSputnikVersion">2.4</field>
+   <field name="OSFamily">Windows</field>
+   <field name="OSName">Windows XP</field>
+   <field name="OSVersion">5.1</field>
+  </answer>
+ </test>
+ <test>
+  <question>Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.7.12; Trident/4.0; BTRS31753; Acoo Browser; MRA 5.6 (build 03402); MRSPUTNIK 2, 4, 0, 317; Avant Browser; RubarToolbar2714; AskTbDAT/5.12.2.16749)</question>
+  <answer>
+   <field name="isMobile">false</field>
+   <field name="BrowserEngine">Gecko</field>
+   <field name="BrowserEngineVersion">1.7.12</field>
+   <field name="BrowserName">AvantBrowser</field>
+   <field name="MailRuSputnik">true</field>
+   <field name="MailRuSputnikVersion">2.4</field>
+   <field name="OSFamily">Windows</field>
+   <field name="OSName">Windows XP</field>
+   <field name="OSVersion">5.1</field>
+  </answer>
+ </test>
+ <test>
+  <question>Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.8.1.9) Gecko/20080211 BonEcho/2.0.0.9</question>
+  <answer>
+   <field name="isMobile">false</field>
+   <field name="BrowserEngine">Gecko</field>
+   <field name="BrowserEngineVersion">1.8.1.9</field>
+   <field name="BrowserName">Firefox</field>
+   <field name="BrowserVersion">2.0</field>
+   <field name="OSFamily">Linux</field>
+  </answer>
+ </test>
+ <test>
+  <question>Opera/9.80 (Windows NT 5.1; U; Opera/9.80 (J2ME/MIDP; Opera Mini/4.2; ru) Presto/2.9.168 Version/11.52</question>
+  <answer>
+   <field name="isMobile">true</field>
+   <field name="BrowserEngine">Presto</field>
+   <field name="BrowserEngineVersion">2.9.168</field>
+   <field name="BrowserName">OperaMini</field>
+   <field name="BrowserVersion">4.2</field>
+   <field name="OSFamily">WindowsMobile</field>
+   <field name="J2ME">true</field>
+  </answer>
+ </test>
+ <test>
+  <question>Opera/9.80 (Windows NT 6.1; U; Opera/9.80 (J2ME/MIDP; Opera Mini/4.2; MRA 5.9 (build 4876); ru) Presto/2.9.168 Version/11.52</question>
+  <answer>
+   <field name="isMobile">true</field>
+   <field name="BrowserEngine">Presto</field>
+   <field name="BrowserEngineVersion">2.9.168</field>
+   <field name="BrowserName">OperaMini</field>
+   <field name="BrowserVersion">4.2</field>
+   <field name="OSFamily">WindowsMobile</field>
+   <field name="J2ME">true</field>
+  </answer>
+ </test>
+ <test>
+  <question>Mozilla/4.0 (compatible; MSIE 5.15; Mac_PowerPC)</question>
+  <answer>
+   <field name="isMobile">false</field>
+   <field name="BrowserEngine">Trident</field>
+   <field name="BrowserName">MSIE</field>
+   <field name="BrowserVersion">5.15</field>
+   <field name="OSFamily">MacOS</field>
+  </answer>
+ </test>
+ <test>
+  <question>Mozilla/5.0 (Windows; U; WinNT4.0; en-US; rv:0.9.5) Gecko/20011011</question>
+  <answer>
+   <field name="isMobile">false</field>
+   <field name="BrowserEngine">Gecko</field>
+   <field name="BrowserEngineVersion">0.9.5</field>
+   <field name="BrowserName">Mozilla</field>
+   <field name="BrowserVersion">0.9.5</field>
+   <field name="OSFamily">Windows</field>
+   <field name="OSName">Windows NT 4.0</field>
+   <field name="OSVersion">4.0.1381</field>
+  </answer>
+ </test>
+ <test>
+  <question>Mozilla/4.0 (compatible; MSIE 5.0; Mac_PowerPC) [en]</question>
+  <answer>
+   <field name="isMobile">false</field>
+   <field name="BrowserEngine">Trident</field>
+   <field name="BrowserName">MSIE</field>
+   <field name="BrowserVersion">5.0</field>
+   <field name="OSFamily">MacOS</field>
+  </answer>
+ </test>
+ <test>
+  <question>Mozilla/5.0 (compatible; YandexNewslinks; +http://yandex.com/bots)</question>
+  <answer>
+   <field name="isRobot">true</field>
+   <field name="isMobile">false</field>
+   <field name="BrowserEngine">TextBased</field>
+   <field name="BrowserName">Links</field>
+   <field name="OSFamily">Unknown</field>
+  </answer>
+ </test>
+ <test>
+  <question>Mozilla/5.0 (compatible; AppleWebKit/533.9 (KHTML, like Gecko) Chrome/6.0.401.1 Safari/533.9; Windows; U; Windows NT 5.1; ru-RU; rv:1.9.0.7; Trident/4.0; MRSPUTNIK 2, 4, 0, 226; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0)</question>
+  <answer>
+   <field name="isMobile">false</field>
+   <field name="BrowserEngine">Gecko</field>
+   <field name="BrowserEngineVersion">1.9.0.7</field>
+   <field name="BrowserName">Firefox</field>
+   <field name="BrowserVersion">3.0</field>
+   <field name="MailRuSputnik">true</field>
+   <field name="MailRuSputnikVersion">2.4</field>
+   <field name="OSFamily">Windows</field>
+   <field name="OSName">Windows XP</field>
+   <field name="OSVersion">5.1</field>
+  </answer>
+ </test>
+ <test>
+  <question>Mozilla/5.0 (X11; U; Linux i686; en-US; rv:0.9.3) Gecko/20010801</question>
+  <answer>
+   <field name="isMobile">false</field>
+   <field name="BrowserEngine">Gecko</field>
+   <field name="BrowserEngineVersion">0.9.3</field>
+   <field name="BrowserName">Mozilla</field>
+   <field name="BrowserVersion">0.9.3</field>
+   <field name="OSFamily">Linux</field>
+  </answer>
+ </test>
+ <test>
+  <question>Mozilla/5.0 (X11; U; Linux i686; en-US; rv:0.9.6+) Gecko/20011122</question>
+  <answer>
+   <field name="isMobile">false</field>
+   <field name="BrowserEngine">Gecko</field>
+   <field name="BrowserEngineVersion">0.9.6</field>
+   <field name="BrowserName">Mozilla</field>
+   <field name="BrowserVersion">0.9.6</field>
+   <field name="OSFamily">Linux</field>
+  </answer>
+ </test>
+ <test>
+  <question>Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.7.12; Trident/4.0; GTB6; MRSPUTNIK 2, 4, 0, 317)</question>
+  <answer>
+   <field name="isMobile">false</field>
+   <field name="BrowserEngine">Gecko</field>
+   <field name="BrowserEngineVersion">1.7.12</field>
+   <field name="BrowserName">Mozilla</field>
+   <field name="BrowserVersion">1.7.12</field>
+   <field name="MailRuSputnik">true</field>
+   <field name="MailRuSputnikVersion">2.4</field>
+   <field name="OSFamily">Windows</field>
+   <field name="OSName">Windows XP</field>
+   <field name="OSVersion">5.1</field>
+  </answer>
+ </test>
+ <test>
+  <question>Mozilla/5.0 (X11; U; Linux i686; en-US; rv:0.9.8) Gecko/20020204</question>
+  <answer>
+   <field name="isMobile">false</field>
+   <field name="BrowserEngine">Gecko</field>
+   <field name="BrowserEngineVersion">0.9.8</field>
+   <field name="BrowserName">Mozilla</field>
+   <field name="BrowserVersion">0.9.8</field>
+   <field name="OSFamily">Linux</field>
+  </answer>
+ </test>
+ <test>
+  <question>Mozilla/5.0 (X11; U; Linux i686; en-US; rv:0.9.9) Gecko/20020408</question>
+  <answer>
+   <field name="isMobile">false</field>
+   <field name="BrowserEngine">Gecko</field>
+   <field name="BrowserEngineVersion">0.9.9</field>
+   <field name="BrowserName">Mozilla</field>
+   <field name="BrowserVersion">0.9.9</field>
+   <field name="OSFamily">Linux</field>
+  </answer>
+ </test>
+ <test>
+  <question>Mozilla/5.0 (Windows; U; Windows NT based; ru-RU) AppleWebKit/533.3 (KHTML, like Gecko) QtWeb Internet Browser/3.7.3 http://www.QtWeb.net</question>
+  <answer>
+   <field name="isMobile">false</field>
+   <field name="BrowserEngine">WebKit</field>
+   <field name="BrowserEngineVersion">533.3</field>
+   <field name="BrowserName">QtWeb</field>
+   <field name="BrowserVersion">3.7.3</field>
+   <field name="OSFamily">Windows</field>
+  </answer>
+ </test>
+ <test>
+  <question>Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; Gecko/20100401 Firefox/3.6.3; GTB7.1; Avant Browser; InfoPath.1; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; .NET4.0C; .NET4.0E)</question>
+  <answer>
+   <field name="isMobile">false</field>
+   <field name="BrowserEngine">Gecko</field>
+   <field name="BrowserName">AvantBrowser</field>
+   <field name="GoogleToolBar">true</field>
+   <field name="GoogleToolBarVersion">7.1</field>
+   <field name="OSFamily">Windows</field>
+   <field name="OSName">Windows XP</field>
+   <field name="OSVersion">5.1</field>
+  </answer>
+ </test>
+ <test>
+  <question>Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.7.12; Trident/5.0)</question>
+  <answer>
+   <field name="isMobile">false</field>
+   <field name="BrowserEngine">Gecko</field>
+   <field name="BrowserEngineVersion">1.7.12</field>
+   <field name="BrowserName">Mozilla</field>
+   <field name="BrowserVersion">1.7.12</field>
+   <field name="OSFamily">Windows</field>
+   <field name="OSName">Windows XP</field>
+   <field name="OSVersion">5.1</field>
+  </answer>
+ </test>
+ <test>
+  <question>Opera/9.80 (J2ME/MIDP; Opera Mini/6.1.25378/26.1036; U; ru) Presto/2.8.119 Version/10.54</question>
+  <answer>
+   <field name="isMobile">true</field>
+   <field name="BrowserEngine">Presto</field>
+   <field name="BrowserEngineVersion">2.8.119</field>
+   <field name="BrowserName">OperaMini</field>
+   <field name="BrowserVersion">6.1</field>
+   <field name="OSFamily">Java</field>
+   <field name="J2ME">true</field>
+  </answer>
+ </test>
+ <test>
+  <question>Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.0.19pre) Gecko/2010062205 GranParadiso/3.0.19pre</question>
+  <answer>
+   <field name="isMobile">false</field>
+   <field name="BrowserEngine">Gecko</field>
+   <field name="BrowserEngineVersion">1.9.0.19</field>
+   <field name="BrowserName">Firefox</field>
+   <field name="BrowserVersion">3.0</field>
+   <field name="OSFamily">Windows</field>
+   <field name="OSName">Windows XP</field>
+   <field name="OSVersion">5.1</field>
+  </answer>
+ </test>
+ <test>
+  <question>Mozilla/5.0 (Windows; U; Windows NT 5.1; ru; rv:1.8.1.3pre) Gecko/20070227 BonEcho/2.0.0.3pre</question>
+  <answer>
+   <field name="isMobile">false</field>
+   <field name="BrowserEngine">Gecko</field>
+   <field name="BrowserEngineVersion">1.8.1.3</field>
+   <field name="BrowserName">Firefox</field>
+   <field name="BrowserVersion">2.0</field>
+   <field name="OSFamily">Windows</field>
+   <field name="OSName">Windows XP</field>
+   <field name="OSVersion">5.1</field>
+  </answer>
+ </test>
+ <test>
+  <question>Opera/9.60 (J2ME/MIDP; Opera Mini/4.2.13918/670; U; en) Presto/2.2.0</question>
+  <answer>
+   <field name="isMobile">true</field>
+   <field name="BrowserEngine">Presto</field>
+   <field name="BrowserEngineVersion">2.2.0</field>
+   <field name="BrowserName">OperaMini</field>
+   <field name="BrowserVersion">4.2</field>
+   <field name="OSFamily">Java</field>
+   <field name="J2ME">true</field>
+  </answer>
+ </test>
+ <test>
+  <question>Opera/8.01 (J2ME/MIDP; Opera Mini/2.0.4509/1724; ru; U; ssr)</question>
+  <answer>
+   <field name="isMobile">true</field>
+   <field name="BrowserEngine">Presto</field>
+   <field name="BrowserName">OperaMini</field>
+   <field name="BrowserVersion">2.0</field>
+   <field name="OSFamily">Java</field>
+   <field name="J2ME">true</field>
+  </answer>
+ </test>
+ <test>
+  <question>Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.7.12; BTRS31753; Acoo Browser; MRA 5.6 (build 03402); MRSPUTNIK 2, 4, 0, 317; SV1; Avant Browser; AskTbDAT/5.12.2.16749)</question>
+  <answer>
+   <field name="isMobile">false</field>
+   <field name="BrowserEngine">Gecko</field>
+   <field name="BrowserEngineVersion">1.7.12</field>
+   <field name="BrowserName">AvantBrowser</field>
+   <field name="MailRuSputnik">true</field>
+   <field name="MailRuSputnikVersion">2.4</field>
+   <field name="OSFamily">Windows</field>
+   <field name="OSName">Windows XP</field>
+   <field name="OSVersion">5.1</field>
+  </answer>
+ </test>
+ <test>
+  <question>Opera/9.80 (J2ME/MIDP; Opera Mini/4.2.20663/25.729; U; ru) Presto/2.5.25 Version/10.54</question>
+  <answer>
+   <field name="isMobile">true</field>
+   <field name="BrowserEngine">Presto</field>
+   <field name="BrowserEngineVersion">2.5.25</field>
+   <field name="BrowserName">OperaMini</field>
+   <field name="BrowserVersion">4.2</field>
+   <field name="OSFamily">Java</field>
+   <field name="J2ME">true</field>
+  </answer>
+ </test>
+ <test>
+  <question>Mozilla/5.0 (iPhone Simulator; CPU iPhone OS 5_0 like Mac OS X) AppleWebKit/534.46 (KHTML, like Gecko) Mobile/9A334</question>
+  <answer>
+   <field name="isMobile">true</field>
+   <field name="BrowserEngine">WebKit</field>
+   <field name="BrowserEngineVersion">534.46</field>
+   <field name="BrowserName">MobileSafari</field>
+   <field name="isTouch">true</field>
+   <field name="OSFamily">iOS</field>
+   <field name="OSVersion">5.0</field>
+   <field name="isEmulator">true</field>
+  </answer>
+ </test>
+ <test>
+  <question>Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; Gecko/20100401 Firefox/3.6.3; MRSPUTNIK 2, 4, 0, 432; Gecko/20100401 Firefox/3.6.3; Avant Browser; InfoPath.2; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; .NET4.0C; RubarToolbar2714)</question>
+  <answer>
+   <field name="isMobile">false</field>
+   <field name="BrowserEngine">Gecko</field>
+   <field name="BrowserName">AvantBrowser</field>
+   <field name="MailRuSputnik">true</field>
+   <field name="MailRuSputnikVersion">2.4</field>
+   <field name="OSFamily">Windows</field>
+   <field name="OSName">Windows XP</field>
+   <field name="OSVersion">5.1</field>
+  </answer>
+ </test>
+ <test>
+  <question>Mozilla/5.0 (compatible; YandexSitelinks; Dyatel; +http://yandex.com/bots)</question>
+  <answer>
+   <field name="isRobot">true</field>
+   <field name="isMobile">false</field>
+   <field name="BrowserEngine">TextBased</field>
+   <field name="BrowserName">ELinks</field>
+   <field name="OSFamily">Unknown</field>
+  </answer>
+ </test>
+ <test>
+  <question>Links (2.3pre1; Linux 3.0.6-gentoo i686; 128x48)</question>
+  <answer>
+   <field name="isMobile">false</field>
+   <field name="BrowserEngine">TextBased</field>
+   <field name="BrowserName">Links</field>
+   <field name="OSFamily">Linux</field>
+   <field name="OSName">Gentoo</field>
+  </answer>
+ </test>
+ <test>
+  <question>ELinks/0.11.1 (textmode; Linux; 114x50-2)</question>
+  <answer>
+   <field name="isMobile">false</field>
+   <field name="BrowserEngine">TextBased</field>
+   <field name="BrowserName">ELinks</field>
+   <field name="OSFamily">Linux</field>
+  </answer>
+ </test>
+ <test>
+  <question>Mozilla/5.0 (Linux; U; Android 2.1-update1-1.0.0; ru-ru; WR780 Build/ECLAIR) UC AppleWebKit/530+ (KHTML, like Gecko) Mobile Safari/530</question>
+  <answer>
+   <field name="isMobile">true</field>
+   <field name="BrowserEngine">WebKit</field>
+   <field name="BrowserEngineVersion">530</field>
+   <field name="BrowserName">MobileSafari</field>
+   <field name="isTouch">true</field>
+   <field name="BrowserShell">UCBrowser</field>
+   <field name="OSFamily">Android</field>
+   <field name="OSVersion">2.1</field>
+  </answer>
+ </test>
+ <test>
+  <question>Mozilla/5.0 (Linux; U; Android 2.2.2; ru-ru; LG-P970 Build/FRG83G) UC AppleWebKit/530+ (KHTML, like Gecko) Mobile Safari/530</question>
+  <answer>
+   <field name="isMobile">true</field>
+   <field name="BrowserEngine">WebKit</field>
+   <field name="BrowserEngineVersion">530</field>
+   <field name="BrowserName">MobileSafari</field>
+   <field name="isTouch">true</field>
+   <field name="BrowserShell">UCBrowser</field>
+   <field name="OSFamily">Android</field>
+   <field name="OSVersion">2.2.2</field>
+  </answer>
+ </test>
+ <test>
+  <question>Mozilla/5.0 (iPhone Simulator; U; CPU iPhone OS 4_3 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Mobile/8F192</question>
+  <answer>
+   <field name="isMobile">true</field>
+   <field name="BrowserEngine">WebKit</field>
+   <field name="BrowserEngineVersion">533.17.9</field>
+   <field name="BrowserName">MobileSafari</field>
+   <field name="isTouch">true</field>
+   <field name="OSFamily">iOS</field>
+   <field name="OSVersion">4.3</field>
+   <field name="isEmulator">true</field>
+  </answer>
+ </test>
+ <test>
+  <question>ELinks/0.11.1 (textmode; Linux; 80x25-2)</question>
+  <answer>
+   <field name="isMobile">false</field>
+   <field name="BrowserEngine">TextBased</field>
+   <field name="BrowserName">ELinks</field>
+   <field name="OSFamily">Linux</field>
+  </answer>
+ </test>
+ <test>
+  <question>Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.8.1) Gecko/20061204 BonEcho/2.0</question>
+  <answer>
+   <field name="isMobile">false</field>
+   <field name="BrowserEngine">Gecko</field>
+   <field name="BrowserEngineVersion">1.8.1</field>
+   <field name="BrowserName">Firefox</field>
+   <field name="BrowserVersion">2.0</field>
+   <field name="OSFamily">Linux</field>
+  </answer>
+ </test>
+ <test>
+  <question>Mozilla/5.0 (X11; U; Linux i686; ru_RU; rv:1.8.1.11) Gecko/20071130 BonEcho/2.0.0.11</question>
+  <answer>
+   <field name="isMobile">false</field>
+   <field name="BrowserEngine">Gecko</field>
+   <field name="BrowserEngineVersion">1.8.1.11</field>
+   <field name="BrowserName">Firefox</field>
+   <field name="BrowserVersion">2.0</field>
+   <field name="OSFamily">Linux</field>
+  </answer>
+ </test>
+ <test>
+  <question>Nokia6270/2.0 (03.66) Profile/MIDP-2.0 Configuration/CLDC-1.1 Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; SLCC2;.NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; InfoPath.2)/UC Browser7.8.0.95/70/400, Nokia6270/2.0 (03.66) Profile/MIDP-2.0 Configuration/CLDC-1.1 UNTRUSTED/1.0</question>
+  <answer>
+   <field name="isMobile">true</field>
+   <field name="BrowserEngine">UCBrowser</field>
+   <field name="BrowserName">UCBrowser</field>
+   <field name="BrowserVersion">7.8</field>
+   <field name="OSFamily">WindowsPhone</field>
+   <field name="isTouch">true</field>
+   <field name="J2ME">true</field>
+  </answer>
+ </test>
+ <test>
+  <question>Mozilla/5.0 (Linux; U; Android 2.1-update1; ru-by; U8230 Build/ERE27) UC AppleWebKit/530+ (KHTML, like Gecko) Mobile Safari/530</question>
+  <answer>
+   <field name="isMobile">true</field>
+   <field name="BrowserEngine">WebKit</field>
+   <field name="BrowserEngineVersion">530</field>
+   <field name="BrowserName">MobileSafari</field>
+   <field name="isTouch">true</field>
+   <field name="BrowserShell">UCBrowser</field>
+   <field name="OSFamily">Android</field>
+   <field name="OSVersion">2.1</field>
+  </answer>
+ </test>
+ <test>
+  <question>Mozilla/5.0 (iPhone Simulator; U; CPU iPhone OS 3_1_3 like Mac OS X; en-us) AppleWebKit/528.18 (KHTML, like Gecko) Mobile/7E18</question>
+  <answer>
+   <field name="isMobile">true</field>
+   <field name="BrowserEngine">WebKit</field>
+   <field name="BrowserEngineVersion">528.18</field>
+   <field name="BrowserName">MobileSafari</field>
+   <field name="isTouch">true</field>
+   <field name="OSFamily">iOS</field>
+   <field name="OSVersion">3.1.3</field>
+   <field name="isEmulator">true</field>
+  </answer>
+ </test>
+ <test>
+  <question>Mozilla/5.0 (Linux; U; Android 2.3.4; ru-ru; Android Build/GRJ22) UC AppleWebKit/530+ (KHTML, like Gecko) Mobile Safari/530</question>
+  <answer>
+   <field name="isMobile">true</field>
+   <field name="BrowserEngine">WebKit</field>
+   <field name="BrowserEngineVersion">530</field>
+   <field name="BrowserName">MobileSafari</field>
+   <field name="isTouch">true</field>
+   <field name="BrowserShell">UCBrowser</field>
+   <field name="OSFamily">Android</field>
+   <field name="OSVersion">2.3.4</field>
+  </answer>
+ </test>
+ <test>
+  <question>Mozilla/5.0 (Linux; U; Android 2.2; ru-ru; GT-I5510 Build/FROYO) UC AppleWebKit/530+ (KHTML, like Gecko) Mobile Safari/530</question>
+  <answer>
+   <field name="isMobile">true</field>
+   <field name="BrowserEngine">WebKit</field>
+   <field name="BrowserEngineVersion">530</field>
+   <field name="BrowserName">MobileSafari</field>
+   <field name="isTouch">true</field>
+   <field name="BrowserShell">UCBrowser</field>
+   <field name="OSFamily">Android</field>
+   <field name="OSVersion">2.2</field>
+  </answer>
+ </test>
+ <test>
+  <question>ReadBy 1.0 (iPhone Simulator; iPhone OS 5.0; en_US)</question>
+  <answer>
+   <field name="isMobile">true</field>
+   <field name="OSFamily">iOS</field>
+   <field name="isTouch">true</field>
+   <field name="OSVersion">5</field>
+   <field name="isEmulator">true</field>
+   <field name="BrowserEngine">Unknown</field>
+   <field name="BrowserName">Unknown</field>
+  </answer>
+ </test>
+ <test>
+  <question>Mozilla/5.0 (compatible; YandexBot/3.0)</question>
+  <answer>
+   <field name="isRobot">true</field>
+   <field name="isMobile">false</field>
+   <field name="OSFamily">Unknown</field>
+   <field name="BrowserEngine">Unknown</field>
+   <field name="BrowserName">Unknown</field>
+   <field name="isBrowser">false</field>
+  </answer>
+ </test>
+ <test>
+  <question>Mozilla/5.0 (Windows; U; Windows NT 5.1; ru; rv:1.8.1.16) Gecko/20080702 AdCentriaIM/1.7 fdnet WebMoney Advisor</question>
+  <answer>
+   <field name="isMobile">false</field>
+   <field name="BrowserEngine">Gecko</field>
+   <field name="BrowserEngineVersion">1.8.1.16</field>
+   <field name="BrowserName">Firefox</field>
+   <field name="BrowserVersion">2.0</field>
+   <field name="OSFamily">Windows</field>
+   <field name="OSName">Windows XP</field>
+   <field name="OSVersion">5.1</field>
+  </answer>
+ </test>
+ <test>
+  <question>Mozilla/5.0 (Windows; U; Windows NT 5.1; ru; rv:1.9.0.4) Gecko/2008102920 MRA 5.3 (build 02544) FileDownloader;fdnet</question>
+  <answer>
+   <field name="isMobile">false</field>
+   <field name="BrowserEngine">Gecko</field>
+   <field name="BrowserEngineVersion">1.9.0.4</field>
+   <field name="BrowserName">Firefox</field>
+   <field name="BrowserVersion">3.0</field>
+   <field name="MailRuAgent">true</field>
+   <field name="MailRuAgentVersion">5.3</field>
+   <field name="OSFamily">Windows</field>
+   <field name="OSName">Windows XP</field>
+   <field name="OSVersion">5.1</field>
+  </answer>
+ </test>
+ <test>
+  <question>Mozilla/5.0 (Windows; U; Windows NT 5.1; ru-RU; rv:1.8a5) Gecko/20041122</question>
+  <answer>
+   <field name="isMobile">false</field>
+   <field name="BrowserEngine">Gecko</field>
+   <field name="BrowserEngineVersion">1.8</field>
+   <field name="BrowserName">Firefox</field>
+   <field name="BrowserVersion">2.0</field>
+   <field name="OSFamily">Windows</field>
+   <field name="OSName">Windows XP</field>
+   <field name="OSVersion">5.1</field>
+  </answer>
+ </test>
+ <test>
+  <question>Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.8.1.3) Gecko/20070321</question>
+  <answer>
+   <field name="isMobile">false</field>
+   <field name="BrowserEngine">Gecko</field>
+   <field name="BrowserEngineVersion">1.8.1.3</field>
+   <field name="BrowserName">Firefox</field>
+   <field name="BrowserVersion">2.0</field>
+   <field name="OSFamily">Windows</field>
+   <field name="OSName">Windows XP</field>
+   <field name="OSVersion">5.1</field>
+  </answer>
+ </test>
+ <test>
+  <question>Mozilla/5.0 (Windows; U; Windows NT 5.1; ru; rv:1.8.1.12) Gecko/20080201 fdnet WebMoney Advisor</question>
+  <answer>
+   <field name="isMobile">false</field>
+   <field name="BrowserEngine">Gecko</field>
+   <field name="BrowserEngineVersion">1.8.1.12</field>
+   <field name="BrowserName">Firefox</field>
+   <field name="BrowserVersion">2.0</field>
+   <field name="OSFamily">Windows</field>
+   <field name="OSName">Windows XP</field>
+   <field name="OSVersion">5.1</field>
+  </answer>
+ </test>
+ <test>
+  <question>Mozilla/5.0 (Windows; U; Windows NT 5.1; ru; rv:1.8.1.11) Gecko/20071127 fdnet</question>
+  <answer>
+   <field name="isMobile">false</field>
+   <field name="BrowserEngine">Gecko</field>
+   <field name="BrowserEngineVersion">1.8.1.11</field>
+   <field name="BrowserName">Firefox</field>
+   <field name="BrowserVersion">2.0</field>
+   <field name="OSFamily">Windows</field>
+   <field name="OSName">Windows XP</field>
+   <field name="OSVersion">5.1</field>
+  </answer>
+ </test>
+ <test>
+  <question>Mozilla/5.0 (Windows; U; Windows NT 5.1; ru; rv:1.9.0.3) Gecko/2008092417</question>
+  <answer>
+   <field name="isMobile">false</field>
+   <field name="BrowserEngine">Gecko</field>
+   <field name="BrowserEngineVersion">1.9.0.3</field>
+   <field name="BrowserName">Firefox</field>
+   <field name="BrowserVersion">3.0</field>
+   <field name="OSFamily">Windows</field>
+   <field name="OSName">Windows XP</field>
+   <field name="OSVersion">5.1</field>
+  </answer>
+ </test>
+ <test>
+  <question>Mozilla/5.0 (Windows; U; Windows NT 5.1; ru; rv:1.9.0.6) Gecko/2009011913</question>
+  <answer>
+   <field name="isMobile">false</field>
+   <field name="BrowserEngine">Gecko</field>
+   <field name="BrowserEngineVersion">1.9.0.6</field>
+   <field name="BrowserName">Firefox</field>
+   <field name="BrowserVersion">3.0</field>
+   <field name="OSFamily">Windows</field>
+   <field name="OSName">Windows XP</field>
+   <field name="OSVersion">5.1</field>
+  </answer>
+ </test>
+ <test>
+  <question>Mozilla/5.0 (Windows; U; Windows NT 5.1; ru; rv:1.9.0.1) Gecko/2008070208 Mozilla</question>
+  <answer>
+   <field name="isMobile">false</field>
+   <field name="BrowserEngine">Gecko</field>
+   <field name="BrowserEngineVersion">1.9.0.1</field>
+   <field name="BrowserName">Firefox</field>
+   <field name="BrowserVersion">3.0</field>
+   <field name="OSFamily">Windows</field>
+   <field name="OSName">Windows XP</field>
+   <field name="OSVersion">5.1</field>
+  </answer>
+ </test>
+ <test>
+  <question>Mozilla/5.0 (Windows; U; Windows NT 5.1; ru; rv:1.9) Gecko/2008052906 fdnet;MEGAUPLOAD 1.0</question>
+  <answer>
+   <field name="isMobile">false</field>
+   <field name="BrowserEngine">Gecko</field>
+   <field name="BrowserEngineVersion">1.9</field>
+   <field name="BrowserName">Firefox</field>
+   <field name="BrowserVersion">3.7</field>
+   <field name="OSFamily">Windows</field>
+   <field name="OSName">Windows XP</field>
+   <field name="OSVersion">5.1</field>
+  </answer>
+ </test>
+ <test>
+  <question>Mozilla/5.0 (Windows; U; Windows NT 5.1; ru; rv:1.9.1) Gecko/20090624 http://softezz.org.ua/</question>
+  <answer>
+   <field name="isMobile">false</field>
+   <field name="BrowserEngine">Gecko</field>
+   <field name="BrowserEngineVersion">1.9.1</field>
+   <field name="BrowserName">Firefox</field>
+   <field name="BrowserVersion">3.5</field>
+   <field name="OSFamily">Windows</field>
+   <field name="OSName">Windows XP</field>
+   <field name="OSVersion">5.1</field>
+  </answer>
+ </test>
+ <test>
+  <question>Mozilla/5.0 (Windows; U; Windows NT 5.1; ru; rv:1.8.0.12) Gecko/20070508 FileDownloader</question>
+  <answer>
+   <field name="isMobile">false</field>
+   <field name="BrowserEngine">Gecko</field>
+   <field name="BrowserEngineVersion">1.8.0.12</field>
+   <field name="BrowserName">Firefox</field>
+   <field name="BrowserVersion">1.5</field>
+   <field name="OSFamily">Windows</field>
+   <field name="OSName">Windows XP</field>
+   <field name="OSVersion">5.1</field>
+  </answer>
+ </test>
+ <test>
+  <question>Mozilla/5.0 (Windows; U; Windows NT 5.2; en-US; rv:1.9) Gecko VisualParser/3.0</question>
+  <answer>
+   <field name="isMobile">false</field>
+   <field name="BrowserEngine">Gecko</field>
+   <field name="BrowserEngineVersion">1.9</field>
+   <field name="BrowserName">Firefox</field>
+   <field name="BrowserVersion">3.7</field>
+   <field name="OSFamily">Windows</field>
+   <field name="OSName">Windows Server 2003</field>
+   <field name="OSVersion">5.2</field>
+  </answer>
+ </test>
+ <test>
+  <question>Mozilla/5.0 (Windows; U; Windows NT 5.1; ru; rv:1.9) Gecko/2008052906 FileDownloader</question>
+  <answer>
+   <field name="isMobile">false</field>
+   <field name="BrowserEngine">Gecko</field>
+   <field name="BrowserEngineVersion">1.9</field>
+   <field name="BrowserName">Firefox</field>
+   <field name="BrowserVersion">3.7</field>
+   <field name="OSFamily">Windows</field>
+   <field name="OSName">Windows XP</field>
+   <field name="OSVersion">5.1</field>
+  </answer>
+ </test>
+ <test>
+  <question>Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.8.0.4) Gecko/20060508</question>
+  <answer>
+   <field name="isMobile">false</field>
+   <field name="BrowserEngine">Gecko</field>
+   <field name="BrowserEngineVersion">1.8.0.4</field>
+   <field name="BrowserName">Firefox</field>
+   <field name="BrowserVersion">1.5</field>
+   <field name="OSFamily">Linux</field>
+  </answer>
+ </test>
+ <test>
+  <question>Mozilla/5.0 (X11; U; Linux i686; ru; rv:1.9) Gecko/2008051202 IE/7.1</question>
+  <answer>
+   <field name="isMobile">false</field>
+   <field name="BrowserEngine">Gecko</field>
+   <field name="BrowserEngineVersion">1.9</field>
+   <field name="BrowserName">Firefox</field>
+   <field name="BrowserVersion">3.7</field>
+   <field name="OSFamily">Linux</field>
+  </answer>
+ </test>
+ <test>
+  <question>Mozilla/5.0 (Windows; U; Windows NT 5.1; ru; rv:1.9) Gecko/2008052906</question>
+  <answer>
+   <field name="isMobile">false</field>
+   <field name="BrowserEngine">Gecko</field>
+   <field name="BrowserEngineVersion">1.9</field>
+   <field name="BrowserName">Firefox</field>
+   <field name="BrowserVersion">3.7</field>
+   <field name="OSFamily">Windows</field>
+   <field name="OSName">Windows XP</field>
+   <field name="OSVersion">5.1</field>
+  </answer>
+ </test>
+ <test>
+  <question>Mozilla/5.0 (Windows; U; Windows NT 5.1; ru; rv:1.9.2.16) Gecko/20110319 MRA 5.7 (build 03797); .NET4.0C) WebMoney Advisor</question>
+  <answer>
+   <field name="isMobile">false</field>
+   <field name="BrowserEngine">Gecko</field>
+   <field name="BrowserEngineVersion">1.9.2.16</field>
+   <field name="BrowserName">Firefox</field>
+   <field name="BrowserVersion">3.6</field>
+   <field name="MailRuAgent">true</field>
+   <field name="MailRuAgentVersion">5.7</field>
+   <field name="OSFamily">Windows</field>
+   <field name="OSName">Windows XP</field>
+   <field name="OSVersion">5.1</field>
+  </answer>
+ </test>
+ <test>
+  <question>Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US; rv:1.9.1.7) Gecko</question>
+  <answer>
+   <field name="isMobile">false</field>
+   <field name="BrowserEngine">Gecko</field>
+   <field name="BrowserEngineVersion">1.9.1.7</field>
+   <field name="BrowserName">Firefox</field>
+   <field name="BrowserVersion">3.5</field>
+   <field name="OSFamily">Windows</field>
+   <field name="OSName">Windows 7</field>
+   <field name="OSVersion">6.1</field>
+  </answer>
+ </test>
+ <test>
+  <question>Mozilla/5.0 (Windows; U; Windows NT 5.1; ru; rv:1.9.2) Gecko</question>
+  <answer>
+   <field name="isMobile">false</field>
+   <field name="BrowserEngine">Gecko</field>
+   <field name="BrowserEngineVersion">1.9.2</field>
+   <field name="BrowserName">Firefox</field>
+   <field name="BrowserVersion">3.6</field>
+   <field name="OSFamily">Windows</field>
+   <field name="OSName">Windows XP</field>
+   <field name="OSVersion">5.1</field>
+  </answer>
+ </test>
+ <test>
+  <question>Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.1.16) Gecko/20110430 Conkeror/0.9.2 (Debian-0.9.2+git100804-1)</question>
+  <answer>
+   <field name="isMobile">false</field>
+   <field name="BrowserEngine">Gecko</field>
+   <field name="BrowserEngineVersion">1.9.1.16</field>
+   <field name="BrowserName">Firefox</field>
+   <field name="BrowserVersion">3.5</field>
+   <field name="OSFamily">Linux</field>
+   <field name="OSName">Debian</field>
+  </answer>
+ </test>
+ <test>
+  <question>User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US; rv:1.9.2.2) Gecko Client/1.3</question>
+  <answer>
+   <field name="isMobile">false</field>
+   <field name="BrowserEngine">Gecko</field>
+   <field name="BrowserEngineVersion">1.9.2.2</field>
+   <field name="BrowserName">Firefox</field>
+   <field name="BrowserVersion">3.6</field>
+   <field name="OSFamily">Windows</field>
+   <field name="OSName">Windows 7</field>
+   <field name="OSVersion">6.1</field>
+  </answer>
+ </test>
+ <test>
+  <question>Mozilla/5.0 (Windows; U; Windows NT 5.1; ru; rv:1.9.2.18) Gecko/20110614 MRA 5.7 (build 03796); .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729) sputnik 2.5.0.90 WebMoney Advisor</question>
+  <answer>
+   <field name="isMobile">false</field>
+   <field name="BrowserEngine">Gecko</field>
+   <field name="BrowserEngineVersion">1.9.2.18</field>
+   <field name="BrowserName">Firefox</field>
+   <field name="BrowserVersion">3.6</field>
+   <field name="MailRuSputnik">true</field>
+   <field name="MailRuSputnikVersion">2.5.0.90</field>
+   <field name="OSFamily">Windows</field>
+   <field name="OSName">Windows XP</field>
+   <field name="OSVersion">5.1</field>
+  </answer>
+ </test>
+ <test>
+  <question>Mozilla/5.0 (Windows; U; Windows NT 6.0; ru; rv:1.9.2.19) Gecko/20110707 MRA 5.7 (build 03790); .NET4.0E) sputnik 2.4.0.54 WebMoney Advisor YB/6.5.0</question>
+  <answer>
+   <field name="isMobile">false</field>
+   <field name="BrowserEngine">Gecko</field>
+   <field name="BrowserEngineVersion">1.9.2.19</field>
+   <field name="BrowserName">Firefox</field>
+   <field name="BrowserVersion">3.6</field>
+   <field name="YandexBar">true</field>
+   <field name="YandexBarVersion">6.5.0</field>
+   <field name="OSFamily">Windows</field>
+   <field name="OSName">Windows Vista</field>
+   <field name="OSVersion">6.0</field>
+  </answer>
+ </test>
+ <test>
+  <question>Mozilla/5.0 (Windows; U; Windows NT 5.1; ru; rv:1.9.1.16) Gecko/20101130</question>
+  <answer>
+   <field name="isMobile">false</field>
+   <field name="BrowserEngine">Gecko</field>
+   <field name="BrowserEngineVersion">1.9.1.16</field>
+   <field name="BrowserName">Firefox</field>
+   <field name="BrowserVersion">3.5</field>
+   <field name="OSFamily">Windows</field>
+   <field name="OSName">Windows XP</field>
+   <field name="OSVersion">5.1</field>
+  </answer>
+ </test>
+ <test>
+  <question>Dozilla/5.0 (Windows NT 5.1; rv:2.0.1) Gecko/20100101 BumBox/10 WebMoney Advisor YB/6.5.0</question>
+  <answer>
+   <field name="isMobile">false</field>
+   <field name="BrowserEngine">Gecko</field>
+   <field name="BrowserEngineVersion">2.0.1</field>
+   <field name="BrowserName">Firefox</field>
+   <field name="BrowserVersion">4.0</field>
+   <field name="YandexBar">true</field>
+   <field name="YandexBarVersion">6.5.0</field>
+   <field name="OSFamily">Windows</field>
+   <field name="OSName">Windows XP</field>
+   <field name="OSVersion">5.1</field>
+  </answer>
+ </test>
+ <test>
+  <question>Mozilla/5.0 (Windows; Windows NT 6.1; Win64; x64; rv:6.0) Gecko/20110820 Pale Moon/6.0-x64</question>
+  <answer>
+   <field name="isMobile">false</field>
+   <field name="BrowserEngine">Gecko</field>
+   <field name="BrowserEngineVersion">6.0</field>
+   <field name="BrowserName">Firefox</field>
+   <field name="BrowserVersion">6.0</field>
+   <field name="OSFamily">Windows</field>
+   <field name="OSName">Windows 7</field>
+   <field name="OSVersion">6.1</field>
+   <field name="x64">true</field>
+  </answer>
+ </test>
+ <test>
+  <question>Mozilla/5.0 (Windows NT 6.1; rv:5.0) Gecko/20110622 HyperSonic/5.0</question>
+  <answer>
+   <field name="isMobile">false</field>
+   <field name="BrowserEngine">Gecko</field>
+   <field name="BrowserEngineVersion">5.0</field>
+   <field name="BrowserName">Firefox</field>
+   <field name="BrowserVersion">5.0</field>
+   <field name="OSFamily">Windows</field>
+   <field name="OSName">Windows 7</field>
+   <field name="OSVersion">6.1</field>
+  </answer>
+ </test>
+ <test>
+  <question>Mozilla/5.0 (Windows; U; Windows NT 5.1; ru-RU; rv:1.9.1.4) Gecko/20091028</question>
+  <answer>
+   <field name="isMobile">false</field>
+   <field name="BrowserEngine">Gecko</field>
+   <field name="BrowserEngineVersion">1.9.1.4</field>
+   <field name="BrowserName">Firefox</field>
+   <field name="BrowserVersion">3.5</field>
+   <field name="OSFamily">Windows</field>
+   <field name="OSName">Windows XP</field>
+   <field name="OSVersion">5.1</field>
+  </answer>
+ </test>
+ <test>
+  <question>Baiduspider+(+http://www.qqlv8.com)</question>
+  <answer>
+   <field name="isRobot">true</field>
+   <field name="isMobile">false</field>
+   <field name="OSFamily">Unknown</field>
+   <field name="BrowserEngine">Unknown</field>
+   <field name="BrowserName">Unknown</field>
+   <field name="isBrowser">false</field>
+  </answer>
+ </test>
+ <test>
+  <question>Mozilla/5.0 (Windows; Windows NT 6.1; rv:6.0) Gecko/20110817 Pale Moon/6.0</question>
+  <answer>
+   <field name="isMobile">false</field>
+   <field name="BrowserEngine">Gecko</field>
+   <field name="BrowserEngineVersion">6.0</field>
+   <field name="BrowserName">Firefox</field>
+   <field name="BrowserVersion">6.0</field>
+   <field name="OSFamily">Windows</field>
+   <field name="OSName">Windows 7</field>
+   <field name="OSVersion">6.1</field>
+  </answer>
+ </test>
+ <test>
+  <question>PHP/5.2.5</question>
+  <answer>
+   <field name="isMobile">false</field>
+   <field name="isBrowser">false</field>
+   <field name="OSFamily">Unknown</field>
+  </answer>
+ </test>
+ <test>
+  <question>Mozilla/5.0 (Windows NT 6.1; WOW64; rv:5.0) Gecko/20100101</question>
+  <answer>
+   <field name="isMobile">false</field>
+   <field name="BrowserEngine">Gecko</field>
+   <field name="BrowserEngineVersion">5.0</field>
+   <field name="BrowserName">Firefox</field>
+   <field name="BrowserVersion">5.0</field>
+   <field name="OSFamily">Windows</field>
+   <field name="OSName">Windows 7</field>
+   <field name="OSVersion">6.1</field>
+   <field name="x64">true</field>
+  </answer>
+ </test>
+ <test>
+  <question>Mozilla/5.0 (X11; Linux i686; rv:7.0.1) Gecko/20111106 IceCat/7.0.1</question>
+  <answer>
+   <field name="isMobile">false</field>
+   <field name="BrowserEngine">Gecko</field>
+   <field name="BrowserEngineVersion">7.0.1</field>
+   <field name="BrowserName">Firefox</field>
+   <field name="BrowserVersion">7.0.1</field>
+   <field name="OSFamily">Linux</field>
+  </answer>
+ </test>
+ <test>
+  <question>PHP/5.3.8</question>
+  <answer>
+   <field name="isMobile">false</field>
+   <field name="isBrowser">false</field>
+   <field name="OSFamily">Unknown</field>
+  </answer>
+ </test>
+ <test>
+  <question>Mozilla/5.0 (X11; Linux x86_64; rv:2.0.1) Gecko/20111026 conkeror/1.0pre</question>
+  <answer>
+   <field name="isMobile">false</field>
+   <field name="BrowserEngine">Gecko</field>
+   <field name="BrowserEngineVersion">2.0.1</field>
+   <field name="BrowserName">Firefox</field>
+   <field name="BrowserVersion">4.0</field>
+   <field name="OSFamily">Linux</field>
+   <field name="x64">true</field>
+  </answer>
+ </test>
+ <test>
+  <question>kindle</question>
+  <answer>
+   <field name="isMobile">true</field>
+   <field name="OSFamily">Unknown</field>
+   <field name="BrowserEngine">Unknown</field>
+   <field name="BrowserName">Unknown</field>
+  </answer>
+ </test>
+ <test>
+  <question>DoCoMo/2.0 P900i(c100;TB;W24H11) (compatible; ichiro/mobile goo; +http://help.goo.ne.jp/help/article/1142/)</question>
+  <answer>
+   <field name="isMobile">true</field>
+   <field name="BrowserEngine">Proprietary</field>
+   <field name="BrowserName">Docomo</field>
+   <field name="isWAP">true</field>
+   <field name="BrowserVersion">2.0</field>
+   <field name="OSFamily">Unknown</field>
+  </answer>
+ </test>
+ <test>
+  <question>LG-GT400/v10a Browser/Teleca-Q7.1 MMS/LG-MMS-V1.0/1.2 MediaPlayer/LGPlayer/1.0 Java/ASVM/1.1 Profile/MIDP-2.1 Configuration/CLDC-1.1</question>
+  <answer>
+   <field name="isMobile">true</field>
+   <field name="BrowserEngine">Proprietary</field>
+   <field name="BrowserName">Obigo</field>
+   <field name="isWAP">true</field>
+   <field name="BrowserVersion">7.1</field>
+   <field name="J2ME">true</field>
+   <field name="OSFamily">Unknown</field>
+  </answer>
+ </test>
+ <test>
+  <question>alcatel-ot-808 UNTRUSTED/1.0</question>
+  <answer>
+   <field name="isMobile">true</field>
+   <field name="OSFamily">Unknown</field>
+   <field name="BrowserEngine">Unknown</field>
+   <field name="BrowserName">Unknown</field>
+  </answer>
+ </test>
+ <test>
+  <question>Mozilla/5.0 (Windows; Windows NT 6.1; rv:2.0b6) Gecko/20100101 MRA 5.7 (build 03658);</question>
+  <answer>
+   <field name="isMobile">false</field>
+   <field name="BrowserEngine">Gecko</field>
+   <field name="BrowserEngineVersion">2.0</field>
+   <field name="BrowserName">Firefox</field>
+   <field name="BrowserVersion">4.0</field>
+   <field name="MailRuAgent">true</field>
+   <field name="MailRuAgentVersion">5.7</field>
+   <field name="OSFamily">Windows</field>
+   <field name="OSName">Windows 7</field>
+   <field name="OSVersion">6.1</field>
+  </answer>
+ </test>
+ <test>
+  <question>Mozilla/5.0 (X11; Linux x86_64; rv:2.0.1) Gecko/20111015 IceCat/4.0.1</question>
+  <answer>
+   <field name="isMobile">false</field>
+   <field name="BrowserEngine">Gecko</field>
+   <field name="BrowserEngineVersion">2.0.1</field>
+   <field name="BrowserName">Firefox</field>
+   <field name="BrowserVersion">4.0</field>
+   <field name="OSFamily">Linux</field>
+   <field name="x64">true</field>
+  </answer>
+ </test>
+ <test>
+  <question>Mozilla/5.0 (Windows NT 5.1; rv:2.0) Gecko/20110318 WebianShell/0.1</question>
+  <answer>
+   <field name="isMobile">false</field>
+   <field name="BrowserEngine">Gecko</field>
+   <field name="BrowserEngineVersion">2.0</field>
+   <field name="BrowserName">Firefox</field>
+   <field name="BrowserVersion">4.0</field>
+   <field name="OSFamily">Windows</field>
+   <field name="OSName">Windows XP</field>
+   <field name="OSVersion">5.1</field>
+  </answer>
+ </test>
+ <test>
+  <question>Mozilla/5.0 (Symbian; U; C7-00; en-GB) AppleWebKit/534.3 (KHTML, like Gecko) Qt/4.7.4 Mobile Safari/534.3</question>
+  <answer>
+   <field name="isMobile">true</field>
+   <field name="BrowserEngine">WebKit</field>
+   <field name="BrowserEngineVersion">534.3</field>
+   <field name="BrowserName">MobileSafari</field>
+   <field name="isTouch">true</field>
+   <field name="OSFamily">Symbian</field>
+  </answer>
+ </test>
+ <test>
+  <question>Mozilla/5.0 (Windows; U; WindowsCE 5.2; en-US; rv:1.9.2.2pre) Gecko/20100209 Namoroka/3.6.2pre Fennec/1.1a1</question>
+  <answer>
+   <field name="isMobile">true</field>
+   <field name="BrowserEngine">Gecko</field>
+   <field name="isTouch">true</field>
+   <field name="BrowserEngineVersion">1.9.2.2</field>
+   <field name="BrowserName">MobileFirefox</field>
+   <field name="BrowserVersion">1.1</field>
+   <field name="OSFamily">Unknown</field>
+  </answer>
+ </test>
+ <test>
+  <question>Mozilla/5.0 (Windows; U; Windows NT 6.1; chrome://navigator/locale/navigator.properties; rv:1.8.0.9) Gecko/20070125</question>
+  <answer>
+   <field name="isMobile">false</field>
+   <field name="BrowserEngine">Gecko</field>
+   <field name="BrowserEngineVersion">1.8.0.9</field>
+   <field name="BrowserName">Firefox</field>
+   <field name="BrowserVersion">1.5</field>
+   <field name="OSFamily">Windows</field>
+   <field name="OSName">Windows 7</field>
+   <field name="OSVersion">6.1</field>
+  </answer>
+ </test>
+ <test>
+  <question>Mozilla/5.0 (Windows; U; Windows NT 5.1; chrome://navigator/locale/navigator.properties; rv:1.8.0.9) Gecko/20070125</question>
+  <answer>
+   <field name="isMobile">false</field>
+   <field name="BrowserEngine">Gecko</field>
+   <field name="BrowserEngineVersion">1.8.0.9</field>
+   <field name="BrowserName">Firefox</field>
+   <field name="BrowserVersion">1.5</field>
+   <field name="OSFamily">Windows</field>
+   <field name="OSName">Windows XP</field>
+   <field name="OSVersion">5.1</field>
+  </answer>
+ </test>
+ <test>
+  <question>Mozilla/4.0 (compatible; MSIE 5.0; Series90/1.1 Nokia7710/3.04.2 Profile/MIDP-2.0 Configuration/CLDC-1.0)</question>
+  <answer>
+   <field name="isMobile">true</field>
+   <field name="BrowserEngine">Trident</field>
+   <field name="BrowserEngineVersion">5.0</field>
+   <field name="BrowserName">IEMobile</field>
+   <field name="BrowserVersion">5.0</field>
+   <field name="OSFamily">Symbian</field>
+   <field name="J2ME">true</field>
+  </answer>
+ </test>
+ <test>
+  <question>PHP/5.2.6</question>
+  <answer>
+   <field name="isMobile">false</field>
+   <field name="isBrowser">false</field>
+   <field name="OSFamily">Unknown</field>
+  </answer>
+ </test>
+ <test>
+  <question>MQQBrowser/Mini2.2 (Nokia5320d-1/05.16/sw_platform=S60;sw_platform_version=3.2;java_build_version=1.0.2)</question>
+  <answer>
+   <field name="isMobile">true</field>
+   <field name="OSFamily">Symbian</field>
+   <field name="BrowserEngine">Unknown</field>
+   <field name="BrowserName">Unknown</field>
+  </answer>
+ </test>
+ <test>
+  <question>SonyEricssonU8i/32-0380_R2EA023/sw_platform=S60;sw_platform_version=5.0;java_build_version=1.3.4</question>
+  <answer>
+   <field name="isMobile">true</field>
+   <field name="OSFamily">Symbian</field>
+   <field name="BrowserEngine">Unknown</field>
+   <field name="BrowserName">Unknown</field>
+  </answer>
+ </test>
+ <test>
+  <question>Samsung-SPHM630 Polaris/6.0 MMP/2.0 Profile/MIDP-2.0 Configuration/CLDC-1.1</question>
+  <answer>
+   <field name="isMobile">true</field>
+   <field name="BrowserEngine">Proprietary</field>
+   <field name="BrowserName">Polaris</field>
+   <field name="BrowserVersion">6.0</field>
+   <field name="J2ME">true</field>
+   <field name="OSFamily">Unknown</field>
+  </answer>
+ </test>
+ <test>
+  <question>PPC; 240x320; HTC_P3450/1.0 Profile/MIDP-2.0 Configuration/CLDC-1.1 Mozilla/4.0</question>
+  <answer>
+   <field name="isMobile">true</field>
+   <field name="BrowserEngine">Proprietary</field>
+   <field name="isWAP">true</field>
+   <field name="OSFamily">WindowsMobile</field>
+   <field name="J2ME">true</field>
+  </answer>
+ </test>
+ <test>
+  <question>Mozilla/5.0 (compatible; YandexBot/3.0) YB/6.5.0</question>
+  <answer>
+   <field name="isRobot">true</field>
+   <field name="isMobile">false</field>
+   <field name="YandexBar">true</field>
+   <field name="YandexBarVersion">6.5.0</field>
+   <field name="OSFamily">Unknown</field>
+   <field name="BrowserEngine">Unknown</field>
+   <field name="BrowserName">Unknown</field>
+   <field name="isBrowser">false</field>
+  </answer>
+ </test>
+ <test>
+  <question>Mozilla/5.0 (Symbian; U; X7-00; ru-RU) AppleWebKit/534.3 (KHTML, like Gecko) Qt/4.7.4 Mobile Safari/534.3</question>
+  <answer>
+   <field name="isMobile">true</field>
+   <field name="BrowserEngine">WebKit</field>
+   <field name="BrowserEngineVersion">534.3</field>
+   <field name="BrowserName">MobileSafari</field>
+   <field name="isTouch">true</field>
+   <field name="OSFamily">Symbian</field>
+  </answer>
+ </test>
+ <test>
+  <question>Mozilla/5.0 (Macintosh; Intel Mac OS X 10.7; rv:2.1.1) Gecko/20110415 Firefox/4.0.2pre Fennec/4.0.1</question>
+  <answer>
+   <field name="isMobile">true</field>
+   <field name="BrowserEngine">Gecko</field>
+   <field name="isTouch">true</field>
+   <field name="BrowserEngineVersion">2.1.1</field>
+   <field name="BrowserName">MobileFirefox</field>
+   <field name="BrowserVersion">4.0.2</field>
+   <field name="OSFamily">Unknown</field>
+  </answer>
+ </test>
+ <test>
+  <question>DoCoMo/2.0 P900i(c100;TB;W24H11) (compatible; ichiro/mobile goo; +http://search.goo.ne.jp/option/use/sub4/sub4-1/)</question>
+  <answer>
+   <field name="isMobile">true</field>
+   <field name="BrowserEngine">Proprietary</field>
+   <field name="BrowserName">Docomo</field>
+   <field name="isWAP">true</field>
+   <field name="BrowserVersion">2.0</field>
+   <field name="OSFamily">Unknown</field>
+  </answer>
+ </test>
+ <test>
+  <question>yandexbot/Made in China</question>
+  <answer>
+   <field name="isRobot">true</field>
+   <field name="isMobile">false</field>
+   <field name="OSFamily">Unknown</field>
+   <field name="BrowserEngine">Unknown</field>
+   <field name="BrowserName">Unknown</field>
+   <field name="isBrowser">false</field>
+  </answer>
+ </test>
+ <test>
+  <question>Samsung-SPHM540 Polaris/6.0 MMP/2.0 Profile/MIDP-2.0 Configuration/CLDC-1.1</question>
+  <answer>
+   <field name="isMobile">true</field>
+   <field name="BrowserEngine">Proprietary</field>
+   <field name="BrowserName">Polaris</field>
+   <field name="BrowserVersion">6.0</field>
+   <field name="J2ME">true</field>
+   <field name="OSFamily">Unknown</field>
+  </answer>
+ </test>
+ <test>
+  <question>SAMSUNG-SCH-F689/1.0 POLARIS/5.30.WAP CTC/1.0 Profile/MIDP-2.1 Configuration/CLDC-1.1</question>
+  <answer>
+   <field name="isMobile">true</field>
+   <field name="BrowserEngine">Proprietary</field>
+   <field name="BrowserName">Polaris</field>
+   <field name="BrowserVersion">5.30.</field>
+   <field name="J2ME">true</field>
+   <field name="OSFamily">Unknown</field>
+  </answer>
+ </test>
+ <test>
+  <question>NOKIA-Lumia 800/UCWEB1.3.0.126/47/32079</question>
+  <answer>
+   <field name="isMobile">true</field>
+   <field name="BrowserEngine">UCBrowser</field>
+   <field name="BrowserName">UCBrowser</field>
+   <field name="BrowserVersion">1.3</field>
+   <field name="OSFamily">WindowsPhone</field>
+   <field name="isTouch">true</field>
+  </answer>
+ </test>
+ <test>
+  <question>NOKIA-Lumia 710/UCWEB1.3.0.126/47/32079</question>
+  <answer>
+   <field name="isMobile">true</field>
+   <field name="BrowserEngine">UCBrowser</field>
+   <field name="BrowserName">UCBrowser</field>
+   <field name="BrowserVersion">1.3</field>
+   <field name="OSFamily">WindowsPhone</field>
+   <field name="isTouch">true</field>
+  </answer>
+ </test>
+ <test>
+  <question>Mozilla/6.0 (compatible; Konqueror 2.0; NetBSD i386; Trident/4.0; MRA 5.9 (build 4953); .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)</question>
+  <answer>
+   <field name="isMobile">false</field>
+   <field name="BrowserEngine">KHTML</field>
+   <field name="MailRuAgent">true</field>
+   <field name="MailRuAgentVersion">5.9</field>
+   <field name="OSFamily">NetBSD</field>
+  </answer>
+ </test>
+ <test>
+  <question>Mozilla/5.0 (compatible; Teleca Q7; Brew 4.0.3; U; en) 240X400 LGE LG840</question>
+  <answer>
+   <field name="isMobile">true</field>
+   <field name="BrowserEngine">Proprietary</field>
+   <field name="BrowserName">Obigo</field>
+   <field name="isWAP">true</field>
+   <field name="BrowserVersion">7</field>
+   <field name="OSFamily">Unknown</field>
+  </answer>
+ </test>
+ <test>
+  <question>Mozilla/5.0 (YL-COOLPAD_E600/10.14.E600;U;REX/1.0;BREW/3.1.5SP01;240*320;CTC/2.0) POLARIS/V6.15.090923</question>
+  <answer>
+   <field name="isMobile">true</field>
+   <field name="BrowserEngine">Proprietary</field>
+   <field name="BrowserName">Polaris</field>
+   <field name="OSFamily">Unknown</field>
+  </answer>
+ </test>
+ <test>
+  <question>Mozilla/5.0 (X11; U; Linux mips; en-US; rv:1.8.0.14eol) Gecko/20070505 (Debian-1.8.0.15~pre080614i-0etch1)</question>
+  <answer>
+   <field name="isMobile">false</field>
+   <field name="BrowserEngine">Gecko</field>
+   <field name="BrowserEngineVersion">1.8.0.14</field>
+   <field name="BrowserName">Firefox</field>
+   <field name="BrowserVersion">1.5</field>
+   <field name="OSFamily">Linux</field>
+   <field name="OSName">Debian</field>
+  </answer>
+ </test>
+ <test>
+  <question>Mozilla/5.0 (Windows; U; WindowsCE 6.0; en-US; rv:1.9.3a1pre) Gecko/20091001 Fennec/1.0a3</question>
+  <answer>
+   <field name="isMobile">true</field>
+   <field name="BrowserEngine">Gecko</field>
+   <field name="isTouch">true</field>
+   <field name="BrowserEngineVersion">1.9.3</field>
+   <field name="BrowserName">MobileFirefox</field>
+   <field name="BrowserVersion">1.0</field>
+   <field name="OSFamily">Unknown</field>
+  </answer>
+ </test>
+ <test>
+  <question>Mozilla/5.0 () AppleWebKit/535.7 (KHTML, like Gecko) Chrome/16.0.912.76 Safari/535.7 YI</question>
+  <answer>
+   <field name="isMobile">false</field>
+   <field name="BrowserEngine">WebKit</field>
+   <field name="BrowserEngineVersion">535.7</field>
+   <field name="BrowserName">YandexInternet</field>
+   <field name="BrowserVersion">16.0.912</field>
+   <field name="OSFamily">Unknown</field>
+  </answer>
+ </test>
+ <test>
+  <question>Mozilla/4.0 (compatible; Polaris 6.2; Brew 3.1.5; en)/240X320 Samsung sam-r631</question>
+  <answer>
+   <field name="isMobile">true</field>
+   <field name="BrowserEngine">Proprietary</field>
+   <field name="isWAP">true</field>
+   <field name="OSFamily">Unknown</field>
+  </answer>
+ </test>
+ <test>
+  <question>Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; Brew_Browser_6.0_SP1; .NET CLR 1.0.3705; .NET CLR 1.1.4322; InfoPath.1)</question>
+  <answer>
+   <field name="isMobile">true</field>
+   <field name="BrowserEngine">Proprietary</field>
+   <field name="isWAP">true</field>
+   <field name="OSFamily">WindowsMobile</field>
+  </answer>
+ </test>
+ <test>
+  <question>Mozilla/4.0 (compatible; MSIE 5.0; Series90/1.1 Nokia7710/4.01.0 Profile/MIDP-2.0 Configuration/CLDC-1.0)</question>
+  <answer>
+   <field name="isMobile">true</field>
+   <field name="BrowserEngine">Trident</field>
+   <field name="BrowserEngineVersion">5.0</field>
+   <field name="BrowserName">IEMobile</field>
+   <field name="BrowserVersion">5.0</field>
+   <field name="OSFamily">Symbian</field>
+   <field name="J2ME">true</field>
+  </answer>
+ </test>
+ <test>
+  <question>DoCoMo/2.0 P904i(c100;TB;W24H15)</question>
+  <answer>
+   <field name="isMobile">true</field>
+   <field name="BrowserEngine">Proprietary</field>
+   <field name="BrowserName">Docomo</field>
+   <field name="isWAP">true</field>
+   <field name="BrowserVersion">2.0</field>
+   <field name="OSFamily">Unknown</field>
   </answer>
  </test>
 </tests>
