@@ -1,3 +1,9 @@
+libuatraits (1.1.6-6) unstable; urgency=low
+
+  * A lot of browsers and OS, almost Metrika compatible
+
+ -- bruno <bruno@yandex-team.ru>  Wed, 15 Feb 2012 12:28:04 +0300
+
 libuatraits (1.1.6-5) unstable; urgency=low
 
   * Firefox magic

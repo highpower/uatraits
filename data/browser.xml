@@ -29,6 +29,7 @@
 			<pattern type="string">Skyfire</pattern>
 			<pattern type="string">Windows CE</pattern>
 			<pattern type="string">Maemo</pattern>
+			<pattern type="string">Moblin</pattern>
 			<pattern type="string">Fennec</pattern>
 			<pattern type="string">UCWEB</pattern>
 			<pattern type="string">UC Browser</pattern>
@@ -48,6 +49,7 @@
 			<pattern type="string">Tablet browser</pattern>
 			<pattern type="string">BlackBerry</pattern>
 			<pattern type="string">PlayBook</pattern>
+			<pattern type="string">PalmSource</pattern>
 			<pattern type="string">iTunes-i</pattern>
 			<pattern type="regex">MSIE.*PPC[;)]</pattern>
 			<pattern type="regex">HTC[_/]</pattern>
@@ -257,6 +259,7 @@
 				<pattern type="string">Fennec</pattern>
 				<pattern type="string">Firefox</pattern>
 				<pattern type="string">Minimo</pattern>
+				<pattern type="regex">Gecko.*Moblin</pattern>
 			</match>
 			<define name="BrowserEngine" value="Gecko"/>			
 			<define name="isTouch" value="true"/>
@@ -360,7 +363,18 @@
 				<define name="BrowserVersion">
 					<pattern type="regex" value="$1">^Blackberry[\d]+/(&ver;)</pattern>				
 				</define>
-			</branch>			
+			</branch>	
+			
+			<branch name="Blazer">
+				<match type="any">
+					<pattern type="regex">Blazer/</pattern>
+				</match>
+				<define name="BrowserName" value="Blazer"/>
+				<define name="BrowserVersion">
+					<pattern type="regex" value="$1">Blazer/(&ver;)</pattern>				
+				</define>
+			</branch>
+						
 			<branch name="Dalvik">
 				<match type="any">
 					<pattern type="string">Dalvik/</pattern>
@@ -422,7 +436,17 @@
 					<pattern type="regex" value="$1">Dolfin/(&ver2d;)</pattern>
 				</define>
 			</branch>
-
+			
+			<branch name="SEMC">
+				<match type="any">
+					<pattern type="string">SEMC-Browser/</pattern>
+				</match>
+				<define name="BrowserName" value="SEMC"/>
+				<define name="BrowserVersion">
+					<pattern type="regex" value="$1">SEMC-Browser/(&ver2d;)</pattern>
+				</define>
+			</branch>
+			
 			<branch name="Jasmine">
 				<match type="any">
 					<pattern type="string">Jasmine/</pattern>
@@ -892,6 +916,16 @@
 				<define name="BrowserVersion">
 					<pattern type="regex" value="$1">QtWeb Internet Browser/(&ver;)</pattern>
 				</define>
+			</branch>	
+			
+			<branch name="QupZilla">
+				<match type="any">
+					<pattern type="string">QupZilla/</pattern>
+				</match>
+				<define name="BrowserName" value="QupZilla"/>
+				<define name="BrowserVersion">
+					<pattern type="regex" value="$1">QupZilla/(&ver;)</pattern>
+				</define>
 			</branch>			
 
 			<branch name="Arora">
@@ -934,11 +968,22 @@
 				<match type="any">
 					<pattern type="string">LG Browser/</pattern>
 				</match>
-				<define name="BrowserName" value="LG Browser"/>
+				<define name="BrowserName" value="LGBrowser"/>
 				<define name="BrowserVersion">
 					<pattern type="regex" value="$1">LG Browser/(&ver;)</pattern>
 				</define>
 			</branch>			
+			
+			<branch name="AdobeAIR">
+				<match type="any">
+					<pattern type="regex">Adobe ?AIR</pattern>
+				</match>
+				<define name="BrowserName" value="AdobeAIR"/>
+				<define name="BrowserVersion">
+					<pattern type="regex" value="$1">AdobeAIR/(&ver;)</pattern>
+				</define>
+				<define name="isBrowser" value="false"/>
+			</branch>
 			
 			<branch name="Safari">
 				<match type="any">
@@ -1011,6 +1056,7 @@
 				<pattern type="string" value="MyIE2">MyIE2</pattern>
 				<pattern type="string" value="MyIE">MyIE</pattern>
 				<pattern type="string" value="SlimBrowser">SlimBrowser</pattern>				
+				<pattern type="string" value="NetCaptor">NetCaptor</pattern>
 				<pattern type="string" value="MicrosoftOffice">Microsoft Office</pattern>
 			</define>			
 		</branch>
@@ -1056,6 +1102,26 @@
 				<define name="BrowserVersion">
 					<pattern type="regex" value="$1">iTunes/(&ver2d;)</pattern>
 				</define>
+			</branch>
+			<branch name="NetSurf">
+				<match type="any">
+					<pattern type="string">NetSurf/</pattern>
+				</match>
+				<define name="BrowserName" value="NetSurf"/>
+				<define name="BrowserVersion">
+					<pattern type="regex" value="$1">NetSurf/(&ver2d;)</pattern>
+				</define>
+				<define name="isBrowser" value="true"/>
+			</branch>
+			<branch name="UnixNetscape">
+				<match type="any">
+					<pattern type="regex">Mozilla/4.*X11</pattern>
+				</match>
+				<define name="BrowserName" value="Netscape"/>
+				<define name="BrowserVersion">
+					<pattern type="regex" value="$1">Mozilla/(&ver2d;)</pattern>
+				</define>
+				<define name="isBrowser" value="true"/>
 			</branch>
 		</branch>
 
@@ -1111,6 +1177,8 @@
 					<pattern type="string">Win16</pattern>
 					<pattern type="string">WinNT</pattern>
 					<pattern type="string">Win9</pattern>
+					<pattern type="string">Win32</pattern>
+					<pattern type="string">Win64</pattern>
 
 				</match>
 				<define name="OSFamily">Windows</define>
@@ -1161,9 +1229,12 @@
 					<pattern type="string">NetBSD</pattern>
 					<pattern type="string">FreeBSD</pattern>
 					<pattern type="string">Linux</pattern>
-					<pattern type="string">SunOS</pattern>
-					<pattern type="string">X11</pattern>					
+					<pattern type="string">SunOS</pattern>									
 					<pattern type="string">QNX</pattern>
+					<pattern type="string">UNIX</pattern>
+					<pattern type="string">AIX</pattern>
+					<pattern type="string">IRIX</pattern>
+					<pattern type="regex">X11[^\d]</pattern>
 				</match>
 				<define name="OSFamily">
 					<pattern type="string" value="OpenBSD">OpenBSD</pattern>
@@ -1172,7 +1243,11 @@
 					<pattern type="string" value="SunOS">SunOS</pattern>
 					<pattern type="string" value="FreeBSD">FreeBSD</pattern>
 					<pattern type="string" value="NetBSD">NetBSD</pattern>
-					<pattern type="string" value="Unknown *nix">X11</pattern>
+					<pattern type="string" value="UNIX">UNIX</pattern>
+					<pattern type="string" value="AIX">AIX</pattern>
+					<pattern type="string" value="IRIX">IRIX</pattern>
+					<pattern type="string" value="HP-UX">HP-UX</pattern>
+					<pattern type="string" value="UnknownNix">X11</pattern>					
 				</define>
 				<define name="x64">
 					<pattern type="string" value="true">x86_64</pattern>
@@ -1237,11 +1312,22 @@
 							<pattern type="regex" value="$1">el(&ver;)</pattern>
 						</define>
 					</branch>
+					<branch name="ASPLinux">
+						<match>
+							<pattern type="string">ASPLinux</pattern>
+						</match>
+						<define name="OSName">ASPLinux</define>
+						<define name="OSVersion">
+							<pattern type="regex" value="$1">ASPLinux/(&ver3d;)</pattern>
+						</define>
+					</branch>
 					<branch name="OtherDistr" type="default">						
 						<define name="OSName">
 							<pattern type="string" value="Debian">Debian</pattern>
 							<pattern type="string" value="SUSE">SUSE</pattern>
-							<pattern type="string" value="Gentoo">Gentoo</pattern>							
+							<pattern type="string" value="Gentoo">Gentoo</pattern>
+							<pattern type="string" value="ALTLinux">ALTLinux</pattern>
+							<pattern type="string" value="SplashTop">Splashtop</pattern>
 						</define>						
 					</branch>
 				</branch>
@@ -1260,6 +1346,14 @@
 					<pattern type="regex" value="$1">Mac OS X (&ver;)</pattern>
 				</define>
 			</branch>
+			
+			<branch name="OS2">
+				<match>
+					<pattern type="string">OS/2</pattern>					
+				</match>
+					<define name="OSFamily">OS/2</define>
+			</branch>
+			
 			<branch type="default" name="UnknownOS">
 				<define name="OSFamily">Unknown</define>
 			</branch>
