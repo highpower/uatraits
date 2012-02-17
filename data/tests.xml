@@ -67,7 +67,7 @@
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Presto</field>
-   <field name="BrowserName">Opera Mobile</field>
+   <field name="BrowserName">OperaMobile</field>
    <field name="OSFamily">Symbian</field>
   </answer>
  </test> 
@@ -76,7 +76,7 @@
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Presto</field>
-   <field name="BrowserName">Opera Mobile</field>
+   <field name="BrowserName">OperaMobile</field>
    <field name="isTablet">true</field>   
   </answer>
  </test> 
@@ -85,7 +85,7 @@
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Presto</field>
-   <field name="BrowserName">Opera Mini</field>   
+   <field name="BrowserName">OperaMini</field>   
   </answer>
  </test> 
  <test>
@@ -100,7 +100,7 @@
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Presto</field>
-   <field name="BrowserName">Opera Mobile</field>   
+   <field name="BrowserName">OperaMobile</field>   
    <field name="OSFamily">Symbian</field>
   </answer>
  </test> 
@@ -147,7 +147,7 @@
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Presto</field>
-   <field name="BrowserName">Opera Mobile</field>   
+   <field name="BrowserName">OperaMobile</field>   
    <field name="OSFamily">MeeGo</field>
    <field name="isTouch">true</field>
   </answer>
@@ -263,7 +263,7 @@
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">Presto</field>
-   <field name="BrowserName">Opera Mobile</field>
+   <field name="BrowserName">OperaMobile</field>
    <field name="isTablet">true</field>
    <field name="OSFamily">Android</field>   
   </answer>

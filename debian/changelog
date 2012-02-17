@@ -1,3 +1,9 @@
+libuatraits (1.1.6-7) unstable; urgency=low
+
+  * Fixed tests
+
+ -- bruno <bruno@yandex-team.ru>  Fri, 17 Feb 2012 16:28:04 +0300
+
 libuatraits (1.1.6-6) unstable; urgency=low
 
   * A lot of browsers and OS, almost Metrika compatible
