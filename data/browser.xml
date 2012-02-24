@@ -6,7 +6,7 @@
 <!ENTITY ver "\d[\d\.]*">
 <!ENTITY word "\w+">
 ]>
-<rules xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="browser.xsd" minver="1.1" date="2012.02.17.16.50">
+<rules xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="browser.xsd" minver="1.1" date="2012.02.24.13.50">
 	<branch name="Mobile">
 		<!-- Mobile bullshit -->
 		<match type="any">
@@ -80,7 +80,7 @@
 			<match>
 				<pattern type="string">WebKit</pattern>
 				<pattern type="string">Mobile Safari/</pattern>				
-				<pattern type="string">Ninesky-</pattern>
+				<pattern type="string">Ninesky</pattern>
 			</match>			
 			<define name="BrowserEngine" value="WebKit"/>
 			<define name="BrowserEngineVersion">
@@ -174,10 +174,12 @@
 			<branch name="Ninesky">
 				<match>
 					<pattern type="string">Ninesky-android-mobile/</pattern>
+					<pattern type="string">Ninesky/</pattern>
 				</match>
 				<define name="BrowserName" value="Ninesky"/>
 				<define name="BrowserVersion">
 					<pattern type="regex" value="$1">Ninesky-android-mobile/(&ver;)</pattern>
+					<pattern type="regex" value="$1">Ninesky/(&ver;)</pattern>
 				</define>
 			</branch>			
 			<branch name="MobileSafari">
@@ -186,6 +188,7 @@
 					<pattern type="regex">Mobile/[\w0-9]+(?: Safari/)?</pattern>
 					<pattern type="regex">Android.*Safari/</pattern>
 					<pattern type="regex">Mac OS X \d[\d_]+;.*HTC[_/\s]</pattern>
+					<pattern type="string">iPhone OS</pattern>
 				</match>
 				<define name="BrowserName" value="MobileSafari"/>
 				<define name="isTouch" value="true"/>
@@ -195,16 +198,10 @@
 				</define>
 				<define name="BrowserVersion">
 					<pattern type="regex" value="$1">Version/(&ver;)</pattern>
-				</define>
-				<branch name="UCBrowser">
-					<match type="any">
-						<pattern type="string">UC AppleWebkit</pattern>
-					</match>
-					<define name="BrowserShell">UCBrowser</define>
-				</branch>
+				</define>								
 			</branch>
 			<branch type="default">
-				<define name="BrowserName" value="UnknownWebkit"/>
+				<define name="BrowserName" value="MobileWebkit"/>
 				<define name="BrowserName">
 					<pattern type="string" value="GenericSafari">Safari/</pattern>
 				</define>
@@ -216,6 +213,7 @@
 				<define name="BrowserShell">
 					<pattern type="string" value="Diigo">Diigo</pattern>
 					<pattern type="string" value="Diigo">iChromy</pattern>
+					<pattern type="string" value="UCBrowser">UC AppleWebkit</pattern>
 				</define>
 			</branch>
 		</branch>		
@@ -331,6 +329,7 @@
 				<pattern type="string">Dalvik/</pattern>
 				<pattern type="string">PSP</pattern>
 				<pattern type="string">BREW</pattern>
+				<pattern type="string">Blazer</pattern>
 			</match>
 			<define name="BrowserEngine" value="Proprietary"/>			
 			<branch name="Obigo">
@@ -688,6 +687,7 @@
 			<define name="BrowserVersion">
 				<pattern type="regex" value="$1">Version/(&ver;)</pattern>
 				<pattern type="regex" value="$1">Opera/(&ver;)</pattern>
+				<pattern type="regex" value="$1">Opera (&ver;)</pattern>
 			</define>
 
 			<define name="isBeta">
@@ -732,6 +732,15 @@
 				</define>
 			</branch>
 
+			<branch name="Flock">
+				<match type="any">
+					<pattern type="string">Flock/</pattern>
+				</match>
+				<define name="BrowserName" value="Flock"/>
+				<define name="BrowserVersion">
+					<pattern type="regex" value="$1">Flock/(&ver;)</pattern>
+				</define>
+			</branch>
 
 			<branch name="Galeon">
 				<match type="any">
@@ -746,10 +755,12 @@
 			<branch name="K-Meleon">
 				<match type="any">
 					<pattern type="string">K-Meleon/</pattern>
+					<pattern type="regex">K-Meleon &ver;</pattern>
 				</match>
 				<define name="BrowserName" value="K-Meleon"/>
 				<define name="BrowserVersion">
 					<pattern type="regex" value="$1">K-Meleon/(&ver;)</pattern>
+					<pattern type="regex" value="$1">K-Meleon (&ver;)</pattern>
 				</define>
 			</branch>
 
@@ -877,7 +888,17 @@
 					<pattern type="regex" value="$1">Chromium/(&ver3d;)</pattern>
 				</define>
 			</branch>
-			
+
+			<branch name="Flock">
+				<match type="any">
+					<pattern type="string">Flock/</pattern>
+				</match>
+				<define name="BrowserName" value="Flock"/>
+				<define name="BrowserVersion">
+					<pattern type="regex" value="$1">Flock/(&ver;)</pattern>
+				</define>
+			</branch>
+
 			<branch name="Chrome">
 				<match type="any">
 					<pattern type="string">Chrome/</pattern>
