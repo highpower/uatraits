@@ -6,7 +6,7 @@
 <!ENTITY ver "\d[\d\.]*">
 <!ENTITY word "\w+">
 ]>
-<rules xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="browser.xsd" minver="1.1" date="2012.02.24.13.50">
+<rules xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="browser.xsd" minver="1.1" date="2012.04.11.20.50">
 	<branch name="Mobile">
 		<!-- Mobile bullshit -->
 		<match type="any">
@@ -84,7 +84,7 @@
 			</match>			
 			<define name="BrowserEngine" value="WebKit"/>
 			<define name="BrowserEngineVersion">
-				<pattern type="regex" value="$1">Web[Kk]it/(&ver;)</pattern>
+				<pattern type="regex" value="$1">WebKit/(&ver;)</pattern>
 			</define>
 			<branch name="NokiaBrowser">
 				<match type="any">
@@ -116,6 +116,7 @@
 					<pattern type="string">PlayBook</pattern>
 				</match>
 				<define name="BrowserName" value="BlackBerry"/>				
+				<define name="isTablet" value="true"/>
 				<define name="BrowserVersion">
 					<pattern type="regex" value="$1">Version/(&ver3d;)</pattern>
 				</define>
@@ -181,19 +182,30 @@
 					<pattern type="regex" value="$1">Ninesky-android-mobile/(&ver;)</pattern>
 					<pattern type="regex" value="$1">Ninesky/(&ver;)</pattern>
 				</define>
-			</branch>			
+			</branch>	
+			<branch name="AndroidBrowser">
+				<match type="any">
+					<pattern type="string">Android</pattern>
+					<pattern type="regex">Mac OS X \d[\d_]+;.*HTC[_/\s]</pattern>
+				</match>
+				<define name="BrowserName" value="AndroidBrowser"/>
+				<define name="isTouch" value="true"/>
+				<define name="isTablet">
+					<pattern type="string" value="true">Android 3</pattern>
+				</define>
+				<define name="BrowserVersion">
+					<pattern type="regex" value="$1">Version/(&ver;)</pattern>
+				</define>	
+			</branch>
 			<branch name="MobileSafari">
 				<match type="any">
 					<pattern type="string">Mobile Safari</pattern>
 					<pattern type="regex">Mobile/[\w0-9]+(?: Safari/)?</pattern>
-					<pattern type="regex">Android.*Safari/</pattern>
-					<pattern type="regex">Mac OS X \d[\d_]+;.*HTC[_/\s]</pattern>
 					<pattern type="string">iPhone OS</pattern>
 				</match>
 				<define name="BrowserName" value="MobileSafari"/>
 				<define name="isTouch" value="true"/>
 				<define name="isTablet">
-					<pattern type="string" value="true">Android 3</pattern>
 					<pattern type="string" value="true">iPad</pattern>
 				</define>
 				<define name="BrowserVersion">
@@ -517,6 +529,17 @@
 					<pattern type="string" value="true">Android 3</pattern>
 					<pattern type="string" value="true">Linux;U;3</pattern>
 				</define>
+				<define name="OSName">
+					<pattern type="regex" value="Astro">Android\s?1.0</pattern>
+					<pattern type="regex" value="Bender">Android\s?1.1</pattern>
+					<pattern type="regex" value="Cupcake">Android\s?1.5</pattern>
+					<pattern type="regex" value="Donut">Android\s?1.6</pattern>
+					<pattern type="regex" value="Eclair">Android\s?2.[0-1]</pattern>
+					<pattern type="regex" value="Froyo">Android\s?2.2</pattern>
+					<pattern type="regex" value="Gingerbread">Android\s?2.3</pattern>
+					<pattern type="regex" value="Honeycomb">Android\s?3.[0-2]</pattern>
+					<pattern type="regex" value="Ice Cream Sandwich">Android\s?4.0</pattern>
+				</define>
 			</branch>
 			<branch name="iPhoneOS">
 				<match>
@@ -540,9 +563,7 @@
 					<pattern type="string" value="true">iPad</pattern>
 				</define>
 				<define name="isEmulator">
-					<pattern type="string" value="true">iPhone Simulator</pattern>
-					<pattern type="string" value="true">iPad Simulator</pattern>
-					<pattern type="string" value="true">iPod Simulator</pattern>
+					<pattern type="string" value="true">iPhone Simulator</pattern>					
 				</define>				
 			</branch>			
 			<branch name="Symbian">
@@ -590,6 +611,8 @@
 				<match type="any">					
 					<pattern type="string">RIM Tablet OS</pattern>					
 				</match>
+				<define name="isTouch" value="true"/>
+				<define name="isTablet" value="true"/>
 				<define name="OSFamily" value="RIMTabletOS"/>
 				<define name="OSVersion">
 					<pattern type="regex" value="$1">RIM Tablet OS (&ver;)</pattern>					
@@ -616,6 +639,9 @@
 					<pattern type="regex" value="$1">Windows Phone OS (&ver2d;)</pattern>
 					<pattern type="regex" value="$1">WP(&ver;)</pattern>
 				</define>
+				<define name="isEmulator">
+					<pattern type="string" value="true">XDeviceEmulator</pattern>					
+				</define>	
 			</branch>
 			<branch name="WindowsMobile">
 				<match>
@@ -1255,6 +1281,7 @@
 					<pattern type="string">UNIX</pattern>
 					<pattern type="string">AIX</pattern>
 					<pattern type="string">IRIX</pattern>
+					<pattern type="string"> CrOS</pattern>					
 					<pattern type="regex">X11[^\d]</pattern>
 				</match>
 				<define name="OSFamily">
@@ -1267,6 +1294,7 @@
 					<pattern type="string" value="UNIX">UNIX</pattern>
 					<pattern type="string" value="AIX">AIX</pattern>
 					<pattern type="string" value="IRIX">IRIX</pattern>
+					<pattern type="string" value="ChromeOS"> CrOS</pattern>
 					<pattern type="string" value="HP-UX">HP-UX</pattern>
 					<pattern type="string" value="UnknownNix">X11</pattern>					
 				</define>
@@ -1365,6 +1393,13 @@
 				<define name="OSVersion">
 					<pattern type="regex" value="$1.$2.$3">Mac OS X (\d+)_(\d+)_(\d+)</pattern>
 					<pattern type="regex" value="$1">Mac OS X (&ver;)</pattern>
+				</define>
+				<define name="OSName">
+					<pattern type="regex" value="Mac OS X Tiger">10[_\.]4</pattern>
+					<pattern type="regex" value="Mac OS X Leopard">10[_\.]5</pattern>
+					<pattern type="regex" value="Mac OS X Snow Leopard">10[_\.]6</pattern>
+					<pattern type="regex" value="Mac OS X Lion">10[_\.]7</pattern>
+					<pattern type="regex" value="Mac OS X Mountain Lion">10[_\.]8</pattern>
 				</define>
 			</branch>
 			

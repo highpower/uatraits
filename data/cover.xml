@@ -7,11 +7,12 @@
    <field name="isMobile">true</field>
    <field name="BrowserEngine">WebKit</field>
    <field name="BrowserEngineVersion">533.1</field>
-   <field name="BrowserName">MobileSafari</field>
+   <field name="BrowserName">AndroidBrowser</field>
    <field name="isTouch">true</field>
    <field name="BrowserVersion">4.0</field>
    <field name="OSFamily">Android</field>
    <field name="OSVersion">2.2</field>
+   <field name="OSName">Froyo</field>
   </answer>
  </test>
  <test>
@@ -20,11 +21,12 @@
    <field name="isMobile">true</field>
    <field name="BrowserEngine">WebKit</field>
    <field name="BrowserEngineVersion">533.1</field>
-   <field name="BrowserName">MobileSafari</field>
+   <field name="BrowserName">AndroidBrowser</field>
    <field name="isTouch">true</field>
    <field name="BrowserVersion">4.0</field>
    <field name="OSFamily">Android</field>
    <field name="OSVersion">2.3.3</field>
+   <field name="OSName">Gingerbread</field>
   </answer>
  </test>
  <test>
@@ -33,11 +35,12 @@
    <field name="isMobile">true</field>
    <field name="BrowserEngine">WebKit</field>
    <field name="BrowserEngineVersion">533.1</field>
-   <field name="BrowserName">MobileSafari</field>
+   <field name="BrowserName">AndroidBrowser</field>
    <field name="isTouch">true</field>
    <field name="BrowserVersion">4.0</field>
    <field name="OSFamily">Android</field>
    <field name="OSVersion">2.3.3</field>
+   <field name="OSName">Gingerbread</field>
   </answer>
  </test>
  <test>
@@ -46,11 +49,12 @@
    <field name="isMobile">true</field>
    <field name="BrowserEngine">WebKit</field>
    <field name="BrowserEngineVersion">533.1</field>
-   <field name="BrowserName">MobileSafari</field>
+   <field name="BrowserName">AndroidBrowser</field>
    <field name="isTouch">true</field>
    <field name="BrowserVersion">4.0</field>
    <field name="OSFamily">Android</field>
    <field name="OSVersion">2.2.1</field>
+   <field name="OSName">Froyo</field>
   </answer>
  </test>
  <test>
@@ -59,11 +63,12 @@
    <field name="isMobile">true</field>
    <field name="BrowserEngine">WebKit</field>
    <field name="BrowserEngineVersion">533.1</field>
-   <field name="BrowserName">MobileSafari</field>
+   <field name="BrowserName">AndroidBrowser</field>
    <field name="isTouch">true</field>
    <field name="BrowserVersion">4.0</field>
    <field name="OSFamily">Android</field>
    <field name="OSVersion">2.2</field>
+   <field name="OSName">Froyo</field>
   </answer>
  </test>
  <test>
@@ -1827,7 +1832,7 @@
    <field name="isMobile">true</field>
    <field name="BrowserEngine">WebKit</field>
    <field name="BrowserEngineVersion">533.16</field>
-   <field name="BrowserName">MobileSafari</field>
+   <field name="BrowserName">AndroidBrowser</field>
    <field name="isTouch">true</field>
    <field name="BrowserVersion">5.0</field>
    <field name="OSFamily">Android</field>
@@ -1839,7 +1844,7 @@
    <field name="isMobile">true</field>
    <field name="BrowserEngine">WebKit</field>
    <field name="BrowserEngineVersion">533.16</field>
-   <field name="BrowserName">MobileSafari</field>
+   <field name="BrowserName">AndroidBrowser</field>
    <field name="isTouch">true</field>
    <field name="BrowserVersion">5.0</field>
    <field name="OSFamily">Android</field>
@@ -1861,7 +1866,7 @@
    <field name="isMobile">true</field>
    <field name="BrowserEngine">WebKit</field>
    <field name="BrowserEngineVersion">533.16</field>
-   <field name="BrowserName">MobileSafari</field>
+   <field name="BrowserName">AndroidBrowser</field>
    <field name="isTouch">true</field>
    <field name="BrowserVersion">5.0</field>
    <field name="OSFamily">Android</field>
@@ -2148,7 +2153,7 @@
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">WebKit</field>
-   <field name="BrowserName">MobileSafari</field>
+   <field name="BrowserName">AndroidBrowser</field>
    <field name="isTouch">true</field>
    <field name="BrowserVersion">4.0</field>
    <field name="OSFamily">Android</field>
@@ -2160,11 +2165,12 @@
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">WebKit</field>
-   <field name="BrowserName">MobileSafari</field>
+   <field name="BrowserName">AndroidBrowser</field>
    <field name="isTouch">true</field>
    <field name="BrowserVersion">4.0</field>
    <field name="OSFamily">Android</field>
    <field name="OSVersion">2.3.4</field>
+   <field name="OSName">Gingerbread</field>
   </answer>
  </test>
  <test>
@@ -2172,11 +2178,12 @@
   <answer>
    <field name="isMobile">true</field>
    <field name="BrowserEngine">WebKit</field>
-   <field name="BrowserName">MobileSafari</field>
+   <field name="BrowserName">AndroidBrowser</field>
    <field name="isTouch">true</field>
    <field name="BrowserVersion">4.0</field>
    <field name="OSFamily">Android</field>
    <field name="OSVersion">2.2.1</field>
+   <field name="OSName">Froyo</field>
   </answer>
  </test>
  <test>
@@ -2458,6 +2465,7 @@
    <field name="OSFamily">Android</field>
    <field name="isTouch">true</field>
    <field name="OSVersion">2.3.3</field>
+   <field name="OSName">Gingerbread</field>
   </answer>
  </test>
  <test>
@@ -2471,6 +2479,7 @@
    <field name="OSFamily">Android</field>
    <field name="isTouch">true</field>
    <field name="OSVersion">2.1</field>
+   <field name="OSName">Eclair</field>
   </answer>
  </test>
  <test>
@@ -2484,6 +2493,7 @@
    <field name="OSFamily">Android</field>
    <field name="isTouch">true</field>
    <field name="OSVersion">2.3.3</field>
+   <field name="OSName">Gingerbread</field>
   </answer>
  </test>
  <test>
@@ -2497,6 +2507,7 @@
    <field name="OSFamily">Android</field>
    <field name="isTouch">true</field>
    <field name="OSVersion">2.2</field>
+   <field name="OSName">Froyo</field>
   </answer>
  </test>
  <test>
@@ -2510,6 +2521,7 @@
    <field name="OSFamily">Android</field>
    <field name="isTouch">true</field>
    <field name="OSVersion">2.2</field>
+   <field name="OSName">Froyo</field>
   </answer>
  </test>
  <test>
@@ -2522,6 +2534,7 @@
    <field name="OSFamily">Android</field>
    <field name="isTouch">true</field>
    <field name="OSVersion">2.1</field>
+   <field name="OSName">Eclair</field>
   </answer>
  </test>
  <test>
@@ -2534,6 +2547,7 @@
    <field name="OSFamily">Android</field>
    <field name="isTouch">true</field>
    <field name="OSVersion">2.3.5</field>
+   <field name="OSName">Gingerbread</field>
   </answer>
  </test>
  <test>
@@ -2546,6 +2560,7 @@
    <field name="OSFamily">Android</field>
    <field name="isTouch">true</field>
    <field name="OSVersion">2.2.2</field>
+   <field name="OSName">Froyo</field>
   </answer>
  </test>
  <test>
@@ -2582,6 +2597,7 @@
    <field name="OSFamily">Android</field>
    <field name="isTouch">true</field>
    <field name="OSVersion">2.2.1</field>
+   <field name="OSName">Froyo</field>
   </answer>
  </test>
  <test>
@@ -2595,6 +2611,7 @@
    <field name="OSFamily">Android</field>
    <field name="isTouch">true</field>
    <field name="OSVersion">2.2.1</field>
+   <field name="OSName">Froyo</field>
   </answer>
  </test>
  <test>
@@ -2608,6 +2625,7 @@
    <field name="OSFamily">Android</field>
    <field name="isTouch">true</field>
    <field name="OSVersion">2.3.7</field>
+   <field name="OSName">Gingerbread</field>
   </answer>
  </test>
  <test>
@@ -2622,6 +2640,7 @@
    <field name="isTouch">true</field>
    <field name="OSVersion">3.2</field>
    <field name="isTablet">true</field>
+   <field name="OSName">Honeycomb</field>
   </answer>
  </test>
  <test>
@@ -2630,12 +2649,13 @@
    <field name="isMobile">true</field>
    <field name="BrowserEngine">WebKit</field>
    <field name="BrowserEngineVersion">534.13</field>
-   <field name="BrowserName">MobileSafari</field>
+   <field name="BrowserName">AndroidBrowser</field>
    <field name="isTouch">true</field>
    <field name="isTablet">true</field>
    <field name="BrowserVersion">4.0</field>
    <field name="OSFamily">Android</field>
    <field name="OSVersion">3.1</field>
+   <field name="OSName">Honeycomb</field>
   </answer>
  </test>
  <test>
@@ -2644,12 +2664,13 @@
    <field name="isMobile">true</field>
    <field name="BrowserEngine">WebKit</field>
    <field name="BrowserEngineVersion">534.13</field>
-   <field name="BrowserName">MobileSafari</field>
+   <field name="BrowserName">AndroidBrowser</field>
    <field name="isTouch">true</field>
    <field name="isTablet">true</field>
    <field name="BrowserVersion">4.0</field>
    <field name="OSFamily">Android</field>
    <field name="OSVersion">3.2</field>
+   <field name="OSName">Honeycomb</field>
   </answer>
  </test>
  <test>
@@ -2658,12 +2679,13 @@
    <field name="isMobile">true</field>
    <field name="BrowserEngine">WebKit</field>
    <field name="BrowserEngineVersion">534.13</field>
-   <field name="BrowserName">MobileSafari</field>
+   <field name="BrowserName">AndroidBrowser</field>
    <field name="isTouch">true</field>
    <field name="isTablet">true</field>
    <field name="BrowserVersion">4.0</field>
    <field name="OSFamily">Android</field>
    <field name="OSVersion">3.2</field>
+   <field name="OSName">Honeycomb</field>
   </answer>
  </test>
  <test>
@@ -2672,12 +2694,13 @@
    <field name="isMobile">true</field>
    <field name="BrowserEngine">WebKit</field>
    <field name="BrowserEngineVersion">534.13</field>
-   <field name="BrowserName">MobileSafari</field>
+   <field name="BrowserName">AndroidBrowser</field>
    <field name="isTouch">true</field>
    <field name="isTablet">true</field>
    <field name="BrowserVersion">4.0</field>
    <field name="OSFamily">Android</field>
    <field name="OSVersion">3.2.1</field>
+   <field name="OSName">Honeycomb</field>
   </answer>
  </test>
  <test>
@@ -2686,12 +2709,13 @@
    <field name="isMobile">true</field>
    <field name="BrowserEngine">WebKit</field>
    <field name="BrowserEngineVersion">534.13</field>
-   <field name="BrowserName">MobileSafari</field>
+   <field name="BrowserName">AndroidBrowser</field>
    <field name="isTouch">true</field>
    <field name="isTablet">true</field>
    <field name="BrowserVersion">4.0</field>
    <field name="OSFamily">Android</field>
    <field name="OSVersion">3.0.1</field>
+   <field name="OSName">Honeycomb</field>
   </answer>
  </test>
  <test>
@@ -2700,7 +2724,7 @@
    <field name="isMobile">true</field>
    <field name="BrowserEngine">WebKit</field>
    <field name="BrowserEngineVersion">533.16</field>
-   <field name="BrowserName">MobileSafari</field>
+   <field name="BrowserName">AndroidBrowser</field>
    <field name="isTouch">true</field>
    <field name="BrowserVersion">5.0</field>
    <field name="OSFamily">Android</field>
@@ -2712,7 +2736,7 @@
    <field name="isMobile">true</field>
    <field name="BrowserEngine">WebKit</field>
    <field name="BrowserEngineVersion">533.16</field>
-   <field name="BrowserName">MobileSafari</field>
+   <field name="BrowserName">AndroidBrowser</field>
    <field name="isTouch">true</field>
    <field name="BrowserVersion">5.0</field>
    <field name="OSFamily">Android</field>
@@ -2784,6 +2808,7 @@
    <field name="OSFamily">Android</field>
    <field name="isTouch">true</field>
    <field name="OSVersion">3.2</field>
+   <field name="OSName">Honeycomb</field>
   </answer>
  </test>
  <test>
@@ -2798,6 +2823,7 @@
    <field name="OSFamily">Android</field>
    <field name="isTouch">true</field>
    <field name="OSVersion">3.2</field>
+   <field name="OSName">Honeycomb</field>
   </answer>
  </test>
  <test>
@@ -3189,6 +3215,7 @@
    <field name="OSFamily">Android</field>
    <field name="isTouch">true</field>
    <field name="OSVersion">2.3.3</field>
+   <field name="OSName">Gingerbread</field>
   </answer>
  </test>
  <test>
@@ -3202,6 +3229,7 @@
    <field name="OSFamily">Android</field>
    <field name="isTouch">true</field>
    <field name="OSVersion">2.3.3</field>
+   <field name="OSName">Gingerbread</field>
   </answer>
  </test>
  <test>
@@ -3215,6 +3243,7 @@
    <field name="OSFamily">Android</field>
    <field name="isTouch">true</field>
    <field name="OSVersion">2.2</field>
+   <field name="OSName">Froyo</field>
   </answer>
  </test>
  <test>
@@ -3228,6 +3257,7 @@
    <field name="OSFamily">Android</field>
    <field name="isTouch">true</field>
    <field name="OSVersion">2.3.3</field>
+   <field name="OSName">Gingerbread</field>
   </answer>
  </test>
  <test>
@@ -3241,6 +3271,7 @@
    <field name="OSFamily">Android</field>
    <field name="isTouch">true</field>
    <field name="OSVersion">2.3.4</field>
+   <field name="OSName">Gingerbread</field>
   </answer>
  </test>
  <test>
@@ -4504,6 +4535,7 @@
    <field name="BrowserVersion">2.0.9</field>
    <field name="OSFamily">MacOS</field>
    <field name="OSVersion">10.6</field>
+   <field name="OSName">Mac OS X Snow Leopard</field>
   </answer>
  </test>
  <test>
@@ -5006,6 +5038,7 @@
    <field name="BrowserVersion">16.0.912</field>
    <field name="OSFamily">MacOS</field>
    <field name="OSVersion">10.7.2</field>
+   <field name="OSName">Mac OS X Lion</field>
   </answer>
  </test>
  <test>
@@ -5106,6 +5139,7 @@
    <field name="BrowserName">OmniWeb</field>
    <field name="OSFamily">MacOS</field>
    <field name="OSVersion">10.4.11</field>
+   <field name="OSName">Mac OS X Tiger</field>
   </answer>
  </test>
  <test>
@@ -5117,6 +5151,7 @@
    <field name="BrowserName">OmniWeb</field>
    <field name="OSFamily">MacOS</field>
    <field name="OSVersion">10.7.2</field>
+   <field name="OSName">Mac OS X Lion</field>
   </answer>
  </test>
  <test>
@@ -5129,6 +5164,7 @@
    <field name="BrowserVersion">622.10</field>
    <field name="OSFamily">MacOS</field>
    <field name="OSVersion">10.6.8</field>
+   <field name="OSName">Mac OS X Snow Leopard</field>
   </answer>
  </test>
  <test>
@@ -5231,6 +5267,7 @@
    <field name="BrowserVersion">5.1</field>
    <field name="OSFamily">MacOS</field>
    <field name="OSVersion">10.6.8</field>
+   <field name="OSName">Mac OS X Snow Leopard</field>
   </answer>
  </test>
  <test>
@@ -5243,6 +5280,7 @@
    <field name="BrowserVersion">5.1</field>
    <field name="OSFamily">MacOS</field>
    <field name="OSVersion">10.7.2</field>
+   <field name="OSName">Mac OS X Lion</field>
   </answer>
  </test>
  <test>
@@ -5255,6 +5293,7 @@
    <field name="BrowserVersion">5.0</field>
    <field name="OSFamily">MacOS</field>
    <field name="OSVersion">10.5.8</field>
+   <field name="OSName">Mac OS X Leopard</field>
   </answer>
  </test>
  <test>
@@ -5268,6 +5307,7 @@
    <field name="BrowserShellVersion">4.8</field>
    <field name="OSFamily">MacOS</field>
    <field name="OSVersion">10.4.11</field>
+   <field name="OSName">Mac OS X Tiger</field>
   </answer>
  </test>
  <test>
@@ -5281,6 +5321,7 @@
    <field name="BrowserShellVersion">4.8</field>
    <field name="OSFamily">MacOS</field>
    <field name="OSVersion">10.4.11</field>
+   <field name="OSName">Mac OS X Tiger</field>
   </answer>
  </test>
  <test>
@@ -5294,6 +5335,7 @@
    <field name="BrowserShellVersion">4.8</field>
    <field name="OSFamily">MacOS</field>
    <field name="OSVersion">10.6.7</field>
+   <field name="OSName">Mac OS X Snow Leopard</field>
   </answer>
  </test>
  <test>
@@ -6916,6 +6958,7 @@
    <field name="isMobile">false</field>
    <field name="OSFamily">MacOS</field>
    <field name="OSVersion">10.7.2</field>
+   <field name="OSName">Mac OS X Lion</field>
    <field name="BrowserEngine">Unknown</field>
    <field name="BrowserName">Unknown</field>
    <field name="isBrowser">false</field>
@@ -6926,6 +6969,7 @@
   <answer>
    <field name="isMobile">false</field>
    <field name="OSFamily">MacOS</field>
+   <field name="OSName">Mac OS X Lion</field>
    <field name="BrowserEngine">Unknown</field>
    <field name="BrowserName">Unknown</field>
    <field name="isBrowser">false</field>
@@ -6936,6 +6980,7 @@
   <answer>
    <field name="isMobile">false</field>
    <field name="OSFamily">MacOS</field>
+   <field name="OSName">Mac OS X Snow Leopard</field>
    <field name="BrowserEngine">Unknown</field>
    <field name="BrowserName">Unknown</field>
    <field name="isBrowser">false</field>
@@ -6976,6 +7021,7 @@
   <answer>
    <field name="isMobile">false</field>
    <field name="OSFamily">MacOS</field>
+   <field name="OSName">Mac OS X Tiger</field>
    <field name="BrowserEngine">Unknown</field>
    <field name="BrowserName">Unknown</field>
    <field name="isBrowser">false</field>
@@ -7001,6 +7047,7 @@
    <field name="BrowserVersion">7.0</field>
    <field name="OSFamily">MacOS</field>
    <field name="OSVersion">10.6</field>
+   <field name="OSName">Mac OS X Snow Leopard</field>
   </answer>
  </test>
  <test>
@@ -7013,6 +7060,7 @@
    <field name="BrowserVersion">11.52</field>
    <field name="OSFamily">MacOS</field>
    <field name="OSVersion">10.6.8</field>
+   <field name="OSName">Mac OS X Snow Leopard</field>
   </answer>
  </test>
  <test>
@@ -7025,6 +7073,7 @@
    <field name="BrowserVersion">5.1</field>
    <field name="OSFamily">MacOS</field>
    <field name="OSVersion">10</field>
+   <field name="OSName">Mac OS X Lion</field>
   </answer>
  </test>
  <test>
@@ -7172,11 +7221,12 @@
    <field name="isMobile">true</field>
    <field name="BrowserEngine">WebKit</field>
    <field name="BrowserEngineVersion">534.51</field>
-   <field name="BrowserName">MobileSafari</field>
+   <field name="BrowserName">AndroidBrowser</field>
    <field name="isTouch">true</field>
    <field name="BrowserVersion">4.0</field>
    <field name="OSFamily">Android</field>
    <field name="OSVersion">2.3.4</field>
+   <field name="OSName">Gingerbread</field>
    <field name="isRobot">true</field>
   </answer>
  </test>
@@ -8663,6 +8713,7 @@
   <answer>
    <field name="isMobile">false</field>
    <field name="OSFamily">MacOS</field>
+   <field name="OSName">Mac OS X Tiger</field>
    <field name="BrowserEngine">Unknown</field>
    <field name="BrowserName">Unknown</field>
    <field name="isBrowser">false</field>
@@ -8867,6 +8918,7 @@
    <field name="BrowserVersion">2.0.9</field>
    <field name="OSFamily">MacOS</field>
    <field name="OSVersion">10.6</field>
+   <field name="OSName">Mac OS X Snow Leopard</field>
   </answer>
  </test>
  <test>
@@ -8919,6 +8971,7 @@
    <field name="BrowserVersion">2.0.9</field>
    <field name="OSFamily">MacOS</field>
    <field name="OSVersion">10.4</field>
+   <field name="OSName">Mac OS X Tiger</field>
   </answer>
  </test>
  <test>
@@ -9729,6 +9782,7 @@
    <field name="BrowserName">OmniWeb</field>
    <field name="OSFamily">MacOS</field>
    <field name="OSVersion">10.7.0</field>
+   <field name="OSName">Mac OS X Lion</field>
   </answer>
  </test>
  <test>
@@ -9842,7 +9896,9 @@
    <field name="BrowserEngine">WebKit</field>
    <field name="BrowserEngineVersion">534.11</field>
    <field name="BrowserName">BlackBerry</field>
+   <field name="isTablet">true</field>
    <field name="BrowserVersion">7.1.0</field>
+   <field name="isTouch">true</field>
    <field name="OSFamily">RIMTabletOS</field>
    <field name="OSVersion">1.0.0</field>
   </answer>
@@ -9854,7 +9910,9 @@
    <field name="BrowserEngine">WebKit</field>
    <field name="BrowserEngineVersion">535.1</field>
    <field name="BrowserName">BlackBerry</field>
+   <field name="isTablet">true</field>
    <field name="BrowserVersion">7.2.0</field>
+   <field name="isTouch">true</field>
    <field name="OSFamily">RIMTabletOS</field>
    <field name="OSVersion">2.0.0</field>
   </answer>
@@ -10285,6 +10343,7 @@
    <field name="OSFamily">Android</field>
    <field name="isTouch">true</field>
    <field name="OSVersion">4.0.2</field>
+   <field name="OSName">Ice Cream Sandwich</field>
   </answer>
  </test>
  <test>
@@ -10298,6 +10357,7 @@
    <field name="OSFamily">Android</field>
    <field name="isTouch">true</field>
    <field name="OSVersion">4.0.3</field>
+   <field name="OSName">Ice Cream Sandwich</field>
   </answer>
  </test>
  <test>
@@ -10708,11 +10768,12 @@
    <field name="isMobile">true</field>
    <field name="BrowserEngine">WebKit</field>
    <field name="BrowserEngineVersion">530</field>
-   <field name="BrowserName">MobileSafari</field>
+   <field name="BrowserName">AndroidBrowser</field>
    <field name="isTouch">true</field>
    <field name="BrowserShell">UCBrowser</field>
    <field name="OSFamily">Android</field>
    <field name="OSVersion">2.1</field>
+   <field name="OSName">Eclair</field>
   </answer>
  </test>
  <test>
@@ -10721,11 +10782,12 @@
    <field name="isMobile">true</field>
    <field name="BrowserEngine">WebKit</field>
    <field name="BrowserEngineVersion">530</field>
-   <field name="BrowserName">MobileSafari</field>
+   <field name="BrowserName">AndroidBrowser</field>
    <field name="isTouch">true</field>
    <field name="BrowserShell">UCBrowser</field>
    <field name="OSFamily">Android</field>
    <field name="OSVersion">2.2.2</field>
+   <field name="OSName">Froyo</field>
   </answer>
  </test>
  <test>
@@ -10790,11 +10852,12 @@
    <field name="isMobile">true</field>
    <field name="BrowserEngine">WebKit</field>
    <field name="BrowserEngineVersion">530</field>
-   <field name="BrowserName">MobileSafari</field>
+   <field name="BrowserName">AndroidBrowser</field>
    <field name="isTouch">true</field>
    <field name="BrowserShell">UCBrowser</field>
    <field name="OSFamily">Android</field>
    <field name="OSVersion">2.1</field>
+   <field name="OSName">Eclair</field>
   </answer>
  </test>
  <test>
@@ -10816,11 +10879,12 @@
    <field name="isMobile">true</field>
    <field name="BrowserEngine">WebKit</field>
    <field name="BrowserEngineVersion">530</field>
-   <field name="BrowserName">MobileSafari</field>
+   <field name="BrowserName">AndroidBrowser</field>
    <field name="isTouch">true</field>
    <field name="BrowserShell">UCBrowser</field>
    <field name="OSFamily">Android</field>
    <field name="OSVersion">2.3.4</field>
+   <field name="OSName">Gingerbread</field>
   </answer>
  </test>
  <test>
@@ -10829,11 +10893,12 @@
    <field name="isMobile">true</field>
    <field name="BrowserEngine">WebKit</field>
    <field name="BrowserEngineVersion">530</field>
-   <field name="BrowserName">MobileSafari</field>
+   <field name="BrowserName">AndroidBrowser</field>
    <field name="isTouch">true</field>
    <field name="BrowserShell">UCBrowser</field>
    <field name="OSFamily">Android</field>
    <field name="OSVersion">2.2</field>
+   <field name="OSName">Froyo</field>
   </answer>
  </test>
  <test>
@@ -12390,6 +12455,61 @@
    <field name="OSFamily">Windows</field>
    <field name="OSName">Windows XP</field>
    <field name="OSVersion">5.1</field>
+  </answer>
+ </test>
+ <test>
+  <question>Mozilla/5.0 (X11; CrOS i686 15.1011.118) AppleWebKit/535.2 (KHTML, like Gecko) Chrome/15.0.874.117 Safari/535.2</question>
+  <answer>
+   <field name="isMobile">false</field>
+   <field name="BrowserEngine">WebKit</field>
+   <field name="BrowserEngineVersion">535.2</field>
+   <field name="BrowserName">Chrome</field>
+   <field name="BrowserVersion">15.0.874</field>
+   <field name="OSFamily">ChromeOS</field>
+  </answer>
+ </test>
+ <test>
+  <question>Mozilla/5.0 (X11; CrOS i686 15.1011.137) AppleWebKit/535.2 (KHTML, like Gecko) Chrome/15.0.874.121 Safari/535.2</question>
+  <answer>
+   <field name="isMobile">false</field>
+   <field name="BrowserEngine">WebKit</field>
+   <field name="BrowserEngineVersion">535.2</field>
+   <field name="BrowserName">Chrome</field>
+   <field name="BrowserVersion">15.0.874</field>
+   <field name="OSFamily">ChromeOS</field>
+  </answer>
+ </test>
+ <test>
+  <question>Mozilla/5.0 (X11; CrOS i686 12.433.216) AppleWebKit/534.30 (KHTML, like Gecko) Chrome/12.0.742.105 Safari/534.30</question>
+  <answer>
+   <field name="isMobile">false</field>
+   <field name="BrowserEngine">WebKit</field>
+   <field name="BrowserEngineVersion">534.30</field>
+   <field name="BrowserName">Chrome</field>
+   <field name="BrowserVersion">12.0.742</field>
+   <field name="OSFamily">ChromeOS</field>
+  </answer>
+ </test>
+ <test>
+  <question>Mozilla/5.0 (X11; CrOS i686 14.811.154) AppleWebKit/535.1 (KHTML, like Gecko) Chrome/14.0.835.204 Safari/535.1</question>
+  <answer>
+   <field name="isMobile">false</field>
+   <field name="BrowserEngine">WebKit</field>
+   <field name="BrowserEngineVersion">535.1</field>
+   <field name="BrowserName">Chrome</field>
+   <field name="BrowserVersion">14.0.835</field>
+   <field name="OSFamily">ChromeOS</field>
+  </answer>
+ </test>
+ <test>
+  <question>Mozilla/5.0 (X11; CrOS i686 0.13.507) AppleWebKit/534.35 (KHTML, like Gecko) Chrome/13.0.763.0 Safari/534.35</question>
+  <answer>
+   <field name="isMobile">false</field>
+   <field name="BrowserEngine">WebKit</field>
+   <field name="BrowserEngineVersion">534.35</field>
+   <field name="BrowserName">Chrome</field>
+   <field name="BrowserVersion">13.0.763</field>
+   <field name="OSFamily">ChromeOS</field>
   </answer>
  </test>
 </tests>
