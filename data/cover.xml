@@ -27,6 +27,7 @@
    <field name="OSFamily">Android</field>
    <field name="OSVersion">2.3.3</field>
    <field name="OSName">Gingerbread</field>
+   <field name="Vendor">HTC</field>
   </answer>
  </test>
  <test>
@@ -41,6 +42,7 @@
    <field name="OSFamily">Android</field>
    <field name="OSVersion">2.3.3</field>
    <field name="OSName">Gingerbread</field>
+   <field name="Vendor">HTC</field>
   </answer>
  </test>
  <test>
@@ -55,6 +57,7 @@
    <field name="OSFamily">Android</field>
    <field name="OSVersion">2.2.1</field>
    <field name="OSName">Froyo</field>
+   <field name="Vendor">HTC</field>
   </answer>
  </test>
  <test>
@@ -69,6 +72,7 @@
    <field name="OSFamily">Android</field>
    <field name="OSVersion">2.2</field>
    <field name="OSName">Froyo</field>
+   <field name="Vendor">Samsung</field>
   </answer>
  </test>
  <test>
@@ -81,6 +85,7 @@
    <field name="isTouch">true</field>
    <field name="BrowserVersion">5.1</field>
    <field name="OSFamily">iOS</field>
+   <field name="Vendor">Apple</field>
    <field name="OSVersion">5.0</field>
   </answer>
  </test>
@@ -94,6 +99,7 @@
    <field name="isTouch">true</field>
    <field name="BrowserVersion">5.1</field>
    <field name="OSFamily">iOS</field>
+   <field name="Vendor">Apple</field>
    <field name="OSVersion">5.0.1</field>
   </answer>
  </test>
@@ -107,6 +113,7 @@
    <field name="isTouch">true</field>
    <field name="BrowserVersion">5.0.2</field>
    <field name="OSFamily">iOS</field>
+   <field name="Vendor">Apple</field>
    <field name="OSVersion">4.2.1</field>
   </answer>
  </test>
@@ -120,6 +127,7 @@
    <field name="isTouch">true</field>
    <field name="BrowserVersion">5.0.2</field>
    <field name="OSFamily">iOS</field>
+   <field name="Vendor">Apple</field>
    <field name="OSVersion">4.3.3</field>
   </answer>
  </test>
@@ -133,6 +141,7 @@
    <field name="isTouch">true</field>
    <field name="BrowserVersion">5.0.2</field>
    <field name="OSFamily">iOS</field>
+   <field name="Vendor">Apple</field>
    <field name="OSVersion">4.3.5</field>
   </answer>
  </test>
@@ -145,6 +154,7 @@
    <field name="BrowserName">Dolfin</field>
    <field name="BrowserVersion">2.0</field>
    <field name="OSFamily">Bada</field>
+   <field name="Vendor">Samsung</field>
    <field name="isTouch">true</field>
    <field name="OSVersion">1.0</field>
    <field name="J2ME">true</field>
@@ -159,6 +169,7 @@
    <field name="BrowserName">Dolfin</field>
    <field name="BrowserVersion">2.2</field>
    <field name="OSFamily">Bada</field>
+   <field name="Vendor">Samsung</field>
    <field name="isTouch">true</field>
    <field name="OSVersion">1.2</field>
    <field name="J2ME">true</field>
@@ -173,6 +184,7 @@
    <field name="BrowserName">Dolfin</field>
    <field name="BrowserVersion">2.0</field>
    <field name="OSFamily">Bada</field>
+   <field name="Vendor">Samsung</field>
    <field name="isTouch">true</field>
    <field name="OSVersion">1.0</field>
   </answer>
@@ -186,6 +198,7 @@
    <field name="BrowserName">Dolfin</field>
    <field name="BrowserVersion">2.0</field>
    <field name="OSFamily">Bada</field>
+   <field name="Vendor">Samsung</field>
    <field name="isTouch">true</field>
    <field name="OSVersion">1.0</field>
   </answer>
@@ -199,6 +212,7 @@
    <field name="BrowserName">Dolfin</field>
    <field name="BrowserVersion">2.2</field>
    <field name="OSFamily">Bada</field>
+   <field name="Vendor">Samsung</field>
    <field name="isTouch">true</field>
    <field name="OSVersion">1.2</field>
    <field name="J2ME">true</field>
@@ -215,6 +229,7 @@
    <field name="isTablet">true</field>
    <field name="BrowserVersion">5.0.2</field>
    <field name="OSFamily">iOS</field>
+   <field name="Vendor">Apple</field>
    <field name="OSVersion">4.3.3</field>
   </answer>
  </test>
@@ -229,6 +244,7 @@
    <field name="isTablet">true</field>
    <field name="BrowserVersion">5.0.2</field>
    <field name="OSFamily">iOS</field>
+   <field name="Vendor">Apple</field>
    <field name="OSVersion">4.3.5</field>
   </answer>
  </test>
@@ -243,6 +259,7 @@
    <field name="isTablet">true</field>
    <field name="BrowserVersion">5.1</field>
    <field name="OSFamily">iOS</field>
+   <field name="Vendor">Apple</field>
    <field name="OSVersion">5.0</field>
   </answer>
  </test>
@@ -257,6 +274,7 @@
    <field name="isTablet">true</field>
    <field name="BrowserVersion">5.1</field>
    <field name="OSFamily">iOS</field>
+   <field name="Vendor">Apple</field>
    <field name="OSVersion">5.0.1</field>
   </answer>
  </test>
@@ -271,6 +289,7 @@
    <field name="isTablet">true</field>
    <field name="BrowserVersion">5.0.2</field>
    <field name="OSFamily">iOS</field>
+   <field name="Vendor">Apple</field>
    <field name="OSVersion">4.2.1</field>
   </answer>
  </test>
@@ -279,6 +298,7 @@
   <answer>
    <field name="isMobile">true</field>
    <field name="OSFamily">iOS</field>
+   <field name="Vendor">Apple</field>
    <field name="OSVersion">4.2.1</field>
    <field name="BrowserEngine">Unknown</field>
    <field name="BrowserName">iTunes</field>
@@ -295,6 +315,7 @@
    <field name="isTouch">true</field>
    <field name="BrowserVersion">3.0</field>
    <field name="OSFamily">iOS</field>
+   <field name="Vendor">Apple</field>
   </answer>
  </test>
  <test>
@@ -307,6 +328,7 @@
    <field name="isTouch">true</field>
    <field name="BrowserVersion">3.0</field>
    <field name="OSFamily">iOS</field>
+   <field name="Vendor">Apple</field>
   </answer>
  </test>
  <test>
@@ -319,6 +341,7 @@
    <field name="isTouch">true</field>
    <field name="BrowserVersion">3.0</field>
    <field name="OSFamily">iOS</field>
+   <field name="Vendor">Apple</field>
   </answer>
  </test>
  <test>
@@ -331,6 +354,7 @@
    <field name="isTouch">true</field>
    <field name="BrowserVersion">3.0</field>
    <field name="OSFamily">iOS</field>
+   <field name="Vendor">Apple</field>
   </answer>
  </test>
  <test>
@@ -340,6 +364,7 @@
    <field name="BrowserEngine">WebKit</field>
    <field name="BrowserEngineVersion">533.4</field>
    <field name="BrowserName">NokiaBrowser</field>
+   <field name="Vendor">Nokia</field>
    <field name="BrowserVersion">7.3.1.37</field>
    <field name="OSFamily">Symbian</field>
    <field name="OSVersion">Symbian^3</field>
@@ -353,6 +378,7 @@
    <field name="BrowserEngine">WebKit</field>
    <field name="BrowserEngineVersion">533.4</field>
    <field name="BrowserName">NokiaBrowser</field>
+   <field name="Vendor">Nokia</field>
    <field name="BrowserVersion">7.3.1.25</field>
    <field name="OSFamily">Symbian</field>
    <field name="OSVersion">9.4</field>
@@ -366,6 +392,7 @@
    <field name="BrowserEngine">WebKit</field>
    <field name="BrowserEngineVersion">533.4</field>
    <field name="BrowserName">NokiaBrowser</field>
+   <field name="Vendor">Nokia</field>
    <field name="BrowserVersion">7.3.1.37</field>
    <field name="OSFamily">Symbian</field>
    <field name="OSVersion">Symbian^3</field>
@@ -379,6 +406,7 @@
    <field name="BrowserEngine">WebKit</field>
    <field name="BrowserEngineVersion">533.4</field>
    <field name="BrowserName">NokiaBrowser</field>
+   <field name="Vendor">Nokia</field>
    <field name="BrowserVersion">7.3.1.26</field>
    <field name="OSFamily">Symbian</field>
    <field name="OSVersion">9.3</field>
@@ -392,6 +420,7 @@
    <field name="BrowserEngine">WebKit</field>
    <field name="BrowserEngineVersion">533.4</field>
    <field name="BrowserName">NokiaBrowser</field>
+   <field name="Vendor">Nokia</field>
    <field name="BrowserVersion">7.3.1.37</field>
    <field name="OSFamily">Symbian</field>
    <field name="OSVersion">Symbian^3</field>
@@ -758,6 +787,7 @@
    <field name="BrowserName">OperaMobile</field>
    <field name="BrowserVersion">6.20</field>
    <field name="OSFamily">Symbian</field>
+   <field name="Vendor">Nokia</field>
   </answer>
  </test>
  <test>
@@ -768,6 +798,7 @@
    <field name="BrowserName">OperaMobile</field>
    <field name="BrowserVersion">8.00</field>
    <field name="OSFamily">Symbian</field>
+   <field name="Vendor">Nokia</field>
   </answer>
  </test>
  <test>
@@ -778,6 +809,7 @@
    <field name="BrowserName">OperaMobile</field>
    <field name="BrowserVersion">8.50</field>
    <field name="OSFamily">Symbian</field>
+   <field name="Vendor">Nokia</field>
   </answer>
  </test>
  <test>
@@ -788,6 +820,7 @@
    <field name="BrowserName">OperaMobile</field>
    <field name="BrowserVersion">8.50</field>
    <field name="OSFamily">Symbian</field>
+   <field name="Vendor">Nokia</field>
   </answer>
  </test>
  <test>
@@ -797,6 +830,7 @@
    <field name="BrowserEngine">WebKit</field>
    <field name="BrowserEngineVersion">413</field>
    <field name="BrowserName">NokiaBrowser</field>
+   <field name="Vendor">Nokia</field>
    <field name="OSFamily">Symbian</field>
    <field name="OSVersion">9.1</field>
   </answer>
@@ -1407,6 +1441,7 @@
    <field name="BrowserVersion">234.76</field>
    <field name="isTablet">true</field>
    <field name="OSFamily">WebOS</field>
+   <field name="Vendor">HP</field>
    <field name="OSVersion">3.0</field>
   </answer>
  </test>
@@ -1421,6 +1456,7 @@
    <field name="BrowserVersion">234.76</field>
    <field name="isTablet">true</field>
    <field name="OSFamily">WebOS</field>
+   <field name="Vendor">HP</field>
    <field name="OSVersion">3.0</field>
   </answer>
  </test>
@@ -1435,6 +1471,7 @@
    <field name="BrowserVersion">234.40</field>
    <field name="isTablet">true</field>
    <field name="OSFamily">WebOS</field>
+   <field name="Vendor">HP</field>
    <field name="OSVersion">3.0</field>
   </answer>
  </test>
@@ -1449,6 +1486,7 @@
    <field name="BrowserVersion">234.76</field>
    <field name="isTablet">true</field>
    <field name="OSFamily">WebOS</field>
+   <field name="Vendor">HP</field>
    <field name="OSVersion">3.0</field>
   </answer>
  </test>
@@ -1463,6 +1501,7 @@
    <field name="BrowserVersion">233.70</field>
    <field name="isTablet">true</field>
    <field name="OSFamily">WebOS</field>
+   <field name="Vendor">HP</field>
    <field name="OSVersion">3.0</field>
   </answer>
  </test>
@@ -1475,6 +1514,7 @@
    <field name="BrowserName">GenericSafari</field>
    <field name="BrowserVersion">1.0</field>
    <field name="OSFamily">WebOS</field>
+   <field name="Vendor">HP</field>
    <field name="OSVersion">2.1</field>
   </answer>
  </test>
@@ -1487,6 +1527,7 @@
    <field name="BrowserName">GenericSafari</field>
    <field name="BrowserVersion">1.0</field>
    <field name="OSFamily">WebOS</field>
+   <field name="Vendor">HP</field>
    <field name="OSVersion">1.4</field>
   </answer>
  </test>
@@ -1499,6 +1540,7 @@
    <field name="BrowserName">GenericSafari</field>
    <field name="BrowserVersion">1.0</field>
    <field name="OSFamily">WebOS</field>
+   <field name="Vendor">HP</field>
    <field name="OSVersion">1.4</field>
   </answer>
  </test>
@@ -1511,6 +1553,7 @@
    <field name="BrowserName">GenericSafari</field>
    <field name="BrowserVersion">1.0</field>
    <field name="OSFamily">WebOS</field>
+   <field name="Vendor">HP</field>
    <field name="OSVersion">1.4</field>
   </answer>
  </test>
@@ -1523,6 +1566,7 @@
    <field name="BrowserName">GenericSafari</field>
    <field name="BrowserVersion">1.0</field>
    <field name="OSFamily">WebOS</field>
+   <field name="Vendor">HP</field>
    <field name="OSVersion">1.4</field>
   </answer>
  </test>
@@ -2171,6 +2215,7 @@
    <field name="OSFamily">Android</field>
    <field name="OSVersion">2.3.4</field>
    <field name="OSName">Gingerbread</field>
+   <field name="Vendor">Samsung</field>
   </answer>
  </test>
  <test>
@@ -2193,6 +2238,7 @@
    <field name="BrowserEngine">WebKit</field>
    <field name="BrowserEngineVersion">525</field>
    <field name="BrowserName">NokiaBrowser</field>
+   <field name="Vendor">Nokia</field>
    <field name="BrowserVersion">7.2.3</field>
    <field name="OSFamily">Symbian</field>
    <field name="OSVersion">9.4</field>
@@ -2206,6 +2252,7 @@
    <field name="BrowserEngine">WebKit</field>
    <field name="BrowserEngineVersion">525</field>
    <field name="BrowserName">NokiaBrowser</field>
+   <field name="Vendor">Nokia</field>
    <field name="BrowserVersion">7.2.7.4</field>
    <field name="OSFamily">Symbian</field>
    <field name="OSVersion">9.4</field>
@@ -2219,6 +2266,7 @@
    <field name="BrowserEngine">WebKit</field>
    <field name="BrowserEngineVersion">525</field>
    <field name="BrowserName">NokiaBrowser</field>
+   <field name="Vendor">Nokia</field>
    <field name="BrowserVersion">7.2.5.2</field>
    <field name="OSFamily">Symbian</field>
    <field name="OSVersion">9.4</field>
@@ -2232,6 +2280,7 @@
    <field name="BrowserEngine">WebKit</field>
    <field name="BrowserEngineVersion">525</field>
    <field name="BrowserName">NokiaBrowser</field>
+   <field name="Vendor">Nokia</field>
    <field name="BrowserVersion">20.0.080</field>
    <field name="OSFamily">Symbian</field>
    <field name="OSVersion">9.4</field>
@@ -2245,6 +2294,7 @@
    <field name="BrowserEngine">WebKit</field>
    <field name="BrowserEngineVersion">525</field>
    <field name="BrowserName">NokiaBrowser</field>
+   <field name="Vendor">Nokia</field>
    <field name="BrowserVersion">7.2.6.9</field>
    <field name="OSFamily">Symbian</field>
    <field name="OSVersion">9.4</field>
@@ -2258,6 +2308,7 @@
    <field name="BrowserEngine">WebKit</field>
    <field name="BrowserEngineVersion">525</field>
    <field name="BrowserName">NokiaBrowser</field>
+   <field name="Vendor">Nokia</field>
    <field name="BrowserVersion">3.0</field>
    <field name="OSFamily">Symbian</field>
    <field name="OSVersion">9.4</field>
@@ -2271,6 +2322,7 @@
    <field name="BrowserEngine">WebKit</field>
    <field name="BrowserEngineVersion">413</field>
    <field name="BrowserName">NokiaBrowser</field>
+   <field name="Vendor">Nokia</field>
    <field name="OSFamily">Symbian</field>
    <field name="OSVersion">9.1</field>
   </answer>
@@ -2282,6 +2334,7 @@
    <field name="BrowserEngine">WebKit</field>
    <field name="BrowserEngineVersion">525</field>
    <field name="BrowserName">NokiaBrowser</field>
+   <field name="Vendor">Nokia</field>
    <field name="BrowserVersion">3.0</field>
    <field name="OSFamily">Symbian</field>
    <field name="OSVersion">9.4</field>
@@ -2295,6 +2348,7 @@
    <field name="BrowserEngine">WebKit</field>
    <field name="BrowserEngineVersion">525</field>
    <field name="BrowserName">NokiaBrowser</field>
+   <field name="Vendor">Nokia</field>
    <field name="BrowserVersion">3.0</field>
    <field name="OSFamily">Symbian</field>
    <field name="OSVersion">9.4</field>
@@ -2308,6 +2362,7 @@
    <field name="BrowserEngine">WebKit</field>
    <field name="BrowserEngineVersion">525</field>
    <field name="BrowserName">NokiaBrowser</field>
+   <field name="Vendor">Nokia</field>
    <field name="BrowserVersion">7.2.5.2</field>
    <field name="OSFamily">Symbian</field>
    <field name="OSVersion">9.4</field>
@@ -2321,6 +2376,7 @@
    <field name="BrowserEngine">WebKit</field>
    <field name="BrowserEngineVersion">525</field>
    <field name="BrowserName">NokiaBrowser</field>
+   <field name="Vendor">Nokia</field>
    <field name="BrowserVersion">3.0</field>
    <field name="OSFamily">Symbian</field>
    <field name="OSVersion">9.4</field>
@@ -2334,6 +2390,7 @@
    <field name="BrowserEngine">WebKit</field>
    <field name="BrowserEngineVersion">525</field>
    <field name="BrowserName">NokiaBrowser</field>
+   <field name="Vendor">Nokia</field>
    <field name="BrowserVersion">3.0</field>
    <field name="OSFamily">Symbian</field>
    <field name="OSVersion">9.4</field>
@@ -2347,6 +2404,7 @@
    <field name="BrowserEngine">WebKit</field>
    <field name="BrowserEngineVersion">420</field>
    <field name="BrowserName">NokiaBrowser</field>
+   <field name="Vendor">Nokia</field>
    <field name="BrowserVersion">2.0</field>
    <field name="OSFamily">Symbian</field>
    <field name="J2ME">true</field>
@@ -2359,6 +2417,7 @@
    <field name="BrowserEngine">WebKit</field>
    <field name="BrowserEngineVersion">413</field>
    <field name="BrowserName">NokiaBrowser</field>
+   <field name="Vendor">Nokia</field>
    <field name="BrowserVersion">21.0.025</field>
    <field name="OSFamily">Symbian</field>
    <field name="OSVersion">9.4</field>
@@ -2372,6 +2431,7 @@
    <field name="BrowserEngine">WebKit</field>
    <field name="BrowserEngineVersion">420</field>
    <field name="BrowserName">NokiaBrowser</field>
+   <field name="Vendor">Nokia</field>
    <field name="BrowserVersion">2.0</field>
    <field name="OSFamily">Symbian</field>
    <field name="J2ME">true</field>
@@ -2384,6 +2444,7 @@
    <field name="BrowserEngine">WebKit</field>
    <field name="BrowserEngineVersion">525</field>
    <field name="BrowserName">NokiaBrowser</field>
+   <field name="Vendor">Nokia</field>
    <field name="BrowserVersion">11.0.054</field>
    <field name="OSFamily">Symbian</field>
    <field name="OSVersion">9.4</field>
@@ -2397,6 +2458,7 @@
    <field name="BrowserEngine">WebKit</field>
    <field name="BrowserEngineVersion">413</field>
    <field name="BrowserName">NokiaBrowser</field>
+   <field name="Vendor">Nokia</field>
    <field name="BrowserVersion">3.2</field>
    <field name="OSFamily">Symbian</field>
    <field name="OSVersion">9.3</field>
@@ -2410,6 +2472,7 @@
    <field name="BrowserEngine">WebKit</field>
    <field name="BrowserEngineVersion">413</field>
    <field name="BrowserName">NokiaBrowser</field>
+   <field name="Vendor">Nokia</field>
    <field name="BrowserVersion">3.2</field>
    <field name="OSFamily">Symbian</field>
    <field name="OSVersion">9.3</field>
@@ -2423,6 +2486,7 @@
    <field name="BrowserEngine">WebKit</field>
    <field name="BrowserEngineVersion">413</field>
    <field name="BrowserName">NokiaBrowser</field>
+   <field name="Vendor">Nokia</field>
    <field name="BrowserVersion">3.1</field>
    <field name="OSFamily">Symbian</field>
    <field name="OSVersion">9.2</field>
@@ -2436,6 +2500,7 @@
    <field name="BrowserEngine">WebKit</field>
    <field name="BrowserEngineVersion">413</field>
    <field name="BrowserName">NokiaBrowser</field>
+   <field name="Vendor">Nokia</field>
    <field name="BrowserVersion">3.0</field>
    <field name="OSFamily">Symbian</field>
    <field name="OSVersion">9.1</field>
@@ -2448,6 +2513,7 @@
    <field name="BrowserEngine">WebKit</field>
    <field name="BrowserEngineVersion">413</field>
    <field name="BrowserName">NokiaBrowser</field>
+   <field name="Vendor">Nokia</field>
    <field name="BrowserVersion">3.2</field>
    <field name="OSFamily">Symbian</field>
    <field name="OSVersion">9.3</field>
@@ -2494,6 +2560,7 @@
    <field name="isTouch">true</field>
    <field name="OSVersion">2.3.3</field>
    <field name="OSName">Gingerbread</field>
+   <field name="Vendor">Samsung</field>
   </answer>
  </test>
  <test>
@@ -2508,6 +2575,7 @@
    <field name="isTouch">true</field>
    <field name="OSVersion">2.2</field>
    <field name="OSName">Froyo</field>
+   <field name="Vendor">Samsung</field>
   </answer>
  </test>
  <test>
@@ -2522,6 +2590,7 @@
    <field name="isTouch">true</field>
    <field name="OSVersion">2.2</field>
    <field name="OSName">Froyo</field>
+   <field name="Vendor">Samsung</field>
   </answer>
  </test>
  <test>
@@ -2656,6 +2725,7 @@
    <field name="OSFamily">Android</field>
    <field name="OSVersion">3.1</field>
    <field name="OSName">Honeycomb</field>
+   <field name="Vendor">Samsung</field>
   </answer>
  </test>
  <test>
@@ -2778,6 +2848,7 @@
    <field name="BrowserVersion">5.0.2</field>
    <field name="BrowserShell">Diigo</field>
    <field name="OSFamily">iOS</field>
+   <field name="Vendor">Apple</field>
    <field name="OSVersion">5.0</field>
   </answer>
  </test>
@@ -2793,6 +2864,7 @@
    <field name="BrowserVersion">5.0.2</field>
    <field name="BrowserShell">Diigo</field>
    <field name="OSFamily">iOS</field>
+   <field name="Vendor">Apple</field>
    <field name="OSVersion">5.0</field>
   </answer>
  </test>
@@ -3230,6 +3302,7 @@
    <field name="isTouch">true</field>
    <field name="OSVersion">2.3.3</field>
    <field name="OSName">Gingerbread</field>
+   <field name="Vendor">Samsung</field>
   </answer>
  </test>
  <test>
@@ -3272,6 +3345,7 @@
    <field name="isTouch">true</field>
    <field name="OSVersion">2.3.4</field>
    <field name="OSName">Gingerbread</field>
+   <field name="Vendor">Samsung</field>
   </answer>
  </test>
  <test>
@@ -3445,6 +3519,7 @@
    <field name="BrowserName">Blackberry</field>
    <field name="BrowserVersion">5.0.0.593</field>
    <field name="OSFamily">BlackBerry</field>
+   <field name="Vendor">RIM</field>
    <field name="J2ME">true</field>
   </answer>
  </test>
@@ -3456,6 +3531,7 @@
    <field name="BrowserName">Blackberry</field>
    <field name="BrowserVersion">4.6.1.305</field>
    <field name="OSFamily">BlackBerry</field>
+   <field name="Vendor">RIM</field>
    <field name="J2ME">true</field>
   </answer>
  </test>
@@ -3467,6 +3543,7 @@
    <field name="BrowserName">Blackberry</field>
    <field name="BrowserVersion">4.6.0.247</field>
    <field name="OSFamily">BlackBerry</field>
+   <field name="Vendor">RIM</field>
    <field name="J2ME">true</field>
   </answer>
  </test>
@@ -3478,6 +3555,7 @@
    <field name="BrowserName">Blackberry</field>
    <field name="BrowserVersion">4.6.0.303</field>
    <field name="OSFamily">BlackBerry</field>
+   <field name="Vendor">RIM</field>
    <field name="J2ME">true</field>
   </answer>
  </test>
@@ -3489,6 +3567,7 @@
    <field name="BrowserName">Blackberry</field>
    <field name="BrowserVersion">4.6.1.199</field>
    <field name="OSFamily">BlackBerry</field>
+   <field name="Vendor">RIM</field>
    <field name="J2ME">true</field>
   </answer>
  </test>
@@ -3501,6 +3580,7 @@
    <field name="isWAP">true</field>
    <field name="BrowserVersion">1.0</field>
    <field name="OSFamily">Series40</field>
+   <field name="Vendor">Nokia</field>
    <field name="J2ME">true</field>
   </answer>
  </test>
@@ -3513,6 +3593,7 @@
    <field name="isWAP">true</field>
    <field name="BrowserVersion">1.0</field>
    <field name="OSFamily">Series40</field>
+   <field name="Vendor">Nokia</field>
    <field name="J2ME">true</field>
   </answer>
  </test>
@@ -3525,6 +3606,7 @@
    <field name="isWAP">true</field>
    <field name="BrowserVersion">1.0</field>
    <field name="OSFamily">Series40</field>
+   <field name="Vendor">Nokia</field>
    <field name="J2ME">true</field>
   </answer>
  </test>
@@ -3537,6 +3619,7 @@
    <field name="isWAP">true</field>
    <field name="BrowserVersion">1.0</field>
    <field name="OSFamily">Series40</field>
+   <field name="Vendor">Nokia</field>
    <field name="J2ME">true</field>
   </answer>
  </test>
@@ -3549,6 +3632,7 @@
    <field name="isWAP">true</field>
    <field name="BrowserVersion">1.0</field>
    <field name="OSFamily">Series40</field>
+   <field name="Vendor">Nokia</field>
    <field name="J2ME">true</field>
   </answer>
  </test>
@@ -3584,6 +3668,7 @@
    <field name="BrowserName">NokiaBrowser</field>
    <field name="BrowserVersion">3.0</field>
    <field name="OSFamily">Symbian</field>
+   <field name="Vendor">Nokia</field>
    <field name="OSVersion">9.1</field>
    <field name="J2ME">true</field>
   </answer>
@@ -3596,6 +3681,7 @@
    <field name="BrowserName">NokiaBrowser</field>
    <field name="BrowserVersion">3.0</field>
    <field name="OSFamily">Symbian</field>
+   <field name="Vendor">Nokia</field>
    <field name="J2ME">true</field>
   </answer>
  </test>
@@ -3607,6 +3693,7 @@
    <field name="BrowserName">NokiaBrowser</field>
    <field name="BrowserVersion">2.1</field>
    <field name="OSFamily">Symbian</field>
+   <field name="Vendor">Nokia</field>
    <field name="OSVersion">7.0</field>
    <field name="J2ME">true</field>
   </answer>
@@ -3619,6 +3706,7 @@
    <field name="BrowserName">NokiaBrowser</field>
    <field name="BrowserVersion">2.8</field>
    <field name="OSFamily">Symbian</field>
+   <field name="Vendor">Nokia</field>
    <field name="J2ME">true</field>
   </answer>
  </test>
@@ -3630,6 +3718,7 @@
    <field name="BrowserName">NokiaBrowser</field>
    <field name="BrowserVersion">2.8</field>
    <field name="OSFamily">Symbian</field>
+   <field name="Vendor">Nokia</field>
    <field name="J2ME">true</field>
   </answer>
  </test>
@@ -3642,6 +3731,7 @@
    <field name="BrowserName">IEMobile</field>
    <field name="BrowserVersion">5.0</field>
    <field name="OSFamily">Symbian</field>
+   <field name="Vendor">Nokia</field>
    <field name="J2ME">true</field>
   </answer>
  </test>
@@ -3654,6 +3744,7 @@
    <field name="BrowserName">IEMobile</field>
    <field name="BrowserVersion">5.0</field>
    <field name="OSFamily">Symbian</field>
+   <field name="Vendor">Nokia</field>
    <field name="J2ME">true</field>
   </answer>
  </test>
@@ -3666,6 +3757,7 @@
    <field name="BrowserName">IEMobile</field>
    <field name="BrowserVersion">5.0</field>
    <field name="OSFamily">Symbian</field>
+   <field name="Vendor">Nokia</field>
    <field name="J2ME">true</field>
   </answer>
  </test>
@@ -3678,6 +3770,7 @@
    <field name="BrowserName">IEMobile</field>
    <field name="BrowserVersion">5.0</field>
    <field name="OSFamily">Symbian</field>
+   <field name="Vendor">Nokia</field>
    <field name="J2ME">true</field>
   </answer>
  </test>
@@ -3690,6 +3783,7 @@
    <field name="BrowserName">IEMobile</field>
    <field name="BrowserVersion">5.0</field>
    <field name="OSFamily">Symbian</field>
+   <field name="Vendor">Nokia</field>
    <field name="J2ME">true</field>
   </answer>
  </test>
@@ -3842,6 +3936,7 @@
    <field name="isTouch">true</field>
    <field name="BrowserVersion">4.0.5</field>
    <field name="OSFamily">iOS</field>
+   <field name="Vendor">Apple</field>
    <field name="OSVersion">4.1</field>
   </answer>
  </test>
@@ -3850,6 +3945,7 @@
   <answer>
    <field name="isMobile">true</field>
    <field name="OSFamily">iOS</field>
+   <field name="Vendor">Apple</field>
    <field name="isTouch">true</field>
    <field name="OSVersion">5</field>
    <field name="BrowserEngine">Unknown</field>
@@ -3861,6 +3957,7 @@
   <answer>
    <field name="isMobile">true</field>
    <field name="OSFamily">iOS</field>
+   <field name="Vendor">Apple</field>
    <field name="isTouch">true</field>
    <field name="OSVersion">5</field>
    <field name="BrowserEngine">Unknown</field>
@@ -3872,6 +3969,7 @@
   <answer>
    <field name="isMobile">true</field>
    <field name="OSFamily">iOS</field>
+   <field name="Vendor">Apple</field>
    <field name="isTouch">true</field>
    <field name="OSVersion">5</field>
    <field name="BrowserEngine">Unknown</field>
@@ -3883,6 +3981,7 @@
   <answer>
    <field name="isMobile">true</field>
    <field name="OSFamily">iOS</field>
+   <field name="Vendor">Apple</field>
    <field name="isTouch">true</field>
    <field name="OSVersion">4</field>
    <field name="BrowserEngine">Unknown</field>
@@ -3894,6 +3993,7 @@
   <answer>
    <field name="isMobile">true</field>
    <field name="OSFamily">iOS</field>
+   <field name="Vendor">Apple</field>
    <field name="isTouch">true</field>
    <field name="OSVersion">4</field>
    <field name="BrowserEngine">Unknown</field>
@@ -3957,6 +4057,7 @@
    <field name="BrowserEngine">WebKit</field>
    <field name="BrowserEngineVersion">533.4</field>
    <field name="BrowserName">NokiaBrowser</field>
+   <field name="Vendor">Nokia</field>
    <field name="BrowserVersion">7.3.1.37</field>
    <field name="OSFamily">Symbian</field>
    <field name="OSVersion">Symbian^3</field>
@@ -3970,6 +4071,7 @@
    <field name="BrowserEngine">WebKit</field>
    <field name="BrowserEngineVersion">525</field>
    <field name="BrowserName">NokiaBrowser</field>
+   <field name="Vendor">Nokia</field>
    <field name="BrowserVersion">7.2.8.10</field>
    <field name="OSFamily">Symbian</field>
    <field name="OSVersion">Symbian^3</field>
@@ -3984,6 +4086,7 @@
    <field name="BrowserName">NokiaBrowser</field>
    <field name="BrowserVersion">3.0</field>
    <field name="OSFamily">Symbian</field>
+   <field name="Vendor">Nokia</field>
    <field name="J2ME">true</field>
   </answer>
  </test>
@@ -3995,6 +4098,7 @@
    <field name="BrowserName">NokiaBrowser</field>
    <field name="BrowserVersion">3.0</field>
    <field name="OSFamily">Symbian</field>
+   <field name="Vendor">Nokia</field>
    <field name="J2ME">true</field>
   </answer>
  </test>
@@ -4006,6 +4110,7 @@
    <field name="BrowserName">NokiaBrowser</field>
    <field name="BrowserVersion">3.0</field>
    <field name="OSFamily">Symbian</field>
+   <field name="Vendor">Nokia</field>
    <field name="J2ME">true</field>
   </answer>
  </test>
@@ -4017,6 +4122,7 @@
    <field name="BrowserName">OperaMobile</field>
    <field name="BrowserVersion">8.60</field>
    <field name="OSFamily">Symbian</field>
+   <field name="Vendor">Nokia</field>
   </answer>
  </test>
  <test>
@@ -4026,6 +4132,7 @@
    <field name="BrowserEngine">WebKit</field>
    <field name="BrowserEngineVersion">420</field>
    <field name="BrowserName">NokiaBrowser</field>
+   <field name="Vendor">Nokia</field>
    <field name="BrowserVersion">5.0</field>
    <field name="OSFamily">Symbian</field>
    <field name="J2ME">true</field>
@@ -4038,6 +4145,7 @@
    <field name="BrowserEngine">WebKit</field>
    <field name="BrowserEngineVersion">420</field>
    <field name="BrowserName">NokiaBrowser</field>
+   <field name="Vendor">Nokia</field>
    <field name="BrowserVersion">2.0</field>
    <field name="OSFamily">Symbian</field>
    <field name="J2ME">true</field>
@@ -4050,6 +4158,7 @@
    <field name="BrowserEngine">WebKit</field>
    <field name="BrowserEngineVersion">420</field>
    <field name="BrowserName">NokiaBrowser</field>
+   <field name="Vendor">Nokia</field>
    <field name="BrowserVersion">5.0</field>
    <field name="OSFamily">Symbian</field>
    <field name="J2ME">true</field>
@@ -4062,6 +4171,7 @@
    <field name="BrowserEngine">WebKit</field>
    <field name="BrowserEngineVersion">534.13</field>
    <field name="BrowserName">NokiaBrowser</field>
+   <field name="Vendor">Nokia</field>
    <field name="BrowserVersion">8.5.0</field>
    <field name="OSFamily">MeeGo</field>
    <field name="isTouch">true</field>
@@ -4084,6 +4194,7 @@
    <field name="BrowserEngine">WebKit</field>
    <field name="BrowserEngineVersion">534.13</field>
    <field name="BrowserName">NokiaBrowser</field>
+   <field name="Vendor">Nokia</field>
    <field name="BrowserVersion">8.5.0</field>
    <field name="OSFamily">MeeGo</field>
    <field name="isTouch">true</field>
@@ -4096,6 +4207,7 @@
    <field name="BrowserEngine">WebKit</field>
    <field name="BrowserEngineVersion">534.13</field>
    <field name="BrowserName">NokiaBrowser</field>
+   <field name="Vendor">Nokia</field>
    <field name="BrowserVersion">8.5.0</field>
    <field name="OSFamily">MeeGo</field>
    <field name="isTouch">true</field>
@@ -8749,6 +8861,7 @@
   <answer>
    <field name="isMobile">true</field>
    <field name="OSFamily">iOS</field>
+   <field name="Vendor">Apple</field>
    <field name="OSVersion">5.0</field>
    <field name="isTablet">true</field>
    <field name="BrowserEngine">Unknown</field>
@@ -8775,6 +8888,7 @@
   <answer>
    <field name="isMobile">true</field>
    <field name="OSFamily">iOS</field>
+   <field name="Vendor">Apple</field>
    <field name="OSVersion">4.3.3</field>
    <field name="BrowserEngine">Unknown</field>
    <field name="BrowserName">iTunes</field>
@@ -8801,6 +8915,7 @@
   <answer>
    <field name="isMobile">true</field>
    <field name="OSFamily">iOS</field>
+   <field name="Vendor">Apple</field>
    <field name="OSVersion">5.0</field>
    <field name="isTablet">true</field>
    <field name="BrowserEngine">Unknown</field>
@@ -8813,6 +8928,7 @@
   <answer>
    <field name="isMobile">true</field>
    <field name="OSFamily">iOS</field>
+   <field name="Vendor">Apple</field>
    <field name="OSVersion">4.0.2</field>
    <field name="BrowserEngine">Unknown</field>
    <field name="BrowserName">iTunes</field>
@@ -9853,6 +9969,7 @@
    <field name="isTouch">true</field>
    <field name="BrowserVersion">3.0</field>
    <field name="OSFamily">iOS</field>
+   <field name="Vendor">Apple</field>
   </answer>
  </test>
  <test>
@@ -9900,6 +10017,7 @@
    <field name="BrowserVersion">7.1.0</field>
    <field name="isTouch">true</field>
    <field name="OSFamily">RIMTabletOS</field>
+   <field name="Vendor">RIM</field>
    <field name="OSVersion">1.0.0</field>
   </answer>
  </test>
@@ -9914,6 +10032,7 @@
    <field name="BrowserVersion">7.2.0</field>
    <field name="isTouch">true</field>
    <field name="OSFamily">RIMTabletOS</field>
+   <field name="Vendor">RIM</field>
    <field name="OSVersion">2.0.0</field>
   </answer>
  </test>
@@ -10062,6 +10181,7 @@
    <field name="BrowserName">IEMobile</field>
    <field name="BrowserVersion">9.0</field>
    <field name="OSFamily">WindowsPhone</field>
+   <field name="Vendor">Nokia</field>
    <field name="isTouch">true</field>
   </answer>
  </test>
@@ -10074,6 +10194,7 @@
    <field name="BrowserName">IEMobile</field>
    <field name="BrowserVersion">9.0</field>
    <field name="OSFamily">WindowsPhone</field>
+   <field name="Vendor">Nokia</field>
    <field name="isTouch">true</field>
   </answer>
  </test>
@@ -10303,6 +10424,7 @@
    <field name="BrowserName">IEMobile</field>
    <field name="BrowserVersion">5.0</field>
    <field name="OSFamily">Symbian</field>
+   <field name="Vendor">Nokia</field>
    <field name="J2ME">true</field>
   </answer>
  </test>
@@ -10315,6 +10437,7 @@
    <field name="BrowserName">IEMobile</field>
    <field name="BrowserVersion">5.0</field>
    <field name="OSFamily">Symbian</field>
+   <field name="Vendor">Nokia</field>
    <field name="J2ME">true</field>
   </answer>
  </test>
@@ -10328,6 +10451,7 @@
    <field name="isTouch">true</field>
    <field name="BrowserVersion">5.1</field>
    <field name="OSFamily">iOS</field>
+   <field name="Vendor">Apple</field>
    <field name="OSVersion">5.0</field>
    <field name="isEmulator">true</field>
   </answer>
@@ -10716,6 +10840,7 @@
    <field name="BrowserName">MobileSafari</field>
    <field name="isTouch">true</field>
    <field name="OSFamily">iOS</field>
+   <field name="Vendor">Apple</field>
    <field name="OSVersion">5.0</field>
    <field name="isEmulator">true</field>
   </answer>
@@ -10788,6 +10913,7 @@
    <field name="OSFamily">Android</field>
    <field name="OSVersion">2.2.2</field>
    <field name="OSName">Froyo</field>
+   <field name="Vendor">LG Electronics</field>
   </answer>
  </test>
  <test>
@@ -10799,6 +10925,7 @@
    <field name="BrowserName">MobileSafari</field>
    <field name="isTouch">true</field>
    <field name="OSFamily">iOS</field>
+   <field name="Vendor">Apple</field>
    <field name="OSVersion">4.3</field>
    <field name="isEmulator">true</field>
   </answer>
@@ -10842,6 +10969,7 @@
    <field name="BrowserName">UCBrowser</field>
    <field name="BrowserVersion">7.8</field>
    <field name="OSFamily">WindowsPhone</field>
+   <field name="Vendor">Nokia</field>
    <field name="isTouch">true</field>
    <field name="J2ME">true</field>
   </answer>
@@ -10869,6 +10997,7 @@
    <field name="BrowserName">MobileSafari</field>
    <field name="isTouch">true</field>
    <field name="OSFamily">iOS</field>
+   <field name="Vendor">Apple</field>
    <field name="OSVersion">3.1.3</field>
    <field name="isEmulator">true</field>
   </answer>
@@ -10899,6 +11028,7 @@
    <field name="OSFamily">Android</field>
    <field name="OSVersion">2.2</field>
    <field name="OSName">Froyo</field>
+   <field name="Vendor">Samsung</field>
   </answer>
  </test>
  <test>
@@ -10906,6 +11036,7 @@
   <answer>
    <field name="isMobile">true</field>
    <field name="OSFamily">iOS</field>
+   <field name="Vendor">Apple</field>
    <field name="isTouch">true</field>
    <field name="OSVersion">5</field>
    <field name="isEmulator">true</field>
@@ -11523,6 +11654,7 @@
    <field name="BrowserName">IEMobile</field>
    <field name="BrowserVersion">5.0</field>
    <field name="OSFamily">Symbian</field>
+   <field name="Vendor">Nokia</field>
    <field name="J2ME">true</field>
   </answer>
  </test>
@@ -11538,9 +11670,10 @@
   <question>MQQBrowser/Mini2.2 (Nokia5320d-1/05.16/sw_platform=S60;sw_platform_version=3.2;java_build_version=1.0.2)</question>
   <answer>
    <field name="isMobile">true</field>
+   <field name="BrowserEngine">Proprietary</field>
+   <field name="BrowserName">MQQBrowser</field>
    <field name="OSFamily">Symbian</field>
-   <field name="BrowserEngine">Unknown</field>
-   <field name="BrowserName">Unknown</field>
+   <field name="Vendor">Nokia</field>
   </answer>
  </test>
  <test>
@@ -11661,6 +11794,7 @@
    <field name="BrowserName">UCBrowser</field>
    <field name="BrowserVersion">1.3</field>
    <field name="OSFamily">WindowsPhone</field>
+   <field name="Vendor">Nokia</field>
    <field name="isTouch">true</field>
   </answer>
  </test>
@@ -11672,6 +11806,7 @@
    <field name="BrowserName">UCBrowser</field>
    <field name="BrowserVersion">1.3</field>
    <field name="OSFamily">WindowsPhone</field>
+   <field name="Vendor">Nokia</field>
    <field name="isTouch">true</field>
   </answer>
  </test>
@@ -11767,6 +11902,7 @@
    <field name="BrowserName">IEMobile</field>
    <field name="BrowserVersion">5.0</field>
    <field name="OSFamily">Symbian</field>
+   <field name="Vendor">Nokia</field>
    <field name="J2ME">true</field>
   </answer>
  </test>
@@ -12315,6 +12451,7 @@
    <field name="isTouch">true</field>
    <field name="isTablet">true</field>
    <field name="OSFamily">iOS</field>
+   <field name="Vendor">Apple</field>
    <field name="OSVersion">5.0.1</field>
   </answer>
  </test>
@@ -12327,6 +12464,7 @@
    <field name="isTouch">true</field>
    <field name="isTablet">true</field>
    <field name="OSFamily">iOS</field>
+   <field name="Vendor">Apple</field>
    <field name="OSVersion">5.0.1</field>
   </answer>
  </test>
@@ -12338,6 +12476,7 @@
    <field name="BrowserName">MobileSafari</field>
    <field name="isTouch">true</field>
    <field name="OSFamily">iOS</field>
+   <field name="Vendor">Apple</field>
    <field name="OSVersion">4.3.3</field>
   </answer>
  </test>
@@ -12349,6 +12488,7 @@
    <field name="BrowserName">MobileSafari</field>
    <field name="isTouch">true</field>
    <field name="OSFamily">iOS</field>
+   <field name="Vendor">Apple</field>
    <field name="OSVersion">4.3.5</field>
   </answer>
  </test>
@@ -12360,6 +12500,7 @@
    <field name="BrowserName">MobileSafari</field>
    <field name="isTouch">true</field>
    <field name="OSFamily">iOS</field>
+   <field name="Vendor">Apple</field>
    <field name="OSVersion">5.0.1</field>
   </answer>
  </test>
