@@ -21,6 +21,8 @@
 #include <string>
 #include <iterator>
 
+#include <boost/lexical_cast.hpp>
+
 #include "uatraits/config.hpp"
 #include "uatraits/details/functors.hpp"
 #include "uatraits/details/char_traits.hpp"
@@ -49,8 +51,10 @@ scan_integer(Iter begin, Iter end) {
 	return result;
 }
 
-template <typename Container> inline void
+template <typename Container> inline std::size_t
 find_replaces(std::string const &value, Container &cont) {
+	std::size_t max = 0;
+
 	cont.clear();
 	is_equal<char> dollar('$');
 	is_numeric<char> numeric_matcher;
@@ -64,9 +68,13 @@ find_replaces(std::string const &value, Container &cont) {
 		if (std::distance(i, pos) > 1) {
 			regex_data data = { i - begin, pos - begin, scan_integer<std::size_t>(i + 1, pos) };
 			cont.push_back(data);
+
+			max = std::max(max, boost::lexical_cast<std::size_t>(value.substr(i + 1 - begin, pos - i - 1)));
 		}
 		i = pos;
 	}
+
+	return max;
 }
 
 }} // namespaces

@@ -52,23 +52,23 @@ private:
 	std::string replace_pattern_;
 	std::list<regex_data> replaces_;
 	std::pair<pcre*, pcre_extra*> regex_;
+	int max_;
 };
 
 template <typename Traits> inline 
 regex_definition<Traits>::regex_definition(char const *name, char const *xpath, char const *pattern, char const *replace_pattern) :
 	definition<Traits>(name, xpath), replace_pattern_(replace_pattern), regex_(0, 0)
 {
-	int max = -1;
+	max = -1;
 	regex_ = pcre_compile_regex(pattern);
-	int res = pcre_fullinfo(regex_.first, regex_.second, PCRE_INFO_CAPTURECOUNT, &max);
-	if (0 != res || -1 == max) {
+	int res = pcre_fullinfo(regex_.first, regex_.second, PCRE_INFO_CAPTURECOUNT, &max_);
+	if (0 != res || -1 == max_) {
 		throw error("can not get capture count from %s: %d", pattern, res);
 	}
-	find_replaces(replace_pattern_, replaces_);
-	std::size_t replace_count = replaces_.size();
-	if (replace_count > static_cast<std::size_t>(max)) {
-	 	throw error("definition intended to replace more items (%llu) than it could capture in %s (%llu)", 
-	 	    static_cast<unsigned long long>(replace_count), pattern, static_cast<unsigned long long>(max));
+	std::size_t max_replace = find_replaces(replace_pattern_, replaces_);
+	if (max_replace > static_cast<std::size_t>(max_)) {
+		throw error("definition intended to replace item with key ($%llu) more than it could capture in %s (%llu)", 
+			static_cast<unsigned long long>(max_replace), pattern, static_cast<unsigned long long>(max_));
 	}
 }
 
@@ -84,8 +84,7 @@ regex_definition<Traits>::dump(std::ostream &out) const {
 
 template <typename Traits> inline bool
 regex_definition<Traits>::trigger(char const *begin, char const *end, Traits &traits) const {
-	
-	std::vector<int> match((replaces_.size() + 1) * 3, 0);
+	std::vector<int> match((max_ + 1) * 3, 0);
 	int result = pcre_exec(regex_.first, regex_.second, begin, end - begin, 0, 0, &match[0], match.size());
 	if (PCRE_ERROR_NOMATCH == result) {
 		return false;
