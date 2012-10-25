@@ -8,6 +8,10 @@ if HAVE_BOOST_UNIT_TEST
 SUBDIRS += tests
 endif
 
+if HAVE_NODEJS
+SUBDIRS += nodejs
+endif
+
 ACLOCAL_AMFLAGS = -I config
 
 EXTRA_DIST = autogen.sh AUTHORS ChangeLog COPYING INSTALL NEWS README \

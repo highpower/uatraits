@@ -6,7 +6,7 @@
 <!ENTITY ver "\d[\d\.]*">
 <!ENTITY word "\w+">
 ]>
-<rules xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="browser.xsd" minver="1.1" date="2012.04.16.13.50">
+<rules xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="browser.xsd" minver="1.1" date="2012.08.07.17.00">
 	<branch name="Mobile">
 		<!-- Mobile bullshit -->
 		<match type="any">
@@ -62,6 +62,7 @@
 			<pattern type="regex">^[\w]+ Opera/</pattern>			
 		</match>
 		<define name="isMobile" value="true"/>
+		<define name="isBrowser" value="true"/>
 		
 		<!-- Because this motherfucker claims to be ANOTHER BROWSER --> 
 		<branch name="UCBrowser">
@@ -80,23 +81,23 @@
 		<branch name="Webkit">
 			<match>
 				<pattern type="string">WebKit</pattern>
-				<pattern type="string">Mobile Safari/</pattern>				
-				<pattern type="string">Ninesky</pattern>
+				<pattern type="string">Mobile Safari/</pattern>							
 				<pattern type="regex">^Dolphin( HD)? &ver;.*iPhone</pattern>
 				<pattern type="regex">^Mercury &ver;.*iPhone</pattern>
 			</match>			
 			<define name="BrowserEngine" value="WebKit"/>
 			<define name="BrowserEngineVersion">
 				<pattern type="regex" value="$1">WebKit/(&ver;)</pattern>
-			</define>
+			</define>			
 			<branch name="NokiaBrowser">
 				<match type="any">
 					<pattern type="string">NokiaBrowser/</pattern>
+					<pattern type="string">BrowserNG/</pattern>
 					<pattern type="string">Nokia</pattern>
 					<pattern type="string">SymbianOS</pattern>
 				</match>
 				<define name="BrowserName" value="NokiaBrowser"/>
-				<define name="Vendor" value="Nokia"/>
+				<define name="DeviceVendor" value="Nokia"/>
 				<define name="BrowserVersion">
 					<pattern type="regex" value="$1">BrowserNG/(&ver;)</pattern>
 					<pattern type="regex" value="$1">Version/(&ver;)</pattern>
@@ -112,7 +113,7 @@
 				<define name="BrowserName" value="Dolfin"/>
 				<define name="BrowserVersion">
 					<pattern type="regex" value="$1">Dolfin/(&ver;)</pattern>
-				</define>
+				</define>				
 			</branch>
 			
 			<branch name="Dolphin">
@@ -121,7 +122,18 @@
 				</match>
 				<define name="BrowserName" value="Dolphin"/>
 				<define name="BrowserVersion">
-					<pattern type="regex" value="$2">^Dolphin( HD)? (&ver;).*iPhone</pattern>
+					<pattern type="regex" value="$1">^Dolphin HD (&ver;).*iPhone</pattern>
+					<pattern type="regex" value="$1">^Dolphin (&ver;).*iPhone</pattern>
+				</define>
+			</branch>
+			
+			<branch name="UCBrowser">
+				<match type="any">
+					<pattern type="regex">UCBrowser/&ver;</pattern>
+				</match>
+				<define name="BrowserName" value="UCBrowser"/>
+				<define name="BrowserVersion">
+					<pattern type="regex" value="$1">UCBrowser/(&ver3d;)</pattern>					
 				</define>
 			</branch>
 			
@@ -135,12 +147,19 @@
 				</define>
 			</branch>
 			
-			<branch name="PlayBook">
+			<branch name="Blackberry">
 				<match type="any">
 					<pattern type="string">PlayBook</pattern>
+					<pattern type="string">BlackBerry</pattern>
 				</match>
 				<define name="BrowserName" value="BlackBerry"/>				
-				<define name="isTablet" value="true"/>
+				<define name="isTablet">
+					<pattern type="string" value="true">PlayBook</pattern>
+				</define>
+				<define name="PreferMobile">
+					<pattern type="regex" value="false">Version/&ver; Safari/&ver;</pattern>
+					<pattern type="regex" value="true">Version/&ver; Mobile Safari/&ver;</pattern>
+				</define>
 				<define name="BrowserVersion">
 					<pattern type="regex" value="$1">Version/(&ver3d;)</pattern>
 				</define>
@@ -149,10 +168,14 @@
 			<branch name="ChromeMobile">
 				<match type="any">
 					<pattern type="string">CrMo/</pattern>
+					<pattern type="string">Chrome/</pattern>
+					<pattern type="string">CriOS/</pattern>
 				</match>
 				<define name="BrowserName" value="ChromeMobile"/>				
 				<define name="BrowserVersion">
 					<pattern type="regex" value="$1">CrMo/(&ver3d;)</pattern>
+					<pattern type="regex" value="$1">Chrome/(&ver3d;)</pattern>
+					<pattern type="regex" value="$1">CriOS/(&ver3d;)</pattern>
 				</define>
 			</branch>
 			
@@ -186,11 +209,13 @@
 			<branch name="wOSBrowser">
 				<match>
 					<pattern type="regex">wOSBrowser</pattern>
+					<pattern type="regex">webOS</pattern>					
 				</match>
 				<define name="BrowserName" value="WebOSBrowser"/>
 				<define name="isTouch" value="true"/>
-				<define name="BrowserVersion">
+				<define name="BrowserVersion">					
 					<pattern type="regex" value="$1">wOSBrowser/(&ver2d;)</pattern>
+					<pattern type="regex" value="$1">Version/(&ver2d;)</pattern>
 				</define>
 				<define name="isTablet">
 					<pattern type="string" value="true">TouchPad</pattern>
@@ -209,21 +234,37 @@
 			</branch>	
 			<branch name="AndroidBrowser">
 				<match type="any">
-					<pattern type="string">Android</pattern>
+					<pattern type="string">Android</pattern>					
 					<pattern type="regex">Mac OS X \d[\d_]+;.*HTC[_/\s]</pattern>
 				</match>
 				<define name="BrowserName" value="AndroidBrowser"/>
 				<define name="isTouch" value="true"/>
+				<define name="PreferMobile">
+					<pattern type="regex" value="false">Version/&ver; Safari/&ver;</pattern>
+					<pattern type="regex" value="true">Version/&ver; Mobile Safari/&ver;</pattern>
+				</define>
 				<define name="isTablet">
 					<pattern type="string" value="true">Android 3</pattern>
+					<pattern type="regex" value="true">Android [4].*[^e] Safari/&ver;</pattern>
 				</define>
 				<define name="BrowserVersion">
 					<pattern type="regex" value="$1">Version/(&ver;)</pattern>
-				</define>	
+				</define>				
 			</branch>
+			
+			<branch name="MQQBrowser">
+				<match type="any">
+					<pattern type="string">MQQBrowser/</pattern>
+				</match>
+				<define name="BrowserName" value="MQQBrowser"/>
+				<define name="BrowserVersion">
+					<pattern type="regex" value="$1">MQQBrowser/(&ver;)</pattern>				
+				</define>
+			</branch>
+			
 			<branch name="MobileSafari">
 				<match type="any">
-					<pattern type="string">Mobile Safari</pattern>
+					<pattern type="regex">iP([oa]d|hone).*Mobile Safari</pattern>					
 					<pattern type="regex">Mobile/[\w0-9]+(?: Safari/)?</pattern>
 					<pattern type="string">iPhone OS</pattern>
 				</match>
@@ -237,10 +278,7 @@
 				</define>								
 			</branch>
 			<branch type="default">
-				<define name="BrowserName" value="MobileWebkit"/>
-				<define name="BrowserName">
-					<pattern type="string" value="GenericSafari">Safari/</pattern>
-				</define>
+				<define name="BrowserName" value="Unknown"/>				
 				<define name="BrowserVersion">
 					<pattern type="regex" value="$1">Version/(&ver;)</pattern>
 				</define>
@@ -264,6 +302,7 @@
 			<branch name="OperaMini">
 				<match>
 					<pattern type="string">Opera Mini/</pattern>
+					<pattern type="string">Opera&lt;Ch-Ray&gt;</pattern>					
 				</match>
 				<define name="BrowserName" value="OperaMini"/>
 				<define name="BrowserVersion">
@@ -313,6 +352,7 @@
 				<define name="isTablet">
 					<pattern type="string" value="true">Tablet browser</pattern>
 				</define>
+				<define name="MultiTouch" value="true"/>
 			</branch>
 			<branch name="Minimo">
 				<match type="any">
@@ -445,8 +485,7 @@
 				<match type="any">
 					<pattern type="string">S40OviBrowser</pattern>
 				</match>
-				<define name="BrowserName" value="OviBrowser"/>
-				<define name="isWAP" value="true"/>
+				<define name="BrowserName" value="OviBrowser"/>				
 				<define name="BrowserVersion">
 					<pattern type="regex" value="$1">S40OviBrowser/(&ver2d;)</pattern>
 				</define>
@@ -550,46 +589,56 @@
 		<branch type="common" name="MobileOS">
 			<branch name="Android">
 				<match>
-					<pattern type="string">Android</pattern>					
-					<pattern type="regex">Linux;\s?U;\s?[23]</pattern>
+					<pattern type="string">Android</pattern>										
+					<pattern type="regex">\(Linux;.*;\s?2\.[23]\.\d+;</pattern>
+					<pattern type="regex">\(Linux;.*;\s?3\.[012]\.\d+;</pattern>
 					<pattern type="regex">Mac OS X \d[\d\_]+;.*HTC[_/]</pattern>
 				</match>
 				<define name="OSFamily" value="Android"/>
 				<define name="isTouch" value="true"/>
 				<define name="OSVersion">
 					<pattern type="regex" value="$1">Android\s?(&ver;)</pattern>
-					<pattern type="regex" value="$1">Linux;\s?U;\s?(&ver;)</pattern>
+					<pattern type="regex" value="$1">\(Linux;.*;\s?(2\.&ver;);</pattern>
+					<pattern type="regex" value="$1">\(Linux;.*;\s?(3\.&ver;);</pattern>
 				</define>
 				<define name="isTablet">
 					<pattern type="string" value="true">Android 3</pattern>
 					<pattern type="string" value="true">Linux;U;3</pattern>
 				</define>
 				<define name="OSName">
-					<pattern type="regex" value="Astro">Android\s?1.0</pattern>
-					<pattern type="regex" value="Bender">Android\s?1.1</pattern>
-					<pattern type="regex" value="Cupcake">Android\s?1.5</pattern>
-					<pattern type="regex" value="Donut">Android\s?1.6</pattern>
-					<pattern type="regex" value="Eclair">Android\s?2.[0-1]</pattern>
-					<pattern type="regex" value="Froyo">Android\s?2.2</pattern>
-					<pattern type="regex" value="Gingerbread">Android\s?2.3</pattern>
-					<pattern type="regex" value="Honeycomb">Android\s?3.[0-2]</pattern>
-					<pattern type="regex" value="Ice Cream Sandwich">Android\s?4.0</pattern>
+					<pattern type="regex" value="Android Astro">(?:Android|\(Linux;.*;)\s?1\.0</pattern>
+					<pattern type="regex" value="Android Bender">(?:Android|\(Linux;.*;)\s?1\.1</pattern>
+					<pattern type="regex" value="Android Cupcake">(?:Android|\(Linux;.*;)\s?1\.5</pattern>
+					<pattern type="regex" value="Android Donut">(?:Android|\(Linux;.*;)\s?1\.6</pattern>
+					<pattern type="regex" value="Android Eclair">(?:Android|\(Linux;.*;)\s?2\.[0-1]</pattern>
+					<pattern type="regex" value="Android Froyo">(?:Android|\(Linux;.*;)\s?2\.2</pattern>
+					<pattern type="regex" value="Android Gingerbread">(?:Android|\(Linux;.*;)\s?2\.3</pattern>
+					<pattern type="regex" value="Android Honeycomb">(?:Android|\(Linux;.*;)\s?3\.[0-2]</pattern>
+					<pattern type="regex" value="Android Ice Cream Sandwich">(?:Android|\(Linux;.*;)\s?4\.0</pattern>
+					<pattern type="regex" value="Android Jelly Bean">(?:Android|\(Linux;.*;)\s?4\.1</pattern>
 				</define>
 				<branch name="DeviceName">
 					<match>
 						<pattern type="regex">Android.* Build/</pattern>
+						<pattern type="regex">Mac OS X.*; HTC_</pattern>
 					</match>
-					<define name="Vendor">
+					<define name="DeviceVendor">
 						<pattern type="string" value="HTC">HTC_</pattern>
 						<pattern type="string" value="LG Electronics">LG-</pattern>
-						<pattern type="string" value="Samsung">SAMSUNG</pattern>
+						<pattern type="string" value="SAMSUNG">SAMSUNG</pattern>
 						<pattern type="string" value="Sony Ericsson">SonyEricsson</pattern>
 						<pattern type="string" value="Sony">Sony </pattern>
-						<pattern type="string" value="Samsung"> GT-</pattern>
-						<pattern type="string" value="Samsung"> SGH-</pattern>						
+						<pattern type="string" value="SAMSUNG"> GT-</pattern>
+						<pattern type="string" value="SAMSUNG"> SGH-</pattern>						
 						<pattern type="string" value="Huawei">Huawei</pattern>
 					</define>
-				</branch>
+				</branch>				
+				<define name="MultiTouch">
+					<pattern type="regex" value="true">(?:Android|\(Linux;.*;)\s?(?:2\.[23]|[345]\.).*WebKit</pattern>
+					<pattern type="string" value="true">Opera Mobi/</pattern>
+					<pattern type="string" value="true">Opera Tablet/</pattern>					
+				</define>
+				
 			</branch>
 			<branch name="iPhoneOS">
 				<match>
@@ -598,7 +647,7 @@
 					<pattern type="string">iPod</pattern>					
 				</match>
 				<define name="OSFamily" value="iOS"/>
-				<define name="Vendor" value="Apple"/>
+				<define name="DeviceVendor" value="Apple"/>
 				<define name="isTouch">
 					<pattern type="string" value="true">(iPhone</pattern>
 					<pattern type="string" value="true">(iPad</pattern>
@@ -615,23 +664,25 @@
 				</define>
 				<define name="isEmulator">
 					<pattern type="string" value="true">iPhone Simulator</pattern>					
+				</define>									
+				<define name="MultiTouch">
+					<pattern type="string" value="true">WebKit</pattern>	
 				</define>				
 			</branch>			
 			<branch name="Symbian">
 				<match>
 					<pattern type="string">SymbianOS</pattern>
+					<pattern type="string">Symbian</pattern>
 					<pattern type="string">Series60</pattern>
 					<pattern type="string">Series 60</pattern>
 					<pattern type="string">SymbOS</pattern>
 					<pattern type="string">S60</pattern>
 					<pattern type="string">Series80</pattern>
-					<pattern type="string">Series90</pattern>
-					<pattern type="string">Symbian OS</pattern>
-					<pattern type="string">Symbian;</pattern>					
+					<pattern type="string">Series90</pattern>														
 					<pattern type="regex">^Nokia.*AppleWebKit</pattern>
 				</match>
 				<define name="OSFamily" value="Symbian"/>
-				<define name="Vendor">
+				<define name="DeviceVendor">
 					<pattern type="string" value="Nokia">Nokia</pattern>					
 				</define>
 				<define name="OSVersion">
@@ -644,25 +695,31 @@
 					<pattern type="string">Series40</pattern>
 				</match>
 				<define name="OSFamily" value="Series40"/>
-				<define name="Vendor" value="Nokia"/>
+				<define name="DeviceVendor" value="Nokia"/>
 			</branch>
 			<branch name="Bada">
 				<match>
 					<pattern type="string">Bada</pattern>
 				</match>
 				<define name="OSFamily" value="Bada"/>
-				<define name="Vendor" value="Samsung"/>
+				<define name="DeviceVendor" value="Samsung"/>
 				<define name="isTouch" value="true"/>
 				<define name="OSVersion">
 					<pattern type="regex" value="$1">Bada/(&ver;)</pattern>
-				</define>
+				</define>				
+				<define name="MultiTouch">
+					<pattern type="string" value="true">WebKit</pattern>	
+				</define>					
 			</branch>
 			<branch name="BlackBerry">
 				<match>
 					<pattern type="string">BlackBerry</pattern>
 				</match>
 				<define name="OSFamily" value="BlackBerry"/>
-				<define name="Vendor" value="RIM"/>
+				<define name="DeviceVendor" value="RIM"/>
+				<define name="MultiTouch">
+					<pattern type="string" value="true">WebKit</pattern>
+				</define>				
 			</branch>
 			<branch name="BlackberryTablet">
 				<match type="any">					
@@ -671,9 +728,12 @@
 				<define name="isTouch" value="true"/>
 				<define name="isTablet" value="true"/>
 				<define name="OSFamily" value="RIMTabletOS"/>
-				<define name="Vendor" value="RIM"/>
+				<define name="DeviceVendor" value="RIM"/>
 				<define name="OSVersion">
 					<pattern type="regex" value="$1">RIM Tablet OS (&ver;)</pattern>					
+				</define>
+				<define name="MultiTouch">
+					<pattern type="string" value="true">WebKit</pattern>
 				</define>
 			</branch>
 			<branch name="MeeGo">
@@ -692,7 +752,7 @@
 					<pattern type="regex">MSIE.*NOKIA</pattern>
 				</match>
 				<define name="OSFamily" value="WindowsPhone"/>
-				<define name="Vendor">
+				<define name="DeviceVendor">
 					<pattern type="string" value="Nokia">Nokia</pattern>					
 				</define>
 				<define name="isTouch" value="true"/>
@@ -721,7 +781,7 @@
 					<pattern type="string">webOS</pattern>
 				</match>	
 				<define name="OSFamily">WebOS</define>
-				<define name="Vendor" value="HP"/>
+				<define name="DeviceVendor" value="HP"/>
 				<define name="OSVersion">
 					<pattern type="regex" value="$1">hpwOS/(&ver2d;)</pattern>
 					<pattern type="regex" value="$1">webOS/(&ver2d;)</pattern>
@@ -744,6 +804,12 @@
 					<pattern type="regex" value="$1">BREW\s(&ver3d;)</pattern>					
 				</define>
 			</branch>	
+			<branch name="Nucleus">
+				<match>
+					<pattern type="string">Nucleus</pattern>					
+				</match>	
+				<define name="OSFamily">Nucleus</define>				
+			</branch>				
 			<branch name="Java">
 				<match>
 					<pattern type="string">J2ME/MIDP</pattern>										
@@ -762,6 +828,7 @@
 	</branch>
 	<branch type="default" name="Desktop">
 		<define name="isMobile" value="false"/>
+		<define name="isBrowser" value="true"/>
 		<branch name="Opera">
 			<match type="any">
 				<pattern type="string">Opera/</pattern>
@@ -959,11 +1026,24 @@
 			</define>
 			<branch name="YandexInternet">
 				<match type="any">
-					<pattern type="string"> YI</pattern>
+					<pattern type="string"> YI</pattern>									
 				</match>
 				<define name="BrowserName" value="YandexInternet"/>
 				<define name="BrowserVersion">
 					<pattern type="regex" value="$1">Chrome/(&ver3d;)</pattern>
+				</define>
+			</branch>
+			
+			<branch name="YandexBrowser">
+				<match type="any">
+					<pattern type="string"> YandexBrowser/</pattern>									
+					<pattern type="string"> YaBrowser/</pattern>
+				</match>
+				<define name="BrowserName" value="YandexBrowser"/>
+				<define name="BrowserVersion">					
+					<pattern type="regex" value="$1">YaBrowser/(&ver;)</pattern>
+					<pattern type="regex" value="$1">Chrome/(&ver3d;)</pattern>
+					<pattern type="regex" value="$1">Ya[\w]*Browser/(&ver3d;)</pattern>
 				</define>
 			</branch>
 			
@@ -1488,6 +1568,66 @@
 			<pattern type="string" value="true">yahoo! slurp</pattern>
 			<pattern type="string" value="true">+http://yandex.com/bots</pattern>
 			<pattern type="string" value="true">YandexBot</pattern>
+			<pattern type="string" value="true">Feedfetcher-Google;</pattern>
+			<pattern type="string" value="true">WebAlta</pattern>
+			<pattern type="string" value="true">StackRambler</pattern>
+			<pattern type="string" value="true">msnbot</pattern>
+			<pattern type="string" value="true">bingbot</pattern>
+			<pattern type="string" value="true">Aport</pattern>
+			<pattern type="string" value="true">Mail.Ru/</pattern>
+			<pattern type="string" value="true">Yandex/</pattern>
+			<pattern type="string" value="true">Statbox/</pattern>
+			<pattern type="string" value="true">YandexSomething/</pattern>
+			<pattern type="string" value="true">YandexBlog/</pattern>
+			<pattern type="string" value="true">Yandex.Server/</pattern>
+			<pattern type="string" value="true">YaDirectBot</pattern>
+			<pattern type="string" value="true">Jakarta Commons-HttpClient/</pattern>
+			<pattern type="string" value="true">TurtleScanner</pattern>
+			<pattern type="string" value="true">Novoteka</pattern>
+			<pattern type="string" value="true">ia_archiver</pattern>
+			<pattern type="string" value="true">heritrix</pattern>
+			<pattern type="string" value="true">Twiceler-</pattern>
+			<pattern type="string" value="true">psbot/</pattern>
+			<pattern type="string" value="true">Alchemy Eye Agent</pattern>
+			<pattern type="string" value="true">Echoping/</pattern>
+			<pattern type="string" value="true">Friends/</pattern>
+			<pattern type="string" value="true">WhatsUp</pattern>			
+			<pattern type="string" value="true">; HttpSatPinger)</pattern>
+			<pattern type="string" value="true">MSRBOT (http://research.microsoft.com/research/sv/msrbot/</pattern>
+			<pattern type="string" value="true">MJ12bot/</pattern>
+			<pattern type="string" value="true">ichiro/</pattern>
+			<pattern type="string" value="true">TECOMAC-Crawler/</pattern>
+			<pattern type="string" value="true">Gigabot</pattern>
+			<pattern type="string" value="true">Sogou Push Spider</pattern>
+			<pattern type="string" value="true">check_http/</pattern>
+			<pattern type="string" value="true">http_ping</pattern>
+			<pattern type="string" value="true">KeepAliveClient</pattern>
+			<pattern type="string" value="true">SamSunf</pattern>
+			<pattern type="string" value="true">GenHash</pattern>
+			<pattern type="string" value="true">IRLbot</pattern>
+			<pattern type="string" value="true">UptimeInspector</pattern>
+			<pattern type="string" value="true">liveinternet spider</pattern>
+			<pattern type="string" value="true">Begun Robot Crawler</pattern>
+			<pattern type="string" value="true">InternetSeer.com</pattern>
+			<pattern type="string" value="true">Refer.Ru Favicon Bot</pattern>
+			<pattern type="string" value="true">Robot Semonitor</pattern>
+			<pattern type="string" value="true">Robot PagePromoter</pattern>
+			<pattern type="string" value="true">SESpider</pattern>
+			<pattern type="string" value="true">Jakarta Commons-HttpClient</pattern>
+			<pattern type="string" value="true">Parasite Eliminator</pattern>
+			<pattern type="string" value="true">Spinn3r</pattern>			
+			<pattern type="string" value="true">YandexImages/</pattern>
+			<pattern type="string" value="true">YandexVideo/</pattern>
+			<pattern type="string" value="true">YandexMedia/</pattern>
+			<pattern type="string" value="true">YandexBlogs/</pattern>
+			<pattern type="string" value="true">YandexFavicons/</pattern>
+			<pattern type="string" value="true">YandexAddurl/</pattern>
+			<pattern type="string" value="true">YandexImageResizer/</pattern>
+			<pattern type="string" value="true">YandexDirect/</pattern>
+			<pattern type="string" value="true">YandexMetrika/</pattern>
+			<pattern type="string" value="true">YandexNews/</pattern>
+			<pattern type="string" value="true">YandexCatalog/</pattern>
+			<pattern type="string" value="true">YandexWebmaster/</pattern>
 		</define>
 	</branch>
 </rules>

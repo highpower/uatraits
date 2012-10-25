@@ -59,7 +59,7 @@ template <typename Traits> inline
 regex_definition<Traits>::regex_definition(char const *name, char const *xpath, char const *pattern, char const *replace_pattern) :
 	definition<Traits>(name, xpath), replace_pattern_(replace_pattern), regex_(0, 0)
 {
-	max = -1;
+	max_ = -1;
 	regex_ = pcre_compile_regex(pattern);
 	int res = pcre_fullinfo(regex_.first, regex_.second, PCRE_INFO_CAPTURECOUNT, &max_);
 	if (0 != res || -1 == max_) {
@@ -67,8 +67,8 @@ regex_definition<Traits>::regex_definition(char const *name, char const *xpath, 
 	}
 	std::size_t max_replace = find_replaces(replace_pattern_, replaces_);
 	if (max_replace > static_cast<std::size_t>(max_)) {
-		throw error("definition intended to replace item with key ($%llu) more than it could capture in %s (%llu)", 
-			static_cast<unsigned long long>(max_replace), pattern, static_cast<unsigned long long>(max_));
+	 	throw error("definition intended to replace item with key ($%llu) more than it could capture in %s (%llu)", 
+	 	    static_cast<unsigned long long>(max_replace), pattern, static_cast<unsigned long long>(max_));
 	}
 }
 
@@ -84,6 +84,7 @@ regex_definition<Traits>::dump(std::ostream &out) const {
 
 template <typename Traits> inline bool
 regex_definition<Traits>::trigger(char const *begin, char const *end, Traits &traits) const {
+	
 	std::vector<int> match((max_ + 1) * 3, 0);
 	int result = pcre_exec(regex_.first, regex_.second, begin, end - begin, 0, 0, &match[0], match.size());
 	if (PCRE_ERROR_NOMATCH == result) {
@@ -91,9 +92,6 @@ regex_definition<Traits>::trigger(char const *begin, char const *end, Traits &tr
 	}
 	else if (result < 0) {
 		throw error("error while regex matching: %d", result);
-	}
-	if (static_cast<std::size_t>(result) != replaces_.size() + 1) {
-	    throw error("error while regex matching: captured %d while desired %d", result - 1, replaces_.size());
 	}
 	std::string temp(replace_pattern_);
 	for (std::list<regex_data>::const_reverse_iterator ri = replaces_.rbegin(), rend = replaces_.rend(); ri != rend; ++ri) {

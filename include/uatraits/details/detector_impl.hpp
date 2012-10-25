@@ -18,8 +18,10 @@
 #ifndef UATRAITS_DETAILS_DETECTOR_IMPL_HPP_INCLUDED
 #define UATRAITS_DETAILS_DETECTOR_IMPL_HPP_INCLUDED
 
-#include <iosfwd>
+#include <algorithm>
 #include <cstring>
+#include <iosfwd>
+#include <map>
 #include <string>
 
 #include "uatraits/error.hpp"
@@ -31,6 +33,7 @@
 
 #include "uatraits/details/branch.hpp"
 #include "uatraits/details/definition.hpp"
+#include "uatraits/details/hash_utils.hpp"
 #include "uatraits/details/regex_definition.hpp"
 #include "uatraits/details/static_definition.hpp"
 #include "uatraits/details/string_definition.hpp"
@@ -39,12 +42,18 @@
 
 namespace uatraits { namespace details {
 
+static const std::string X_OPERAMINI_PHONE_UA = "X-Operamini-Phone-Ua";
+static const std::string X_WAP_PROFILE = "X-Wap-Profile";
+static const std::string USER_AGENT = "User-Agent";
+
 template <typename Traits>
 class detector_impl : public shared {
 
 public:
 	detector_impl(xmlDocPtr doc);
+	detector_impl(xmlDocPtr doc, xmlDocPtr profiles_doc);
 	void detect(char const *begin, char const *end, Traits &traits) const;
+	void detect(const Traits &headers, Traits &traits) const;
 	void checked_detect(char const *begin, char const *end, Traits &traits, std::ostream &out) const;
 
 	std::string const& date() const;
@@ -55,8 +64,16 @@ private:
 
 	typedef branch<Traits> branch_type;
 	typedef definition<Traits> definition_type;
+	typedef std::map<std::string, std::map<std::string, std::string> > profiles_type;
 
 	void parse(xmlDocPtr doc);
+	void parse_profiles(xmlDocPtr doc);
+
+	std::string find_header(const Traits &headers, const std::string &header) const;
+	Traits detect_by_header(const std::string &header) const;
+	void update_attr(Traits &traits, Traits &copy, const std::string &header) const;
+
+	void store_headers(Traits &traits, const std::string &header) const;
 
 	shared_ptr<branch_type> parse_branch(xmlNodePtr node) const;
 	shared_ptr<definition_type> parse_definition(xmlNodePtr node) const;
@@ -65,6 +82,7 @@ private:
 private:
 	shared_ptr<branch_type> root_;
 	std::string date_;
+	profiles_type profiles_;
 };
 
 template <typename Traits> inline 
@@ -74,14 +92,100 @@ detector_impl<Traits>::detector_impl(xmlDocPtr doc)
 	parse(doc);
 }
 
+template <typename Traits> inline
+detector_impl<Traits>::detector_impl(xmlDocPtr doc, xmlDocPtr profiles_doc)
+{
+	root_.reset(new root_branch<Traits>());
+	parse(doc);
+	parse_profiles(profiles_doc);
+}
+
 template <typename Traits> inline std::string const&
 detector_impl<Traits>::date() const {
 	return date_;
 }
 
+template <typename Traits> inline std::string
+detector_impl<Traits>::find_header(const Traits &headers, const std::string &header) const {
+	typename Traits::const_iterator it = headers.find(header);
+
+        return (headers.end() != it ? it->second : "");
+}
+
+template <typename Traits> inline Traits
+detector_impl<Traits>::detect_by_header(const std::string &header) const {
+	Traits traits;
+
+	detect(header.c_str(), header.c_str() + header.size(), traits);
+
+	return traits;
+}
+
+template <typename Traits> inline void
+detector_impl<Traits>::update_attr(Traits &traits, Traits &copy, const std::string &header) const {
+	std::string value = find_header(copy, header);
+
+	if (!value.empty()) {
+		traits[header] = value;
+	}
+}
+
+template <typename Traits> inline void
+detector_impl<Traits>::store_headers(Traits &traits, const std::string &header) const {
+	Traits copy = detect_by_header(header);
+
+	update_attr(traits, copy, "isTablet");
+	update_attr(traits, copy, "OSFamily");
+	update_attr(traits, copy, "OSVersion");
+	update_attr(traits, copy, "isMobile");
+	update_attr(traits, copy, "isTouch");
+}
+
 template <typename Traits> inline void
 detector_impl<Traits>::detect(char const *begin, char const *end, Traits &traits) const {
 	root_->trigger(begin, end, traits);
+}
+
+template <typename Traits> inline void
+detector_impl<Traits>::detect(const Traits &headers, Traits &traits) const {
+	std::string agent = find_header(headers, USER_AGENT);
+
+	if (agent.empty()) {
+		return;
+	}
+
+	root_->trigger(agent.c_str(), agent.c_str() + agent.size(), traits);
+
+	std::string header = find_header(headers, X_OPERAMINI_PHONE_UA);
+
+	if (!header.empty()) {
+		store_headers(traits, header);
+	}
+
+	header = find_header(headers, X_WAP_PROFILE);
+
+	if (!header.empty()) {
+		char to_strip[] = "\x22";
+
+		header.erase(std::remove(header.begin(), header.end(), ' '), header.end());
+
+		if (!header.compare(0, sizeof (to_strip) - 1, to_strip)) {
+			header = header.substr(sizeof (to_strip) - 1, std::string::npos);
+		}
+
+		if (!header.compare(header.length() - sizeof (to_strip) + 1, std::string::npos, to_strip)) {
+			header = header.substr(0, header.length() - sizeof (to_strip) + 1);
+		}
+
+		profiles_type::const_iterator pit = profiles_.find(md5(header));
+
+		if (profiles_.end() != pit) {
+			for (std::map<std::string, std::string>::const_iterator mit = pit->second.begin(),
+				end = pit->second.end(); end != mit; ++mit) {
+				traits[mit->first] = mit->second;
+                        }
+		}
+	}
 }
 
 template <typename Traits> inline void
@@ -100,6 +204,27 @@ detector_impl<Traits>::parse(xmlDocPtr doc)
 	xml_elems elems(root, "branch");
 	for (xml_elems::iterator i = elems.begin(), end = elems.end(); i != end; ++i) {
 		root_->add_child(parse_branch(*i));
+	}
+}
+
+template <typename Traits> inline void
+detector_impl<Traits>::parse_profiles(xmlDocPtr doc)
+{
+	xmlNodePtr root = xmlDocGetRootElement(doc);
+	if (0 == root) {
+		throw error("got empty browser.xml");
+	}
+
+	xml_elems elems(root, "profile");
+	for (xml_elems::iterator i = elems.begin(), end = elems.end(); i != end; ++i) {
+		char const *id = xml_attr_text(*i, "id");
+
+		for (xmlNodePtr n = xmlFirstElementChild(*i); 0 != n; n = xmlNextElementSibling(n)) {
+			if (xmlStrncasecmp(n->name, (xmlChar const*) "define", sizeof("define")) == 0) {
+				char const *name = xml_attr_text(n, "name"), *value = xml_attr_text(n, "value");
+				profiles_[id][name] = value;
+			}
+		}
 	}
 }
 

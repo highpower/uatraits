@@ -31,6 +31,7 @@ class UATRAITS_API detector {
 
 public:
 	detector(char const *file);
+	detector(char const *file, char const *profiles);
 	virtual ~detector();
 
 	std::string const& date() const;
@@ -41,6 +42,8 @@ public:
 
 	void detect(char const *agent, result_type &result) const;
 	void detect(std::string const &agent, result_type &result) const;
+
+	void detect(const std::map<std::string, std::string> &headers, result_type &result) const;
 
 private:
 	typedef details::detector_impl<result_type> impl_type;

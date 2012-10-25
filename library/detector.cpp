@@ -14,6 +14,18 @@ detector::detector(char const *name)
 	impl_.reset(new impl_type(doc.get()));
 }
 
+detector::detector(char const *name, char const *profiles)
+{
+	using namespace details;
+	resource<xmlDocPtr, xml_doc_traits> doc(xmlReadFile(name, 0, XML_PARSE_NOENT));
+	xml_throw_unless(doc);
+
+	resource<xmlDocPtr, xml_doc_traits> profiles_doc(xmlReadFile(profiles, 0, XML_PARSE_NOENT));
+	xml_throw_unless(profiles_doc);
+
+	impl_.reset(new impl_type(doc.get(), profiles_doc.get()));
+}
+
 detector::~detector() {
 }
 
@@ -47,6 +59,13 @@ void
 detector::detect(std::string const &agent, result_type &result) const {
 	result_type res;
 	impl_->detect(agent.c_str(), agent.c_str() + agent.size(), res);
+	res.swap(result);
+}
+
+void
+detector::detect(const result_type &headers, result_type &result) const {
+	result_type res;
+	impl_->detect(headers, result);
 	res.swap(result);
 }
 

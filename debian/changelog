@@ -1,3 +1,168 @@
+libuatraits (1.1.19-1) unstable; urgency=low
+
+  * nodejs
+
+ -- Leonid A. Movsesjan <lmovsesjan@yandex-team.ru>  Thu, 25 Oct 2012 18:41:34 +0400
+
+libuatraits (1.1.18-3) unstable; urgency=low
+
+  * x-wap-profiles db format fixed
+
+ -- bruno <bruno@yandex-team.ru>  Thu, 25 Oct 2012 12:33:59 +0400
+
+libuatraits (1.1.18-2) unstable; urgency=low
+
+  * New x-wap-profiles db
+
+ -- bruno <bruno@yandex-team.ru>  Tue, 23 Oct 2012 16:33:59 +0400
+
+libuatraits (1.1.18-1) unstable; urgency=low
+
+  * no boost in core and trimming spaces in x-wap-profile
+
+ -- Leonid A. Movsesjan <lmovsesjan@yandex-team.ru>  Tue, 23 Oct 2012 16:03:59 +0400
+
+libuatraits (1.1.17-1) unstable; urgency=low
+
+  * refactoring + x-wap-profile stripping fix
+
+ -- Leonid A. Movsesjan <lmovsesjan@yandex-team.ru>  Tue, 23 Oct 2012 14:57:25 +0400
+
+libuatraits (1.1.16-1) unstable; urgency=low
+
+  * fix version of perl binding
+
+ -- Leonid A. Movsesjan <lmovsesjan@yandex-team.ru>  Mon, 22 Oct 2012 19:27:34 +0400
+
+libuatraits (1.1.15-1) unstable; urgency=low
+
+  * fixed signature
+
+ -- Leonid A. Movsesjan <lmovsesjan@yandex-team.ru>  Fri, 19 Oct 2012 20:00:54 +0400
+
+libuatraits (1.1.14-1) unstable; urgency=low
+
+  * fixed bindings
+
+ -- Leonid A. Movsesjan <lmovsesjan@yandex-team.ru>  Fri, 19 Oct 2012 17:42:54 +0400
+
+libuatraits (1.1.13-1) unstable; urgency=low
+
+  * added headers to python
+
+ -- Leonid A. Movsesjan <lmovsesjan@yandex-team.ru>  Fri, 19 Oct 2012 17:24:35 +0400
+
+libuatraits (1.1.12-1) unstable; urgency=low
+
+  * added headers to perl
+
+ -- Leonid A. Movsesjan <lmovsesjan@yandex-team.ru>  Fri, 19 Oct 2012 16:42:02 +0400
+
+libuatraits (1.1.11-1) unstable; urgency=low
+
+  * java
+
+ -- Leonid A. Movsesjan <lmovsesjan@yandex-team.ru>  Tue, 16 Oct 2012 12:18:23 +0400
+
+libuatraits (1.1.10-6) unstable; urgency=low
+
+  * YandexBrowser version
+
+ -- bruno <bruno@yandex-team.ru>  Fri, 14 Sep 2012 16:00:04 +0300
+
+libuatraits (1.1.10-5) unstable; urgency=low
+
+  * YandexBrowser renamed again
+
+ -- bruno <bruno@yandex-team.ru>  Wed, 5 Sep 2012 16:00:04 +0300
+
+libuatraits (1.1.10-4) unstable; urgency=low
+
+  * Chrome for iOS is no longer Mobile Safari
+
+ -- bruno <bruno@yandex-team.ru>  Tue, 7 Aug 2012 16:00:04 +0300
+
+libuatraits (1.1.10-3) unstable; urgency=low
+
+  * Fixed Android Tablet detection
+  * Added a lot of robots
+  * isBrowser = true by default
+
+ -- bruno <bruno@yandex-team.ru>  Tue, 31 Jul 2012 15:00:04 +0300
+
+libuatraits (1.1.10-2) unstable; urgency=low
+
+  * added profiles.xml
+
+ -- Leonid A. Movsesjan <lmovsesjan@yandex-team.ru>  Tue, 17 Jul 2012 14:55:22 +0400
+
+libuatraits (1.1.10-1) unstable; urgency=low
+
+  * using wap profiles
+
+ -- Leonid A. Movsesjan <lmovsesjan@yandex-team.ru>  Tue, 17 Jul 2012 14:37:55 +0400
+
+libuatraits (1.1.9-1) unstable; urgency=low
+
+  * added new detect method
+
+ -- Leonid A. Movsesjan <lmovsesjan@yandex-team.ru>  Tue, 17 Jul 2012 12:58:11 +0400
+
+libuatraits (1.1.8-4) unstable; urgency=low
+
+  * Fixed Android Jelly Bean to 4.1
+  * Added YandexBrowser detection
+
+ -- bruno <bruno@yandex-team.ru>  Thu, 28 Jun 2012 15:00:04 +0300
+
+libuatraits (1.1.8-3) unstable; urgency=low
+
+  * Fixed Android names when no "Android" in UA
+
+ -- bruno <bruno@yandex-team.ru>  Tue, 19 Jun 2012 17:00:04 +0300
+
+libuatraits (1.1.8-2) unstable; urgency=low
+
+  * Fixed Android names
+  * MultiTouch added Gecko
+
+ -- bruno <bruno@yandex-team.ru>  Tue, 22 May 2012 13:00:04 +0300
+
+libuatraits (1.1.8-1) unstable; urgency=low
+
+  * Fixed build build on Ubuntu Precise
+  * MultiTouch property
+  * Fixed tests
+
+ -- bruno <bruno@yandex-team.ru>  Tue, 22 May 2012 13:00:04 +0300
+
+libuatraits (1.1.7-3) unstable; urgency=low
+
+  * Fixed crash on tests
+ -- bruno <bruno@yandex-team.ru>  Sat, 05 May 2012 16:00:04 +0300
+
+
+libuatraits (1.1.7-2) unstable; urgency=low
+
+  * S40OviBrowser is no more WAP
+
+ -- bruno <bruno@yandex-team.ru>  Sat, 05 May 2012 13:30:04 +0300
+
+
+libuatraits (1.1.7-1) unstable; urgency=low
+
+  * fixed regex definition
+
+ -- Leonid A. Movsesjan <lmovsesjan@yandex-team.ru>  Tue, 24 Apr 2012 17:33:16 +0400
+
+libuatraits (1.1.6-11) unstable; urgency=low
+
+  * Mobile Safari limited by iOS
+  * Vendor detection
+  * fixed $2 bug
+
+ -- bruno <bruno@yandex-team.ru>  Mon, 16 Apr 2012 13:30:04 +0300
+
 libuatraits (1.1.6-10) unstable; urgency=low
 
   * QQ Browser

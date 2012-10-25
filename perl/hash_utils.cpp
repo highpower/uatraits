@@ -33,4 +33,39 @@ hash_value_set(void *hash_value, char const *key, std::size_t keylen, char const
 	}
 }
 
+std::string
+hash_value_get(void *hash_value, char const *key, std::size_t keylen) {
+	HV *hash = (HV*) hash_value;
+
+	SV **sv = hv_fetch(hash, key, keylen, NULL);
+
+	if (NULL == sv || !SvOK(*sv)) {
+		return "";
+	}
+
+	size_t len;
+
+	char *ptr = SvPV(*sv, len);
+
+	return std::string(ptr, len);
+}
+
+bool
+hash_has_value(void *hash_value, char const *key, std::size_t keylen) {
+	HV *hash = (HV*) hash_value;
+
+	return hv_exists(hash, key, keylen);
+}
+
+void*
+hash_create() {
+	HV *result = newHV();
+	return (void*)result;
+}
+
+void
+hash_destroy(void *hash) {
+	free(hash);
+}
+
 }} // namespaces

@@ -1,1 +1,1 @@
-pkgdata_DATA = browser.xml browser.xsd cover.xml tests.xml
+pkgdata_DATA = browser.xml browser.xsd cover.xml tests.xml profiles.xml

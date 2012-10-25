@@ -18,12 +18,26 @@
 #ifndef UATRAITS_PERL_HASH_UTILS_HPP_INCLUDED
 #define UATRAITS_PERL_HASH_UTILS_HPP_INCLUDED
 
+#include <string>
+
 #include <cstddef>
 
 namespace uatraits { namespace perl {
 
 void
 hash_value_set(void *hash_value, char const *key, std::size_t keylen, char const *value, std::size_t valuelen);
+
+void*
+hash_create();
+
+void
+hash_destroy(void *hash);
+
+std::string
+hash_value_get(void *hash_value, char const *key, std::size_t keylen);
+
+bool
+hash_has_value(void *hash_value, char const *key, std::size_t keylen);
 
 }} // namespaces
 

@@ -4,12 +4,15 @@ Maintainer: Oleg Obolenskiy <highpower@yandex-team.ru>
 Build-Depends: debhelper (>= 7),
  pkg-config,
  libxml2-dev,
+ libssl-dev,
  libboost-dev,
+ libboost-thread-dev,
  libboost-test-dev,
  libboost-python-dev,
  libpcre3-dev,
  libjson-xs-perl,
  perl,
+ swig,
  xsltproc
 Standards-Version: 3.8.3
 Section: libs
@@ -50,3 +53,16 @@ Section: libs
 Architecture: any
 Depends: ${shlibs:Depends}, libuatraits (= ${Source-Version})
 Description: Perl binding for C++ uatraits library
+
+Package: uatraits-java
+Section: libs
+Architecture: any
+Depends: ${shlibs:Depends}, libuatraits (= ${Source-Version})
+Description: Java binding for C++ uatraits library
+
+Package: uatraits-nodejs
+Section: libs
+Architecture: any
+Depends: ${shlibs:Depends}, libuatraits (= ${Source-Version})
+Description: Node.js binding for C++ uatraits library
+
