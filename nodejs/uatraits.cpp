@@ -62,7 +62,7 @@ public:
 		ptemplate->SetClassName(v8::String::NewSymbol("Detector"));
 
 		NODE_SET_PROTOTYPE_METHOD(ptemplate, "detect", Detect);
-		NODE_SET_PROTOTYPE_METHOD(ptemplate, "detect_by_headers", DetectByHeaders);
+		NODE_SET_PROTOTYPE_METHOD(ptemplate, "detectByHeaders", DetectByHeaders);
 
 		target->Set(v8::String::NewSymbol("Detector"), ptemplate->GetFunction());
 	}
