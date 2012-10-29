@@ -47,9 +47,7 @@ dict_wrapper::get(std::string const &name) const {
 
 bool
 dict_wrapper::has(std::string const &name) const {
-	v8::Local<v8::String> value(v8::Local<v8::String>::Cast(dict_->Get(v8::String::NewSymbol(name.c_str()))));
-
-	return !value.IsEmpty();
+	return dict_->Has(v8::String::NewSymbol(name.c_str()));
 }
 
 } // namespace nodejs
