@@ -1,3 +1,9 @@
+libuatraits (1.1.20-1) unstable; urgency=low
+
+  * fixed detect by headers in c++
+
+ -- Leonid A. Movsesjan <lmovsesjan@yandex-team.ru>  Wed, 09 Jan 2013 18:29:52 +0400
+
 libuatraits (1.1.19-1) unstable; urgency=low
 
   * nodejs

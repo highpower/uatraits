@@ -65,7 +65,7 @@ detector::detect(std::string const &agent, result_type &result) const {
 void
 detector::detect(const result_type &headers, result_type &result) const {
 	result_type res;
-	impl_->detect(headers, result);
+	impl_->detect(headers, res);
 	res.swap(result);
 }
 
