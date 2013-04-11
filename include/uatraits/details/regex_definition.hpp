@@ -59,7 +59,7 @@ template <typename Traits> inline
 regex_definition<Traits>::regex_definition(char const *name, char const *xpath, char const *pattern, char const *replace_pattern) :
 	definition<Traits>(name, xpath), replace_pattern_(replace_pattern), regex_(0, 0)
 {
-	max = -1;
+	max_ = -1;
 	regex_ = pcre_compile_regex(pattern);
 	int res = pcre_fullinfo(regex_.first, regex_.second, PCRE_INFO_CAPTURECOUNT, &max_);
 	if (0 != res || -1 == max_) {
