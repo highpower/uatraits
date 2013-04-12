@@ -15,7 +15,7 @@ WriteMakefile(
        AUTHOR         => 'Oleg Obolensky <highpower@yandex-team.ru>') : ()),
     LIBS              => ['-L../library/.libs/ @XML_LIBS@ @PCRE_LIBS@ -luatraits'],
     DEFINE            => '',
-    INC               => '-I. -I../include -I../config @XML_CPPFLAGS@ @PCRE_CFLAGS@',
+    INC               => '-I. -I../include -I../config @XML_CPPFLAGS@ @PCRE_CFLAGS@ @BOOST_CPPFLAGS@',
 	CC                => 'g++',
 	LD                => 'g++',
 	XSOPT             => '-C++',
