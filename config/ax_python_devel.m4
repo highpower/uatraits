@@ -12,9 +12,9 @@
 #   in your configure.ac.
 #
 #   This macro checks for Python and tries to get the include path to
-#   'Python.h'. It provides the $(PYTHON_CPPFLAGS) and $(PYTHON_LDFLAGS)
-#   output variables. It also exports $(PYTHON_EXTRA_LIBS) and
-#   $(PYTHON_EXTRA_LDFLAGS) for embedding Python in your code.
+#   'Python.h'. It provides the $(PYTHON_CPPFLAGS), $(PYTHON_LDFLAGS)
+#   and $(PYTHON_LIBS) output variables. It also exports $(PYTHON_EXTRA_LIBS)
+#   and $(PYTHON_EXTRA_LDFLAGS) for embedding Python in your code.
 #
 #   You can search for some particular version of Python by passing a
 #   parameter to this macro, for example ">= '2.3.1'", or "== '2.4'". Please
@@ -163,7 +163,7 @@ $ac_distutils_result])
 	# Check for Python library path
 	#
 	AC_MSG_CHECKING([for Python library path])
-	if test -z "$PYTHON_LDFLAGS"; then
+	if test -z "$PYTHON_LIBS"; then
 		# (makes two attempts to ensure we've got a version number
 		# from the interpreter)
 		ac_python_version=`cat<<EOD | $PYTHON -
@@ -226,25 +226,28 @@ EOD`
 		then
 			# use the official shared library
 			ac_python_library=`echo "$ac_python_library" | sed "s/^lib//"`
-			PYTHON_LDFLAGS="-L$ac_python_libdir -l$ac_python_library"
+			PYTHON_LDFLAGS="-L$ac_python_libdir"
+			PYTHON_LIBS="-l$ac_python_library"
 		else
 			# old way: use libpython from python_configdir
 			ac_python_libdir=`$PYTHON -c \
 			  "from distutils.sysconfig import get_python_lib as f; \
 			  import os; \
 			  print (os.path.join(f(plat_specific=1, standard_lib=1), 'config'));"`
-			PYTHON_LDFLAGS="-L$ac_python_libdir -lpython$ac_python_version"
+			PYTHON_LDFLAGS="-L$ac_python_libdir"
+			PYTHON_LIBS=" -lpython$ac_python_version"
 		fi
 
-		if test -z "PYTHON_LDFLAGS"; then
+		if test -z "PYTHON_LIBS"; then
 			AC_MSG_ERROR([
   Cannot determine location of your Python DSO. Please check it was installed with
   dynamic libraries enabled, or try setting PYTHON_LDFLAGS by hand.
 			])
 		fi
 	fi
-	AC_MSG_RESULT([$PYTHON_LDFLAGS])
+	AC_MSG_RESULT([$PYTHON_LDFLAGS $PYTHON_LIBS])
 	AC_SUBST([PYTHON_LDFLAGS])
+	AC_SUBST([PYTHON_LIBS])
 
 	#
 	# Check for site packages
@@ -288,7 +291,7 @@ EOD`
 	# save current global flags
 	ac_save_LIBS="$LIBS"
 	ac_save_CPPFLAGS="$CPPFLAGS"
-	LIBS="$ac_save_LIBS $PYTHON_LDFLAGS $PYTHON_EXTRA_LDFLAGS $PYTHON_EXTRA_LIBS"
+	LIBS="$ac_save_LIBS $PYTHON_LDFLAGS $PYTHON_LIBS $PYTHON_EXTRA_LDFLAGS $PYTHON_EXTRA_LIBS"
 	CPPFLAGS="$ac_save_CPPFLAGS $PYTHON_CPPFLAGS"
 	AC_LANG_PUSH([C])
 	AC_LINK_IFELSE([

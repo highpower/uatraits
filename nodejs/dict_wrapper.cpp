@@ -1,15 +1,12 @@
 #include "acsetup.hpp"
+
 #include "dict_wrapper.hpp"
 
 #include "uatraits/details/functors.hpp"
 
-namespace uatraits { namespace python {
+namespace uatraits {
 
-details::range<char const*> const
-dict_wrapper::true_token = details::make_range("true");
-
-details::range<char const*> const
-dict_wrapper::false_token = details::make_range("false");
+namespace nodejs {
 
 dict_assigner::dict_assigner(dict_wrapper *wrapper, std::string const &name) :
 	wrapper_(wrapper), name_(name)
@@ -22,7 +19,7 @@ dict_assigner::operator = (std::string const &value) {
 	return *this;
 }
 
-dict_wrapper::dict_wrapper(py::dict &dict) :
+dict_wrapper::dict_wrapper(v8::Local<v8::Object> &dict) :
 	dict_(dict)
 {
 }
@@ -34,30 +31,26 @@ dict_wrapper::operator [] (std::string const &name) {
 
 void
 dict_wrapper::set(std::string const &name, std::string const &value) {
-	if (details::is_ci_equal(value, true_token)) {
-		dict_[name] = true;
-	}
-	else if (details::is_ci_equal(value, false_token)) {
-		dict_[name] = false;
-	}
-	else {
-		dict_[name] = value;
-	}
+	dict_->Set(v8::String::NewSymbol(name.c_str()), v8::String::New(value.c_str()));
 }
 
 std::string
 dict_wrapper::get(std::string const &name) const {
-	try {
-		return py::extract<std::string>(dict_.get(name));
+	v8::String::Utf8Value value(v8::Local<v8::String>::Cast(dict_->Get(v8::String::NewSymbol(name.c_str()))));
+
+	if (*value != NULL) {
+		return *value;
 	}
-	catch (...) {
-		return "";
-	}
+
+	return "";
 }
 
 bool
 dict_wrapper::has(std::string const &name) const {
-	return dict_.has_key(name);
+	return dict_->Has(v8::String::NewSymbol(name.c_str()));
 }
 
-}} // namespaces
+} // namespace nodejs
+
+} // namespace uatraits
+

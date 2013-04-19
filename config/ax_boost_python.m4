@@ -2,6 +2,7 @@ AC_DEFUN([AX_BOOST_PYTHON],
 [
 	ax_boost_python_stored_ldflags="$LDFLAGS"
 	ax_boost_python_stored_cppflags="$CPPFLAGS"
+	ax_boost_python_stored_libs="$LIBS"
 	
 	AC_REQUIRE([AX_BOOST_PREFIX])
 	AC_REQUIRE([AX_PYTHON_DEVEL])
@@ -11,7 +12,8 @@ AC_DEFUN([AX_BOOST_PYTHON],
 	fi
 	
 	CPPFLAGS="$ax_boost_python_stored_cppflags $PYTHON_CPPFLAGS"
-	LDFLAGS="$ax_boost_python_stored_ldflags $BOOST_LDFLAGS -l$ax_boost_python_lib $PYTHON_LDFLAGS"
+	LDFLAGS="$ax_boost_python_stored_ldflags $BOOST_LDFLAGS $PYTHON_LDFLAGS"
+	LIBS="-l$ax_boost_python_lib $PYTHON_LIBS"
 
 	ax_have_boost_python="yes"
 	AX_BOOST_HEADER([python.hpp], [], [ax_have_boost_python="no"])
@@ -27,10 +29,12 @@ AC_DEFUN([AX_BOOST_PYTHON],
 	
 	CPPFLAGS="$ax_boost_python_stored_cppflags"
 	LDFLAGS="$ax_boost_python_stored_ldflags"
+	LIBS="$ax_boost_python_stored_libs"
 	
 	if test "f$ax_have_boost_python" = "fyes"; then
 		ifelse([$1], , :, [$1])
 		AC_SUBST([BOOST_PYTHON_LDFLAGS], ["-l$ax_boost_python_lib"])
+		AC_SUBST([BOOST_PYTHON_LIBS], ["-l$ax_boost_python_lib"])
 	else
 		ifelse([$2], , :, [$2])
 	fi	

@@ -18,6 +18,11 @@ done
 
 AM_PATH_XML2([2.6.29], [], [AC_MSG_FAILURE([libxml2 is not found])])
 
+PKG_CHECK_MODULES([crypto], [libcrypto], [], [AC_MSG_ERROR([libcrypto not found])])
+
+LIBS="$LIBS $crypto_LIBS"
+CPPFLAGS="$CPPFLAGS $crypto_CFLAGS"
+
 ax_have_boost="yes"
 ax_have_boost_python="yes"
 ax_have_boost_thread="yes"
@@ -92,6 +97,42 @@ if test "f$ac_tests" != "fno"; then
 fi
 AM_CONDITIONAL(HAVE_BOOST_UNIT_TEST, [test "f$ac_tests" = "fyes"])
 
+ac_java_binding="smart"
+AC_ARG_ENABLE(java,
+	AS_HELP_STRING(--enable-java, enable java binging compilation),
+	[
+		if test "f$enableval" = "fyes"; then
+			ac_java_binding="yes"
+		else
+			ac_java_binding="no"
+		fi
+	])
+
+if test "f$ac_java_binding" = "fyes"; then
+	AC_MSG_NOTICE([java binding enabled])
+else
+	AC_MSG_NOTICE([java binding disabled])
+fi
+AM_CONDITIONAL(HAVE_JAVA, [test "f$ac_java_binding" = "fyes"])
+
+ac_nodejs_binding="smart"
+AC_ARG_ENABLE(nodejs,
+	AS_HELP_STRING(--enable-nodejs, enable nodejs binging compilation),
+	[
+		if test "f$enableval" = "fyes"; then
+			ac_nodejs_binding="yes"
+		else
+			ac_nodejs_binding="no"
+		fi
+	])
+
+if test "f$ac_nodejs_binding" = "fyes"; then
+	AC_MSG_NOTICE([nodejs binding enabled])
+else
+	AC_MSG_NOTICE([nodejs binding disabled])
+fi
+AM_CONDITIONAL(HAVE_NODEJS, [test "f$ac_nodejs_binding" = "fyes"])
+
 AC_CONFIG_FILES([Makefile include/Makefile include/uatraits/Makefile
 	library/Makefile utils/Makefile data/Makefile])
 
@@ -105,6 +146,14 @@ fi
 
 if $HAVE_BOOST_UNIT_TEST; then
 	m4_default([AC_CONFIG_FILES([tests/Makefile])])
+fi
+
+if $HAVE_JAVA; then
+	m4_default([AC_CONFIG_FILES([java/Makefile])])
+fi
+
+if $HAVE_NODEJS; then
+	m4_default([AC_CONFIG_FILES([nodejs/Makefile])])
 fi
 
 AC_OUTPUT

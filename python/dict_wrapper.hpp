@@ -47,6 +47,8 @@ public:
 	dict_wrapper(py::dict &dict);
 	dict_assigner operator [] (std::string const &name);
 	void set(std::string const &name, std::string const &value);
+	std::string get(std::string const &name) const;
+	bool has(std::string const &name) const;
 
 private:
 	static details::range<char const*> const true_token;

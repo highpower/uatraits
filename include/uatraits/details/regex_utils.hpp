@@ -21,8 +21,6 @@
 #include <string>
 #include <iterator>
 
-#include <boost/lexical_cast.hpp>
-
 #include "uatraits/config.hpp"
 #include "uatraits/details/functors.hpp"
 #include "uatraits/details/char_traits.hpp"
@@ -69,7 +67,11 @@ find_replaces(std::string const &value, Container &cont) {
 			regex_data data = { i - begin, pos - begin, scan_integer<std::size_t>(i + 1, pos) };
 			cont.push_back(data);
 
-			max = std::max(max, boost::lexical_cast<std::size_t>(value.substr(i + 1 - begin, pos - i - 1)));
+			std::string tmp(value.substr(i + 1 - begin, pos - i - 1));
+
+			std::size_t s = atoi(tmp.c_str());
+
+			max = std::max(max, s);
 		}
 		i = pos;
 	}
