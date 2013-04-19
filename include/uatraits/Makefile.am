@@ -11,6 +11,7 @@ nobase_pkginclude_HEADERS = config.hpp \
 	details/detector_helper.hpp \
 	details/detector_impl.hpp \
 	details/functors.hpp \
+	details/hash_utils.hpp \
 	details/integer.hpp \
 	details/iterator.hpp \
 	details/macros.hpp \

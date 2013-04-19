@@ -13,7 +13,7 @@ autogen-stamp:
 configure: configure-stamp
 configure-stamp:
 	dh_testdir
-	./configure --prefix=/usr/ --enable-tests --enable-python --enable-nodejs
+	./configure --prefix=/usr/ --enable-tests --enable-python --enable-java --enable-nodejs
 	touch configure-stamp
 
 build: build-stamp

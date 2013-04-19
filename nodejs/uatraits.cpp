@@ -14,7 +14,9 @@ namespace details {
 
 template<> inline std::string
 detector_impl<nodejs::dict_wrapper>::find_header(const nodejs::dict_wrapper &headers, const std::string &header) const {
-	return headers.get(header);
+	std::string header_value = headers.get(header);
+
+	return (header_value == "undefined" ? "" : header_value);
 }
 
 template<> inline nodejs::dict_wrapper

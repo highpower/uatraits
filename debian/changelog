@@ -1,8 +1,89 @@
-libuatraits (1.1.20-1) unstable; urgency=low
+libuatraits (1.1.24-0) unstable; urgency=low
+
+  * fixed nodejs binding
+
+ -- Leonid A. Movsesjan <lmovsesjan@yandex-team.ru>  Mon, 08 Apr 2013 12:47:22 +0400
+
+libuatraits (1.1.23-5) unstable; urgency=low
+
+  * historySupport fixed
+
+ -- bruno <bruno@yandex-team.ru>  Wed, 20 Mar 2013 11:33:59 +0400
+
+libuatraits (1.1.23-4) unstable; urgency=low
+
+  * historySupport flag
+  * Windows RT version fixed to 6.2
+
+ -- bruno <bruno@yandex-team.ru>  Fri, 1 Mar 2013 10:33:59 +0400
+
+libuatraits (1.1.23-3) unstable; urgency=low
+
+  * inApp browser detection in iOS
+
+ -- bruno <bruno@yandex-team.ru>  Mon, 4 Feb 2013 14:33:59 +0400
+
+libuatraits (1.1.23-2) unstable; urgency=low
+
+  * Tizen Browser and OS added
+
+ -- bruno <bruno@yandex-team.ru>  Wed, 16 Jan 2013 16:33:59 +0400
+
+libuatraits (1.1.23-1) unstable; urgency=low
 
   * fixed detect by headers in c++
 
- -- Leonid A. Movsesjan <lmovsesjan@yandex-team.ru>  Wed, 09 Jan 2013 18:29:52 +0400
+ -- Leonid A. Movsesjan <lmovsesjan@yandex-team.ru>  Wed, 09 Jan 2013 18:36:08 +0400
+
+libuatraits (1.1.22-6) unstable; urgency=low
+
+  * Windows Phone fixed autotests
+  * Detects Windows Phone 6.5 as WinMobile again
+
+ -- bruno <bruno@yandex-team.ru>  Thu, 29 Nov 2012 17:33:59 +0400
+ 
+libuatraits (1.1.22-5) unstable; urgency=low
+
+  * Windows Phone 8
+  * Windows RT tablets
+
+ -- bruno <bruno@yandex-team.ru>  Tue, 27 Nov 2012 10:33:59 +0400
+
+libuatraits (1.1.22-4) unstable; urgency=low
+
+  * Android 4.2 is still named Jelly Bean
+
+ -- bruno <bruno@yandex-team.ru>  Tue, 30 Oct 2012 10:33:59 +0400
+
+libuatraits (1.1.22-3) unstable; urgency=low
+
+  * updated java binding: throw java exception if something is going wrong 
+
+ -- Andrey Danilchenko <danilchenko@yandex-team.ru>  Mon, 29 Oct 2012 17:21:23 +0400
+
+libuatraits (1.1.22-2) unstable; urgency=low
+
+  * fix perl.pm version
+
+ -- Mike Nikitin <mellior@yandex-team.ru>  Mon, 29 Oct 2012 13:55:21 +0400
+
+libuatraits (1.1.22-1) unstable; urgency=low
+
+  * fixed nodejs has method
+
+ -- Leonid A. Movsesjan <lmovsesjan@yandex-team.ru>  Mon, 29 Oct 2012 13:11:01 +0400
+
+libuatraits (1.1.21-1) unstable; urgency=low
+
+  * node method renamed
+
+ -- Leonid A. Movsesjan <lmovsesjan@yandex-team.ru>  Fri, 26 Oct 2012 16:27:43 +0400
+
+libuatraits (1.1.20-1) unstable; urgency=low
+
+  * added forgotten java
+
+ -- Leonid A. Movsesjan <lmovsesjan@yandex-team.ru>  Thu, 25 Oct 2012 20:44:53 +0400
 
 libuatraits (1.1.19-1) unstable; urgency=low
 

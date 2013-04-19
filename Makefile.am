@@ -8,6 +8,10 @@ if HAVE_BOOST_UNIT_TEST
 SUBDIRS += tests
 endif
 
+if HAVE_JAVA
+SUBDIRS += java
+endif
+
 if HAVE_NODEJS
 SUBDIRS += nodejs
 endif

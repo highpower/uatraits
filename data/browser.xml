@@ -6,7 +6,7 @@
 <!ENTITY ver "\d[\d\.]*">
 <!ENTITY word "\w+">
 ]>
-<rules xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="browser.xsd" minver="1.1" date="2012.08.07.17.00">
+<rules xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="browser.xsd" minver="1.1" date="2013.03.20.11.00">
 	<branch name="Mobile">
 		<!-- Mobile bullshit -->
 		<match type="any">
@@ -29,6 +29,7 @@
 			<pattern type="string">Skyfire</pattern>
 			<pattern type="string">Windows CE</pattern>
 			<pattern type="string">Maemo</pattern>
+			<pattern type="string">Tizen</pattern>
 			<pattern type="string">Moblin</pattern>
 			<pattern type="string">Fennec</pattern>
 			<pattern type="string">UCWEB</pattern>
@@ -51,7 +52,8 @@
 			<pattern type="string">PlayBook</pattern>
 			<pattern type="string">PalmSource</pattern>
 			<pattern type="string">MQQBrowser</pattern>
-			<pattern type="string">iTunes-i</pattern>
+			<pattern type="string">iTunes-i</pattern>			
+			<pattern type="regex">Windows NT.*ARM;</pattern>
 			<pattern type="regex">MSIE.*PPC[;)]</pattern>
 			<pattern type="regex">HTC[_/]</pattern>
 			<pattern type="regex">^SAMSUNG</pattern>
@@ -88,7 +90,16 @@
 			<define name="BrowserEngine" value="WebKit"/>
 			<define name="BrowserEngineVersion">
 				<pattern type="regex" value="$1">WebKit/(&ver;)</pattern>
-			</define>			
+			</define>	
+			<branch name="OperaMobile">
+				<match type="any">
+					<pattern type="string">OPR/</pattern>
+				</match>
+				<define name="BrowserName">OperaMobile</define>
+				<define name="BrowserVersion">
+					<pattern type="regex" value="$1">OPR/(&ver2d;)</pattern>
+				</define>
+			</branch>
 			<branch name="NokiaBrowser">
 				<match type="any">
 					<pattern type="string">NokiaBrowser/</pattern>
@@ -113,6 +124,17 @@
 				<define name="BrowserName" value="Dolfin"/>
 				<define name="BrowserVersion">
 					<pattern type="regex" value="$1">Dolfin/(&ver;)</pattern>
+				</define>				
+			</branch>
+			
+			<branch name="Tizen">
+				<match type="any">
+					<pattern type="string">Tizen</pattern>
+				</match>
+				<define name="BrowserName" value="Tizen"/>
+				<define name="BrowserVersion">
+					<pattern type="regex" value="$1">Version/(&ver;)</pattern>
+					<pattern type="regex" value="$1">Tizen Browser/(&ver;)</pattern>
 				</define>				
 			</branch>
 			
@@ -275,7 +297,11 @@
 				</define>
 				<define name="BrowserVersion">
 					<pattern type="regex" value="$1">Version/(&ver;)</pattern>
-				</define>								
+				</define>
+				<define name="inAppBrowser">
+					<pattern type="string" value="false">Safari</pattern>
+					<pattern type="string" value="true">Mobile</pattern>
+				</define>
 			</branch>
 			<branch type="default">
 				<define name="BrowserName" value="Unknown"/>				
@@ -371,14 +397,25 @@
 				<pattern type="regex">MSIE &ver2d;; Windows CE</pattern>
 				<pattern type="regex">MSIE &ver2d;.*Windows Phone</pattern>
 				<pattern type="regex">MSIE &ver2d;.*PPC</pattern>
-				<pattern type="regex">MSIE &ver2d;.*WP7</pattern>
+				<pattern type="regex">MSIE &ver2d;.*WP[78]</pattern>
 				<pattern type="regex">MSIE &ver2d;.*NOKIA</pattern>
+				<pattern type="regex">MSIE 1[01].*ARM;</pattern>				
 			</match>
 			<define name="BrowserEngine" value="Trident"/>			
 			<define name="BrowserEngineVersion">
 				<pattern type="regex" value="$1">Trident/(&ver2d;)</pattern>
 				<pattern type="regex" value="$1">MSIE (&ver2d;)</pattern>
-			</define>			
+			</define>	
+			<branch name="MSIETablet">
+				<match type="any">					
+					<pattern type="regex">MSIE.*Windows NT.*ARM;</pattern>
+				</match>
+				<define name="BrowserName" value="MSIE"/>
+				<define name="isTablet" value="true"/>
+				<define name="BrowserVersion">					
+					<pattern type="regex" value="$1">MSIE (&ver2d;)</pattern>
+				</define>
+			</branch>
 			<branch name="MSIE">
 				<match type="any">
 					<pattern type="string">IEMobile</pattern>
@@ -587,6 +624,17 @@
 		
 		<!-- Detect Mobile OS -->
 		<branch type="common" name="MobileOS">
+			<branch name="Tizen">
+				<match>
+					<pattern type="string">Tizen</pattern>					
+				</match>
+				<define name="OSFamily" value="Tizen"/>
+				<define name="isTouch" value="true"/>
+				<define name="OSVersion">
+					<pattern type="regex" value="$1">Tizen/(&ver;)</pattern>					
+					<pattern type="regex" value="$1">Tizen (&ver;)</pattern>
+				</define>
+			</branch>
 			<branch name="Android">
 				<match>
 					<pattern type="string">Android</pattern>										
@@ -604,6 +652,7 @@
 				<define name="isTablet">
 					<pattern type="string" value="true">Android 3</pattern>
 					<pattern type="string" value="true">Linux;U;3</pattern>
+					<pattern type="regex" value="true">Android.*Tablet</pattern>
 				</define>
 				<define name="OSName">
 					<pattern type="regex" value="Android Astro">(?:Android|\(Linux;.*;)\s?1\.0</pattern>
@@ -615,7 +664,7 @@
 					<pattern type="regex" value="Android Gingerbread">(?:Android|\(Linux;.*;)\s?2\.3</pattern>
 					<pattern type="regex" value="Android Honeycomb">(?:Android|\(Linux;.*;)\s?3\.[0-2]</pattern>
 					<pattern type="regex" value="Android Ice Cream Sandwich">(?:Android|\(Linux;.*;)\s?4\.0</pattern>
-					<pattern type="regex" value="Android Jelly Bean">(?:Android|\(Linux;.*;)\s?4\.1</pattern>
+					<pattern type="regex" value="Android Jelly Bean">(?:Android|\(Linux;.*;)\s?4\.[12]</pattern>
 				</define>
 				<branch name="DeviceName">
 					<match>
@@ -743,12 +792,23 @@
 				</match>
 				<define name="OSFamily" value="MeeGo"/>
 				<define name="isTouch" value="true"/>
+			</branch>			
+			<branch name="WindowsRT">
+				<match>
+					<pattern type="regex">Windows NT.*ARM;</pattern>					
+				</match>
+				<define name="OSFamily" value="WindowsRT"/>				
+				<define name="isTouch" value="true"/>
+				<define name="isTablet" value="true"/>
+				<define name="OSVersion">
+					<pattern type="regex" value="$1">Windows NT (&ver;)</pattern>					
+				</define>				
 			</branch>
 			<branch name="WindowsPhone">
-				<match>
-					<pattern type="string">Windows Phone OS</pattern>
+				<match>					
 					<pattern type="string">ZuneWP7</pattern>
-					<pattern type="string">Lumia</pattern>					
+					<pattern type="string">Lumia</pattern>
+					<pattern type="regex">Windows Phone [^6]</pattern>					
 					<pattern type="regex">MSIE.*NOKIA</pattern>
 				</match>
 				<define name="OSFamily" value="WindowsPhone"/>
@@ -758,6 +818,7 @@
 				<define name="isTouch" value="true"/>
 				<define name="OSVersion">
 					<pattern type="regex" value="$1">Windows Phone OS (&ver2d;)</pattern>
+					<pattern type="regex" value="$1">Windows Phone (&ver2d;)</pattern>
 					<pattern type="regex" value="$1">WP(&ver;)</pattern>
 				</define>
 				<define name="isEmulator">
@@ -1182,6 +1243,9 @@
 				<define name="BrowserVersion">
 					<pattern type="regex" value="$1">Version/(&ver2d;)</pattern>
 				</define>
+				<define name="historySupport">
+					<pattern type="regex" value="true">Version/(?:5\.[1-9]|[6-9])</pattern>
+				</define>
 
 				<branch name="iCab">
 					<match type="any">
@@ -1247,7 +1311,7 @@
 				<pattern type="string" value="SlimBrowser">SlimBrowser</pattern>				
 				<pattern type="string" value="NetCaptor">NetCaptor</pattern>
 				<pattern type="string" value="MicrosoftOffice">Microsoft Office</pattern>
-			</define>			
+			</define>				
 		</branch>
 
 		<branch name="TextBased">
@@ -1409,6 +1473,7 @@
 				</define>
 				<define name="isTouch">
 					<pattern type="string" value="true">Tablet PC</pattern>					
+					<pattern type="string" value="true">Touch</pattern>
 				</define>
 			</branch>
 
@@ -1557,7 +1622,14 @@
 			</branch>
 		</branch>
 	</branch>
-	<branch type="common" name="RobotDetection">
+	<branch type="common" name="Misc">
+		<define name="historySupport">
+			<pattern type="regex" value="true">MSIE [1-9]\d</pattern>
+			<pattern type="regex" value="true">Chrome/(?:[1-9]\d|[5-9])</pattern>
+			<pattern type="regex" value="true">Firefox/(?:[1-9]\d|[4-9])</pattern>
+			<pattern type="regex" value="true">Opera .* Version/(?:[1-9][2-9]|[2-9][0-9])</pattern>
+			<pattern type="regex" value="true">iPhone OS .* Version/[5-9].* Safari/</pattern>
+		</define>
 		<define name="isRobot">
 			<pattern type="string" value="true">baiduspider</pattern>
 			<pattern type="string" value="true">bingbot</pattern>

@@ -100,10 +100,12 @@
    <field name="BrowserName">MobileSafari</field>
    <field name="isTouch">true</field>
    <field name="BrowserVersion">5.1</field>
+   <field name="inAppBrowser">false</field>
    <field name="OSFamily">iOS</field>
    <field name="DeviceVendor">Apple</field>
    <field name="OSVersion">5.0</field>
    <field name="MultiTouch">true</field>
+   <field name="historySupport">true</field>
   </answer>
  </test>
  <test>
@@ -116,10 +118,12 @@
    <field name="BrowserName">MobileSafari</field>
    <field name="isTouch">true</field>
    <field name="BrowserVersion">5.1</field>
+   <field name="inAppBrowser">false</field>
    <field name="OSFamily">iOS</field>
    <field name="DeviceVendor">Apple</field>
    <field name="OSVersion">5.0.1</field>
    <field name="MultiTouch">true</field>
+   <field name="historySupport">true</field>
   </answer>
  </test>
  <test>
@@ -132,10 +136,12 @@
    <field name="BrowserName">MobileSafari</field>
    <field name="isTouch">true</field>
    <field name="BrowserVersion">5.0.2</field>
+   <field name="inAppBrowser">false</field>
    <field name="OSFamily">iOS</field>
    <field name="DeviceVendor">Apple</field>
    <field name="OSVersion">4.2.1</field>
    <field name="MultiTouch">true</field>
+   <field name="historySupport">true</field>
   </answer>
  </test>
  <test>
@@ -148,10 +154,12 @@
    <field name="BrowserName">MobileSafari</field>
    <field name="isTouch">true</field>
    <field name="BrowserVersion">5.0.2</field>
+   <field name="inAppBrowser">false</field>
    <field name="OSFamily">iOS</field>
    <field name="DeviceVendor">Apple</field>
    <field name="OSVersion">4.3.3</field>
    <field name="MultiTouch">true</field>
+   <field name="historySupport">true</field>
   </answer>
  </test>
  <test>
@@ -164,10 +172,12 @@
    <field name="BrowserName">MobileSafari</field>
    <field name="isTouch">true</field>
    <field name="BrowserVersion">5.0.2</field>
+   <field name="inAppBrowser">false</field>
    <field name="OSFamily">iOS</field>
    <field name="DeviceVendor">Apple</field>
    <field name="OSVersion">4.3.5</field>
    <field name="MultiTouch">true</field>
+   <field name="historySupport">true</field>
   </answer>
  </test>
  <test>
@@ -264,6 +274,7 @@
    <field name="isTouch">true</field>
    <field name="isTablet">true</field>
    <field name="BrowserVersion">5.0.2</field>
+   <field name="inAppBrowser">false</field>
    <field name="OSFamily">iOS</field>
    <field name="DeviceVendor">Apple</field>
    <field name="OSVersion">4.3.3</field>
@@ -281,6 +292,7 @@
    <field name="isTouch">true</field>
    <field name="isTablet">true</field>
    <field name="BrowserVersion">5.0.2</field>
+   <field name="inAppBrowser">false</field>
    <field name="OSFamily">iOS</field>
    <field name="DeviceVendor">Apple</field>
    <field name="OSVersion">4.3.5</field>
@@ -298,6 +310,7 @@
    <field name="isTouch">true</field>
    <field name="isTablet">true</field>
    <field name="BrowserVersion">5.1</field>
+   <field name="inAppBrowser">false</field>
    <field name="OSFamily">iOS</field>
    <field name="DeviceVendor">Apple</field>
    <field name="OSVersion">5.0</field>
@@ -315,6 +328,7 @@
    <field name="isTouch">true</field>
    <field name="isTablet">true</field>
    <field name="BrowserVersion">5.1</field>
+   <field name="inAppBrowser">false</field>
    <field name="OSFamily">iOS</field>
    <field name="DeviceVendor">Apple</field>
    <field name="OSVersion">5.0.1</field>
@@ -332,6 +346,7 @@
    <field name="isTouch">true</field>
    <field name="isTablet">true</field>
    <field name="BrowserVersion">5.0.2</field>
+   <field name="inAppBrowser">false</field>
    <field name="OSFamily">iOS</field>
    <field name="DeviceVendor">Apple</field>
    <field name="OSVersion">4.2.1</field>
@@ -360,6 +375,7 @@
    <field name="BrowserName">MobileSafari</field>
    <field name="isTouch">true</field>
    <field name="BrowserVersion">3.0</field>
+   <field name="inAppBrowser">false</field>
    <field name="OSFamily">iOS</field>
    <field name="DeviceVendor">Apple</field>
    <field name="MultiTouch">true</field>
@@ -375,6 +391,7 @@
    <field name="BrowserName">MobileSafari</field>
    <field name="isTouch">true</field>
    <field name="BrowserVersion">3.0</field>
+   <field name="inAppBrowser">false</field>
    <field name="OSFamily">iOS</field>
    <field name="DeviceVendor">Apple</field>
    <field name="MultiTouch">true</field>
@@ -390,6 +407,7 @@
    <field name="BrowserName">MobileSafari</field>
    <field name="isTouch">true</field>
    <field name="BrowserVersion">3.0</field>
+   <field name="inAppBrowser">false</field>
    <field name="OSFamily">iOS</field>
    <field name="DeviceVendor">Apple</field>
    <field name="MultiTouch">true</field>
@@ -405,6 +423,7 @@
    <field name="BrowserName">MobileSafari</field>
    <field name="isTouch">true</field>
    <field name="BrowserVersion">3.0</field>
+   <field name="inAppBrowser">false</field>
    <field name="OSFamily">iOS</field>
    <field name="DeviceVendor">Apple</field>
    <field name="MultiTouch">true</field>
@@ -1245,6 +1264,7 @@
  <test>
   <question>Mozilla/5.0 (X11; U; Linux armv7l; ru-RU) AppleWebKit/534.16 (KHTML, like Gecko) Chrome/10.0.648.204 Safari/534.16</question>
   <answer>
+   <field name="historySupport">true</field>
    <field name="isMobile">false</field>
    <field name="isBrowser">true</field>
    <field name="BrowserEngine">WebKit</field>
@@ -3019,6 +3039,7 @@
    <field name="isTouch">true</field>
    <field name="isTablet">true</field>
    <field name="BrowserVersion">5.0.2</field>
+   <field name="inAppBrowser">false</field>
    <field name="BrowserShell">Diigo</field>
    <field name="OSFamily">iOS</field>
    <field name="DeviceVendor">Apple</field>
@@ -3037,6 +3058,7 @@
    <field name="isTouch">true</field>
    <field name="isTablet">true</field>
    <field name="BrowserVersion">5.0.2</field>
+   <field name="inAppBrowser">false</field>
    <field name="BrowserShell">Diigo</field>
    <field name="OSFamily">iOS</field>
    <field name="DeviceVendor">Apple</field>
@@ -3090,6 +3112,7 @@
    <field name="BrowserVersion">8.0</field>
    <field name="MultiTouch">true</field>
    <field name="OSFamily">Android</field>
+   <field name="historySupport">true</field>
   </answer>
  </test>
  <test>
@@ -3104,6 +3127,7 @@
    <field name="BrowserVersion">7.0.1</field>
    <field name="MultiTouch">true</field>
    <field name="OSFamily">Android</field>
+   <field name="historySupport">true</field>
   </answer>
  </test>
  <test>
@@ -3118,6 +3142,7 @@
    <field name="BrowserVersion">5.0</field>
    <field name="MultiTouch">true</field>
    <field name="OSFamily">Android</field>
+   <field name="historySupport">true</field>
   </answer>
  </test>
  <test>
@@ -3132,6 +3157,7 @@
    <field name="BrowserVersion">6.0.1</field>
    <field name="MultiTouch">true</field>
    <field name="OSFamily">Android</field>
+   <field name="historySupport">true</field>
   </answer>
  </test>
  <test>
@@ -3146,6 +3172,7 @@
    <field name="BrowserVersion">6.0</field>
    <field name="MultiTouch">true</field>
    <field name="OSFamily">Android</field>
+   <field name="historySupport">true</field>
   </answer>
  </test>
  <test>
@@ -4187,6 +4214,7 @@
    <field name="BrowserName">MobileSafari</field>
    <field name="isTouch">true</field>
    <field name="BrowserVersion">4.0.5</field>
+   <field name="inAppBrowser">false</field>
    <field name="OSFamily">iOS</field>
    <field name="DeviceVendor">Apple</field>
    <field name="OSVersion">4.1</field>
@@ -4761,6 +4789,7 @@
  <test>
   <question>Mozilla/5.0 (Windows NT 5.1; rv:8.0) Gecko/20100101 Firefox/8.0</question>
   <answer>
+   <field name="historySupport">true</field>
    <field name="isMobile">false</field>
    <field name="isBrowser">true</field>
    <field name="BrowserEngine">Gecko</field>
@@ -4775,6 +4804,7 @@
  <test>
   <question>Mozilla/5.0 (Windows NT 5.1; rv:7.0.1) Gecko/20100101 Firefox/7.0.1</question>
   <answer>
+   <field name="historySupport">true</field>
    <field name="isMobile">false</field>
    <field name="isBrowser">true</field>
    <field name="BrowserEngine">Gecko</field>
@@ -4789,6 +4819,7 @@
  <test>
   <question>Mozilla/5.0 (Windows NT 5.1; rv:7.0.1) Gecko/20100101 Firefox/7.0.1 YB/6.0</question>
   <answer>
+   <field name="historySupport">true</field>
    <field name="isMobile">false</field>
    <field name="isBrowser">true</field>
    <field name="BrowserEngine">Gecko</field>
@@ -4829,6 +4860,7 @@
  <test>
   <question>Mozilla/5.0 Firefox/5.0</question>
   <answer>
+   <field name="historySupport">true</field>
    <field name="isMobile">false</field>
    <field name="isBrowser">true</field>
    <field name="BrowserEngine">Gecko</field>
@@ -4994,6 +5026,7 @@
  <test>
   <question>Mozilla/5.0 (Windows NT 5.1; rv:7.0.1) Gecko/20110928 Firefox/7.0.1 SeaMonkey/2.4.1</question>
   <answer>
+   <field name="historySupport">true</field>
    <field name="isMobile">false</field>
    <field name="isBrowser">true</field>
    <field name="BrowserEngine">Gecko</field>
@@ -5324,6 +5357,7 @@
  <test>
   <question>Mozilla/5.0 (Windows NT 5.1) AppleWebKit/535.2 (KHTML, like Gecko) Chrome/15.0.874.106 Safari/535.2</question>
   <answer>
+   <field name="historySupport">true</field>
    <field name="isMobile">false</field>
    <field name="isBrowser">true</field>
    <field name="BrowserEngine">WebKit</field>
@@ -5338,6 +5372,7 @@
  <test>
   <question>Mozilla/5.0 (Windows NT 5.1) AppleWebKit/535.2 (KHTML, like Gecko) Chrome/15.0.874.121 Safari/535.2</question>
   <answer>
+   <field name="historySupport">true</field>
    <field name="isMobile">false</field>
    <field name="isBrowser">true</field>
    <field name="BrowserEngine">WebKit</field>
@@ -5352,6 +5387,7 @@
  <test>
   <question>Mozilla/5.0 (Windows NT 6.1) AppleWebKit/535.2 (KHTML, like Gecko) Chrome/15.0.874.106 Safari/535.2</question>
   <answer>
+   <field name="historySupport">true</field>
    <field name="isMobile">false</field>
    <field name="isBrowser">true</field>
    <field name="BrowserEngine">WebKit</field>
@@ -5401,6 +5437,7 @@
  <test>
   <question>Mozilla/5.0 (Windows; Mozilla 5.0; Windows NT 5.1; Trident/4.0; SV; AppleWebKit/534.16 (KHTML, like Gecko) Chrome/10.0.684.134 Safari/534.16; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; yie8)</question>
   <answer>
+   <field name="historySupport">true</field>
    <field name="isMobile">false</field>
    <field name="isBrowser">true</field>
    <field name="BrowserEngine">WebKit</field>
@@ -5415,6 +5452,7 @@
  <test>
   <question>Mozilla/5.0 (Windows; Mozilla 5.0; Windows NT 5.1; MyIE2; SV; AppleWebKit/534.16 (KHTML, like Gecko) Chrome/10.0.684.134 Safari/534.16; .NET CLR 1.1.4322; .NET CLR 2.0.50727; InfoPath.1)</question>
   <answer>
+   <field name="historySupport">true</field>
    <field name="isMobile">false</field>
    <field name="isBrowser">true</field>
    <field name="BrowserEngine">WebKit</field>
@@ -5429,6 +5467,7 @@
  <test>
   <question>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_2) AppleWebKit/535.7 (KHTML, like Gecko) Chrome/16.0.912.75 Safari/535.7 YI</question>
   <answer>
+   <field name="historySupport">true</field>
    <field name="isMobile">false</field>
    <field name="isBrowser">true</field>
    <field name="BrowserEngine">WebKit</field>
@@ -5684,6 +5723,7 @@
    <field name="BrowserEngineVersion">534.51.22</field>
    <field name="BrowserName">Safari</field>
    <field name="BrowserVersion">5.1</field>
+   <field name="historySupport">true</field>
    <field name="OSFamily">MacOS</field>
    <field name="OSVersion">10.6.8</field>
    <field name="OSName">Mac OS X Snow Leopard</field>
@@ -5698,6 +5738,7 @@
    <field name="BrowserEngineVersion">534.51.22</field>
    <field name="BrowserName">Safari</field>
    <field name="BrowserVersion">5.1</field>
+   <field name="historySupport">true</field>
    <field name="OSFamily">MacOS</field>
    <field name="OSVersion">10.7.2</field>
    <field name="OSName">Mac OS X Lion</field>
@@ -6302,6 +6343,7 @@
  <test>
   <question>Mozilla/5.0 (Windows NT 5.1; rv:8.0) Gecko/20100101 Firefox/8.0 YB/6.1.0</question>
   <answer>
+   <field name="historySupport">true</field>
    <field name="isMobile">false</field>
    <field name="isBrowser">true</field>
    <field name="BrowserEngine">Gecko</field>
@@ -6318,6 +6360,7 @@
  <test>
   <question>Mozilla/5.0 (Windows NT 5.1; rv:7.0.1) Gecko/20100101 Firefox/7.0.1 YB/5.4</question>
   <answer>
+   <field name="historySupport">true</field>
    <field name="isMobile">false</field>
    <field name="isBrowser">true</field>
    <field name="BrowserEngine">Gecko</field>
@@ -6667,6 +6710,7 @@
    <field name="BrowserEngineVersion">534.51.22</field>
    <field name="BrowserName">Safari</field>
    <field name="BrowserVersion">5.1</field>
+   <field name="historySupport">true</field>
    <field name="OSFamily">Windows</field>
    <field name="OSName">Windows NT 4.0</field>
    <field name="OSVersion">4.0.1381</field>
@@ -7178,6 +7222,7 @@
  <test>
   <question>Mozilla/5.0 (X11; OpenBSD i386; rv:5.0) Gecko/20100101 Firefox/5.0</question>
   <answer>
+   <field name="historySupport">true</field>
    <field name="isMobile">false</field>
    <field name="isBrowser">true</field>
    <field name="BrowserEngine">Gecko</field>
@@ -7372,6 +7417,7 @@
  <test>
   <question>Mozilla/5.0 (X11; FreeBSD amd64) AppleWebKit/535.2 (KHTML, like Gecko) Chrome/15.0.874.106 Safari/535.2</question>
   <answer>
+   <field name="historySupport">true</field>
    <field name="isMobile">false</field>
    <field name="isBrowser">true</field>
    <field name="BrowserEngine">WebKit</field>
@@ -7458,6 +7504,7 @@
  <test>
   <question>Mozilla/5.0 (Macintosh; Intel Mac OS X 10.6; rv:7.0.1) Gecko/20100101 Firefox/7.0.1</question>
   <answer>
+   <field name="historySupport">true</field>
    <field name="isMobile">false</field>
    <field name="isBrowser">true</field>
    <field name="BrowserEngine">Gecko</field>
@@ -7492,6 +7539,7 @@
    <field name="BrowserEngineVersion">534.48.3</field>
    <field name="BrowserName">Safari</field>
    <field name="BrowserVersion">5.1</field>
+   <field name="historySupport">true</field>
    <field name="OSFamily">MacOS</field>
    <field name="OSVersion">10</field>
    <field name="OSName">Mac OS X Lion</field>
@@ -7602,6 +7650,7 @@
  <test>
   <question>Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/534.51 (KHTML, like Gecko; Google Web Preview) Chrome/12.0.742 Safari/534.51</question>
   <answer>
+   <field name="historySupport">true</field>
    <field name="isRobot">true</field>
    <field name="isMobile">false</field>
    <field name="isBrowser">true</field>
@@ -7629,6 +7678,7 @@
  <test>
   <question>Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/534.51 (KHTML, like Gecko; Google Web Preview) Chrome/12.0.742 Safari/534.514</question>
   <answer>
+   <field name="historySupport">true</field>
    <field name="isRobot">true</field>
    <field name="isMobile">false</field>
    <field name="isBrowser">true</field>
@@ -8088,6 +8138,7 @@
  <test>
   <question>Mozilla/5.0 (X11; Linux i686) AppleWebKit/535.1 (KHTML, like Gecko) Ubuntu/11.10 Chromium/14.0.835.202 Chrome/14.0.835.202 Safari/535.1</question>
   <answer>
+   <field name="historySupport">true</field>
    <field name="isMobile">false</field>
    <field name="isBrowser">true</field>
    <field name="BrowserEngine">WebKit</field>
@@ -8102,6 +8153,7 @@
  <test>
   <question>Mozilla/5.0 (Windows NT 5.0; rv:7.0.1) Gecko/20100101 Firefox/7.0.1</question>
   <answer>
+   <field name="historySupport">true</field>
    <field name="isMobile">false</field>
    <field name="isBrowser">true</field>
    <field name="BrowserEngine">Gecko</field>
@@ -8191,6 +8243,7 @@
  <test>
   <question>Mozilla/5.0 (X11; Linux i686) AppleWebKit/535.2 (KHTML, like Gecko) Ubuntu/10.04 Chromium/15.0.874.106 Chrome/15.0.874.106 Safari/535.2</question>
   <answer>
+   <field name="historySupport">true</field>
    <field name="isMobile">false</field>
    <field name="isBrowser">true</field>
    <field name="BrowserEngine">WebKit</field>
@@ -8219,6 +8272,7 @@
  <test>
   <question>Mozilla/5.0 (X11; Linux i686) AppleWebKit/535.1 (KHTML, like Gecko) Ubuntu/11.04 Chromium/14.0.835.202 Chrome/14.0.835.202 Safari/535.1</question>
   <answer>
+   <field name="historySupport">true</field>
    <field name="isMobile">false</field>
    <field name="isBrowser">true</field>
    <field name="BrowserEngine">WebKit</field>
@@ -8260,6 +8314,7 @@
  <test>
   <question>Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.1 (KHTML, like Gecko) Ubuntu/11.10 Chromium/14.0.835.202 Chrome/14.0.835.202 Safari/535.1</question>
   <answer>
+   <field name="historySupport">true</field>
    <field name="isMobile">false</field>
    <field name="isBrowser">true</field>
    <field name="BrowserEngine">WebKit</field>
@@ -8303,6 +8358,7 @@
  <test>
   <question>Mozilla/5.0 (Windows NT 6.1; rv:7.0.1) Gecko/20110928 Firefox/7.0.1 SeaMonkey/2.4.1</question>
   <answer>
+   <field name="historySupport">true</field>
    <field name="isMobile">false</field>
    <field name="isBrowser">true</field>
    <field name="BrowserEngine">Gecko</field>
@@ -8347,6 +8403,7 @@
  <test>
   <question>Mozilla/5.0 (X11; Linux i686) AppleWebKit/535.1 (KHTML, like Gecko) Ubuntu/10.10 Chromium/14.0.835.202 Chrome/14.0.835.202 Safari/535.1</question>
   <answer>
+   <field name="historySupport">true</field>
    <field name="isMobile">false</field>
    <field name="isBrowser">true</field>
    <field name="BrowserEngine">WebKit</field>
@@ -8403,6 +8460,7 @@
  <test>
   <question>Mozilla/5.0 (Windows NT 6.2) AppleWebKit/535.2 (KHTML, like Gecko) Chrome/15.0.874.106 Safari/535.2</question>
   <answer>
+   <field name="historySupport">true</field>
    <field name="isMobile">false</field>
    <field name="isBrowser">true</field>
    <field name="BrowserEngine">WebKit</field>
@@ -8957,6 +9015,7 @@
  <test>
   <question>Mozilla/5.0 (X11; FreeBSD amd64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1</question>
   <answer>
+   <field name="historySupport">true</field>
    <field name="isMobile">false</field>
    <field name="isBrowser">true</field>
    <field name="BrowserEngine">Gecko</field>
@@ -9511,6 +9570,7 @@
  <test>
   <question>mozilla/5.0 (compatible; firefox/4.0.1; Windows NT 5.1; Trident/4.0; Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1) ; .NET CLR 2.0.50727; .NET4.0C; .NET4.0E)</question>
   <answer>
+   <field name="historySupport">true</field>
    <field name="isMobile">false</field>
    <field name="isBrowser">true</field>
    <field name="BrowserEngine">Gecko</field>
@@ -9632,6 +9692,7 @@
  <test>
   <question>mozilla/5.0 (compatible; firefox/4.0.1; Windows NT 6.1; Trident/5.0)</question>
   <answer>
+   <field name="historySupport">true</field>
    <field name="isMobile">false</field>
    <field name="isBrowser">true</field>
    <field name="BrowserEngine">Gecko</field>
@@ -10183,6 +10244,7 @@
    <field name="BrowserName">MobileSafari</field>
    <field name="isTouch">true</field>
    <field name="BrowserVersion">3.0</field>
+   <field name="inAppBrowser">false</field>
    <field name="OSFamily">iOS</field>
    <field name="DeviceVendor">Apple</field>
    <field name="MultiTouch">true</field>
@@ -10522,6 +10584,7 @@
  <test>
   <question>Mozilla/5.0 (Windows NT 5.1; rv:7.0.1) Gecko/20111002 Firefox/7.0.1 PaleMoon/7.0.1 YB/6.1.1</question>
   <answer>
+   <field name="historySupport">true</field>
    <field name="isMobile">false</field>
    <field name="isBrowser">true</field>
    <field name="BrowserEngine">Gecko</field>
@@ -10538,6 +10601,7 @@
  <test>
   <question>Mozilla/5.0 (Windows NT 5.1; rv:8.0) Gecko/20111108 Firefox/8.0 PaleMoon/8.0 YB/6.1.0-en</question>
   <answer>
+   <field name="historySupport">true</field>
    <field name="isMobile">false</field>
    <field name="isBrowser">true</field>
    <field name="BrowserEngine">Gecko</field>
@@ -10554,6 +10618,7 @@
  <test>
   <question>Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:6.0.2) Gecko/20110909 Firefox/6.0.2-x64 PaleMoon/6.0.2-x64 YB/5.4</question>
   <answer>
+   <field name="historySupport">true</field>
    <field name="isMobile">false</field>
    <field name="isBrowser">true</field>
    <field name="BrowserEngine">Gecko</field>
@@ -10671,11 +10736,13 @@
    <field name="BrowserName">MobileSafari</field>
    <field name="isTouch">true</field>
    <field name="BrowserVersion">5.1</field>
+   <field name="inAppBrowser">false</field>
    <field name="OSFamily">iOS</field>
    <field name="DeviceVendor">Apple</field>
    <field name="OSVersion">5.0</field>
    <field name="isEmulator">true</field>
    <field name="MultiTouch">true</field>
+   <field name="historySupport">true</field>
   </answer>
  </test>
  <test>
@@ -11812,6 +11879,7 @@
  <test>
   <question>Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.7 (KHTML, like Gecko) Flock/3.5.3.4641 Chrome/7.0.517.450 Safari/534.7</question>
   <answer>
+   <field name="historySupport">true</field>
    <field name="isMobile">false</field>
    <field name="isBrowser">true</field>
    <field name="BrowserEngine">WebKit</field>
@@ -11883,6 +11951,7 @@
  <test>
   <question>Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/534.7 (KHTML, like Gecko) Flock/3.5.3.4641 Chrome/7.0.517.450 Safari/534.7</question>
   <answer>
+   <field name="historySupport">true</field>
    <field name="isMobile">false</field>
    <field name="isBrowser">true</field>
    <field name="BrowserEngine">WebKit</field>
@@ -12416,6 +12485,7 @@
  <test>
   <question>Mozilla/5.0 (compatible; AppleWebKit/533.9 (KHTML, like Gecko) Chrome/6.0.401.1 Safari/533.9; Windows; U; Windows NT 5.1; ru-RU; rv:1.9.0.7; Trident/4.0; MRSPUTNIK 2, 4, 0, 226; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0)</question>
   <answer>
+   <field name="historySupport">true</field>
    <field name="isMobile">false</field>
    <field name="isBrowser">true</field>
    <field name="BrowserEngine">Gecko</field>
@@ -12642,6 +12712,7 @@
  <test>
   <question>Mozilla/5.0 (OS/2; Warp 4.5; rv:2.0) Gecko/20100101 Firefox/4.0</question>
   <answer>
+   <field name="historySupport">true</field>
    <field name="isMobile">false</field>
    <field name="isBrowser">true</field>
    <field name="BrowserEngine">Gecko</field>
@@ -12820,6 +12891,7 @@
  <test>
   <question>Mozilla/5.0 (OS/2; Warp 4.5; rv:6.0.2) Gecko/20100101 Firefox/6.0.2</question>
   <answer>
+   <field name="historySupport">true</field>
    <field name="isMobile">false</field>
    <field name="isBrowser">true</field>
    <field name="BrowserEngine">Gecko</field>
@@ -12846,6 +12918,7 @@
  <test>
   <question>Mozilla/5.0 (compatible; AppleWebKit/534.1 (KHTML, like Gecko) Chrome/6.0.422.0 Safari/534.1; Windows; U; Windows NT 6.0; ru-RU; rv:1.9.0.10; Trident/5.0)</question>
   <answer>
+   <field name="historySupport">true</field>
    <field name="isMobile">false</field>
    <field name="isBrowser">true</field>
    <field name="BrowserEngine">Gecko</field>
@@ -13086,6 +13159,7 @@
    <field name="BrowserEngine">WebKit</field>
    <field name="BrowserName">MobileSafari</field>
    <field name="isTouch">true</field>
+   <field name="inAppBrowser">true</field>
    <field name="OSFamily">iOS</field>
    <field name="DeviceVendor">Apple</field>
    <field name="OSVersion">5.0.1</field>
@@ -13164,6 +13238,7 @@
    <field name="BrowserEngine">WebKit</field>
    <field name="BrowserName">MobileSafari</field>
    <field name="isTouch">true</field>
+   <field name="inAppBrowser">true</field>
    <field name="OSFamily">iOS</field>
    <field name="DeviceVendor">Apple</field>
    <field name="OSVersion">5.0</field>
@@ -13246,6 +13321,7 @@
    <field name="BrowserEngine">WebKit</field>
    <field name="BrowserName">MobileSafari</field>
    <field name="isTouch">true</field>
+   <field name="inAppBrowser">true</field>
    <field name="OSFamily">iOS</field>
    <field name="DeviceVendor">Apple</field>
    <field name="OSVersion">5.0</field>
@@ -13260,6 +13336,7 @@
    <field name="BrowserEngine">WebKit</field>
    <field name="BrowserName">MobileSafari</field>
    <field name="isTouch">true</field>
+   <field name="inAppBrowser">true</field>
    <field name="OSFamily">iOS</field>
    <field name="DeviceVendor">Apple</field>
    <field name="OSVersion">5.0.1</field>
@@ -13341,6 +13418,7 @@
    <field name="BrowserEngineVersion">534.46</field>
    <field name="BrowserName">MobileSafari</field>
    <field name="isTouch">true</field>
+   <field name="inAppBrowser">true</field>
    <field name="OSFamily">iOS</field>
    <field name="DeviceVendor">Apple</field>
    <field name="OSVersion">5.0</field>
@@ -13371,6 +13449,7 @@
    <field name="BrowserName">MobileSafari</field>
    <field name="isTouch">true</field>
    <field name="isTablet">true</field>
+   <field name="inAppBrowser">true</field>
    <field name="OSFamily">iOS</field>
    <field name="DeviceVendor">Apple</field>
    <field name="OSVersion">5.0.1</field>
@@ -13380,6 +13459,7 @@
  <test>
   <question>Mozilla/5.0 (X11; CrOS i686 15.1011.118) AppleWebKit/535.2 (KHTML, like Gecko) Chrome/15.0.874.117 Safari/535.2</question>
   <answer>
+   <field name="historySupport">true</field>
    <field name="isMobile">false</field>
    <field name="isBrowser">true</field>
    <field name="BrowserEngine">WebKit</field>
@@ -13392,6 +13472,7 @@
  <test>
   <question>Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US) AppleWebKit/533.4 (KHTML, like Gecko) Flock/3.0.0.4119 Chrome/5.0.375.752 Safari/533.4</question>
   <answer>
+   <field name="historySupport">true</field>
    <field name="isMobile">false</field>
    <field name="isBrowser">true</field>
    <field name="BrowserEngine">WebKit</field>
@@ -13444,6 +13525,7 @@
  <test>
   <question>mozilla/5.0 (x11; u; cros i686 0.9.128; ru) applewebkit/534.10 (khtml, like gecko) chrome/8.0.552.343 safari/534.10</question>
   <answer>
+   <field name="historySupport">true</field>
    <field name="isMobile">false</field>
    <field name="isBrowser">true</field>
    <field name="BrowserEngine">WebKit</field>
@@ -13471,6 +13553,7 @@
  <test>
   <question>Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/534.7 (KHTML, like Gecko) Flock/3.5.2.4599 Chrome/7.0.517.442 Safari/534.7</question>
   <answer>
+   <field name="historySupport">true</field>
    <field name="isMobile">false</field>
    <field name="isBrowser">true</field>
    <field name="BrowserEngine">WebKit</field>
@@ -13592,6 +13675,7 @@
  <test>
   <question>Mozilla/5.0 (Windows; U; Windows NT 5.2; en-US) AppleWebKit/534.7 (KHTML, like Gecko) Flock/3.5.3.4641 Chrome/7.0.517.450 Safari/534.7</question>
   <answer>
+   <field name="historySupport">true</field>
    <field name="isMobile">false</field>
    <field name="isBrowser">true</field>
    <field name="BrowserEngine">WebKit</field>
@@ -13606,6 +13690,7 @@
  <test>
   <question>Mozilla/5.0 (X11; U; CrOS i686 0.0.0; en-US) AppleWebKit/533.1 (KHTML, like Gecko) Chrome/5.0.321.0 Safari/533.1</question>
   <answer>
+   <field name="historySupport">true</field>
    <field name="isMobile">false</field>
    <field name="isBrowser">true</field>
    <field name="BrowserEngine">WebKit</field>
@@ -13618,6 +13703,7 @@
  <test>
   <question>Mozilla/5.0 (X11; CrOS i686 15.1011.137) AppleWebKit/535.2 (KHTML, like Gecko) Chrome/15.0.874.121 Safari/535.2</question>
   <answer>
+   <field name="historySupport">true</field>
    <field name="isMobile">false</field>
    <field name="isBrowser">true</field>
    <field name="BrowserEngine">WebKit</field>
@@ -13641,6 +13727,7 @@
  <test>
   <question>Mozilla/5.0 (X11; CrOS i686 12.433.216) AppleWebKit/534.30 (KHTML, like Gecko) Chrome/12.0.742.105 Safari/534.30</question>
   <answer>
+   <field name="historySupport">true</field>
    <field name="isMobile">false</field>
    <field name="isBrowser">true</field>
    <field name="BrowserEngine">WebKit</field>
@@ -13714,6 +13801,7 @@
    <field name="BrowserEngineVersion">533.17.9</field>
    <field name="BrowserName">MobileSafari</field>
    <field name="isTouch">true</field>
+   <field name="inAppBrowser">true</field>
    <field name="OSFamily">iOS</field>
    <field name="DeviceVendor">Apple</field>
    <field name="OSVersion">4.3</field>
@@ -13955,6 +14043,7 @@
    <field name="BrowserEngineVersion">528.18</field>
    <field name="BrowserName">MobileSafari</field>
    <field name="isTouch">true</field>
+   <field name="inAppBrowser">true</field>
    <field name="OSFamily">iOS</field>
    <field name="DeviceVendor">Apple</field>
    <field name="OSVersion">3.1.3</field>
@@ -14489,6 +14578,7 @@
  <test>
   <question>Mozilla/5. NT 6.1) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/17.0.963.79 Safari/535.11 YI</question>
   <answer>
+   <field name="historySupport">true</field>
    <field name="isMobile">false</field>
    <field name="isBrowser">true</field>
    <field name="BrowserEngine">WebKit</field>
@@ -14501,6 +14591,7 @@
  <test>
   <question>Mozilla/5.0 (?W61; Win64; x64; rv:5.0) Gecko/20100101 Firefox/7.005527</question>
   <answer>
+   <field name="historySupport">true</field>
    <field name="isMobile">false</field>
    <field name="isBrowser">true</field>
    <field name="BrowserEngine">Gecko</field>
@@ -14539,6 +14630,7 @@
    <field name="OSVersion">4.0.3</field>
    <field name="OSName">Android Ice Cream Sandwich</field>
    <field name="MultiTouch">true</field>
+   <field name="historySupport">true</field>
   </answer>
  </test>
  <test>
@@ -14555,6 +14647,7 @@
    <field name="OSVersion">4.0.3</field>
    <field name="OSName">Android Ice Cream Sandwich</field>
    <field name="MultiTouch">true</field>
+   <field name="historySupport">true</field>
   </answer>
  </test>
  <test>
@@ -14571,6 +14664,7 @@
    <field name="OSVersion">4.0.4</field>
    <field name="OSName">Android Ice Cream Sandwich</field>
    <field name="MultiTouch">true</field>
+   <field name="historySupport">true</field>
   </answer>
  </test>
  <test>
@@ -14587,6 +14681,7 @@
    <field name="OSVersion">4.0.4</field>
    <field name="OSName">Android Ice Cream Sandwich</field>
    <field name="MultiTouch">true</field>
+   <field name="historySupport">true</field>
   </answer>
  </test>
  <test>
@@ -14648,6 +14743,7 @@
    <field name="OSVersion">2.2</field>
    <field name="OSName">Android Froyo</field>
    <field name="MultiTouch">true</field>
+   <field name="historySupport">true</field>
   </answer>
  </test>
  <test>
@@ -14745,6 +14841,7 @@
  <test>
   <question>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_0) AppleWebKit/535.7 (KHTML, like Gecko) Chrome/16.0.912.75 Safari/535.7 YI</question>
   <answer>
+   <field name="historySupport">true</field>
    <field name="isMobile">false</field>
    <field name="isBrowser">true</field>
    <field name="BrowserEngine">WebKit</field>
@@ -14871,6 +14968,7 @@
  <test>
   <question>Mozilla/5.0 (Windows NT 4.0) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/17.0.963.46 Safari/535.11 YI</question>
   <answer>
+   <field name="historySupport">true</field>
    <field name="isMobile">false</field>
    <field name="isBrowser">true</field>
    <field name="BrowserEngine">WebKit</field>
@@ -14893,6 +14991,7 @@
    <field name="BrowserVersion">4.0.2</field>
    <field name="MultiTouch">true</field>
    <field name="OSFamily">WindowsMobile</field>
+   <field name="historySupport">true</field>
   </answer>
  </test>
  <test>
@@ -14937,6 +15036,7 @@
  <test>
   <question>Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/534.51 (KHTML, like Gecko; Google Web Preview) Chrome/12.0.742 Safari/534.51,gzip(gfe) (via docs.google.com/viewer)</question>
   <answer>
+   <field name="historySupport">true</field>
    <field name="isRobot">true</field>
    <field name="isMobile">false</field>
    <field name="isBrowser">true</field>
@@ -15072,6 +15172,7 @@
    <field name="BrowserName">MobileSafari</field>
    <field name="isTouch">true</field>
    <field name="isTablet">true</field>
+   <field name="inAppBrowser">false</field>
    <field name="OSFamily">iOS</field>
    <field name="DeviceVendor">Apple</field>
    <field name="OSVersion">5.0</field>
@@ -15088,6 +15189,7 @@
    <field name="BrowserName">MobileSafari</field>
    <field name="isTouch">true</field>
    <field name="isTablet">true</field>
+   <field name="inAppBrowser">false</field>
    <field name="OSFamily">iOS</field>
    <field name="DeviceVendor">Apple</field>
    <field name="OSVersion">5.0.1</field>
@@ -15104,6 +15206,7 @@
    <field name="BrowserName">MobileSafari</field>
    <field name="isTouch">true</field>
    <field name="isTablet">true</field>
+   <field name="inAppBrowser">false</field>
    <field name="OSFamily">iOS</field>
    <field name="DeviceVendor">Apple</field>
    <field name="OSVersion">5.0.1</field>
@@ -16467,6 +16570,7 @@
    <field name="OSVersion">1.0.0</field>
    <field name="OSName">Android Astro</field>
    <field name="MultiTouch">true</field>
+   <field name="historySupport">true</field>
   </answer>
  </test>
  <test>
@@ -16610,6 +16714,7 @@
  <test>
   <question>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/536.5 (KHTML, like Gecko) YaBrowser/1.0.0.0 Chrome/19.0.1084.536 Safari/536.5</question>
   <answer>
+   <field name="historySupport">true</field>
    <field name="isMobile">false</field>
    <field name="isBrowser">true</field>
    <field name="BrowserEngine">WebKit</field>
@@ -16618,6 +16723,156 @@
    <field name="BrowserVersion">1.0.0.0</field>
    <field name="OSFamily">MacOS</field>
    <field name="OSVersion">10.7.4</field>
+   <field name="OSName">Mac OS X Lion</field>
+  </answer>
+ </test>
+ <test>
+  <question>Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; Trident/6.0)</question>
+  <answer>
+   <field name="historySupport">true</field>
+   <field name="isMobile">false</field>
+   <field name="isBrowser">true</field>
+   <field name="BrowserEngine">Trident</field>
+   <field name="BrowserEngineVersion">6.0</field>
+   <field name="BrowserName">MSIE</field>
+   <field name="BrowserVersion">10.0</field>
+   <field name="OSFamily">Windows</field>
+   <field name="OSName">Windows 8</field>
+   <field name="OSVersion">6.2</field>
+  </answer>
+ </test>
+ <test>
+  <question>Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0)</question>
+  <answer>
+   <field name="historySupport">true</field>
+   <field name="isMobile">false</field>
+   <field name="isBrowser">true</field>
+   <field name="BrowserEngine">Trident</field>
+   <field name="BrowserEngineVersion">6.0</field>
+   <field name="BrowserName">MSIE</field>
+   <field name="BrowserVersion">10.0</field>
+   <field name="OSFamily">Windows</field>
+   <field name="OSName">Windows 8</field>
+   <field name="OSVersion">6.2</field>
+   <field name="x64">true</field>
+  </answer>
+ </test>
+ <test>
+  <question>Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; Win64; x64; Trident/6.0)</question>
+  <answer>
+   <field name="historySupport">true</field>
+   <field name="isMobile">false</field>
+   <field name="isBrowser">true</field>
+   <field name="BrowserEngine">Trident</field>
+   <field name="BrowserEngineVersion">6.0</field>
+   <field name="BrowserName">MSIE</field>
+   <field name="BrowserVersion">10.0</field>
+   <field name="OSFamily">Windows</field>
+   <field name="OSName">Windows 8</field>
+   <field name="OSVersion">6.2</field>
+   <field name="x64">true</field>
+  </answer>
+ </test>
+ <test>
+  <question>Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; ARM; Trident/6.0)</question>
+  <answer>
+   <field name="isMobile">true</field>
+   <field name="isBrowser">true</field>
+   <field name="BrowserEngine">Trident</field>
+   <field name="BrowserEngineVersion">6.0</field>
+   <field name="BrowserName">MSIE</field>
+   <field name="isTablet">true</field>
+   <field name="BrowserVersion">10.0</field>
+   <field name="OSFamily">WindowsRT</field>
+   <field name="isTouch">true</field>
+   <field name="OSVersion">6.2</field>
+   <field name="historySupport">true</field>
+  </answer>
+ </test>
+ <test>
+  <question>Mozilla/5.0 (Linux; U; Tizen 2.1; en-us; Samsung GT-I8800) AppleWebKit/537.1 (KHTML, like Gecko) Version/2.1.0 Mobile</question>
+  <answer>
+   <field name="isMobile">true</field>
+   <field name="isBrowser">true</field>
+   <field name="BrowserEngine">WebKit</field>
+   <field name="BrowserEngineVersion">537.1</field>
+   <field name="BrowserName">Tizen</field>
+   <field name="BrowserVersion">2.1.0</field>
+   <field name="OSFamily">Tizen</field>
+   <field name="isTouch">true</field>
+   <field name="OSVersion">2.1</field>
+  </answer>
+ </test>
+ <test>
+  <question>Mozilla/5.0 (SAMSUNG; SAMSUNG-GT-i9500/1.0; U; Tizen/1.0 like Android; en-us) AppleWebKit/534.46 (KHTML, like Gecko) SLP Browser/1.0 Mobile</question>
+  <answer>
+   <field name="isMobile">true</field>
+   <field name="isBrowser">true</field>
+   <field name="BrowserEngine">WebKit</field>
+   <field name="BrowserEngineVersion">534.46</field>
+   <field name="BrowserName">Tizen</field>
+   <field name="OSFamily">Tizen</field>
+   <field name="isTouch">true</field>
+   <field name="OSVersion">1.0</field>
+  </answer>
+ </test>
+ <test>
+  <question>Mozilla/5.0 (Linux; U; Tizen/1.0 like Android; en-us; AppleWebKit/534.46 (KHTML, like Gecko) Tizen Browser/1.0 Mobile</question>
+  <answer>
+   <field name="isMobile">true</field>
+   <field name="isBrowser">true</field>
+   <field name="BrowserEngine">WebKit</field>
+   <field name="BrowserEngineVersion">534.46</field>
+   <field name="BrowserName">Tizen</field>
+   <field name="BrowserVersion">1.0</field>
+   <field name="OSFamily">Tizen</field>
+   <field name="isTouch">true</field>
+   <field name="OSVersion">1.0</field>
+  </answer>
+ </test>
+ <test>
+  <question>Mozilla/5.0 (iPhone; U; CPU iPhone OS 5_1_1 like Mac OS X; en) AppleWebKit/534.46.0 (KHTML, like Gecko) CriOS/19.0.1084.60 Mobile/9B206 Safari/7534.48.3</question>
+  <answer>
+   <field name="isMobile">true</field>
+   <field name="isBrowser">true</field>
+   <field name="BrowserEngine">WebKit</field>
+   <field name="BrowserEngineVersion">534.46.0</field>
+   <field name="BrowserName">ChromeMobile</field>
+   <field name="BrowserVersion">19.0.1084</field>
+   <field name="OSFamily">iOS</field>
+   <field name="DeviceVendor">Apple</field>
+   <field name="isTouch">true</field>
+   <field name="OSVersion">5.1.1</field>
+   <field name="MultiTouch">true</field>
+  </answer>
+ </test>
+ <test>
+  <question>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1104.221 YaBrowser/1.5.1104.221 Safari/537.4</question>
+  <answer>
+   <field name="historySupport">true</field>
+   <field name="isMobile">false</field>
+   <field name="isBrowser">true</field>
+   <field name="BrowserEngine">WebKit</field>
+   <field name="BrowserEngineVersion">537.4</field>
+   <field name="BrowserName">YandexBrowser</field>
+   <field name="BrowserVersion">1.5.1104.221</field>
+   <field name="OSFamily">MacOS</field>
+   <field name="OSVersion">10.7.5</field>
+   <field name="OSName">Mac OS X Lion</field>
+  </answer>
+ </test>
+ <test>
+  <question>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/536.26.17 (KHTML, like Gecko) Version/6.0.2 Safari/536.26.17</question>
+  <answer>
+   <field name="isMobile">false</field>
+   <field name="isBrowser">true</field>
+   <field name="BrowserEngine">WebKit</field>
+   <field name="BrowserEngineVersion">536.26.17</field>
+   <field name="BrowserName">Safari</field>
+   <field name="BrowserVersion">6.0</field>
+   <field name="historySupport">true</field>
+   <field name="OSFamily">MacOS</field>
+   <field name="OSVersion">10.7.5</field>
    <field name="OSName">Mac OS X Lion</field>
   </answer>
  </test>
