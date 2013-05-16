@@ -38,9 +38,11 @@ public:
 
 	typedef std::map<std::string, std::string> result_type;
 	result_type detect(char const *agent) const;
+	result_type detect(char const *agent, size_t len) const;
 	result_type detect(std::string const &agent) const;
 
 	void detect(char const *agent, result_type &result) const;
+	void detect(char const *agent, size_t len, result_type &result) const;
 	void detect(std::string const &agent, result_type &result) const;
 
 	void detect(const result_type &headers, result_type &result) const;
