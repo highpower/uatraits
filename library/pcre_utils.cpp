@@ -4,7 +4,7 @@
 #include "uatraits/error.hpp"
 #include "uatraits/details/resource.hpp"
 
-#if (PCRE_MAJOR == 8) && (PCRE_MINOR >= 13)
+#if (PCRE_MAJOR == 8) && (PCRE_MINOR >= 20)
 #define UATRAITS_PCRE_FREE_STUDY pcre_free_study
 #define UATRAITS_PCRE_STUDY_JIT_COMPILE PCRE_STUDY_JIT_COMPILE
 #else
